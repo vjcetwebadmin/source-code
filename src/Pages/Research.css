@@ -1,0 +1,60 @@
+.inner-para{
+    width: 80%;
+    margin-left: 5%;
+}
+
+.NispActivitiesList {
+    padding-left: 0 !important;
+}
+
+.NispObjectiveHeading{
+    padding-top: 30px;
+}
+
+.NispStartUp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.NispStartUp h4{
+    margin: 5px;
+}
+
+.NispButton{
+    background-color: #800000;
+    color: #fff;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.NispActivities, .NispStartUp{
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.NispActivities{
+    margin-bottom: 20px;
+    padding: 20px 40px;
+}
+
+.NispActivitiesImg img{
+    width: 80%;
+    border-radius: 10px;
+
+}
+
+@media(max-width: 720px){
+    .NispMobileRow{
+        display: flex;
+        flex-direction: column;
+    }
+    .NispMobileRow th{
+        margin: 0.5px;
+    }
+}
+

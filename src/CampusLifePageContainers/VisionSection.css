@@ -1,0 +1,102 @@
+.VisionSection {
+   background-color: #fff;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-areas: "b";
+
+  padding-top: 2%;
+}
+
+.VisionSectionA {
+  grid-area: a;
+  padding: 3% 3%;
+}
+
+.VisionSectionB {
+  grid-area: b;  
+  padding: 3% 3%;
+}
+
+.VisionSectionC {
+  grid-area: c;
+  padding: 3% 3%;
+}
+
+@media (min-width: 768px) {
+  .VisionSection {
+    padding: 50px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .VisionSectionA {
+    display: inline-block;
+  }
+
+  .VisionSection {
+    /*padding: 3% 0% 3% 0%;*/
+
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+      "a a" 
+      "b c";
+  }
+ .VisionSectionA {
+    text-align: justify;
+    padding: 5% 5% 5% 5%;
+  }
+  .VisionSectionB {
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .VisionSectionC {
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .VisionSectionD {
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .VisionSectionB p {
+    text-align: start;
+  }
+
+  .VisionSectionB h3 {
+    text-align: start;
+  }
+
+  .VisionSectionB h1 {
+    text-align: start;
+    color: #b8b8b8;
+  }
+
+  .VisionSectionC p {
+    text-align: start;
+  }
+
+  .VisionSectionC h3 {
+    text-align: start;
+  }
+
+  .VisionSectionC h1 {
+    text-align: start;
+    color: #b8b8b8;
+  }
+  .VisionSectionD p {
+    text-align: start;
+  }
+
+  .VisionSectionD h3 {
+    text-align: start;
+  }
+
+  .VisionSectionD h1 {
+    text-align: start;
+    color: #b8b8b8;
+  }
+}

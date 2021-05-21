@@ -1,0 +1,148 @@
+.CarouselFour {
+  position: relative;
+  padding: 2% 0%;
+}
+
+.CarouselFourSlider {
+  background: #fafafa;
+  margin: 0% 6%;
+  padding: 10%;
+  padding-bottom: 0%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.CarouselFourTop {
+  padding: 5% 0%;
+  display: grid;
+  grid-auto-flow: row;
+  grid-gap: 0px;
+  overflow: none;
+  grid-template-columns: 60% 40%;
+  grid-template-areas: "events arrows";
+  text-align: center;
+}
+
+#CarouselFourEvents {
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+  padding-left: 10%;
+  grid-area: events;
+}
+
+.CarouselFourArrows {
+  grid-area: arrows;
+  justify-self: right;
+  align-self: center;
+  padding-right: 25%;
+  display: grid;
+  grid-auto-flow: row;
+  grid-gap: 0px;
+  overflow: none;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "previousArrow nextArrow";
+}
+
+#CarouselFourPreviousArrow {
+  grid-area: previousArrow;
+}
+
+#CarouselFourNextArrow {
+  grid-area: nextArrow;
+}
+
+.CarouselFourArrowRight {
+  margin-left: 30%;
+}
+
+.CarouselFourPaginationContainer {
+  padding: 8% 0% 12% 0%;
+}
+.CarouselFourPagination {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.CarouselFourSlide {
+  padding: 0px 0px;
+  align-self: center;
+  justify-self: center;
+}
+
+@media (min-width: 400px) {
+  .CarouselFourTop {
+    grid-template-columns: 70% 30%;
+  }
+
+  .CarouselFourPaginationContainer {
+    padding: 8% 0% 12% 0%;
+  }
+}
+
+@media (min-width: 560px) {
+  .CarouselFourTop {
+    padding: 4% 0%;
+  }
+
+  .CarouselFourPaginationContainer {
+    padding: 6% 0% 10% 0%;
+  }
+}
+
+@media (min-width: 768px) {
+  .CarouselFourPaginationContainer {
+    padding: 4% 0% 6% 0%;
+  }
+
+  .CarouselFourTop {
+    padding: 2%;
+    padding-top: 0%;
+  }
+
+  .CarouselFourSlider {
+    padding: 5%;
+    padding-bottom: 0%;
+  }
+
+  .CarouselFourSlide {
+    padding: 0% 1%;
+  }
+
+  .CarouselFourArrowRight {
+    margin-left: 35%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .CarouselFourTop {
+    padding: 1%;
+    padding-top: 0%;
+  }
+
+  .CarouselFourArrowRight {
+    margin-left: 40%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .CarouselFourContentWrapper {
+    width: 1024px;
+    margin: auto;
+  }
+
+  .CarouselFourPaginationContainer {
+    padding: 3% 0%;
+  }
+  .CarouselFourArrowRight {
+    margin-left: 45%;
+  }
+}
+
+
+/* Custom Style React multi carousel*/
+
+@font-face{font-family:"revicons";fallback:fallback;src:url("./revicons.woff") format('woff'),url("/revicons.ttf") format('ttf'),url("./revicons.eot") format('ttf')}.react-multi-carousel-list{display:flex;align-items:center;overflow:hidden;position:relative}.react-multi-carousel-track{list-style:none;padding:0;margin:0;display:flex;flex-direction:row;position:relative;transform-style:preserve-3d;backface-visibility:hidden;will-change:transform,transition}.react-multiple-carousel__arrow{position:absolute;outline:0;transition:all .5s;border-radius:35px;z-index:1000;border:0;background:#93001ebf;min-width:43px;min-height:43px;opacity:1;cursor:pointer}.react-multiple-carousel__arrow:hover{background:#800000}.react-multiple-carousel__arrow::before{font-size:20px;color:#fff;display:block;font-family:revicons;text-align:center;z-index:2;position:relative}.react-multiple-carousel__arrow--left{left:calc(4% + 1px)}.react-multiple-carousel__arrow--left::before{content:"\e824"}.react-multiple-carousel__arrow--right{right:calc(4% + 1px)}.react-multiple-carousel__arrow--right::before{content:"\e825"}.react-multi-carousel-dot-list{position:absolute;bottom:0;display:flex;left:0;right:0;justify-content:center;margin:auto;padding:0;margin:0;list-style:none;text-align:center}.react-multi-carousel-dot button{display:inline-block;width:12px;height:12px;border: none;border-radius:50%;opacity:1;padding:5px 5px 5px 5px;box-shadow:none;transition:background .5s;background-color: #ccc;padding:0;margin:0;margin-right:6px;outline:0;cursor:pointer}.react-multi-carousel-dot button:hover:active{background:rgb(136, 13, 30)}.react-multi-carousel-dot--active button{background:rgb(136, 13, 30)}.react-multi-carousel-item{transform-style:preserve-3d;backface-visibility:hidden}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.react-multi-carousel-item{flex-shrink:0 !important}.react-multi-carousel-track{overflow:visible !important}}
