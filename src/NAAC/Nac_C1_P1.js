@@ -49,12 +49,9 @@ class mocktest extends React.Component {
     <div className="contain">
             <HeadingOne data={this.ReachUsHeading} className="Heading" />
               
-              <table width="60%"><tr><td colSpan="3"><h3><b>Document Name</b></h3></td></tr>
-              <tr><td colSpan="3"><h3><b>NAAC_data</b></h3></td></tr>
-              <tr><td>DesignProject_19-20_EEE_AARIS.pdf</td><td><a href="/downloads/NAACFiles/NAAC_C1_P1/DesignProject_19-20_EEE_AARIS.pdf" target="_blank" rel="noopener noreferrer"><b>VIEW</b></a></td><td><a href="/downloads/NAACFiles/NAAC_C1_P1/DesignProject_19-20_EEE_AARIS.pdf" download=""><b>DOWNLOAD</b></a></td></tr>
-              <tr><td>DesignProject_19-20_EEE_AutomaticWaterPumpController.pdf</td><td><a href="/downloads/NAACFiles/NAAC_C1_P1/DesignProject_19-20_EEE_AutomaticWaterPumpController.pdf" target="_blank" rel="noopener noreferrer"><b>VIEW</b></a></td><td><a href="/downloads/NAACFiles/NAAC_C1_P1/DesignProject_19-20_EEE_AutomaticWaterPumpController.pdf" download="" >DOWNLOAD</a></td></tr>
-             
-               <tr><td>DesignProject_19-20_EEE_HomeAutomation.pdf</td><td><a href="/downloads/NAACFiles/NAAC_C1_P1/DesignProject_19-20_EEE_HomeAutomation.pdf" target="_blank" rel="noopener noreferrer"><b>VIEW</b></a></td><td> <a href="" onClick={() => download_file("/downloads/NAACFiles/NAAC_C1_P1/DesignProject_19-20_EEE_HomeAutomation.pdf")}>DOWNLOAD</a></td></tr>
+              <table width="60%"><tr><td><h3><b>Criteria</b></h3></td></tr>
+              <tr><td><a href="/downloads/naac/criterion1/c1_p1.html" target="_blank" rel="noopener noreferrer"><b>Criterion 1</b></a></td></tr>
+              <tr><td><a href="/downloads/naac/criterion2/c2_p1.html" target="_blank" rel="noopener noreferrer"><b>Criterion 2</b></a></td></tr>
               </table>
 
                {/* <h3 className="add"> Level 1</h3>
