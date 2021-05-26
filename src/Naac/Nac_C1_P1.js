@@ -44,10 +44,14 @@ class mocktest extends React.Component {
             <HeadingOne data={this.ReachUsHeading} className="Heading" />        
                <table width="60%">
               <tr><td><a href="https://vjcet.org/downloads/naac/Criterion1/C1_P1.html" target="_blank" rel="noopener noreferrer"><b>Criterion 1</b></a></td></tr>
-              <tr><td><a href="https://vjcet.org/downloads/naac/Criterion2/C2_P1.html" target="_blank" rel="noopener noreferrer"><b>Criterion 2</b></a></td></tr>
+              
               </table>
 
-            {/*   <h3 className="add"> Level 1</h3>
+            {/* 
+            
+            <tr><td><a href="https://vjcet.org/downloads/naac/Criterion2/C2_P1.html" target="_blank" rel="noopener noreferrer"><b>Criterion 2</b></a></td></tr>
+            
+            <h3 className="add"> Level 1</h3>
                 <p><a href=" https://forms.gle/fuoRWBMs1gQnNASj7" target="_blank" rel="noopener noreferrer"><b>Paper 1 - Physics & Chemistry</b></a></p>
   <p><a href="https://forms.gle/Ez6tRswMSidn4nYt5" target="_blank" rel="noopener noreferrer"><b>Paper 2 - Mathematics</b></a></p>               */}
 
