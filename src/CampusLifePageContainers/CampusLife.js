@@ -10,11 +10,11 @@ class VisionSection extends Component {
     title: "Campus Life"
   };
 
-  VisionSectionABody = {
+ /* VisionSectionABody = {
     instanceID: "VisionSectionBody",
     title:
       "The building complex of the college with an area of 45944.47 m.sq., is situated in a sprawling campus of 26 acres, nestled among lush greenery over a hillock on the side of Ernakulam - Thodupuzha State highway.The college is surrounded by a number of beautiful places blessed by mother nature. Here we have a number of locations which are must see locations for any tourist visiting Kerala."
-  };
+  };*/
 
   VisionSectionBTitle = {
     instanceID: "VisionSectionTitle",
@@ -69,7 +69,8 @@ class VisionSection extends Component {
       <div className="VisionSection" id={instanceID}>
         <div className="VisionSectionA">
           <HeadingOne data={this.VisionSectionATitle} />
-          <BodyOne data={this.VisionSectionABody} />
+          {/*<BodyOne data={this.VisionSectionABody} />*/}
+          <p style={{fontSize:"large"}} >  The building complex of the college with an area of 45944.47 m<sup>2</sup>, is situated in a sprawling campus of 26 acres, nestled among lush greenery over a hillock on the side of Ernakulam - Thodupuzha State highway.The college is surrounded by a number of beautiful places blessed by mother nature. Here we have a number of locations which are must see locations for any tourist visiting Kerala.</p>
         </div>
         <div className="VisionSectionB">
           <HeadingOne data={this.VisionSectionBTitle} />

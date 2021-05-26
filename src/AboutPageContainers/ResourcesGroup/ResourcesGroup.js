@@ -14,7 +14,7 @@ class ResourcesGroup extends Component {
     listID: "One",
     title: "Rules & Regulations",
     icon: "Icons/icon1.svg",
-    filePath: "/downloads/Rules.pdf"
+    filePath: "https://vjcet.org/downloads/Rules.pdf"
   };
 
   ResourceListThree = {
@@ -22,7 +22,7 @@ class ResourcesGroup extends Component {
     listID: "Two",
     title: "Staff Manual",
     icon: "Icons/icon2.svg",
-    filePath: "/downloads/staffmanual2017.pdf"
+    filePath: "https://vjcet.org/downloads/staffmanual2017.pdf"
 
   };
 
@@ -32,7 +32,7 @@ class ResourcesGroup extends Component {
     title: "AICTE Documents",
     icon: "Icons/icon3.svg",
     /*filePath: "/downloads/AICTE.pdf"*/
-    filePath: "ftp://202.88.251.252/Website/downloads/Mandatory2021.pdf"
+    filePath: "https://vjcet.org/downloads/academic/Mandatory2021.pdf"
 
   };
 
@@ -41,7 +41,7 @@ class ResourcesGroup extends Component {
     listID: "Four",
     title: "Audited Financial Statements",
     icon: "Icons/icon4.svg",
-    filePath: "ftp://202.88.251.252/Website/downloads/Financialstatements.zip"
+    filePath: "https://vjcet.org/downloads/academic/Financialstatements.zip"
   };
 
   ResourceListFive = {
@@ -49,7 +49,7 @@ class ResourcesGroup extends Component {
     listID: "Five",
     title: "IQAC",
     icon: "Icons/icon5.svg",
-    filePath: "/downloads/IQAC.pdf"
+    filePath: "https://vjcet.org/downloads/IQAC.pdf"
   };
 
   ResourceListOne = {
@@ -57,7 +57,7 @@ class ResourcesGroup extends Component {
     listID: "Five",
     title: "Academic Schema",
     icon: "Icons/icon6.svg",
-    filePath: "/downloads/AcedemicSchema.pdf"
+    filePath: "https://vjcet.org/downloads/AcedemicSchema.pdf"
 
   };
   ResourceListSeven = {
@@ -65,7 +65,7 @@ class ResourcesGroup extends Component {
     listID: "Seven",
     title: "VJCET Undertaking",
     icon: "Icons/icon5.svg",
-    filePath: "/downloads/Undertaking.pdf"
+    filePath: "https://vjcet.org/downloads/Undertaking.pdf"
 
   };
 

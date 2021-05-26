@@ -76,7 +76,7 @@ import ErrorPage from "./Pages/ErrorPage";
 import Ict from "./CampusLifePageContainers/ProfessionalBodies/ICT";
 
 
-import NAAC_C1_P1 from "./NAAC/Nac_C1_P1";
+import NAAC_C1_P1 from "./Naac/Nac_C1_P1";
 
 class App extends Component {
 
