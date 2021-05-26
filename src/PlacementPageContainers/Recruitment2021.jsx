@@ -35,20 +35,120 @@ import { MDBDataTable } from 'mdbreact';
               width: 270
             }
           ],
-          rows: [   
+          rows: [ 
+            {
+                slno: '45',
+                company: 'SUTHERLAND(NON-VOICE)',
+                year: '2021',
+                branch: 'ME',
+                no_of_students: '9'
+            },
+            {
+                slno: '44',
+                company: 'SUTHERLAND(NON-VOICE)',
+                year: '2021',
+                branch: 'IT',
+                no_of_students: '3'
+            },
+            {
+                slno: '43',
+                company: 'Envestnet',
+                year: '2021',
+                branch: 'IT',
+                no_of_students: '1'
+            }, 
+            {
+                slno: '42',
+                company: 'Envestnet',
+                year: '2021',
+                branch: 'CSE',
+                no_of_students: '2'
+            },
+            {
+                slno: '41',
+                company: 'Quest Global',
+                year: '2021',
+                branch: 'IT',
+                no_of_students: '1'
+            },
+            {
+                slno: '40',
+                company: 'Quest Global',
+                year: '2021',
+                branch: 'EEE',
+                no_of_students: '4'
+            },
+            {
+                slno: '39',
+                company: 'Quest Global',
+                year: '2021',
+                branch: 'ECE',
+                no_of_students: '4'
+            },
+            {
+                slno: '38',
+                company: 'Quest Global',
+                year: '2021',
+                branch: 'CSE',
+                no_of_students: '4'
+            },
+
+            {
+                slno: '37',
+                company: '6D Technologies',
+                year: '2021',
+                branch: 'IT',
+                no_of_students: '1'
+            },
+            {
+                slno: '36',
+                company: '6D Technologies',
+                year: '2021',
+                branch: 'CSE',
+                no_of_students: '1'
+            },
+            {
+                slno: '35',
+                company: 'FACE',
+                year: '2021',
+                branch: 'ME',
+                no_of_students: '1'
+            },
+
+            {
+                slno: '34',
+                company: 'FACE',
+                year: '2021',
+                branch: 'ECE',
+                no_of_students: '3'
+            },
+            {
+                slno: '33',
+                company: 'FACE',
+                year: '2021',
+                branch: 'EEE',
+                no_of_students: '2'
+            }, 
+            {
+                slno: '32',
+                company: 'FACE',
+                year: '2021',
+                branch: 'CIVIL',
+                no_of_students: '1'
+            }, 
             {
                 slno: '31',
                 company: 'SUTHERLAND(NON-VOICE)',
                 year: '2021',
                 branch: 'EEE',
-                no_of_students: '1'
+                no_of_students: '5'
             },
             {
                 slno: '30',
                 company: 'SUTHERLAND(NON-VOICE)',
                 year: '2021',
                 branch: 'ECE',
-                no_of_students: '15'
+                no_of_students: '17'
             },
             {
                 slno: '29',
@@ -126,7 +226,7 @@ import { MDBDataTable } from 'mdbreact';
                         company: 'INFOSYS',
                         year: '2021',
                         branch: 'ECE',
-                        no_of_students: '06'
+                        no_of_students: '07'
                     },
                     {
                         slno: '18',
@@ -140,7 +240,7 @@ import { MDBDataTable } from 'mdbreact';
                         company: 'INFOSYS',
                         year: '2021',
                         branch: 'CSE',
-                        no_of_students: '12'
+                        no_of_students: '16'
                     }, 
                     {
                         slno: '16',
