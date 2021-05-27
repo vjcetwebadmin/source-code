@@ -187,7 +187,7 @@ class SideNav extends Component {
             />
             <input
 
-              value="PEO & PSO"
+              value="PEO, PSO & CO"
               class="button"
               onClick={this.onClickPeo}
             />
@@ -250,7 +250,7 @@ class SideNav extends Component {
               />
               <input
 
-                value="PEO & PSO"
+                value="PEO, PSO & CO"
                 class="button"
                 onClick={this.onClickPeo}
               />

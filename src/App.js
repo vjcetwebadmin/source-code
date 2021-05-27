@@ -6,7 +6,6 @@ import Department from "./Pages/Departments/department";
 import CampusLifePage from "./Pages/CampusLifePage";
 import collegecounsil from "./CampusLifePageContainers/collegecouncil";
 import committees from "./CampusLifePageContainers/committees";
-
 import artsfest from "./CampusLifePageContainers/artsfest";
 import sportsfest from "./CampusLifePageContainers/sportsfest";
 import techfest from "./CampusLifePageContainers/techfest";
@@ -250,6 +249,7 @@ class App extends Component {
               "2.	Ability to utilize modern surveying methods for land measurement and/or construction layout and to conduct standardized field /laboratory tests related to Civil Engineering."
           }
         ]
+        
       },
       program: [
         {
@@ -735,11 +735,7 @@ class App extends Component {
               <Route exact path="/campus-life/professionalbodies/iete" component={iete} />
               <Route exact path="/campus-life/professionalbodies/ict" component={Ict} />
 
-
-
               <Route exact path="/notifications" component={NotiPage} />
-
-
 
               <Route exact path="/departments/cse" component={CsDepartment} />
               <Route exact path="/departments/ce" ><Department data={this.ceProps} /></Route>

@@ -14,7 +14,7 @@ class PEO extends Component {
   peoListTwo = {
     instanceID: "peoListTwo",
     title:
-      "1.	Shall tackle the multiple responsibilities of analysis, design and construction of traditional and modern systems in compliance with various codes of practices and to meet the current technical challenges."
+      "1.	Shall tackle jjhj the multiple responsibilities of analysis, design and construction of traditional and modern systems in compliance with various codes of practices and to meet the current technical challenges."
   };
   peoListThree = {
     instanceID: "peoListThree",
@@ -58,6 +58,10 @@ class PEO extends Component {
         <Bodythree data={this.psoListOne} />
         <Bodythree data={this.psoListTwo} />
         <Bodythree data={this.psoListThree} />
+        <div className="HeadingOne">
+            <h1>Course Outcomes</h1>
+            <a href="https://vjcet.org/downloads/COs/CE.xlsx" target="_blank" rel="noopener noreferrer"><b>Click Here to download COs</b></a>
+        </div>
       </div>
     );
   }

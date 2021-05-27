@@ -10,8 +10,8 @@ import Result from "./result";
 import FacultyNav from "./facultynav";
 class SideNav extends Component {
   state = {
-    showProfile: true,
-    showVision: false,
+    showProfile: false,
+    showVision: true,
     showPeo: false,
     showProgram: false,
     showLib: false,
@@ -130,7 +130,7 @@ class SideNav extends Component {
             />
             <input
 
-              value="Activities"
+              value="Ph.D Guideship"
               class="button"
               onClick={this.onClickV}
             />

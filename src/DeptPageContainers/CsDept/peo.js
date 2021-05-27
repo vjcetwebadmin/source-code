@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import HeadingOne from "../../Components/Texts/HeadingOne";
 import Bodythree from "../../Components/Texts/BodyThree";
 class PEO extends Component {
+  
   state = {};
   peoHeading = {
     instanceID: "psoHeading",
@@ -51,6 +52,7 @@ class PEO extends Component {
     title:
       "3.	Ability to design and manage small-scale projects to develop a career in a related industry."
   };
+ 
   render() {
     return (
       <div className="PEO&PSO" id="peo&pso">
@@ -64,6 +66,10 @@ class PEO extends Component {
         <Bodythree data={this.psoListOne} />
         <Bodythree data={this.psoListTwo} />
         <Bodythree data={this.psoListThree} />
+        <div className="HeadingOne">
+            <h1>Course Outcomes</h1>
+            <a href="https://vjcet.org/downloads/COs/CSE.xlsx" target="_blank" rel="noopener noreferrer"><b>Click Here to download COs</b></a>
+        </div>
       </div>
     );
   }
