@@ -109,7 +109,7 @@ class collegecouncil extends React.Component {
                         <table id="tableformat">
                         <tr><th>Post</th><th>Student Name</th><th>Branch & Semester</th></tr>
                             <tr><td>CHAIRMAN</td><td>SEAN SANTOSH JOSEPH</td><td>S5 CSE A</td></tr>
-                            <tr><td>VICE CHAIRMAN</td><td>MARIYA GEORGE</td><td>S5 ECE A</td></tr>
+                            <tr><td>VICE CHAIRPERSON</td><td>MARIYA GEORGE</td><td>S5 ECE A</td></tr>
                             <tr><td>GENERAL SECRETARY</td><td>H. ANAND</td><td>S5 EEE B</td></tr>
                             <tr><td>UNIVERSITY UNION COUNCILLORS</td><td>AMAN IBRAHIM</td><td>S3 CE A</td></tr>
                             <tr><td>UNIVERSITY UNION COUNCILLORS</td><td>CYRIAC JACOB</td><td>S3 ME A</td></tr>

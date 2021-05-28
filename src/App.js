@@ -248,6 +248,13 @@ class App extends Component {
             title:
               "2.	Ability to utilize modern surveying methods for land measurement and/or construction layout and to conduct standardized field /laboratory tests related to Civil Engineering."
           }
+        ],
+        co: [
+          {
+            instanceID: "coListOne",
+            title:"title",
+            link: "https://vjcet.org/downloads/COs/CE.xlsx"
+          }
         ]
         
       },
