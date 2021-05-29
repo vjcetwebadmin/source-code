@@ -87,9 +87,6 @@ class collegecouncil extends React.Component {
         instanceID: " EventContent6",
         title: "Inter Collegiate Basket Ball Tournament was conducted on 19th to 21st March 2019.Mr.Sejin Mathew (Indian youth basket ball team caption) inaugurated the event in the presence Principal."
     }
-    
-   
-
     render() {
         return (
             <React.Fragment>
@@ -97,15 +94,13 @@ class collegecouncil extends React.Component {
 
                 <div className="contain">
                     <HeadingTwo data={this.CollegecouncilTitle} className="Heading" />
-                    <div class="absolute">
-             <p id="rcorners1" align="right"><a href="https://vjcet.org/downloads/gallery/collegeunion.html" target="_blank" rel="noopener noreferrer"><font color="white">Picture Book</font></a></p>
+                    <div  style={{float:"right"}}>{/*class="absolute"  */}
+             <p id="rcorners1" align="center" ><a href="https://vjcet.org/downloads/gallery/collegeunion.html" target="_blank" rel="noopener noreferrer"><font color="white">Picture Book</font></a></p>
              </div>
-             <div >
-             <p id="blankspace" align="right"></p>             
-             </div>
-                    
-                    <br />
-                   
+             <div>            
+                <p id="blankspace" align="right"></p> 
+             </div>                    
+                    <br />                   
                         <table id="tableformat">
                         <tr><th>Post</th><th>Student Name</th><th>Branch & Semester</th></tr>
                             <tr><td>CHAIRMAN</td><td>SEAN SANTOSH JOSEPH</td><td>S5 CSE A</td></tr>

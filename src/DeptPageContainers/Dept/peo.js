@@ -26,9 +26,12 @@ class PEO extends Component {
         <HeadingOne data={this.psoHeading} />
         {pso.map(i => (<Bodythree data={i} />))}
         <HeadingOne data={this.coHeading} />
-      {/*{<a href={co.link} target="_blank" rel="noopener noreferrer"><b>Click Here to download COs</b></a>}*/}
-       <a href="https://vjcet.org/downloads/COs/CE.xlsx" target="_blank" rel="noopener noreferrer"><b>Click Here to download COs</b></a>
-      </div>
+        {co.map(i => <a href={i.link} target="_blank" rel="noopener noreferrer"><b>Click Here to download COs</b></a>)}
+
+        {/** if need any other data then like side 
+         {co.map(i => <div><Bodythree data={i}/><a href={i.link} target="_blank" rel="noopener noreferrer"><b>Click Here to download COs</b></a></div>)}*/}
+        
+         </div>
     );
   }
 }

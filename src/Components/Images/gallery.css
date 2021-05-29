@@ -47,3 +47,18 @@
     width: 50px;
     height: 20px;  
   }
+  #rcornerpicturebook {
+    border-top-right-radius: 0px 0px;
+    border-bottom-right-radius: 0px 0px;
+    border-top-left-radius: 150px 120px;
+    border-bottom-left-radius: 150px 120px;
+    background: #800000;
+    padding: 6px; 
+    width: 130px;
+    height: 25px; 
+    font-family: "Merienda";
+    font-size: 80%;
+    font-weight: bold;
+    color: white; 
+      
+    }

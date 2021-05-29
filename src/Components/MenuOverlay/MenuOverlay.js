@@ -186,6 +186,13 @@ class MenuOverlay extends Component {
               >
                 Right To Information
             </Link>
+            <div className="wseparator"></div>
+              <Link
+                to="/about/annualrpt"
+                className="MenuOverlaySubLinks"
+              >
+                Annual Reports
+            </Link>
               <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/contact">
                 Contact Us

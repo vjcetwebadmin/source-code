@@ -4,6 +4,7 @@ import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import AboutPage from "./Pages/AboutPage";
 import Department from "./Pages/Departments/department";
 import CampusLifePage from "./Pages/CampusLifePage";
+import anualrep from "./Pages/annualreport";
 import collegecounsil from "./CampusLifePageContainers/collegecouncil";
 import committees from "./CampusLifePageContainers/committees";
 import artsfest from "./CampusLifePageContainers/artsfest";
@@ -725,6 +726,7 @@ class App extends Component {
               <Route exact path="/academics/honours" component={honoursPage} />
               <Route exact path="/facilities" component={FacilitiesPage} />
               <Route exact path="/campus-life" component={CampusLifePage} />
+              <Route exact path="/about/annualrpt" component={anualrep} />
               <Route exact path="/campus-life/collegecouncil" component={collegecounsil} />
               <Route exact path="/campus-life/committees" component={committees} />
               <Route exact path="/campus-life/artsfest" component={artsfest} />
