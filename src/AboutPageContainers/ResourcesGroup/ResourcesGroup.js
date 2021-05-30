@@ -68,6 +68,14 @@ class ResourcesGroup extends Component {
     filePath: "https://vjcet.org/downloads/Undertaking.pdf"
 
   };
+  ResourceListEight = {
+    instanceID: "ResourceListEight",
+    listID: "Eight",
+    title: "Annual Reports",
+    icon: "Icons/icon5.svg",
+    filePath: "https://vjcet.org/downloads/an_report/AnnualReports.zip"
+
+  }; 
 
   render() {
     return (

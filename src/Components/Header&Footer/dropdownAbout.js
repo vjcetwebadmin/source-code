@@ -92,14 +92,14 @@ class DropDownAb extends Component {
               Right To Information
             </Link>
           </p>
-          <p>
+          {/*<p>
             <Link
               to="/about/annualrpt"
               className="patch1"
             >
               Annual Reports
             </Link>
-          </p>
+          </p>*/}
         </div>
       </div>
     );
