@@ -89,7 +89,7 @@ class ResourcesGroup extends Component {
           <ResourcesList data={this.ResourceListFive} />
           <ResourcesList data={this.ResourceListSix} />
           <ResourcesList data={this.ResourceListSeven} />
-          <ResourcesList data={this.ResourceListSeven} />
+          <ResourcesList data={this.ResourceListEight} />
         </div>
       </div>
     );
