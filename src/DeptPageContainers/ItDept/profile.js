@@ -38,7 +38,7 @@ class Profile extends Component {
   };
   Features9 = {
     instanceID: "Features9",
-    title: "•	International collaboration with SES (Senior Experten Service) Germany."
+    title: "•	The department has International collaboration with SES (Senior Experten Service) Germany."
   };
   Features8 = {
     instanceID: "Features8",

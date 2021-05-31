@@ -76,6 +76,14 @@ class ResourcesGroup extends Component {
     filePath: "https://vjcet.org/downloads/an_report/AnnualReports.zip"
 
   }; 
+  ResourceListNine = {
+    instanceID: "ResourceListNine",
+    listID: "Nine",
+    title: "Time Table (Even Semester)",
+    icon: "Icons/icon5.svg",
+    filePath: "https://vjcet.org/downloads/timetablewef1-6-2021.pdf"
+
+  }; 
 
   render() {
     return (
@@ -90,6 +98,7 @@ class ResourcesGroup extends Component {
           <ResourcesList data={this.ResourceListSix} />
           <ResourcesList data={this.ResourceListSeven} />
           <ResourcesList data={this.ResourceListEight} />
+          <ResourcesList data={this.ResourceListNine} />
         </div>
       </div>
     );
