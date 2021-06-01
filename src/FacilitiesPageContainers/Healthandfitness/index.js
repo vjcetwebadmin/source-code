@@ -51,7 +51,7 @@ class Heathandfitness extends React.Component{
     }; 
     CourtsContent = {
         instanceID: "CourtsContent",
-        title: "Viswajyothi has 2 basketball courts within the campus. It also boasts of about having 9 badminton courts (4 indoor and 5 outdoor) where students and staffs are practicing daily."
+        title: "Viswajyothi has 2 basketball courts within the campus. It also boasts of about having 7 badminton courts (3 indoor and 4 outdoor) where students and staffs are practicing daily."
     };
 
     FootballTitle = {
@@ -92,7 +92,7 @@ class Heathandfitness extends React.Component{
     };
     BadmintonContent = {
         instanceID: "BadmintonContent",
-        title: "For all badminton loving folks of Viswajyothi. It has been one of the most active clubs handling the most active sport in the institute. With promotion of Badminton as its true motive, it has organised a wide range of events every year. This club’s activities are gonna be bigger and better. Badminton Club will be one of the most happening clubs of the year. Let's take the game in the institute to a higher level. Badminton Club offers 9 courts(4 indoor and 5 outdoor) with high standard inside the campus and has won many accolades. The club is formed with all categories single, double and regroups male and female athletes."
+        title: "For all badminton loving folks of Viswajyothi. It has been one of the most active clubs handling the most active sport in the institute. With promotion of Badminton as its true motive, it has organised a wide range of events every year. This club’s activities are gonna be bigger and better. Badminton Club will be one of the most happening clubs of the year. Let's take the game in the institute to a higher level. Badminton Club offers 7 courts(3 indoor and 4 outdoor) with high standard inside the campus and has won many accolades. The club is formed with all categories single, double and regroups male and female athletes."
     };
     VolleyballTitle = {
         instanceID: "VolleyballTitle",
