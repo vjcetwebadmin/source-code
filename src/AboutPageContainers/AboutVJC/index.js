@@ -28,7 +28,7 @@ class AboutVJC extends React.Component {
   AboutVjcText3 = {
     instanceID: "AboutVjcText3",
     title:
-      "Viswajyothi College has state of the art infrastructure with an area of 2 lakh sq ft in a sprawling campus of 26 acres with panoramic landscapes - a coveted venue for even film makers, well-planned class rooms, cutting edge Labs, Workshops, updated Library with latest national/international journals and E journals, R&D block, hostels, playgrounds and gym on the pristine hillock overlooking Ernakulam - Thodupuzha state highway marking them as the hallmarks of this modern ‘Shantiniketan.’"
+      "Viswajyothi College has state of the art infrastructure with an area of 45944.47 sq.m., in a sprawling campus of 26 acres with panoramic landscapes - a coveted venue for even film makers, well-planned class rooms, cutting edge Labs, Workshops, updated Library with latest national/international journals and E journals, R&D block, hostels, playgrounds and gym on the pristine hillock overlooking Ernakulam - Thodupuzha state highway marking them as the hallmarks of this modern ‘Shantiniketan.’"
   };
   AboutVjcText4 = {
     instanceID: "AboutVjcText4",

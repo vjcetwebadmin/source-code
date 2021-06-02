@@ -65,7 +65,7 @@ class Profile extends Component {
         <HeadingFour data={this.EventTitle1} className="Heading" />*/}
                 <HeadingTwo data={this.MajoreventsTitle} className="Heading" />
                <p align="left" ><b>Master of Business Administration</b></p>
-                  <p align="left" style={{lineHeight:1.5}} >There are four faculty members with Ph.D., who are currently working in this department. Currently, three research scholars are doing Ph.D. under the guidance of Dr. Cyriac Joseph and three has already completed Ph.D. The MBA department organises various innovative seminars, training programmes etc.</p>  
+                  <p align="left" style={{lineHeight:1.5}} >There are three faculty members with Ph.D., who are currently working in this department. Currently, three research scholars are doing Ph.D. under the guidance of Dr. Cyriac Joseph and three have already completed Ph.D. The MBA department organises various innovative seminars, training programmes etc.</p>  
                   <p align="left" >Research Guide</p>
                   <p align="left" >Dr. Cyriac Joseph</p>
 

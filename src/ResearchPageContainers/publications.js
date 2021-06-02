@@ -46,7 +46,7 @@ class Reserch extends Component {
                 
                                   
     <table id="publicationtable">
-        <tr><th>List of Publications</th></tr>
+        <tr><th>List of papers indexed in Scopus database & conference proceedings with ISBN/ISSN</th></tr>
         <tr><td>Naveen Jacob, Muralidhar Kulkarni , Krishnamoorthy K.,  An Electronically Switchable UWB to Narrow Band Antenna for Cognitive Radio Applications, Microwave and Optical Technology Letters, 2020, 1098-2760</td></tr>
 <tr><td>Arun Raphel,  P. Vivekanandhan, S. Kumaran, High entropy phenomena induced low thermal conductivity in BiSbTe1.5Se1.5 thermoelectric alloy through mechanical alloying and spark plasma sintering, Material Letters, 2020,  2454-4051</td></tr>
 <tr><td>V. Venkatesh,Anishin Raj M M , K. Sajith, R. Anushiadevi, T. Praba, A precision-based diagnostic model  ADOBE-accurate detection of  breast cancer using logistic  regression approach,  Journal of Intelligent &  Fuzzy Systems, 2020, 1064-1246</td></tr>

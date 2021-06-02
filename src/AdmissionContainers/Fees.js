@@ -12,24 +12,23 @@ class Fees extends Component {
         instanceID: "Features1",
         title: "M. Tech Computer Science and Engineering"
     };
-
     Features2 = {
-        instanceID: "Features2",
-        title: "Candidates with valid GATE Score- Government Fees"
-    };
-    Features3 = {
         instanceID: "Features3",
         title: "Candidate without Gate Score - Rs. 25,000/- Semester "
     };
     Features4 = {
         instanceID: "Features4",
-        title: "M. Tech VLSI and Embedded Systems"
+        title: "M.Tech in Electronics and Communication Engineering(VLSI & Embedded Systems)"
     };
     Features5 = {
-        instanceID: "Features5",
-        title: "Candidates with valid GATE Score- Government Fees"
+        instanceID: "Features6",
+        title: "Candidate without Gate Score - Rs. 25,000/- Semester"
     };
-    Features6 = {
+    Features10 = {
+        instanceID: "Features4",
+        title: "M.Tech in Industrial Engineering and Management"
+    };
+    Features11 = {
         instanceID: "Features6",
         title: "Candidate without Gate Score - Rs. 25,000/- Semester"
     };
@@ -43,7 +42,11 @@ class Fees extends Component {
     };
     Features9 = {
         instanceID: "Features9",
-        title: "Mr. Andrews Jose (CSE) - 9895987155"
+        title: "Ms. Niji Mathews(ECE) - 9847146256"
+    };
+    Features13 = {
+        instanceID: "Features9",
+        title: "Mr. Tijo Jose(ME) - 9946549118"
     };
     render() {
         return (
@@ -52,13 +55,14 @@ class Fees extends Component {
                 <div className="bodyContainer">
                     <p><HeadingThree data={this.Features1} /></p>
                     <p><BodyOneJustified data={this.Features2} /></p>
-                    <p><BodyOneJustified data={this.Features3} /></p>
                     <p><HeadingThree data={this.Features4} /></p>
                     <p><BodyOneJustified data={this.Features5} /></p>
-                    <p><BodyOneJustified data={this.Features6} /></p>
+                    <p><HeadingThree data={this.Features10} /></p>
+                    <p><BodyOneJustified data={this.Features11} /></p>
                     <p><HeadingThree data={this.Features7} /></p>
                     <p><BodyOneJustified data={this.Features8} /></p>
                     <p><BodyOneJustified data={this.Features9} /></p>
+                    <p><BodyOneJustified data={this.Features13} /></p>
                 </div>
             </div>
         );

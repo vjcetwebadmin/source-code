@@ -9,7 +9,7 @@ class Home extends Component {
     };
     Img1 = {
         instanceID: "Img1",
-        image: "Mtech1.jpg",
+        image: "pghome.png",
         width: "100%"
     };
     Img2 = {
@@ -33,8 +33,8 @@ class Home extends Component {
                 <HeadingOne data={this.HomeHeading} />
                 <div className="bodyContainer">
                     <p><ImageOne data={this.Img1} /></p>
-                    <p><ImageOne data={this.Img2} /></p>
-                    <p><ImageOne data={this.Img3} /></p>
+                    {/*<p><ImageOne data={this.Img2} /></p>
+                    <p><ImageOne data={this.Img3} /></p>*/}
 
                 </div>
             </div>
