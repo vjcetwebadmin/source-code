@@ -20,7 +20,7 @@ class Profile extends Component {
   ProfileDescriptionThree = {
     instanceID: "ProfileDescriptionThree",
     title:
-      "The Department is actively involved in basic and applied research through various R& D projects undertaken by the R&D Department of VJCET. "
+      "The Department is actively involved in basic and applied research through various R&D projects undertaken by the R&D Department of VJCET. "
   };
 
   render() {

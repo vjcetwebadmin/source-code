@@ -37,6 +37,13 @@ import { MDBDataTable } from 'mdbreact';
           ],
           rows: [ 
             {
+                slno: '46',
+                company: 'WILEYS',
+                year: '2021',
+                branch: 'CSE',
+                no_of_students: '1'
+            },
+            {
                 slno: '45',
                 company: 'SUTHERLAND(NON-VOICE)',
                 year: '2021',

@@ -20,17 +20,17 @@ class Vision extends Component {
   MissionListOne = {
     instanceID: "MissionListOne",
     title:
-      "1	To inspire, attract and help students love natural science, mathematics and humanities."
+      "1.	To inspire, attract and help students love Natural Science, Mathematics and Humanities."
   };
   MissionListTwo = {
     instanceID: "MissionListTwo",
     title:
-      "2	To advance Science, Engineering and innovation for the benefit of all, adeptly facing the challenges of our society."
+      "2.	To advance Science, Engineering and innovation for the benefit of all, adeptly facing the challenges of our society."
   };
   MissionListThree = {
     instanceID: "MissionListThree",
     title:
-      "3	To promote soft skills, specially to enhance communication skills among Engineering Undergraduates at our college."
+      "3.	To promote soft skills, specially to enhance communication skills among Engineering Undergraduates at our college."
   };
   render() {
     return (
