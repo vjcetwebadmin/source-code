@@ -11,6 +11,7 @@ import artsfest from "./CampusLifePageContainers/artsfest";
 import sportsfest from "./CampusLifePageContainers/sportsfest";
 import techfest from "./CampusLifePageContainers/techfest";
 import nss from "./CampusLifePageContainers/nss";
+import nationday from "./CampusLifePageContainers/natonalday";
 import campusmap from "./CampusLifePageContainers/campusmap";
 import Publications from "./CampusLifePageContainers/publications";
 import professionalbodies from "./CampusLifePageContainers/ProfessionalBodies/csdepartment";
@@ -734,6 +735,7 @@ class App extends Component {
               <Route exact path="/campus-life/sportsfest" component={sportsfest} />
               <Route exact path="/campus-life/techfest" component={techfest} />
               <Route exact path="/campus-life/nss" component={nss} />
+              <Route exact path="/campus-life/ndays" component={nationday} />
               <Route exact path="/campus-life/campusmap" component={campusmap} />
               <Route exact path="/campus-life/publications" component={Publications} />
               <Route exact path="/campus-life/professionalbodies" component={professionalbodies} />

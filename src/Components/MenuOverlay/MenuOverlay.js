@@ -342,6 +342,10 @@ class MenuOverlay extends Component {
                 Bodhi- Tech Fest
               </Link>
               <div className="wseparator"></div>
+              <Link className="MenuOverlaySubLinks" to="/campus-life/ndays">
+                National Day Celebrations
+              </Link>
+              <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/campus-life/professionalbodies">
                 Professional Bodies
               </Link>
