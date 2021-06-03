@@ -6,7 +6,7 @@ class Fees extends Component {
     state = {};
     ProfileHeading = {
         instanceID: "ProfileHeading",
-        title: "Fees Structure"
+        title: "Fee Structure"
     };
     Features1 = {
         instanceID: "Features1",
@@ -14,7 +14,7 @@ class Fees extends Component {
     };
     Features2 = {
         instanceID: "Features3",
-        title: "Candidate without Gate Score - Rs. 25,000/- Semester "
+        title: "Rs. 25,000/- Semester for GATE/Non-GATE candidates"
     };
     Features4 = {
         instanceID: "Features4",
@@ -22,7 +22,7 @@ class Fees extends Component {
     };
     Features5 = {
         instanceID: "Features6",
-        title: "Candidate without Gate Score - Rs. 25,000/- Semester"
+        title: "Rs. 25,000/- Semester for GATE/Non-GATE candidates"
     };
     Features10 = {
         instanceID: "Features4",
@@ -30,7 +30,7 @@ class Fees extends Component {
     };
     Features11 = {
         instanceID: "Features6",
-        title: "Candidate without Gate Score - Rs. 25,000/- Semester"
+        title: "Rs. 25,000/- Semester for GATE/Non-GATE candidates"
     };
     Features7 = {
         instanceID: "Features7",
