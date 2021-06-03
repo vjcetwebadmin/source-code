@@ -36,6 +36,7 @@ import powerandbackup from "./FacilitiesPageContainers/PowerandBackup/powerandba
 import Library from "./FacilitiesPageContainers/Library/index";
 import Hostel from "./FacilitiesPageContainers/Hostel/index";
 import Healthandfitness from "./FacilitiesPageContainers/Healthandfitness/index";
+import eresource from "./FacilitiesPageContainers/Eresources/csdepartment";
 import campusamenities from "./Pages/CoreFacilities";
 import transportation from "./FacilitiesPageContainers/Transportation/transportation";
 import NBA from "./Pages/NBA";
@@ -758,6 +759,7 @@ class App extends Component {
               <Route exact path="/placement" component={PlacementPage} />
               <Route exact path="/facilities/core-facilities" component={FacilitiesPage} />
               <Route exact path="/facilities/ccc" component={CCC} />
+              <Route exact path="/facilities/eresources" component={eresource} />
               <Route exact path="/facilities/building" component={building} />
               <Route exact path="/facilities/library" component={Library} />
               <Route exact path="/facilities/powerandbackup" component={powerandbackup} />
