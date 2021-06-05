@@ -110,13 +110,14 @@ class Profile extends Component {
                    <tr><td>Ms. Gayana T S</td></tr>
                    <tr><td>Ms. Gincy Luckose. V</td></tr>
                    <tr><td>Ms. Mercy Mathew</td></tr>
-                   <tr><td>2</td><td>Dr. K.N Ramachandran  Nair</td><td>CSE</td><td>Dr. Jina Varghese</td></tr>
-                   <tr><td rowSpan="2">3</td><td rowSpan="2">Dr. Lovely Mathew</td><td rowSpan="2">S&H</td><td>Ms. Ajitha A R</td></tr>
+                   <tr><td>2</td><td>Dr. Sajan T John</td><td>MBA</td><td>Recognized as Research Guide under KTU. Students are not assigned</td></tr>
+                   <tr><td>3</td><td>Dr. K.N Ramachandran  Nair</td><td>CSE</td><td>Dr. Jina Varghese</td></tr>
+                   <tr><td rowSpan="2">4</td><td rowSpan="2">Dr. Lovely Mathew</td><td rowSpan="2">S&H</td><td>Ms. Ajitha A R</td></tr>
                    <tr><td>Ms. Aswathi M K</td></tr>                   
-                   <tr><td>4</td><td>Dr. Anishin Raj M.M</td><td>CSE</td><td>Recognized as Research Guide under KTU. Students are not assigned</td></tr>
-                   <tr><td>5</td><td>Dr. Sony Kurian</td><td>EEE</td><td>Recognized as Research Guide under KTU. Students are not assigned</td></tr>
-                   <tr><td>6</td><td>Dr. K. Shunmugesh</td><td>ME</td><td>Recognized as Research Guide under KTU. Students are not assigned</td></tr>
-                   <tr><td>7</td><td>Dr. Sajan T John</td><td>ME</td><td>Recognized as Research Guide under KTU. Students are not assigned</td></tr>
+                   <tr><td>5</td><td>Dr. Anishin Raj M.M</td><td>CSE</td><td>Recognized as Research Guide under KTU. Students are not assigned</td></tr>
+                   <tr><td>6</td><td>Dr. Sony Kurian</td><td>EEE</td><td>Recognized as Research Guide under KTU. Students are not assigned</td></tr>
+                   <tr><td>7</td><td>Dr. K. Shunmugesh</td><td>ME</td><td>Recognized as Research Guide under KTU. Students are not assigned</td></tr>
+                   <tr><td>8</td><td>Dr. Sajan T John</td><td>ME</td><td>Recognized as Research Guide under KTU. Students are not assigned</td></tr>
                    </table>
 
               </div>

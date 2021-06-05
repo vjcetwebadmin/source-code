@@ -72,17 +72,25 @@ class Phd extends Component {
                 <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
                 <HeadingOne data={this.HeadingSectionTitle} />
                {/*  <BodyOne data={this.HeadingSectionDescription} /> */}
-                { <div>
+                <div>
                     <p allign="justify">
                        
-                            Viswajyothi is offering Ph.D admissions in Computer Science & Engineeering and Mechanical Engineering under APJ Abdul Kalam Technological University.
-                    </p>
+                    Viswajyothi has recognized Ph.D Guides in various branches of APJ Abdul Kalam Technological University such as
+                     
+                    </p> 
+                      <ol style={{textAlign:"left", lineHeight:"1.7em",fontSize:"13",marginLeft:"225px"}}>
+                            <li>Computer Science & Engineering</li>
+                            <li>Mechanical Engineering</li>
+                            <li>Electrical and Electronics Engineering</li>
+                            <li>MBA</li>
+                        </ol>
+
                     <p>
                                 <b>To know more about admission procedure, kindly visit the Research section in <a href="https://www.ktu.edu.in" target="_blank" rel="noopener noreferrer">KTU official website</a></b> 
                                
                          
                     </p>
-                </div> }
+                </div> 
                 
                 <Footer data={this.HomePageFooter} />
                 {this.state.showMenu ? (
