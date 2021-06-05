@@ -79,7 +79,7 @@ import Ict from "./CampusLifePageContainers/ProfessionalBodies/ICT";
 
 import NAAC_C1_P1 from "./Naac/Nac_C1_P1";
 import NAACbase from "./Naac/naacstart";
-
+import codeofc from "./CodeofC/codeofconducts";
 class App extends Component {
 
   ceProps = {
@@ -791,6 +791,7 @@ class App extends Component {
               <Route exact path="/ed/iiic" component={Iiic} />
               <Route exact path="/ed/unai" component={Unai} />
               <Route exact path="/iqac" component={Iqacfull} />
+              <Route exact path="/codofc" component={codeofc} />
               <Route exact path="/ed/nisp" component={NISP} />
 
               <Route exact path="/NAAC/NAAC_C1_P1" component={NAAC_C1_P1} />
