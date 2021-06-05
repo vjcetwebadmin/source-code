@@ -44,7 +44,7 @@ class Profile extends Component {
     }
     InchargesHeading = {
         instanceID: "InchargesHeading",
-        title: "Committy Members"
+        title: "Committee Members"
       };
       InchargesHeading1 = {
         instanceID: "InchargesHeading1",
