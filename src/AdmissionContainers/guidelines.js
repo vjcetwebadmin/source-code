@@ -14,12 +14,12 @@ class GuideLines extends Component {
     };
     Features1 = {
         instanceID: "Features1",
-        title: "•	Candidate should submit applications offline."
+        title: "•	Candidate should submit applications online/offline."
     };
 
     Features2 = {
         instanceID: "Features2",
-        title: "•	Affix a passport size (3.5 x 3.5 cm) photograph in the space provided for offline application. "
+        title: "•	Affix a passport size (3.5 x 3.5 cm) photograph in the space provided for online/offline application. "
     };
     Features3 = {
         instanceID: "Features3",
@@ -31,7 +31,7 @@ class GuideLines extends Component {
     };
     Features5 = {
         instanceID: "Features5",
-        title: "•	All basic information required is to be filled in with utmost care. The data provided in the offline application will be used for processing the application. Any error in filling the offline application or providing false/incomplete/wrong information will affect the candidate's eligibility for admission or claim for reservation under any category."
+        title: "•	All basic information required is to be filled in with utmost care. The data provided in the online/offline application will be used for processing the application. Any error in filling the online/offline application or providing false/incomplete/wrong information will affect the candidate's eligibility for admission or claim for reservation under any category."
     };
     Features6 = {
         instanceID: "Features6",
@@ -137,7 +137,7 @@ class GuideLines extends Component {
     };
     Features312 = {
         instanceID: "Features8",
-        title: "•	Migration Certificate in original for students who passed degree from Universities other than Kerala technical University"
+        title: "•	Migration Certificate in original for students who passed degree from Universities other than Kerala technological University"
     };
     Features313 = {
         instanceID: "Features8",

@@ -14,30 +14,24 @@ class Dates extends Component {
                 <div className="bodyContainer">
                     <table border="1" id="tableformat">
                         <tr>
-                            <td>Filling up of ONLINE application form(DTE) </td>
+                            <td>Filling up of ONLINE application form</td>
                             <td>will be updated soon</td>
                         </tr>
                         <tr>
                             <td>
-                                Last date to receive the printed application(DTE)
+                                Last date to receive the online/printed application
                             </td>
                             <td>will be updated soon</td>
                         </tr>
                         <tr>
                             <td>
-                                Last date to receive the printed application(VJCET)
-                            </td>
-                            <td>will be updated soon</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                Publication of Provisional Rank List(VJCET)
+                                Publication of Provisional Rank List
 	    </td>
                             <td>will be updated soon</td>
                         </tr>
                         <tr>
                             <td>
-                                Selection and Admission (VJCET)
+                                Selection and Admission
                             </td>
                             <td>will be updated soon</td>
                         </tr>

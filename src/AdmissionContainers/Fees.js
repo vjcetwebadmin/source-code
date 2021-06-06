@@ -59,6 +59,18 @@ class Fees extends Component {
                     <p><BodyOneJustified data={this.Features5} /></p>
                     <p><HeadingThree data={this.Features10} /></p>
                     <p><BodyOneJustified data={this.Features11} /></p>
+                </div>
+                <p></p>
+                <div style={{textAlign:"left",border:"solid",width:"60%",paddingLeft:"20px"}}>
+                    <h2><b>M.Tech Fee Payment</b></h2>
+                    <p>For payment through <span className="text_red">NEFT</span>, Bank Account Details,</p>
+                    <p>Name of the Account Holder : <b>PRINCIPAL</b></p>
+                    <p>Name of the Bank : <b>South Indian Bank</b></p>
+                    <p>Name of the Branch : <b>Vazhakulam</b></p>
+                    <p>Account Number : <b>0335053000001199</b></p>
+                    <p>IFSC Code : <b>SIBL0000335</b></p>
+                </div>
+                <div className="bodyContainer">
                     <p><HeadingThree data={this.Features7} /></p>
                     <p><BodyOneJustified data={this.Features8} /></p>
                     <p><BodyOneJustified data={this.Features9} /></p>

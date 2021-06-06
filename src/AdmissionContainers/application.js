@@ -11,8 +11,8 @@ class Application extends Component {
             <div>
 
                 <HeadingOne data={this.Heading}></HeadingOne>
-                <a href="/downloads/application.pdf" target="_blank" rel="noopener noreferrer">
-                    Click here to download to M.Tech Application Form</a>
+                <a href="https://docs.google.com/forms/d/1v2ETMV9R5seZgJCXlvk2enjfnT9S0lFCm7u8e1b4QsM/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+                Click here to fill M.Tech Application Online</a>
             </div>
         );
     }

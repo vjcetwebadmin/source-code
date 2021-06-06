@@ -48,10 +48,9 @@ class mocktest extends React.Component {
               <tr><td rowspan="2"><h3> Level 2</h3></td><td><a href="https://forms.gle/8kis3WuGuPNe8A8cA" target="_blank" rel="noopener noreferrer"><b>Paper 1 - Physics & Chemistry</b></a></td></tr>
               <tr><td><a href="https://forms.gle/4j1VX8gGZ1Rw8qUF8" target="_blank" rel="noopener noreferrer"><b>Paper 2 - Mathematics</b></a></td></tr>
 
-              {/*<tr><td rowspan="2"><h3> Level 3</h3></td><td><a href="https://forms.gle/iAVZX24eXGrYnRUd9" target="_blank" rel="noopener noreferrer"><b>Paper 1 - Physics & Chemistry</b></a></td></tr>
-              <tr><td><a href="https://forms.gle/qELSeZLUnCd5rvGM6" target="_blank" rel="noopener noreferrer"><b>Paper 2 - Mathematics</b></a></td></tr>*/}
+              <tr><td rowspan="2"><h3> Level 3</h3></td><td><a href="https://forms.gle/KZZWu3982ywTyzGj6" target="_blank" rel="noopener noreferrer"><b>Paper 1 - Physics & Chemistry</b></a></td></tr>
+              <tr><td><a href="https://forms.gle/wTEJCWdzvPBU5L688" target="_blank" rel="noopener noreferrer"><b>Paper 2 - Mathematics</b></a></td></tr>
 
-              <tr><td><h3> Level 3</h3></td><td>First week of June 2021</td></tr>
               <tr><td><h3> Level 4</h3></td><td>Second week of June 2021</td></tr>
               
               </table>
