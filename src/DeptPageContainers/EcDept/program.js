@@ -10,27 +10,27 @@ class Program extends Component {
   ProgramDescriptionOne = {
     instanceID: "ProgramDescriptionOne",
     title:
-      "Department is in process of establishment of Center of Excellence in the fields like Electronics & Communication Engineering, VLSI and Embedded Systems."
+      "ECE Department aims to deepen the knowledge and skills of the students on the basic concepts and theories that will equip them in their professional work involving analysis, systems implementation, operation, production, and maintenance of the various applications in the field of Electronics and Communications Engineering."
   };
   ProgramDescriptionTwo = {
     instanceID: "ProgramDescriptionTwo",
     title:
-      "Dept. offers both undergraduate (B. Tech.) and postgraduate (M. Tech.) programs. "
+      "The Department of Electronics and Communication Engineering is providing quality education at both Undergraduate (UG) and Postgraduate (PG) levels."
   };
   ProgramDescriptionThree = {
     instanceID: "ProgramDescriptionThree",
     title:
-      "The annual intake of the B. Tech. program is 60 students and that of the M. Tech. is 24."
+      "The annual intake of the B. Tech. program is 60 students and that of the M. Tech. is 18."
   };
   ProgramDescriptionFour = {
     instanceID: "ProgramDescriptionFour",
     title:
-      "The department has around 420 students and about 32 teaching staff and 8 non teaching staffs. "
+      "The department has about 30 teaching staff and 6 non teaching staffs."
   };
   ProgramDescriptionFive = {
     instanceID: "ProgramDescriptionFive",
     title:
-      " With technology becoming all pervasive in everyday life, opportunities for electronic engineers are endless. The ECE department at VJCET prepares students for careers in this constantly evolving discipline."
+      "With technology becoming all pervasive in everyday life, opportunities for electronic engineers are endless. The ECE department at VJCET prepares students for careers in this constantly evolving discipline."
   };
   render() {
     return (

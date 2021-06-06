@@ -16,9 +16,9 @@ class Profile extends Component {
     return (
 
       <div className="Profile" id="profile">
-        <div class="absolute">
+       {/*<div class="absolute">
           <p id="rcorners3" align="right"><font color="white">Way to go! 1st batch KTU-91.82% pass!</font></p>
-        </div>
+    </div>*/}
         <div >
           <p id="blankspace" align="right"></p>
 

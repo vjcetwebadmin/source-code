@@ -41,6 +41,11 @@ class DropDownD extends Component {
             </Link>
             </p>
             <p>
+            <Link to="/departments/aid" className="patch1" >
+              Artificial Intelligence and Data Science
+            </Link>
+          </p>
+            <p>
             <Link to="/departments/ce" className="patch1" >
               Civil Engineering
             </Link>

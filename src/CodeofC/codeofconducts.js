@@ -248,7 +248,7 @@ class nss extends React.Component {
                         <div className="inner-para">
                         <p style={{fontWeight:"bold"}}>The HC is responsible:</p> 
                         <p style={{textAlign:"justify",lineHeight:"1.6em"}}>To prepare vouchers and bills, Professional Tax to Panchayath, Acquittance and Reconciliation, Thapal (Inward & Outward), Admission Register, T.C., Course & Conduct Certificate, Maintenance of Stock Registers and Issue of Forms and Stationery items.</p>                      
-                        <p style={{textAlign:"right"}}><a href="https://vjcet.org/downloads/codofcs/Website-22.pdf" target="_blank" rel="noopener noreferrer">Read More</a></p>     
+                        <p style={{textAlign:"right"}}><a href="https://vjcet.org/downloads/codofcs/Website-22-24.pdf" target="_blank" rel="noopener noreferrer">Read More</a></p>     
                         </div>
                 </div>
                 

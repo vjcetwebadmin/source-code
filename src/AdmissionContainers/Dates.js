@@ -26,7 +26,7 @@ class Dates extends Component {
                         <tr>
                             <td>
                                 Publication of Provisional Rank List
-	    </td>
+	                    </td>
                             <td>will be updated soon</td>
                         </tr>
                         <tr>

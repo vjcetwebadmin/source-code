@@ -18,28 +18,29 @@ class DepartmentSection extends Component {
 
   DepartmentListOne = {
     instanceID: "DepartmentListOne",
-    title: "Civil (CE)",
+    title: "Civil Engineering(CE)",
     description:
       "Civil engineers are entrusted by the society to create a sustainable world and enhance the global quality of life- they serve competently, collaboratively, and ethically as innovators and integrators of ideas and technology across the public, private, and academic sectors; managers of risk and uncertainty caused by natural disasters and other threats; and leaders in discussions and decisions shaping public environmental and infrastructure policy."
   };
 
   DepartmentListTwo = {
     instanceID: "DepartmentListTwo",
-    title: "Computer Science (CSE)",
+    title: "Computer Science Engineering(CSE)",
     description:
       "We aim at exposing our students to the world of zeros and ones by inculcating design thinking, empathy and ethics in them. Rather than building supercomputers, we want the scholars to use their human intelligence to build green artificial intelligence and support humanity by addressing the real issues of the world."
   };
 
   DepartmentListThree = {
     instanceID: "DepartmentListThree",
-    title: "Electronics & Communication (ECE)",
+    title: "Electronics & Communication Engineering(ECE)",
     description:
-      "In this era of globalization where the whole world is well knit and networked, the electronics engineering students are transformed with the practical and technological aspects of the newly evolving technologies."
+    "Electronics & Communication Engineering is the backbone of the modern world. Technologies ranging from Smart Phones to Satellites are powered by this branch of Engineering. B. Tech degree in ECE opens the door to fields like Internet of Things (IoT), Robotics, Telecommunications, Embedded Systems, Aviation, Defence, Space Technology, Health Care, Automobile Industry and many more."
+      /*"In this era of globalization where the whole world is well knit and networked, the electronics engineering students are transformed with the practical and technological aspects of the newly evolving technologies."*/
   };
 
   DepartmentListFour = {
     instanceID: "DepartmentListFour",
-    title: "Electrical & Electronics (EEE)",
+    title: "Electrical & Electronics Engineering(EEE)",
     description:
       "The Electrical and electronics engineers are working today in all spheres of modern society, be it internet, power systems, DC and AC transmission systems , a quality engineer with the ability to explore, experiment and exhibit are refined. "
   };
@@ -53,7 +54,7 @@ class DepartmentSection extends Component {
 
   DepartmentListSix = {
     instanceID: "DepartmentListSix",
-    title: "Mechanical (ME)",
+    title: "Mechanical Engineering(ME)",
     description:
       "The students of Mechanical Engineering are provided with the most advanced equipment in our laboratories on which to experiment and innovate thereby moulding students  by coupling the theoretical knowledge with the industry exposure."
   };
@@ -71,6 +72,12 @@ class DepartmentSection extends Component {
     description:
       "The Department deals in the disciplines of Chemistry, Physics, Mathematics, Statistics, Communicative English and Economics."
   };
+  DepartmentListNine = {
+    instanceID: "DepartmentListNine",
+    title: "Artificial Intelligence and Data Science",
+    description:
+      "The Department deals in the disciplines of Chemistry, Physics, Mathematics, Statistics, Communicative English and Economics."
+  };
 
   render() {
     const { instanceID } = this.props.data;
@@ -79,6 +86,7 @@ class DepartmentSection extends Component {
       <div className="DepartmentSection" id={instanceID}>
         <HeadingOne data={this.DepartmentSectionTitle} />
         <BodyOne data={this.DepartmentSectionSubTitle} />
+
         <Link to="/departments/ce" style={{ textDecoration: "none" }}>
           <DepartmentList data={this.DepartmentListOne} />
         </Link>
@@ -103,6 +111,9 @@ class DepartmentSection extends Component {
         <Link to="departments/s&h" style={{ textDecoration: "none" }}>
           <DepartmentList data={this.DepartmentListEight} />
         </Link>
+        {/*<Link to="/departments/aid" style={{ textDecoration: "none" }}>
+          <DepartmentList data={this.DepartmentListNine} />
+    </Link>*/}
       </div>
     );
   }

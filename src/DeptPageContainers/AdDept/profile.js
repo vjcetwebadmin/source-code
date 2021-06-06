@@ -9,36 +9,40 @@ class Profile extends Component {
   };
   Features1 = {
     instanceID: "Features1",
-    title: "The department of Electronics & Communication Engineering was established in the year 2001."
+    title: "•	The prestigious course, B.Tech Artificial Intelligence and Data science which imparts in-demand technical skills in aspirants is commenced at VJCET in the year 2020."
   };
 
   Features2 = {
     instanceID: "Features2",
-    title: "B.Tech Electronics & Communication Engineering program is accredited by NBA in June 2010 and reaccredited in June 2018 for another three years."
+    title: "•	This course provides a profound knowledge in the cutting edge AI, Machine Learning and Deep Learning techniques through a pragmatic approach of providing trainings in Python, Pandas, BigData tools, Tensor Flow, Keras, NumPy etc."
   };
   Features3 = {
     instanceID: "Features3",
-    title: "The department has a very good placement records in various MNC’s. The department assist the students to get placed in core companies like Bosch, INTEL etc with the help of Miniplacement cell in association with Alumni Association."
+    title: "•	The department has highly qualified, well experienced faculty members trained in AI, ML and data analytic tools, headed by Mr.Somy P Mathew, Vice Principal."
   };
   Features4 = {
     instanceID: "Features4",
-    title: "The department bagged many university ranks both in B. Tech and M.Tech."
+    title: "•	The course is predicted to have a huge job opportunity since most of the enterprise applications will have an inbuilt AI application functionality incorporated in near future."
   };
   Features5 = {
     instanceID: "Features5",
-    title: "Students are trained to meet with the expectations of industry. Training is provided for various retail boards like Aurdrino, Raspberry Pie etc. Training in technical languages such as C,C++. Python etc are imparted in addition to the syllabus"
+    title: "•	The department will also assist the scholars to get well placed in the top reputed companies through the sedulous effort of the placement cell of VJCET in association with the dynamic Alumni Association."
   };
   Features6 = {
     instanceID: "Features6",
-    title: "Students actively take part in technical clubs like Drone Club, Robotic Club etc where they can exhibit their talents and ideas."
+    title: "•	The students become proficient in their professional skills through the active participation in various professional bodies like ISTE, IEEE, CSI, Department Associations etc., of the college."
   };
   Features7 = {
     instanceID: "Features7",
-    title: "Students play active role in various professional bodies like ISTE, IEEE, IETE student chapters of the college."
+    title: "•	The department constantly organises events such as External Seminars, Symposiums, Short Term Training Programs by industrial experts and Faculty Development Programs to inculcate novel ideas, industrial exposure and to get connected with like-minded enthusiasts in AI."
   };
   Features8 = {
     instanceID: "Features8",
-    title: "The department consistently organizes External Seminars and Symposiums, Internal Seminars, Short Term Training Programs, Faculty Development Programs sponsored by AICTE - ISTE."
+    title: "•	Computer Society of India (CSI) student branch won the ‘Best Accredited Student Branch’ for the last four consecutive years."
+  };
+  Features9 = {
+    instanceID: "Features9",
+    title: "•	Collaborated with Senior Experten Service (SES) Germany for knowledge sharing in an international interdisciplinary platform."
   };
   render() {
     return (
@@ -52,7 +56,6 @@ class Profile extends Component {
           <p><BodyOneJustified data={this.Features5} /></p>
           <p><BodyOneJustified data={this.Features6} /></p>
           <p><BodyOneJustified data={this.Features7} /></p>
-          <p><BodyOneJustified data={this.Features8} /></p>
         </div>
       </div>
     );

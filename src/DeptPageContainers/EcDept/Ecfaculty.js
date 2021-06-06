@@ -105,7 +105,7 @@ class Faculty extends Component {
     image: "Allstaffphoto/EC/FAC/154.jpg",
     width: "50%",
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ECFAC118" target="_blank" rel="noopener noreferrer">Mrs. Sani John</a>,
-    content: "Assistant Professor"
+    content: "Assistant Professor(on Leave-Ph.D)"
   };
   Cefaculty18 = {
     instanceID: "Cefaculty18",
@@ -133,7 +133,7 @@ class Faculty extends Component {
     image: "Allstaffphoto/EC/FAC/158.jpg",
     width: "50%",
     name:  <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ECFAC122" target="_blank" rel="noopener noreferrer">Mrs. Rose Mary Kuruvithadam</a>,
-    content: "Assistant Professor(On Leave)"
+    content: "Assistant Professor(on Leave-Ph.D)"
   };
   
   Cefaculty22 = {
@@ -168,8 +168,8 @@ class Faculty extends Component {
     instanceID: "Cefaculty26",
     image: "Allstaffphoto/EC/FAC/PriyaGL.jpeg",
     width: "50%",
-    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ECFAC123" target="_blank" rel="noopener noreferrer">Mrs. Priya G L(on Leave-Ph.D)</a>,
-    content: "Assistant Professor"
+    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ECFAC123" target="_blank" rel="noopener noreferrer">Mrs. Priya G L</a>,
+    content: "Assistant Professor(on Leave-Ph.D)"
   };
   Cefaculty27 = {
     instanceID: "Cefaculty27",

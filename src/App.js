@@ -21,6 +21,7 @@ import csi from "./CampusLifePageContainers/ProfessionalBodies/csi";
 import iete from "./CampusLifePageContainers/ProfessionalBodies/iete";
 import igbc from "./DeptPageContainers/CeDept/Profbodies";
 import sea from "./CampusLifePageContainers/ProfessionalBodies/saeindia";
+import AIdepartment from "./Pages/Departments/artificial";
 import CsDepartment from "./Pages/Departments/csdepartment";
 import EeeDepartment from "./Pages/Departments/eeedepartment";
 import EcDepartment from "./Pages/Departments/ecdepartment";
@@ -105,7 +106,7 @@ class App extends Component {
         },
         Ceheading: {
           instanceID: "Ceheading",
-          title: "Salient Features:"
+          title: ""/*Salient Features:*/
         },
         Features: [
           {
@@ -747,8 +748,8 @@ class App extends Component {
               <Route exact path="/campus-life/professionalbodies/iete" component={iete} />
               <Route exact path="/campus-life/professionalbodies/ict" component={Ict} />
 
-              <Route exact path="/notifications" component={NotiPage} />
-
+              <Route exact path="/notifications" component={NotiPage} /> 
+              <Route exact path="/departments/aid" component={AIdepartment} />
               <Route exact path="/departments/cse" component={CsDepartment} />
               <Route exact path="/departments/ce" ><Department data={this.ceProps} /></Route>
               <Route exact path="/departments/admin" component={Admin} />

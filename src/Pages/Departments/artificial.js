@@ -5,11 +5,14 @@ import Header from "../../Components/Header&Footer/Header";
 import Footer from "../../Components/Header&Footer/Footer";
 import MenuOverlay from "../../Components/MenuOverlay/MenuOverlay";
 import HeadingOne from "../../Components/Texts/HeadingOne";
-//import BodyOne from "../../Components/Texts/BodyOne";
-//import ImageOne from "../../Components/Images/ImageOne";
-import SideNav from "../../DeptPageContainers/Admin/SideNav";
+import ImageOne from "../../Components/Images/ImageOne";
+import SideNav from "../../DeptPageContainers/AdDept/SideNav";
 
-class AdminDepartment extends Component {
+
+
+
+
+class CsDepartment extends Component {
   state = { showMenu: false };
 
   openMenu = () => {
@@ -56,17 +59,17 @@ class AdminDepartment extends Component {
   };
   HeadingSectionTitle = {
     instanceID: "Headingtext",
-    title: "Department of Administration"
+    title: "ARTIFICIAL INTELLIGENCE AND DATA SCIENCE"
   };
 
   HeadingSectionDescription = {
     instanceID: "HeadingSectionDescription",
-    title: " "
+    title: ""
   };
   CseImg = {
     instanceID: "CseImg",
     image: "DepBannerImages/aid.jpg",
-    width: "100%"
+    width: "95%"
   };
 
   ProfileHeading = {
@@ -87,14 +90,14 @@ class AdminDepartment extends Component {
     return (
       <div className="HomePage">
         <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
-        <HeadingOne data={this.HeadingSectionTitle} />
-          
-       {/*  <BodyOne data={this.HeadingSectionDescription} /> */}
-        {/* <ImageOne data={this.CseImg} /> */}
-        <div>
-
-          <SideNav />
+        <div className="CsHeadingSection">
+          <HeadingOne data={this.HeadingSectionTitle} />
+          {/*<BodyOne data={this.HeadingSectionDescription} />
+          <h2>Debugging the possibilities through intelligence</h2>*/}
+          <ImageOne data={this.CseImg} /> 
+             
         </div>
+        <SideNav />
         <Footer data={this.HomePageFooter} />
         {this.state.showMenu ? (
           <MenuOverlay closeMenuFunction={this.closeMenu} />
@@ -106,4 +109,4 @@ class AdminDepartment extends Component {
   }
 }
 
-export default AdminDepartment;
+export default CsDepartment;

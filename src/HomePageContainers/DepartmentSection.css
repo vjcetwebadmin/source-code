@@ -41,7 +41,8 @@
       "one two"
       "three four"
       "five six"
-      "seven eight";
+      "seven eight"
+      "nine";
 
   
   }
@@ -89,6 +90,10 @@
     grid-area: eight;
   }
 
+  #DepartmentListNine {
+    grid-area: nine;
+  }
+
   #DepartmentSectionTitle h1 {
     margin: 0px;
     padding-top: 0%;
@@ -115,6 +120,7 @@
       "three title four"
       "five subtitle six"
       "seven subtitle eight";
+    
   
   }
 

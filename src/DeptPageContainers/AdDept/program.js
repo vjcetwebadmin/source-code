@@ -10,37 +10,20 @@ class Program extends Component {
   ProgramDescriptionOne = {
     instanceID: "ProgramDescriptionOne",
     title:
-      "Department is in process of establishment of Center of Excellence in the fields like Electronics & Communication Engineering, VLSI and Embedded Systems."
+      "Department of Computer Science and Engineering is offering both Under graduate and Post graduate courses in Computer Science and Engineering. The total intake in Undergraduate course is 120 per batch and for Post graduation 18 per batch."
   };
   ProgramDescriptionTwo = {
     instanceID: "ProgramDescriptionTwo",
     title:
-      "Dept. offers both undergraduate (B. Tech.) and postgraduate (M. Tech.) programs. "
+      "The Under Graduate program started in the year 2001 with an intake of 60 students per batch. Later in July 2007 the intake is amplified to 120 students per batch. In the year 2010 Postgraduate program in Computer Science and Engineering with an intake of 18 students per batch has started. The Department is accredited by National Board of Accreditation (NBA) of AICTE in June 2010. Also the Department applied for NBA accreditation in 2017 and is accredited by NBA on July 2018 for three years."
   };
-  ProgramDescriptionThree = {
-    instanceID: "ProgramDescriptionThree",
-    title:
-      "The annual intake of the B. Tech. program is 60 students and that of the M. Tech. is 24."
-  };
-  ProgramDescriptionFour = {
-    instanceID: "ProgramDescriptionFour",
-    title:
-      "The department has around 420 students and about 32 teaching staff and 8 non teaching staffs. "
-  };
-  ProgramDescriptionFive = {
-    instanceID: "ProgramDescriptionFive",
-    title:
-      " With technology becoming all pervasive in everyday life, opportunities for electronic engineers are endless. The ECE department at VJCET prepares students for careers in this constantly evolving discipline."
-  };
+
   render() {
     return (
       <div className="Program" id="program">
         <HeadingOne data={this.ProgramHeading} />
         <Bodythree data={this.ProgramDescriptionOne} />
         <Bodythree data={this.ProgramDescriptionTwo} />
-        <Bodythree data={this.ProgramDescriptionThree} />
-        <Bodythree data={this.ProgramDescriptionFour} />
-        <Bodythree data={this.ProgramDescriptionFive} />
       </div>
     );
   }

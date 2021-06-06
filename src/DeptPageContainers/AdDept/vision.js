@@ -11,7 +11,7 @@ class Vision extends Component {
   VisionDescription = {
     instanceID: "VisionDescription",
     title:
-      "Moulding Electronics Engineers with Professional Competence and Global outlook"
+      "Moulding socially responsible and professionally competent Computer Engineers to adapt to the dynamic technological landscape"
   };
   MissionHeading = {
     instanceID: "MissionHeading",
@@ -20,23 +20,19 @@ class Vision extends Component {
   MissionListOne = {
     instanceID: "MissionListOne",
     title:
-      "1.  To create a vibrant academic ambience conducive for progressive learning"
+      "1.	Foster the principles and practices of computer science to empower life-long learning and   build careers in software and hardware development."
   };
   MissionListTwo = {
     instanceID: "MissionListTwo",
     title:
-      "2.  Build up excellent infrastructure and lab facilities to train the students in the current & emerging technology."
+      "2.  Impart value education to elevate students to be successful, ethical and effective problem-solvers to serve the needs of the industry, government, society and the scientific community."
   };
   MissionListThree = {
     instanceID: "MissionListThree",
     title:
-      "3.  Maintain well qualified faculty who are willing to upgrade their knowledge continuously."
+      "3.  Promote industry interaction to pursue new technologies in Computer Science and provide excellent infrastructure to engage faculty and students in scholarly research activities."
   };
-  MissionListFour = {
-    instanceID: "MissionListFour",
-    title:
-      "4.  Groom students towards successful careers by facilitating industry-institute relationships and value addition through regular skill-development programmes"
-  };
+
   render() {
     return (
       <div>
@@ -49,7 +45,6 @@ class Vision extends Component {
           <Bodythree data={this.MissionListOne} />
           <Bodythree data={this.MissionListTwo} />
           <Bodythree data={this.MissionListThree} />
-          <Bodythree data={this.MissionListFour} />
         </div>
       </div>
     );

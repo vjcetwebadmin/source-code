@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import ECFaculty from "./Ecfaculty";
-import ECStaff from "./Ecstaff";
+import CSFaculty from "./Csfaculty";
+import CSStaff from "./Csstaff";
 class FacultyNav extends Component {
   state = {
     showfaculty: true,
@@ -34,8 +34,8 @@ class FacultyNav extends Component {
           onClick={this.OnClickStaff}
         />
         <div class="FacultyNavContent">
-          {this.state.showfaculty ? <ECFaculty /> : null}
-          {this.state.showstaff ? <ECStaff /> : null}
+          {this.state.showfaculty ? <CSFaculty /> : null}
+          {this.state.showstaff ? <CSStaff /> : null}
         </div>
       </div>
     );

@@ -1,712 +1,313 @@
 import React, { Component } from "react";
 import HeadingOne from "../../Components/Texts/HeadingOne";
-
 import HeadingTwo from "../../Components/Texts/HeadingTwo";
+/* import Bodythree from "../../Components/Texts/BodyThree"; */
+import ImageOne from "../../Components/Images/ImageOne";
 import "../../Components/Tables/tableformat.css";
-class Labs extends Component {
+class Library extends Component {
   state = {};
-  DeptLibHeading = {
-    instanceID: "DeptLibHeading",
+  DeptLabHeading = {
+    instanceID: "DeptLabHeading",
     title: "Department Labs"
   };
-  DeptLibHeading = {
-    instanceID: "DeptLibHeading",
-    title: "Department Labs"
+  AdvdatabaseLabHeading = {
+    instanceID: "AdvdatabaseLabHeading",
+    title: "Advanced Operating System & Database Lab"
   };
-  ICLabHeading = {
-    instanceID: "ICLabHeading",
-    title: "INTEGRATED CIRCUITS LAB"
+  AdvdatabaseLabImagedata = {
+	instanceID: "AdvdatabaseLabImage",
+	image: "DepartmentImages/CS/LABS/DBMSLAB.JPG",
+	width: "80%"
+}
+  PGProjLabHeading = {
+    instanceID: "PGProjLabHeading",
+    title: "PG Project Lab"
   };
-  MCLabHeading = {
-    instanceID: "MCLabHeading",
-    title: "MICROCONTROLLER & SYSTEMS LAB"
+  PGProjLabImagedata = {
+	instanceID: "PGProjLabImage",
+	image: "DepartmentImages/CS/LABS/PGPROJLAB.JPG",
+	width: "80%"
+}
+  ProjectLabHeading = {
+    instanceID: "ProjectLabHeading",
+    title: "Project Lab(UG)"
   };
-  COMMLabHeading = {
-    instanceID: "COMMCLabHeading",
-    title: "COMMUNICATION LAB-1"
+  ProjLabImagedata = {
+	instanceID: "ProjLabImage",
+	image: "DepartmentImages/CS/LABS/PROJECTLAB.JPG",
+	width: "80%"
+}
+  NWLabHeading = {
+    instanceID: "NWLabHeading",
+    title: "Network Systems Lab"
   };
-  ProjLabHeading = {
-    instanceID: "ProjLabHeading",
-    title: "Project Lab"
+  NWImagedata = {
+	instanceID: "NWLabImage",
+	image: "DepartmentImages/CS/LABS/NWLAB.JPG",
+	width: "80%"
+}
+  MMLabHeading = {
+    instanceID: "MMLabHeading",
+    title: "Multimedia Lab"
   };
-  CircLabHeading = {
-    instanceID: "CircLabHeading",
-    title: "CIRCUITS LAB-I"
+  MMImagedata = {
+	instanceID: "MMLabImage",
+	image: "DepartmentImages/CS/LABS/MMLAB.JPG",
+	width: "80%"
+}
+  HWLabHeading = {
+    instanceID: "HWLabHeading",
+    title: "Hardware Lab"
   };
-  Comm2LabHeading = {
-    instanceID: "Comm2LabHeading",
-    title: "COMMUNICATION LAB-II"
+  HWImagedata = {
+	instanceID: "HWLabImage",
+	image: "DepartmentImages/CS/LABS/HWLAB.JPG",
+	width: "80%"
+}
+  MPLabHeading = {
+    instanceID: "MPLabHeading",
+    title: "Microprocessor Lab"
   };
-  Cir2LabHeading = {
-    instanceID: "Cir2LabHeading",
-    title: "CIRCUITS LAB II"
+  MPImagedata = {
+	instanceID: "MPLabImage",
+	image: "DepartmentImages/CS/LABS/MPLAB.JPG",
+	width: "80%"
+}
+  DeptLibDescriptionOne = {
+    instanceID: "DeptLibDescriptionOne",
+    title:
+      "The Department of Computer Science and Engineering maintains a books enriched library where its primary aim is to support the student of the institution for education.  The Library was established in 2006.  The library has a collection of more than 600 books. Besides books the Library possesses B.Tech project and seminar reports, Monographs, Lab Manuals, Question papers, CD-ROMs, Internet facility. The departmental library serve the academic disciplines bearing their names. "
   };
-  EmbdLabHeading = {
-    instanceID: "EmbdLabHeading",
-    title: "EMBEDDED SYSTEM LAB"
+  DeptLibDescriptionTwo = {
+    instanceID: "DeptLibDescriptionTwo",
+    title:
+      "The collection is strong in all aspects with special strengths in C programming, Software Engineering, Automata Theory, System Programming, Computer Architecture and Organization, Data Structures, Microprocessors, Database Management System and also books on  Digital Electronics, Humanities, Management."
   };
+  DeptLibDescriptionThree = {
+    instanceID: "DeptLibDescriptionThree",
+    title:
+      "It has a carpet area of about 500 square feet. The library opens from 8.45 a.m. to 4.30 p.m. except Saturdays and Sundays. The library collection is arranged subject-wise. The library is maintaining records of all Purchased/Donated books, CDS, Seminar Reports/Project Reports/Magazines/Monographs/Lab Manual/Previous Year Question Papers. Members can search and view the status (Available/Not Available) of each searched item through the software.  The library is also maintaining all Issue/Deposit/Fine reports and it will be periodically updates at the end of each semesters."
+  };
+
   render() {
     return (
       <div className="DeptLibrary" id="dept-library">
-        <HeadingOne data={this.DeptLibHeading} />
-        <HeadingTwo data={this.ICLabHeading} />
-        <table id="tableformat">
+        <HeadingOne data={this.DeptLabHeading} />
+      <div>
+        <HeadingTwo data={this.AdvdatabaseLabHeading} />
+		<ImageOne data={this.AdvdatabaseLabImagedata} />
+        
+       <table id="tableformat">
 	      <tbody>
 		      <tr>
-          <th>#</th><th>Equipment Name</th><th>Make</th><th>Specification</th><th>Quantity</th>
+	          	<td>Lab code</td>
+		          <td>PG Lab 1</td>
 	       </tr>
-         <tr>
-           <td>1</td>
-           <td>Digital IC Trainer Kit</td>
-           <td>Scientific Tech</td>
-           <td></td>
-           <td>12</td>
-         </tr>
-         <tr>
-           <td>2</td>
-           <td>CRO</td>
-           <td>Aplab</td>
-           <td>30MHz</td>
-           <td>4</td>
-         </tr>
-         <tr>
-           <td>3</td>
-           <td>CRO</td>
-           <td>EZ</td>
-           <td>30MHz</td>
-           <td>6</td>
-         </tr>
-         <tr>
-           <td>4</td>
-           <td>CRO</td>
-           <td>Scientech</td>
-           <td>20MHz</td>
-           <td>2</td>
-         </tr>
-         <tr>
-           <td>5</td>
-           <td>Function Generator</td>
-           <td>Aplab</td>
-           <td>MSG2M</td>
-           <td>10</td>
-         </tr>
-         <tr>
-           <td>6</td>
-           <td>Function Generator</td>
-           <td>Aplab</td>
-           <td>FG1M</td>
-           <td>1</td>
-         </tr>
-         <tr>
-           <td>7</td>
-           <td>Function Generator</td>
-           <td>Aplab</td>
-           <td>2011A</td>
-           <td>6</td>
-         </tr>
-         <tr>
-           <td>8</td>
-           <td>Function Generator</td>
-           <td>Scientech</td>
-           <td>Scientech</td>
-           <td>5</td>
-         </tr>
-         <tr>
-           <td>9</td>
-           <td>Variable Power Supply</td>
-           <td>Scientific Tech</td>
-           <td>STVD3001</td>
-           <td>9</td>
-         </tr>
-         <tr>
-           <td>10</td>
-           <td>Fixed Power Supply</td>
-           <td>Spectrum</td>
-           <td>SPS-8031</td>
-           <td>2</td>
-         </tr>
-         <tr>
-           <td>11</td>
-           <td>Fixed Power Supply</td>
-           <td>Spectrum</td>
-           <td>SPS-8057</td>
-           <td>6</td>
-         </tr>
-         <tr>
-           <td>12</td>
-           <td>Rheostat</td>
-           <td>Stead</td>
-           <td></td>
-           <td>7</td>
-         </tr>
-         <tr>
-           <td>13</td>
-           <td>Multimeter</td>
-           <td>KusamMeco</td>
-           <td></td>
-           <td>5</td>
-         </tr>
-         <tr>
-           <td>14</td>
-           <td>Multimeter</td>
-           <td>Classic</td>
-           <td>LCR</td>
-           <td>1</td>
-         </tr>
-         <tr>
-           <td>15</td>
-           <td>Multimeter</td>
-           <td>Classic</td>
-           <td>LCR</td>
-           <td>1</td>
-         </tr>
-         <tr>
-           <td>16</td>
-           <td>Multimeter</td>
-           <td>Metravi</td>
-           <td></td>
-           <td>1</td>
-         </tr>
-         <tr>
-           <td>17</td>
-           <td>Computer</td>
-           <td>Dell</td>
-           <td>Optiplex 3010</td>
-           <td>1</td>
-         </tr>
-         <tr>
-           <td>18</td>
-           <td>LVDT Trainer kit</td>
-           <td>Unitech Banglore</td>
-           <td></td>
-           <td>3</td>
-         </tr>
-         <tr>
-           <td>19</td>
-           <td>Unitech Banglore</td>
-           <td></td>
-           <td></td>
-           <td>3</td>
-         </tr>
-         <tr>
-           <td>20</td>
-           <td>Strain Measurement Trainer Kit</td>
-           <td>Unitech scales</td>
-           <td></td>
-           <td>3</td>
-         </tr>
-         <tr>
-           <td>21</td>
-           <td>Strain Gage</td>
-           <td>Unitech scales</td>
-           <td></td>
-           <td>3</td>
-         </tr>
-         <tr>
-           <td>22</td>
-           <td>Pressure Measurement Trainer Kit</td>
-           <td></td>
-           <td>UITM 05</td>
-           <td>3</td>
-         </tr>
-         <tr>
-           <td>23</td>
-           <td>Pressure Measurement setup</td>
-           <td></td>
-           <td>UPD-210</td>
-           <td>3</td>
-         </tr>
-         <tr>
-           <td>24</td>
-           <td>Air Pump</td>
-           <td></td>
-           <td></td>
-           <td>3</td>
-         </tr>
-         
+	       <tr>
+		          <td>No of systems/ capacity</td>
+		          <td>35</td>
+	       </tr>
+	       <tr>
+		          <td>Configuration</td>
+	        	  <td>HP DX2480  Intel Core2Duo Processor 2 GB DDR2 RAM , 250 GB Sata HDD</td>
+	       </tr>
+	       <tr>
+	        	  <td>Licensed software using</td>
+		          <td>Window 7, Java, Matlab, Developer C, Ubuntu</td>
+	      </tr>	
       	</tbody>
       </table>
-      <HeadingTwo data={this.MCLabHeading} />
-      <table id="tableformat">
-      <tbody>
+      </div>
+      <div>
+        <HeadingTwo data={this.PGProjLabHeading} />
+		<ImageOne data={this.PGProjLabImagedata} />
+        
+       <table id="tableformat">
+	      <tbody>
 		      <tr>
-          <th>#</th><th>Equipment Name</th><th>Make</th><th>Specification</th><th>Quantity</th>
+	          	<td>Lab code</td>
+		          <td>PG Project Lab</td>
+	       </tr>
+	       <tr>
+		          <td>No of systems/ capacity</td>
+		          <td>40</td>
+	       </tr>
+	       <tr>
+		          <td>Configuration</td>
+	        	  <td>HP Compaq DX3090 MT Intel Core2Duo Processor 2 GB DDR2 RAM , 250 GB Sata HDD</td>
+	       </tr>
+	       <tr>
+	        	  <td>Licensed software using</td>
+		          <td>Window 7, Ubuntu, Phython, Java, Visual Studio 2008, Oracle 9i, Perl 5.26, Developer C</td>
+	      </tr>	
+      	</tbody>
+      </table>
+      </div>
+      <div>
+        <HeadingTwo data={this.ProjectLabHeading} />
+        <ImageOne data={this.ProjLabImagedata} />
+       <table id="tableformat">
+	      <tbody>
+		      <tr>
+	          	<td>Lab code</td>
+		          <td>Project Lab</td>
+	       </tr>
+	       <tr>
+		          <td>No of systems/ capacity</td>
+		          <td>35</td>
 	       </tr>
          <tr>
-           <td>1</td>
-           <td>Computer</td>
-           <td>HP</td>
-           <td>
-             <li>22 X Core i3</li>
-             <li>20 X Core i5</li>
-             <li>4 X dx 7400</li>
-           </td>
-           <td>36</td>
-         </tr>
-         <tr>
-           <td>2</td>
-           <td>DSP</td>
-           <td>Vi Micro</td>
-           <td>TMS 32016748</td>
-           <td>4</td>
-         </tr>
-         <tr>
-           <td>3</td>
-           <td>Microcontroller 8051 kitv</td>
-           <td>Vi Micro</td>
-           <td></td>
-           <td>13</td>
-         </tr>
-         <tr>
-           <td>4</td>
-           <td>Microcontroller 8055 kit</td>
-           <td>Vi Micro</td>
-           <td></td>
-           <td>16</td>
-         </tr>
-         <tr>
-           <td>5</td>
-           <td>PAL/GAL trainer kit</td>
-           <td>Silicon Micro Systems</td>
-           <td></td>
-           <td>2</td>
-         </tr>
-         <tr>
-           <td>6</td>
-           <td>LCD Projector</td>
-           <td>Hitachi</td>
-           <td></td>
-           <td>1</td>
-         </tr>
-         <tr>
-           <td>7</td>
-           <td>CRO</td>
-           <td>Aplab</td>
-           <td>30MHz</td>
-           <td>4</td>
-         </tr>
-         <tr>
-           <td>8</td>
-           <td>Microprocessor 8086</td>
-           <td>Vi Micro</td>
-           <td></td>
-           <td>1</td>
-         </tr>
-         <tr>
-           <td>9</td>
-           <td>89C51 Micro Controller Development Board</td>
-           <td>Vi Micro</td>
-           <td>Vput -01</td>
-           <td>1</td>
-         </tr>
-         </tbody>
-        </table>
-        <HeadingTwo data={this.COMMLabHeading} />
-        <table id="tableformat">
-      <tbody>
+		          <td>Configuration</td>
+	        	  <td>29 X DELL 54JIT72, INTEL CORE i5 PROCESSOR, 4 GB RAM, 500 GB HDD</td>
+	       </tr>
+	       <tr>
+		          <td>Configuration</td>
+	        	  <td>6 X HP 280 GI MT BUSINESS PC INTEL i5 PROCESSOR,4 GB RAM,1 TB HDD</td>
+	       </tr>
+	       <tr>
+	        	  <td>Licensed software using</td>
+		          <td>Window 7, .Net 2008, SQL Server 2008, Developer C, Perl 5.26</td>
+	      </tr>	
+      	</tbody>
+      </table>
+      </div>
+      <div>
+        <HeadingTwo data={this.NWLabHeading} />
+        <ImageOne data={this.NWImagedata} />
+       <table id="tableformat">
+	      <tbody>
 		      <tr>
-          <th>#</th><th>Equipment Name</th><th>Make</th><th>Specification</th><th>Quantity</th>
+	          	<td>Lab code</td>
+		          <td>NW Lab</td>
+	       </tr>
+	       <tr>
+		          <td>No of systems/ capacity</td>
+		          <td>33</td>
 	       </tr>
          <tr>
-           <td>1</td>
-           <td>DSO</td>
-           <td>AGILENT</td>
-           <td>70 MHz,1GSa/s</td>
-           <td>12</td>
-         </tr>
-         <tr>
-           <td>2</td>
-           <td>Function Generator</td>
-           <td>Anshuman</td>
-           <td>2 MHz</td>
-           <td>15</td>
-         </tr>
-         <tr>
-           <td>3</td>
-           <td>Power Supply</td>
-           <td>Spectrum</td>
-           <td>15 v ,Fixed</td>
-           <td>2</td>
-         </tr>
-         <tr>
-           <td>4</td>
-           <td>Power Supply</td>
-           <td>Scientific Tech</td>
-           <td>(0-30)v, Variable</td>
-           <td>20</td>
-         </tr>
-         <tr>
-           <td>5</td>
-           <td>Inductance Box</td>
-           <td>ADD</td>
-           <td>1mH - 1H, 100 microH -900mH</td>
-           <td>20</td>
-         </tr>
-         <tr>
-           <td>6</td>
-           <td>IC Tester</td>
-           <td>Minimax</td>
-           <td>Linear</td>
-           <td>1</td>
-         </tr>
-         <tr>
-           <td>7</td>
-           <td>Multimeter</td>
-           <td>Meco</td>
-           <td></td>
-           <td>1</td>
-         </tr>
-         <tr>
-           <td>8</td>
-           <td>Series Universal Programmer</td>
-           <td>Superpro</td>
-           <td></td>
-           <td>1</td>
-         </tr>
-         
-         </tbody>
-        </table>
-        <HeadingTwo data={this.ProjLabHeading} />
-        <table id="tableformat">
-      <tbody>
-		      <tr>
-          <th>#</th><th>Equipment Name</th><th>Make</th><th>Specification</th><th>Quantity</th>
+		          <td>Configuration</td>
+	        	  <td>HP ELITE T100 MT INTEL i3 3.2 GH, 2 GB RAM ,250 GB HDD</td>
 	       </tr>
-         <tr>
-           <td>1</td>
-           <td>DC POWER SUPPLY</td>
-           <td>Scientific Tech</td>
-           <td>(0-30)V, Variable</td>
-           <td>5</td>
-         </tr>
-         <tr>
-           <td>2</td>
-           <td>FUNCTION GENERATOR</td>
-           <td>ANSHUMAN</td>
-           <td>2MHz</td>
-           <td>3</td>
-         </tr>
-         <tr>
-           <td>3</td>
-           <td>DSO</td>
-           <td>Tektronix</td>
-           <td>TDS 2002 B,60MHz,1 GS/s</td>
-           <td>1</td>
-         </tr>
-         <tr>
-           <td>4</td>
-           <td>CRO</td>
-           <td>Aplab Scientific</td>
-           <td>20MHz</td>
-           <td>3</td>
-         </tr>
-         <tr>
-           <td>5</td>
-           <td>DIGITAL IC TRAINER KIT</td>
-           <td>Scientific Tech</td>
-           <td></td>
-           <td>1</td>
-         </tr>
-         <tr>
-           <td>6</td>
-           <td>COMPUTER</td>
-           <td>HP</td>
-           <td>Intel Core 2 Duo 2 .93GHz, 3GB</td>
-           <td>3</td>
-         </tr>
-         
-         </tbody>
-        </table>
-        <HeadingTwo data={this.CircLabHeading} />
-        <table id="tableformat">
-      <tbody>
+	       <tr>
+	        	  <td>Licensed software using</td>
+		          <td>Windows 7, .Oracle, C and Java , Developer C, Perl 5.26</td>
+	      </tr>	
+      	</tbody>
+      </table>
+      </div>
+	  <div>
+        <HeadingTwo data={this.MMLabHeading} />
+        <ImageOne data={this.MMImagedata} />
+       <table id="tableformat">
+	      <tbody>
 		      <tr>
-          <th>#</th><th>Equipment Name</th><th>Make</th><th>Specification</th><th>Quantity</th>
+	          	<td>Lab code</td>
+		          <td>MM Lab</td>
 	       </tr>
-         <tr>
-           <td>1</td>
-           <td>DSO</td>
-           <td>Tektronix</td>
-           <td>40MHz,500MS/s</td>
-           <td>10</td>
-         </tr>
-         <tr>
-           <td>2</td>
-           <td>Function Generator</td>
-           <td>Aplab</td>
-           <td>2MHz</td>
-           <td>15</td>
-         </tr>
-         <tr>
-           <td>3</td>
-           <td>Power Supply</td>
-           <td>Scientific Tech</td>
-           <td>(0-30)v, Variable</td>
-           <td>12</td>
-         </tr>
-         <tr>
-           <td>4</td>
-           <td>Multimeter</td>
-           <td>Classic 333</td>
-           <td>LCR</td>
-           <td>2</td>
-         </tr>
-         <tr>
-           <td>5</td>
-           <td>Voltmeter</td>
-           <td>Nippen, Meco</td>
-           <td>(0-1)v,(0-5)v,(0-10)v</td>
-           <td>25</td>
-         </tr>
-         <tr>
-           <td>6</td>
-           <td>Ammeter</td>
-           <td>Nippen, Meco</td>
-           <td>(0-1)mA,(0-10)mA,(0-100)mA</td>
-           <td>25</td>
-         </tr>
-         <tr>
-           <td>7</td>
-           <td>Rheostat</td>
-           <td>Stead</td>
-           <td>1000 OHMS, 0.5A</td>
-           <td>15</td>
-         </tr>
-         <tr>
-           <td>8</td>
-           <td>Inductance Box</td>
-           <td>ADD</td>
-           <td>1mH - 1H, 100 microH -900mH</td>
-           <td>10</td>
-         </tr>
-         <tr>
-           <td>9</td>
-           <td>Computer</td>
-           <td>HP</td>
-           <td>Intel Core2 Duo 2.93 GHz</td>
-           <td>1</td>
-         </tr>
-         </tbody>
-        </table>
-        <HeadingTwo data={this.Comm2LabHeading} />
-        <table id="tableformat">
-      <tbody>
-		      <tr>
-          <th>#</th><th>Equipment Name</th><th>Make</th><th>Specification</th><th>Quantity</th>
+	       <tr>
+		          <td>No of systems/ capacity</td>
+		          <td>36</td>
 	       </tr>
-         <tr>
-           <td>1</td>
-           <td>DSO</td>
-           <td>Tektronix</td>
-           <td>TDS 2002 B,60MHz,1GS/s</td>
-           <td>10</td>
-         </tr>
-         <tr>
-           <td>2</td>
-           <td>Function Generator</td>
-           <td>Anshuman</td>
-           <td>2MHz</td>
-           <td>16</td>
-         </tr>
-         <tr>
-           <td>3</td>
-           <td>Power Supply</td>
-           <td>Scientific Tech</td>
-           <td>(0-30)V, Variable</td>
-           <td>12</td>
-         </tr>
-         <tr>
-           <td>4</td>
-           <td>Microwave Training System</td>
-           <td>Scientific Tech</td>
-           <td></td>
-           <td>3</td>
-         </tr>
-         <tr>
-           <td>5</td>
-           <td>Antenna Trainer Kit</td>
-           <td>Scientech</td>
-           <td></td>
-           <td>1</td>
-         </tr>
-         <tr>
-           <td>6</td>
-           <td>Satelite Comm.Training System</td>
-           <td>Satcomm</td>
-           <td></td>
-           <td>1</td>
-         </tr>
-         <tr>
-           <td>7</td>
-           <td>Digital Comm. Lab Trainer</td>
-           <td>United Electrotech</td>
-           <td></td>
-           <td>8</td>
-         </tr>
-         <tr>
-           <td>8</td>
-           <td>Multimeter</td>
-           <td>Meco</td>
-           <td></td>
-           <td>1</td>
-         </tr>
-         <tr>
-           <td>9</td>
-           <td>Computer</td>
-           <td>ell Optiplex 3010</td>
-           <td>Intel Core i5 3.2GHz, 4GB RAM</td>
-           <td>15</td>
-         </tr>
-         <tr>
-           <td>10</td>
-           <td>Computer</td>
-           <td>Hp DX 7400</td>
-           <td>Intel Core 2 Duo 2.93GHz, 2GB RAM</td>
-           <td>2</td>
-         </tr>
-         <tr>
-           <td>11</td>
-           <td>Lab VIEW Software</td>
-           <td>National Instruments</td>
-           <td></td>
-           <td></td>
-         </tr>
-         
-         </tbody>
-        </table>
-        <HeadingTwo data={this.Cir2LabHeading} />
-        <table id="tableformat">
-      <tbody>
-		      <tr>
-          <th>#</th><th>Equipment Name</th><th>Make</th><th>Specification</th><th>Quantity</th>
+         	<tr>
+		          <td>Configuration</td>
+	        	  <td>30 X HP Pro-3090 MT Desktop , Intel Core2Duo 2.93 GHz 2 GB DDR3, 250 GB HDD</td>
+	       </tr><tr>
+		          <td>Configuration</td>
+	        	  <td>2 X HP COMPAQ dx 2700 Intel Core2  1.83 GHz 512 MB DDR2, 80 GB HDD</td>
 	       </tr>
-         <tr>
-           <td>1</td>
-           <td>CRO</td>
-           <td>Aplab</td>
-           <td>30MHz,Dual Channel</td>
-           <td>16</td>
-         </tr>
-         <tr>
-           <td>2</td>
-           <td>Function Generator</td>
-           <td>Aplab</td>
-           <td>2MHz</td>
-           <td>12</td>
-         </tr>
-         <tr>
-           <td>3</td>
-           <td>Power Supply</td>
-           <td>Scientific Tech</td>
-           <td>(0-30)V, Variable</td>
-           <td>9</td>
-         </tr>
-         <tr>
-           <td>4</td>
-           <td>Ammeter</td>
-           <td>Meco</td>
-           <td>(0-1)mA, (0-10)mA, (0-100)mA</td>
-           <td>15</td>
-         </tr>
-         <tr>
-           <td>5</td>
-           <td>Volt Meter</td>
-           <td>Meco</td>
-           <td>(0-1)V,(0-10)V</td>
-           <td>15</td>
-         </tr>
-         <tr>
-           <td>6</td>
-           <td>Rheostat</td>
-           <td>Stead</td>
-           <td>1000 OHMS, 0.5A</td>
-           <td>12</td>
-         </tr>
-         <tr>
-           <td>7</td>
-           <td>Multimeter</td>
-           <td>Vaa Tech</td>
-           <td></td>
-           <td>8</td>
-         </tr>
-         <tr>
-           <td>8</td>
-           <td>Computer</td>
-           <td>HP DX 7400</td>
-           <td>Intel Core 2 Duo 2.33GHz, 2GB RAM</td>
-           <td>2</td>
-         </tr>
-         <tr>
-           <td>9</td>
-           <td>IC Tester</td>
-           <td>Minimax</td>
-           <td>Linear</td>
-           <td>1</td>
-         </tr>
-         </tbody>
-        </table>
-        <HeadingTwo data={this.EmbdLabHeading} />
-        <table id="tableformat">
-      <tbody>
-		      <tr>
-          <th>#</th><th>Equipment Name</th><th>Make</th><th>Specification</th><th>Quantity</th>
+		   <tr>
+		          <td>Configuration</td>
+	        	  <td>2 X HP COMPAQ dx7400 MT- Intel Core2Duo 2.53 GHz 1 GB DDR2, 80 GB HDD</td>
 	       </tr>
-         <tr>
-           <td>1</td>
-           <td>Computer</td>
-           <td>HP</td>
-           <td>Intel core 2 Duo, 4GB</td>
-           <td>20</td>
-         </tr>
-         <tr>
-           <td>2</td>
-           <td>Computer</td>
-           <td>Dell</td>
-           <td>Intel core i5, 4GB</td>
-           <td>6</td>
-         </tr>
-         <tr>
-           <td>3</td>
-           <td>ARM 7</td>
-           <td>Big Technologies</td>
-           <td>LPC2129</td>
-           <td>1</td>
-         </tr>
-         <tr>
-           <td>4</td>
-           <td>ARM 9</td>
-           <td>Big Technologies</td>
-           <td>ARM 926EJS</td>
-           <td>3</td>
-         </tr>
-         <tr>
-           <td>5</td>
-           <td>Xilinx Software</td>
-           <td></td>
-           <td>12.4</td>
-           <td>15</td>
-         </tr>
-         <tr>
-           <td>6</td>
-           <td>DSP Kit</td>
-           <td>Spectrum Digital</td>
-           <td>TMS 320C6713</td>
-           <td>3</td>
-         </tr>
-         <tr>
-           <td>7</td>
-           <td>CPLD/FPGA</td>
-           <td>Advanced Electronics</td>
-           <td>XC3S50</td>
-           <td>3</td>
-         </tr>       
-         
-         </tbody>
-        </table>
+		   <tr>
+		          <td>Configuration</td>
+	        	  <td>2 X HP COMPAQ dx7400 MT- Intel Core2Duo 2.53 GHz 1 GB DDR2, 80 GB HDD</td>
+	       </tr>
 
+	       <tr>
+	        	  <td>Licensed software using</td>
+		          <td>Windows 7, Ubuntu, Oracle9i, Java , Developer C, Perl 5.26, NetBeans IDE, Eclipse, MySQL 5.5.8 </td>
+	      </tr>	
+      	</tbody>
+      </table>
+      </div>
+	  <div>
+	  <HeadingTwo data={this.HWLabHeading} />
+	  <ImageOne data={this.HWImagedata} />
+		<table id="tableformat">
+		   <tbody>
+			   <tr>
+				   <td>Lab code</td>
+				   <td>HW Lab</td>
+			</tr>
+			<tr>
+				   <td>No of systems/ capacity</td>
+				   <td>34</td>
+			</tr>
+		  <tr>
+				   <td>Configuration</td>
+				   <td>33 X Intel Core 2 Duo,  2 GB RAM DDR2, 250 GB HDD</td>
+			</tr>
+			<tr>
+				   <td>Configuration</td>
+				   <td>1 X HP Elite 7100 Intel Core i3 Processor, 2GB DDR3 RAM, 250 GB Sata HDD,</td>
+			</tr>
+			<tr>
+				   <td>Licensed software using</td>
+				   <td>Window 7, .Net 2008, SQL Server 2008, Developer C, Perl 5.26</td>
+		   </tr>	
+		   </tbody>
+	   </table>
+	   </div>
+	   <div>
+        <HeadingTwo data={this.MPLabHeading} />
+        <ImageOne data={this.MPImagedata} />
+       <table id="tableformat">
+	      <tbody>
+		      <tr>
+	          	<td>Lab code</td>
+		          <td>MP Lab </td>
+	       </tr>
+	       
+	       <tr>
+		          <td>Components</td>
+	        	  <td>
+					  
+						  <ol> 20 X MICROPROCESSOR KIT , MODEL - VI MICROSYSTEMS MICRO 85 EB </ol>
+						  <ol> 2 X DIGITALTO ANALOG CONVERTER INTERFACE BOARD , MODEL - VI MICROSYSTEMS</ol>
+						  <ol> 2 X ANALOG TO DIGITAL CONVERTER INTERFACE BOARD ,MODEL - VI MICROSYSTEMS</ol>
+						  <ol> 4 X TRAFFIC LIGHT CONTROLLER INTERFACE  BOARD , MODEL-  VI MICROSYSTEMS</ol>
+						  <ol> 3 X 8237 INTERFACE BOARD,  MODEL - VI MICROSYSTEMS</ol>
+						  <ol> 2 X MULTIPLEXER INTERFACE BOARD,  MODEL -  VI MICROSYSTEMS</ol>
+						  <ol> 2 X 8279 DISPLAY INTERFACE BOARD , MODEL –VI MICROSYSTEMS</ol>
+						  <ol> 2 X VGA CARD INTERFACE BOARD , MODEL – VI MICROSYSTEMS</ol>
+						  <ol> 3 X 8255 INTERFACE BOARD , MODEL – VI MICROSYSTEMS </ol>
+						  <ol> 10 X STEPPER MOTOR INTERFACE BOARD  WITH 5V, 1.8 DEGREE STEPPING MOTOR , VIMICROSYSTEMS</ol>
+						  <ol> EPROM PROGRAMMER CARD , MODEL – VI MICROSYSTEMS</ol>
+						  <ol> 8257 INTERFACE BOARD , MODEL – VI MICROSYSTEMS</ol>
+						  <ol> 2 X ELEVATOR SIMULATOR INTERFACE BOARD , MODEL – VI MICROSYSTEMS</ol>
+						  <ol> 14 POWER SUPPLY DC 30 V  </ol>
+						  <ol> 2 X WIRELESS ACCESS POINT , MODEL – LINKSYS WIRELESS – B </ol>
+						  <ol> 4 X QUICK PROG PROGRAMMER CARD   </ol>
+						  <ol> 5 X OCL DB87 RUNBOARD  </ol>
+						  <ol> GPS KIT WITH MOTHERBOARD </ol>
+						  <ol> GSM MODEM WITH ANTENNA</ol>
+						  <ol> 20 X MICROPROCESSOR KIT , MODEL VI MICROSYSTEMS </ol>
+	
+					  
+				   </td>
+	       </tr>
+	       
+      	</tbody>
+      </table>
+      </div>
+
+        {/* <Bodythree data={this.DeptLibDescriptionOne} />
+        <Bodythree data={this.DeptLibDescriptionTwo} />
+        <Bodythree data={this.DeptLibDescriptionThree} /> */}
       </div>
     );
   }
 }
 
-export default Labs;
+export default Library;

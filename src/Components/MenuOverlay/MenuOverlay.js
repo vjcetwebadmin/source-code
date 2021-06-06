@@ -281,6 +281,10 @@ class MenuOverlay extends Component {
                   Administration
               </Link>
               <div className="wseparator"></div>
+              <Link className="MenuOverlaySubLinks" to="/departments/aid">
+                  Artificial Intelligence and Data Science
+              </Link>
+              <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/departments/ce">
                   Civil Engineering
               </Link>

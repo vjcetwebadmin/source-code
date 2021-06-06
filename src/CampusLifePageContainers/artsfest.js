@@ -1,8 +1,6 @@
 import React from "react";
-
-
-
-
+import HeadingOne from "../Components/Texts/HeadingOne";
+import Bodythree from "../Components/Texts/BodyThree";
 import Header from "../Components/Header&Footer/Header";
 import Footer from "../Components/Header&Footer/Footer";
 import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
@@ -30,6 +28,15 @@ class artsfest extends React.Component {
         instanceID: "ArtsfestTitle",
         title: "Drishya 2019"
     };
+    ProfileHeading = {
+        instanceID: "ProfileHeading",
+        title: "DHRISHYA"
+      };
+      ProfileDescriptionOne = {
+        instanceID: "ProfileDescriptionOne",
+        title:
+          "Viswajyothi College of Engineering and Technology celebrates Dhrishya, the arts fest preferably every year. It promotes an awareness of the arts across the student community recognizing and supporting all feasible forms of creative expressions such as music, dance, creative writing and other virtual arts. Every engineering undergraduates as an individual is an artist who can use his/her potentials to entertain, create or build. Some may do it with a brush, a few with pen when others perform feats of entertainment. Dhrishya provides a common platform to showcase these intense modes of individualisms through inter-house competitions. Normally a cine Artist inaugurate the fest and there after the organizing committee members have a hectic time in coordinating different events due to the high spirit of students. Dhrishya definitely provides a welcome diversion highlighting our students creative drive and aspirations."
+      };
     
     EventContent1 = {
         instanceID: " EventContent1",
@@ -67,9 +74,9 @@ class artsfest extends React.Component {
             <React.Fragment>
                 
                 <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
-
-               <div class="gallery">
-                    
+                <HeadingOne data={this.ProfileHeading} />
+                 <Bodythree data={this.ProfileDescriptionOne} /> 
+               <div class="gallery">                    
                     <iframe src="https://vjcet.org/downloads/gallery/drishya.html" width="100%" height="500" title="Drishya" ></iframe>
                 </div>        
                

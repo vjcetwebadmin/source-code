@@ -222,7 +222,7 @@ class SideNav extends Component {
               class="button"
               onClick={this.onClickRes}
             />
-            <input
+            {/*<input
               value="Outreach Program"
               class="button"
               onClick={this.onClickOut}
@@ -231,7 +231,7 @@ class SideNav extends Component {
               value="Professional Bodies"
               class="button"
               onClick={this.onClickProf}
-            />
+            />*/}
 
           </div>
           <div class="dropdownD">

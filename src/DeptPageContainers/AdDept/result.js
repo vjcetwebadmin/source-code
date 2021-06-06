@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import EcGraph from "./LocalContainers/graph";
+import CsGraph from "./LocalContainers/graph";
 class Result extends Component {
   state = {};
   render() {
     return (
       <div>
         <p>
-          <EcGraph />
+          <CsGraph />
         </p>
       </div>
     );
