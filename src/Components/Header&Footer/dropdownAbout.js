@@ -92,6 +92,14 @@ class DropDownAb extends Component {
               Right To Information
             </Link>
           </p>
+          <p>
+            <Link
+              to="/codofc"
+              className="patch1"
+            >
+              Code of Conduct
+            </Link>
+          </p>
           {/*<p>
             <Link
               to="/about/annualrpt"

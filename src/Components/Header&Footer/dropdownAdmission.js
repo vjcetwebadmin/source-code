@@ -37,7 +37,8 @@ class DropDownAdm extends Component {
                 <div className="dropdown-content">
                     <p>
                         <a
-                            href="https://admission.vjcet.ac.in/"
+                            /*href="https://admission.vjcet.ac.in/"*/
+                            href="http://202.88.251.252:82/"
                             className="patch1"
                             target="_blank"
                             rel="noopener noreferrer"

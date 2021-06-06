@@ -88,7 +88,8 @@ class Header extends Component {
   Link4 = {
     instanceID: "HeaderLink4",
     title: "Admissions",
-    link: "https://admission.vjcet.ac.in/"
+    /*link: "https://admission.vjcet.ac.in/"*/
+    link:"http://202.88.251.252:82/"
   };
 
   Link5 = {
@@ -167,7 +168,7 @@ class Header extends Component {
         <Link to={this.Link13.link} id="Contactbtn">
             KEAM Mock Test
       </Link>
-          <a href="https://admission.vjcet.ac.in/">
+          <a href="http://202.88.251.252:82/">
             <div id="AdmissionImage">
               <div className="animcontent">
                 B.Tech Admission 2021
