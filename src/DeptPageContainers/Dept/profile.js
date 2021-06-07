@@ -18,14 +18,14 @@ class Profile extends Component {
       <div className="Profile" id="profile">
        {/*<div class="absolute">
           <p id="rcorners3" align="right"><font color="white">Way to go! 1st batch KTU-91.82% pass!</font></p>
-    </div>*/}
+    </div>
         <div >
           <p id="blankspace" align="right"></p>
 
-        </div>
-        <HeadingOne data={this.ProfileHeading} />
-        <Bodythree data={ProfileDescriptionOne} />
+        </div>*/}
+        <HeadingOne data={this.ProfileHeading} />        
         <div className="bodyContainer">
+        <BodyOneJustified data={ProfileDescriptionOne} />
           <HeadingTwo data={Ceheading} className="Heading" />
           {Features.map(feature => (
             <div>
