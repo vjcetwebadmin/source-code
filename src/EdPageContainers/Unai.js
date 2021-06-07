@@ -47,7 +47,7 @@ class Unai extends Component {
     }
     FoundationData = {
         instanceID: "Foundation",
-        title: "Viswajyothi College of Engineering and Technology has become a member of United Nations Academic Impact in June 2017. ASPIRE   chapter of VJCET started  functioning  from November 2017. The activities of   UNAI  were   coordinated  by the governing body consisting of faculty members and students from all the departments.  Governing body is led by Dr K K Rajan, Prof.EEE  and Dean III, the Chief  coordinator of UNAI.  "
+        title: "Viswajyothi College of Engineering and Technology has become a member of United Nations Academic Impact in June 2017. ASPIRE   chapter of VJCET started  functioning  from November 2017. The activities of   UNAI  were   coordinated  by the governing body consisting of faculty members and students from all the departments.  Governing body is led by Dr. K K Rajan, Prof.EEE  and Dean III, the Chief  coordinator of UNAI.  "
     }
     UnaivisionHeading = {
         instanceID: "UnaivisionHeading",

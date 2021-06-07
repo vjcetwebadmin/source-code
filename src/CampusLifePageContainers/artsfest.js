@@ -30,12 +30,12 @@ class artsfest extends React.Component {
     };
     ProfileHeading = {
         instanceID: "ProfileHeading",
-        title: "DHRISHYA"
+        title: "DRISHYA"
       };
       ProfileDescriptionOne = {
         instanceID: "ProfileDescriptionOne",
         title:
-          "Viswajyothi College of Engineering and Technology celebrates Dhrishya, the arts fest preferably every year. It promotes an awareness of the arts across the student community recognizing and supporting all feasible forms of creative expressions such as music, dance, creative writing and other virtual arts. Every engineering undergraduates as an individual is an artist who can use his/her potentials to entertain, create or build. Some may do it with a brush, a few with pen when others perform feats of entertainment. Dhrishya provides a common platform to showcase these intense modes of individualisms through inter-house competitions. Normally a cine Artist inaugurate the fest and there after the organizing committee members have a hectic time in coordinating different events due to the high spirit of students. Dhrishya definitely provides a welcome diversion highlighting our students creative drive and aspirations."
+          "Viswajyothi College of Engineering and Technology celebrates Drishya, the arts fest preferably every year. It promotes an awareness of the arts across the student community recognizing and supporting all feasible forms of creative expressions such as music, dance, creative writing and other virtual arts. Every engineering undergraduates as an individual is an artist who can use his/her potentials to entertain, create or build. Some may do it with a brush, a few with pen when others perform feats of entertainment. Drishya provides a common platform to showcase these intense modes of individualisms through inter-house competitions. Normally a cine Artist inaugurate the fest and there after the organizing committee members have a hectic time in coordinating different events due to the high spirit of students. Drishya definitely provides a welcome diversion highlighting our students creative drive and aspirations."
       };
     
     EventContent1 = {
