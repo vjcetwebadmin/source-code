@@ -14,7 +14,7 @@ class Profile extends Component {
 
   Features2 = {
     instanceID: "Features2",
-    title: "•	B.Tech Computer Science Engineering program is accredited by NBA on July 2018 for three years."
+    title: "•	B.Tech Computer Science and Engineering program is accredited by NBA on July 2018 for three years."
   };
   Features3 = {
     instanceID: "Features3",
