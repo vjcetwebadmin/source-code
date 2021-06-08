@@ -128,6 +128,9 @@ class Library extends React.Component {
                         <tr><td style={{textAlign:"center"}}>7</td><td align="left">3.3.1</td><td><a href="https://vjcet.org/downloads/naac/cr_all_files/3.3.1.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3" disabled>Download</button></a></td></tr>
                         <tr><td style={{textAlign:"center"}}>8</td><td align="left">3.3.2</td><td><a href="https://vjcet.org/downloads/naac/cr_all_files/3.3.2.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3" disabled>Download</button></a></td></tr>
                         <tr><td style={{textAlign:"center"}}>9</td><td align="left">3.3.3</td><td><a href="https://vjcet.org/downloads/naac/cr_all_files/3.3.3.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3" disabled>Download</button></a></td></tr>
+                        <tr><td style={{textAlign:"center"}}>10</td><td align="left">3.4.1</td><td><a href="https://vjcet.org/downloads/naac/cr_all_files/3.4.1pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3" disabled>Download</button></a></td></tr>
+                        <tr><td style={{textAlign:"center"}}>11</td><td align="left">3.4.2</td><td><a href="https://vjcet.org/downloads/naac/cr_all_files/3.4.2.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3" disabled>Download</button></a></td></tr>
+                        <tr><td style={{textAlign:"center"}}>12</td><td align="left">3.5.2</td><td><a href="https://vjcet.org/downloads/naac/cr_all_files/3.3.3.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3" disabled>Download</button></a></td></tr>
                     </table>
                 </div>            
             </div> 
@@ -166,6 +169,8 @@ class Library extends React.Component {
                         <tr><th colSpan="3">Details</th></tr>  
                         <tr><td style={{textAlign:"center",width:"6%"}}>1</td><td align="left" style={{width:"79%"}}>6.2.1</td><td style={{width:"15%"}}><a href="https://vjcet.org/downloads/naac/cr_all_files/6.2.1.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3" disabled>Download</button></a></td></tr>    
                         <tr><td style={{textAlign:"center"}}>2</td><td align="left">6.3.5</td><td><a href="https://vjcet.org/downloads/naac/cr_all_files/6.3.5.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3" disabled>Download</button></a></td></tr>  
+                        <tr><td style={{textAlign:"center"}}>3</td><td align="left">6.5.1</td><td><a href="https://vjcet.org/downloads/naac/cr_all_files/6.5.1.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3" disabled>Download</button></a></td></tr>
+                        <tr><td style={{textAlign:"center"}}>4</td><td align="left">6.5.2</td><td><a href="https://vjcet.org/downloads/naac/cr_all_files/6.5.2.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3" disabled>Download</button></a></td></tr>
                     </table>
                 </div>            
             </div> 
