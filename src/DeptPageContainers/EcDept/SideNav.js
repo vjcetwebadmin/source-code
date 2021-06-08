@@ -164,12 +164,12 @@ class SideNav extends Component {
               class="button"
               onClick={this.onClickAss}
             />
-            <input
+           {/*} <input
 
               value="Honours"
               class="button"
               onClick={this.onClickRes}
-            />
+    />*/}
           </div>
           <div class="dropdownD">
             <button class="button">Menu</button>

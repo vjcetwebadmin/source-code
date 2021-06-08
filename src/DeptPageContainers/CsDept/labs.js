@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import HeadingOne from "../../Components/Texts/HeadingOne";
 import HeadingTwo from "../../Components/Texts/HeadingTwo";
 /* import Bodythree from "../../Components/Texts/BodyThree"; */
+import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
 import ImageOne from "../../Components/Images/ImageOne";
 import "../../Components/Tables/tableformat.css";
 class Library extends Component {
@@ -89,6 +90,12 @@ class Library extends Component {
       "It has a carpet area of about 500 square feet. The library opens from 8.45 a.m. to 4.30 p.m. except Saturdays and Sundays. The library collection is arranged subject-wise. The library is maintaining records of all Purchased/Donated books, CDS, Seminar Reports/Project Reports/Magazines/Monographs/Lab Manual/Previous Year Question Papers. Members can search and view the status (Available/Not Available) of each searched item through the software.  The library is also maintaining all Issue/Deposit/Fine reports and it will be periodically updates at the end of each semesters."
   };
 
+
+  ProjLabUGwriteup1 = {
+	instanceID: "ProjLabUGwriteup1",
+	title: "This laboratory is specially designed for the Computer Science and Engineering department to facilitate the students to do their mini and major projects inside the campus. It has 35 computers. All are networked and well furnished. The projects done by the Computer Science and Engineering Students are in–house projects. Projects vary from System software and Application software development, design and optimization of new algorithms, database projects, graphics application development. This laboratory in the department is made available to all faculty and students for their research and project activities."
+}
+
   render() {
     return (
       <div className="DeptLibrary" id="dept-library">
@@ -146,6 +153,9 @@ class Library extends Component {
       <div>
         <HeadingTwo data={this.ProjectLabHeading} />
         <ImageOne data={this.ProjLabImagedata} />
+		<p></p>
+		<BodyOneJustified data={this.ProjLabUGwriteup1}></BodyOneJustified>
+		<p></p>
        <table id="tableformat">
 	      <tbody>
 		      <tr>
