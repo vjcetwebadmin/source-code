@@ -107,11 +107,10 @@ class Library extends React.Component {
                     <HeadingTwo data={this.LibraryResourceTitle2} className="Heading" />
                     <table border="1"  id="tableformat1">
                         <tr><th colSpan="3">Details</th></tr>  
-                        <tr><td style={{textAlign:"center",width:"6%"}}>1</td><td align="left" style={{width:"79%"}}>2.2.1</td><td style={{width:"15%"}}><a href="https://vjcet.org/downloads/naac/cr_all_files/2.2.1.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3">Download</button></a></td></tr>    
-                        <tr><td style={{textAlign:"center"}}>2</td><td align="left">2.3.1_1</td><td><a href="https://vjcet.org/downloads/naac/cr_all_files/2.3.1_1.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3">Download</button></a></td></tr>  
-                        <tr><td style={{textAlign:"center"}}>3</td><td align="left">2.3.1_2</td><td><a href="https://vjcet.org/downloads/naac/cr_all_files/2.3.1_2.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3">Download</button></a></td></tr>
-                        <tr><td style={{textAlign:"center"}}>4</td><td align="left">2.5.1</td><td><a href="https://vjcet.org/downloads/naac/cr_all_files/2.5.1.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3">Download</button></a></td></tr> 
-                        <tr><td style={{textAlign:"center"}}>5</td><td align="left">2.5.2</td><td><a href="https://vjcet.org/downloads/naac/cr_all_files/2.5.2.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3">Download</button></a></td></tr>                                                               
+                        <tr><td style={{textAlign:"center",width:"6%"}}>1</td><td align="left" style={{width:"79%"}}>2.3.1_1</td><td style={{width:"15%"}}><a href="https://vjcet.org/downloads/naac/cr_all_files/2.3.1_1.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3">Download</button></a></td></tr>    
+                        <tr><td style={{textAlign:"center"}}>2</td><td align="left">2.3.1_2</td><td><a href="https://vjcet.org/downloads/naac/cr_all_files/2.3.1_2.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3">Download</button></a></td></tr>  
+                        <tr><td style={{textAlign:"center"}}>3</td><td align="left">2.5.1</td><td><a href="https://vjcet.org/downloads/naac/cr_all_files/2.5.1.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3">Download</button></a></td></tr>
+                        <tr><td style={{textAlign:"center"}}>4</td><td align="left">2.5.2</td><td><a href="https://vjcet.org/downloads/naac/cr_all_files/2.5.2.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3">Download</button></a></td></tr> 
                     </table>
                 </div>            
             </div> 
@@ -127,7 +126,8 @@ class Library extends React.Component {
                         <tr><td style={{textAlign:"center"}}>5</td><td align="left">3.1.3_1</td><td><a href="https://vjcet.org/downloads/naac/cr_all_files/3.1.3_1.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3">Download</button></a></td></tr> 
                         <tr><td style={{textAlign:"center"}}>6</td><td align="left">3.1.3_2</td><td><a href="https://vjcet.org/downloads/naac/cr_all_files/3.1.3_2.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3">Download</button></a></td></tr>                                                               
                         <tr><td style={{textAlign:"center"}}>7</td><td align="left">3.3.1</td><td><a href="https://vjcet.org/downloads/naac/cr_all_files/3.3.1.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3">Download</button></a></td></tr>
-                        <tr><td style={{textAlign:"center"}}>8</td><td align="left">3.3.3</td><td><a href="https://vjcet.org/downloads/naac/cr_all_files/3.3.3.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3">Download</button></a></td></tr>
+                        <tr><td style={{textAlign:"center"}}>8</td><td align="left">3.3.2</td><td><a href="https://vjcet.org/downloads/naac/cr_all_files/3.3.2.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3">Download</button></a></td></tr>
+                        <tr><td style={{textAlign:"center"}}>9</td><td align="left">3.3.3</td><td><a href="https://vjcet.org/downloads/naac/cr_all_files/3.3.3.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3">Download</button></a></td></tr>
                     </table>
                 </div>            
             </div> 
