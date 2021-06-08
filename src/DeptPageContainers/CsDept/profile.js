@@ -9,7 +9,7 @@ class Profile extends Component {
   };
   Features1 = {
     instanceID: "Features1",
-    title: "•	Started in the year 2001, the Department of Computer Science and Engineering offers both undergraduate (B. Tech.), postgraduate (M. Tech.) and research programs."
+    title: "•	Started in the year 2001, the Department of Computer Science and Engineering offers undergraduate (B. Tech.), postgraduate (M. Tech.) and research programs."
   };
 
   Features2 = {
