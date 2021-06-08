@@ -164,7 +164,8 @@ class Library extends React.Component {
                     <HeadingTwo data={this.LibraryResourceTitle6} className="Heading" />
                     <table border="1"  id="tableformat1">
                         <tr><th colSpan="3">Details</th></tr>  
-                        <tr><td style={{textAlign:"center",width:"6%"}}>1</td><td align="left" style={{width:"79%"}}>6.3.5</td><td style={{width:"15%"}}><a href="https://vjcet.org/downloads/naac/cr_all_files/6.3.5.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3">Download</button></a></td></tr>    
+                        <tr><td style={{textAlign:"center",width:"6%"}}>1</td><td align="left" style={{width:"79%"}}>6.2.1</td><td style={{width:"15%"}}><a href="https://vjcet.org/downloads/naac/cr_all_files/6.2.1.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3">Download</button></a></td></tr>    
+                        <tr><td style={{textAlign:"center"}}>2</td><td align="left">6.3.5</td><td><a href="https://vjcet.org/downloads/naac/cr_all_files/6.3.5.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3">Download</button></a></td></tr>  
                     </table>
                 </div>            
             </div> 
