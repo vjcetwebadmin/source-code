@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../../Components/SideNav.css";
+import "./SideNav_eresource.css";
 import Profile from "./profile";
 import Vision from "./Objectives";
 import PEO from "./functions";
@@ -122,43 +122,42 @@ class SideNav extends Component {
 
         <div class="Deptcontent">
          <div class="sidenav">
-           {/*  <input
-
-              value="Profile"
+            <input
+              value="Online Courses"
               class="button"
               onClick={this.onClickP}
             />
             <input
 
-              value="Objectives"
+              value="Digital Library"
               class="button"
               onClick={this.onClickV}
             />
             <input
 
-              value="Functions"
+              value="Online Book Search"
               class="button"
               onClick={this.onClickPeo}
             />
              <input
 
-              value="Activities"
+              value="Professional bodies"
               class="button"
               onClick={this.onClickProg}
             /> 
-             {/* <input
+             <input
 
-              value="Mentoring"
+              value="FDP & Webinars"
               class="button"
               onClick={this.onClickFac}
             />  
              <input
 
-              value="Projects"
+              value="PPTs & Videos"
               class="button"
               onClick={this.onClickLib}
             />
-             <input
+             {/*<input
 
               value="Mentoring"
               class="button"
@@ -169,11 +168,11 @@ class SideNav extends Component {
               value="Register now"
               class="button"
               onClick={this.onClickAss}
-            />*/}
+             />*/}
            
           </div>
           <div class="dropdownD">
-            {/*<button class="button">Menu</button>
+            <button class="button">Menu</button>
             <div class="dropdownD-content">
               <input
 
@@ -223,7 +222,7 @@ class SideNav extends Component {
                 class="button"
                 onClick={this.onClickRes}
               />
-          </div>*/}
+          </div>
           </div>
           <div class="content">
             {this.state.showProfile ? <Profile /> : null}

@@ -74,28 +74,26 @@ class VisionSection extends Component {
   };
 
   render() {
-    const { instanceID } = this.props.data;
-
-    return (
-      <div className="VisionSection" id={instanceID}>
-        <div className="VisionSectionA">
+     return (
+        <div >
+         <div className="VisionSectionA">
           <HeadingOne data={this.VisionSectionATitle} />
           <BodyOne data={this.VisionSectionABody} />
         </div>
-        <div className="VisionSectionB">
+        <div className="VisionSectionA">
           <HeadingOne data={this.VisionSectionBTitle} />
           <HeadingThree data={this.VisionSectionBDescription} />
           <BodyOne data={this.VisionSectionBBody} />
-        </div>
-        <div className="VisionSectionC">
+        </div>       
+        <div className="VisionSectionA">        
           <HeadingOne data={this.MissionSectionTitle} />
           <BodyOne data={this.MissionSectionOne} />
           <BodyOne data={this.MissionSectionTwo} />
           <BodyOne data={this.MissionSectionThree} />
           <BodyOne data={this.MissionSectionFour} />
           <BodyOne data={this.MissionSectionFive} />
-        </div>
-        <div className="VisionSectionABottom">
+        </div>        
+        <div className="VisionSectionA">        
           <HeadingOne data={this.VisionSectionATitle1} />
           {/*<BodyOne data={this.VisionSectionABody} />*/}
           <ul style={{display:"block",textAlign:"justify",listStyle:"none", lineHeight:"30px", fontSize:"18px", listStylePosition:"inside"}}>
@@ -112,9 +110,9 @@ class VisionSection extends Component {
               <li><b>11. Project management and finance:</b> Demonstrate knowledge and understanding of the engineering and management principles and apply these to one’s own work, as a member and leader in a team, to manage projects and in multidisciplinary environments.</li>
               <li><b>12. Life-long learning :</b> Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change.</li>
           </ul>
-        </div>
+        </div>        
       </div> 
-    
+      
     );
   }
 }

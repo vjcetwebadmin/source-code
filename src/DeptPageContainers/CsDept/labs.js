@@ -94,7 +94,12 @@ class Library extends Component {
   ProjLabUGwriteup1 = {
 	instanceID: "ProjLabUGwriteup1",
 	title: "This laboratory is specially designed for the Computer Science and Engineering department to facilitate the students to do their mini and major projects inside the campus. It has 35 computers. All are networked and well furnished. The projects done by the Computer Science and Engineering Students are in–house projects. Projects vary from System software and Application software development, design and optimization of new algorithms, database projects, graphics application development. This laboratory in the department is made available to all faculty and students for their research and project activities."
-}
+};
+MultimediaUGwriteup2 = {
+	instanceID: "MultimediaUGwriteup2",
+	title: "The lab is equipped with sufficient number of computers well enough to accommodate each student having separate computers for doing programs, so that student’s get the best exposure and confidence. This lab is mainly used by first year undergraduate students for their basic programming lab such as Python programming in first semester and C programming in second semester. Developer C++ and Python programming Language are used to familiarize programming basics."
+};
+
 
   render() {
     return (
@@ -208,6 +213,9 @@ class Library extends Component {
 	  <div>
         <HeadingTwo data={this.MMLabHeading} />
         <ImageOne data={this.MMImagedata} />
+		<p></p>
+		<BodyOneJustified data={this.MultimediaUGwriteup2}></BodyOneJustified>
+		<p></p>
        <table id="tableformat">
 	      <tbody>
 		      <tr>

@@ -1,5 +1,5 @@
 .VisionSection {
-  padding: 10px 20px;
+  padding: 20px 20px;
   background-color: #fff;
   display: grid;
   grid-template-columns: 100%;
@@ -39,7 +39,7 @@
   }
 
   .VisionSection {
-    padding: 1% 0% 3% 0%;
+    padding: 1% 0% 2% 0%;
 
     grid-template-columns: 50% 50%;
     grid-template-areas:
@@ -48,7 +48,7 @@
       "d d";
   }
   .VisionSectionA {
-    padding: 2% 2% 1% 2%;
+    padding: 1% 3% 1% 3%;
  
   }
   .VisionSectionABottom {

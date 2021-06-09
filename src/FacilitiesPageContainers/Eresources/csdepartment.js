@@ -55,7 +55,7 @@ class CsDepartment extends Component {
   };
   HeadingSectionTitle = {
     instanceID: "Headingtext",
-    title: "E-Resources"
+    title: "e-Resources"
   };
   LogoImagedata = {
     instanceID: "LogoImage",
