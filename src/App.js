@@ -316,7 +316,7 @@ class App extends Component {
           {
             instanceID: "Cefaculty2",
             image: "Allstaffphoto/CE/FAC/347.jpg",
-            width: "50%",
+            width: "52%",
             name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC132" target="_blank" rel="noopener noreferrer">Dr. Anoop C.K.</a>,
             content: "Professor & Asst. HOD"
           },
@@ -359,14 +359,14 @@ class App extends Component {
           {
             instanceID: "Cefaculty6",
             image: "Allstaffphoto/CE/FAC/40.jpg",
-            width: "50%",
+            width: "51%",
             name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC105" target="_blank" rel="noopener noreferrer">Mrs. Minu C Joy</a>,
             content: "Assistant Professor(on Leave)"
           },
           {
             instanceID: "Cefaculty7",
             image: "Allstaffphoto/CE/FAC/42.jpg",
-            width: "50%",
+            width: "55%",
             name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC107" target="_blank" rel="noopener noreferrer">Mrs. Amrutha S</a>,
             content: "Assistant Professor"
           },

@@ -26,7 +26,7 @@ class EEFaculty extends Component {
   Cefaculty4 = {
     instanceID: "Cefaculty4",
     image: "Allstaffphoto/EE/FAC/109.jpg",
-    width: "50%",
+    width: "51%",
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=EEFAC103" target="_blank" rel="noopener noreferrer">Ms. Cini K</a>,
     content: "Assistant Professor"
   };
@@ -96,7 +96,7 @@ class EEFaculty extends Component {
   Cefaculty14 = {
     instanceID: "Cefaculty14",
     image: "Allstaffphoto/EE/FAC/123.jpg",
-    width: "50%",
+    width: "51%",
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=EEFAC117" target="_blank" rel="noopener noreferrer">Ms. Jane Maria S</a>,
     content: "Assistant Professor"
   };
@@ -117,7 +117,7 @@ class EEFaculty extends Component {
   Cefaculty17 = {
     instanceID: "Cefaculty17",
     image: "Allstaffphoto/EE/FAC/293.jpg",
-    width: "50%",
+    width: "51%",
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=EEFAC120" target="_blank" rel="noopener noreferrer">Ms. Seena Paul</a>,
     content: "Assistant Professor"
   };
