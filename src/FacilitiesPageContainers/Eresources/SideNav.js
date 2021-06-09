@@ -127,12 +127,14 @@ class SideNav extends Component {
               class="button"
               onClick={this.onClickP}
             />
+            <br></br>
             <input
 
               value="Digital Library"
               class="button"
               onClick={this.onClickV}
             />
+            <br></br>
             <input
 
               value="Online Book Search"
@@ -229,7 +231,7 @@ class SideNav extends Component {
             {this.state.showVision ? <Vision /> : null}
             {this.state.showPeo ? <PEO /> : null}
             {this.state.showProgram ? <Program /> : null}
-           {/*} {this.state.showfac ? <FacultyNav /> : null}*/}
+           {/* {this.state.showfac ? <FacultyNav /> : null}*/}
             {this.state.showLib ? <Library /> : null}
             {this.state.showAss ? <Association /> : null}
             {this.state.showRes ? <Result /> : null}

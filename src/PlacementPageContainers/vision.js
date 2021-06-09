@@ -36,15 +36,12 @@ class Vision extends Component {
   };  
   render() {
     return (
-      /*<div className="VisionSection">
-    <div className="VisionSectionB">*/
     <div>
       <div className="Vision&Mission" id="vision&mission">
           <HeadingOne data={this.VisionHeading} />
           <BodyOne data={this.VisionDescription} />
         </div>
-        {/*</div>*<div className="VisionSectionC">*/}
-        <div className="Mission" id="mission">
+        <div className="Vision&Mission" id="vision&mission">
           <HeadingOne data={this.MissionHeading} />
           <Bodythree data={this.MissionListOne} />
           <Bodythree data={this.MissionListTwo} />

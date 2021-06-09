@@ -31,7 +31,7 @@ class Profile extends Component {
     };
     ResearchHeading = {
         instanceID: "ResearchHeading",
-        title: ""
+        title: "Online Resources"
     }
     ReserchBody1 = {
         instanceID: "ReserchBody1",

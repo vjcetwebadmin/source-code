@@ -114,7 +114,7 @@ class Faculty extends Component {
     instanceID: "Cefaculty22",
     image: "Allstaffphoto/SH/FAC/shfac139.jpg",
     width: "50%",
-    name:  <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHSFAC139" target="_blank" rel="noopener noreferrer">Mr.	George Joseph V</a>,
+    name:  <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHFAC139" target="_blank" rel="noopener noreferrer">Mr.	George Joseph V</a>,
     content: "Assistant Professor"
   };
   render() {

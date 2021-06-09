@@ -1,6 +1,6 @@
 .Deptcontent {
   display: grid;
-  grid-template-columns: 22% 75%;
+  grid-template-columns: 25% 75%;
   grid-template-areas: "sidenav data";
   grid-template-rows: 1fr;
   /* width: auto; */
@@ -17,9 +17,10 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 18px;
-  font-weight: 650px;
-  margin: 4px auto;
+  font-size: 8px;
+  white-space:normal;
+  /*font-weight: 600px;
+  margin: 1px auto;*/
   cursor: pointer !important;
   /* no select */
   -webkit-user-select: none;
@@ -40,7 +41,7 @@ input {
 }
 .sidenav a {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 8px;
   color: #880d1e;
 }
 
@@ -51,7 +52,7 @@ input {
 .content {
   /* background-color: green; */
   grid-area: data;
-  padding: 5% 0%;   
+  padding: 1% 0%;   
 }
 
 @media screen and (min-width: 768px) {
@@ -60,7 +61,7 @@ input {
   }
   .sidemenu {
     display: block;
-    padding: 15% 0% 15% 5%;
+    padding: 15% 0% 15% 1%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -69,7 +70,7 @@ input {
   }
   .sidemenu {
     display: inline-block;
-    padding: 15% 0% 15% 5%;
+    padding: 15% 0% 15% 1%;
   }
   .sidenav {
     display: block;
@@ -79,15 +80,16 @@ input {
     width: 300px;
     align-self: left;
     text-align: center;
+    word-wrap:break-word;
   }
   .content {
     margin-left: 0%;
   }
   .sidenav a {
-    font-size: 18px;
+    font-size: 8px;
   }
   .dropdownD {
-    width: 80%;
+    width: 90%;
     position: relative;
     display: none;
   }

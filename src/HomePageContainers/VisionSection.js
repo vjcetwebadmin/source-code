@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./VisionSection.css";
+//import "./VisionSection.css";
 import HeadingOne from "../Components/Texts/HeadingOne";
 import HeadingThree from "../Components/Texts/HeadingThree";
 import BodyOne from "../Components/Texts/BodyOne";
@@ -75,25 +75,25 @@ class VisionSection extends Component {
 
   render() {
      return (
-        <div >
-         <div className="VisionSectionA">
+        <div style={{marginLeft:"2.5em",marginRight:"2.5em"}}>
+         <div className="Vision&Mission" id="vision&mission">
           <HeadingOne data={this.VisionSectionATitle} />
           <BodyOne data={this.VisionSectionABody} />
         </div>
-        <div className="VisionSectionA">
+        <div className="Vision&Mission" id="vision&mission1">
           <HeadingOne data={this.VisionSectionBTitle} />
           <HeadingThree data={this.VisionSectionBDescription} />
           <BodyOne data={this.VisionSectionBBody} />
         </div>       
-        <div className="VisionSectionA">        
+        <div className="Vision&Mission" id="vision&mission2">      
           <HeadingOne data={this.MissionSectionTitle} />
           <BodyOne data={this.MissionSectionOne} />
           <BodyOne data={this.MissionSectionTwo} />
           <BodyOne data={this.MissionSectionThree} />
           <BodyOne data={this.MissionSectionFour} />
           <BodyOne data={this.MissionSectionFive} />
-        </div>        
-        <div className="VisionSectionA">        
+        </div>       
+        <div className="Vision&Mission" id="vision&mission3">        
           <HeadingOne data={this.VisionSectionATitle1} />
           {/*<BodyOne data={this.VisionSectionABody} />*/}
           <ul style={{display:"block",textAlign:"justify",listStyle:"none", lineHeight:"30px", fontSize:"18px", listStylePosition:"inside"}}>
@@ -111,8 +111,7 @@ class VisionSection extends Component {
               <li><b>12. Life-long learning :</b> Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change.</li>
           </ul>
         </div>        
-      </div> 
-      
+      </div>
     );
   }
 }
