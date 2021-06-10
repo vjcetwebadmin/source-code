@@ -97,8 +97,15 @@ class Library extends Component {
 };
 MultimediaUGwriteup2 = {
 	instanceID: "MultimediaUGwriteup2",
-	title: "The lab is equipped with sufficient number of computers well enough to accommodate each student having separate computers for doing programs, so that student’s get the best exposure and confidence. This lab is mainly used by first year undergraduate students for their basic programming lab such as Python programming in first semester and C programming in second semester. Developer C++ and Python programming Language are used to familiarize programming basics."
+	title: "The lab is equipped with sufficient number of computers well enough to accommodate each student	having separate computers for doing programs, so that student’s get the best exposure and confidence.	This lab is mainly used by first year undergraduate students for their basic programming lab such as	Python programming in first semester and C programming in second semester. Developer C++ and	Python programming Language are used to familiarize programming basics."
 };
+
+HardwareUGwriteup3 = {
+	instanceID: "HardwareUGwriteup3",
+	title: "Hardware Lab is equipped with facilities to help the students to familiarize with the PC Components. It also helps to train the students in assembling and disassembling PCs. System Level Programming with C and MASM is also incorporated in this lab."
+};
+
+
 
 
   render() {
@@ -252,6 +259,9 @@ MultimediaUGwriteup2 = {
 	  <div>
 	  <HeadingTwo data={this.HWLabHeading} />
 	  <ImageOne data={this.HWImagedata} />
+	  <p></p>
+		<BodyOneJustified data={this.HardwareUGwriteup3}></BodyOneJustified>
+		<p></p>
 		<table id="tableformat">
 		   <tbody>
 			   <tr>

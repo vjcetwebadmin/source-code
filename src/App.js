@@ -582,12 +582,12 @@ class App extends Component {
       result: {
         heading: {
           instanceID: "CehonoursHeading",
-          title: "honours of Civil Engineering"
+          title: "Civil Engineering"
         },
         honours: [
           {
             instanceID: "cshonours1",
-            image: "honours/cehonour1.jpg",
+            image: "Honours/cehonour1.jpg",
             width: "30%",
             name: "Mariamol Mathew",
             content:

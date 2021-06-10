@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 import HeadingOne from "../../../Components/Texts/HeadingOne";
-import honours from "../../../Components/honours";
+import Honours from "../../../Components/honours";
 class Cehonours extends Component {
   state = {};
   CehonoursHeading = {
     instanceID: "CehonoursHeading",
-    title: "honours of Civil Engineering"
+    title: "Civil Engineering"
   };
   Cehonours1 = {
     instanceID: "cshonours1",
-    image: "honours/cehonour1.jpg",
+    image: "Honours/cehonour1.jpg",
     width: "30%",
     name: "Mariamol Mathew",
     content:
@@ -22,7 +22,7 @@ class Cehonours extends Component {
         <HeadingOne data={this.CehonoursHeading} />
         <div className="photos">
           <div>
-            <honours data={this.Cehonours1} />
+            <Honours data={this.Cehonours1} />
           </div>
         </div>
       </div>

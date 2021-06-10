@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-class honoursdata extends Component {
+class Honours extends Component {
   state = {};
 
   render() {
@@ -32,4 +32,4 @@ class honoursdata extends Component {
   }
 }
 
-export default honoursdata;
+export default Honours;

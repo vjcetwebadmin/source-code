@@ -1,16 +1,16 @@
 import React, { Component } from "react";
 import HeadingOne from "../../../Components/Texts/HeadingOne";
-import honours from "../../../Components/honours";
+import Honours from "../../../Components/honours";
 import "./honours.css";
 class Eehonours extends Component {
   state = {};
   EehonoursHeading = {
     instanceID: "EehonoursHeading",
-    title: "honours of Electrical & Electronics Engineering"
+    title: "Electrical & Electronics Engineering"
   };
   Eehonours1 = {
     instanceID: "eehonours1",
-    image: "honours/eehonours1.JPG",
+    image: "Honours/eehonours1.JPG",
     width: "30%",
     name: "Jeswin Jose",
     content:
@@ -18,7 +18,7 @@ class Eehonours extends Component {
   };
   Eehonours2 = {
     instanceID: "eehonours2",
-    image: "honours/eehonours2.JPEG",
+    image: "Honours/eehonours2.JPEG",
     width: "30%",
     name: "Devika K B",
     content:
@@ -26,7 +26,7 @@ class Eehonours extends Component {
   };
   Eehonours3 = {
     instanceID: "eehonours3",
-    image: "honours/eehonours3.JPEG",
+    image: "Honours/eehonours3.JPEG",
     width: "30%",
     name: "Breeza Paoulose",
     content:
@@ -34,7 +34,7 @@ class Eehonours extends Component {
   };
   Eehonours4 = {
     instanceID: "eehonours4",
-    image: "honours/eehonours4.JPEG",
+    image: "Honours/eehonours4.JPEG",
     width: "30%",
     name: "Roseline Baby",
     content:
@@ -42,7 +42,7 @@ class Eehonours extends Component {
   };
   Eehonours5 = {
     instanceID: "eehonours5",
-    image: "honours/eehonours5.JPEG",
+    image: "Honours/eehonours5.JPEG",
     width: "30%",
     name: "Ashna Joseph",
     content:
@@ -50,7 +50,7 @@ class Eehonours extends Component {
   };
   Eehonours6 = {
     instanceID: "eehonours6",
-    image: "honours/eehonours6.jpg",
+    image: "Honours/eehonours6.jpg",
     width: "30%",
     name: "Reshma Sajeev",
     content:
@@ -63,22 +63,22 @@ class Eehonours extends Component {
         <HeadingOne data={this.EehonoursHeading} />
         <div className="photos">
         <div>
-            <honours data={this.Eehonours6} />
+            <Honours data={this.Eehonours6} />
           </div>
           <div>
-            <honours data={this.Eehonours1} />
+            <Honours data={this.Eehonours1} />
           </div>
           <div>
-            <honours data={this.Eehonours2} />
+            <Honours data={this.Eehonours2} />
           </div>
           <div>
-            <honours data={this.Eehonours3} />
+            <Honours data={this.Eehonours3} />
           </div>
           <div>
-            <honours data={this.Eehonours4} />
+            <Honours data={this.Eehonours4} />
           </div>
           <div>
-            <honours data={this.Eehonours5} />
+            <Honours data={this.Eehonours5} />
           </div>
         </div>
       </div>

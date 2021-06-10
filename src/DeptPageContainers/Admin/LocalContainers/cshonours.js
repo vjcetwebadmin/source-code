@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import HeadingOne from "../../../Components/Texts/HeadingOne";
-import honours from "../../../Components/honours";
+import Honours from "../../../Components/honours";
 import "./honours.css";
 class Cshonours extends Component {
   state = {};
   CshonoursHeading = {
     instanceID: "CehonoursHeading",
-    title: "honours of Computer Science & Engineering"
+    title: "Computer Science & Engineering"
   };
   Cshonours1 = {
     instanceID: "cshonours1",
@@ -72,28 +72,28 @@ class Cshonours extends Component {
         <HeadingOne data={this.CshonoursHeading} />
         <div className="photos">
           <div>
-            <honours data={this.Cshonours7} />
+            <Honours data={this.Cshonours7} />
           </div>
           <div>
-            <honours data={this.Cshonours8} />
+            <Honours data={this.Cshonours8} />
           </div>
           <div>
-            <honours data={this.Cshonours6} />
+            <Honours data={this.Cshonours6} />
           </div>
           <div>
-            <honours data={this.Cshonours1} />
+            <Honours data={this.Cshonours1} />
           </div>
           <div>
-            <honours data={this.Cshonours3} />
+            <Honours data={this.Cshonours3} />
           </div>
           <div>
-            <honours data={this.Cshonours4} />
+            <Honours data={this.Cshonours4} />
           </div>
           <div>
-            <honours data={this.Cshonours5} />
+            <Honours data={this.Cshonours5} />
           </div>
           <div>
-            <honours data={this.Cshonours2} />
+            <Honours data={this.Cshonours2} />
           </div>
         </div>
       </div>

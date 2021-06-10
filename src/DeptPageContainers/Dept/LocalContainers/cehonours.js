@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import HeadingOne from "../../../Components/Texts/HeadingOne";
-import honours from "../../../Components/honours";
+import Honours from "../../../Components/honours";
 class Cehonours extends Component {
   state = {};
   render() {
@@ -11,7 +11,7 @@ class Cehonours extends Component {
         <div className="photos">
           {honours.map(i => (
             <div>
-              <honours data={i} />
+              <Honours data={i} />
             </div>
           ))}
         </div>

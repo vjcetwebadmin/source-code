@@ -251,10 +251,10 @@ class MenuOverlay extends Component {
               <a href="https://portal.vjcet.ac.in" className="MenuOverlaySubLinks">
                 VJCET Login
             </a>
-              <div className="wseparator"></div>
+             {/* <div className="wseparator"></div>
               <a href="http://moodle.vjcet.ac.in" className="MenuOverlaySubLinks">
                 Moodle
-            </a>
+        </a>*/}
               <div className="wseparator"></div>
               <a href="https://alumni.vjcet.ac.in/" className="MenuOverlaySubLinks">
                 Alumni Login
@@ -336,10 +336,10 @@ class MenuOverlay extends Component {
               <Link className="MenuOverlaySubLinks" to="/campus-life/collegecouncil">
                 Student Council
               </Link>
-              <div className="wseparator"></div>
+              {/*<div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/campus-life/committees">
                 Committees
-              </Link>
+        </Link>*/}
               <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/campus-life/artsfest">
                 Drishya- Arts Fest
