@@ -12,7 +12,7 @@ class Mehonours extends Component {
     instanceID: "mehonours1",
     image: "Honours/mehonours1.jpg",
     width: "30%",
-    name: "Deepu P",
+    name: "Mr. Deepu P",
     content: "Secured 1st Rank in B.Tech Mechanical Engineering May 2006"
   };
   Mehonours2 = {
@@ -33,8 +33,22 @@ class Mehonours extends Component {
     instanceID: "mehonours4",
     image: "Honours/mehonours4.jpg",
     width: "30%",
-    name: "Jyothin Mohan",
+    name: "Mr. Jyothin Mohan",
     content: "Secured 7th Rank in B.Tech Mechanical Engineering May 2018"
+  };
+  Mehonours5 = {
+    instanceID: "mehonours5",
+    image: "Honours/mehonours5.jpg",
+    width: "30%",
+    name: "Mr. Alen Tomy",
+    content: "Secured 4th Rank in B.Tech Mechanical Engineering May 2017"
+  };
+  Mehonours6 = {
+    instanceID: "mehonours6",
+    image: "Honours/mehonours6.jpg",
+    width: "30%",
+    name: "Mr. Mathew Samuel",
+    content: "Secured 3rd Rank in M.Tech Industrial Engineering and Management, May 2014"
   };
   render() {
     return (
@@ -43,6 +57,12 @@ class Mehonours extends Component {
         <div className="photos">
           <div>
           <Honours data={this.Mehonours4} />
+          </div>
+          <div>
+          <Honours data={this.Mehonours5} />
+          </div>
+          <div>
+          <Honours data={this.Mehonours6} />
           </div>
           <div>
             <Honours data={this.Mehonours2} />

@@ -104,7 +104,10 @@ HardwareUGwriteup3 = {
 	instanceID: "HardwareUGwriteup3",
 	title: "Hardware Lab is equipped with facilities to help the students to familiarize with the PC Components. It also helps to train the students in assembling and disassembling PCs. System Level Programming with C and MASM is also incorporated in this lab."
 };
-
+NetworkUGwriteup4 = {
+	instanceID: "NetworkUGwriteup4",
+	title: "The lab is well equipped with 33 computers that facilitate to train students about network configuration and management. This lab is used for socket programming between client and server in a network scenario using different network protocols. It is also equipped with softwares to develop the knowledge about database design and implementation using RDBMS. This lab is mainly utilized by students of Semester II (Computer Programming Lab), Semester III(Data Structures Lab), Semester IV(FOSS Lab), Semester V(Database Lab),  and Semester VI (Network Programming Lab)."
+};
 
 
 
@@ -196,6 +199,9 @@ HardwareUGwriteup3 = {
       <div>
         <HeadingTwo data={this.NWLabHeading} />
         <ImageOne data={this.NWImagedata} />
+		<p></p>
+		<BodyOneJustified data={this.NetworkUGwriteup4}></BodyOneJustified>
+		<p></p>
        <table id="tableformat">
 	      <tbody>
 		      <tr>

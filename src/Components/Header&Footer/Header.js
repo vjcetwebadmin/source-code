@@ -88,8 +88,7 @@ class Header extends Component {
   Link4 = {
     instanceID: "HeaderLink4",
     title: "Admissions",
-    /*link: "https://admission.vjcet.ac.in/"*/
-    link:"http://202.88.251.252:82/"
+    link: "https://admission.vjcet.ac.in/"
   };
 
   Link5 = {

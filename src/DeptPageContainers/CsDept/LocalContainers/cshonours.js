@@ -52,6 +52,7 @@ class Cshonours extends Component {
     name: "Merin Francis",
     content: "Secured First Rank in M.Tech Computer Science & Engineering May 2014"
   };
+  
   Cshonours7 = {
     instanceID: "cshonours7",
     image: "Honours/cshonour7.jpg",
@@ -66,6 +67,13 @@ class Cshonours extends Component {
     name: "Ashna Paul",
     content: "Secured Fifth Rank in B.Tech Computer Science & Engineering May 2018"
   };
+  Cshonours9 = {
+    instanceID: "cshonours9",
+    image: "Honours/cshonour9.jpg",
+    width: "30%",
+    name: "Lini Abraham",
+    content: "Secured Second Rank in M.Tech Computer Science & Engineering May 2014"
+  };
   render() {
     return (
       <div className="honours1">
@@ -79,6 +87,9 @@ class Cshonours extends Component {
           </div>
           <div>
           <Honours data={this.Cshonours6} />
+          </div>
+          <div>
+          <Honours data={this.Cshonours9} />
           </div>
           <div>
           <Honours data={this.Cshonours1} />

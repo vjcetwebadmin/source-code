@@ -26,7 +26,7 @@ class Profile extends Component {
   };
   Features5 = {
     instanceID: "Features5",
-    title: "•	Well qualified, skilled and dedicated teachers who are keen in academic research. (Apart from the existing PhD holders 11 faculty members are doing the same course)."
+    title: "•	Well qualified, skilled and dedicated teachers who are keen in academic research. (Apart from the existing Ph.D holders 11 faculty members are doing the same course)."
   };
   Features6 = {
     instanceID: "Features6",
@@ -34,7 +34,7 @@ class Profile extends Component {
   };
   Features7 = {
     instanceID: "Features7",
-    title: "•	Technical and softskill training, activities and fests with the support of Professional bodies – CSI, ISTE, IEEE and industrialists"
+    title: "•	Technical and Soft skill training, activities and fests with the support of Professional bodies – CSI, ISTE, IEEE and industrialists"
   };
   Features8 = {
     instanceID: "Features8",
