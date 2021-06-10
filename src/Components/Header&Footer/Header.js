@@ -166,8 +166,8 @@ class Header extends Component {
         <div className="HeaderLinkTabOne" id="HeaderLinkTabOne">
         <Link to={this.Link13.link} id="Contactbtn">
             KEAM Mock Test
-      </Link>
-          <a href="http://202.88.251.252:82/">
+      </Link>{/*<a href="http://202.88.251.252:82/"> */}
+          <a href="https://admission.vjcet.ac.in/">
             <div id="AdmissionImage">
               <div className="animcontent">
                 B.Tech Admission 2021

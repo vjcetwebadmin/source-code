@@ -77,9 +77,6 @@ import NotiPage from './Pages/Notifications';
 import NISP from "./Pages/NISP";
 import ErrorPage from "./Pages/ErrorPage";
 import Ict from "./CampusLifePageContainers/ProfessionalBodies/ICT";
-
-import cshontest from "./DeptPageContainers/CsDept/LocalContainers/cshonours"
-
 import NAAC_C1_P1 from "./Naac/Nac_C1_P1";
 import NAACbase from "./Naac/naacstart";
 import codeofc from "./CodeofC/codeofconducts";
@@ -799,10 +796,6 @@ class App extends Component {
 
               <Route exact path="/NAAC/NAAC_C1_P1" component={NAAC_C1_P1} />
               <Route exact path="/NAAC" component={NAACbase} />
-
-              <Route exact path="/cshtest" component={cshontest} />
-
-
               <Route component={ErrorPage} /> 
             </Switch>
           </React.Fragment>

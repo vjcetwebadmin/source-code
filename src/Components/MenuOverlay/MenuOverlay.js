@@ -381,13 +381,17 @@ class MenuOverlay extends Component {
                 Common Infrastructure
               </Link>
               <div className="wseparator"></div>
-              <Link className="MenuOverlaySubLinks" to="/facilities/building">
-                Building Infrastructure
-              </Link>
-              <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/facilities/library">
                 Central Library
               </Link>
+              <div className="wseparator"></div>
+              <Link className="MenuOverlaySubLinks" to="/facilities/eresources">
+                e-Resources
+              </Link>
+              <div className="wseparator"></div>
+              <Link className="MenuOverlaySubLinks" to="/facilities/building">
+                Building Infrastructure
+              </Link>              
               <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/facilities/powerandbackup">
                 Power & Backup
