@@ -29,7 +29,7 @@ class PEO extends Component {
   peoListFive = {
     instanceID: "peoListFive",
     title:
-      "4.	Soft skills, discipline, confidence, self esteem, and ethical values."
+      "4.	Soft skills, discipline, confidence, self esteem and ethical values."
   };
 
   psoHeading = {
@@ -59,8 +59,9 @@ class PEO extends Component {
         <Bodythree data={this.peoListTwo} />
         <Bodythree data={this.peoListThree} />
         <Bodythree data={this.peoListFour} />
+        <Bodythree data={this.peoListFive} />
+
         <HeadingOne data={this.psoHeading} />
-        <Bodythree data={this.psoListOne} />
         <Bodythree data={this.psoListTwo} />
         <Bodythree data={this.psoListThree} />
         <div className="HeadingOne">

@@ -30,7 +30,7 @@ class Faculty extends Component {
     instanceID: "Cefaculty6",
     image: "Allstaffphoto/SH/FAC/shfac136.jpg",
     width: "50%",
-    name:  <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHFAC136" target="_blank" rel="noopener noreferrer">Mr. Saksy Joy</a>,
+    name:  <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHFAC136" target="_blank" rel="noopener noreferrer">Ms. Saksy Joy</a>,
     content: "IQAC Placement Co-ordinator"
   };
   ContactHeading = {

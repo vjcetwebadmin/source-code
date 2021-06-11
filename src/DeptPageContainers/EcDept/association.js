@@ -12,7 +12,7 @@ class Library extends Component {
   DeptAssociationDescriptionOne = {
     instanceID: "DeptAssociationDescriptionOne",
     title:
-      "The Electronic Engineers have spun in their best to carve out the personal as well as the technical skills of each engineer of the VJC campus. True enough, a highly successful agenda of programmes were conducted from the usual seminars, paper presentations to the mega Personality Hunts, Brand Wars organized on a large scale. Personality hunt coined as 'The Mighty Cruise' was a 2-3 week long chore hunting down personalities based on their technical and general awareness, group discussions, and technical dumb charades and stress management capabilities.Equal importance in development to organizational abilities is given as part of the agenda to one and all."
+      "ZEALOUS is the association of the Electronics and Communication Engineering Department. It plays a vital role in moulding Electronics Engineers. Technical Quiz, Technical Talks, Group Discussions, Hands-On-Workshops etc. are conducted for enriching Electronics Engineers' knowledge in various core fields. The successful students in Academics, Technical/Managerial areas, Sports, Cultural Programs are honored on this day."
   };
   Activitiesheading = {
     instanceID: "Activitiesheading",
@@ -36,11 +36,11 @@ class Library extends Component {
   }
   Activity1Content4 = {
     instanceID: "Activity1Content4",
-    title: "Provide a supportive environment for interested photography students to share their creativity, knowledge and passion for photography."
+    title: "A mini placement cell is running as a part of the Department to enhance the placement of students in the core field. ZEALOUS is run by the student coordinators under the guidance of faculty members from the Department."
   }
   Activity1Content5 = {
     instanceID: "Activity1Content5",
-    title: "The mission of the Nature & Photography Club is to provide a supportive environment for interested photography students to share their creativity, knowledge and passion for photography.  The club will hold meetings and discussions and organize events such as; photo-exhibition, field trips and lectures and workshops by experts. Members will also explore the possible opportunities for photography projects in collaboration with other campus departments.  The club promotes photography as a hobby among the students and makes every moment an unforgettable event by capturing it through the lens."
+    title: "TThe association activities for the year 2020-21 was inaugurated by Mr. Joe Thomas (Senior Software Engineer, Amazon, USA) on 22nd March, 2021, and a technical talk on Career advancement and industry expectations was conducted by Mr. Joe Thomas and Mr. Lalu Paul (Senior Software Engineer, Xilinx, USA)."
   }
   Activity2Heading = {
     instanceID: "Activity2Heading",
@@ -111,31 +111,9 @@ class Library extends Component {
       <div className="DeptAssociation" id="dept-association">
         <HeadingOne data={this.DeptAssociationHeadingOne} />
         <Bodythree data={this.DeptAssociationDescriptionOne} />
-        <HeadingFour data={this.Activitiesheading} />
-        <div className="bodyContainer">
-          <HeadingFour data={this.Activity1Heading} />
-          <HeadingFour data={this.Activity1Content1} />
-          <BodyThree data={this.Activity1Content2} />
-          <HeadingFour data={this.Activity1Content3} />
           <BodyThree data={this.Activity1Content4} />
           <Bodythree data={this.Activity1Content5} />
-          <HeadingFour data={this.Activity2Heading} />
-          <HeadingFour data={this.Activity2Content1} />
-          <BodyThree data={this.Activity2Content2} />
-          <HeadingFour data={this.Activity2Content3} />
-          <BodyThree data={this.Activity2Content4} />
-          <Bodythree data={this.Activity2Content5} />
-          <HeadingFour data={this.Activity3Heading} />
-          <HeadingFour data={this.Activity3Content1} />
-          <BodyThree data={this.Activity3Content2} />
-          <HeadingFour data={this.Activity3Content3} />
-          <BodyThree data={this.Activity3Content4} />
-          <Bodythree data={this.Activity3Content5} />
-          <HeadingFour data={this.Activity4Heading} />
-          <HeadingFour data={this.Activity4Content1} />
-          <BodyThree data={this.Activity4Content2} />
-          <Bodythree data={this.Activity4Content3} />
-        </div>
+         
       </div>
     );
   }

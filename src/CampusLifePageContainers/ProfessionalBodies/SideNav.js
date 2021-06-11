@@ -151,13 +151,13 @@ class SideNav extends Component {
               value="IGBC"
               class="button"
               onClick={this.onClickFac}
-            /> */}
+            /> 
             <input
 
               value="IGBC"
               class="button"
               onClick={this.onClickLib}
-            />
+            />*/}
             <input
 
               value="IETE"

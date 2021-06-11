@@ -39,11 +39,11 @@ MissionHeading = {
   };
   Features2 = {
     instanceID: "Features3",
-    title: "Make Software Engineers of global standard who believe in values, creativity and professionalism."
+    title: "Make Software Engineers of global standard who believe in values, creativity and professionalism, through interaction with well trained professionals in the IT industry."
   };
   Features3 = {
     instanceID: "Features3",
-    title: "Enable student employability, making stronger, the links between industry and academia through value added courses and out of the box training."
+    title: "Enable student employability, making stronger, the links between industry and academia through value added courses and out of the box training. The CSI of VJCET aims to develop the IT skills of the students, helping them to integrate into IT industry."
   };
   Features4 = {
     instanceID: "Features4",

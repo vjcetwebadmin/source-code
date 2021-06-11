@@ -108,7 +108,10 @@ NetworkUGwriteup4 = {
 	instanceID: "NetworkUGwriteup4",
 	title: "The lab is well equipped with 33 computers that facilitate to train students about network configuration and management. This lab is used for socket programming between client and server in a network scenario using different network protocols. It is also equipped with softwares to develop the knowledge about database design and implementation using RDBMS. This lab is mainly utilized by students of Semester II (Computer Programming Lab), Semester III(Data Structures Lab), Semester IV(FOSS Lab), Semester V(Database Lab),  and Semester VI (Network Programming Lab)."
 };
-
+MicroUGwriteup5 = {
+	instanceID: "MicroUGwriteup5",
+	title: "The Micro Processor Lab is one of the oldest laboratories in the institution under the Department of Computer Science & Engineering. A well-equipped Microprocessor Lab with advanced facilities to do their experiments are provided in this laboratory. We are using Micro-86 EB1 Trainer Kit, Intel 8086/8088 CPU at 5/4.77 MHz clock rate. The device has 40 pins, + 5 V power supply with 16×2 LCD DISPLAY and having 48 I/O lines using two numbers of 8255. It can access upto 1 GB of physical memory. This is to familiarize the students with 8086, MASM programming, and 8051 Microcontroller trainer kit and various interfacing boards."
+};
 
 
   render() {
@@ -296,6 +299,9 @@ NetworkUGwriteup4 = {
 	   <div>
         <HeadingTwo data={this.MPLabHeading} />
         <ImageOne data={this.MPImagedata} />
+		<p></p>
+		<BodyOneJustified data={this.MicroUGwriteup5}></BodyOneJustified>
+		<p></p>
        <table id="tableformat">
 	      <tbody>
 		      <tr>

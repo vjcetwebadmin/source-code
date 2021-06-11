@@ -67,6 +67,7 @@ ActivitiesHeading = {
                             <tr><td>9</td><td>Workshop on Introduction to Python Programming for S5 ECE students</td><td>17/10/2010- 19/10/2010</td></tr> 
                             <tr><td>10</td><td>6 ISF members attended IETE foundation day celebration-2019.</td><td>2/11/2020</td></tr> 
                             <tr><td>11</td><td>International Webinar on 'Converting Challenges into Oppurtunities' by Mr. George Tharakan, Senior Delivery Director, NTT DATA </td><td>5/12/2020</td></tr> 
+
                             </table>
 
                             

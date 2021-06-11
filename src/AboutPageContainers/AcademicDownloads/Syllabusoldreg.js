@@ -13,21 +13,14 @@ class ResourcesGroup extends Component {
     title: "Syllabus"
   };
 
-  ResourceListOne = {
-    instanceID: "ResourceListOne",
-    listID: "One",
-    title: "Curriculum Plan",
-    icon: "Icons/calender.svg",
-    filePath: "https://vjcet.org/downloads/Academic_Calander_odd_20.pdf"
 
-  };
-  ResourceListTwo = {
-    instanceID: "ResourceListTwo",
-    listID: "Two",
-    title: "Semester Plan",
-    icon: "Icons/calendar.png",
-    filePath: "https://vjcet.org/downloads/Semester_Plan2019even.pdf"
-
+  ResourceListSeven = {
+    instanceID: "ResourceListSeven",
+    listID: "Three",
+    title: "First Year",
+    icon: "Icons/firstyearsyllabuslogo.svg",
+    /*filePath: "/downloads/firstyearsyllabus.zip"*/
+    filePath: "https://vjcet.org/downloads/academic/firstyearsyllabus.zip"
   };
 
   ResourceListEight = {
@@ -80,8 +73,22 @@ class ResourcesGroup extends Component {
     filePath: "https://vjcet.org/downloads/academic/mesyllabus.zip"
 
   };
+  ResourceListOne = {
+    instanceID: "ResourceListOne",
+    listID: "One",
+    title: "Curriculum Plan",
+    icon: "Icons/calender.svg",
+    filePath: "https://vjcet.org/downloads/Academic_Calander_odd_20.pdf"
 
+  };
+  ResourceListTwo = {
+    instanceID: "ResourceListTwo",
+    listID: "Two",
+    title: "Semester Plan",
+    icon: "Icons/calendar.png",
+    filePath: "https://vjcet.org/downloads/Semester_Plan2019even.pdf"
 
+  };
 
   render() {
     return (
@@ -93,13 +100,14 @@ class ResourcesGroup extends Component {
         </div>        
           <HeadingOne data={this.SyllabusTitle} />
           <div className="ResourcesContainer" id="AboutPageResourcesContainer">
-         {/* <p className="paraheading"><a href="/facilities/transportation" target="_blank" rel="noopener noreferrer">B.Tech Regulation</a></p>     */}
-         <ResourcesList data={this.ResourceListThree} />
+          
+          <ResourcesList data={this.ResourceListThree} />
           <ResourcesList data={this.ResourceListFour} />
           <ResourcesList data={this.ResourceListFive} />
           <ResourcesList data={this.ResourceListSix} />
+          <ResourcesList data={this.ResourceListSeven} />
           <ResourcesList data={this.ResourceListEight} />
-          <ResourcesList data={this.ResourceListNine} />         
+          <ResourcesList data={this.ResourceListNine} />
           
         </div>
       </div>

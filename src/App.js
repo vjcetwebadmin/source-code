@@ -101,7 +101,7 @@ class App extends Component {
         ProfileDescriptionOne: {
           instanceID: "ProfileDescriptionOne",
           title:
-            "Consistently ranked as one of the top performers among the colleges affiliated to APJ Abdul KalamTechnological University, the Department maintains academic alliances with several industries and training institutes which help them evolve as socially committed Engineers. We seek to promote the overall growth of every student by way of academic mentoring as well as through provision of avenues for career development and career growth."
+            "Consistently ranked as one of the top performers among the colleges affiliated to APJ Abdul Kalam Technological University, the Department maintains academic alliances with several industries and training institutes which help them evolve as socially committed Engineers. We seek to promote the overall growth of every student by way of academic mentoring as well as through provision of avenues for career development and career growth."
         },
         Ceheading: {
           instanceID: "Ceheading",
@@ -265,9 +265,9 @@ class App extends Component {
         {
           instanceID: "ProgramDescriptionOne",
           title:
-            "The Department offers undergraduate program in Civil Engineering with an annual intake of 60 students."
+            "The Department offers undergraduate program in Civil Engineering with an annual intake of 60 students. The program was accredited by NBA in 2018. Civil Engineers are in a privileged and hugely influential position to innovate, design and build a sustainable future."
         },
-        {
+        /*{
           instanceID: "ProgramDescriptionTwo",
           title:
             "The program was accredited by NBA in 2018."
@@ -275,7 +275,7 @@ class App extends Component {
         {
           instanceID: "ProgramDescriptionThree",
           title: "Civil Engineers are in a privileged and hugely influential position to innovate, design and build a sustainable future."
-        },
+        },*/
         {
           instanceID: "ProgramDescriptionFour",
           title: "Civil Engineering Department strives to:"

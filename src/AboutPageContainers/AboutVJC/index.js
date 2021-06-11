@@ -18,17 +18,17 @@ class AboutVJC extends React.Component {
   AboutVjcText1 = {
     instanceID: "AboutVjcText1",
     title:
-      "Viswajyothi College of Engineering and Technology, Vazhakulam was established in the year 2001 and run under the aegis of the Syro Malabar Catholic eparchy of Kothamangalam christened, the Diocesan Technical Educational Trust. VJCET is affiliated to APJ Abdul Kalam Technological University, Thiruvananthapuram, Kerala. As an engineering institution it has always strived to educate engineers and scientists to the next level through innovative activities. It has and is playing a major role for the upliftment of the people living in the neighbourhood. Scholars from all Kerala and abroad seek admissions here because of its excellent infrastructure, well experienced faculty, separate hostel facility for ladies and gents, connectivity and apt learning environment. Today, Viswajyothi College has grown in name and fame as an NBA accredited engineering institution with its Alumni as brand ambassadors working globally. It trains undergraduate engineers in seven disciplines and conducts four post graduate courses as well. Presently around 2250 students undergo trainings in all, with a keen intention to open up more branches as to customise to the taste and needs of the time."
+      "Viswajyothi College of Engineering and Technology, Vazhakulam was established in the year 2001 and run by the Diocesan Technical Educational Trust under the aegis of the Syro Malabar Catholic Eparchy of Kothamangalam. As a professional institution it has always strived to educate engineers and scientists to the next level through innovative activities. Scholars from all over Kerala and abroad seek admissions here because of its excellent infrastructure, well experienced faculty, separate hostel facility for ladies and gents, connectivity and apt learning environment. Today, Viswajyothi College has grown in name and fame as an NBA accredited professional engineering institution with its Alumni as brand ambassadors working globally. It trains undergraduate engineers in seven disciplines and conducts four post graduate courses as well. Presently, 2036 students undergo trainings in all, with a keen intention to open up more branches as to customise to the taste and needs of the time."
   };
   AboutVjcText2 = {
     instanceID: "AboutVjcText2",
     title:
-      "The skill of the artisan marks the quality of the product. Viswajyothi has an excellent team of faculty members well-experienced, committed and devoted in imparting holistic training as to make students industry fit. Their innate desire to learn and develop before they share, has helped many to secure their Ph.D and motivated many others to enrol taking the cue."
+      "Viswajyothi has an excellent team of faculty, well-experienced, committed and devoted in imparting holistic training as to make students industry fit. It has state of the art infrastructure with an area of 45944.47 sq.m. in a sprawling campus of 25.28 acres with panoramic landscapes, well-planned class rooms, cutting edge Labs, Workshops, updated Library with latest national/international journals and E journals, R&D block, hostels, playgrounds and gymnasium on the pristine hillock overlooking Ernakulam - Thodupuzha state highway."
   };
   AboutVjcText3 = {
     instanceID: "AboutVjcText3",
     title:
-      "Viswajyothi College has state of the art infrastructure with an area of 45944.47 sq.m., in a sprawling campus of 26 acres with panoramic landscapes - a coveted venue for even film makers, well-planned class rooms, cutting edge Labs, Workshops, updated Library with latest national/international journals and E journals, R&D block, hostels, playgrounds and gym on the pristine hillock overlooking Ernakulam - Thodupuzha state highway marking them as the hallmarks of this modern ‘Shantiniketan.’"
+      "The Placement and Training Cell makes it a point to pool in training resources as to improve the students’ employability. Soft Skill and Technical Training is spread through the academic year utilizing even vacations. Students are given ample opportunities for hands own experience through arranged internship, in house incubation centre, Fab Lab and Start-Ups. They avail trainings at the in-house coaching centre for German language, industry relevant add on courses- Python, Java and bridge courses available. Around 50 reputed companies regularly visit our campus among which Infosys lifts the major haul! The placement team keeps scanning industries for possible openings. Around 85% of all eligible students of the current year have already secured placement in reputed companies."
   };
   AboutVjcText4 = {
     instanceID: "AboutVjcText4",
@@ -57,7 +57,7 @@ class AboutVJC extends React.Component {
   }
   UGCourse = {
     instanceID: "UGCourse",
-    title: "B-Tech Programmes offered:(All programs Accredited by NBA)"
+    title: "B-Tech Programmes offered:(Six programs Accredited by NBA)"
   }
   UGCourse1 = {
     instanceID: "UGCourse1",
@@ -97,7 +97,7 @@ class AboutVJC extends React.Component {
           <BodyOneJustified data={this.AboutVjcText1} />
           <p><BodyOneJustified data={this.AboutVjcText2} /></p>
           <p><BodyOneJustified data={this.AboutVjcText3} /></p>
-          <p><BodyOneJustified data={this.AboutVjcText4} /></p>
+  
           <div className="inner-para">
             <p><BodyOneJustified data={this.PGCourse} /></p>
             <ul>
