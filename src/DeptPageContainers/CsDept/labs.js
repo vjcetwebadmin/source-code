@@ -172,7 +172,7 @@ MicroUGwriteup5 = {
         <HeadingTwo data={this.ProjectLabHeading} />
         <ImageOne data={this.ProjLabImagedata} />
 		<p></p>
-		<BodyOneJustified data={this.ProjLabUGwriteup1}></BodyOneJustified>
+		<p><BodyOneJustified data={this.ProjLabUGwriteup1}></BodyOneJustified></p>
 		<p></p>
        <table id="tableformat">
 	      <tbody>
@@ -203,7 +203,7 @@ MicroUGwriteup5 = {
         <HeadingTwo data={this.NWLabHeading} />
         <ImageOne data={this.NWImagedata} />
 		<p></p>
-		<BodyOneJustified data={this.NetworkUGwriteup4}></BodyOneJustified>
+		<p><BodyOneJustified data={this.NetworkUGwriteup4}></BodyOneJustified></p>
 		<p></p>
        <table id="tableformat">
 	      <tbody>
@@ -230,7 +230,7 @@ MicroUGwriteup5 = {
         <HeadingTwo data={this.MMLabHeading} />
         <ImageOne data={this.MMImagedata} />
 		<p></p>
-		<BodyOneJustified data={this.MultimediaUGwriteup2}></BodyOneJustified>
+		<p><BodyOneJustified data={this.MultimediaUGwriteup2}></BodyOneJustified></p>
 		<p></p>
        <table id="tableformat">
 	      <tbody>
@@ -269,7 +269,7 @@ MicroUGwriteup5 = {
 	  <HeadingTwo data={this.HWLabHeading} />
 	  <ImageOne data={this.HWImagedata} />
 	  <p></p>
-		<BodyOneJustified data={this.HardwareUGwriteup3}></BodyOneJustified>
+	  <p><BodyOneJustified data={this.HardwareUGwriteup3}></BodyOneJustified></p>
 		<p></p>
 		<table id="tableformat">
 		   <tbody>
@@ -300,7 +300,7 @@ MicroUGwriteup5 = {
         <HeadingTwo data={this.MPLabHeading} />
         <ImageOne data={this.MPImagedata} />
 		<p></p>
-		<BodyOneJustified data={this.MicroUGwriteup5}></BodyOneJustified>
+		<p><BodyOneJustified data={this.MicroUGwriteup5}></BodyOneJustified></p>
 		<p></p>
        <table id="tableformat">
 	      <tbody>

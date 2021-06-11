@@ -20,7 +20,8 @@ class FacultyData extends Component {
       >
         <img
           src={require("../Assets/" + image)}
-          width={width}
+         /* width={width}*/
+         height="200px"
           style={{ ...this.props.imgStyle }}
           alt="img"
         />

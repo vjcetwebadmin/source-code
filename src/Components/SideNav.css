@@ -1,6 +1,6 @@
 .Deptcontent {
   display: grid;
-  grid-template-columns: 22% 78%;
+  grid-template-columns: 22% 75%;
   grid-template-areas: "sidenav data";
   grid-template-rows: 1fr;
   /* width: auto; */

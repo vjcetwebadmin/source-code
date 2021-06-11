@@ -93,8 +93,8 @@ class AboutVJC extends React.Component {
       <React.Fragment>
         <HeadingTwo data={this.AboutVjcTitle} />
         <ImageOne data={this.AboutVjcImage} />
-        <div className="about-para">
-          <BodyOneJustified data={this.AboutVjcText1} />
+         <div className="about-para">
+          <p><BodyOneJustified data={this.AboutVjcText1} /></p>
           <p><BodyOneJustified data={this.AboutVjcText2} /></p>
           <p><BodyOneJustified data={this.AboutVjcText3} /></p>
   
