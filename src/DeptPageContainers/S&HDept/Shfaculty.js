@@ -57,7 +57,7 @@ class Faculty extends Component {
     image: "Allstaffphoto/SH/FAC/252.jpg",
     width: "50%",
     name:  <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHFAC112" target="_blank" rel="noopener noreferrer">Mr. Tony Augustine</a>,
-    content: "Assistant Professor(on Leave-Ph.D)"
+    content: "Assistant Professor(on-leave Ph.D)"
   };
   
   Cefaculty12 = {

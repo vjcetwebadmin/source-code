@@ -94,7 +94,7 @@ class CEFaculty extends Component {
     image: "Allstaffphoto/CE/FAC/283.jpg",
     width: "50%",
     name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/10/283.jpg" target="_blank" rel="noopener noreferrer">Mrs. Nivya Mary Abraham</a>,
-    content: "Assistant Professor(on Leave-Ph.D)"
+    content: "Assistant Professor"
   };
   Cefaculty15 = {
     instanceID: "Cefaculty15",
@@ -125,21 +125,21 @@ class CEFaculty extends Component {
     image: "Allstaffphoto/CE/FAC/366.jpg",
     width: "50%",
     name: "Mr. Vishnu Krishnan",
-    content: "Assistant Professor(on Leave-Ph.D)"
+    content: "Assistant Professor(on-leave Ph.D)"
   };
   Cefaculty22 = {
     instanceID: "Cefaculty22",
     image: "Allstaffphoto/CE/FAC/384.jpg",
     width: "50%",
     name: "Mr. Basil Baby",
-    content: "Assistant Professor(on Leave-Ph.D)"
+    content: "Assistant Professor(on-leave Ph.D)"
   };
   Cefaculty23 = {
     instanceID: "Cefaculty22",
     image: "Allstaffphoto/CE/FAC/385.jpg",
     width: "50%",
     name:  <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/95/385.jpg" target="_blank" rel="noopener noreferrer">Mrs. Nisa Ann Mathew</a>,
-    content: "Assistant Professor"
+    content: "Assistant Professor(on-leave)"
   };
   Cefaculty24 = {
     instanceID: "Cefaculty22",

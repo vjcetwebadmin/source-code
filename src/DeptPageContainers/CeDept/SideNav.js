@@ -4,7 +4,7 @@ import Profile from "./profile";
 import Vision from "./vision";
 import PEO from "./peo";
 import Program from "./program";
-import Library from "./library";
+import Labs from "./labs";
 import Association from "./association";
 import Result from "./result";
 import Outreach from "./outreach"
@@ -205,7 +205,7 @@ class SideNav extends Component {
             />
             <input
 
-              value="Library"
+              value="Labs"
               class="button"
               onClick={this.onClickLib}
             />
@@ -268,7 +268,7 @@ class SideNav extends Component {
               />
               <input
 
-                value="Library"
+                value="Labs"
                 class="button"
                 onClick={this.onClickLib}
               />
@@ -302,7 +302,7 @@ class SideNav extends Component {
             {this.state.showPeo ? <PEO /> : null}
             {this.state.showProgram ? <Program /> : null}
             {this.state.showfac ? <FacultyNav /> : null}
-            {this.state.showLib ? <Library /> : null}
+            {this.state.showLib ? <Labs /> : null}
             {this.state.showAss ? <Association /> : null}
             {this.state.showRes ? <Result /> : null}
             {this.state.showOut ? <Outreach /> : null}
