@@ -68,7 +68,7 @@ class Heathandfitness extends React.Component{
     }; 
     CricketContent = {
         instanceID: "CricketContent",
-        title: "Cricket is surely one of the most loved sports of the country and the Viswajyothi Cricket Club was formed to nurture this love of the cricket enthusiasts in the institute. Cricket is one of the favourites and well-played game. This club offers proper ground with all international rules and norms. Viswajyothi organises cricket tournament every year. Our present cricket team is one of the best team we have ever had. Our cricket team expecting more participation next time and we expect favorable results from them."
+        title: "Cricket is surely one of the most loved sports of the country and the Viswajyothi Cricket Club was formed to nurture this love of the cricket enthusiasts in the institute. Cricket is one of the favourites and well-played game. This club offers proper ground with all international rules and norms. Viswajyothi organises cricket tournament every year. Our present cricket team is one of the best team we have ever had. Our cricket team expecting more participation next time and we expect favourable results from them."
     }; 
     BasketballTitle = {
         instanceID: "BasketballTitle",
@@ -76,7 +76,7 @@ class Heathandfitness extends React.Component{
     };
     BasketballContent = {
         instanceID: "BasketballContent",
-        title: "Basketball is not just a sport at Viswajyothi, it is a culture of it's own. There is a robust community of basketball players who enjoy and practice basketball all days of the week! Every year Viswajyothi is conducting all kerala Basket Ball tournament “MAGNUM” in the mid of February. The institute men's and women's teams have shown exemplary performances at Inter-college competitions as well as in “MAGNUM” and also in the local circuit in Ernakulam time and again. All enthusiastic players are guided wonderfully by the coach and encouraged to pursue the sport wholeheartedly. He is a master trainer who delves into the intricacies of the game and brings out the best out of all his players. The infrastructure at Viswajyothi boasts of two outdoor state-of-the-art basketball courts. So come along and let's play basketball!"
+        title: "Basketball is not just a sport at Viswajyothi, it is a culture of it's own. There is a robust community of basketball players who enjoy and practice basketball all days of the week! Every year Viswajyothi is conducting all Kerala Basket Ball tournament “MAGNUM” in the mid of February. The institute men's and women's teams have shown exemplary performances at Inter-college competitions as well as in “MAGNUM” and also in the local circuit in Ernakulam time and again. All enthusiastic players are guided wonderfully by the coach and encouraged to pursue the sport wholeheartedly. He is a master trainer who delves into the intricacies of the game and brings out the best out of all his players. The infrastructure at Viswajyothi boasts of two outdoor state-of-the-art basketball courts. So come along and let's play basketball!"
     };
     TableTennisTitle = {
         instanceID: "TableTennisTitle",
@@ -92,7 +92,7 @@ class Heathandfitness extends React.Component{
     };
     BadmintonContent = {
         instanceID: "BadmintonContent",
-        title: "For all badminton loving folks of Viswajyothi. It has been one of the most active clubs handling the most active sport in the institute. With promotion of Badminton as its true motive, it has organised a wide range of events every year. This club’s activities are gonna be bigger and better. Badminton Club will be one of the most happening clubs of the year. Let's take the game in the institute to a higher level. Badminton Club offers 7 courts(3 indoor and 4 outdoor) with high standard inside the campus and has won many accolades. The club is formed with all categories single, double and regroups male and female athletes."
+        title: "For all badminton loving folks of Viswajyothi. It has been one of the most active clubs handling the most active sport in the institute. With promotion of Badminton as its true motive, it has organised a wide range of events every year. This club’s activities are going to be bigger and better. Badminton Club will be one of the most happening clubs of the year. Let's take the game in the institute to a higher level. Badminton Club offers 7 courts (3 indoor and 4 outdoor) with high standard inside the campus and has won many accolades. The club is formed with all categories single, double and regroups male and female athletes."
     };
     VolleyballTitle = {
         instanceID: "VolleyballTitle",

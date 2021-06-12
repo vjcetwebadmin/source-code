@@ -23,7 +23,7 @@ class Canteen extends React.Component {
     }
     CafeteriaContent = {
         instanceID: "CafeteriaContent",
-        title: "Viswjyothi provides Cafeteria service to all students and faculty. This facility is located at the first floor of the D block which runs during the interval sessions. "
+        title: "Viswajyothi provides Cafeteria service to all students and faculty. This facility is located at the first floor of the D block which runs during the interval sessions. "
     }
     canteenImagedata = {
         instanceID: "canteenImagedata",

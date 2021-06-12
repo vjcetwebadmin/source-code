@@ -44,7 +44,7 @@ class Library extends React.Component {
     };
     LibraryContent1 = {
         instanceID: "LibraryContent1",
-        title: "Synonymous with abode of knowledge the central library of the college is stocked with a rich collection of Books, National and International journals, Technical and other Magazines, CD ROMs on Engineering, other widely appreciated editions on diverse subjects like Literature, Management, Religion, Competitive exams etc. It is housed in an area of 16400 Sq.ft. spread over two floors. This library follows an open access system, Barcode based circulation process and OPAC Literature search and Web based Online Public Access Catalogue (WEB OPAC- IP Based Access) system is also incorporated.. Surveillance cameras help to regulate the movement of the users in the library."
+        title: "Synonymous with abode of knowledge the central library of the college is stocked with a rich collection of Books, National and International journals, Technical and other Magazines, CD ROMs on Engineering, other widely appreciated editions on diverse subjects like Literature, Management, Religion, Competitive exams etc. It is housed in an area of 16400 Sq.ft. spread over two floors. This library follows an open access system, Barcode based circulation process and OPAC Literature search and Web based Online Public Access Catalogue (WEB OPAC- IP Based Access) system is also incorporated. Surveillance cameras help to regulate the movement of the users in the library."
     }
     LibraryContent2 = {
         instanceID: "LibraryContent2",
@@ -52,11 +52,15 @@ class Library extends React.Component {
     }
     LibraryContent3 = {
         instanceID: "LibraryContent3",
-        title: "The collection comprises 43774 printed documents such as books, project reports, Mini project reports, Seminar reports and back volumes of journals and the non-book materials like CD ROMs. Membership of the library is open to Students, Teachers and Non Teaching Staff of this college. Library membership is free to all faculty, staff and students.The library also subscribes 88 printed journals, 31 general magazines and library subscribed full text online database like IEEE(ASPP), Science Direct, EBSCO and E - resources through DELNET and National digital library. NPTEL facility to access video lectures are also available."
+        title: "The collection comprises 43774 printed documents such as books, project reports, Mini project reports, Seminar reports and back volumes of journals and the non-book materials like CD ROMs. Membership of the library is open to Students, Teachers and Non Teaching Staff of this college. Library membership is free to all faculty, staff and students. The library also subscribes 88 printed journals, 31 general magazines and library subscribed full text online database like IEEE(ASPP), Science Direct, EBSCO and E - resources through DELNET and National digital library. NPTEL facility to access video lectures are also available."
     }
     DigitalLibraryContent = {
         instanceID: "DigitalLibraryContent",
         title: "A well- arranged Digital Library with 60 Computers and 25 headphones help the users to view e-facilities and use Audio/video facilities also. Digital Library can also be accessed anywhere on the campus. This library provides uncompromising information and intellectual requirements for its students and faculty with user friendly approach. It offers a fully integrated and dynamic environment for conducting academic study. Multiple copies ensure that resources are easily available in the reference section and stock section as well."
+    }
+    Digitaleresource= {
+        instanceID: "Digitaleresource",
+        title: "The library provides IP enabled access to a large number of full text on line journal databases from the various publishers."
     }
     LibraryServiceTitle = {
         instanceID: "LibraryServiceTitle",
@@ -283,9 +287,7 @@ class Library extends React.Component {
                         <HeadingTwo data={this.LibraryDigitalTitle} className="Heading" />
                         <BodyOneJustified data={this.DigitalLibraryContent} />
                         <HeadingTwo data={this.LibraryDigitalResorceTitle} className="Heading" />
-                        <p>
-                        The library provides IP enabled access to a large number of full text on line journal databases from the various publishers.
-                        </p>
+                        <BodyOneJustified data={this.Digitaleresource} />
                         <ol>
                             <li><a href="https://ieeexplore.ieee.org" target="_blank">IEEE(ASPP)</a></li>
                             <li>Science Direct</li>
@@ -375,7 +377,7 @@ class Library extends React.Component {
                             <li>
                                 <p><b>Information Technology</b></p>
                                 <ol>
-                                <li>International Journal of Image Processing andApplications</li>
+                                <li>International Journal of Image Processing and Applications</li>
                                 <li>Journal of High Performance Communication Systems and Networking</li>
                                 <li>International Journal of Computers, Information Technology and Engineering</li>
                                 <li>International Journal of Computer Science and System Analysis</li>
@@ -385,9 +387,9 @@ class Library extends React.Component {
                                 </ol>
                             </li>
                             <li>
-                                <p><b>MechanicalEngineering</b></p>
+                                <p><b>Mechanical Engineering</b></p>
                                 <ol>
-                                <li>International Journal of a Advances in Machining and Forming Operations</li>
+                                <li>International Journal of Advances in Machining and Forming Operations</li>
                                 <li>International Journal of Advanced Mechatronics and Robotics</li>
                                 <li>International Journal of Manufacturing Technology and Industrial Engineering</li>
                                 <li>International Journal of Advanced Manufacturing System</li>

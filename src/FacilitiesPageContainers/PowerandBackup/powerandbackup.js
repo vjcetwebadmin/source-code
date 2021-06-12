@@ -86,8 +86,8 @@ class powerandbackup extends React.Component {
                         <BodyOneJustified data={this.Solarcontent} />
                         <HeadingTwo data={this.SubstationTitle} className="Heading" />                    
                                 <ol><font size="3">1. 11000V/433V ,315 kVA TRANSFORMER. Make: KEL</font></ol>
-                                <ol><font size="3">2. 200 kVA DIESEL GENERATOR SET WITH AMF RELAY. Alternator : STARMFORD. Engine :CUMMINS</font></ol>
-                                <ol><font size="3">3. 320 kVA DIESEL GENERATOR SET. Alternator : STARMFORD. Engine :CUMMINS</font></ol>
+                                <ol><font size="3">2. 200 kVA DIESEL GENERATOR SET WITH AMF RELAY. Alternator: STARMFORD. Engine: CUMMINS</font></ol>
+                                <ol><font size="3">3. 320 kVA DIESEL GENERATOR SET. Alternator: STARMFORD. Engine: CUMMINS</font></ol>
                             
                                 
                             

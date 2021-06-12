@@ -1,7 +1,7 @@
 import React from "react";
 import Canteen from "./Canteen";
 
-import Health from "./Health";
+//import Health from "./Health";
 
 import BankPost from "./BankPost";
 import HeadingOne from "../Components/Texts/HeadingOne";
@@ -16,7 +16,7 @@ class FacilitiesPageContainers extends React.Component {
       <React.Fragment>
         <HeadingOne data={this.FacTitle} className="Heading" />
         <Canteen />
-        <Health />
+       {/* <Health />*/}
         <BankPost />
         <br /> <br />
       </React.Fragment>

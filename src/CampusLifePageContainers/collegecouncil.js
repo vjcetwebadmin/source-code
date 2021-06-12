@@ -124,7 +124,7 @@ class collegecouncil extends React.Component {
                             <tr><td>FIRST YEAR REPRESENTATIVE</td><td>JOEL RAJU</td><td>S1 CSE A</td></tr>
                             <tr><td>SECOND YEAR REPRESENTATIVE</td><td>AJAY SAJEEVAN</td><td>S3 ECE A</td></tr>
                             <tr><td>THIRD YEAR REPRESENTATIVE</td><td>MARIA BENNY</td><td>S5 EEE A</td></tr>
-                            <tr><td>FOURTH YEAR REPRESENTATIVE</td><td>TINU GEORGE</td><td>S7 EE B</td></tr>
+                            <tr><td>FOURTH YEAR REPRESENTATIVE</td><td>TINU GEORGE</td><td>S7 EEE B</td></tr>
                             
                         </table>
                         <HeadingTwo data={this.MajoreventsTitle} className="Heading" />

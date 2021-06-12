@@ -17,6 +17,7 @@ class Honours extends Component {
               }
             : () => {}
         }
+        
       >
         <img
           src={require("../Assets/" + image)}
@@ -26,7 +27,7 @@ class Honours extends Component {
           alt="alt"
         />
         <h3>{name}</h3>
-        <p>{content}</p>
+        <p style={{width:"95%",wordWrap:"break-word"}}>{content}</p>
       </div>
     );
   }

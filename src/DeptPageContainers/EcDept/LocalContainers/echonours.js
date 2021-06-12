@@ -29,21 +29,21 @@ class Echonours extends Component {
     width: "30%",
     name: "Gayathri Anil",
     content:
-      "Secured First Rank in B.Tech Electronics and Communication Engineering in May 2012"
+      "Secured fourth Rank in B.Tech Electronics and Communication Engineering in May 2012"
   };
   Echonours4 = {
     instanceID: "echonours4",
     image: "Honours/echonours4.jpg",
     width: "30%",
     name: "Haripriya P",
-    content: "Secured First Rank in M.Tech VLSI in May 2013"
+    content: "Secured First Rank in M.Tech VLSI in May 2012"
   };
   Echonours5 = {
     instanceID: "echonours5",
     image: "Honours/echonours5.jpg",
     width: "30%",
     name: "Seena V P",
-    content: "Secured Third Rank in M.Tech VLSI in May 2013"
+    content: "Secured Third Rank in M.Tech VLSI in May 2012"
   };
   Echonours6 = {
     instanceID: "echonours6",
@@ -93,6 +93,22 @@ class Echonours extends Component {
     content:
       "Secured Tenth Rank in B.Tech Electronics and Communication Engineering in May 2018"
   };
+  Echonours12 = {
+    instanceID: "echonours12",
+    image: "Honours/echonours12.jpg",
+    width: "30%",
+    name: "Annmary Cherian",
+    content:
+      "Secured Ninth Rank in B.Tech Electronics and Communication Engineering in May 2017"
+  };
+  Echonours13 = {
+    instanceID: "echonours13",
+    image: "Honours/echonours13.jpg",
+    width: "30%",
+    name: "Rosemary Cherian",
+    content:
+      "Secured Seventh Rank in B.Tech Electronics and Communication Engineering in May 2017"
+  };
   render() {
     return (
       <div className="honours">
@@ -106,13 +122,16 @@ class Echonours extends Component {
           </div>
           <div>
             <Honours data={this.Echonours10} />
-          </div>
-          <div>
-            <Honours data={this.Echonours11} />
-          </div>
+          </div> 
           <div>
             <Honours data={this.Echonours7} />
+          </div>                  
+          <div>
+            <Honours data={this.Echonours13} />
           </div>
+          <div>
+            <Honours data={this.Echonours12} />
+          </div>          
           <div>
             <Honours data={this.Echonours6} />
           </div>

@@ -33,14 +33,14 @@
     display: inline-block;
   }
 
-  .VisionSection {
-    /*padding: 3% 0% 3% 0%;*/
+ /* .VisionSection {
+    /*padding: 3% 0% 3% 0%;
 
     grid-template-columns: 50% 50%;
     grid-template-areas:
       "a a" 
       "b c";
-  }
+  }*/
  .VisionSectionA {
     text-align: justify;
     padding: 5% 5% 5% 5%;
@@ -99,4 +99,24 @@
     text-align: start;
     color: #b8b8b8;
   }
+}
+.paramainhead{
+  padding-left: 3%;
+  font-size: 30px;
+  font-weight: bold;
+  color:brown;  
+}
+.paramaintext{
+  line-height:1.8em;
+   padding-left: 3%;
+   font-weight: 16px;
+}
+.parahead{
+  padding-left: 5%;
+  font-weight: bold;
+}
+.paratext{
+   line-height:1.8em;
+   padding-left: 5%;
+   font-weight: 16px;
 }

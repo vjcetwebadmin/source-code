@@ -40,7 +40,7 @@ class sportsfest extends React.Component {
       ProfileDescriptionTwo = {
         instanceID: "ProfileDescriptionTwo",
         title:
-          "It comments with a colorful March pas of each house in a competitive spirit. It has been successful in proving platform for the students to exhibit their athletic skills. This proved to be healthy competition between the athletes setting new records in speed, height and distance."
+          "It comments with a colorful March past of each house in a competitive spirit. It has been successful in proving platform for the students to exhibit their athletic skills. This proved to be healthy competition between the athletes setting new records in speed, height and distance."
       };
    
 

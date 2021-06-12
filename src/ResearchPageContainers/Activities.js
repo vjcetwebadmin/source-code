@@ -64,7 +64,26 @@ class Profile extends Component {
                 <BodyThree data={this.ReserchBody1} /><br />
         <HeadingFour data={this.EventTitle1} className="Heading" />*/}
                 <HeadingTwo data={this.MajoreventsTitle} className="Heading" />
-               <p align="left" ><b>Master of Business Administration</b></p>
+                    <br></br>
+                    <table id="tableformat">
+                   <tr><th style={{width:"25%"}}>Ph.D Research Guides</th><th>University & Departments</th><th>Currently Associated or Not</th><th>Year of Resignation</th><th>Name of Research Scholars</th></tr>
+                   <tr><td rowSpan="6">Dr. Cyriac Joseph</td><td rowSpan="6">MG University & Bharathiar University, MBA</td><td rowSpan="6">Yes</td><td rowSpan="6">NA</td><td>Ms. Amal Sharin T.J</td></tr>
+                   <tr><td>Ms. Vinita Nair</td></tr>
+                   <tr><td>Ms. RemaDevi T C</td></tr>
+                   <tr><td>Ms. Gayana T S</td></tr>
+                   <tr><td>Ms. Gincy Luckose. V</td></tr>
+                   <tr><td>Ms. Mercy Mathew</td></tr>                 
+                   <tr><td>Dr. K.N Ramachandran  Nair</td><td>MG University,CSE</td><td>No</td><td>2018</td><td>Dr. Jina Varghese</td></tr>
+                   <tr><td rowSpan="2">Dr. Lovely Mathew</td><td rowSpan="2">MG University,S&H</td><td rowSpan="2">No</td><td rowSpan="2">2018</td><td>Ms. Ajitha A R</td></tr>
+                   <tr><td>Ms. Aswathi M K</td></tr>                   
+                   <tr><td>Dr. Anishin Raj M.M</td><td>KTU, CSE</td><td>Yes</td><td>NA</td><td>Recognized as Research Guide under KTU. Students are not assigned</td></tr>
+                   <tr><td>Dr. Sony Kurian</td><td>KTU, EEE</td><td>Yes</td><td>NA</td><td>Recognized as Research Guide under KTU. Students are not assigned</td></tr>
+                   <tr><td>Dr. K. Shunmugesh</td><td>KTU, ME</td><td>Yes</td><td>NA</td><td>Recognized as Research Guide under KTU. Students are not assigned</td></tr>
+                   <tr><td>Dr. Sajan T John</td><td>KTU, MBA, ME</td><td>Yes</td><td>NA</td><td>Recognized as Research Guide under KTU. Students are not assigned</td></tr>
+                   </table>
+                   <br></br>
+ 
+                   <p align="left" ><b>Master of Business Administration</b></p>
                   <p align="left" style={{lineHeight:1.5}} >There are three faculty members with Ph.D., who are currently working in this department. Currently, three research scholars are doing Ph.D. under the guidance of Dr. Cyriac Joseph and three have already completed Ph.D. The MBA department organises various innovative seminars, training programmes etc.</p>  
                   <p align="left" >Research Guide</p>
                   <p align="left" >Dr. Cyriac Joseph</p>
@@ -74,6 +93,12 @@ class Profile extends Component {
                   <p align="left" >Research Guides</p>
                   <p align="left" >Dr. K N Ramachandran Nair</p>
                   <p align="left" >Dr. Anishin Raj M.M</p>
+
+                  <p align="left" ><b>Department of Artificial Intelligence and Data Science</b></p>
+                  <p align="justify" style={{lineHeight:1.5}} >This course provides a profound knowledge in the cutting edge AI, Machine Learning and Deep Learning techniques through a pragmatic approach of providing trainings in Python, Pandas, BigData tools, Tensor Flow, Keras, NumPy etc. The department constantly organises events such as External Seminars, Symposiums, Short Term Training Programs by industrial experts and Faculty Development Programs to inculcate novel ideas, industrial exposure and to get connected with like-minded enthusiasts in AI.</p>  
+                 {/* <p align="left" >Research Guides</p>
+                  <p align="left" >Dr. K N Ramachandran Nair</p>
+                 <p align="left" >Dr. Anishin Raj M.M</p>*/}
 
                   <p align="left" ><b>Department of Electrical & Electronics Engineering</b></p>
                   <p align="justify" style={{lineHeight:1.5}} >The EEE department organizes training programmes, workshops and seminars on recent trends in their field. Currently, three faculty members with Ph.D are working in this department. Faculty members of the EEE department have received grants for projects from governmental agencies such as Department of Atomic Energy & Board of research in Nuclear Science. The EEE department encourages their faculties to publish articles in Scopus indexed journals/conferences. One faculty member is recognized as a research guide under APJ Abdul Kalam Technological University.</p>  
@@ -102,25 +127,7 @@ class Profile extends Component {
 
                   <br />
                    
-                   <table id="tableformat">
-                   <tr><th>Sl No.</th><th>Ph.D Research Guides</th><th>Departments</th><th>Name of Research Scholars</th></tr>
-                   <tr><td rowSpan="6">1</td><td rowSpan="6">Dr. Cyriac Joseph</td><td rowSpan="6">MBA</td><td>Ms. Amal Sharin T.J</td></tr>
-                   <tr><td>Ms. Vinita Nair</td></tr>
-                   <tr><td>Ms. RemaDevi T C</td></tr>
-                   <tr><td>Ms. Gayana T S</td></tr>
-                   <tr><td>Ms. Gincy Luckose. V</td></tr>
-                   <tr><td>Ms. Mercy Mathew</td></tr>
-                   <tr><td>2</td><td>Dr. Sajan T John</td><td>MBA</td><td>Recognized as Research Guide under KTU. Students are not assigned</td></tr>
-                   <tr><td>3</td><td>Dr. K.N Ramachandran  Nair</td><td>CSE</td><td>Dr. Jina Varghese</td></tr>
-                   <tr><td rowSpan="2">4</td><td rowSpan="2">Dr. Lovely Mathew</td><td rowSpan="2">S&H</td><td>Ms. Ajitha A R</td></tr>
-                   <tr><td>Ms. Aswathi M K</td></tr>                   
-                   <tr><td>5</td><td>Dr. Anishin Raj M.M</td><td>CSE</td><td>Recognized as Research Guide under KTU. Students are not assigned</td></tr>
-                   <tr><td>6</td><td>Dr. Sony Kurian</td><td>EEE</td><td>Recognized as Research Guide under KTU. Students are not assigned</td></tr>
-                   <tr><td>7</td><td>Dr. K. Shunmugesh</td><td>ME</td><td>Recognized as Research Guide under KTU. Students are not assigned</td></tr>
-                   <tr><td>8</td><td>Dr. Sajan T John</td><td>ME</td><td>Recognized as Research Guide under KTU. Students are not assigned</td></tr>
-                   </table>
-
-              </div>
+             </div>
         );
     }
 }
