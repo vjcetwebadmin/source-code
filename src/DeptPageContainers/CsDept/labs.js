@@ -113,7 +113,14 @@ MicroUGwriteup5 = {
 	title: "The Micro Processor Lab is one of the oldest laboratories in the institution under the Department of Computer Science & Engineering. A well-equipped Microprocessor Lab with advanced facilities to do their experiments are provided in this laboratory. We are using Micro-86 EB1 Trainer Kit, Intel 8086/8088 CPU at 5/4.77 MHz clock rate. The device has 40 pins, + 5 V power supply with 16×2 LCD DISPLAY and having 48 I/O lines using two numbers of 8255. It can access upto 1 GB of physical memory. This is to familiarize the students with 8086, MASM programming, and 8051 Microcontroller trainer kit and various interfacing boards."
 };
 
-
+MicroUGwriteup6 = {
+	instanceID: "MicroUGwriteup6",
+	title: "This lab is dedicated for M. Tech students to work on practical experiments related to courses such as Computer Networks, Wireless Networks,Mobile Communications. Network systems lab is well equipped with 15 computers. This lab is to provide an exposure to the students with hands on experience on various simulator tools like NS2, NS3 and packet analyzers such as Wireshark."
+};
+MicroUGwriteup7 = {
+	instanceID: "MicroUGwriteup7",
+	title: "The lab is dedicated for M.Tech students to develop their minor project and thesis work. The lab provides all necessary facilities to promote multi-disciplinary projects.  Also the M.Tech students utilizes this lab for research work and paper publications."
+};
   render() {
     return (
       <div className="DeptLibrary" id="dept-library">
@@ -121,7 +128,9 @@ MicroUGwriteup5 = {
       <div>
         <HeadingTwo data={this.AdvdatabaseLabHeading} />
 		<ImageOne data={this.AdvdatabaseLabImagedata} />
-        
+		<p></p>
+		<p><BodyOneJustified data={this.ProjLabUGwriteup6}></BodyOneJustified></p>
+		<p></p>       
        <table id="tableformat">
 	      <tbody>
 		      <tr>
@@ -130,15 +139,15 @@ MicroUGwriteup5 = {
 	       </tr>
 	       <tr>
 		          <td>No of systems/ capacity</td>
-		          <td>35</td>
+		          <td>15</td>
 	       </tr>
 	       <tr>
 		          <td>Configuration</td>
-	        	  <td>HP DX2480  Intel Core2Duo Processor 2 GB DDR2 RAM , 250 GB Sata HDD</td>
+	        	  <td>HP DX2480 Intel Core2Duo Processor 2 GB DDR2 RAM , 250 GB Sata HDD</td>
 	       </tr>
 	       <tr>
 	        	  <td>Licensed software using</td>
-		          <td>Window 7, Java, Matlab, Developer C, Ubuntu</td>
+		          <td>Window 7, Java, Developer C, Ubuntu</td>
 	      </tr>	
       	</tbody>
       </table>
@@ -146,7 +155,9 @@ MicroUGwriteup5 = {
       <div>
         <HeadingTwo data={this.PGProjLabHeading} />
 		<ImageOne data={this.PGProjLabImagedata} />
-        
+		<p></p>
+		<p><BodyOneJustified data={this.ProjLabUGwriteup7}></BodyOneJustified></p>
+		<p></p>        
        <table id="tableformat">
 	      <tbody>
 		      <tr>
@@ -155,7 +166,7 @@ MicroUGwriteup5 = {
 	       </tr>
 	       <tr>
 		          <td>No of systems/ capacity</td>
-		          <td>40</td>
+		          <td>10</td>
 	       </tr>
 	       <tr>
 		          <td>Configuration</td>

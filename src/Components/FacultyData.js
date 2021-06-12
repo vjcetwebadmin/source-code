@@ -20,13 +20,13 @@ class FacultyData extends Component {
       >
         <img
           src={require("../Assets/" + image)}
-         /* width={width}*/
+         /* width={width}*/        
          height="200px"
           style={{ ...this.props.imgStyle }}
           alt="img"
         />
         <h3>{name}</h3>
-        <p>{content}</p>
+        <p style={{wordWrap:"break-word"}}>{content}</p>
       </div>
     );
   }

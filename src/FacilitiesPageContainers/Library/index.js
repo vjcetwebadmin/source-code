@@ -64,11 +64,11 @@ class Library extends React.Component {
     };
     LibraryReferanceTitle = {
         instanceID: "LibraryServiceTitle",
-        title: "Referance Services"
+        title: "Reference Services"
     };
     LibraryReferanceContent = {
         instanceID: "LibraryReferanceContent",
-        title: "The Library maintains a separate reference collection consisting of encyclopedias, dictionaries, directories, handbooks, technical data,  atlases, CD -ROMs. Project Reports and seminar Reports. The question papers of the examinations conducted by the university in previous years and syllabi of courses conducted by this college are also made available in this section."
+        title: "The library maintains a separate reference collection consisting of encyclopedias, dictionaries, directories, handbooks, technical data,  atlases, CD -ROMs. Project Reports and seminar Reports. The question papers of the examinations conducted by the university in previous years and syllabi of courses conducted by this college are also made available in this section."
     }
     LibraryReprographyTitle = {
         instanceID: "LibraryReprographyTitle",
@@ -78,7 +78,7 @@ class Library extends React.Component {
     
     LibraryReprographyContent = {
         instanceID: "LibraryReprographyContent",
-        title: "The Library provides photocopying facilities allowed within the copyright rules. Question papers of previous year university examinations, articles of journals can also be photocopied."
+        title: "The library provides photocopying facilities allowed within the copyright rules. Question papers of previous year university examinations, articles of journals can also be photocopied."
     }
     LibraryResourceTitle = {
         instanceID: "LibraryResourceTitle",
@@ -90,7 +90,7 @@ class Library extends React.Component {
     };
     LibraryJournalContent = {
         instanceID: "LibraryJournalContent",
-        title: "The Library receives 129 printed journals, technical and newspapers. The library provides IP enabled access to a large number of full text online journal databases from the various publishers."
+        title: "The library receives 129 printed journals, technical and newspapers. The library provides IP enabled access to a large number of full text online journal databases from the various publishers."
     }
     
     LibraryImagedata = {
@@ -108,7 +108,7 @@ class Library extends React.Component {
                     <ImageOne data={this.LibraryImagedata} />
                     <br />
                     <div className="bodyContainer">
-                        <HeadingOne data={this.LibraryCentralTitle} className="Heading" />
+                      {/*  <HeadingOne data={this.LibraryCentralTitle} className="Heading" />*/}
                         <BodyOneJustified data={this.LibraryContent1} />
                         <p>
                             <BodyOneJustified data={this.LibraryContent2} />

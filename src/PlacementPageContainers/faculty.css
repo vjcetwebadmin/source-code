@@ -6,6 +6,7 @@
   grid-template-columns: auto auto auto auto;
   grid-gap: 10px;
   padding: 10px;
+
 }
 @media (max-width: 700px) {
   .facultyContentSH {
@@ -13,6 +14,7 @@
     grid-template-columns: 50% 50%;
     grid-gap: 1%;
     padding: 1%;
+    width: 25%;
   }
 }
 
@@ -21,4 +23,5 @@
   align-content: center;
   padding: 20px 0;
   font-size: 30px;
+  width: 25%;
 }

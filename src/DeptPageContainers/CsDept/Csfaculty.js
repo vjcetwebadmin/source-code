@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import FacultyData from "../../Components/FacultyData";
+import "./faculty.css"
 class CSFaculty extends Component {
   state = {};
   Cefaculty1 = {

@@ -47,7 +47,7 @@ class powerandbackup extends React.Component {
     
     Generatorcontent = {
         instanceID: "Generatorcontent",
-        title: "To provide uninterrupted power, the college has two on-camps indoor diesel powered generator of 200 kVA and 320kVA capacities. The 200kVA generator is provided by an auto start mechanism and is mainly used during off peak hours. The 320kVA generator is manually operated and is operated during peak hours. "
+        title: "To provide uninterrupted power, the college has two on-campus indoor diesel powered generator of 200 kVA and 320kVA capacities. The 200kVA generator is provided by an auto start mechanism and is mainly used during off peak hours. The 320kVA generator is manually operated and is operated during peak hours. "
     }
     UPScontent = {
         instanceID: "UPSContent",
