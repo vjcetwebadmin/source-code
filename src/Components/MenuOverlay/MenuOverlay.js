@@ -302,7 +302,7 @@ class MenuOverlay extends Component {
               </Link>
               <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/departments/it">
-                Information Technology Engineering
+                Information Technology
               </Link>
               <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/departments/me">
@@ -395,6 +395,10 @@ class MenuOverlay extends Component {
               <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/facilities/powerandbackup">
                 Power & Backup
+              </Link>
+              <div className="wseparator"></div>
+              <Link className="MenuOverlaySubLinks" to="/facilities/solar">
+                Solar Power Plant
               </Link>
               <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/facilities/hostel">

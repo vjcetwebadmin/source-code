@@ -60,7 +60,7 @@ class Heathandfitness extends React.Component{
     };     
     FootballContent = {
         instanceID: "FootballContent",
-        title: "Ever dreamt of playing in an environment as the ones you watch in premiership football? This being the most followed and played sport in the institute along with the state of art facilities available at your disposal, Football at Viswajyothi surely contributes to making your stay at the campus memorable! Together, lets make this excellent sport flourish even further and take it to new heights!Football is one of the successful clubs among all the clubs. Our football team has set up their mark in many inter colleges competition. Every year this group has a lot of young and enthusiasts athletes. The club gives an opportunity to show their talent by providing proper training with the help of well-trained coaches."
+        title: "Ever dreamt of playing in an environment as the ones you watch in premiership football? This being the most followed and played sport in the institute along with the state of art facilities available at your disposal, Football at Viswajyothi surely contributes to making your stay at the campus memorable! Together, lets make this excellent sport flourish even further and take it to new heights! Football is one of the successful clubs among all the clubs. Our football team has set up their mark in many inter colleges competition. Every year this group has a lot of young and enthusiasts athletes. The club gives an opportunity to show their talent by providing proper training with the help of well-trained coaches."
     }; 
     CricketTitle = {
         instanceID: "CricketTitle",

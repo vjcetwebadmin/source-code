@@ -49,8 +49,7 @@ class sportsfest extends React.Component {
             <React.Fragment>
                 <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
                     <HeadingOne data={this.ProfileHeading} />
-                 <Bodythree data={this.ProfileDescriptionOne} /> 
-                 <Bodythree data={this.ProfileDescriptionTwo} />         
+                 <Bodythree data={this.ProfileDescriptionOne} />          
                 <br></br>
                <div class="gallery">                    
                     <iframe src="https://vjcet.org/downloads/gallery/drona.html" width="90%" height="500" title="Drishya" ></iframe>

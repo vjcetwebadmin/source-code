@@ -74,7 +74,7 @@ ActivitiesHeading = {
                             <HeadingThree data={this.ActivitiesHeading} /> 
                             <table id="tableformat">
                            
-                            <tr><th>Sl. No</th><th>Event</th><th>Date</th><th>Details</th></tr>
+                            <tr><th>Sl. No</th><th>Event</th><th style={{width:"130px;"}}>Date</th><th>Details</th></tr>
                             <tr><td>1</td><td>Annual General Meeting</td><td>15-02-2019</td><td>New execom members officially took up their charge in respective roles. Our seniors gave us necessary instructions to be followed. Branch Counsellor Mr. Anish M Jose ,CS counsellor Mr.Sivadas T Nair, and PES counsellor Mr.Babu T Chacko facilitated the occasion. Previous execom members were rewarded with a certificate for their excellent volunteering.</td></tr>
                             <tr><td>2</td><td>IEEE Orientation Programme</td><td>23-02-2019</td><td>First years from all branches were given orientation on importance of joining IEEE. Membership benefits were clearly explained by two experienced membership development volunteers from kochi hub Mr Feni Roy from Mar Athanasius College of Engineering and Technology and Mr.Sreehari A S from Model Engineering College. We had a vibrant audience responding to all their comments.</td></tr>
                             <tr><td>3</td><td>Science week quiz on Space-X</td><td>28-02-2019</td><td>As a part of science week, our SB conducted a quiz on “Space-X”. There were a total of 25 participants.Out of the 25 participants, Miss Anusree R won the first prize and Mr Basil Eldhose won the second prize.</td></tr>

@@ -30,7 +30,7 @@ class techfest extends React.Component {
     
     EventContent1 = {
         instanceID: " EventContent1",
-        title: "To explore the thoughts, creativity, imagination and talents of young minds, ‘BODHI’ the annual Tech-Fest of Viswajyothi College of Engineering and Technology is conducted every year. It celebrates, fosters and proudly presents the pioneering and inquisitive minds of engineers. A fete like no other, it imbibes the true spirit of science and technology, and presents it in new modes and manners. It's not all about exhibits and presentations; even engineers like to have their share of fun and games, in a dignified manner. BODHI aims to connect students from campuses all over India by making them aware of Technical, Cultural, Management Fests, Workshops, Conferences, Seminars organized by each departments in the college."
+        title: "To explore the thoughts, creativity, imagination and talents of young minds, ‘BODHI’ the annual Tech-Fest of Viswajyothi College of Engineering and Technology is conducted every year. It celebrates, fosters and proudly presents the pioneering and inquisitive minds of professional students. A fete like no other, it imbibes the true spirit of science and technology, and presents it in new modes and manners. It's not all about exhibits and presentations; even engineers like to have their share of fun and games, in a dignified manner. BODHI aims to connect students from campuses all over India by making them aware of Technical, Cultural, Management Fests, Workshops, Conferences and Seminars."
     }
     EventContent2 = {
         instanceID: " EventContent2",
@@ -50,7 +50,7 @@ class techfest extends React.Component {
                 <h3 style={{textAlign:"center"}}><b>“What we think, we become.</b></h3>
                 <h3 style={{textAlign:"center"}}><b>All that we are arises with our thoughts.</b></h3>
                 <h3 style={{textAlign:"center"}}><b>With our thoughts, we make the world”.</b></h3>      
-                 <h3 style={{textAlign:"right",paddingRight:"30%"}}><b>- The Buddha</b></h3>
+                 <h3 style={{textAlign:"right",paddingRight:"30%"}}><b>: Gautama Buddha</b></h3>
                  <Bodythree data={this.EventContent1} /> 
                  <br></br>
                <div class="gallery">
