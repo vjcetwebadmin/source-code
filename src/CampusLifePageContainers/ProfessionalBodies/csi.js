@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 /* import HeadingOne from "../../Components/Texts/HeadingOne"; */
 import BodyOneJustified from "../../Components/Texts/BodyOneJustified"
-
+import ImageOne from "../../Components/Images/ImageOne";
 import ImageTwo from "../../Components/Images/imageTwo";
 import HeadingThree from "../../Components/Texts/HeadingThree";
 import HeadingFive from "../../Components/Texts/HeadingFive";
@@ -24,6 +24,11 @@ ActivitiesHeading = {
   instanceID: "ActivitiesHeading",
   title: "Student Branch Events"
 };
+ActivitiesHeading1 = {
+  instanceID: "ActivitiesHeading1",
+  title: "AWARDS"
+};
+
 VisionHeading = {
   instanceID: "VisionHeading",
   title: "Vision"
@@ -50,6 +55,172 @@ MissionHeading = {
     title: "CSI Chapter Organizes knowledge sharing programmes and seminars, new technology oriented talks by experts / allied workshops and HRD courses. Besides, various competitions like website designing, programming, debugging, technical quiz, are also our events that throw open a platform for student participants to measure up to the needs of the time as leaders and organizers."
   };
 
+
+  ActivitiesHeading1 = {
+    instanceID: "ActivitiesHeading1",
+    title: "AWARDS"
+  };
+  Features5 = {
+    instanceID: "Features5",
+    title: "One of the vibrant branches of CSI (Computer Society of India) Cochin Chapter initiated by Dr. Sasikumar, Free Software Foundation on 13th February 2009. CSI Student branch of VJC organize knowledge sharing programmes and seminars, new technology oriented talks by experts/allied workshops and HRD courses. Besides, various competitions like website designing, programming, debugging, technical quiz, are also our events that throw open a platform for student participants to measure up to the needs of the time as leaders and organizers."
+  };
+
+  ActivitiesHeading2 = {
+    instanceID: "ActivitiesHeading2",
+    title: "CSI STUDENT BRANCH RECIEVES “BEST ACCREDITED STUDENT BRANCH AWARD”"
+  };
+  Features6 = {
+    instanceID: "Features6",
+    title: "The CSI Student Branch of Viswajyothi College of Engineering and Technology, one of the most vibrant branches of CSI Cochin Chapter was selected to receive the prestigious “Best Accredited Student Branch Award” in the year 2017-2018 and 2018-2019 by the Computer Society of India which has 73 chapters all over India, over 500 student branches, and more than 200000 members. The student branch receives “ The Best Accredited Student Branch” consecutively for 5 years is a noticeable achievement. The award was received by Head of Computer Science and Engineering Department Prof. Amel Austine from  Prof  Mike Hinchy, President of IFIP and Dr. R.K Vyas, Vicepresident CSI in the CSI Annual Convention 2020 at Kalinga Instituite of Industrial Technology, Bhuvaneswar on 18th January 2020."
+  };
+  LabImagedata1 = {
+    instanceID: "LabImagedata1",
+    image: "ProfessionalBodies/csi/CSI05.jpg",
+    width: "65%"
+      };
+  
+  ActivitiesHeading3 = {
+    instanceID: "ActivitiesHeading3",
+    title: "TECHNICAL TALK ON “BLOCK CHAIN TECHNOLOGIES”"
+  };
+  Features7 = {
+    instanceID: "Features7",
+    title: "The CSI student branch of Viswajyothi College of Engineering and Technology conducted a Technical talk on Internet of Things on 29th July 2019"
+  };
+ LabImagedata2= {
+	instanceID: "LabImagedata2",
+	image: "ProfessionalBodies/csi/CSI06.jpg",
+	width: "65%"
+    };
+
+
+    ActivitiesHeading4 = {
+      instanceID: "ActivitiesHeading4",
+      title: "Motivating Talk “Personality Development”"
+    };
+    Features8 = {
+      instanceID: "Features8",
+      title: "The CSI Student Branch of Viswajyothi College of Engineering and Technology, Vazhakulam, has conducted a Motivating talk titled “Personality Development” on 01-08-2019 for the students of First semester CSE.  The programme venue was the Main Auditorium."
+    };
+   LabImagedata3 = {
+    instanceID: "LabImagedata3",
+    image: "ProfessionalBodies/csi/CSI07.jpg",
+    width: "65%"
+      };
+
+    LabImagedata4 = {
+        instanceID: "LabImagedata4",
+        image: "ProfessionalBodies/csi/CSI08.jpg",
+        width: "65%"
+     };
+
+
+
+     ActivitiesHeading5 = {
+      instanceID: "ActivitiesHeading5",
+      title: "Motivating TShort Term Training Programme on “LATEX”"
+    };
+    Features9 = {
+      instanceID: "Features9",
+      title: "The CSI Student Branch of Viswajyothi College of Engineering and Technology, Vazhakulam, in association with CSI Cochin Chapter has conducted a Workshop on “LATEX”.  The workshop venue was the Computer Research Lab, R&D Block. This workshop aims to provide a comprehensive theoretical and hands on practical experience on LaTeX to the beginners. LaTeX is a document preparation system for high-quality typesetting, which is preferably used for technical/scientific papers writing for journals by researchers, engineers and mathematicians at large. The typesetting system offers programmable writing features and extensive facilities for automating most aspects of typesetting."
+    };
+   LabImagedata5 = {
+    instanceID: "LabImagedata5",
+    image: "ProfessionalBodies/csi/CSI09.jpg",
+    width: "65%"
+      };
+
+    LabImagedata6 = {
+        instanceID: "LabImagedata6",
+        image: "ProfessionalBodies/csi/CSI10.jpg",
+        width: "65%"
+     }
+
+     ActivitiesHeading6 = {
+      instanceID: "ActivitiesHeading6",
+      title: "EXPERT LECTURE  on  “BugBouny and Android Development”"
+    };
+    Features10 = {
+      instanceID: "Features10",
+      title: "The CSI Student Branch of Viswajyothi College of Engineering and Technology, Vazhakulam, has conducted a EXPERT LECTURE  on  “BugBouny and Android Development” The programme venue was Common Computing Center. Selected Students are participated for the program and the program was successful."
+    };
+   LabImagedata7 = {
+    instanceID: "LabImagedata7",
+    image: "ProfessionalBodies/csi/CSI11.jpg",
+    width: "65%"
+      };
+
+ 
+      ActivitiesHeading7 = {
+        instanceID: "ActivitiesHeading7",
+        title: "Codewar’19 Competition"
+      };
+      Features11 = {
+        instanceID: "Features11",
+        title: "CODEWAR ’19 added another gem to the crown of CSI Student Branch of Viswajyothi. The grant successful event was held in association with CSE Department.  The contest attracted an enthralling crowd of enthusiastic students from various branches. A total of 43 students from various branches participated in the event. The closing ceremony was blessed with the presence of Dr. Josephkunju Paul C, Principal and Mr. Amel Austine, HOD-CSE.  Deepak Benny of Final year student bagged the first prize. Ananthu of Final year won the second prize. Attractive prizes of Rs.1500/-, Rs.500/- and Certificate of Merit were awarded to the winners."
+      };
+     LabImagedata8 = {
+      instanceID: "LabImagedata8",
+      image: "ProfessionalBodies/csi/CSI12.jpg",
+      width: "65%"
+        };
+        LabImagedata9 = {
+          instanceID: "LabImagedata9",
+          image: "ProfessionalBodies/csi/CSI13.jpg",
+          width: "65%"
+            }; 
+
+            ActivitiesHeading8 = {
+              instanceID: "ActivitiesHeading8",
+              title: "Motivating Talk “Personality Development”"
+            };
+            Features12 = {
+              instanceID: "Features12",
+              title: "The CSI Student Branch of Viswajyothi College of Engineering and Technology, Vazhakulam, has conducted a Motivating talk titled “Personality Development” on 4th , October  2019 for the students of 3rd  semester CSE."
+            };
+
+
+            ActivitiesHeading9= {
+              instanceID: "ActivitiesHeading9",
+              title: "National Level Intercollegiate Quiz Competition Prayudh ’20"
+            };
+            Features13 = {
+              instanceID: "Features13",
+              title: "The Intercollegiate Quiz Competition, PRAYUDH ’20 added another gem to the crown of CSI Student Branch of Viswajyothi. The grant successful event was held in association with CSE Department.  The quiz attracted an enthralling crowd of enthusiastic students from different colleges. A total of 203 teams from various colleges participated in the event. A preliminary test was conducted and the top 6 teams were qualified for the main contest. The main event on stage consisted of six rounds. The closing ceremony was blessed with the presence of Mr. Somy P Mathew, Vice Principal and Mr. Amel Austine, HOD-CSE. Sebastian Thomas and Basil Eldho of MA College of Engineering and Technology, Kothamangalam bagged the first prize. The team composed of Felix Palatty and Deepak Krishnan H of MA College of Engineering and Technology, Kothamangalam is in the second position.. Attractive prizes of Rs.10000/-, Rs.6000/- , Rs.3000/- and Certificate of Merit were awarded to the winners. The other three teams qualified for the finals received a Certificate of Appreciation and a Consolation Prize worth Rs. 2000/-."
+            };
+            LabImagedata10 = {
+              instanceID: "LabImagedata10",
+              image: "ProfessionalBodies/csi/CSI14.jpg",
+              width: "65%"
+                }; 
+    LabImagedata11 = {
+      instanceID: "LabImagedata11",
+      image: "ProfessionalBodies/csi/CSI15.jpg",
+      width: "65%"
+        }; 
+        LabImagedata12 = {
+          instanceID: "LabImagedata12",
+          image: "ProfessionalBodies/csi/CSI16.jpg",
+          width: "65%"
+            }; 
+            LabImagedata13= {
+              instanceID: "LabImagedata13",
+              image: "ProfessionalBodies/csi/CSI17.jpg",
+              width: "65%"
+                }; 
+    LabImagedata14 = {
+      instanceID: "LabImagedata14",
+      image: "ProfessionalBodies/csi/CSI18.jpg",
+      width: "65%"
+        }; 
+        LabImagedata15 = {
+          instanceID: "LabImagedata15",
+          image: "ProfessionalBodies/csi/CSI19.jpg",
+          width: "65%"
+            }; 
+
+
+
   render() {
     return (
       <div className="Profile" id="profile">
@@ -65,10 +236,13 @@ MissionHeading = {
           <p><BodyOneJustified data={this.Features2} /></p>
           <HeadingFive data={this.MissionHeading} /> 
           <p><BodyOneJustified data={this.Features3} /></p>
-         
-          
+
+          <HeadingThree data={this.ActivitiesHeading1} />   
+          <p><BodyOneJustified data={this.Features5} /></p>
             <table id="tableformat" >
-              <tr><th>Awards</th></tr>
+        {/*  <tr><th>Awards</th></tr>*/}
+              <tr><td>Best Accredited Student Branch Award during 2018-2019</td></tr>
+              <tr><td>Best Accredited Student Branch Award during 2017-2018</td></tr>
              <tr><td>Longest Continuous SBC Award during 2016-2017</td></tr>
              <tr><td>Best Accredited Student Branch Award during 2016-2017</td></tr>
              <tr><td>Distinguished College Award during 2016-2017 by CSI Mumbai Chapter and IIT Mumbai</td></tr>
@@ -101,7 +275,67 @@ MissionHeading = {
 <tr><td>17</td><td>Hands on session on GIT Vesrion Control System for S4 CS </td><td>3/4/2019</td><td>Mr. Balu M N, Student , S8 CSE</td></tr>
                             </table>
 
-                            
+<br />
+          <HeadingThree data={this.ActivitiesHeading2} />   
+          <p><BodyOneJustified data={this.Features6} /></p>
+          <br />
+         <p style={{textAlign:"center"}}> <ImageOne data={this.LabImagedata1} /></p>
+          <br /> 
+
+           <HeadingThree data={this.ActivitiesHeading3} />   
+          <p><BodyOneJustified data={this.Features7} /></p>
+          <br />
+          <p style={{textAlign:"center"}}> <ImageOne data={this.LabImagedata2} /></p>
+          <br />  
+          <HeadingThree data={this.ActivitiesHeading4} />   
+          <p><BodyOneJustified data={this.Features8} /></p>
+          <br />
+          <p style={{textAlign:"center"}}> <ImageOne data={this.LabImagedata3} /></p>
+          <br />   
+          <p style={{textAlign:"center"}}> <ImageOne data={this.LabImagedata4} /></p>
+          <br />      
+
+          <HeadingThree data={this.ActivitiesHeading5} />   
+          <p><BodyOneJustified data={this.Features9} /></p>
+          <br />
+          <p style={{textAlign:"center"}}> <ImageOne data={this.LabImagedata5} /></p>
+          <br />   
+          <p style={{textAlign:"center"}}> <ImageOne data={this.LabImagedata6} /></p>
+          <br />  
+
+          <HeadingThree data={this.ActivitiesHeading6} />   
+          <p><BodyOneJustified data={this.Features10} /></p>
+          <br />
+          <p style={{textAlign:"center"}}> <ImageOne data={this.LabImagedata7} /></p>
+          <br />           
+      
+
+          <HeadingThree data={this.ActivitiesHeading7} />   
+          <p><BodyOneJustified data={this.Features11} /></p>
+          <br />
+          <p style={{textAlign:"center"}}> <ImageOne data={this.LabImagedata8} /></p>
+          <br />      
+          <p style={{textAlign:"center"}}> <ImageOne data={this.LabImagedata9} /></p>
+          <br />   
+
+          <HeadingThree data={this.ActivitiesHeading8} />   
+          <p><BodyOneJustified data={this.Features12} /></p>
+                             
+
+          <HeadingThree data={this.ActivitiesHeading9} />   
+          <p><BodyOneJustified data={this.Features13} /></p>         
+          <br />
+          <p style={{textAlign:"center"}}> <ImageOne data={this.LabImagedata10} /></p>
+          <br />     
+          <p style={{textAlign:"center"}}> <ImageOne data={this.LabImagedata11} /></p>
+          <br />                           
+          <p style={{textAlign:"center"}}> <ImageOne data={this.LabImagedata12} /></p>
+          <br />   
+          <p style={{textAlign:"center"}}> <ImageOne data={this.LabImagedata13} /></p>
+          <br />                       
+          <p style={{textAlign:"center"}}>  <ImageOne data={this.LabImagedata14} /></p>
+          <br />   
+          <p style={{textAlign:"center"}}> <ImageOne data={this.LabImagedata15} /> </p>                      
         </div>
       </div>
     );
