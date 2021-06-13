@@ -282,19 +282,14 @@ class nss extends React.Component {
         return (
             <React.Fragment>
                 <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
-             {/*    <p align="right"><a href="https://vjcet.org/downloads/gallery/nss.html" target="_blank" rel="noopener noreferrer"><ImageTwo data={this.GalleryImage} /></a></p>  */}
-             <div class="absolute">
-             <p id="rcorners1" align="right"><a href="https://vjcet.org/downloads/gallery/nss.html" target="_blank" rel="noopener noreferrer"><font color="white">Picture Book</font></a></p>
-             
-             </div>
-             <div >
-             <p id="blankspace" align="right"></p>
-             
-             </div>
                
                 <div className="contain">
                 
                     <HeadingTwo data={this.NssTitle} className="Heading" />
+                    <div  style={{float:"right"}}>{/*class="absolute"  */}
+                <p id="rcorners1" align="center" ><a href="https://vjcet.org/downloads/gallery/nss.html" target="_blank" rel="noopener noreferrer"><font color="white">Picture Book</font></a></p>
+              </div>
+              <br></br>
                     <HeadingThree data={this.AboutNssTitle} className="Heading" />
                     <BodyOneJustified data={this.AboutNssContent} />
                     <HeadingThree data={this.AboutNssvjcTitle} className="Heading" />

@@ -125,7 +125,7 @@ class Heathandfitness extends React.Component{
             <Gym />
             <Health />            
             <HeadingTwo data={this.BasketballTitle} className="Heading" />          
-            <div class="absolute">
+            <div  style={{float:"right"}}>
              <p id="rcorners1" align="right"><a href="https://vjcet.org/downloads/gallery/magnum.html" target="_blank" rel="noopener noreferrer"><font color="white">Picture Book</font></a></p>
              </div>
              <div >

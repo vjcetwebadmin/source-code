@@ -2,6 +2,8 @@ import React, { Component } from "react";
 /* import HeadingOne from "../../Components/Texts/HeadingOne"; */
 import Bodythree from "../../Components/Texts/BodyThree";
 import ImageTwo from "../../Components/Images/imageTwo";
+import HeadingThree from "../../Components/Texts/HeadingThree";
+import "../../Components/Tables/tableformat.css";
 class Program extends Component {
   state = {};
   
@@ -15,13 +17,42 @@ class Program extends Component {
     image: "ProfessionalBodies/SAEINDIA.jpg",
     width: "35%"
 }
+ActivitiesHeading = {
+  instanceID: "ActivitiesHeading",
+  title: "Programs Conducted Under SAEINDIA Collegiate Club"
+};
+ActivitiesHeading1 = {
+  instanceID: "ActivitiesHeading1",
+  title: "SAEINDIA Collegiate Club Office Bearers"
+};
 
   render() {
     return (
       <div className="Program" id="program">
           <p align="center"><ImageTwo data={this.SaeIImage} /></p>
         <Bodythree data={this.SaeindiaDescriptionOne} />
-        
+        <br></br>    
+        <HeadingThree data={this.ActivitiesHeading1} />   
+        <table id="tableformat">                           
+                <tr><th>POST</th><th>NAME</th></tr>
+                <tr><td>Senior Faculty Advisor</td><td>Mr. Eldhose Kurian, AP ME</td></tr>
+                <tr><td>Additional Faculty Advisor</td><td>Mr. Eldhose Paul, AP ME</td></tr>
+                <tr><td>Student Chair-person</td><td>Mr. Kiran Mathew George, S8 ME B</td></tr>
+                <tr><td>Student Vice  Chair-person</td><td>Mr. Sagar Vincent,  S6 ME A</td></tr>
+                <tr><td>Student Secretary</td><td>Mr. Gayus Eldho,  S8 ME A</td></tr>
+                <tr><td>Student Treasurer</td><td>Mr. Joyal John, S8 ME B</td></tr>
+        </table>
+
+        <br></br>    
+        <HeadingThree data={this.ActivitiesHeading} />   
+        <table id="tableformat">
+                          
+              <tr><th>Sl. No</th><th>Event</th><th>Date</th><th>Details</th></tr>
+              <tr><td>1</td><td>SAEINDIA Collegiate Club Inauguration and Technical Session</td><td>14-10-2017</td><td>SAEINDIA Collegiate Club was Inaugurated by Mr. C Pradeep, Principal Engineer, Vehicle Integration Centre, Mahindra followed by a technical talk on “Electric Mobility in India” by the resource Person</td></tr>
+              <tr><td>2</td><td>Technical Talk</td><td>22-11-2018</td><td>Mr. Kasiraja Thangapandian,Software Project Manager , Visteon Technical and Services Centre Pvt Ltd, Chennai and Joint Secretary of SAEINDIA Southern Section delivered a session on “Vehicle Sensors”.</td></tr>
+              <tr><td>3</td><td>Student Knowledge Improvement Program (SKIP)</td><td>29-04-2019 to 30-04-2019</td><td>A SKIP Program on “Electric Vehicles and Technology” was arranged for two days in association with SAEINDIA Southern Section. The resource persons  Mr. Pradeep C, (Mgmt Committee Member, SAEINDIA Southern Section) and Mr.Vallabha Rao Rikka (Project Scientist (middle level) , ARCI) delivered the sessions.</td></tr>
+                           
+        </table>
       </div>
     );
   }

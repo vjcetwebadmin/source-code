@@ -73,7 +73,7 @@ class Profile extends Component {
                    <tr><td>Ms. Gayana T S</td></tr>
                    <tr><td>Ms. Gincy Luckose. V</td></tr>
                    <tr><td>Ms. Mercy Mathew</td></tr>                 
-                   <tr><td>Dr. K.N Ramachandran  Nair</td><td>MG University,CSE</td><td>No</td><td>2018</td><td>Dr. Jina Varghese</td></tr>
+                   <tr><td>Dr. K.N Ramachandran  Nair</td><td>MG University,CSE</td><td>No</td><td>2018</td><td>Ms. Jina Varghese</td></tr>
                    <tr><td rowSpan="2">Dr. Lovely Mathew</td><td rowSpan="2">MG University,S&H</td><td rowSpan="2">No</td><td rowSpan="2">2018</td><td>Ms. Ajitha A R</td></tr>
                    <tr><td>Ms. Aswathi M K</td></tr>                   
                    <tr><td>Dr. Anishin Raj M.M</td><td>KTU, CSE</td><td>Yes</td><td>NA</td><td>Recognized as Research Guide under KTU. Students are not assigned</td></tr>
