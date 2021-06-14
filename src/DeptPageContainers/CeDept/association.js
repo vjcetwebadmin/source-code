@@ -11,7 +11,7 @@ class Library extends Component {
   DeptAssociationDescriptionOne = {
     instanceID: "DeptAssociationDescriptionOne",
     title:
-      "The Civil Engineering Students’ Association “CIVISTA” plays a pivotal role in the development of students as engineers by various out-of-curriculum and extra-curricular activities. "
+      "The Civil Engineering Students’ Associfhdfhdfation “CIVISTA” plays a pivotal role in the development of students as engineers by various out-of-curriculum and extra-curricular activities. "
   };
 
   DeptAssociationDescriptionTwo = {
@@ -39,11 +39,11 @@ class Library extends Component {
   };
   List3 = {
     instanceID: "List3",
-    title: "•	MINDSPARK "
+    title: "•	MINDSPfdhfdhARK "
   };
   List4 = {
     instanceID: "List4",
-    title: "•	ROOPAREKHA"
+    title: "•	ROOPARdfdfhdEKHA"
   };
   List5 = {
     instanceID: "List5",
