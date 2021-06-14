@@ -28,7 +28,7 @@ class Eehonours extends Component {
     instanceID: "eehonours3",
     image: "Honours/eehonours3.JPEG",
     width: "30%",
-    name: "Breeza Paoulose",
+    name: "Breeza Paulose",
     content:
       "Secured Second Rank in B.Tech Electrical & Electronics Engineering May 2009"
   };

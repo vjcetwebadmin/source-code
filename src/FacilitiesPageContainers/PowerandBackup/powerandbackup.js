@@ -55,7 +55,7 @@ class powerandbackup extends React.Component {
     }
     Solarcontent = {
         instanceID: "Solarontent",
-        title: " VJCET has a solar power generation of 250kW  worth 1.6 crores which annually produces 365000 unit per year. This plant is on grid solar power generator."
+        title: " VJCET has a solar power generation of 250kWp worth 1.6 crores which annually produces 365000 unit per year. This plant is on grid solar power generator."
     }
     SubstationTitle = {
         instanceID: "Substation",

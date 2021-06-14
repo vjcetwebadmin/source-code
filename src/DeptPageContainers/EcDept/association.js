@@ -40,11 +40,11 @@ class Library extends Component {
   }
   Activity1Content5 = {
     instanceID: "Activity1Content5",
-    title: "TThe association activities for the year 2020-21 was inaugurated by Mr. Joe Thomas (Senior Software Engineer, Amazon, USA) on 22nd March, 2021, and a technical talk on Career advancement and industry expectations was conducted by Mr. Joe Thomas and Mr. Lalu Paul (Senior Software Engineer, Xilinx, USA)."
+    title: "The association activities for the year 2020-21 was inaugurated by Mr. Joe Thomas (Senior Software Engineer, Amazon, USA) on 22nd March, 2021, and a technical talk on Career advancement and industry expectations was conducted by Mr. Joe Thomas and Mr. Lalu Paul (Senior Software Engineer, Xilinx, USA)."
   }
   Activity2Heading = {
     instanceID: "Activity2Heading",
-    title: "2.	WRITERS CLUB"
+    title: "2. WRITERS CLUB"
   }
   Activity2Content1 = {
     instanceID: "Activity2Content1",

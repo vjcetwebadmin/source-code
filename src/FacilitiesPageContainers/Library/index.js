@@ -48,11 +48,11 @@ class Library extends React.Component {
     }
     LibraryContent2 = {
         instanceID: "LibraryContent2",
-        title: "We arrange access to the world of information whether online, multimedia or in print. In order to effectively capitalize on the opportunities provided by radical changes to technology, pedagogy and research practice, the libraries operate in a number of profound ways and work in partnership with faculty members to enhance students' research skill development, encompassing both information literacy and learning skills."
+        title: "We arrange access to the world of information whether online, multimedia or in print. In order to effectively capitalize on the opportunities provided by radical changes to technology, pedagogy and research practice, the libraries operate in a number of profound ways and work in partnership with faculty members to enhance student's research skill development, encompassing both information literacy and learning skills."
     }
     LibraryContent3 = {
         instanceID: "LibraryContent3",
-        title: "The collection comprises 43774 printed documents such as books, project reports, Mini project reports, Seminar reports and back volumes of journals and the non-book materials like CD ROMs. Membership of the library is open to Students, Teachers and Non Teaching Staff of this college. Library membership is free to all faculty, staff and students. The library also subscribes 88 printed journals, 31 general magazines and library subscribed full text online database like IEEE(ASPP), Science Direct, EBSCO and E - resources through DELNET and National digital library. NPTEL facility to access video lectures are also available."
+        title: "The collection comprises 43774 printed documents such as books, project reports, mini project reports, seminar reports and back volumes of journals and the non-book materials like CD ROMs. Membership of the library is open to Students, Teachers and Non Teaching Staff of this college. Library membership is free to all faculty, staff and students. The library also subscribes 88 printed journals, 31 general magazines and library subscribed full text online database like IEEE(ASPP), Science Direct, EBSCO and E - resources through DELNET and National digital library. NPTEL facility to access video lectures are also available."
     }
     DigitalLibraryContent = {
         instanceID: "DigitalLibraryContent",
@@ -72,7 +72,7 @@ class Library extends React.Component {
     };
     LibraryReferanceContent = {
         instanceID: "LibraryReferanceContent",
-        title: "The library maintains a separate reference collection consisting of encyclopedias, dictionaries, directories, handbooks, technical data,  atlases, CD -ROMs. Project Reports and seminar Reports. The question papers of the examinations conducted by the university in previous years and syllabi of courses conducted by this college are also made available in this section."
+        title: "The library maintains a separate reference collection consisting of encyclopedias, dictionaries, directories, handbooks, technical data, atlases, CD-ROMs, project reports and seminar reports. The question papers of the examinations conducted by the university in previous years and syllabi of courses conducted by this college are also made available in this section."
     }
     LibraryReprographyTitle = {
         instanceID: "LibraryReprographyTitle",

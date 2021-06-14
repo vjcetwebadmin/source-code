@@ -12,7 +12,7 @@ class Health extends React.Component {
     };
     HealthContent1 = {
         instanceID: "HealthContent1",
-        title: "Viswajyothi College of Engineering and Technology  is very much concerned about the psychological- human formation of Students along with their academic and intellectual development. We have a counselling center in Viswajyothi college where students are free to walk in and share their challenges and difficulties to become resilient people. Through Counselling students get a Psychological strength to cope with stress and hardships."
+        title: "Viswajyothi College of Engineering and Technology  is very much concerned about the psychological- human formation of students along with their academic and intellectual development. We have a counselling center in Viswajyothi college where students are free to walk in and share their challenges and difficulties to become resilient people. Through counselling students get a psychological strength to cope with stress and hardships."
     }
     HealthContent2 = {
         instanceID: "HealthContent2",

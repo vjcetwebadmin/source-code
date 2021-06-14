@@ -18,7 +18,7 @@ class ResourcesGroup extends Component {
     listID: "One",
     title: "Curriculum Plan",
     icon: "Icons/calender.svg",
-    filePath: "https://vjcet.org/downloads/Academic_Calander_odd_20.pdf"
+    filePath: "https://vjcet.org/downloads/Academic_Calander_odd_21.pdf"
 
   };
   ResourceListTwo = {
