@@ -270,9 +270,17 @@ MissionHeading = {
                             <tr><td>12</td><td>Workshop AND Awareness program on Advanced Technologies for S6 CS,IT & EC </td><td>07/02/2019-08/02/2019</td><td>Mr. Mukesh Murali , Data Scientist, Jazeel K., Artificial Intelligence Researcher, Akhil Mohandas, Blockchain Developer from Creopedia Business Intelligence Pvt. Ltd</td></tr>
                             <tr><td>13</td><td>Prayudh'19 Intercollegiate Quiz Competion</td><td>20/02/2019</td><td>NA</td></tr>
                             <tr><td>14</td><td>Workshop AND Awareness program on React Native-Mobile Application Development Framework for S8 CS</td><td>23/02/2019</td><td>Mr. Mr.Georgekutty George, Managing Director, Lookins Soft Pvt Ltd. </td></tr>
-<tr><td>15</td><td>CSI STATE LEVEL STUDENT CONVENTION 2019- KEARALA STATE</td><td>12/3/2019</td><td>Prof. (Dr.)  B. Kannan, Chairman of CSI Cochin Chapter </td></tr>
-<tr><td>16</td><td>Intercollege Technical Fest on “Bodhi 2K19”</td><td>20/03/2019-21/03/2019</td><td>NA</td></tr>
-<tr><td>17</td><td>Hands on session on GIT Vesrion Control System for S4 CS </td><td>3/4/2019</td><td>Mr. Balu M N, Student , S8 CSE</td></tr>
+                            <tr><td>15</td><td>CSI STATE LEVEL STUDENT CONVENTION 2019- KEARALA STATE</td><td>12/3/2019</td><td>Prof. (Dr.)  B. Kannan, Chairman of CSI Cochin Chapter </td></tr>
+                            <tr><td>16</td><td>Intercollege Technical Fest on “Bodhi 2K19”</td><td>20/03/2019-21/03/2019</td><td>NA</td></tr>
+                            <tr><td>17</td><td>Hands on session on GIT Vesrion Control System for S4 CS </td><td>3/4/2019</td><td>Mr. Balu M N, Student , S8 CSE</td></tr>
+                            <tr><td>18</td><td>Online Competition </td><td>02-08-2020 to 07-08-2020</td><td>NA</td></tr>
+                            <tr><td>19</td><td>ONLINE TRAINING on DOCUMENT PREPARATION USING LATEX</td><td>14-08-2020</td><td>Mr ARAVIND RAJAN,SENIOR SOFTWARE ENGINER,PCPL</td></tr>
+                            <tr><td>20</td><td>Hands On Workshop   on Git & GitHub Workshop</td><td>27-08-2020 and 28-08-2020</td><td>Mr. Athul Cyriac Ajay GitHub Campus Expert</td></tr>
+                            <tr><td>21</td><td>Expert Lecture on Introduction to Computer Vision and Robotics</td><td>12-12-2020</td><td>Mr. VipolNath, CEO,LEAP</td></tr>
+                            <tr><td>22</td><td>Orientation on Introduction to CSI</td><td>03-02-2021</td><td>Dr. Santosh Kumar M B, Chairman, CSI Cochin</td></tr>
+                            <tr><td>23</td><td>Expert Lecture on Placement Opportunities </td><td>04-02-2021</td><td>Mr. Suresh Kumar K, MD, SKYBERTECH</td></tr>
+                            <tr><td>24</td><td>HANDS-ON on DOCUMENT PREPARATION USING LATEX</td><td>05-02-2021</td><td>Mr. Jithin , Final year student , VJCET</td></tr>
+
                             </table>
 
 <br />

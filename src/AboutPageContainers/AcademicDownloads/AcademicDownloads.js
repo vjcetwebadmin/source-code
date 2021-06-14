@@ -3,7 +3,31 @@ import "./ResourcesGroup.css";
 import ResourcesList from "./LocalContainers/ResourcesList";
 import HeadingOne from "../../Components/Texts/HeadingOne";
 
+import CSFaculty from "./Syllabusnewreg";
+import CSStaff from "./Syllabusoldreg";
+
+
 class ResourcesGroup extends Component {
+  state = {
+    showfaculty: true,
+    showstaff: false
+  };
+  OnClickFac = () => {
+    this.setState({
+      showfaculty: true,
+      showstaff: false
+    });
+  };
+  OnClickStaff = () => {
+    this.setState({
+      showfaculty: false,
+      showstaff: true
+    });
+  };
+
+
+
+
   ResourcesGroupTitle = {
     instanceID: "ResourcesGroupTitle",
     title: "Curriculum Plan"
@@ -91,17 +115,37 @@ class ResourcesGroup extends Component {
           <ResourcesList data={this.ResourceListOne} />
           <ResourcesList data={this.ResourceListTwo} />
         </div>        
-          <HeadingOne data={this.SyllabusTitle} />
+          <HeadingOne data={this.SyllabusTitle} /> 
+          {/* <div class="facultyNav">
+              <input
+                type="button"
+                value="B.Tech Regulation 2015-2016 to 2018-2019"
+                class="buttongraph"
+                onClick={this.OnClickFac}
+              />
+              <input
+                type="button"
+                value="B.Tech Regulation 2019-2020 onwards"
+                class="buttongraph"
+                onClick={this.OnClickStaff}
+              />
+
+                {this.state.showfaculty ? <CSFaculty /> : null}
+                {this.state.showstaff ? <CSStaff /> : null}
+          </div> 
           <div className="ResourcesContainer" id="AboutPageResourcesContainer">
-         {/* <p className="paraheading"><a href="/facilities/transportation" target="_blank" rel="noopener noreferrer">B.Tech Regulation</a></p>     */}
-         <ResourcesList data={this.ResourceListThree} />
-          <ResourcesList data={this.ResourceListFour} />
-          <ResourcesList data={this.ResourceListFive} />
-          <ResourcesList data={this.ResourceListSix} />
-          <ResourcesList data={this.ResourceListEight} />
-          <ResourcesList data={this.ResourceListNine} />         
-          
-        </div>
+          </div>
+          button click*/}
+
+          <div className="ResourcesContainer" id="AboutPageResourcesContainer">
+              <ResourcesList data={this.ResourceListThree} />
+              <ResourcesList data={this.ResourceListFour} />
+              <ResourcesList data={this.ResourceListFive} />
+              <ResourcesList data={this.ResourceListSix} />
+              <ResourcesList data={this.ResourceListEight} />
+              <ResourcesList data={this.ResourceListNine} />       
+         </div>
+    
       </div>
     );
   }

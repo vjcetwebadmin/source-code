@@ -4,15 +4,7 @@ import ResourcesList from "./LocalContainers/ResourcesList";
 import HeadingOne from "../../Components/Texts/HeadingOne";
 
 class ResourcesGroup extends Component {
-  ResourcesGroupTitle = {
-    instanceID: "ResourcesGroupTitle",
-    title: "Curriculum Plan"
-  };
-  SyllabusTitle = {
-    instanceID: "SyllabusTitle",
-    title: "Syllabus"
-  };
-
+ 
 
   ResourceListEight = {
     instanceID: "ResourceListEight",
@@ -64,41 +56,19 @@ class ResourcesGroup extends Component {
     filePath: "https://vjcet.org/downloads/academic/mesyllabus.zip"
 
   };
-  ResourceListOne = {
-    instanceID: "ResourceListOne",
-    listID: "One",
-    title: "Curriculum Plan",
-    icon: "Icons/calender.svg",
-    filePath: "https://vjcet.org/downloads/Academic_Calander_odd_20.pdf"
-
-  };
-  ResourceListTwo = {
-    instanceID: "ResourceListTwo",
-    listID: "Two",
-    title: "Semester Plan",
-    icon: "Icons/calendar.png",
-    filePath: "https://vjcet.org/downloads/Semester_Plan2019even.pdf"
-
-  };
+ 
 
   render() {
     return (
-      <div className="ResourcesGroup">
-        <HeadingOne data={this.ResourcesGroupTitle} />
-        <div className="ResourcesContainer" id="AboutPageResourcesContainer">
-          <ResourcesList data={this.ResourceListOne} />
-          <ResourcesList data={this.ResourceListTwo} />
-        </div>        
-          <HeadingOne data={this.SyllabusTitle} />
-          <div className="ResourcesContainer" id="AboutPageResourcesContainer">
-          
+      <div className="ResourcesGroup" style={{border:"3px solid gray"}}>
+        <h2>B.Tech Regulation 2015-2016 to 2018-2019</h2>
+          <div className="ResourcesContainer" id="AboutPageResourcesContainer">          
           <ResourcesList data={this.ResourceListThree} />
           <ResourcesList data={this.ResourceListFour} />
           <ResourcesList data={this.ResourceListFive} />
           <ResourcesList data={this.ResourceListSix} />
           <ResourcesList data={this.ResourceListEight} />
-          <ResourcesList data={this.ResourceListNine} />
-          
+          <ResourcesList data={this.ResourceListNine} />          
         </div>
       </div>
     );

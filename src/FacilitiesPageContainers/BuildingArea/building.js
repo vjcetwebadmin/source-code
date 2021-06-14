@@ -49,7 +49,7 @@ class building extends React.Component {
     };
     CCCContent1 = {
         instanceID: "CCCContent1",
-        title: "The building Complex of the college with an area of over 6 Lakh Sq.Ft, is situated in a sprawling campus of 26 acres. The building is divided into blocks A,B,C,D, Laboratory Block, Gents Hostel, Ladies Hostel and Auditorium Annexure. All academic and non-academic departments are included in the A,B,C and D blocks. Separate Laboratory block is provided in addition to the academic blocks. Civil, Electrical and Mechanical workshops are in this block. "
+        title: "The building Complex of the college with an area of over 6 Lakh Sq.Ft is situated in a sprawling campus of 26 acres. The building is divided into blocks A,B,C,D, Laboratory Block, Gents Hostel, Ladies Hostel and Auditorium Annexure. All academic and non-academic departments are included in the A,B,C and D blocks. Separate Laboratory block is provided in addition to the academic blocks. Civil, Electrical and Mechanical workshops are in this block. "
     }
     CCCContent2 = {
         instanceID: "CCCContent2",
