@@ -150,12 +150,12 @@ class Labs extends Component {
     return (
       <div className="DeptLibrary" id="dept-library">
         <HeadingOne data={this.DeptLibHeading} />
-        <p>• All the labs in the department are very well equipped with components and equipment required to conduct experiments given in the curriculum and beyond. </p>
-        <p>• We have facility to use Projector in our lab.</p>
-        <p>• All the labs are well furnished and fully air-conditioned. </p>
-        <p>• All labs are provided with Online Uninterruptible Power Supply (UPS) and labs are equipped with speaker, fire& safety instruments and intercom.</p>
-        <p>• The Labs have good ambiance as equipment are arranged in a way that students feel comfortable in doing experiments and individual attention can be given for all students.</p>
-        <p>• All the labs have white board and Wi-Fi internet facility. </p>
+        <p style={{textAlign:"left",fontSize:"18px"}}>• All the labs in the department are very well equipped with components and equipment required to conduct experiments given in the curriculum and beyond. </p>
+        <p style={{textAlign:"left",fontSize:"18px"}}>• We have facility to use Projector in our lab.</p>
+        <p style={{textAlign:"left",fontSize:"18px"}}>• All the labs are well furnished and fully air-conditioned. </p>
+        <p style={{textAlign:"left",fontSize:"18px"}}>• All labs are provided with Online Uninterruptible Power Supply (UPS) and labs are equipped with speaker, fire& safety instruments and intercom.</p>
+        <p style={{textAlign:"left",fontSize:"18px"}}>• The Labs have good ambiance as equipment are arranged in a way that students feel comfortable in doing experiments and individual attention can be given for all students.</p>
+        <p style={{textAlign:"left",fontSize:"18px"}}>• All the labs have white board and Wi-Fi internet facility. </p>
 
         <HeadingTwo data={this.CircLabHeading} />
         <ImageOne data={this.EClabImage1} />
