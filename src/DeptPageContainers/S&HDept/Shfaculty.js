@@ -84,7 +84,7 @@ class Faculty extends Component {
   };
   Cefaculty17 = {
     instanceID: "Cefaculty17",
-    image: "Allstaffphoto/SH/FAC/328.png",
+    image: "Allstaffphoto/SH/FAC/328.jpg",
     width: "50%",
     name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHFAC123" target="_blank" rel="noopener noreferrer">Mrs. Ashly Jacob</a>,
     content: "Assistant Professor"
