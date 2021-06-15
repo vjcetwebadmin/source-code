@@ -16,7 +16,7 @@ class FacultyData extends Component {
                 this.props.onClickAction();
               }
             : () => {}
-        }
+        }   
       >
         <img
           src={require("../Assets/" + image)}

@@ -41,7 +41,7 @@ class collegecouncil extends React.Component {
     };
     EventTitle2 = {
         instanceID: "EventTitle2",
-        title: "2. Students Council Oath taking Ceremony"
+        title: "2. Union Activity 2020-21"
     };
     EventTitle3 = {
         instanceID: "EventTitle3",
@@ -61,11 +61,11 @@ class collegecouncil extends React.Component {
     };
     EventContent1 = {
         instanceID: " EventContent1",
-        title: "Students Council Election was held on 17th August 2019. Dr.Anoop CK (Professor Civil Engineering Department) was the election returning officer. Twenty two student council members were elected."
+        title: "Students Council Election was held on 17th August 2019. Dr. Anoop CK (Professor Civil Engineering Department) was the election returning officer. Twenty two student council members were elected."
     }
     EventContent2 = {
         instanceID: " EventContent2",
-        title: "Oath taking ceremony of student’s council (2018-19) is conducted on 14th August 2018 at PTC seminar Hall in the presence of Principal. "
+        title: "The students council coordinated the Onam Celebration of the academic year 2020 - 2021 on 27th August 2020, amidst the Covid 19 pandemic. The event was strictly conducted by keeping up with the Covid 19 norms. Principal Dr. K.K. Rajan inaugurated the ceremony. Pookkalam and payasam were included in the ceremony."
     }
     EventContent3 = {
         instanceID: " EventContent3",
@@ -130,6 +130,10 @@ class collegecouncil extends React.Component {
                         <HeadingTwo data={this.MajoreventsTitle} className="Heading" />
                         <HeadingFour data={this.EventTitle1} className="Heading" />
                         <BodyOneJustified data={this.EventContent1} />
+                        <HeadingFour data={this.EventTitle2} className="Heading" />
+                        <BodyOneJustified data={this.EventContent2} />
+
+
                         {/* <HeadingFour data={this.EventTitle2} className="Heading" />
                         <BodyOneJustified data={this.EventContent2} />
                         <HeadingFour data={this.EventTitle3} className="Heading" />

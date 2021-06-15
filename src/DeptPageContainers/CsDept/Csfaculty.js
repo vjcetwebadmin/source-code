@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import FacultyData from "../../Components/FacultyData";
-import "./faculty.css"
+import "../../Components/faculty.css"
 class CSFaculty extends Component {
   state = {};
   Cefaculty1 = {
@@ -189,7 +189,7 @@ class CSFaculty extends Component {
   render() {
     return (
       <div className="faculty">
-        <div className="facultyContent">
+        <div className="facultyContent" >
           <div>
             <FacultyData data={this.Cefaculty1} />
           </div>

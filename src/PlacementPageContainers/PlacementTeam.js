@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import FacultyData from "../Components/FacultyData";
 import BodyOne from "../Components/Texts/BodyOne";
 import HeadingOne from "../Components/Texts/HeadingOne";
-import "./faculty.css" 
+import "../Components/faculty.css"
 class Faculty extends Component {
   state = {};
   
@@ -61,7 +61,7 @@ class Faculty extends Component {
   render() {
     return (
       <div className="faculty">
-        <div className="facultyContentSH">          
+        <div className="facultyContent">          
           <div>
             <FacultyData data={this.Cefaculty2} />
           </div>
@@ -75,7 +75,7 @@ class Faculty extends Component {
             <FacultyData data={this.Cefaculty6} />
           </div>
         </div>
-        <div className="Contact" id="contact">
+        <div className="Contact" id="contact" style={{paddingLeft:"5%"}}>
           <HeadingOne data={this.ContactHeading} />
           <BodyOne data={this.ContactListOne} />
           <BodyOne data={this.ContactListTwo} />

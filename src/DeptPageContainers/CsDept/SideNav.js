@@ -119,7 +119,6 @@ class SideNav extends Component {
   render() {
     return (
       <React.Fragment>
-
         <div class="Deptcontent">
           <div class="sidenav">
             <input
