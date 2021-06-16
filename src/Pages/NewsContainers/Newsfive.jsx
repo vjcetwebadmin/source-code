@@ -107,6 +107,9 @@ class Newsfive extends React.Component {
                     <p>For Payment Related Queries Contact : <b> Mrs. Jismy George - 9349944361</b></p>
                  <HeadingOne data={this.NewsTitle1} /> 
                  <p><b>Semester 4</b></p>
+                 <br />
+                 <h3 className="text_red"><b>Dear Parent, Please remit 4th semester tution fees of your ward, date extended to 30-06-2021 without fine and 12-07-2021 with fine.</b></h3>
+                 <br />
                 <iframe src="https://vjcet.org/downloads/news/Notice3.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>    
                  <p></p><br></br> 
                  <p><b>Semester 6 and Semester 8</b></p>              
