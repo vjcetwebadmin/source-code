@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import HeadingOne from "../../../Components/Texts/HeadingOne";
 import Honours from "../../../Components/honours";
-import "./honours.css";
+import "../../../Components/honours.css";
 class Echonours extends Component {
   state = {};
   EchonoursHeading = {
@@ -13,7 +13,7 @@ class Echonours extends Component {
     image: "Honours/echonours1.JPEG",
     width: "30%",
     name: "Meera M Nair",
-    content: "Secured First Rank in M.Tech VLSI in May 2011"
+    content: "First Rank in M.Tech May 2011"
   };
   Echonours2 = {
     instanceID: "echonours2",
@@ -21,7 +21,7 @@ class Echonours extends Component {
     width: "30%",
     name: "Jayaprasad K V",
     content:
-      "Secured First Rank in B.Tech Electronics and Communication Engineering in May 2012"
+      "First Rank in B.Tech May 2012"
   };
   Echonours3 = {
     instanceID: "echonours3",
@@ -29,21 +29,21 @@ class Echonours extends Component {
     width: "30%",
     name: "Gayathri Anil",
     content:
-      "Secured fourth Rank in B.Tech Electronics and Communication Engineering in May 2012"
+      "Fourth Rank in B.Tech May 2012"
   };
   Echonours4 = {
     instanceID: "echonours4",
     image: "Honours/echonours4.jpg",
     width: "30%",
     name: "Haripriya P",
-    content: "Secured First Rank in M.Tech VLSI in May 2012"
+    content: "First Rank in M.Tech May 2012"
   };
   Echonours5 = {
     instanceID: "echonours5",
     image: "Honours/echonours5.jpg",
     width: "30%",
     name: "Seena V P",
-    content: "Secured Third Rank in M.Tech VLSI in May 2012"
+    content: "Third Rank in M.Tech May 2012"
   };
   Echonours6 = {
     instanceID: "echonours6",
@@ -51,7 +51,7 @@ class Echonours extends Component {
     width: "30%",
     name: "Neenu Saju",
     content:
-      "Secured First Rank in B.Tech Electronics and Communication Engineering in May 2016"
+      "First Rank in B.Tech May 2016"
   };
   Echonours7 = {
     instanceID: "echonours7",
@@ -59,7 +59,7 @@ class Echonours extends Component {
     width: "30%",
     name: "Deona Noble",
     content:
-      "Secured Third Rank in B.Tech Electronics and Communication Engineering in May 2017"
+      "Third Rank in B.Tech May 2017"
   };
   Echonours8 = {
     instanceID: "echonours8",
@@ -67,7 +67,7 @@ class Echonours extends Component {
     width: "30%",
     name: "Anjana Shaji",
     content:
-      "Secured First Rank in B.Tech Electronics and Communication Engineering in May 2018"
+      "First Rank in B.Tech May 2018"
   };
   Echonours9 = {
     instanceID: "echonours9",
@@ -75,7 +75,7 @@ class Echonours extends Component {
     width: "30%",
     name: "Minni Shaji",
     content:
-      "Secured Seventh Rank in B.Tech Electronics and Communication Engineering in May 2018"
+      "Seventh Rank in B.Tech May 2018"
   };
   Echonours10 = {
     instanceID: "echonours10",
@@ -83,7 +83,7 @@ class Echonours extends Component {
     width: "30%",
     name: "Deepa S",
     content:
-      "Secured Tenth Rank in B.Tech Electronics and Communication Engineering in May 2018"
+      "Tenth Rank in B.Tech May 2018"
   };
   Echonours11 = {
     instanceID: "echonours11",
@@ -91,7 +91,7 @@ class Echonours extends Component {
     width: "30%",
     name: "Minna Shaji",
     content:
-      "Secured Tenth Rank in B.Tech Electronics and Communication Engineering in May 2018"
+      "Tenth Rank in B.Tech May 2018"
   };
   Echonours12 = {
     instanceID: "echonours12",
@@ -99,7 +99,7 @@ class Echonours extends Component {
     width: "30%",
     name: "Annmary Cherian",
     content:
-      "Secured Ninth Rank in B.Tech Electronics and Communication Engineering in May 2017"
+      "Ninth Rank in B.Tech May 2017"
   };
   Echonours13 = {
     instanceID: "echonours13",
@@ -107,7 +107,7 @@ class Echonours extends Component {
     width: "30%",
     name: "Rosemary Cherian",
     content:
-      "Secured Seventh Rank in B.Tech Electronics and Communication Engineering in May 2017"
+      "Seventh Rank in B.Tech May 2017"
   };
   render() {
     return (

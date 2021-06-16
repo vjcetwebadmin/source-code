@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import HeadingOne from "../../../Components/Texts/HeadingOne";
 import Honours from "../../../Components/honours";
-import "./honours.css";
+import "../../../Components/honours.css";
 class Eehonours extends Component {
   state = {};
   EehonoursHeading = {
@@ -14,7 +14,7 @@ class Eehonours extends Component {
     width: "30%",
     name: "Jeswin Jose",
     content:
-      "Secured First Rank in B.Tech Electrical & Electronics Engineering May 2017"
+      "First Rank in B.Tech May 2017"
   };
   Eehonours2 = {
     instanceID: "eehonours2",
@@ -22,7 +22,7 @@ class Eehonours extends Component {
     width: "30%",
     name: "Devika K B",
     content:
-      "Secured Second Rank in B.Tech Electrical & Electronics Engineering May 2010"
+      "Second Rank in B.Tech May 2010"
   };
   Eehonours3 = {
     instanceID: "eehonours3",
@@ -30,7 +30,7 @@ class Eehonours extends Component {
     width: "30%",
     name: "Breeza Paulose",
     content:
-      "Secured Second Rank in B.Tech Electrical & Electronics Engineering May 2009"
+      "Second Rank in B.Tech May 2009"
   };
   Eehonours4 = {
     instanceID: "eehonours4",
@@ -38,7 +38,7 @@ class Eehonours extends Component {
     width: "30%",
     name: "Roseline Baby",
     content:
-      "Secured Second Rank in B.Tech Electrical & Electronics Engineering May 2008"
+      "Second Rank in B.Tech May 2008"
   };
   Eehonours5 = {
     instanceID: "eehonours5",
@@ -46,7 +46,7 @@ class Eehonours extends Component {
     width: "30%",
     name: "Ashna Joseph",
     content:
-      "Secured Third Rank in B.Tech Electrical & Electronics Engineering May 2008"
+      "Third Rank in B.Tech May 2008"
   };
   Eehonours6 = {
     instanceID: "eehonours6",
@@ -54,7 +54,7 @@ class Eehonours extends Component {
     width: "30%",
     name: "Reshma Sajeev",
     content:
-      "Secured Seventh Rank in B.Tech Electrical & Electronics Engineering May 2018"
+      "Seventh Rank in B.Tech May 2018"
   };
 
   render() {

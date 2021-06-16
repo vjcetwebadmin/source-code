@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import HeadingOne from "../../../Components/Texts/HeadingOne";
 import Honours from "../../../Components/honours";
-import "./honours.css";
+import "../../../Components/honours.css";
 class Mehonours extends Component {
   state = {};
   MehonoursHeading = {
@@ -13,42 +13,42 @@ class Mehonours extends Component {
     image: "Honours/mehonours1.jpg",
     width: "30%",
     name: "Mr. Deepu P",
-    content: "Secured 1st Rank in B.Tech Mechanical Engineering May 2006"
+    content: "1st Rank in B.Tech May 2006"
   };
   Mehonours2 = {
     instanceID: "mehonours2",
     image: "Honours/mehonours2.JPEG",
     width: "30%",
     name: "Ms. Anju Joy",
-    content: "Secured 2nd Rank in M.Tech May 2013"
+    content: "2nd Rank in M.Tech May 2013"
   };
   Mehonours3 = {
     instanceID: "mehonours3",
     image: "Honours/mehonours3.JPEG",
     width: "30%",
     name: "Ms. Shari S Nair",
-    content: "Secured 3rd Rank in M.Tech May 2013"
+    content: "3rd Rank in M.Tech May 2013"
   };
   Mehonours4 = {
     instanceID: "mehonours4",
     image: "Honours/mehonours4.jpg",
     width: "30%",
     name: "Mr. Jyothin Mohan",
-    content: "Secured 7th Rank in B.Tech Mechanical Engineering May 2018"
+    content: "7th Rank in B.Tech May 2018"
   };
   Mehonours5 = {
     instanceID: "mehonours5",
     image: "Honours/mehonours5.jpg",
     width: "30%",
     name: "Mr. Alen Tomy",
-    content: "Secured 4th Rank in B.Tech Mechanical Engineering May 2017"
+    content: "4th Rank in B.Tech May 2017"
   };
   Mehonours6 = {
     instanceID: "mehonours6",
     image: "Honours/mehonours6.jpg",
     width: "30%",
     name: "Mr. Mathew Samuel",
-    content: "Secured 3rd Rank in M.Tech Industrial Engineering and Management, May 2014"
+    content: "3rd Rank in M.Tech Industrial Engineering and Management, May 2014"
   };
   render() {
     return (

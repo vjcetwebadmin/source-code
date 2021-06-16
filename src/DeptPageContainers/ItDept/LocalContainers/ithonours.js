@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import HeadingOne from "../../../Components/Texts/HeadingOne";
 import Honours from "../../../Components/honours";
-import "./honours.css";
+import "../../../Components/honours.css";
 class Ithonours extends Component {
   state = {};
   IthonoursHeading = {
@@ -13,14 +13,14 @@ class Ithonours extends Component {
     image: "Honours/ithonours1.jpg",
     width: "30%",
     name: "Sonam Susan Mathews",
-    content: "Secured Second Rank in B.Tech IT May 2018"
+    content: "Second Rank in B.Tech May 2018"
   };
   Ithonours2 = {
     instanceID: "ithonours2",
     image: "Honours/ithonours2.jpeg",
     width: "30%",
     name: " Jeesmon Johny",
-    content: "Secured Sixth Rank in B.Tech IT May 2017"
+    content: "Sixth Rank in B.Tech May 2017"
   };
   
   Ithonours5 = {
@@ -28,21 +28,21 @@ class Ithonours extends Component {
     image: "Honours/ithonours5.png",
     width: "30%",
     name: "Akshay Aggarwal",
-    content: "Secured First Rank in B.Tech IT May 2014"
+    content: "First Rank in B.Tech May 2014"
   };
   Ithonours6 = {
     instanceID: "ithonours6",
     image: "Honours/ithonours6.JPEG",
     width: "30%",
     name: "Dincy Devasia",
-    content: "Secured Third rank in B.Tech Information Technology May 2013"
+    content: "Third rank in B.Tech May 2013"
   };
   Ithonours7 = {
     instanceID: "ithonours7",
     image: "Honours/ithonours7.jpg",
     width: "30%",
     name: "Rhimi KX",
-    content: "Secured Second Rank in B.Tech IT May 2012"
+    content: "Second Rank in B.Tech May 2012"
   };
   
   Ithonours8 = {
@@ -50,21 +50,21 @@ class Ithonours extends Component {
     image: "Honours/ithonours8.JPEG",
     width: "30%",
     name: "Soumya Joseph",
-    content: "Secured First Rank in B.Tech Information Technology May 2011"
+    content: "First Rank in B.Tech May 2011"
   };
   Ithonours9 = {
     instanceID: "ithonours9",
     image: "Honours/ithonuors9.JPEG",
     width: "30%",
     name: "Neethu Devassy",
-    content: "Secured First Rank in B.Tech Information Technology May 2010"
+    content: "First Rank in B.Tech May 2010"
   };
   Ithonours10 = {
     instanceID: "ithonours10",
     image: "Honours/ithonours10.JPEG",
     width: "30%",
     name: "Priya Joseph",
-    content: "Secured First Rank in B.Tech Information Technology May 2009"
+    content: "First Rank in B.Tech May 2009"
   };
  
   Ithonours14 = {
@@ -72,70 +72,70 @@ class Ithonours extends Component {
     image: "Honours/ithonours14.JPEG",
     width: "30%",
     name: "Jithin Joy",
-    content: "Secured First Rank in B.Tech Information Technology May 2005"
+    content: "First Rank in B.Tech May 2005"
   };
   Ithonours15 = {
     instanceID: "ithonours15",
     image: "Honours/ithonours15.jpg",
     width: "30%",
     name: "Swathi Krishna",
-    content: "Secured Third Rank in B.Tech IT May 2018"
+    content: "Third Rank in B.Tech May 2018"
   };
   Ithonours16 = {
     instanceID: "ithonours16",
     image: "Honours/ithonours16.jpg",
     width: "30%",
     name: "Manya Kurian",
-    content: "Secured Seventh Rank in B.Tech IT May 2018"
+    content: "Seventh Rank in B.Tech May 2018"
   };
   Ithonours17 = {
     instanceID: "ithonours17",
     image: "Honours/ithonours17.jpg",
     width: "30%",
     name: "Daya Philip",
-    content: "Secured Fourth Rank in B.Tech IT May 2013"
+    content: "Fourth Rank in B.Tech May 2013"
   };
   Ithonours18 = {
     instanceID: "ithonours18",
     image: "Honours/ithonours18.jpg",
     width: "30%",
     name: "Nimitha Joy",
-    content: "Secured First Rank in B.Tech IT May 2015"
+    content: "First Rank in B.Tech May 2015"
   };
   Ithonours19 = {
     instanceID: "ithonours19",
     image: "Honours/ithonours19.jpg",
     width: "30%",
     name: "Maria Jolly",
-    content: "Secured Fifth Rank in B.Tech IT May 2016"
+    content: "Fifth Rank in B.Tech May 2016"
   };
   Ithonours20 = {
     instanceID: "ithonours20",
     image: "Honours/ithonours20.jpg",
     width: "30%",
     name: "Anjana Krishnan",
-    content: "Secured Seventh Rank in B.Tech IT May 2016"
+    content: "Seventh Rank in B.Tech May 2016"
   };
   Ithonours21 = {
     instanceID: "ithonours21",
     image: "Honours/ithonours21.jpg",
     width: "30%",
     name: " Reshma Saju",
-    content: "Secured Third Rank in B.Tech IT May 2015"
+    content: "Third Rank in B.Tech May 2015"
   };
   Ithonours22 = {
     instanceID: "ithonours22",
     image: "Honours/ithonours22.jpg",
     width: "30%",
     name: " Noyal Wilson",
-    content: "Secured Seventh Rank in B.Tech IT May 2015"
+    content: "Seventh Rank in B.Tech May 2015"
   };
   Ithonours23 = {
     instanceID: "ithonours23",
     image: "Honours/ithonours23.jpg",
     width: "30%",
     name: " Amalraj Vidhyadharan",
-    content: "Secured Fifth Rank in B.Tech IT May 2019(KTU)"
+    content: "Fifth Rank in B.Tech May 2019(KTU)"
   };
 
 

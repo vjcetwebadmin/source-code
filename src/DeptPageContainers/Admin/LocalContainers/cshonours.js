@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import HeadingOne from "../../../Components/Texts/HeadingOne";
 import Honours from "../../../Components/honours";
-import "./honours.css";
+import "../../../Components/honours.css";
 class Cshonours extends Component {
   state = {};
   CshonoursHeading = {
@@ -14,7 +14,7 @@ class Cshonours extends Component {
     width: "30%",
     name: "Anu Soosan Baby",
     content:
-      "Secured Third Rank in B.Tech Computer Science & Engineering May 2011"
+      "Third Rank in B.Tech May 2011"
   };
   Cshonours2 = {
     instanceID: "cshonours2",
@@ -22,49 +22,49 @@ class Cshonours extends Component {
     width: "30%",
     name: "Lis Joy",
     content:
-      "Secured Second Rank in B.Tech Computer Science & Engineering May 2008"
+      "Second Rank in B.Tech May 2008"
   };
   Cshonours3 = {
     instanceID: "cshonours3",
     image: "cshonour3.JPEG",
     width: "30%",
     name: "Nimmy George",
-    content: "Secured First Rank in M.Tech Computer Science & Engineering May 2011"
+    content: "First Rank in M.Tech May 2011"
   };
   Cshonours4 = {
     instanceID: "cshonours4",
     image: "cshonour4.JPEG",
     width: "30%",
     name: "Kavya Johny",
-    content: "Secured Second Rank in M.Tech Computer Science & Engineering May 2011"
+    content: "Second Rank in M.Tech May 2011"
   };
   Cshonours5 = {
     instanceID: "cshonours5",
     image: "cshonour5.JPEG",
     width: "30%",
     name: "Sivadas T Nair",
-    content: "Secured Third Rank in M.Tech Computer Science & Engineering May 2011"
+    content: "Third Rank in M.Tech May 2011"
   };
   Cshonours6 = {
     instanceID: "cshonours6",
     image: "cshonour6.JPEG",
     width: "30%",
     name: "Merin Francis",
-    content: "Secured First Rank in M.Tech Computer Science & Engineering May 2014"
+    content: "First Rank in M.Tech May 2014"
   };
   Cshonours7 = {
     instanceID: "cshonours7",
     image: "cshonour7.jpg",
     width: "30%",
     name: "Abhirami Aji",
-    content: "Secured Fourth Rank in B.Tech Computer Science & Engineering May 2018"
+    content: "Fourth Rank in B.Tech May 2018"
   };
   Cshonours8 = {
     instanceID: "cshonours8",
     image: "cshonour8.jpg",
     width: "30%",
     name: "Ashna Paul",
-    content: "Secured Fifth Rank in B.Tech Computer Science & Engineering May 2018"
+    content: "Fifth Rank in B.Tech May 2018"
   };
   render() {
     return (

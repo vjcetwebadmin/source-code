@@ -589,7 +589,7 @@ class App extends Component {
             width: "30%",
             name: "Mariamol Mathew",
             content:
-              "Secured Tenth Rank in B.Tech Civil Engineering May 2018"
+              "Tenth Rank in B.Tech May 2018"
           }
         ]
       },

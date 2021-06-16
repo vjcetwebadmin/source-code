@@ -3,6 +3,7 @@ import Profile from "./profile";
 import Vision from "./vision";
 import Labs from "./labs";
 import FacultyNav from "./facultynav";
+import "../../Components/SideNav.css";
 class SideNav extends Component {
   state = {
     showProfile: true,
