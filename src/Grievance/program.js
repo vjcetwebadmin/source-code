@@ -1,49 +1,42 @@
-import React, { Component } from "react";
-import HeadingOne from "../../Components/Texts/HeadingOne";
-import Bodythree from "../../Components/Texts/BodyThree";
-class Program extends Component {
+import React, { Component } from 'react'
+import HeadingTwo from "../Components/Texts/HeadingTwo";
+import BodyOneJustified from "../Components/Texts/BodyOneJustified"
+class Profile extends Component {
   state = {};
-  ProgramHeading = {
-    instanceID: "ProgramHeading",
-    title: "Program"
+  ProfileHeading = {
+    instanceID: "ProfileHeading",
+    title: "Grievance Registration Mechanism"
   };
-  ProgramDescriptionOne = {
-    instanceID: "ProgramDescriptionOne",
-    title:
-      "•	IT Department of VJCET was established in the year 2001 with an intake of 45 students."
+  Features1 = {
+    instanceID: "Features1",
+    title: "In order to submit complaints and difficulties of the student community we provide following mechanisms:"
   };
-  ProgramDescriptionTwo = {
-    instanceID: "ProgramDescriptionTwo",
-    title:
-      "•	In 2002 the intake is amplified to 60 students."
+
+  Features2 = {
+    instanceID: "Features2",
+    title: "•	Students are free to handover the grievances to any of the committee members."
   };
-  ProgramDescriptionThree = {
-    instanceID: "ProgramDescriptionThree",
-    title:
-      "•	The department provides its students an environment that stimulates their intellectual growth and personality development. "
+  Features3 = {
+    instanceID: "Features3",
+    title: "•	They can drop their written grievances in the complaint box placed in front of the office."
   };
-  ProgramDescriptionFour = {
-    instanceID: "ProgramDescriptionFour",
-    title:
-      "•	Infrastructure facilities are excellent with well-equipped computer labs and classrooms."
+  Features4 = {
+    instanceID: "Features4",
+    title: "•	This branch deals with study, devise, development, execution, support and running of computer-based information systems."
   };
-  ProgramDescriptionFive = {
-    instanceID: "ProgramDescriptionFive",
-    title:
-      "•	The Department is accredited by NBA(National Board of Accreditation) on July 2018 for three years."
-  };
+
   render() {
     return (
-      <div className="Program" id="program">
-        <HeadingOne data={this.ProgramHeading} />
-        <Bodythree data={this.ProgramDescriptionOne} />
-        <Bodythree data={this.ProgramDescriptionTwo} />
-        <Bodythree data={this.ProgramDescriptionThree} />
-        <Bodythree data={this.ProgramDescriptionFour} />
-        <Bodythree data={this.ProgramDescriptionFive} />
+      <div className="Profile" id="profile">
+        <HeadingTwo data={this.ProfileHeading} />
+          <p><BodyOneJustified data={this.Features1} /></p>
+          <p><BodyOneJustified data={this.Features2} /></p>
+          <p style={{fontSize:"18px",textAlign:"justify"}}>• They can put up their grievance as an e mail to <span style={{color:"blue"}}>grievance@vjcet.org</span></p>
+          {/*<p style={{fontSize:"18px",textAlign:"justify"}}>• They may also register their complaints <a href="https://portal.vjcet.ac.in/" target="_blank" rel="noopener noreferrer">here</a></p>*/}
+          <p></p>
       </div>
     );
   }
 }
 
-export default Program;
+export default Profile;

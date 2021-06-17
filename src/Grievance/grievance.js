@@ -1,15 +1,18 @@
-import React from "react";
-import HeadingOne from "../Components/Texts/HeadingOne";
+import React, { Component } from "react";
+import "./csdepartment.css";
 import Header from "../Components/Header&Footer/Header";
 import Footer from "../Components/Header&Footer/Footer";
 import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
+import HeadingOne from "../Components/Texts/HeadingOne";
+//import BodyOne from "../Components/Texts/BodyOne";
+//import ImageOne from "../Components/Images/ImageOne";
+import SideNav from "./SideNav";
 
-//import "../FacilitiesPageContainers/styles.css";
-//import "../Components/News/gallery.css";
 
-import "./Research.css";
 
-class Grievance extends React.Component {
+
+
+class CsDepartment extends Component {
   state = { showMenu: false };
 
   openMenu = () => {
@@ -22,63 +25,78 @@ class Grievance extends React.Component {
   HomePageHeader = {
     instanceID: "HomePageHeader"
   };
+
+  HomePageCarouselOne = {
+    instanceID: "HomePageCarouselOne"
+  };
+
+  HomePageCarouselTwo = {
+    instanceID: "HomePageCarouselTwo"
+  };
+
+  HomePageCarouselThree = {
+    instanceID: "HomePageCarouselThree"
+  };
+
+  HomePageDepartmentSection = {
+    instanceID: "HomePageDepartmentSection"
+  };
+
+  HomePageFacilitiesSection = {
+    instanceID: "HomePageFacilitiesSection"
+  };
+
+  HomePageVisionSection = {
+    instanceID: "HomePageVisionSection"
+  };
+
+  HomePageCarouselFour = {
+    instanceID: "HomePageCarouselFour"
+  };
+
   HomePageFooter = {
     instanceID: "HomePageFooter"
   };
-
-  ReachUsHeading = {
-    instanceID: "ReachUsHeading",
-    title: "Right To Information"
+  HeadingSectionTitle = {
+    instanceID: "Headingtext",
+    title: "Students Grievance and Redressal"
   };
-  EnquiryHeading = {
-    instanceID: "EnquiryHeading",
-    title: "Reach Us"
+
+  HeadingSectionDescription = {
+    instanceID: "HeadingSectionDescription",
+    title: "Debugging "
+  };
+  ProfileHeading = {
+    instanceID: "ProfileHeading",
+    title: "Profile"
+  };
+  ProfileDescription = {
+    instanceID: "ProfileDescription",
+    title:
+      ""
+  };
+
+  LearnmoreHeading = {
+    instanceID: "LearnmoreHeading",
+    title: "Learn More About CS Department"
   };
   render() {
     return (
-      <React.Fragment>
+      <div className="HomePage">
         <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
-        <div className="container">
-            <HeadingOne data={this.ReachUsHeading} className="Heading" />
-            <div className="small-box" style={{border:"1px solid"}}>
-                <a href="https://vjcet.org/downloads/naac/cr_all_files/1.2.1.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3" >Policy</button></a> 
-                <a href="https://vjcet.org/downloads/naac/cr_all_files/1.2.1.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3" >Grievance Registration Mechanism</button></a> 
-                <a href="https://vjcet.org/downloads/naac/cr_all_files/1.2.1.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3" >AICTE notification</button></a> 
-                <a href="https://vjcet.org/downloads/naac/cr_all_files/1.2.1.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3" >UGC notification</button></a> 
-                <a href="https://vjcet.org/downloads/naac/cr_all_files/1.2.1.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3" >KTU notification</button></a> 
-                <a href="https://vjcet.org/downloads/naac/cr_all_files/1.2.1.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3" >The Kerala Prohibition of Ragging Act, 1998</button></a> 
-               </div> 
-              <div className="big-box" style={{border:"1px solid"}}>
-                <h4>Right To Information</h4>  
-                <h4>Right To Information</h4>
-                <h4>Right To Information</h4>
-                <h4>Right To Information</h4>
-                <h4>Right To Information</h4>   
-                <h4>Right To Information</h4>  
-                <h4>Right To Information</h4>
-                <h4>Right To Information</h4>
-                <h4>Right To Information</h4>
-                <h4>Right To Information</h4>        
-                <h4>Right To Information</h4>  
-                <h4>Right To Information</h4>
-                <h4>Right To Information</h4>
-                <h4>Right To Information</h4>
-                <h4>Right To Information</h4>                 
-              
-              </div>      
-
-              
+        <div className="CsHeadingSection">
+          <HeadingOne data={this.HeadingSectionTitle} />            
+        </div>
+        <SideNav />
         <Footer data={this.HomePageFooter} />
         {this.state.showMenu ? (
           <MenuOverlay closeMenuFunction={this.closeMenu} />
         ) : (
             ""
-          )}           
-
-          </div>
-       </React.Fragment>
+          )}
+      </div>
     );
   }
 }
 
-export default Grievance;
+export default CsDepartment;

@@ -158,11 +158,11 @@ class Footer extends Component {
   //   link: ""
   // };
 
-  // Link14 = {
-  //   instanceID: "Link14",
-  //   title: "Events",
-  //   link: ""
-  // };
+  Link14 = {
+  instanceID: "Link14",
+  title: "Students Grievance and Redressal",
+  link: "/greve"
+  };
 
   Link15 = {
     instanceID: "Link15",
