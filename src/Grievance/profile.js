@@ -67,7 +67,7 @@ grievwriteup4 = {
             <tr><td>Ms. Anju Susan George</td><td>HOD IT</td></tr>
             <tr><td>Dr. Shunmugesh K</td><td>HOD ME</td></tr>
             <tr><td>Ms. Viji George</td><td>HOD S&H</td></tr>
-            <tr><td>Dr. Geo Baby</td><td>HOD MBA</td></tr>
+            <tr><td>Dr. Cyriac Joseph</td><td>Dean & HOD MBA</td></tr>
       	</tbody>
       </table>
 
@@ -76,7 +76,7 @@ grievwriteup4 = {
 	      <tbody>
 		      <tr><th colSpan="2">Students Welfare/ Counselling Centre</th></tr>
           <tr><td style={{width:"40%"}}>Name</td><td>Designation</td></tr>
-          <tr><td>Dr. Geo Baby</td><td>MBA</td></tr>
+          <tr><td>Dr. Cyriac Joseph</td><td>Dean & HOD MBA</td></tr>
           <tr><td>Rev. Fr. Mathew Mulangacherryil</td><td>Counsellor</td></tr>
           <tr><td>Sr. Recy Varghese</td><td>Counsellor (Girls)</td></tr>
           <tr><td>Ms. Bijimol Joseph</td><td>Asst. Professor , CE</td></tr>
@@ -103,7 +103,7 @@ grievwriteup4 = {
             <tr><td>Ms. Anju Susan George</td><td>HOD - IT</td></tr>
             <tr><td>Dr. Shanmughesh K.</td><td>HOD - ME</td></tr>
             <tr><td>Ms. Viji George</td><td>HOD - S&H</td></tr>
-            <tr><td>Dr. Geo Baby</td><td>HOD - MBA</td></tr>
+            <tr><td>Dr. Cyriac Joseph</td><td>Dean & HOD MBA</td></tr>
             <tr><td>Rev. Fr. Sebastian Valloppillil</td><td>Warden - Gents Hostel</td></tr>
             <tr><td>Rev. Sr. Stany</td><td>Warden - Ladies Hostel</td></tr>
             <tr><td>Mr. Shaji K.J.</td><td>SI of Police, Vazhakulam</td></tr>
@@ -140,8 +140,8 @@ grievwriteup4 = {
           <tr><td>Mr. Arun K R</td><td>Asst.Professor, ME</td></tr>
           <tr><td>Mr. Lovin Varghese</td><td>Asst.Professor, ME</td></tr>
           <tr><td>Mrs.Dany Sebastian</td><td>Asst.Professor, S&H</td></tr>
-          <tr><td>Dr. Geo Baby</td><td>HOD, MBA</td></tr>
-          <tr><td>Ms. Ambily Jose</td><td>Asst. Professor,MBA</td></tr>
+          <tr><td>Dr. Cyriac Joseph</td><td>Dean & HOD MBA</td></tr>
+          <tr><td>Ms. Ambily Jose</td><td>Asst. Professor, MBA</td></tr>
 
       	</tbody>
       </table>

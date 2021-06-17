@@ -33,7 +33,8 @@
 
 .button1 {
     width: 300px;
-    /*background-color: #55bb94;  Green */
+    /*height: 50px;;
+    background-color: #55bb94;  Green */
     background-color: #880d1e;
     border: none;
     color: white;
@@ -47,7 +48,7 @@
     margin: 4px 2px;
     cursor: pointer;
   }
-  .button3 {border-radius: 4px;}
+  .button3 {border-radius: 2px;}
   
 
 
