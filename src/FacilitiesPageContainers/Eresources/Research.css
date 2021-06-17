@@ -2,7 +2,7 @@
     width: 80%;
     margin-left: 5%;
 }
-/*.faculty {
+faculty {
     margin-top: 10%;
   }
 .facultyContent {
@@ -17,7 +17,7 @@
     align-content: left;
     padding: 20px 0;
     font-size: 60px;
-  }*/
+  }
   .paraheading
   {
     text-align:justify;

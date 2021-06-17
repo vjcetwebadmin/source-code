@@ -31,7 +31,8 @@ class Profile extends Component {
         <HeadingTwo data={this.ProfileHeading} />
           <p><BodyOneJustified data={this.Features1} /></p>
           <p><BodyOneJustified data={this.Features2} /></p>
-          <p style={{fontSize:"18px",textAlign:"justify"}}>• They can put up their grievance as an e mail to <span style={{color:"blue"}}>grievance@vjcet.org</span></p>
+          <p><BodyOneJustified data={this.Features3} /></p>
+          <p style={{fontSize:"18px",textAlign:"justify"}}>• They can put up their grievance as an e-mail to <span style={{color:"blue"}}>grievance@vjcet.org</span></p>
           {/*<p style={{fontSize:"18px",textAlign:"justify"}}>• They may also register their complaints <a href="https://portal.vjcet.ac.in/" target="_blank" rel="noopener noreferrer">here</a></p>*/}
           <p></p>
       </div>

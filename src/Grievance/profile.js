@@ -1,10 +1,11 @@
 import React, { Component } from "react";
-import HeadingOne from "../Components/Texts/HeadingOne"
+/* import HeadingOne from "../Components/Texts/HeadingOne"
 import HeadingTwo from "../Components/Texts/HeadingTwo";
 import ImageOne from "../Components/Images/ImageOne";
+import Bodythree from "../../Components/Texts/BodyThree"; */
 import BodyOneJustified from "../Components/Texts/BodyOneJustified";
-/* import Bodythree from "../../Components/Texts/BodyThree"; */
 import "../Components/Tables/tableformat.css";
+
 class Library extends Component {
   state = {};
   DeptLabHeading = {
@@ -33,7 +34,7 @@ grievwriteup1 = {
 
 grievwriteup2 = {
 	instanceID: "grievwriteup2",
-	title: "Student’s Welfare /Counseling Centre"
+	title: "Student’s Welfare /Counselling Centre"
 };
 grievwriteup3 = {
 	instanceID: "grievwriteup3",
