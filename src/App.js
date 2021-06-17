@@ -81,6 +81,7 @@ import Ict from "./CampusLifePageContainers/ProfessionalBodies/ICT";
 import NAAC_C1_P1 from "./Naac/Nac_C1_P1";
 import NAACbase from "./Naac/naacstart";
 import codeofc from "./CodeofC/codeofconducts";
+import grievance from "./Grievance/grievance";
 class App extends Component {
 
   ceProps = {
@@ -798,6 +799,10 @@ class App extends Component {
 
               <Route exact path="/NAAC/NAAC_C1_P1" component={NAAC_C1_P1} />
               <Route exact path="/NAAC" component={NAACbase} />
+              <Route exact path="/greve" component={grievance} />
+
+
+
               <Route component={ErrorPage} /> 
             </Switch>
           </React.Fragment>
