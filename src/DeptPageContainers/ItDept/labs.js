@@ -112,7 +112,7 @@ projectwriteup = {
 	       </tr>
 	       <tr>
 		          <td>No of systems/ capacity</td>
-		          <td>36</td>
+		          <td>34</td>
 	       </tr>
 	       <tr>
 		          <td>Configuration</td>
@@ -120,11 +120,11 @@ projectwriteup = {
 	       </tr>
          <tr>
 		          <td>Configuration</td>
-	        	  <td>5  X HP DX7400 Core2 Duo 2.53GHz</td>
+	        	  <td>3 X INTEL CORE I3 CPU @ 3.70 GHZ</td>
 	       </tr>
 	       <tr>
 	        	  <td>Licensed software using</td>
-		          <td>Window 7, Ubuntu, Phython, Java, Visual Studio 2008, Oracle 9i, Perl 5.26, Developer C</td>
+		          <td>Window 7, Ubuntu, Phython, Java, Visual Studio 2008, Oracle 9i, Developer C</td>
 	      </tr>	
       	</tbody>
       </table>

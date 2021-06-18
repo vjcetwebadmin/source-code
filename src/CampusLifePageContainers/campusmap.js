@@ -39,7 +39,7 @@ class Campusmap extends React.Component {
 
                 <div className="Profile" id="profile">
                 <HeadingOne data={this.CampustTitle} />
-                <div className="bodyContainer">
+                <div className="bodyContainer" style={{textAlign:"center"}}>
                     <iframe src="https://vjcet.org/downloads/campusMap.pdf" width="90%" height="800" title="Campus Map" align="center"></iframe>
                 </div>
             </div>      

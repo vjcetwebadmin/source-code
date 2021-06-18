@@ -45,18 +45,7 @@
   margin: 0px 0px;
   align-content: center;
 }
-.button {
-  background-color: #93001e;
-  width: 160px;
-  height: 45px;
-  color: white;
-  font-family: "Heebo", sans-serif;
-  font-family: "PT Sans Narrow", sans-serif;
-  font-family: "Quattrocento Sans", sans-serif;
-  text-align: center;
-  font-size: 18px;
-  border: 3px solid #93001e;
-}
+
 textarea {
   width: 400px;
   height: 140px;

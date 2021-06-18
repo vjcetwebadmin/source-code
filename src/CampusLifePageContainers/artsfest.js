@@ -58,7 +58,7 @@ class artsfest extends React.Component {
                 <HeadingOne data={this.ProfileHeading} />
                  <Bodythree data={this.ProfileDescriptionOne} /> 
                  <br></br>
-               <div class="gallery">                    
+               <div class="gallery" style={{textAlign:"center"}}>                    
                     <iframe src="https://vjcet.org/downloads/gallery/drishya.html" width="100%" height="500" title="Drishya" ></iframe>
                 </div>        
                

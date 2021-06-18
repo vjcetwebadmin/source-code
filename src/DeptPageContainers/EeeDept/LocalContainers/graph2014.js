@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import HeadingTwo from "../../../Components/Texts/HeadingTwo";
-import "./graph.css";
+import "../../../Components/graph.css";
 class Graph14 extends Component {
   state = {};
   Graphheading = {

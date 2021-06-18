@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import HeadingTwo from "../../Components/Texts/HeadingTwo";
 import { Bar } from "react-chartjs-2";
 import { MDBContainer } from "mdbreact";
-import "./graph.css";
+import "../../Components/graph.css";
 class Graph10 extends Component {
   state = {
     dataBar: {

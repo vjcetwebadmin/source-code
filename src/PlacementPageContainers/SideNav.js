@@ -4,6 +4,7 @@ import Vision from "./vision";
 import Faculty from "./PlacementTeam";
 import Recruitment from "./Recruitment";
 import Statistics from "./Statistics";
+import "../Components/SideNav.css"
 class SideNav extends Component {
   state = {
     showProfile: false,

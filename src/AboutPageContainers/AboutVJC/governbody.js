@@ -96,6 +96,8 @@ class Iedc extends Component {
                 <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
                 <HeadingOne data={this.IedcHeading} />
                 <div className="inner-para" style={{margin:"auto",textAlign:"center"}}>
+                   {/*
+                   if photo needed
                     <div className="faculty">
                         <div className="facultyCon" >
                             <div style={{width:"80%",textAlign:"center"}}>
@@ -104,15 +106,10 @@ class Iedc extends Component {
                             <div style={{width:"80%",textAlign:"center"}}>
                                 <GovData data={this.Govern2} />
                             </div>
-                           {/* <div style={{width:"80%",textAlign:"center"}}>
-                                <GovData data={this.Govern2} />
-                            </div>
-                            <div style={{width:"80%",textAlign:"center"}}>
-                                <GovData data={this.Govern2} />
-                            </div>*/}
-                        </div>
-                    </div>
-                </div>
+                        </div>if photo needed
+                   */}
+                   </div>
+                   
                  {/*<p align="center"><ImageOne data={this.LogoImagedata} /></p>
                 <ImageOne data={this.ResearchImg}></ImageOne> */}
                 {/*<BodyThree data={this.IedcBody1} /><br />
