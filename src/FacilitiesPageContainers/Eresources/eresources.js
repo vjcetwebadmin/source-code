@@ -118,7 +118,7 @@ class nss extends React.Component {
                 <div className="contain"> 
                     <HeadingTwo data={this.MajoreventsTitle1} className="Heading" />
                     <br></br>
-                    <div className="facultyContent">
+                    <div className="facultyC">
                         <div><a href="https://www.coursera.org/" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage2}/></a> </div>                        
                         <div><a href="https://www.edx.org/" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage1}/></a> </div>
                         <div><a href="https://nptel.ac.in/" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage}/></a> </div>
@@ -127,13 +127,13 @@ class nss extends React.Component {
                        
                     </div>
                     <HeadingTwo data={this.MajoreventsTitle2} className="Heading" />
-                        <div className="facultyContent">
+                        <div className="facultyC">
                             <div><a href="http://117.239.154.83/" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage5}/></a> </div>                                              
                         </div>
                         {/*<p className="paraheading"><a href="http://117.239.154.83/" target="_blank" rel="noopener noreferrer">View Webpage</a></p>*/}
 
                         <HeadingTwo data={this.MajoreventsTitle3} className="Heading" /> 
-                        <div className="facultyContent">
+                        <div className="facultyC">
                             <div><a href="http://117.239.154.83:83/" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage6}/></a> </div>                                              
                         </div>                         
                         {/* <p className="paraheading"><a href="http://117.239.154.83:83/" target="_blank" rel="noopener noreferrer">View Webpage</a></p>*/}
@@ -152,7 +152,7 @@ class nss extends React.Component {
                         <p className="paraheading"><a href="https://nipm.in/" target="_blank" rel="noopener noreferrer">NIPM (National Institute of Personnel Management – India)</a></p>
 
                         <HeadingTwo data={this.MajoreventsTitle6} className="Heading" />
-                        <div className="facultyContent">
+                        <div className="facultyC">
                             <div><a href="https://drive.google.com/drive/folders/19BBRotjhvKD83sxI9c7I82zvIRduwlxE" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage7}/></a> </div>                                              
                         </div>
                         {/*<p className="paraheading"><a href="https://drive.google.com/drive/folders/19BBRotjhvKD83sxI9c7I82zvIRduwlxE" target="_blank" rel="noopener noreferrer">View Webpage</a></p>*/}

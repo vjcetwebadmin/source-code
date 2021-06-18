@@ -82,6 +82,8 @@ import NAAC_C1_P1 from "./Naac/Nac_C1_P1";
 import NAACbase from "./Naac/naacstart";
 import codeofc from "./CodeofC/codeofconducts";
 import grievance from "./Grievance/grievance";
+import govenbody from "./AboutPageContainers/AboutVJC/governbody"
+
 class App extends Component {
 
   ceProps = {
@@ -798,8 +800,9 @@ class App extends Component {
               <Route exact path="/ed/nisp" component={NISP} />
 
               <Route exact path="/NAAC/NAAC_C1_P1" component={NAAC_C1_P1} />
-              <Route exact path="/NAAC" component={NAACbase} />
+              <Route exact path="/NAAC" component={NAACbase} /> 
               <Route exact path="/greve" component={grievance} />
+              <Route exact path="/about/govbody" component={govenbody} />
 
 
 

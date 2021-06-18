@@ -5,7 +5,7 @@
 faculty {
     margin-top: 10%;
   }
-.facultyContent {
+.facultyC {
     display: grid;
     grid-template-columns:35% 35% 35%;
     grid-gap: 10px;
