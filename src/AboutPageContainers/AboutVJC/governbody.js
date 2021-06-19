@@ -127,7 +127,7 @@ class Iedc extends Component {
                     <tr><td colSpan="2" className="organogramst1">Patron</td></tr>
                     <tr><td style={{width:"3%"}}></td><td>Mar George Madathikandathil, Bishop, Kothamangalam Diocese</td></tr>
                     <tr><td colSpan="2" className="organogramst1">Board of Trustees (2020-2023)</td></tr>
-                    <tr><td></td><td>1. Msgr. Dr. Cherian Kanjirakomnpil</td></tr>
+                    <tr><td></td><td>1. Msgr. Dr. Cherian Kanjirakombil</td></tr>
                     <tr><td></td><td>2. Rev. Fr. Paul Nedumpurathu</td></tr>
                     <tr><td></td><td>3. Rev. Fr. Jose Kuzhikanniyil</td></tr>
                     <tr><td></td><td className="organogramsub">Elected Members from Institutional Trustees</td></tr>
@@ -157,7 +157,7 @@ class Iedc extends Component {
                     <tr><td></td><td>26. Mr. Joseph Varghese</td></tr>
                     <tr><td></td><td>27. Mr. C P Vincent</td></tr>
                     <tr><td colSpan="2" className="organogramst1">Executive Committee (2020-2023)</td></tr>
-                    <tr><td></td><td>1. Msgr. Dr. Cherian Kanjirakomnpil</td></tr>
+                    <tr><td></td><td>1. Msgr. Dr. Cherian Kanjirakombil</td></tr>
                     <tr><td></td><td>2. Adv. K T Thomas</td></tr>
                     <tr><td></td><td>3. Adv. K Francis George</td></tr>
                     <tr><td></td><td>4. Mr. K T Mathew</td></tr>
@@ -167,7 +167,7 @@ class Iedc extends Component {
                     <tr><td></td><td>8. Mr. V V Kurian</td></tr>
                     <tr><td></td><td>9. Rev. Fr. John Mundackal</td></tr>
                     <tr><td  colSpan="2" className="organogramst1">Governing Body (2020-2021)</td></tr>
-                    <tr><td></td><td>1. Msgr. Dr. Cherian Kanjirakomnpil</td></tr>
+                    <tr><td></td><td>1. Msgr. Dr. Cherian Kanjirakombil</td></tr>
                     <tr><td></td><td>2. Rev. Fr. Thomas Malekudy</td></tr>
                     <tr><td></td><td>3. Rev. Dr. George Oliapuram</td></tr>
                     <tr><td></td><td>4. Adv. K T Thomas</td></tr>
@@ -181,7 +181,7 @@ class Iedc extends Component {
                     <tr><td></td><td>12. Nominee of KTU</td></tr>
                     <tr><td></td><td>13. Dr. K K Rajan</td></tr>
                     <tr><td colSpan="2" className="organogramst1">Advisory Board (2020-2021)</td></tr>
-                    <tr><td></td><td>1. Msgr. Dr. Cherian Kanjirakomnpil</td></tr>
+                    <tr><td></td><td>1. Msgr. Dr. Cherian Kanjirakombil</td></tr>
                     <tr><td></td><td>2. Rev. Dr. George Oliapuram</td></tr>
                     <tr><td></td><td>3. Rev. Fr. Thomas Malekudy</td></tr>
                     <tr><td></td><td>4. Rev. Fr. Paul Nedumpurathu</td></tr>

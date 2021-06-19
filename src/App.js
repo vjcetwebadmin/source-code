@@ -83,7 +83,7 @@ import NAACbase from "./Naac/naacstart";
 import codeofc from "./CodeofC/codeofconducts";
 import grievance from "./Grievance/grievance";
 import govenbody from "./AboutPageContainers/AboutVJC/governbody"
-
+import distinctiv from "./Naac/insti_disti_731"
 class App extends Component {
 
   ceProps = {
@@ -804,6 +804,7 @@ class App extends Component {
               <Route exact path="/greve" component={grievance} />
               <Route exact path="/about/govbody" component={govenbody} />
 
+              <Route exact path="/NAAC/distinct" component={distinctiv} /> 
 
 
               <Route component={ErrorPage} /> 
