@@ -60,16 +60,17 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 #organogramtable {
   width: 83%;
   margin: auto;
+  border-collapse: collapse;
+  text-align: left;
+  table-layout: auto;
  }
 .organogramst1{
-  text-align: left;
   font-size: 20px;
   font-weight: bold;
   background-color: #800000;
   color: white; 
 }
 .organogramsub{
-  text-align: left;
   font-size: 20px;
   font-weight: bold;
   background-color: #6d2424;
@@ -81,11 +82,11 @@ tr:nth-child(even) {background-color: #f2f2f2;}
   border-left-style:hidden !important; 
   border-right-style: hidden !important;
   border-bottom-style:hidden !important; 
-  height: 22px;
 }
 #organogramtable td {
   border-top-style: hidden !important;
   border-left-style:hidden !important; 
   border-right-style: hidden !important;
   border-bottom-style:hidden !important; 
+  text-align: left;
 }
