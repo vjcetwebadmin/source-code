@@ -57,3 +57,35 @@ tr:nth-child(even) {background-color: #f2f2f2;}
   
 }
 
+#organogramtable {
+  width: 83%;
+  margin: auto;
+ }
+.organogramst1{
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #800000;
+  color: white; 
+}
+.organogramsub{
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #6d2424;
+  color: white; 
+}
+
+#organogramtable tr {
+  border-top-style: hidden !important;
+  border-left-style:hidden !important; 
+  border-right-style: hidden !important;
+  border-bottom-style:hidden !important; 
+  height: 22px;
+}
+#organogramtable td {
+  border-top-style: hidden !important;
+  border-left-style:hidden !important; 
+  border-right-style: hidden !important;
+  border-bottom-style:hidden !important; 
+}

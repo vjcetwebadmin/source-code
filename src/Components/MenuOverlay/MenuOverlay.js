@@ -151,27 +151,31 @@ class MenuOverlay extends Component {
                 About College
               </Link>
               <div className="wseparator"></div>
-              <Link className="MenuOverlaySubLinks" to="/about/accreditation">
-                Accreditation
-              </Link>
-              <div className="wseparator"></div>
-              <Link className="MenuOverlaySubLinks" to="/about/keyfunctionaries">
-                Key Functionaries
-              </Link>
-              <div className="wseparator"></div>
               <Link
                 to="/about/vision"
                 className="MenuOverlaySubLinks"
               >
                 Vision & Mission
             </Link>
+            <div className="wseparator"></div>
+              <Link className="MenuOverlaySubLinks" to="/about/keyfunctionaries">
+                Key Functionaries
+              </Link>
+              <div className="wseparator"></div>
+              <Link className="MenuOverlaySubLinks" to="/about/govbody">
+              Organogram
+              </Link>
               <div className="wseparator"></div>
               <Link
                 to="/about/affliations"
                 className="MenuOverlaySubLinks"
               >
                 Affiliations
-            </Link>
+            </Link>             
+              <div className="wseparator"></div>
+              <Link className="MenuOverlaySubLinks" to="/about/accreditation">
+                Accreditation
+              </Link>    
             <div className="wseparator"></div>
               <Link
                 to="/about/mandatorydisclosure"
