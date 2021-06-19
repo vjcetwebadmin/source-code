@@ -36,52 +36,22 @@ class powerandbackup extends React.Component {
     };
 
 
-
-
-
-    WheelTitle11 = {
-        instanceID: "WheelTitle11",
-        title: "• Wheeling to the Grid"
-    };
-    wheelcontent1 = {
-        instanceID: "wheelcontent1",
-        title: "Climate change, energy security and environmental pollution have evolved as major challenges globally. The increase in Green House Gas (GHG) emissions aggravates it further.  The main composition of GHG is CO2 and the major source for man-made CO2 emission is the burning of fossil fuel, predominantly by thermal power plants.  Thermal power plants generate 70% of electricity utilized in India. The challenge is to replace the fuels which emits GHG with clean sources like solar energy. The pronounced need to check global warming calls for energy efficiency enhancement; and adoption of emission free, eco-friendly energy generation technologies. The college has dedicated a lot of effort in this direction and here are some of its efforts."
-    };
-    wheelgrid11 = {
-        instanceID: "wheelgrid11",
-        image: "ED/wheelgrid1.png",
-        width: "55%"
-    }; 
-    wheelgrid21 = {
-        instanceID: "wheelgrid21",
-        image: "ED/wheelgrid2.png",
-        width: "55%"
-    }; 
-    
-
-
-
-
-
-
-
-
     WheelTitle1 = {
         instanceID: "WheelTitle1",
         title: "• Wheeling to the Grid"
     };
     wheelcontent = {
         instanceID: "wheelcontent",
-        title: "Climate change, energy security and environmental pollution have evolved as major challenges globally. The increase in Green House Gas (GHG) emissions aggravates it further.  The main composition of GHG is CO2 and the major source for man-made CO2 emission is the burning of fossil fuel, predominantly by thermal power plants.  Thermal power plants generate 70% of electricity utilized in India. The challenge is to replace the fuels which emits GHG with clean sources like solar energy. The pronounced need to check global warming calls for energy efficiency enhancement; and adoption of emission free, eco-friendly energy generation technologies. The college has dedicated a lot of effort in this direction and here are some of its efforts."
+        title: "Three grid-connected solar power plants located in the campus generates a combined output power of 280kWp. Thus, the college prevents the emission of 420 tons of carbon dioxide from ending up in the atmosphere every year. In 2018-19 with the average consumption of 1891 kWh per day and average power generation of 1200kWh per day, 63% of the total power requirements were satisfied with the solar power plant."
     };
     wheelgrid1 = {
         instanceID: "wheelgrid1",
-        image: "https://vjcet.org/downloads/naac/C7_data/ph_731/wheelgrid1.png",
+        image: "naac/C7_data/ph_731/wheelgrid1.png",
         width: "55%"
     }; 
     wheelgrid2 = {
         instanceID: "wheelgrid2",
-        image: "https://vjcet.org/downloads/naac/C7_data/ph_731/wheelgrid2.png",
+        image: "naac/C7_data/ph_731/wheelgrid2.png",
         width: "55%"
     }; 
     
@@ -95,22 +65,22 @@ class powerandbackup extends React.Component {
     };
     rainimage1 = {
         instanceID: "rainimage1",
-        image: "https://vjcet.org/downloads/naac/C7_data/ph_731/rain1.png",
+        image: "naac/C7_data/ph_731/rain1.png",
         width: "55%"
     }; 
     rainimage2 = {
         instanceID: "rainimage2",
-        image: "https://vjcet.org/downloads/naac/C7_data/ph_731/rain2.png",
+        image: "naac/C7_data/ph_731/rain2.png",
         width: "55%"
     }; 
     rainimage3= {
         instanceID: "rainimage3",
-        image: "https://vjcet.org/downloads/naac/C7_data/ph_731/rain3.png",
+        image: "naac/C7_data/ph_731/rain3.png",
         width: "55%"
     }; 
     rainimage4 = {
         instanceID: "rainimage4",
-        image: "https://vjcet.org/downloads/naac/C7_data/ph_731/rain4.png",
+        image: "naac/C7_data/ph_731/rain4.png",
         width: "55%"
     }; 
 
@@ -124,12 +94,12 @@ class powerandbackup extends React.Component {
     };
     sewageimage1 = {
         instanceID: "sewageimage1",
-        image: "https://vjcet.org/downloads/naac/C7_data/ph_731/sewage1.png",
+        image: "naac/C7_data/ph_731/sewage1.png",
         width: "55%"
     }; 
     sewageimage2 = {
         instanceID: "sewageimage2",
-        image: "https://vjcet.org/downloads/naac/C7_data/ph_731/sewage2.png",
+        image: "naac/C7_data/ph_731/sewage2.png",
         width: "55%"
     };  
     
@@ -143,17 +113,17 @@ class powerandbackup extends React.Component {
     };
     wasteimage1 = {
         instanceID: "wasteimage1",
-        image: "https://vjcet.org/downloads/naac/C7_data/ph_731/waste1.png",
+        image: "naac/C7_data/ph_731/waste1.png",
         width: "55%"
     }; 
     wasteimage2 = {
         instanceID: "wasteimage2",
-        image: "https://vjcet.org/downloads/naac/C7_data/ph_731/waste2.png",
+        image: "naac/C7_data/ph_731/waste2.png",
         width: "55%"
     };   
     wasteimage3 = {
         instanceID: "wasteimage3",
-        image: "https://vjcet.org/downloads/naac/C7_data/ph_731/waste3.png",
+        image: "naac/C7_data/ph_731/waste3.png",
         width: "55%"
     };   
 
@@ -167,12 +137,12 @@ class powerandbackup extends React.Component {
     };
     zeroimage1 = {
         instanceID: "zeroimage1",
-        image: "https://vjcet.org/downloads/naac/C7_data/ph_731/zeroem1.png",
+        image: "naac/C7_data/ph_731/zeroem1.png",
         width: "55%"
     }; 
     zeroimage2 = {
         instanceID: "zeroimage2",
-        image: "https://vjcet.org/downloads/naac/C7_data/ph_731/zeroem2.png",
+        image: "naac/C7_data/ph_731/zeroem2.png",
         width: "55%"
     };  
 
@@ -187,12 +157,12 @@ class powerandbackup extends React.Component {
     };
     energyimage1 = {
         instanceID: "energyimage1",
-        image: "https://vjcet.org/downloads/naac/C7_data/ph_731/energysav1.png",
+        image: "naac/C7_data/ph_731/energysav1.png",
         width: "55%"
     }; 
     energyimage2 = {
         instanceID: "energyimage2",
-        image: "https://vjcet.org/downloads/naac/C7_data/ph_731/energysav2.png",
+        image: "naac/C7_data/ph_731/energysav2.png",
         width: "55%"
     };   
 
@@ -206,17 +176,17 @@ class powerandbackup extends React.Component {
     };
     greenimage1 = {
         instanceID: "greenimage1",
-        image: "https://vjcet.org/downloads/naac/C7_data/ph_731/greenprot1.png",
+        image: "naac/C7_data/ph_731/greenprot1.png",
         width: "55%"
     }; 
     greenimage2 = {
         instanceID: "greenimage2",
-        image: "https://vjcet.org/downloads/naac/C7_data/ph_731/greenprot2.png",
+        image: "naac/C7_data/ph_731/greenprot2.png",
         width: "55%"
     };   
     greenimage3 = {
         instanceID: "greenimage3",
-        image: "https://vjcet.org/downloads/naac/C7_data/ph_731/greenprot3.png",
+        image: "naac/C7_data/ph_731/greenprot3.png",
         width: "55%"
     };      
     
@@ -236,23 +206,23 @@ class powerandbackup extends React.Component {
     };
     greencovimage1 = {
         instanceID: "greencovimage1",
-        image: "https://vjcet.org/downloads/naac/C7_data/ph_731/greencov1.png",
+        image: "naac/C7_data/ph_731/greencov1.png",
         width: "55%"
     }; 
     greencovimage2 = {
         instanceID: "greencovimage2",
-        image: "https://vjcet.org/downloads/naac/C7_data/ph_731/greencov2.png",
+        image: "naac/C7_data/ph_731/greencov2.png",
         width: "55%"
     };   
     greencovimage3 = {
         instanceID: "greencovimage3",
-        image: "https://vjcet.org/downloads/naac/C7_data/ph_731/greencov3.png",
+        image: "naac/C7_data/ph_731/greencov3.png",
         width: "55%"
     };      
     
     greencovimage4= {
         instanceID: "greencovimage4",
-        image: "https://vjcet.org/downloads/naac/C7_data/ph_731/greencov4.png",
+        image: "naac/C7_data/ph_731/greencov4.png",
         width: "55%"
     };  
 
@@ -265,7 +235,9 @@ class powerandbackup extends React.Component {
                 <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
                 <div className="contain">
                     <HeadingOne data={this.InstiBackupTitle}/>
+
                     <div className="bodyContainer">
+                        <BodyOneJustified data={this.maincontent} />
                         <HeadingTwo data={this.WheelTitle1}/>
                         <BodyOneJustified data={this.wheelcontent} />
                        
@@ -275,18 +247,6 @@ class powerandbackup extends React.Component {
                         <p style={{textAlign:"center"}}><ImageOne data={this.wheelgrid2}/></p>
                         <p style={{textAlign:"center",fontSize:"14px",fontWeight:"bold"}}>200kWp Solar Power Plant located at D Block</p>
      
-
-
-                       {/* <HeadingTwo data={this.WheelTitle11}/>
-                        <BodyOneJustified data={this.wheelcontent1} />
-                        <p style={{textAlign:"center"}}><ImageOne data={this.wheelgrid11}/></p>
-                        <p style={{textAlign:"center",fontSize:"14px",fontWeight:"bold"}}>200kWp Solar Power Plant located at D Block</p>
-                        <p style={{textAlign:"center"}}><ImageOne data={this.wheelgrid21}/></p>
-                        <p style={{textAlign:"center",fontSize:"14px",fontWeight:"bold"}}>200kWp Solar Power Plant located at D Block</p>*/}
-
-
-
-
 
                         <HeadingTwo data={this.RainTitle1}/>
                         <BodyOneJustified data={this.raincontent} />
