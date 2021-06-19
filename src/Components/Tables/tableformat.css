@@ -82,6 +82,7 @@ tr:nth-child(even) {background-color: #f2f2f2;}
   border-left-style:hidden !important; 
   border-right-style: hidden !important;
   border-bottom-style:hidden !important; 
+  /*height: auto;*/
 }
 #organogramtable td {
   border-top-style: hidden !important;
