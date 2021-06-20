@@ -65,20 +65,19 @@
   }
 
 
-
-
-
 input {
   caret-color: transparent;
 }
 .sidenav {
   grid-area: sidenav;
 }
+
 .sidenav a {
   text-decoration: none;
   font-size: 18px;
   color: #880d1e;
 }
+
 
 .sidenav a:hover {
   color: #064579;
@@ -89,6 +88,7 @@ input {
   padding: 5% 0%;   
 }
 
+
 @media screen and (min-width: 768px) {
   .dropdownD {
     display: none;
@@ -97,11 +97,31 @@ input {
     display: block;
     padding: 15% 0% 15% 5%;
   }
+  .DeptcontentGriev .content {
+    padding-left: 15%;
+  }
 }
+
+@media screen and (min-width: 960px) {
+  .DeptcontentGriev .content {
+    padding-left: 2.5%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .DeptcontentGriev .content {
+    padding-left: 1%;
+  }
+}
+
+
 @media screen and (max-width: 768px) {
   .Deptcontent {
     display: block;
   }
+  .DeptcontentGriev {
+    display: block;
+  } 
   .sidemenu {
     display: inline-block;
     padding: 15% 0% 15% 5%;

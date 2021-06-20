@@ -91,3 +91,75 @@ tr:nth-child(even) {background-color: #f2f2f2;}
   border-bottom-style:hidden !important; 
   text-align: left;
 }
+
+@media (min-width: 1024px) {
+  .organogramst1 {
+    font-size: 20px;
+  }
+  .organogramsub {
+    font-size: 20px;
+  }
+  #tableformat th {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1201px){
+  .organogramst1 {
+    font-size: 20px;
+  }
+  .organogramsub {
+    font-size: 20px;
+  }
+  #tableformat th {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1200px){
+  .organogramst1 {
+    font-size: 20px;
+  }
+  .organogramsub {
+    font-size: 20px;
+  }
+  #tableformat th {
+    font-size: 16px;
+  }
+}
+@media (max-width: 960px){
+  .organogramst1 {
+    font-size: 18px;
+  }
+  .organogramsub {
+    font-size: 18px;
+  }
+  #tableformat th {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .organogramst1 {
+    font-size: 16px;
+  }
+  .organogramsub {
+    font-size: 16px;
+  }
+  #tableformat th {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .organogramst1 {
+    font-size: 14px;
+  }
+  .organogramsub {
+    font-size: 14px;
+  }
+  #tableformat th {
+    font-size: 12px;
+  }
+}
+
+
