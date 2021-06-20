@@ -97,7 +97,7 @@ class iqac extends React.Component {
        <HeadingOne data={this.ResearchHeading}></HeadingOne>    
       
         <BodyOneJustified data={this.AboutNssContent} />
-        <br />
+        <p></p>
           <table id="tableformat">
             <tr>
               <td>1</td>
@@ -215,8 +215,7 @@ class iqac extends React.Component {
               <td> Alumni Representative</td>
             </tr>
           </table>
-          <br />
-        
+          <p></p>        
           <BodyOneJustified data={this.aboutiqaccontent1} />
           <br />
           <br />

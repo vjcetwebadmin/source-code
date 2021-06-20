@@ -158,6 +158,7 @@ class SideNav extends Component {
               class="button"
               onClick={this.onClickAss}
             />  
+            <a href="https://vjcet.org/downloads/naac/C7_data/7.2.1_1.pdf" target="_blank" rel="noopener noreferrer"><button class="button" >Best Pracices</button></a> 
           </div>
          
           <div class="content">
