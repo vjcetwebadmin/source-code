@@ -61,7 +61,7 @@ class Faculty extends Component {
         </div>*/}
       </div>
 
-        <div
+      <div
           id="myModal"
           className="modal"
           style={{ display: this.state.showModal ? 'block' : 'none' }}
@@ -74,11 +74,9 @@ class Faculty extends Component {
             <div id="caption">
               {this.state.caption}
             </div>
-          </div>
+        </div>
       </div>
-
-
-      </div>
+   </div>
 
     );
   }

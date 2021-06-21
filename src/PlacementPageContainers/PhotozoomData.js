@@ -9,7 +9,7 @@ class PhotoData extends Component {
     return (
         <img
           id="myImg"
-          src={image}
+          src={require(image)}
           onClick={() => {
             this.setState({ showModal: true, caption: alt, modalSrc: image });
           }}
