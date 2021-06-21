@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import PhotoData from "./PhotozoomData";
-import "../Components/faculty.css"
+//import "./zoomalbum.css"
 import "./imgzoom.css"
 //import "./imgscrip.jsx"
 class Faculty extends Component {
@@ -9,73 +9,62 @@ class Faculty extends Component {
     caption: '',
     modalSrc: '',
   };
- /* componentDidMount() {
-    this.getAllProjectRequirementImageList();
-  }*/
-
-    Cefaculty2 = {
-    image: "../Assets/naac/img_snow.jpg",
-    alt:"sample"
+ Cefaculty1 = {
+    image: "ph_placement/TCS.jpg",
+    cname: "TCS, 2020 Batch"
   };  
-  Cefaculty11 = {
-    instanceID: "Cefaculty11",
-    image: "Allstaffphoto/ADM/ADM/arunbobyt.JPEG",
-    width: "50%",
-    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ADSTF110" target="_blank" rel="noopener noreferrer">Mr. Arun Bobby T</a>,
-    content: "Assistant Placement Officer"
-  };
+  Cefaculty2 = {
+    image: "ph_placement/VIT.jpg",
+    cname: "VIT, 2020 Batch"
+  };  
+  Cefaculty3 = {
+    image: "ph_placement/Quest.jpg",
+    cname: "Quest, 2020 Batch"
+  };  
+  Cefaculty4 = {
+    image: "ph_placement/Gadgeon.jpg",
+    cname: "Gadgeon, 2020 Batch"
+  };  
   Cefaculty5 = {
-    instanceID: "Cefaculty5",
-    image: "Allstaffphoto/PTC/IMG_7641.jpg",
-    width: "50%",
-    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHSTF105" target="_blank" rel="noopener noreferrer">Mr. Sanoj Saju</a>,
-    content: "Assistant Placement Officer"
-  };
+    image: "ph_placement/Experion.jpg",
+    cname: "Experion, 2020 Batch"
+  };  
   Cefaculty6 = {
-    instanceID: "Cefaculty6",
-    image: "Allstaffphoto/SH/FAC/shfac136.jpg",
-    width: "50%",
-    name:  <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHFAC136" target="_blank" rel="noopener noreferrer">Ms. Saksy Joy</a>,
-    content: "IQAC Placement Co-ordinator"
-  };
-
+    image: "ph_placement/Envestnet.jpg",
+    cname: "Envestnet, 2020 Batch"
+  };  
+  Cefaculty7 = {
+    image: "ph_placement/6Dtechn.jpg",
+    cname: "6D Technologies, 2020 Batch"
+  }; 
   render() {
     return (
-      <div className="faculty">    
-        <div className="facultyContent">    
-          <div style={{border:"1px solid"}}>
-            <PhotoData data={this.Cefaculty2} />        
+      <div className="facultynew">    
+        <div className="facultyContentnew">    
+          <div>
+            <PhotoData data={this.Cefaculty1} />        
           </div>
-          <div style={{border:"1px solid"}}>
+          <div >
             <PhotoData data={this.Cefaculty2} />
           </div>
-          <div style={{border:"1px solid"}}>
-               
+          <div >
+            <PhotoData data={this.Cefaculty3} />
           </div>
-         {/* <div style={{border:"1px solid"}}>
-            
-                <img id="myImg" src={require("../Assets/naac/img_snow.jpg")} alt="Snow"  onClick={() => {
-            this.setState({ showModal: true, caption: "mmm", modalSrc: "../Assets/naac/img_snow.jpg" });
-          }} style={{width:"100%",maxWidth:"200px"}}></img>
-
-        </div>*/}
+          <div >
+            <PhotoData data={this.Cefaculty4} />
+          </div>
+          <div >
+            <PhotoData data={this.Cefaculty5} />
+          </div>
+          <div >
+            <PhotoData data={this.Cefaculty6} />
+          </div>    
+          <div >
+            <PhotoData data={this.Cefaculty7} />
+          </div>               
       </div>
 
-      <div
-          id="myModal"
-          className="modal"
-          style={{ display: this.state.showModal ? 'block' : 'none' }}
-        >
-          <div>
-            <span className="close" onClick={() => this.setState({ showModal: false })}>
-              &times;
-            </span>
-            <img className="modal-content" id="img01" src={this.state.modalSrc} />
-            <div id="caption">
-              {this.state.caption}
-            </div>
-        </div>
-      </div>
+     
    </div>
 
     );

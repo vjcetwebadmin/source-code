@@ -108,11 +108,11 @@ class SideNav extends Component {
               onClick={this.onClickFac}
             />
 
-         {/* <input
+           <input
               value="Photo Album"
               class="button"
               onClick={this.onClickPhoto}
-         />*/}
+         />
             
           </div>
           <div className="content">
