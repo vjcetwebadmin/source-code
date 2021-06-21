@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import PhotoData from "./PhotozoomData";
-//import "./zoomalbum.css"
 import "./imgzoom.css"
-//import "./imgscrip.jsx"
 class Faculty extends Component {
   state = {
     showModal: false,
