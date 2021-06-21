@@ -73,8 +73,7 @@ class EeeDepartment extends Component {
       <div className="HomePage">
         <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
         <HeadingOne data={this.HeadingSectionTitle} />
-        {/*<BodyOne data={this.HeadingSectionDescription} />*/}
-        <h2>Amplifying an engineer with full potential</h2>
+        <p class="centraltag">Amplifying an engineer with full potential</p>
         <ImageOne data={this.CseImg} />
         <SideNav />
         <Footer data={this.HomePageFooter} />

@@ -6,7 +6,7 @@ import Strateg from "./Strategies";
 import Objecti from "./Objectives";
 import Benifit from "./Benefits";
 import MinutesR from "./minutes";
-//import Result from "./result";
+import Result from "./bestpractices";
 //import FacultyNav from "./facultynav";
 class SideNav extends Component {
   state = {
@@ -154,11 +154,16 @@ class SideNav extends Component {
               />  
               <input
 
-              value="Minutes"
+              value="Minutes & Reports"
               class="button"
               onClick={this.onClickAss}
-            />  
-            <a href="https://vjcet.org/downloads/naac/C7_data/7.2.1_1.pdf" target="_blank" rel="noopener noreferrer"><button class="button" >Best Pracices</button></a> 
+            /> 
+            <input
+              value="Best Practices"
+              class="button"
+              onClick={this.onClickRes}
+              />   
+            {/*<a href="https://vjcet.org/downloads/naac/C7_data/7.2.1_1.pdf" target="_blank" rel="noopener noreferrer"><button class="button" >Best Practices</button></a> */}
           </div>
          
           <div class="content">
@@ -168,6 +173,7 @@ class SideNav extends Component {
             {this.state.showProgram ? <Strateg /> : null}
             {this.state.showLib ? <Benifit /> : null}
             {this.state.showAss ? <MinutesR /> : null}
+            {this.state.showRes ? <Result /> : null}
           </div>
         </div>
       </React.Fragment>

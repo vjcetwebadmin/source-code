@@ -47,3 +47,46 @@
   margin: 4px 4px;
   cursor: pointer;
 }*/
+.centraltag {
+  font-weight:bold;
+  font-size: 22px;
+  /*letter-spacing: 2px;*/
+  color :black;
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .centraltag {
+    font-size: 22px;
+  }
+}
+
+
+@media (min-width: 1201px){
+  .centraltag {
+    font-size: 22px;
+  }
+}
+@media (max-width: 1200px){
+  .centraltag {
+    font-size: 22px;
+  }
+}
+@media (max-width: 960px){
+  .centraltag {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 768px) {
+  .centraltag {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .centraltag {
+    font-size: 13px;
+  }
+}
+
