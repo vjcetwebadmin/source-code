@@ -6,8 +6,10 @@ import PEO from "./csi";
 import Program from "./saeindia";
 import Library from "./labs";
 import Association from "./iete";
+import Faculty from "./seem";
 import Result from "./result";
-import FacultyNav from "./facultynav";
+//import FacultyNav from "./facultynav";
+
 class SideNav extends Component {
   state = {
     showProfile: true,
@@ -146,18 +148,18 @@ class SideNav extends Component {
               class="button"
               onClick={this.onClickProg}
             />
-            {/* <input
+            <input
 
-              value="IGBC"
+              value="SEEM"
               class="button"
               onClick={this.onClickFac}
-            /> */}
-            <input
+            /> 
+           {/*  <input
 
               value="IGBC"
               class="button"
               onClick={this.onClickLib}
-            />
+            />*/}
             <input
 
               value="IETE"
@@ -229,7 +231,7 @@ class SideNav extends Component {
             {this.state.showVision ? <Vision /> : null}
             {this.state.showPeo ? <PEO /> : null}
             {this.state.showProgram ? <Program /> : null}
-            {this.state.showfac ? <FacultyNav /> : null}
+            {this.state.showfac ? <Faculty /> : null}
             {this.state.showLib ? <Library /> : null}
             {this.state.showAss ? <Association /> : null}
             {this.state.showRes ? <Result /> : null}

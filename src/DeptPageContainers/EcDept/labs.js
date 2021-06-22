@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import HeadingOne from "../../Components/Texts/HeadingOne";
-
 import HeadingTwo from "../../Components/Texts/HeadingTwo";
+import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
+import ImageOne from "../../Components/Images/ImageOne";
 import "../../Components/Tables/tableformat.css";
 class Labs extends Component {
   state = {};
@@ -39,670 +40,255 @@ class Labs extends Component {
   };
   Cir2LabHeading = {
     instanceID: "Cir2LabHeading",
-    title: "CIRCUITS LAB II"
+    title: "CIRCUITS LAB II"  
   };
   EmbdLabHeading = {
     instanceID: "EmbdLabHeading",
     title: "EMBEDDED SYSTEM LAB"
   };
+
+  VlsiLabHeading = {
+    instanceID: "VlsiLabHeading",
+    title: "VLSI DESIGN LAB"
+  };
+
+  EClabImage1 = {
+    instanceID: "EClabImage1",
+    image: "DepartmentImages/EC/LABS/circuitlab1.jpg",
+    width: "80%"
+  };
+  EClabImage2 = {
+    instanceID: "EClabImage2",
+    image: "DepartmentImages/EC/LABS/circuitlab2.jpg",
+    width: "80%"
+  };
+  EClabImage3 = {
+    instanceID: "EClabImage3",
+    image: "DepartmentImages/EC/LABS/commulab1.jpg",
+    width: "80%"
+  };
+  EClabImage4 = {
+    instanceID: "EClabImage4",
+    image: "DepartmentImages/EC/LABS/commulab2.jpg",
+    width: "80%"
+  };
+  EClabImage5 = {
+    instanceID: "EClabImage5",
+    image: "DepartmentImages/EC/LABS/integratedlab.jpg",
+    width: "80%"
+  };
+  EClabImage6= {
+    instanceID: "EClabImage6",
+    image: "DepartmentImages/EC/LABS/microcontroller.jpg",
+    width: "80%"
+  };
+
+  Labdesc1 = {
+    instanceID: "Labdesc1",
+    title:
+      "Circuits-I Lab is equipped with advanced and state-of the-art equipment like DSO, CRO, Dual Power Supply, Signal Generator, Decade Resistance Box, Decade Inductance Box etc. from reputed manufacturers. This lab is well designed to provide adequate space and convenience to the students and the Lab is equipped with sufficient number of components well enough to accommodate 3 students per group for doing an experiment, so that student’s get the best exposure and confidence. Circuits-I lab facilitate the enhancement of the skills in Electronic Circuits Design for third and fourth semester students. The characteristics and applications of all basic electronic devices can be studied. Using these devices, Electronic circuits like amplifiers, Oscillators, multivibrators, voltage Regulators etc. can be constructed and can be checked."
+  };
+
+  Labdesc2 = {
+    instanceID: "Labdesc2",
+    title:
+      "Circuits-II Lab is equipped with state-of the-art equipment like CRO, Dual Power Supply, Signal Generator, Soldering Station, Q Meter, Audio System, and Drilling Machine etc. from reputed manufacturers. This Lab is equipped with sufficient number of components well enough to accommodate 3 students per group for doing an experiment, so that students get the best exposure and confidence."
+  };
+
+  Labdesc3 = {
+    instanceID: "Labdesc3",
+    title:
+      "The Integrated circuits lab provides an opportunity for the students to study the characteristics of linear ICs like Op-Amps, Timers, PLL etc. and Digital IC's like 74XX series. The lab is equipped with Digital trainer kits, Digital LCR-Q Meter, Oscilloscopes, Power supplies, Function generator etc. Application experiments using the above ICs are also performed in this lab."
+  };
+
+
+  Labdesc4 = {
+    instanceID: "Labdesc4",
+    title:
+      "This lab is used by the students to conduct practical pertaining to their mini project and hobby ideas. This lab is equipped with advanced and state-of the-art equipment like CRO, DSO, Dual Power Supply, Signal Generator etc. from reputed manufacturers. This lab provides an opportunity for the students to implement their own idea and make it a final product using the provided GSM modules, GPS modules etc."
+  };
+
+  Labdesc5 = {
+    instanceID: "Labdesc5",
+    title:
+      "This laboratory provides the students an opportunity to work on communication area. Latest equipment like high bandwidth Digital Storage Oscilloscopes, multiple power supplies etc. are available in the lab besides training kits for studying the various communication techniques. Microwave antennas, dipole antennas, phase shifters, filters, Optical Fiber Educational kit, Satellite Communication trainer are some such components. Photo lithography unit with developing and etching facility along with shearing, drilling and soldering units are arranged for the purpose of building custom printed PCBs in this lab."
+  };
+
+
+  Labdesc6 = {
+    instanceID: "Labdesc6",
+    title:
+      "The systems lab provides students with a variety of tools which support their curricular and co-curricular activities. Signal processing and hardware programming labs are conducted here as a part of curriculum. This lab is equipped with all the equipment for doing software and hardware experiments with a microcomputer system. Assembly language programming, simple input/output interfacing, and interrupt processing in microcomputer systems can be done in this lab."
+  };
+
+
+  Labdesc7 = {
+    instanceID: "Labdesc7",
+    title:
+      "The primary purpose of the Project Lab in ECE Dept. is to provide the space and resources needed by students to complete their Main Project, Mini Project and student’s hobby Projects. The lab also serves as a meeting location for groups of students working on team projects. Many students also use this lab to work on supplemental learning projects to enhance their understanding of class and lab assignments. The project lab is equipped with oscilloscopes, Waveform Generators, Digital Multimeters, Power supplies, PCB design equipments etc. which facilitate the students to design and etch their own circuits for their project."
+  };
+
+
+  Labdesc8 = {
+    instanceID: "Labdesc8",
+    title:
+      "Embedded Systems lab is equipped with 20 HP computer systems and microcontroller kits. The lab is utilized by Students of final year B Tech and M Tech. The systems are loaded with software for embedded systems experiments. DSP experiments can also be performed in this lab using DSP kits by Spectrum Digital."
+  };
+
+  Labdesc9 = {
+    instanceID: "Labdesc9",
+    title:
+      "This lab is utilized by M Tech students for their project work. Final year B Tech students can also use this lab if their project work is related to VLSI design. 17 systems with VLSI Design software is available for the students. FPGA/CPLD kits are also available in this lab."
+  };   
+
+  Labdesc10 = {
+    instanceID: "Labdesc10",
+    title:
+      "This lab is utilized by M Tech students for their project work. Final year B Tech students can also use this lab if their project work is related to VLSI design. 17 systems with VLSI Design software is available for the students. FPGA/CPLD kits are also available in this lab."
+  };
   render() {
     return (
       <div className="DeptLibrary" id="dept-library">
         <HeadingOne data={this.DeptLibHeading} />
-        <HeadingTwo data={this.ICLabHeading} />
+        <p style={{textAlign:"left",fontSize:"18px"}}>• All the labs in the department are very well equipped with components and equipment required to conduct experiments given in the curriculum and beyond. </p>
+        <p style={{textAlign:"left",fontSize:"18px"}}>• We have facility to use Projector in our lab.</p>
+        <p style={{textAlign:"left",fontSize:"18px"}}>• All the labs are well furnished and fully air-conditioned. </p>
+        <p style={{textAlign:"left",fontSize:"18px"}}>• All labs are provided with Online Uninterruptible Power Supply (UPS) and labs are equipped with speaker, fire& safety instruments and intercom.</p>
+        <p style={{textAlign:"left",fontSize:"18px"}}>• The Labs have good ambiance as equipment are arranged in a way that students feel comfortable in doing experiments and individual attention can be given for all students.</p>
+        <p style={{textAlign:"left",fontSize:"18px"}}>• All the labs have white board and Wi-Fi internet facility. </p>
+
+        <HeadingTwo data={this.CircLabHeading} />
+        <ImageOne data={this.EClabImage1} />
+        <p></p>
+        <p><BodyOneJustified data={this.Labdesc1}></BodyOneJustified></p>
+        <p></p>                
         <table id="tableformat">
 	      <tbody>
-		      <tr>
-          <th>#</th><th>Equipment Name</th><th>Make</th><th>Specification</th><th>Quantity</th>
-	       </tr>
-         <tr>
-           <td>1</td>
-           <td>Digital IC Trainer Kit</td>
-           <td>Scientific Tech</td>
-           <td></td>
-           <td>12</td>
-         </tr>
-         <tr>
-           <td>2</td>
-           <td>CRO</td>
-           <td>Aplab</td>
-           <td>30MHz</td>
-           <td>4</td>
-         </tr>
-         <tr>
-           <td>3</td>
-           <td>CRO</td>
-           <td>EZ</td>
-           <td>30MHz</td>
-           <td>6</td>
-         </tr>
-         <tr>
-           <td>4</td>
-           <td>CRO</td>
-           <td>Scientech</td>
-           <td>20MHz</td>
-           <td>2</td>
-         </tr>
-         <tr>
-           <td>5</td>
-           <td>Function Generator</td>
-           <td>Aplab</td>
-           <td>MSG2M</td>
-           <td>10</td>
-         </tr>
-         <tr>
-           <td>6</td>
-           <td>Function Generator</td>
-           <td>Aplab</td>
-           <td>FG1M</td>
-           <td>1</td>
-         </tr>
-         <tr>
-           <td>7</td>
-           <td>Function Generator</td>
-           <td>Aplab</td>
-           <td>2011A</td>
-           <td>6</td>
-         </tr>
-         <tr>
-           <td>8</td>
-           <td>Function Generator</td>
-           <td>Scientech</td>
-           <td>Scientech</td>
-           <td>5</td>
-         </tr>
-         <tr>
-           <td>9</td>
-           <td>Variable Power Supply</td>
-           <td>Scientific Tech</td>
-           <td>STVD3001</td>
-           <td>9</td>
-         </tr>
-         <tr>
-           <td>10</td>
-           <td>Fixed Power Supply</td>
-           <td>Spectrum</td>
-           <td>SPS-8031</td>
-           <td>2</td>
-         </tr>
-         <tr>
-           <td>11</td>
-           <td>Fixed Power Supply</td>
-           <td>Spectrum</td>
-           <td>SPS-8057</td>
-           <td>6</td>
-         </tr>
-         <tr>
-           <td>12</td>
-           <td>Rheostat</td>
-           <td>Stead</td>
-           <td></td>
-           <td>7</td>
-         </tr>
-         <tr>
-           <td>13</td>
-           <td>Multimeter</td>
-           <td>KusamMeco</td>
-           <td></td>
-           <td>5</td>
-         </tr>
-         <tr>
-           <td>14</td>
-           <td>Multimeter</td>
-           <td>Classic</td>
-           <td>LCR</td>
-           <td>1</td>
-         </tr>
-         <tr>
-           <td>15</td>
-           <td>Multimeter</td>
-           <td>Classic</td>
-           <td>LCR</td>
-           <td>1</td>
-         </tr>
-         <tr>
-           <td>16</td>
-           <td>Multimeter</td>
-           <td>Metravi</td>
-           <td></td>
-           <td>1</td>
-         </tr>
-         <tr>
-           <td>17</td>
-           <td>Computer</td>
-           <td>Dell</td>
-           <td>Optiplex 3010</td>
-           <td>1</td>
-         </tr>
-         <tr>
-           <td>18</td>
-           <td>LVDT Trainer kit</td>
-           <td>Unitech Banglore</td>
-           <td></td>
-           <td>3</td>
-         </tr>
-         <tr>
-           <td>19</td>
-           <td>Unitech Banglore</td>
-           <td></td>
-           <td></td>
-           <td>3</td>
-         </tr>
-         <tr>
-           <td>20</td>
-           <td>Strain Measurement Trainer Kit</td>
-           <td>Unitech scales</td>
-           <td></td>
-           <td>3</td>
-         </tr>
-         <tr>
-           <td>21</td>
-           <td>Strain Gage</td>
-           <td>Unitech scales</td>
-           <td></td>
-           <td>3</td>
-         </tr>
-         <tr>
-           <td>22</td>
-           <td>Pressure Measurement Trainer Kit</td>
-           <td></td>
-           <td>UITM 05</td>
-           <td>3</td>
-         </tr>
-         <tr>
-           <td>23</td>
-           <td>Pressure Measurement setup</td>
-           <td></td>
-           <td>UPD-210</td>
-           <td>3</td>
-         </tr>
-         <tr>
-           <td>24</td>
-           <td>Air Pump</td>
-           <td></td>
-           <td></td>
-           <td>3</td>
-         </tr>
-         
+		      <tr><th style={{width:"20%"}}>Equipment</th><th>Quantity</th></tr>
+          <tr><td>DSO</td><td>10</td></tr>
+          <tr><td>Function Generator</td><td>15</td></tr>
+          <tr><td>Variable Power Supply</td><td>12</td></tr>
+          <tr><td>Other equipment</td><td>Voltmeter (25Nos) and Ammeter (25Nos), Multimeter(2nos.), Rheostat(15nos.), Inductance Box(10nos.) and a Computer.</td></tr>
       	</tbody>
       </table>
-      <HeadingTwo data={this.MCLabHeading} />
-      <table id="tableformat">
-      <tbody>
-		      <tr>
-          <th>#</th><th>Equipment Name</th><th>Make</th><th>Specification</th><th>Quantity</th>
-	       </tr>
-         <tr>
-           <td>1</td>
-           <td>Computer</td>
-           <td>HP</td>
-           <td>
-             <li>22 X Core i3</li>
-             <li>20 X Core i5</li>
-             <li>4 X dx 7400</li>
-           </td>
-           <td>36</td>
-         </tr>
-         <tr>
-           <td>2</td>
-           <td>DSP</td>
-           <td>Vi Micro</td>
-           <td>TMS 32016748</td>
-           <td>4</td>
-         </tr>
-         <tr>
-           <td>3</td>
-           <td>Microcontroller 8051 kitv</td>
-           <td>Vi Micro</td>
-           <td></td>
-           <td>13</td>
-         </tr>
-         <tr>
-           <td>4</td>
-           <td>Microcontroller 8055 kit</td>
-           <td>Vi Micro</td>
-           <td></td>
-           <td>16</td>
-         </tr>
-         <tr>
-           <td>5</td>
-           <td>PAL/GAL trainer kit</td>
-           <td>Silicon Micro Systems</td>
-           <td></td>
-           <td>2</td>
-         </tr>
-         <tr>
-           <td>6</td>
-           <td>LCD Projector</td>
-           <td>Hitachi</td>
-           <td></td>
-           <td>1</td>
-         </tr>
-         <tr>
-           <td>7</td>
-           <td>CRO</td>
-           <td>Aplab</td>
-           <td>30MHz</td>
-           <td>4</td>
-         </tr>
-         <tr>
-           <td>8</td>
-           <td>Microprocessor 8086</td>
-           <td>Vi Micro</td>
-           <td></td>
-           <td>1</td>
-         </tr>
-         <tr>
-           <td>9</td>
-           <td>89C51 Micro Controller Development Board</td>
-           <td>Vi Micro</td>
-           <td>Vput -01</td>
-           <td>1</td>
-         </tr>
-         </tbody>
-        </table>
-        <HeadingTwo data={this.COMMLabHeading} />
-        <table id="tableformat">
-      <tbody>
-		      <tr>
-          <th>#</th><th>Equipment Name</th><th>Make</th><th>Specification</th><th>Quantity</th>
-	       </tr>
-         <tr>
-           <td>1</td>
-           <td>DSO</td>
-           <td>AGILENT</td>
-           <td>70 MHz,1GSa/s</td>
-           <td>12</td>
-         </tr>
-         <tr>
-           <td>2</td>
-           <td>Function Generator</td>
-           <td>Anshuman</td>
-           <td>2 MHz</td>
-           <td>15</td>
-         </tr>
-         <tr>
-           <td>3</td>
-           <td>Power Supply</td>
-           <td>Spectrum</td>
-           <td>15 v ,Fixed</td>
-           <td>2</td>
-         </tr>
-         <tr>
-           <td>4</td>
-           <td>Power Supply</td>
-           <td>Scientific Tech</td>
-           <td>(0-30)v, Variable</td>
-           <td>20</td>
-         </tr>
-         <tr>
-           <td>5</td>
-           <td>Inductance Box</td>
-           <td>ADD</td>
-           <td>1mH - 1H, 100 microH -900mH</td>
-           <td>20</td>
-         </tr>
-         <tr>
-           <td>6</td>
-           <td>IC Tester</td>
-           <td>Minimax</td>
-           <td>Linear</td>
-           <td>1</td>
-         </tr>
-         <tr>
-           <td>7</td>
-           <td>Multimeter</td>
-           <td>Meco</td>
-           <td></td>
-           <td>1</td>
-         </tr>
-         <tr>
-           <td>8</td>
-           <td>Series Universal Programmer</td>
-           <td>Superpro</td>
-           <td></td>
-           <td>1</td>
-         </tr>
-         
-         </tbody>
-        </table>
-        <HeadingTwo data={this.ProjLabHeading} />
-        <table id="tableformat">
-      <tbody>
-		      <tr>
-          <th>#</th><th>Equipment Name</th><th>Make</th><th>Specification</th><th>Quantity</th>
-	       </tr>
-         <tr>
-           <td>1</td>
-           <td>DC POWER SUPPLY</td>
-           <td>Scientific Tech</td>
-           <td>(0-30)V, Variable</td>
-           <td>5</td>
-         </tr>
-         <tr>
-           <td>2</td>
-           <td>FUNCTION GENERATOR</td>
-           <td>ANSHUMAN</td>
-           <td>2MHz</td>
-           <td>3</td>
-         </tr>
-         <tr>
-           <td>3</td>
-           <td>DSO</td>
-           <td>Tektronix</td>
-           <td>TDS 2002 B,60MHz,1 GS/s</td>
-           <td>1</td>
-         </tr>
-         <tr>
-           <td>4</td>
-           <td>CRO</td>
-           <td>Aplab Scientific</td>
-           <td>20MHz</td>
-           <td>3</td>
-         </tr>
-         <tr>
-           <td>5</td>
-           <td>DIGITAL IC TRAINER KIT</td>
-           <td>Scientific Tech</td>
-           <td></td>
-           <td>1</td>
-         </tr>
-         <tr>
-           <td>6</td>
-           <td>COMPUTER</td>
-           <td>HP</td>
-           <td>Intel Core 2 Duo 2 .93GHz, 3GB</td>
-           <td>3</td>
-         </tr>
-         
-         </tbody>
-        </table>
-        <HeadingTwo data={this.CircLabHeading} />
-        <table id="tableformat">
-      <tbody>
-		      <tr>
-          <th>#</th><th>Equipment Name</th><th>Make</th><th>Specification</th><th>Quantity</th>
-	       </tr>
-         <tr>
-           <td>1</td>
-           <td>DSO</td>
-           <td>Tektronix</td>
-           <td>40MHz,500MS/s</td>
-           <td>10</td>
-         </tr>
-         <tr>
-           <td>2</td>
-           <td>Function Generator</td>
-           <td>Aplab</td>
-           <td>2MHz</td>
-           <td>15</td>
-         </tr>
-         <tr>
-           <td>3</td>
-           <td>Power Supply</td>
-           <td>Scientific Tech</td>
-           <td>(0-30)v, Variable</td>
-           <td>12</td>
-         </tr>
-         <tr>
-           <td>4</td>
-           <td>Multimeter</td>
-           <td>Classic 333</td>
-           <td>LCR</td>
-           <td>2</td>
-         </tr>
-         <tr>
-           <td>5</td>
-           <td>Voltmeter</td>
-           <td>Nippen, Meco</td>
-           <td>(0-1)v,(0-5)v,(0-10)v</td>
-           <td>25</td>
-         </tr>
-         <tr>
-           <td>6</td>
-           <td>Ammeter</td>
-           <td>Nippen, Meco</td>
-           <td>(0-1)mA,(0-10)mA,(0-100)mA</td>
-           <td>25</td>
-         </tr>
-         <tr>
-           <td>7</td>
-           <td>Rheostat</td>
-           <td>Stead</td>
-           <td>1000 OHMS, 0.5A</td>
-           <td>15</td>
-         </tr>
-         <tr>
-           <td>8</td>
-           <td>Inductance Box</td>
-           <td>ADD</td>
-           <td>1mH - 1H, 100 microH -900mH</td>
-           <td>10</td>
-         </tr>
-         <tr>
-           <td>9</td>
-           <td>Computer</td>
-           <td>HP</td>
-           <td>Intel Core2 Duo 2.93 GHz</td>
-           <td>1</td>
-         </tr>
-         </tbody>
-        </table>
-        <HeadingTwo data={this.Comm2LabHeading} />
-        <table id="tableformat">
-      <tbody>
-		      <tr>
-          <th>#</th><th>Equipment Name</th><th>Make</th><th>Specification</th><th>Quantity</th>
-	       </tr>
-         <tr>
-           <td>1</td>
-           <td>DSO</td>
-           <td>Tektronix</td>
-           <td>TDS 2002 B,60MHz,1GS/s</td>
-           <td>10</td>
-         </tr>
-         <tr>
-           <td>2</td>
-           <td>Function Generator</td>
-           <td>Anshuman</td>
-           <td>2MHz</td>
-           <td>16</td>
-         </tr>
-         <tr>
-           <td>3</td>
-           <td>Power Supply</td>
-           <td>Scientific Tech</td>
-           <td>(0-30)V, Variable</td>
-           <td>12</td>
-         </tr>
-         <tr>
-           <td>4</td>
-           <td>Microwave Training System</td>
-           <td>Scientific Tech</td>
-           <td></td>
-           <td>3</td>
-         </tr>
-         <tr>
-           <td>5</td>
-           <td>Antenna Trainer Kit</td>
-           <td>Scientech</td>
-           <td></td>
-           <td>1</td>
-         </tr>
-         <tr>
-           <td>6</td>
-           <td>Satelite Comm.Training System</td>
-           <td>Satcomm</td>
-           <td></td>
-           <td>1</td>
-         </tr>
-         <tr>
-           <td>7</td>
-           <td>Digital Comm. Lab Trainer</td>
-           <td>United Electrotech</td>
-           <td></td>
-           <td>8</td>
-         </tr>
-         <tr>
-           <td>8</td>
-           <td>Multimeter</td>
-           <td>Meco</td>
-           <td></td>
-           <td>1</td>
-         </tr>
-         <tr>
-           <td>9</td>
-           <td>Computer</td>
-           <td>ell Optiplex 3010</td>
-           <td>Intel Core i5 3.2GHz, 4GB RAM</td>
-           <td>15</td>
-         </tr>
-         <tr>
-           <td>10</td>
-           <td>Computer</td>
-           <td>Hp DX 7400</td>
-           <td>Intel Core 2 Duo 2.93GHz, 2GB RAM</td>
-           <td>2</td>
-         </tr>
-         <tr>
-           <td>11</td>
-           <td>Lab VIEW Software</td>
-           <td>National Instruments</td>
-           <td></td>
-           <td></td>
-         </tr>
-         
-         </tbody>
-        </table>
+
         <HeadingTwo data={this.Cir2LabHeading} />
+        <ImageOne data={this.EClabImage2} />
+        <p></p>
+        <p><BodyOneJustified data={this.Labdesc2}></BodyOneJustified></p>
+        <p></p>                
         <table id="tableformat">
-      <tbody>
-		      <tr>
-          <th>#</th><th>Equipment Name</th><th>Make</th><th>Specification</th><th>Quantity</th>
-	       </tr>
-         <tr>
-           <td>1</td>
-           <td>CRO</td>
-           <td>Aplab</td>
-           <td>30MHz,Dual Channel</td>
-           <td>16</td>
-         </tr>
-         <tr>
-           <td>2</td>
-           <td>Function Generator</td>
-           <td>Aplab</td>
-           <td>2MHz</td>
-           <td>12</td>
-         </tr>
-         <tr>
-           <td>3</td>
-           <td>Power Supply</td>
-           <td>Scientific Tech</td>
-           <td>(0-30)V, Variable</td>
-           <td>9</td>
-         </tr>
-         <tr>
-           <td>4</td>
-           <td>Ammeter</td>
-           <td>Meco</td>
-           <td>(0-1)mA, (0-10)mA, (0-100)mA</td>
-           <td>15</td>
-         </tr>
-         <tr>
-           <td>5</td>
-           <td>Volt Meter</td>
-           <td>Meco</td>
-           <td>(0-1)V,(0-10)V</td>
-           <td>15</td>
-         </tr>
-         <tr>
-           <td>6</td>
-           <td>Rheostat</td>
-           <td>Stead</td>
-           <td>1000 OHMS, 0.5A</td>
-           <td>12</td>
-         </tr>
-         <tr>
-           <td>7</td>
-           <td>Multimeter</td>
-           <td>Vaa Tech</td>
-           <td></td>
-           <td>8</td>
-         </tr>
-         <tr>
-           <td>8</td>
-           <td>Computer</td>
-           <td>HP DX 7400</td>
-           <td>Intel Core 2 Duo 2.33GHz, 2GB RAM</td>
-           <td>2</td>
-         </tr>
-         <tr>
-           <td>9</td>
-           <td>IC Tester</td>
-           <td>Minimax</td>
-           <td>Linear</td>
-           <td>1</td>
-         </tr>
-         </tbody>
-        </table>
-        <HeadingTwo data={this.EmbdLabHeading} />
+	      <tbody>
+		      <tr><th style={{width:"20%"}}>Equipment</th><th>Quantity</th></tr>
+            <tr><td>CRO</td><td>16</td></tr>
+            <tr><td>Function Generator</td><td>12</td></tr>
+            <tr><td>Variable Power Supply</td><td>9</td></tr>
+            <tr><td>IC Tester</td><td>1</td></tr>
+            <tr><td>Rheostat</td><td>12</td></tr>
+            <tr><td>Other equipments</td><td>Ammeter(15nos.), Voltmeter(15nos.), Multimeter(8nos.) and Computer(2nos.)</td></tr>
+      	</tbody>
+      </table>
+
+      <HeadingTwo data={this.ICLabHeading} />
+      <ImageOne data={this.EClabImage5} />
+        <p></p>
+        <p><BodyOneJustified data={this.Labdesc3}></BodyOneJustified></p>
+        <p></p>                
         <table id="tableformat">
-      <tbody>
-		      <tr>
-          <th>#</th><th>Equipment Name</th><th>Make</th><th>Specification</th><th>Quantity</th>
-	       </tr>
-         <tr>
-           <td>1</td>
-           <td>Computer</td>
-           <td>HP</td>
-           <td>Intel core 2 Duo, 4GB</td>
-           <td>20</td>
-         </tr>
-         <tr>
-           <td>2</td>
-           <td>Computer</td>
-           <td>Dell</td>
-           <td>Intel core i5, 4GB</td>
-           <td>6</td>
-         </tr>
-         <tr>
-           <td>3</td>
-           <td>ARM 7</td>
-           <td>Big Technologies</td>
-           <td>LPC2129</td>
-           <td>1</td>
-         </tr>
-         <tr>
-           <td>4</td>
-           <td>ARM 9</td>
-           <td>Big Technologies</td>
-           <td>ARM 926EJS</td>
-           <td>3</td>
-         </tr>
-         <tr>
-           <td>5</td>
-           <td>Xilinx Software</td>
-           <td></td>
-           <td>12.4</td>
-           <td>15</td>
-         </tr>
-         <tr>
-           <td>6</td>
-           <td>DSP Kit</td>
-           <td>Spectrum Digital</td>
-           <td>TMS 320C6713</td>
-           <td>3</td>
-         </tr>
-         <tr>
-           <td>7</td>
-           <td>CPLD/FPGA</td>
-           <td>Advanced Electronics</td>
-           <td>XC3S50</td>
-           <td>3</td>
-         </tr>       
-         
-         </tbody>
-        </table>
+	      <tbody>
+		      <tr><th style={{width:"20%"}}>Equipment</th><th>Quantity</th></tr>
+            <tr><td>Digital Trainer Kit</td><td>12</td></tr>
+            <tr><td>CRO</td><td>12</td></tr>
+            <tr><td>Function Generator</td><td>22</td></tr>
+            <tr><td>Other equipment</td><td>Variable Power Supply (9nos.), Fixed Power Supply (8nos.), Rheostats(7nos.), Multimeters(8nos.), Desktop Computer, LVDT trainer kit(3nos.), Strain measurement trainer kit(3nos.), Strain Gauge(3nos.), Pressure measurement trainer kit(3nos.) and Air Pump(3nos.)</td></tr>
+      	</tbody>
+      </table>
+
+       <HeadingTwo data={this.COMMLabHeading} />
+       <ImageOne data={this.EClabImage3} />
+        <p></p>
+        <p><BodyOneJustified data={this.Labdesc4}></BodyOneJustified></p>
+        <p></p>                
+        <table id="tableformat">
+	      <tbody>
+		      <tr><th style={{width:"20%"}}>Equipment</th><th>Quantity</th></tr>
+            <tr><td>DSO</td><td>12</td></tr>
+            <tr><td>Function Generator</td><td>15</td></tr>
+            <tr><td>Inductance Box</td><td>20</td></tr>
+            <tr><td>IC Tester</td><td>1</td></tr>
+            <tr><td>Variable Power Supply</td><td>20</td></tr>
+            <tr><td>Other equipment</td><td>Fixed Power Supply(2nos.), Multimeter and Series Universal Programmer</td></tr>
+      	</tbody>
+      </table>
+       
+       <HeadingTwo data={this.Comm2LabHeading} />
+       <ImageOne data={this.EClabImage4} />
+        <p></p>
+        <p><BodyOneJustified data={this.Labdesc5}></BodyOneJustified></p>
+        <p></p>                
+        <table id="tableformat">
+	      <tbody>
+		      <tr><th style={{width:"20%"}}>Equipment</th><th>Quantity</th></tr>
+          <tr><td>DSO</td><td>10</td></tr>
+            <tr><td>Digital Communication Trainer Kit</td><td>8</td></tr>
+            <tr><td>Satellite Communication Training System</td><td>1</td></tr>
+            <tr><td>Microwave Training System</td><td>3</td></tr>
+            <tr><td>Antenna Trainer Kit</td><td>1</td></tr>
+            <tr><td>Other equipment</td><td>Function Generator(16nos.), Variable Power Supply(12nos.), Multimeter, Computer(17nos.) and Lab VIEW software.</td></tr>
+      	</tbody>
+      </table>
+
+        <HeadingTwo data={this.MCLabHeading} />
+        <ImageOne data={this.EClabImage6} />
+        <p></p>
+        <p><BodyOneJustified data={this.Labdesc6}></BodyOneJustified></p>
+        <p></p>                
+        <table id="tableformat">
+	      <tbody>
+		      <tr><th style={{width:"20%"}}>Equipment</th><th>Quantity</th></tr>
+          <tr><td>Computer</td><td>36</td></tr>
+            <tr><td>DSP kit</td><td>4</td></tr>
+            <tr><td>Microcontroller 8051 kit</td><td>13</td></tr>
+            <tr><td>Microcontroller 8085 kit</td><td>16</td></tr>
+            <tr><td>PAL/GAL trainer kit</td><td>2</td></tr>
+            <tr><td>Other equipment</td><td> LCD Projector, CRO(4nos.), 8086kit and 89C51 Microcontroller development board.</td></tr>
+
+      	</tbody>
+      </table>
+      
+        
+         <HeadingTwo data={this.ProjLabHeading} />
+        <p></p>
+        <p><BodyOneJustified data={this.Labdesc7}></BodyOneJustified></p>    
+        <table id="tableformat">
+	      <tbody>
+		      <tr><th style={{width:"20%"}}>Equipment</th><th>Quantity</th></tr>
+          <tr><td>DSO</td><td>1</td></tr>
+          <tr><td>CRO</td><td>3</td></tr>
+          <tr><td>Digital Trainer Kit</td><td>1</td></tr>
+          <tr><td>Computer</td><td>3</td></tr>
+          <tr><td>Variable DC Power Supply</td><td>5</td></tr>
+          <tr><td>Function Generator</td><td>3</td></tr>
+      	</tbody>
+      </table>
+       
+       <HeadingTwo data={this.EmbdLabHeading} />
+       <p></p>
+        <p><BodyOneJustified data={this.Labdesc8}></BodyOneJustified></p>    
+       <table id="tableformat">
+	      <tbody>
+		      <tr><th style={{width:"20%"}}>Equipment</th><th>Quantity</th></tr>
+          <tr><td>Computer</td><td>20</td></tr>
+          <tr><td>ARM Microcontroller</td><td>4</td></tr>
+          <tr><td>Xilinx Software</td><td>15</td></tr>
+          <tr><td>DSP Kit</td><td>3</td></tr>
+          <tr><td>CPLD/FPGA Kit</td><td>3</td></tr>
+      	</tbody>   
+      </table>
+
+      <HeadingTwo data={this.VlsiLabHeading} />
+       <p></p>
+        <p><BodyOneJustified data={this.Labdesc10}></BodyOneJustified></p>    
 
       </div>
     );

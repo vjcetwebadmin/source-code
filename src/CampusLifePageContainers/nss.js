@@ -162,6 +162,15 @@ class nss extends React.Component {
         instanceID: "EventTitle24",
         title: "24. Seven day Special Camp –Punarjani-2018"
     };
+    EventTitle25 = {
+        instanceID: "EventTitle25",
+        title: "25. NSS environmental survey and board fixation work"
+    };
+    EventTitle26 = {
+        instanceID: "EventTitle26",
+        title: "26. Avoli Panchayat cleaning work"
+    };
+
     EventContent1 = {
         instanceID: " EventContent1",
         title: "On 28 April 2018, school supplies including a bag, umbrella and necessary stationery were distributed at Kavana L P school. The function is inaugurated by Mr. Jordy, President Avoly Gramapanchayat and Presided by Prof. (Dr) Josephkunju Paul C."
@@ -259,26 +268,28 @@ class nss extends React.Component {
         instanceID: " EventContent24",
         title: "The NSS unit conducted this years Seven Day Special Camp-Punarjani-2018 at Govt. Taluk Hospital Thodupuzha from 25th to 31st January 2019. The aimed at repairing damaged and out-of-use furniture and other health-care facilities at government hospitals. During the camp the NSS unit reinstated an asset of worth Rs. 25lakhs."
     }
-    
-   
+    EventContent25 = {
+        instanceID: " EventContent25",
+        title: "The National Service Scheme unit of VJCET, Vazhakulam had organized a four day Environmental Survey and Board fixation. The work started on 2nd December 2020 and ended up on 6th December 2020. The program was conducted in an offline mode and around 25 volunteers have actively participated. The main objective of the work was to identify the trees and to fix the name boards. It was conducted on college campus."
+        
+    }    
+    EventContent26 = {
+        instanceID: " EventContent26",
+        title: "The National Service Scheme unit of VJCET, Vazhakulam had organized a cleaning work at Avoli Panchayat on 6th April 2021.Around 25 NSS volunteers had participated."
+    }
 
     render() {
         return (
             <React.Fragment>
                 <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
-             {/*    <p align="right"><a href="https://vjcet.org/downloads/gallery/nss.html" target="_blank" rel="noopener noreferrer"><ImageTwo data={this.GalleryImage} /></a></p>  */}
-             <div class="absolute">
-             <p id="rcorners1" align="right"><a href="https://vjcet.org/downloads/gallery/nss.html" target="_blank" rel="noopener noreferrer"><font color="white">Picture Book</font></a></p>
-             
-             </div>
-             <div >
-             <p id="blankspace" align="right"></p>
-             
-             </div>
                
                 <div className="contain">
                 
                     <HeadingTwo data={this.NssTitle} className="Heading" />
+                    <div  style={{float:"right"}}>{/*class="absolute"  */}
+                <p id="rcorners1" align="center" ><a href="https://vjcet.org/downloads/gallery/nss.html" target="_blank" rel="noopener noreferrer"><font color="white">Picture Book</font></a></p>
+              </div>
+              <br></br>
                     <HeadingThree data={this.AboutNssTitle} className="Heading" />
                     <BodyOneJustified data={this.AboutNssContent} />
                     <HeadingThree data={this.AboutNssvjcTitle} className="Heading" />
@@ -381,6 +392,10 @@ class nss extends React.Component {
                         <BodyOneJustified data={this.EventContent23} />
                         <HeadingFour data={this.EventTitle24} className="Heading" />
                         <BodyOneJustified data={this.EventContent24} />
+                        <HeadingFour data={this.EventTitle25} className="Heading" />
+                        <BodyOneJustified data={this.EventContent25} />
+                        <HeadingFour data={this.EventTitle26} className="Heading" />
+                        <BodyOneJustified data={this.EventContent26} />
                         
                          
                         

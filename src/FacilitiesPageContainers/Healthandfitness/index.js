@@ -34,7 +34,7 @@ class Heathandfitness extends React.Component{
     };
     SportsContent1 = {
         instanceID: "SportsContent1",
-        title:"Viswajyothi believes that Sports plays a pivotal role in moulding one’s personality and maintaining good health. We have specially developed a sports-centric environment that truly gives a global experience to all our students.There are well-equipped gyms. The facilities are accessible all year round for use for all. Moreover, an Annual Sports Day “DRONA” is celebrated every year to give our students an opportunity to exhibit their athletic talents in front of their friends and teachers."
+        title:"Viswajyothi believes that Sports plays a pivotal role in moulding one’s personality and maintaining good health. We have specially developed a sports-centric environment that truly gives a global experience to all our students. There are well-equipped gyms. The facilities are accessible all year round for use for all. Moreover, an Annual Sports Day “DRONA” is celebrated every year to give our students an opportunity to exhibit their athletic talents in front of their friends and teachers."
     }
     StatdiumTitle = {
         instanceID: "StatdiumTitle",
@@ -42,7 +42,7 @@ class Heathandfitness extends React.Component{
     };    
     StatdiumContent = {
         instanceID: "StatdiumContent",
-        title: "Viswajyothi is maintaining a Multi purpose stadium with 200 Meter track as well as a Football and Cricket ground. Many football as well as cricket tournaments are held in this stadium."
+        title: "Viswajyothi is maintaining a multi purpose stadium with 200 meter track as well as a football and cricket ground. Many football as well as cricket tournaments are held in this stadium."
     };
 
     CourtsTitle = {
@@ -60,7 +60,7 @@ class Heathandfitness extends React.Component{
     };     
     FootballContent = {
         instanceID: "FootballContent",
-        title: "Ever dreamt of playing in an environment as the ones you watch in premiership football? This being the most followed and played sport in the institute along with the state of art facilities available at your disposal, Football at Viswajyothi surely contributes to making your stay at the campus memorable! Together, lets make this excellent sport flourish even further and take it to new heights!Football is one of the successful clubs among all the clubs. Our football team has set up their mark in many inter colleges competition. Every year this group has a lot of young and enthusiasts athletes. The club gives an opportunity to show their talent by providing proper training with the help of well-trained coaches."
+        title: "Ever dreamt of playing in an environment as the ones you watch in premiership football? This being the most followed and played sport in the institute along with the state of art facilities available at your disposal, football at Viswajyothi surely contributes to making your stay at the campus memorable! Together, lets make this excellent sport flourish even further and take it to new heights! Football is one of the successful clubs among all the clubs. Our football team has set up their mark in many inter colleges competition. Every year this group has a lot of young and enthusiasts athletes. The club gives an opportunity to show their talent by providing proper training with the help of well-trained coaches."
     }; 
     CricketTitle = {
         instanceID: "CricketTitle",
@@ -68,7 +68,7 @@ class Heathandfitness extends React.Component{
     }; 
     CricketContent = {
         instanceID: "CricketContent",
-        title: "Cricket is surely one of the most loved sports of the country and the Viswajyothi Cricket Club was formed to nurture this love of the cricket enthusiasts in the institute. Cricket is one of the favourites and well-played game. This club offers proper ground with all international rules and norms. Viswajyothi organises cricket tournament every year. Our present cricket team is one of the best team we have ever had. Our cricket team expecting more participation next time and we expect favorable results from them."
+        title: "Cricket is surely one of the most loved sports of the country and the Viswajyothi Cricket Club was formed to nurture this love of the cricket enthusiasts in the institute. Cricket is one of the favourites and well-played game. This club offers proper ground with all international rules and norms. Viswajyothi organizes cricket tournament every year. Our present cricket team is one of the best team we have ever had. Our cricket team expecting more participation next time and we expect favorable results from them."
     }; 
     BasketballTitle = {
         instanceID: "BasketballTitle",
@@ -76,7 +76,7 @@ class Heathandfitness extends React.Component{
     };
     BasketballContent = {
         instanceID: "BasketballContent",
-        title: "Basketball is not just a sport at Viswajyothi, it is a culture of it's own. There is a robust community of basketball players who enjoy and practice basketball all days of the week! Every year Viswajyothi is conducting all kerala Basket Ball tournament “MAGNUM” in the mid of February. The institute men's and women's teams have shown exemplary performances at Inter-college competitions as well as in “MAGNUM” and also in the local circuit in Ernakulam time and again. All enthusiastic players are guided wonderfully by the coach and encouraged to pursue the sport wholeheartedly. He is a master trainer who delves into the intricacies of the game and brings out the best out of all his players. The infrastructure at Viswajyothi boasts of two outdoor state-of-the-art basketball courts. So come along and let's play basketball!"
+        title: "Basketball is not just a sport at Viswajyothi, it is a culture of it's own. There is a robust community of basketball players who enjoy and practice basketball all days of the week! Every year Viswajyothi is conducting all Kerala Basket Ball tournament “MAGNUM” in the mid of February. The institute men's and women's teams have shown exemplary performances at Inter-college competitions as well as in “MAGNUM” and also in the local circuit in Ernakulam time and again. All enthusiastic players are guided wonderfully by the coach and encouraged to pursue the sport wholeheartedly. He is a master trainer who delves into the intricacies of the game and brings out the best out of all his players. The infrastructure at Viswajyothi boasts of two outdoor state-of-the-art basketball courts. So come along and let's play basketball!"
     };
     TableTennisTitle = {
         instanceID: "TableTennisTitle",
@@ -84,7 +84,7 @@ class Heathandfitness extends React.Component{
     };
     TableTennisContent = {
         instanceID: "TableTennisContent",
-        title: "Ever fancied playing in a state of the art, fully developed table tennis court which you get to see in your dreams? Look no further! We strive to portray table tennis as a sport with absolutely no prerequisites with a massive number of people picking up and excelling in this sport every year with the guidance of a dedicated coach and our team players. Headed by the Table Tennis secretary and driven by the conveners, Table Tennis Club promises fun to everyone who is a part of it. Let’s take the game to a higher level."
+        title: "Ever fancied playing in a state of the art, fully developed table tennis court which you get to see in your dreams? Look no further! We strive to portray table tennis as a sport with absolutely no prerequisites with a massive number of people picking up and excelling in this sport every year with the guidance of a dedicated coach and our team players. Headed by the table tennis secretary and driven by the conveners, Table Tennis Club promises fun to everyone who is a part of it. Let’s take the game to a higher level."
     };
     BadmintonTitle = {
         instanceID: "BadmintonTitle",
@@ -92,7 +92,7 @@ class Heathandfitness extends React.Component{
     };
     BadmintonContent = {
         instanceID: "BadmintonContent",
-        title: "For all badminton loving folks of Viswajyothi. It has been one of the most active clubs handling the most active sport in the institute. With promotion of Badminton as its true motive, it has organised a wide range of events every year. This club’s activities are gonna be bigger and better. Badminton Club will be one of the most happening clubs of the year. Let's take the game in the institute to a higher level. Badminton Club offers 7 courts(3 indoor and 4 outdoor) with high standard inside the campus and has won many accolades. The club is formed with all categories single, double and regroups male and female athletes."
+        title: "For all badminton loving folks of Viswajyothi. It has been one of the most active clubs handling the most active sport in the institute. With promotion of Badminton as its true motive, it has organized a wide range of events every year. This club’s activities are going to be bigger and better. Badminton Club will be one of the most happening clubs of the year. Let's take the game in the institute to a higher level. Badminton Club offers 7 courts (3 indoor and 4 outdoor) with high standard inside the campus and has won many accolades. The club is formed with all categories single, double and regroups male and female athletes."
     };
     VolleyballTitle = {
         instanceID: "VolleyballTitle",
@@ -125,7 +125,7 @@ class Heathandfitness extends React.Component{
             <Gym />
             <Health />            
             <HeadingTwo data={this.BasketballTitle} className="Heading" />          
-            <div class="absolute">
+            <div  style={{float:"right"}}>
              <p id="rcorners1" align="right"><a href="https://vjcet.org/downloads/gallery/magnum.html" target="_blank" rel="noopener noreferrer"><font color="white">Picture Book</font></a></p>
              </div>
              <div >

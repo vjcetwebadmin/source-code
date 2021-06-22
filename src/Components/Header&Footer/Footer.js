@@ -158,11 +158,11 @@ class Footer extends Component {
   //   link: ""
   // };
 
-  // Link14 = {
-  //   instanceID: "Link14",
-  //   title: "Events",
-  //   link: ""
-  // };
+  Link14 = {
+  instanceID: "Link14",
+  title: "Students Grievance and Redressal",
+  link: "/greve"
+  };
 
   Link15 = {
     instanceID: "Link15",
@@ -257,7 +257,7 @@ class Footer extends Component {
           <ExternalLink data={this.Link16} />
           <ExternalLink data={this.Link18} />
           <ExternalLink data={this.Link19} />
-          <ExternalLink data={this.Link20} />
+         {/* <ExternalLink data={this.Link20} />*/}
         </div>
 
         <div className="FooterLinksFour" id="FooterLinksFour">

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import FacultyData from "../../Components/FacultyData";
+import "../../Components/faculty.css"
 class MEFaculty extends Component {
   state = {};
   Cefaculty1 = {
@@ -28,7 +29,7 @@ class MEFaculty extends Component {
     image: "Allstaffphoto/ME/FAC/200.jpg",
     width: "50%",
     name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=MEFAC106" target="_blank" rel="noopener noreferrer">Mrs. Leeba Varghese</a>,
-     content: "Associate Professor(on Leave-Ph.D)"
+     content: "Associate Professor(on-leave Ph.D)"
   };
   
   Cefaculty7 = {
@@ -86,14 +87,14 @@ class MEFaculty extends Component {
     image: "Allstaffphoto/ME/FAC/217.jpg",
     width: "50%",
     name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=MEFAC123" target="_blank" rel="noopener noreferrer">Mr. Unnikrishnan T G</a>,
-    content: "Assistant Professor(on Leave-Ph.D)"
+    content: "Assistant Professor(on-leave Ph.D)"
   };
   Cefaculty16 = {
     instanceID: "Cefaculty16",
     image: "Allstaffphoto/ME/FAC/300.jpg",
     width: "50%",
     name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=MEFAC128" target="_blank" rel="noopener noreferrer">Mr. Jerry Varghese</a>,
-    content: "Assistant Professor(on Leave-Ph.D)"
+    content: "Assistant Professor(on-leave Ph.D)"
   };
   Cefaculty17 = {
     instanceID: "Cefaculty17",
@@ -156,7 +157,7 @@ class MEFaculty extends Component {
     image: "Allstaffphoto/ME/FAC/AravindS.JPEG",
     width: "50%",
     name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=MEFAC112" target="_blank" rel="noopener noreferrer">Mr. Aravind S</a>,
-    content: "Assistant Professor(on Leave-Ph.D)"
+    content: "Assistant Professor(on-leave Ph.D)"
   };
   
   render() {

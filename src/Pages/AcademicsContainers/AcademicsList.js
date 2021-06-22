@@ -65,7 +65,7 @@ class AcademicsList extends Component {
   };
   UGCourse3 = {
     instanceID: "UGCourse3",
-    title: "Electronics and Communication engineering"
+    title: "Electronics and Communication Engineering"
   };
   UGCourse4 = {
     instanceID: "UGCourse4",

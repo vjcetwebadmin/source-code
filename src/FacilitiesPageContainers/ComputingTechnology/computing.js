@@ -106,7 +106,7 @@ class CCC extends React.Component {
                     <ImageOne data={this.CCCImagedata} />
                     <br />
                     <div className="bodyContainer">
-                        <HeadingTwo data={this.CCCTitle} className="Heading" />
+                       {/* <HeadingTwo data={this.CCCTitle} className="Heading" />*/}
                         <BodyOneJustified data={this.CCCContent1} />
                         <HeadingTwo data={this.NATitle} className="Heading" />
                         <BodyOneJustified data={this.CCCContent2} />

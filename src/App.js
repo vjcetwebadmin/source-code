@@ -35,6 +35,7 @@ import FacilitiesPage from "./Pages/FacilitiesPage";
 import CCC from "./FacilitiesPageContainers/ComputingTechnology/computing";
 import building from "./FacilitiesPageContainers/BuildingArea/building";
 import powerandbackup from "./FacilitiesPageContainers/PowerandBackup/powerandbackup";
+import solarplant from "./FacilitiesPageContainers/Solarplant/solarplant";
 import Library from "./FacilitiesPageContainers/Library/index";
 import Hostel from "./FacilitiesPageContainers/Hostel/index";
 import Healthandfitness from "./FacilitiesPageContainers/Healthandfitness/index";
@@ -77,12 +78,10 @@ import NotiPage from './Pages/Notifications';
 import NISP from "./Pages/NISP";
 import ErrorPage from "./Pages/ErrorPage";
 import Ict from "./CampusLifePageContainers/ProfessionalBodies/ICT";
-
-import cshontest from "./DeptPageContainers/CsDept/LocalContainers/cshonours"
-
 import NAAC_C1_P1 from "./Naac/Nac_C1_P1";
 import NAACbase from "./Naac/naacstart";
 import codeofc from "./CodeofC/codeofconducts";
+import grievance from "./Grievance/grievance";
 class App extends Component {
 
   ceProps = {
@@ -104,7 +103,7 @@ class App extends Component {
         ProfileDescriptionOne: {
           instanceID: "ProfileDescriptionOne",
           title:
-            "Consistently ranked as one of the top performers among the colleges affiliated to APJ Abdul KalamTechnological University, the Department maintains academic alliances with several industries and training institutes which help them evolve as socially committed Engineers. We seek to promote the overall growth of every student by way of academic mentoring as well as through provision of avenues for career development and career growth."
+            "Consistently ranked as one of the top performers among the colleges affiliated to APJ Abdul Kalam Technological University, the Department maintains academic alliances with several industries and training institutes which help them evolve as socially committed Engineers. We seek to promote the overall growth of every student by way of academic mentoring as well as through provision of avenues for career development and career growth."
         },
         Ceheading: {
           instanceID: "Ceheading",
@@ -173,7 +172,7 @@ class App extends Component {
           },
           {
             instanceID: "Features7",
-            title: "•	Involvement with construction projects in the campus through SeC ( Structural Engineering Club) and FABLAB",
+            title: "•	Involvement with construction projects in the campus through SeC ∞ ( Structural Engineering Club) and FABLAB",
             list: []
           },
           {
@@ -268,9 +267,9 @@ class App extends Component {
         {
           instanceID: "ProgramDescriptionOne",
           title:
-            "The Department offers undergraduate program in Civil Engineering with an annual intake of 60 students."
+            "The Department offers undergraduate program in Civil Engineering with an annual intake of 60 students. The program was accredited by NBA in 2018. Civil Engineers are in a privileged and hugely influential position to innovate, design and build a sustainable future."
         },
-        {
+        /*{
           instanceID: "ProgramDescriptionTwo",
           title:
             "The program was accredited by NBA in 2018."
@@ -278,30 +277,30 @@ class App extends Component {
         {
           instanceID: "ProgramDescriptionThree",
           title: "Civil Engineers are in a privileged and hugely influential position to innovate, design and build a sustainable future."
-        },
+        },*/
         {
           instanceID: "ProgramDescriptionFour",
           title: "Civil Engineering Department strives to:"
         },
         {
           instanceID: "List1",
-          title: "•	put forth best- rated undergraduate education."
+          title: "•	Put forth best- rated undergraduate education."
         },
         {
           instanceID: "List2",
-          title: "•	offer high-end professional consultancy,excellent work culture and campus atmosphere."
+          title: "•	Offer high-end professional consultancy,excellent work culture and campus atmosphere."
         },
         {
           instanceID: "List3",
-          title: "•	inculcate academic integrity and accountability among our faculty as well as students. "
+          title: "•	Inculcate academic integrity and accountability among our faculty as well as students. "
         },
         {
           instanceID: "List4",
-          title: "•	cultivate a sense of civic and social responsibility among our students by way of various Forums and Clubs."
+          title: "•	Cultivate a sense of civic and social responsibility among our students by way of various Forums and Clubs."
         },
         {
           instanceID: "List5",
-          title: "•	continue the process of building strong links with the building and construction industry."
+          title: "•	Continue the process of building strong links with the building and construction industry."
         }
       ],
       faculty: {
@@ -361,7 +360,7 @@ class App extends Component {
             image: "Allstaffphoto/CE/FAC/40.jpg",
             width: "51%",
             name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC105" target="_blank" rel="noopener noreferrer">Mrs. Minu C Joy</a>,
-            content: "Assistant Professor(on Leave)"
+            content: "Assistant Professor(on-leave)"
           },
           {
             instanceID: "Cefaculty7",
@@ -438,21 +437,21 @@ class App extends Component {
             image: "Allstaffphoto/CE/FAC/366.jpg",
             width: "50%",
             name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC134" target="_blank" rel="noopener noreferrer">Mr. Vishnu Krishnan</a>,
-          content: "Assistant Professor(on Leave-Ph.D)"
+          content: "Assistant Professor(on-leave Ph.D)"
           },
           {
             instanceID: "Cefaculty22",
             image: "Allstaffphoto/CE/FAC/384.jpg",
             width: "50%",
             name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC136" target="_blank" rel="noopener noreferrer">Mr. Basil Baby</a>,
-            content: "Assistant Professor(on Leave-Ph.D)"
+            content: "Assistant Professor(on-leave Ph.D)"
           },
           {
             instanceID: "Cefaculty22",
             image: "Allstaffphoto/CE/FAC/385.jpg",
             width: "50%",
             name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC137" target="_blank" rel="noopener noreferrer">Mrs. Nisa Ann Mathew </a>,
-            content: "Assistant Professor(on Leave)"
+            content: "Assistant Professor(on-leave)"
           },
           {
             instanceID: "Cefaculty22",
@@ -535,7 +534,7 @@ class App extends Component {
             "In addition to the Central Library, a dedicated Department Library is functioning for the benefit of staff members and students. The library is solely intended for referral purposes. No issue of books is done. Students or faculty members can access the books and refer them within the library. The e-library facility of the central library is also made accessible in the Department Library. The library functions from 8:45 am to 4:30 pm."
         }
       },
-      assosn: {
+     /* assosn: {
         desc: [
           {
             instanceID: "DeptAssociationDescriptionOne",
@@ -578,20 +577,20 @@ class App extends Component {
             title: "•	SOCIAL OUT REACH PROGRAMS"
           }
         ]
-      },
+      },*/
       result: {
         heading: {
           instanceID: "CehonoursHeading",
-          title: "honours of Civil Engineering"
+          title: "Civil Engineering"
         },
         honours: [
           {
             instanceID: "cshonours1",
-            image: "honours/cehonour1.jpg",
+            image: "Honours/cehonour1.jpg",
             width: "30%",
             name: "Mariamol Mathew",
             content:
-              "Secured Tenth Rank in B.Tech Civil Engineering May 2018"
+              "Tenth Rank in B.Tech May 2018"
           }
         ]
       },
@@ -767,6 +766,7 @@ class App extends Component {
               <Route exact path="/facilities/building" component={building} />
               <Route exact path="/facilities/library" component={Library} />
               <Route exact path="/facilities/powerandbackup" component={powerandbackup} />
+              <Route exact path="/facilities/solar" component={solarplant} />
               <Route exact path="/facilities/hostel" component={Hostel} />
               <Route exact path="/facilities/healthandfitness" component={Healthandfitness} />
               <Route exact path="/facilities/campusamenities" component={campusamenities} />
@@ -799,8 +799,8 @@ class App extends Component {
 
               <Route exact path="/NAAC/NAAC_C1_P1" component={NAAC_C1_P1} />
               <Route exact path="/NAAC" component={NAACbase} />
+              <Route exact path="/greve" component={grievance} />
 
-              <Route exact path="/cshtest" component={cshontest} />
 
 
               <Route component={ErrorPage} /> 
@@ -813,306 +813,3 @@ class App extends Component {
 }
 
 export default App;
-
-/*csProps = {
-    HeadingSectionTitle: {
-      instanceID: "Headingtext",
-      title: "COMPUTER SCIENCE ENGINEERING"
-    },
-    HeadingSectionDescription: {
-      instanceID: "HeadingSectionDescription",
-      title: "Debugging the possibilities through intelligence"
-    },
-    CseImg: {
-      instanceID: "CseImg",
-      image: "DepBannerImages/cs.jpg",
-      width: "100%"
-    },
-    SideNavData:
-    {
-      profile:
-      {
-        ProfileDescription: {
-          instanceID: "ProfileDescription",
-          title:
-            "The Department of Computer Science is envisioned to prepare competent, creative and innovative Computer Scientists who would be capable of meeting the challenges posed by these burgeoning knowledge disciplines.The Department of Computer Science and Engineering (CSE) was founded in 2001. B.Tech Computer Science Engineering program is accredited by NBA on June 2018 for three years.The annual intake of the B. Tech. program is 120 students and that of the M. Tech. is 24."
-        },
-        Ceheading: {
-          instanceID: "Ceheading",
-          title: "Salient Features:"
-        },
-        Features: [
-          {
-            instanceID: "Features1",
-            title: "•	Started in the year 2001, the Department of Computer Science & Engineering offers both undergraduate (B. Tech.) and postgraduate (M. Tech.) programs."
-          },
-
-          {
-            instanceID: "Features2",
-            title: "•	B.Tech Computer Science Engineering program is accredited by NBA on July 2018 for three years."
-          },
-          {
-            instanceID: "Features3",
-            title: "•	Good Academic result and appreciable placements at MNCs like Google, Microsoft, Infosys, TCS.."
-          },
-          {
-            instanceID: "Features4",
-            title: "•	Smart class rooms, well equipped labs, R&D centre and well stocked Library."
-          },
-          {
-            instanceID: "Features5",
-            title: "•	Well qualified, skilled and dedicated teachers who are keen in academic research. (Apart from the existing PhD holders 11 faculty members are doing the same course)."
-          },
-          {
-            instanceID: "Features6",
-            title: "•	Steady effort to promote student initiatives like entrepreneurship, startups."
-          },
-          {
-            instanceID: "Features7",
-            title: "•	Technical and softskill training, activities and fests with the support of Professional bodies – CSI, ISTE, IEEE and industrialists"
-          },
-          {
-            instanceID: "Features8",
-            title: "•	Computer Society of India (CSI) student branch won the ‘Best Accredited Student Branch’ for the last four consecutive years."
-          },
-          {
-            instanceID: "Features9",
-            title: "•	Collaborated with Senior Experten Service (SES) Germany for knowledge sharing in an international interdisciplinary platform."
-          },
-        ],
-      },
-      vision:
-      {
-        VisionDescription:
-        {
-          instanceID: "VisionDescription",
-          title:
-            "Moulding socially responsible and professionally competent Computer Engineers to adapt to the dynamic technological landscape"
-        },
-        Missions:[
-          {
-            instanceID: "MissionListOne",
-            title:
-              "1.	Foster the principles and practices of computer science to empower life-long learning and   build careers in software and hardware development."
-          },{
-            instanceID: "MissionListTwo",
-            title:
-              "2.  Impart value education to elevate students to be successful, ethical and effective problem-solvers to serve the needs of the industry, government, society and the scientific community."
-          },{
-            instanceID: "MissionListThree",
-            title:
-              "3.  Promote industry interaction to pursue new technologies in Computer Science and provide excellent infrastructure to engage faculty and students in scholarly research activities."
-          },
-        ],
-      },
-      peo:
-      {
-        peoListOne:
-        {
-          instanceID: "peoListOne",
-          title: "Our Graduates "
-        },
-        peoListTwo:
-        {
-          instanceID: "peoListTwo",
-          title:
-            "1.	Shall have creative and critical reasoning skills to solve technical problems ethically and responsibly to serve the society."
-        },
-        peoListThree:
-        {
-          instanceID: "peoListThree",
-          title:
-            "2.	Shall have competency to collaborate as a team member and team leader to address social, technical and engineering challenges."
-        },
-        peoListFour:
-        {
-          instanceID: "peoListFour",
-          title:
-            "3.	Shall have ability to contribute to the development of the next generation of information technology either through innovative research or through practice in a corporate setting."
-        },
-        peoListFive:
-        {
-          instanceID: "peoListFive",
-          title:
-            "4.	Shall have potential to build start-up companies with the foundations, knowledge and experience they acquired from undergraduate education."
-        },
-      },
-      program:
-      {
-        ProgramDescriptionOne:
-        {
-          instanceID: "ProgramDescriptionOne",
-          title:
-            "Department of Computer Science and Engineering is offering both Under graduate and Post graduate courses in Computer Science and Engineering. The total intake in Undergraduate course is 120 per batch and for Post graduation 18 per batch."
-        },
-        ProgramDescriptionTwo:
-        {
-          instanceID: "ProgramDescriptionTwo",
-          title:
-            "The Under Graduate program started in the year 2001 with an intake of 60 students per batch. Later in July 2007 the intake is amplified to 120 students per batch. In the year 2010 Postgraduate program in Computer Science and Engineering with an intake of 18 students per batch has started. The Department is accredited by National Board of Accreditation (NBA) of AICTE in June 2010. Also the Department applied for NBA accreditation in 2017 and is accredited by NBA on July 2018 for three years."
-        },
-      },
-      faculty:
-      {
-        OnClickFac: () => {
-          this.setState
-            ({
-              showfaculty: true,
-              showstaff: false
-            });
-        },
-        OnClickStaff = () => {
-          this.setState
-            ({
-              showfaculty: false,
-              showstaff: true
-            });
-        },
-        render() {
-          return (
-            <div class="facultyNav">
-              <input
-                type="button"
-                value="Faculty"
-                class="buttongraph"
-                onClick={this.OnClickFac}
-              />
-              <input
-                type="button"
-                value="Technical Staff"
-                class="buttongraph"
-                onClick={this.OnClickStaff}
-              />
-              <div class="FacultyNavContent">
-                {this.state.showfaculty ? <CSFaculty /> : null}
-                {this.state.showstaff ? <CSStaff /> : null}
-              </div>
-            </div>
-          );
-        },
-      },
-      library:
-      {
-        AdvdatabaseLabHeading:
-        {
-          instanceID: "AdvdatabaseLabHeading",
-          title: "Advanced Operating System & Database Lab"
-        },
-        AdvdatabaseLabImagedata:
-        {
-          instanceID: "AdvdatabaseLabImage",
-          image: "DepartmentImages/CS/LABS/DBMSLAB.JPG",
-          width: "80%"
-        },
-        PGProjLabHeading:
-        {
-          instanceID: "PGProjLabHeading",
-          title: "PG Project Lab"
-        },
-        PGProjLabImagedata:
-        {
-          instanceID: "PGProjLabImage",
-          image: "DepartmentImages/CS/LABS/PGPROJLAB.JPG",
-          width: "80%"
-        },
-        ProjectLabHeading:
-        {
-          instanceID: "ProjectLabHeading",
-          title: "Project Lab(UG)"
-        },
-        ProjLabImagedata:
-        {
-          instanceID: "ProjLabImage",
-          image: "DepartmentImages/CS/LABS/PROJECTLAB.JPG",
-          width: "80%"
-        },
-        NWLabHeading:
-        {
-          instanceID: "NWLabHeading",
-          title: "Network Systems Lab"
-        },
-        NWImagedata:
-        {
-          instanceID: "NWLabImage",
-          image: "DepartmentImages/CS/LABS/NWLAB.JPG",
-          width: "80%"
-        },
-        MMLabHeading:
-        {
-          instanceID: "MMLabHeading",
-          title: "Multimedia Lab"
-        },
-        MMImagedata:
-        {
-          instanceID: "MMLabImage",
-          image: "DepartmentImages/CS/LABS/MMLAB.JPG",
-          width: "80%"
-        },
-        HWLabHeading:
-        {
-          instanceID: "HWLabHeading",
-          title: "Hardware Lab"
-        },
-        HWImagedata:
-        {
-          instanceID: "HWLabImage",
-          image: "DepartmentImages/CS/LABS/HWLAB.JPG",
-          width: "80%"
-        },
-        MPLabHeading:
-        {
-          instanceID: "MPLabHeading",
-          title: "Microprocessor Lab"
-        },
-        MPImagedata:
-        {
-          instanceID: "MPLabImage",
-          image: "DepartmentImages/CS/LABS/MPLAB.JPG",
-          width: "80%"
-        },
-        DeptLibDescriptionOne:
-        {
-          instanceID: "DeptLibDescriptionOne",
-          title:
-            "The Department of Computer Science and Engineering maintains a books enriched library where its primary aim is to support the student of the institution for education.  The Library was established in 2006.  The library has a collection of more than 600 books. Besides books the Library possesses B.Tech project and seminar reports, Monographs, Lab Manuals, Question papers, CD-ROMs, Internet facility. The departmental library serve the academic disciplines bearing their names. "
-        },
-        DeptLibDescriptionTwo:
-        {
-          instanceID: "DeptLibDescriptionTwo",
-          title:
-            "The collection is strong in all aspects with special strengths in C programming, Software Engineering, Automata Theory, System Programming, Computer Architecture and Organization, Data Structures, Microprocessors, Database Management System and also books on  Digital Electronics, Humanities, Management."
-        },
-        DeptLibDescriptionThree:
-        {
-          instanceID: "DeptLibDescriptionThree",
-          title:
-            "It has a carpet area of about 500 square feet. The library opens from 8.45 a.m. to 4.30 p.m. except Saturdays and Sundays. The library collection is arranged subject-wise. The library is maintaining records of all Purchased/Donated books, CDS, Seminar Reports/Project Reports/Magazines/Monographs/Lab Manual/Previous Year Question Papers. Members can search and view the status (Available/Not Available) of each searched item through the software.  The library is also maintaining all Issue/Deposit/Fine reports and it will be periodically updates at the end of each semesters."
-        },
-
-      },
-      assosn:
-      {
-        DeptAssociationDescriptionOne:
-        {
-          instanceID: "DeptAssociationDescriptionOne",
-          title:
-            " VOICE is the association of the Computer Science & Engineering department. VOICE plays its vital role of giving opportunities and exposure for the young minds of the department to the tech world through different events like Technical Quiz, Technical Talks, Group Discussions, Workshops etc. VOICE is run by the student coordinators under the guidance of faculty members from the department. "
-        },
-        DeptAssociationHeadingTwo:
-        {
-          instanceID: "DeptAssociationHeadingTwo",
-          title: "2018-19"
-        },
-        DeptAssociationDescriptionTwo:
-        {
-          instanceID: "DeptAssociationDescriptionTwo",
-          title:
-            "The association activities for the year was inaugurated by Dr. Vineesh K P ,Faculty, NIT Calicut on 3rd October, 2018, and a technical talk on Machine Learning was conducted. The newsletter was also released on the same venue."
-        },
-      },
-      result:
-      {
-
-      },
-    }
-  }*/

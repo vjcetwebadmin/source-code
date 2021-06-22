@@ -12,15 +12,15 @@ class Health extends React.Component {
     };
     HealthContent1 = {
         instanceID: "HealthContent1",
-        title: "Viswajyothi College of Engineering and Technology  is very much concerned about the Psychological- human formation of Students along with their academic and intellectual development. We have a counselling center in Viswajyothi college where students are free to walk in and share their challenges and difficulties to become resilient people. Through Counseling students get a Psychological strength to cope with stress and hardships."
+        title: "Viswajyothi College of Engineering and Technology  is very much concerned about the psychological- human formation of students along with their academic and intellectual development. We have a counselling center in Viswajyothi college where students are free to walk in and share their challenges and difficulties to become resilient people. Through counselling students get a psychological strength to cope with stress and hardships."
     }
     HealthContent2 = {
         instanceID: "HealthContent2",
-        title: "A follow up sessions where the psychological changes of the students are being evaluated periodically. Mostly evaluations are done with the help of emotional intelligence self-assessment test and personality assessment tests etc. Counselling help the students to have a deeper self knowledge by knowing one's own personality 'Trait Inventory'. Each counseling sessions focus more on their healthy personality factors such as achievement, acceptance and affection in a very unique way. Thus the result is, students become very positive in their attitude and focus more on their studies, inter-personal relationships thereby become become efficient and skilled engineers in the future."
+        title: "A follow up session where the psychological changes of the students are being evaluated periodically. Mostly evaluations are done with the help of emotional intelligence self-assessment test and personality assessment tests etc. Counselling helps the students to have a deeper self-knowledge by knowing one's own personality 'Trait Inventory'. Each counselling sessions focus more on their healthy personality factors such as achievement, acceptance and affection in a very unique way. Thus, the result is, students become very positive in their attitude and focus more on their studies, inter-personal relationships thereby become efficient and skilled engineers in the future."
     }
     HealthContent3 = {
         instanceID: "HealthContent3",
-        title: "Our college has a medical facility during the working hours. All preliminary medical needs will be served in this facility. The medical team is consist of "
+        title: "Our college has a medical facility during the working hours. All preliminary medical needs will be served in this facility. The medical team is consisting of "
     }
     // HealthImagedata = {
     //     instanceID: "HealthImagedata",

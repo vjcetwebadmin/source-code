@@ -1,7 +1,7 @@
 #tableformat {
   
   border-collapse: collapse;
-  width: 100%;
+  width: 98%;
   text-align: left;
   table-layout: auto;
 }
@@ -27,7 +27,7 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 #publicationtable {
   
   border-collapse: collapse;
-  width: 100%;
+  width: 98%;
   text-align: justify;
   table-layout: auto;
 }

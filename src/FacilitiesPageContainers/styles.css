@@ -50,4 +50,6 @@
 .text_red{
   color: red;
   font-weight: bold;
+  line-height: 1.5em;
+  text-align: justify;
 }

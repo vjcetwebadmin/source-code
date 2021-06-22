@@ -12,7 +12,7 @@ import SideNav from "../../DeptPageContainers/AdDept/SideNav";
 
 
 
-class CsDepartment extends Component {
+class AiDepartment extends Component {
   state = { showMenu: false };
 
   openMenu = () => {
@@ -109,4 +109,4 @@ class CsDepartment extends Component {
   }
 }
 
-export default CsDepartment;
+export default AiDepartment;

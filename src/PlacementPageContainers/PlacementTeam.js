@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import FacultyData from "../Components/FacultyData";
 import BodyOne from "../Components/Texts/BodyOne";
 import HeadingOne from "../Components/Texts/HeadingOne";
+import "../Components/faculty.css"
 class Faculty extends Component {
   state = {};
   
@@ -30,7 +31,7 @@ class Faculty extends Component {
     instanceID: "Cefaculty6",
     image: "Allstaffphoto/SH/FAC/shfac136.jpg",
     width: "50%",
-    name:  <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHFAC136" target="_blank" rel="noopener noreferrer">Mr. Saksy Joy</a>,
+    name:  <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHFAC136" target="_blank" rel="noopener noreferrer">Ms. Saksy Joy</a>,
     content: "IQAC Placement Co-ordinator"
   };
   ContactHeading = {
@@ -74,7 +75,7 @@ class Faculty extends Component {
             <FacultyData data={this.Cefaculty6} />
           </div>
         </div>
-        <div className="Contact" id="contact">
+        <div className="Contact" id="contact" style={{paddingLeft:"5%"}}>
           <HeadingOne data={this.ContactHeading} />
           <BodyOne data={this.ContactListOne} />
           <BodyOne data={this.ContactListTwo} />

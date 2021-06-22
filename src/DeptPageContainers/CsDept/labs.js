@@ -97,10 +97,30 @@ class Library extends Component {
 };
 MultimediaUGwriteup2 = {
 	instanceID: "MultimediaUGwriteup2",
-	title: "The lab is equipped with sufficient number of computers well enough to accommodate each student having separate computers for doing programs, so that student’s get the best exposure and confidence. This lab is mainly used by first year undergraduate students for their basic programming lab such as Python programming in first semester and C programming in second semester. Developer C++ and Python programming Language are used to familiarize programming basics."
+	title: "The lab is equipped with sufficient number of computers well enough to accommodate each student	having separate computers for doing programs, so that student’s get the best exposure and confidence.	This lab is mainly used by first year undergraduate students for their basic programming lab such as	Python programming in first semester and C programming in second semester. Developer C++ and	Python programming Language are used to familiarize programming basics."
 };
 
+HardwareUGwriteup3 = {
+	instanceID: "HardwareUGwriteup3",
+	title: "Hardware Lab is equipped with facilities to help the students to familiarize with the PC Components. It also helps to train the students in assembling and disassembling PCs. System Level Programming with C and MASM is also incorporated in this lab."
+};
+NetworkUGwriteup4 = {
+	instanceID: "NetworkUGwriteup4",
+	title: "The lab is well equipped with 33 computers that facilitate to train students about network configuration and management. This lab is used for socket programming between client and server in a network scenario using different network protocols. It is also equipped with softwares to develop the knowledge about database design and implementation using RDBMS. This lab is mainly utilized by students of Semester II (Computer Programming Lab), Semester III(Data Structures Lab), Semester IV(FOSS Lab), Semester V(Database Lab),  and Semester VI (Network Programming Lab)."
+};
+MicroUGwriteup5 = {
+	instanceID: "MicroUGwriteup5",
+	title: "The Micro Processor Lab is one of the oldest laboratories in the institution under the Department of Computer Science & Engineering. A well-equipped Microprocessor Lab with advanced facilities to do their experiments are provided in this laboratory. We are using Micro-86 EB1 Trainer Kit, Intel 8086/8088 CPU at 5/4.77 MHz clock rate. The device has 40 pins, + 5 V power supply with 16×2 LCD DISPLAY and having 48 I/O lines using two numbers of 8255. It can access upto 1 GB of physical memory. This is to familiarize the students with 8086, MASM programming, and 8051 Microcontroller trainer kit and various interfacing boards."
+};
 
+Pgprojwriteup6 = {
+	instanceID: "Pgprojwriteup6",
+	title: "This lab is dedicated for M. Tech students to work on practical experiments related to courses such as Computer Networks, Wireless Networks,Mobile Communications. Network systems lab is well equipped with 15 computers. This lab is to provide an exposure to the students with hands on experience on various simulator tools like NS2, NS3 and packet analyzers such as Wireshark."
+};
+pgnswriteup7 = {
+	instanceID: "pgnswriteup7",
+	title: "The lab is dedicated for M.Tech students to develop their minor project and thesis work. The lab provides all necessary facilities to promote multi-disciplinary projects.  Also the M.Tech students utilizes this lab for research work and paper publications."
+};
   render() {
     return (
       <div className="DeptLibrary" id="dept-library">
@@ -108,7 +128,9 @@ MultimediaUGwriteup2 = {
       <div>
         <HeadingTwo data={this.AdvdatabaseLabHeading} />
 		<ImageOne data={this.AdvdatabaseLabImagedata} />
-        
+		<p></p>
+		<p><BodyOneJustified data={this.Pgprojwriteup6}></BodyOneJustified></p>
+		<p></p>       
        <table id="tableformat">
 	      <tbody>
 		      <tr>
@@ -117,15 +139,15 @@ MultimediaUGwriteup2 = {
 	       </tr>
 	       <tr>
 		          <td>No of systems/ capacity</td>
-		          <td>35</td>
+		          <td>15</td>
 	       </tr>
 	       <tr>
 		          <td>Configuration</td>
-	        	  <td>HP DX2480  Intel Core2Duo Processor 2 GB DDR2 RAM , 250 GB Sata HDD</td>
+	        	  <td>HP DX2480 Intel Core2Duo Processor 2 GB DDR2 RAM , 250 GB Sata HDD</td>
 	       </tr>
 	       <tr>
 	        	  <td>Licensed software using</td>
-		          <td>Window 7, Java, Matlab, Developer C, Ubuntu</td>
+		          <td>Window 7, Java, Developer C, Ubuntu</td>
 	      </tr>	
       	</tbody>
       </table>
@@ -133,7 +155,9 @@ MultimediaUGwriteup2 = {
       <div>
         <HeadingTwo data={this.PGProjLabHeading} />
 		<ImageOne data={this.PGProjLabImagedata} />
-        
+		<p></p>
+		<p><BodyOneJustified data={this.pgnswriteup7}></BodyOneJustified></p>
+		<p></p>        
        <table id="tableformat">
 	      <tbody>
 		      <tr>
@@ -142,7 +166,7 @@ MultimediaUGwriteup2 = {
 	       </tr>
 	       <tr>
 		          <td>No of systems/ capacity</td>
-		          <td>40</td>
+		          <td>10</td>
 	       </tr>
 	       <tr>
 		          <td>Configuration</td>
@@ -159,7 +183,7 @@ MultimediaUGwriteup2 = {
         <HeadingTwo data={this.ProjectLabHeading} />
         <ImageOne data={this.ProjLabImagedata} />
 		<p></p>
-		<BodyOneJustified data={this.ProjLabUGwriteup1}></BodyOneJustified>
+		<p><BodyOneJustified data={this.ProjLabUGwriteup1}></BodyOneJustified></p>
 		<p></p>
        <table id="tableformat">
 	      <tbody>
@@ -189,6 +213,9 @@ MultimediaUGwriteup2 = {
       <div>
         <HeadingTwo data={this.NWLabHeading} />
         <ImageOne data={this.NWImagedata} />
+		<p></p>
+		<p><BodyOneJustified data={this.NetworkUGwriteup4}></BodyOneJustified></p>
+		<p></p>
        <table id="tableformat">
 	      <tbody>
 		      <tr>
@@ -214,7 +241,7 @@ MultimediaUGwriteup2 = {
         <HeadingTwo data={this.MMLabHeading} />
         <ImageOne data={this.MMImagedata} />
 		<p></p>
-		<BodyOneJustified data={this.MultimediaUGwriteup2}></BodyOneJustified>
+		<p><BodyOneJustified data={this.MultimediaUGwriteup2}></BodyOneJustified></p>
 		<p></p>
        <table id="tableformat">
 	      <tbody>
@@ -252,6 +279,9 @@ MultimediaUGwriteup2 = {
 	  <div>
 	  <HeadingTwo data={this.HWLabHeading} />
 	  <ImageOne data={this.HWImagedata} />
+	  <p></p>
+	  <p><BodyOneJustified data={this.HardwareUGwriteup3}></BodyOneJustified></p>
+		<p></p>
 		<table id="tableformat">
 		   <tbody>
 			   <tr>
@@ -280,6 +310,9 @@ MultimediaUGwriteup2 = {
 	   <div>
         <HeadingTwo data={this.MPLabHeading} />
         <ImageOne data={this.MPImagedata} />
+		<p></p>
+		<p><BodyOneJustified data={this.MicroUGwriteup5}></BodyOneJustified></p>
+		<p></p>
        <table id="tableformat">
 	      <tbody>
 		      <tr>

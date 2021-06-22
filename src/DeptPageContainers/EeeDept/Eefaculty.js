@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import FacultyData from "../../Components/FacultyData";
+import "../../Components/faculty.css"
 class EEFaculty extends Component {
   state = {};
   Cefaculty1 = {
@@ -112,7 +113,7 @@ class EEFaculty extends Component {
     image: "Allstaffphoto/EE/FAC/294.jpg",
     width: "50%",
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=EEFAC119" target="_blank" rel="noopener noreferrer">Ms. Neena Alex</a>,
-    content: "Assistant Professor(On Leave)"
+    content: "Assistant Professor(on-leave)"
   };
   Cefaculty17 = {
     instanceID: "Cefaculty17",

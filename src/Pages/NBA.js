@@ -104,10 +104,10 @@ class NBA extends Component {
           <BodyOneJustified data={this.AccreditationText2} />
           <br/>
           <BodyOneJustified data={this.AccreditationText3} />          
-          <div className="inner-para">
+         {/* <div className="inner-para">*/}
             <HeadingTwo data={this.WhyNBATitle} />
             <BodyOneJustified data={this.WhyNBAText1} />
-            <div className="inner-para">
+            {/*<div className="inner-para">*/}
               <ul>
                 <li>
                   <p>
@@ -130,8 +130,8 @@ class NBA extends Component {
                   </p>
                 </li>
               </ul>
-            </div>
-          </div>
+            {/*</div>
+          </div>*/}
           <HeadingTwo data={this.ISOTitle} />
           <BodyOneJustified data={this.ISOText} />
         </div>

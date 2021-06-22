@@ -46,11 +46,11 @@ class DropDownL extends Component {
             </a>
           </p>
           
-          <p>
+         {/* <p>
             <a href="http://moodle.vjcet.ac.in" className="patch1" target="_blank" rel="noopener noreferrer">
               Moodle
             </a>
-          </p>
+         </p>*/}
 
           <p>
             <a href="https://vjcet.org/#/newsfive" className="patch1" target="_self" rel="noopener noreferrer">

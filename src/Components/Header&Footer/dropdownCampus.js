@@ -30,7 +30,6 @@ class DropDownC extends Component {
     }
   }
 
-
   render() {
     return (
       <div className="dropdown">
@@ -52,14 +51,14 @@ class DropDownC extends Component {
               Student Council
             </Link>
           </p>
-          <p>
+          {/*<p>
             <Link
               to="/campus-life/committees"
               className="patch1"
             >
               Committees
             </Link>
-          </p>
+          </p>*/}
           <p>
             <Link
               to="/campus-life/artsfest"

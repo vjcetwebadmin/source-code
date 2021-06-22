@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-class honoursdata extends Component {
+class Honours extends Component {
   state = {};
 
   render() {
@@ -17,6 +17,7 @@ class honoursdata extends Component {
               }
             : () => {}
         }
+        
       >
         <img
           src={require("../Assets/" + image)}
@@ -26,10 +27,10 @@ class honoursdata extends Component {
           alt="alt"
         />
         <h3>{name}</h3>
-        <p>{content}</p>
+        <p style={{width:"95%",wordWrap:"break-word"}}>{content}</p>
       </div>
     );
   }
 }
 
-export default honoursdata;
+export default Honours;

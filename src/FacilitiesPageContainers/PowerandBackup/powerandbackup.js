@@ -47,7 +47,7 @@ class powerandbackup extends React.Component {
     
     Generatorcontent = {
         instanceID: "Generatorcontent",
-        title: "To provide uninterrupted power, the college has two on-camps indoor diesel powered generator of 200 kVA and 320kVA capacities. The 200kVA generator is provided by an auto start mechanism and is mainly used during off peak hours. The 320kVA generator is manually operated and is operated during peak hours. "
+        title: "To provide uninterrupted power, the college has two on-campus indoor diesel powered generator of 200 kVA and 320kVA capacities. The 200kVA generator is provided by an auto start mechanism and is mainly used during off peak hours. The 320kVA generator is manually operated and is operated during peak hours. "
     }
     UPScontent = {
         instanceID: "UPSContent",
@@ -55,7 +55,7 @@ class powerandbackup extends React.Component {
     }
     Solarcontent = {
         instanceID: "Solarontent",
-        title: " VJCET has a solar power generation of 250kW  worth 1.6 crores which annually produces 365000 unit per year. This plant is on grid solar power generator."
+        title: " VJCET has a solar power generation of 280kWp worth 1.6 crores which annually produces 365000 unit per year. This plant is on grid solar power generator."
     }
     SubstationTitle = {
         instanceID: "Substation",
@@ -86,8 +86,8 @@ class powerandbackup extends React.Component {
                         <BodyOneJustified data={this.Solarcontent} />
                         <HeadingTwo data={this.SubstationTitle} className="Heading" />                    
                                 <ol><font size="3">1. 11000V/433V ,315 kVA TRANSFORMER. Make: KEL</font></ol>
-                                <ol><font size="3">2. 200 kVA DIESEL GENERATOR SET WITH AMF RELAY. Alternator : STARMFORD. Engine :CUMMINS</font></ol>
-                                <ol><font size="3">3. 320 kVA DIESEL GENERATOR SET. Alternator : STARMFORD. Engine :CUMMINS</font></ol>
+                                <ol><font size="3">2. 200 kVA DIESEL GENERATOR SET WITH AMF RELAY. Alternator: STARMFORD. Engine: CUMMINS</font></ol>
+                                <ol><font size="3">3. 320 kVA DIESEL GENERATOR SET. Alternator: STARMFORD. Engine: CUMMINS</font></ol>
                             
                                 
                             

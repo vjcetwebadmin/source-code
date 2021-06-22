@@ -29,11 +29,11 @@ class building extends React.Component {
 
     CCCNATitle = {
         instanceID: "CCCTitle",
-        title: "Building Area"
+        title: "Building Infrastructure"
     };
     CCCTitle = {
         instanceID: "CCCTitle",
-        title: "Building Area"
+        title: "Building Infrastructure"
     };
     NATitle = {
         instanceID: "CCCTitle",
@@ -49,7 +49,7 @@ class building extends React.Component {
     };
     CCCContent1 = {
         instanceID: "CCCContent1",
-        title: "The building Complex of the college with an area of over 6 Lakh Sq.Ft, is situated in a sprawling campus of 26 acres. The building is divided into blocks A B C D, Laboratory Block, Gents Hostel, Ladies Hostel and Auditorium Annexure. All academic and non academic departments are included in the A,B,C and D blocks. Separate Laboratory block is provided in addition to the academic blocks. Civil, Electrical and Mechanical workshops are in this block. "
+        title: "The building Complex of the college with an area of over 6 Lakh Sq.Ft is situated in a sprawling campus of 26 acres. The building is divided into blocks A,B,C,D, Laboratory Block, Gents Hostel, Ladies Hostel and Auditorium Annexure. All academic and non-academic departments are included in the A,B,C and D blocks. Separate Laboratory block is provided in addition to the academic blocks. Civil, Electrical and Mechanical workshops are in this block. "
     }
     CCCContent2 = {
         instanceID: "CCCContent2",
@@ -57,7 +57,7 @@ class building extends React.Component {
     }
     CCCContent3 = {
         instanceID: "CCCContent3",
-        title: " Viswajyothi provides excellent residential facilities for staff and students. Gent's hostel and ladies hostels are located in the campus itself so it makes easy access between college  and students. The hostels and hostel facilities are of high quality and well equipped. The boys hostel can accommodate 450 boys and girls hostel 350 girls respectively Members of the teaching staff are appointed as Resident Tutors in the hostel. The rooms provide most modern facilities and privacy. All the hostels have mess facilities for students. The mess is spacious, highly hygienic and elegant. Internet  and Computer Facilities are  also available in the hostel."
+        title: " Viswajyothi provides excellent residential facilities for staff and students. Gent's hostel and ladies hostels are located in the campus itself so it makes easy access between college  and students. The hostels and hostel facilities are of high quality and well equipped. The boys hostel can accommodate 450 boys and girls hostel 350 girls respectively. Members of the teaching staff are appointed as Resident Tutors in the hostel. The rooms provide most modern facilities and privacy. All the hostels have mess facilities for students. The mess is spacious, highly hygienic and elegant. Internet  and Computer Facilities are  also available in the hostel."
     }
     SmartTitle = {
         instanceID: "SmartTitle",
@@ -65,7 +65,7 @@ class building extends React.Component {
     };
     Smartontent3 = {
         instanceID: "Smartcontent3",
-        title: " Viswajyothi has implemented the smart class room concept for the betterment of the teaching  and learning process. The smart room has an instructor space equipped with computer and audiovisual equipment, allowing the instructor to teach using a wide variety of media. These include DVD, PowerPoint presentations, and more all displayed through a data projector. The instructors can access the internet directly from the Wifi setup give video lectures from eminent professors.  We are encouraging our faculty and students to use these facilities to improve their presentations. Most of the laboratories are also using this kind of facilities to explain the practical sessions. Many workshops, Paper presentations, Student seminars, Industry webinars, Project presentations are done through this facility."
+        title: " Viswajyothi has implemented the smart class room concept for the betterment of the teaching  and learning process. The smart room has an instructor space equipped with computer and audio-visual equipment, allowing the instructor to teach using a wide variety of media. These include DVD, powerPoint presentations, and more all displayed through a data projector. The instructors can access the internet directly from the Wifi setup give video lectures from eminent professors.  We are encouraging our faculty and students to use these facilities to improve their presentations. Most of the laboratories are also using this kind of facilities to explain the practical sessions. Many workshops, paper presentations, student seminars, industry webinars, project presentations are done through this facility."
     }
     CCCImagedata = {
         instanceID: "CCCVjcImage",

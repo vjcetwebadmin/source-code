@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import HeadingOne from "../../Components/Texts/HeadingOne";
 import HeadingTwo from "../../Components/Texts/HeadingTwo";
 import Bodythree from "../../Components/Texts/BodyThree";
+import ImageOne from "../../Components/Images/ImageOne";
 import "../../Components/Tables/tableformat.css";
 class Lab extends Component {
   state = {};
@@ -98,13 +99,72 @@ class Lab extends Component {
     title: "The lab consists of various equipment which describe the working and operation of hydraulic turbine, hydraulic pump, hydraulic compressor and hydraulic ram etc.. The lab is mainly utilized by students of the mechanical and civil engineering department."
   };
 
+  LabImagedata1 = {
+	instanceID: "LabImagedata1",
+	image: "DepartmentImages/ME/LABS/MEmetrology.png",
+	width: "80%"
+    };
+	LabImagedata2 = {
+		instanceID: "LabImagedata2",
+		image: "DepartmentImages/ME/LABS/MEmechanicaleng.png",
+		width: "80%"
+	};
+	LabImagedata3 = {
+		instanceID: "LabImagedata3",
+		image: "DepartmentImages/ME/LABS/MEtoollab.png",
+		width: "80%"
+	};
+	LabImagedata4 = {
+		instanceID: "LabImagedata4",
+		image: "DepartmentImages/ME/LABS/MEMetallurgy.png",
+		width: "80%"
+	};
+	LabImagedata5 = {
+		instanceID: "LabImagedata5",
+		image: "DepartmentImages/ME/LABS/MEworkshop.png",
+		width: "80%"
+	};
+	LabImagedata6 = {
+		instanceID: "LabImagedata6",
+		image: "DepartmentImages/ME/LABS/MEComputer.png",
+		width: "80%"
+	};
+	LabImagedata7 = {
+		instanceID: "LabImagedata7",
+		image: "DepartmentImages/ME/LABS/MEAerodynamics.png",
+		width: "80%"
+	};
+	LabImagedata8 = {
+		instanceID: "LabImagedata8",
+		image: "DepartmentImages/ME/LABS/MEfluid.png",
+		width: "80%"
+	};
+	LabImagedata9 = {
+		instanceID: "LabImagedata9",
+		image: "DepartmentImages/ME/LABS/MEheatengine.png",
+		width: "80%"
+	};
+	LabImagedata10 = {
+		instanceID: "LabImagedata10",
+		image: "DepartmentImages/ME/LABS/MEheattransfer.png",
+		width: "80%"
+	};
+	LabImagedata11 = {
+		instanceID: "LabImagedata11",
+		image: "DepartmentImages/ME/LABS/MEHydraulic.png",
+		width: "80%"
+	};
 
   render() {
     return (
       <div className="DeptLibrary" id="dept-library">
         <HeadingOne data={this.DeptLibHeading} />
         <HeadingTwo data={this.MMMLabHeading} />
+		<br />
+		<ImageOne data={this.LabImagedata1} />
+		<br />
         <Bodythree data={this.MMMLabContent} />
+		<br />
         <table id="tableformat">
 	      <tbody>
 		      <tr>
@@ -128,7 +188,11 @@ class Lab extends Component {
 
       
         <HeadingTwo data={this.MELabHeading} />
+		<br />
+		<ImageOne data={this.LabImagedata2} />
+		<br />
         <Bodythree data={this.MELabContent} />
+		<br />
         <table id="tableformat">
 	      <tbody>
 		      <tr>
@@ -151,7 +215,11 @@ class Lab extends Component {
       </table>
 
       <HeadingTwo data={this.MTLabHeading} />
+	  <br />
+		<ImageOne data={this.LabImagedata3} />
+		<br />
         <Bodythree data={this.MTLabContent} />
+		<br />
         <table id="tableformat">
 	      <tbody>
 		      <tr>
@@ -172,7 +240,11 @@ class Lab extends Component {
 
 
       <HeadingTwo data={this.MWLabHeading} />
+	  <br />
+		<ImageOne data={this.LabImagedata4} />
+		<br />
         <Bodythree data={this.MWLabContent} />
+		<br />
         <table id="tableformat">
 	      <tbody>
 		      <tr>
@@ -192,7 +264,11 @@ class Lab extends Component {
       </table>
 
       <HeadingTwo data={this.MWorkshopLabHeading} />
+	  <br />
+		<ImageOne data={this.LabImagedata5} />
+		<br />
         <Bodythree data={this.MWorkshopLabContent} />
+		<br />
         <table id="tableformat">
 	      <tbody>
 		      <tr>
@@ -216,7 +292,11 @@ class Lab extends Component {
 
 
       <HeadingTwo data={this.CADLabHeading} />
+	  <br />
+		<ImageOne data={this.LabImagedata6} />
+		<br />
         <Bodythree data={this.CADLabContent} />
+		<br />
         <table id="tableformat">
 	      <tbody>
 		      <tr>
@@ -255,7 +335,11 @@ class Lab extends Component {
       </table>
 
       <HeadingTwo data={this.ARLabHeading} />
+	  <br />
+		<ImageOne data={this.LabImagedata7} />
+		<br />
         <Bodythree data={this.ARLabContent} />
+		<br />
         <table id="tableformat">
 	      <tbody>
 		      <tr>
@@ -278,7 +362,11 @@ class Lab extends Component {
       </table>
 
       <HeadingTwo data={this.FMLabHeading} />
+	  <br />
+		<ImageOne data={this.LabImagedata8} />
+		<br />
         <Bodythree data={this.FMLabContent} />
+		<br />
         <table id="tableformat">
 	      <tbody>
 		      <tr>
@@ -302,7 +390,11 @@ class Lab extends Component {
 
 
       <HeadingTwo data={this.HMLabHeading} />
+	  <br />
+		<ImageOne data={this.LabImagedata9} />
+		<br />
         <Bodythree data={this.HMLabContent} />
+		<br />
         <table id="tableformat">
 	      <tbody>
 		      <tr>
@@ -326,7 +418,11 @@ class Lab extends Component {
 
 
       <HeadingTwo data={this.HTLabHeading} />
+	  <br />
+		<ImageOne data={this.LabImagedata10} />
+		<br />
         <Bodythree data={this.HTLabContent} />
+		<br />
         <table id="tableformat">
 	      <tbody>
 		      <tr>
@@ -349,7 +445,11 @@ class Lab extends Component {
       </table>
 
       <HeadingTwo data={this.HydLabHeading} />
+	  <br />
+		<ImageOne data={this.LabImagedata11} />
+		<br />
         <Bodythree data={this.HydLabContent} />
+		<br />
         <table id="tableformat">
 	      <tbody>
 		      <tr>

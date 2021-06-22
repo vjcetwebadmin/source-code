@@ -11,7 +11,7 @@ class Vision extends Component {
   VisionDescription = {
     instanceID: "VisionDescription",
     title:
-      "Moulding socially responsible and professionally competent Computer Engineers to adapt to the dynamic technological landscape"
+      "Moulding socially responsible and professionally competent Computer Engineers to adapt to the dynamic technological landscape."
   };
   MissionHeading = {
     instanceID: "MissionHeading",

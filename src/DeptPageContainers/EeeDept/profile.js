@@ -14,7 +14,7 @@ class Profile extends Component {
 
   Features2 = {
     instanceID: "Features2",
-    title: "•	Board of Research Nuclear Science (BRNS), under the Department of Atomic Energy, sanctioned two research projects of worth Rs.63 lakhs."
+    title: "•	Board of Research Nuclear Science (BRNS), under the Department of Atomic Energy, sanctioned two research projects of worth Rs.33.03 lakhs."
   };
   Features3 = {
     instanceID: "Features3",
@@ -30,7 +30,7 @@ class Profile extends Component {
   };
   Features6 = {
     instanceID: "Features6",
-    title: "•	Encouraging sustainable development, department runs a 50kWp on grid - solar power plant in the campus."
+    title: "•	Encouraging sustainable development, Department runs a three on grid solar power plants with a total capacity of 280kWp in the campus"
   };
   Features7 = {
     instanceID: "Features7",

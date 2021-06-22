@@ -35,12 +35,12 @@ class sportsfest extends React.Component {
       ProfileDescriptionOne = {
         instanceID: "ProfileDescriptionOne",
         title:
-          "Every year, college conducts athletic championship “DRONA” where each house participates under the leadership of their respective house captains. It conducts as two day program in the month of January every year."
+          "Every year, college conducts an athletic championship “DRONA” where each house participates under the leadership of their respective house captains. It is conducted as a two day program every year. It comments with a colourful March past of each house in a competitive spirit. Drona has been successful in providing platform for the students to exhibit their athletic skills. This proved to be a healthy competition between the athletes setting new records in speed, height and distance."
       };
       ProfileDescriptionTwo = {
         instanceID: "ProfileDescriptionTwo",
         title:
-          "It comments with a colorful March pas of each house in a competitive spirit. It has been successful in proving platform for the students to exhibit their athletic skills. This proved to be healthy competition between the athletes setting new records in speed, height and distance."
+          "It comments with a colorful March past of each house in a competitive spirit. It has been successful in proving platform for the students to exhibit their athletic skills. This proved to be healthy competition between the athletes setting new records in speed, height and distance."
       };
    
 
@@ -48,9 +48,8 @@ class sportsfest extends React.Component {
         return (
             <React.Fragment>
                 <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
-                <HeadingOne data={this.ProfileHeading} />
-                 <Bodythree data={this.ProfileDescriptionOne} /> 
-                 <Bodythree data={this.ProfileDescriptionTwo} />         
+                    <HeadingOne data={this.ProfileHeading} />
+                 <Bodythree data={this.ProfileDescriptionOne} />          
                 <br></br>
                <div class="gallery">                    
                     <iframe src="https://vjcet.org/downloads/gallery/drona.html" width="90%" height="500" title="Drishya" ></iframe>

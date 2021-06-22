@@ -16,11 +16,12 @@ class FacultyData extends Component {
                 this.props.onClickAction();
               }
             : () => {}
-        }
+        }   
       >
         <img
           src={require("../Assets/" + image)}
-          width={width}
+         /*width={width}   */    
+         height="200px;"
           style={{ ...this.props.imgStyle }}
           alt="img"
         />

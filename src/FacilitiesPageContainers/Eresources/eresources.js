@@ -50,6 +50,21 @@ class nss extends React.Component {
         image: "eresource/uacademy.png",
         width: "50%"
       };
+      NsslogoImage5 = {
+        instanceID: "NsslogoImage5",
+        image: "eresource/digital.png",
+        width: "40%"
+      };
+      NsslogoImage6 = {
+        instanceID: "NsslogoImage6",
+        image: "eresource/onlinebs.png",
+        width: "50%"
+      };
+      NsslogoImage7 = {
+        instanceID: "NsslogoImage7",
+        image: "eresource/pptvideo.jpg",
+        width: "30%"
+      };
 
 
       ResearchHeading = {
@@ -109,13 +124,19 @@ class nss extends React.Component {
                         <div><a href="https://nptel.ac.in/" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage}/></a> </div>
                         <div><a href="http://www.udemy.com/" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage4}/></a> </div>
                         <div><a href="https://swayam.gov.in/" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage3}/></a> </div>
-                        
+                       
                     </div>
                     <HeadingTwo data={this.MajoreventsTitle2} className="Heading" />
-                        <p className="paraheading"><a href="http://117.239.154.83/" target="_blank" rel="noopener noreferrer">View Webpage</a></p>
+                        <div className="facultyContent">
+                            <div><a href="http://117.239.154.83/" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage5}/></a> </div>                                              
+                        </div>
+                        {/*<p className="paraheading"><a href="http://117.239.154.83/" target="_blank" rel="noopener noreferrer">View Webpage</a></p>*/}
 
                         <HeadingTwo data={this.MajoreventsTitle3} className="Heading" /> 
-                        <p className="paraheading"><a href="http://117.239.154.83:83/" target="_blank" rel="noopener noreferrer">View Webpage</a></p>
+                        <div className="facultyContent">
+                            <div><a href="http://117.239.154.83:83/" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage6}/></a> </div>                                              
+                        </div>                         
+                        {/* <p className="paraheading"><a href="http://117.239.154.83:83/" target="_blank" rel="noopener noreferrer">View Webpage</a></p>*/}
 
                         <HeadingTwo data={this.MajoreventsTitle4} className="Heading" /> 
                         <p className="paraheading"><a href="https://www.ieee.org/" target="_blank" rel="noopener noreferrer">IEEE (Institute of Electrical and Electronics Engineers)</a></p>
@@ -130,10 +151,31 @@ class nss extends React.Component {
                         <p className="paraheading"><a href="https://www.kma.org.in/" target="_blank" rel="noopener noreferrer">KMA  (Kerala Management Association)</a></p>
                         <p className="paraheading"><a href="https://nipm.in/" target="_blank" rel="noopener noreferrer">NIPM (National Institute of Personnel Management – India)</a></p>
 
-                        <HeadingTwo data={this.MajoreventsTitle5} className="Heading" />
-                        <p className="paraheading"><a href="https://drive.google.com/file/d/1FziOAoudmAdNRTChx4XkhFCZKtSs6rcb/view?usp=sharing" target="_blank" rel="noopener noreferrer">View Webpage</a></p>
                         <HeadingTwo data={this.MajoreventsTitle6} className="Heading" />
-                        <p className="paraheading"><a href="https://drive.google.com/drive/folders/19BBRotjhvKD83sxI9c7I82zvIRduwlxE" target="_blank" rel="noopener noreferrer">View Webpage</a></p>
+                        <div className="facultyContent">
+                            <div><a href="https://drive.google.com/drive/folders/19BBRotjhvKD83sxI9c7I82zvIRduwlxE" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage7}/></a> </div>                                              
+                        </div>
+                        {/*<p className="paraheading"><a href="https://drive.google.com/drive/folders/19BBRotjhvKD83sxI9c7I82zvIRduwlxE" target="_blank" rel="noopener noreferrer">View Webpage</a></p>*/}
+
+
+                        <HeadingTwo data={this.MajoreventsTitle5} className="Heading" />
+                        {/*<p className="paraheading"><a href="https://drive.google.com/file/d/1FziOAoudmAdNRTChx4XkhFCZKtSs6rcb/view?usp=sharing" target="_blank" rel="noopener noreferrer">View Webpage</a></p>*/}
+
+                        <p className="paraheading">AICTE sponsored One Week Online Short Term Training Programme (STTP) on "Iot Based Manufacturing and Design - Challenges and Opportunity” Phase 1 - 23rd Nov - 28th Nov  2020-<a href="https://drive.google.com/file/d/1zd-WauHsGH8Rm7bC_62Dx4Y8CN0xkDK0/view?usp=sharing" target="_blank" rel="noopener noreferrer">click here</a></p>
+                        <p className="paraheading">AICTE sponsored One Week Online Short Term Training Programme (STTP) on  "Iot Based Manufacturing and Design - Challenges and Opportunity” Phase 2 - Phase 2: 14th to 19th December ‘2020-<a href="https://www.youtube.com/watch?v=z3SgoMmgUS0" target="_blank" rel="noopener noreferrer">click here</a></p>
+                        <p className="paraheading">Five Days Online Faculty Development Program (FDP) on    BLOCKCHAIN from 19-23 OCT 2020 sponsored by AICTE Training and Learning (ATAL) Academy- <a href="https://drive.google.com/drive/folders/1RkR7HNjZNIDzO1AcJEF0wip9i7Fj2Gf2?usp=sharing" target="_blank" rel="noopener noreferrer">click here</a></p>
+                        <p className="paraheading">KTU sponsored FDP on "Advancements in Systems for Electric and Hybrid Vehicles ” at VJCET (19th - 23rd April 2021)-<a href="https://drive.google.com/drive/folders/17LgPXYJSpBqrLMVxAB-gAXCctBdVnwN2?usp=sharing" target="_blank" rel="noopener noreferrer">click here</a></p>
+                        <p className="paraheading">Webinar on “How to File National and International Patents” conducted on 17-10-2020-<a href="https://www.youtube.com/watch?v=blkWwvnqLmM" target="_blank" rel="noopener noreferrer">click here</a></p>
+                        <p className="paraheading">Webinar on “Introduction to Foss Cell” conducted on 09-12-2020-<a href="https://www.youtube.com/watch?v=eA-Sh7CWtm8" target="_blank" rel="noopener noreferrer">click here</a></p>
+                        <p className="paraheading">Webinar on “Familiarizing Yourself with the Field” conducted on 17-11-2020.-<a href="https://www.youtube.com/watch?v=fOYq8_fcvtE" target="_blank" rel="noopener noreferrer">click here</a></p>
+                        <p className="paraheading">Webinar on “Indian Space: An Inspiring Story” conducted on 30-12-2020-<a href="https://www.youtube.com/watch?v=ITRAGitpxjk" target="_blank" rel="noopener noreferrer">click here</a></p>
+                        <p className="paraheading">Webinar on “Interactive Session with "Successful Start-up Founders" conducted on 03-03-2021<a href="https://www.youtube.com/watch?v=mTdjVYtqLdo" target="_blank" rel="noopener noreferrer">click here</a></p>
+                        <p className="paraheading">Webinar on “Power Transmission and Distribution in Kerala” conducted on 30-12-2020<a href="https://www.youtube.com/watch?v=T4HAuOnY4Bk" target="_blank" rel="noopener noreferrer">click here</a></p>
+                        <p className="paraheading">Webinar on “Building a Data Science Portfolio” conducted on 09-09-2020-<a href="https://www.youtube.com/watch?v=TCt1KPp8d9A" target="_blank" rel="noopener noreferrer">click here</a></p>
+                        <p className="paraheading">Webinar on “Introduction to Development Boards” conducted on 07-09-2020- <a href="https://youtu.be/_Sy2263NlYQ" target="_blank" rel="noopener noreferrer">click here</a></p>
+                        <p className="paraheading">Webinar on “How to Be Equipped as a Promising Professional” conducted on 27-09-2020-<a href="https://www.youtube.com/watch?v=51g01qkpz4U" target="_blank" rel="noopener noreferrer">click here</a></p>
+                        <p className="paraheading">Webinar on “How to Market Yourself in a Competitive World” conducted on 15-07-2020-<a href="https://www.youtube.com/watch?v=gnP6M2I0tTg" target="_blank" rel="noopener noreferrer">click here</a></p>
+                     
                  </div>
                  </div>
                 <Footer data={this.HomePageFooter} />

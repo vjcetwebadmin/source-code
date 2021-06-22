@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import HeadingOne from "../../Components/Texts/HeadingOne"
 import HeadingTwo from "../../Components/Texts/HeadingTwo";
 import ImageOne from "../../Components/Images/ImageOne";
+import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
 /* import Bodythree from "../../Components/Texts/BodyThree"; */
 import "../../Components/Tables/tableformat.css";
 class Library extends Component {
@@ -73,41 +74,26 @@ class Library extends Component {
 	image: "DepartmentImages/CS/LABS/MPLAB.JPG",
 	width: "80%"
 }
+
+
+dbmswriteup = {
+	instanceID: "ProjLabUGwriteup1",
+	title: "The lab is well designed to provide adequate space and convenience to the students, so that student’s get the best exposure and confidence. It is equipped with modern systems to develop the knowledge about database design and implementation using RDBMS. Students can be practically capable to manage the real life applications by implementing and deploying web applications using Servlets, HTML and JSPs. DBMS lab is used to provide experience on design, testing, and analysis of Algorithms and Data Structures. It is used by students of various semesters for doing language programming, web application development, networking and database management."
+};
+programminwriteup = {
+	instanceID: "MultimediaUGwriteup2",
+	title: "The lab is well equipped with facilities to train students about network configuration and management, client server applications. It is used for socket programming between client and server in a network scenario using TCP/IP protocol. System level Programming like MASM also incorporated in this lab. It is also used for Python Programming by first semester students in Linux platform. The software Packet Tracer is used for simulation of network programs. Students can be practically capable to manage the real life applications by implementing and deploying web applications using Servlets, HTML and JSP. This lab is used by students of various semesters for doing language programming, web application development and also for networking."
+};
+
+datacommwriteup = {
+	instanceID: "HardwareUGwriteup3",
+	title: "The lab is well equipped with facilities to train students to do their analog and digital electronic circuit experiments. This lab is used for designing different oscillator circuits, wave shaping circuits and amplifier using active and passive components. Digital IC training kit is made available for designing various combinational and sequential circuits."
+};
+projectwriteup = {
+	instanceID: "HardwareUGwriteup3",
+	title: "Project lab is mainly used by students of third year and fourth year to do their academic projects and faculty members can also do their research related works. The lab is also used to do database projects, application software development, open ended experiments etc."
+};
  
-  /* DeptLibHeading = {
-    instanceID: "DeptLibHeading",
-    title: "Department Library"
-  };
-  DeptLibDescriptionOne = {
-    instanceID: "DeptLibDescriptionOne",
-    title:
-      "•	In addition to central library IT department is supported with a department library."
-  };
-  DeptLibDescriptionTwo = {
-    instanceID: "DeptLibDescriptionTwo",
-    title:
-      "•	Various resources in the library are CDs, books, project reports, seminar reports etc."
-  };
-  DeptLibDescriptionThree = {
-    instanceID: "DeptLibDescriptionThree",
-    title:
-      "•	It  has a collection of more than 300 books, CDs etc. with respect to the academic syllabus. "
-  };
-  DeptLibDescriptionFour = {
-    instanceID: "DeptLibDescriptionFour",
-    title:
-      "•	All the students and staff members of IT Department can avail this facility"
-  };
-  DeptLibDescriptionFive = {
-    instanceID: "DeptLibDescriptionFive",
-    title:
-      "•	The library opens on all working days."
-  };
-  DeptLibDescriptionSix = {
-    instanceID: "DeptLibDescriptionSix",
-    title:
-      "•	Library In-charge: Mrs. Juliet A Murali , Asst Professor, Department of IT"
-  }; */
   render() {
     return (
       <div className="DeptLibrary" id="dept-library">
@@ -115,7 +101,9 @@ class Library extends Component {
         <div>
         <HeadingTwo data={this.DBMSLabHeading} />
 		<ImageOne data={this.DBMSImagedata} />
-        
+    <p></p>
+		<BodyOneJustified data={this.dbmswriteup}></BodyOneJustified>
+		<p></p>        
        <table id="tableformat">
 	      <tbody>
 		      <tr>
@@ -144,7 +132,9 @@ class Library extends Component {
       <div>
         <HeadingTwo data={this.ProgrammingLabHeading} />
 		<ImageOne data={this.ProgrammingLabImagedata} />
-        
+    <p></p>
+		<BodyOneJustified data={this.programminwriteup}></BodyOneJustified>
+		<p></p>       
        <table id="tableformat">
 	      <tbody>
 		      <tr>
@@ -177,7 +167,10 @@ class Library extends Component {
       <div>
         <HeadingTwo data={this.ProjectLabHeading} />
         <ImageOne data={this.ProjLabImagedata} />
-       <table id="tableformat">
+        <p></p>
+		<BodyOneJustified data={this.projectwriteup}></BodyOneJustified>
+		<p></p>
+           <table id="tableformat">
 	      <tbody>
 		      <tr>
 	          	<td>Lab code</td>
@@ -198,7 +191,10 @@ class Library extends Component {
       <div>
         <HeadingTwo data={this.DCLabHeading} />
         <ImageOne data={this.DCImagedata} />
-       <table id="tableformat">
+        <p></p>
+		<BodyOneJustified data={this.datacommwriteup}></BodyOneJustified>
+		<p></p>
+      <table id="tableformat">
 	      <tbody>
 		      <tr>
 	          	<td>Lab code</td>
@@ -242,11 +238,7 @@ class Library extends Component {
               <ol>4 X Stepper Motor Controller With Motor</ol>
               <ol>4 X LCD Interface board</ol>
               <ol>4 X Traffic Light Control System</ol>
-              
-              
-	
-					  
-				   </td>
+  			   </td>
 	       </tr>
       	</tbody>
       </table>

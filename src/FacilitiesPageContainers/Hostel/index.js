@@ -32,7 +32,7 @@ class Hostal extends React.Component {
     };
     HostalContent = {
         instanceID: "HostalContent",
-        title: "The hostel facilities are of high quality. Both Ladies and Men’s Hostel are located inside the campus. Members of the teaching staff are appointed as Resident Tutors in the hostel. The rooms provide most modern facilities and privacy.  Viswajyothi  provides excellent hostel facilities for students. The hostels have mess facilities for students and faculties. The mess is spacious, highly hygienic and elegant. College hostel is fully wifi enabled. Uninterrupted power supply is ensured using a 100KV Generator. Each student is provided with a cot, a table and a chair in their respective rooms. Counseling Hall Counseling and Prayer cells are available and active in each hostel to facilitate counseling the students and conduct prayers. Students of all faiths can avail of these services.  "
+        title: "The hostel facilities are of high quality. Both Ladies and Men’s Hostel are located inside the campus. Members of the teaching staff are appointed as Resident Tutors in the hostel. The rooms provide most modern facilities and privacy.  Viswajyothi  provides excellent hostel facilities for students. The hostels have mess facilities for students and faculties. The mess is spacious, highly hygienic and elegant. College hostel is fully wifi enabled. Uninterrupted power supply is ensured using a 100KV Generator. Each student is provided with a cot, a table and a chair in their respective rooms. Counselling Hall, Counselling and Prayer cells are available and active in each hostel to facilitate counselling the students and conduct prayers. Students of all faiths can avail of these services.  "
     }
 
     HostalFacilityTitle = {
@@ -77,11 +77,11 @@ class Hostal extends React.Component {
 
     GentsFeature1 = {
         instanceID: "GentsFeature1",
-        title: "Maximum Capacity: 357 bed "
+        title: "Maximum Capacity: 357 beds"
     }
     GirlsFeature1 = {
         instanceID: "GirlsFeature1",
-        title: "Maximum Capacity: 452 bed "
+        title: "Maximum Capacity: 452 beds"
     }
     HostalImagedata = {
         instanceID: "HostalImagedata",
@@ -112,10 +112,10 @@ class Hostal extends React.Component {
                        <p>
                         <BodyOneJustified data={this.HostalFacility2Content} />
                        </p>
-                       <b><font size="4"><li>Television Room</li></font></b>
+                      {/* <b><font size="4"><li>Television Room</li></font></b>
                        <p>
                         <BodyOneJustified data={this.HostalFacility3Content} />
-                       </p>
+        </p>*/}
                        <b><font size="4"><li>Sports, Games & Health Facilities</li></font></b>
                        <p>
                         <ol><font size="3">1. Four indoor Shuttle Badminton courts</font></ol>

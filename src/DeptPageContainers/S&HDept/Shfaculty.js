@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import FacultyData from "../../Components/FacultyData";
+import "../../Components/faculty.css"
 class Faculty extends Component {
   state = {};
   Cefaculty1 = {
@@ -57,7 +58,7 @@ class Faculty extends Component {
     image: "Allstaffphoto/SH/FAC/252.jpg",
     width: "50%",
     name:  <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHFAC112" target="_blank" rel="noopener noreferrer">Mr. Tony Augustine</a>,
-    content: "Assistant Professor(on Leave-Ph.D)"
+    content: "Assistant Professor(on-leave Ph.D)"
   };
   
   Cefaculty12 = {
@@ -84,7 +85,7 @@ class Faculty extends Component {
   };
   Cefaculty17 = {
     instanceID: "Cefaculty17",
-    image: "Allstaffphoto/SH/FAC/328.png",
+    image: "Allstaffphoto/SH/FAC/328.jpg",
     width: "50%",
     name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHFAC123" target="_blank" rel="noopener noreferrer">Mrs. Ashly Jacob</a>,
     content: "Assistant Professor"
@@ -107,7 +108,7 @@ class Faculty extends Component {
     instanceID: "Cefaculty21",
     image: "Allstaffphoto/SH/FAC/shfac136.jpg",
     width: "50%",
-    name:  <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHFAC136" target="_blank" rel="noopener noreferrer">Mr. Saksy Joy</a>,
+    name:  <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHFAC136" target="_blank" rel="noopener noreferrer">Ms. Saksy Joy</a>,
     content: "Assistant Professor"
   };
   Cefaculty22 = {

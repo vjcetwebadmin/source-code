@@ -1,9 +1,6 @@
 import React from "react";
-
-
-
-
-import Header from "../Components/Header&Footer/Header";
+import HeadingOne from "../Components/Texts/HeadingOne";
+import Bodythree from "../Components/Texts/BodyThree";import Header from "../Components/Header&Footer/Header";
 import Footer from "../Components/Header&Footer/Footer";
 import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
 import "../Components/Images/gallery.css";
@@ -28,12 +25,12 @@ class techfest extends React.Component {
 
     ArtsfestTitle = {
         instanceID: "ArtsfestTitle",
-        title: "Drishya 2019"
+        title: "BODHI – TECHNICAL FEST OF VJCET"
     };
     
     EventContent1 = {
         instanceID: " EventContent1",
-        title: "Students Council Election was held on 10th August 2018. Dr.Anoop CK (Professor Civil Engineering Department) was the election returning officer. Twenty one student council members were elected."
+        title: "To explore the thoughts, creativity, imagination and talents of young minds, ‘BODHI’ the annual Tech-Fest of Viswajyothi College of Engineering and Technology is conducted every year. It celebrates, fosters and proudly presents the pioneering and inquisitive minds of professional students. A fete like no other, it imbibes the true spirit of science and technology, and presents it in new modes and manners. It's not all about exhibits and presentations; even engineers like to have their share of fun and games, in a dignified manner. BODHI aims to connect students from campuses all over India by making them aware of Technical, Cultural, Management Fests, Workshops, Conferences and Seminars."
     }
     EventContent2 = {
         instanceID: " EventContent2",
@@ -43,30 +40,19 @@ class techfest extends React.Component {
         instanceID: " EventContent3",
         title: "Hon’ble Justice Cyriac Joseph inaugurated student’s council (18-19) on 9th October 2018.Students performed various cultural programs as part of the inauguration."
     }
-    EventContent4 = {
-        instanceID: " EventContent4",
-        title: "Annual sports meet is conducted on 15th and 16th February 2019.Mr.Samson (Sub Inspector Muvattupuzha ) was  inaugurated the event in the presence of Manager and Principal."
-    }
-    EventContent51 = {
-        instanceID: " EventContent51",
-        title: "National Level Technical Fest (BODHI 2019) was conducted on 20th March and 21st March 2019. Mr. Sreedharan Radhakrishnan Nair (Managing Director,Team Front Line Ltd & Team e-Biz) inaugurated the program. Departments conducted various technical events as part of BODHI’19 and more than 1000 students were participated from other colleges. "
-    }
-    EventContent52 = {
-        instanceID: " EventContent52",
-        title: "College arts festival (DRISHYA – 2019) was held on 22nd March and 23rd March 2019.Mr.K.S. Harisankar (Playback Singer) was inaugurated the program. Different cultural competitions were conducted as part of DRISHYA- 2019. Inauguration Ceremony of BODHI’19 and DRISHYA’19 are held on 20th March 2019."
-    }
-    EventContent6 = {
-        instanceID: " EventContent6",
-        title: "Inter Collegiate Basket Ball Tournament was conducted on 19th to 21st March 2019.Mr.Sejin Mathew (Indian youth basket ball team caption) inaugurated the event in the presence Principal."
-    }
-    
    
-
     render() {
         return (
             <React.Fragment>
                 <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
-
+                
+                <HeadingOne data={this.ArtsfestTitle} />
+                <h3 style={{textAlign:"center"}}><b>“What we think, we become.</b></h3>
+                <h3 style={{textAlign:"center"}}><b>All that we are arises with our thoughts.</b></h3>
+                <h3 style={{textAlign:"center"}}><b>With our thoughts, we make the world”.</b></h3>      
+                 <h3 style={{textAlign:"right",paddingRight:"30%"}}><b>: Gautama Buddha</b></h3>
+                 <Bodythree data={this.EventContent1} /> 
+                 <br></br>
                <div class="gallery">
                     
                     <iframe src="https://vjcet.org/downloads/gallery/bodhi.html" width="90%" height="500" title="Drishya" ></iframe>

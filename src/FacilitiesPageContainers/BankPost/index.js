@@ -15,7 +15,7 @@ class BankPost extends React.Component {
     };
     BankPostContent1 = {
         instanceID: "BankPostContent1",
-        title: "Viswajyothi provides banking and postal services within premises of the college itself which offers all kinds of National and International Banking Facilities.ATM counters of State Bank of India and South Indian Bank are there in front of the college gate.  The college also additionally provide postal services for that students. The purpose is to meet the communication needs of the students, faculty, and staff. These services help the college in its mission of providing excellence in education, research, and public service by providing efficient and cost-effective."
+        title: "Viswajyothi provides banking and postal services within premises of the college itself which offers all kinds of National and International Banking Facilities. ATM counters of State Bank of India and South Indian Bank are there in front of the college gate.  The college also additionally provide postal services for that students. The purpose is to meet the communication needs of the students, faculty, and staff. These services help the college in its mission of providing excellence in education, research, and public service by providing efficient and cost-effective."
     }
     StoreContent = {
         instanceID: "StoreContent",

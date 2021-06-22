@@ -41,20 +41,28 @@ class DropDownF extends Component {
             </Link>
           </p>
           <p>
-            <Link to="/facilities/building" className="patch1">
-              Building Infrastructure
-            </Link>
-          </p>
-
-          <p>
             <Link to="/facilities/library" className="patch1">
               Central Library
             </Link>
           </p>
-
+          <p>
+            <Link to="/facilities/eresources" className="patch1">
+              e-Resources
+            </Link>
+          </p>
+          <p>
+            <Link to="/facilities/building" className="patch1">
+              Building Infrastructure
+            </Link>
+          </p>          
           <p>
             <Link to="/facilities/powerandbackup" className="patch1">
               Power & Backup
+            </Link>
+          </p>
+          <p>
+            <Link to="/facilities/solar" className="patch1">
+              Solar Power Plant
             </Link>
           </p>
           <p>

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import FacultyData from "../../Components/FacultyData";
+import "../../Components/faculty.css"
 class CSFaculty extends Component {
   state = {};
   Cefaculty1 = {
@@ -70,7 +71,7 @@ class CSFaculty extends Component {
     image: "Allstaffphoto/CS/FAC/74.jpg",
     width: "50%",
     name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CSFAC110" target="_blank" rel="noopener noreferrer">Mr. Jobin Jose</a>,
-    content: "Assistant Professor (On leave PhD"
+    content: "Assistant Professor(on-leave Ph.D)"
   };
   Cefaculty12 = {
     instanceID: "Cefaculty12",
@@ -182,13 +183,13 @@ class CSFaculty extends Component {
     instanceID: "Cefaculty27",
     image: "Allstaffphoto/CS/FAC/sreejaspillai.JPEG",
     width: "50%",
-    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CSFAC122" target="_blank" rel="noopener noreferrer">Mrs. Sreeja S Pillai(on-leave Ph.D)</a>,
-    content: "Assistant Professor"
+    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CSFAC122" target="_blank" rel="noopener noreferrer">Mrs. Sreeja S Pillai</a>,
+    content: "Assistant Professor(on-leave Ph.D)"
   };
   render() {
     return (
       <div className="faculty">
-        <div className="facultyContent">
+        <div className="facultyContent" >
           <div>
             <FacultyData data={this.Cefaculty1} />
           </div>

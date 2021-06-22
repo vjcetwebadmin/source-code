@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import FacultyData from "../../Components/FacultyData";
+import "../../Components/faculty.css"
 class Faculty extends Component {
   state = {};
   Cefaculty1 = {
@@ -98,14 +99,14 @@ class Faculty extends Component {
     image: "Allstaffphoto/EC/FAC/153.jpg",
     width: "50%",
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ECFAC117" target="_blank" rel="noopener noreferrer">Mrs. Anu Rani Philip</a>,
-    content: "Assistant Professor(On Leave)"
+    content: "Assistant Professor(on-leave)"
   };
   Cefaculty17 = {
     instanceID: "Cefaculty17",
     image: "Allstaffphoto/EC/FAC/154.jpg",
     width: "50%",
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ECFAC118" target="_blank" rel="noopener noreferrer">Mrs. Sani John</a>,
-    content: "Assistant Professor(on Leave-Ph.D)"
+    content: "Assistant Professor(on-leave Ph.D)"
   };
   Cefaculty18 = {
     instanceID: "Cefaculty18",
@@ -125,15 +126,15 @@ class Faculty extends Component {
     instanceID: "Cefaculty20",
     image: "Allstaffphoto/EC/FAC/157.jpg",
     width: "50%",
-    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ECFAC121" target="_blank" rel="noopener noreferrer">Mr. Krishnendu K(On Leave PhD)</a>,
-    content: "Assistant Professor"
+    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ECFAC121" target="_blank" rel="noopener noreferrer">Mr. Krishnendu K</a>,
+    content: "Assistant Professor(on-leave Ph.D)"
   };
   Cefaculty21 = {
     instanceID: "Cefaculty21",
     image: "Allstaffphoto/EC/FAC/158.jpg",
     width: "50%",
     name:  <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ECFAC122" target="_blank" rel="noopener noreferrer">Mrs. Rose Mary Kuruvithadam</a>,
-    content: "Assistant Professor(on Leave-Ph.D)"
+    content: "Assistant Professor(on-leave Ph.D)"
   };
   
   Cefaculty22 = {
@@ -169,7 +170,7 @@ class Faculty extends Component {
     image: "Allstaffphoto/EC/FAC/PriyaGL.jpeg",
     width: "50%",
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ECFAC123" target="_blank" rel="noopener noreferrer">Mrs. Priya G L</a>,
-    content: "Assistant Professor(on Leave-Ph.D)"
+    content: "Assistant Professor(on-leave Ph.D)"
   };
   Cefaculty27 = {
     instanceID: "Cefaculty27",
@@ -183,7 +184,7 @@ class Faculty extends Component {
     image: "Allstaffphoto/EC/FAC/MinuGeorge.jpg",
     width: "50%",
     name:  <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ECFAC129" target="_blank" rel="noopener noreferrer">Mrs.Minu George</a>,
-    content: "Assistant Professor (On Leave)"
+    content: "Assistant Professor(on-leave)"
   };
   Cefaculty29 = {
     instanceID: "Cefaculty29",
