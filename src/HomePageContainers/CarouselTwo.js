@@ -5,11 +5,7 @@ import CustomOne from "../Components/Texts/CustomOne";
 class CarouselTwo extends Component {
   state = { selected: 0 };
   data = [
-<<<<<<< HEAD
-   /* {
-=======
     /*{
->>>>>>> 809821909680cfc61331c07071c0c3322043101d
       instanceID: this.props.data.instanceID + "CustomOne",
       title: <a href="https://vjcet.org/#/newsthree"  rel="noopener noreferrer"><font color="FFFFF" size="4">Wanted Asst. Professor in Department of Management Studies</font></a>
     },*/
