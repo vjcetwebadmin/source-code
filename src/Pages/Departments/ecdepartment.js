@@ -88,8 +88,7 @@ class EcDepartment extends Component {
       <div className="HomePage">
         <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
         <HeadingOne data={this.HeadingSectionTitle} />
-        {/*<BodyOne data={this.HeadingSectionDescription}/>*/}
-        <h2>Integrating the world with digital transformation</h2>
+        <p class="centraltag">Integrating the world with digital transformation</p>
         <ImageOne data={this.CseImg} />
         <SideNav />
         <Footer data={this.HomePageFooter} />

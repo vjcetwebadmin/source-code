@@ -51,7 +51,7 @@ class sportsfest extends React.Component {
                     <HeadingOne data={this.ProfileHeading} />
                  <Bodythree data={this.ProfileDescriptionOne} />          
                 <br></br>
-               <div class="gallery">                    
+               <div class="gallery" style={{textAlign:"center"}}>                    
                     <iframe src="https://vjcet.org/downloads/gallery/drona.html" width="90%" height="500" title="Drishya" ></iframe>
                 </div>        
                

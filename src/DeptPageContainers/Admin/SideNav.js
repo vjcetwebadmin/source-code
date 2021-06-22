@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import "../../Components/SideNav.css";
 import Profile from "./profile";
-import Vision from "./vision";
-import PEO from "./peo";
-import Program from "./program";
-import Library from "./library";
-import Association from "./association";
-import Result from "./result";
+//import Vision from "./vision";
+//import PEO from "./peo";
+//import Program from "./program";
+//import Library from "./library";
+//import Association from "./association";
+//import Result from "./result";
 import FacultyNav from "./facultynav";
 class SideNav extends Component {
   state = {
@@ -228,13 +228,13 @@ class SideNav extends Component {
           </div>
           <div class="content">
             {this.state.showProfile ? <Profile /> : null}
-            {this.state.showVision ? <Vision /> : null}
-            {this.state.showPeo ? <PEO /> : null}
-            {this.state.showProgram ? <Program /> : null}
             {this.state.showfac ? <FacultyNav /> : null}
+           {/* {this.state.showVision ? <Vision /> : null}
+            {this.state.showPeo ? <PEO /> : null}
+            {this.state.showProgram ? <Program /> : null}           
             {this.state.showLib ? <Library /> : null}
             {this.state.showAss ? <Association /> : null}
-            {this.state.showRes ? <Result /> : null}
+            {this.state.showRes ? <Result /> : null}*/}
           </div>
         </div>
       </React.Fragment>

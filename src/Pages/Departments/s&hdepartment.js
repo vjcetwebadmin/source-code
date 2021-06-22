@@ -73,8 +73,7 @@ class SHDepartment extends Component {
       <div className="HomePage">
         <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
         <HeadingOne data={this.HeadingSectionTitle} />
-        {/*<BodyOne data={this.HeadingSectionDescription} />*/}
-        <h2>Tell you why that you may know how!</h2>
+        <p class="centraltag">Tell you why that you may know how!</p>
         <ImageOne data={this.CseImg} />
         <SideNav />
         <Footer data={this.HomePageFooter} />

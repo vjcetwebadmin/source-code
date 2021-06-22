@@ -53,7 +53,7 @@ class techfest extends React.Component {
                  <h3 style={{textAlign:"right",paddingRight:"30%"}}><b>: Gautama Buddha</b></h3>
                  <Bodythree data={this.EventContent1} /> 
                  <br></br>
-               <div class="gallery">
+               <div class="gallery" style={{textAlign:"center"}}>
                     
                     <iframe src="https://vjcet.org/downloads/gallery/bodhi.html" width="90%" height="500" title="Drishya" ></iframe>
                 </div>        

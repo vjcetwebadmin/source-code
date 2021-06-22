@@ -37,9 +37,9 @@ class Publications extends React.Component {
             <React.Fragment>
                 <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
 
-                <div className="Profile" id="profile">
+                <div className="Profile" id="profile" >
                 <HeadingOne data={this.CampustTitle} />
-                <div className="bodyContainer">
+                <div className="bodyContainer" style={{textAlign:"center"}}>
                     
                     <iframe src="https://vjcet.org/downloads/Magazine2020.pdf" width="90%" height="800" title="Campus Map" align="center"></iframe>
                 </div>

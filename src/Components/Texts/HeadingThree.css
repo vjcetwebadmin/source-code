@@ -12,3 +12,33 @@
     font-size: 21px;
   }
 }
+
+@media (min-width: 1201px){
+  .HeadingThree h3 {
+    font-size: 21px;
+  }
+}
+@media (max-width: 1200px){
+  .HeadingThree h3 {
+    font-size: 21px;
+  }
+}
+@media (max-width: 960px){
+  .HeadingThree h3 {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 768px) {
+  .HeadingThree h3 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .HeadingThree h3 {
+    font-size: 12px;
+  }
+}
+
+

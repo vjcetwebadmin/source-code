@@ -11,3 +11,30 @@
     font-size: 38px;
   }
 }
+@media (min-width: 1201px){
+  .HeadingOne h1 {
+    font-size: 38px;
+  }
+}
+@media (max-width: 1200px){
+  .HeadingOne h1 {
+    font-size: 38px;
+  }
+}
+@media (max-width: 960px){
+  .HeadingOne h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .HeadingOne h1 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .HeadingOne h1 {
+    font-size: 20px;
+  }
+}

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Nav.css";
+import "../Components/Nav.css";
 /*import CeHonors from "../DeptPageContainers/CeDept/LocalContainers/cehonours";
 import CsHonors from "../DeptPageContainers/CsDept/LocalContainers/cshonours";
 import EcHonors from "../DeptPageContainers/EcDept/LocalContainers/echonours";

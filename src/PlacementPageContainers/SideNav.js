@@ -4,13 +4,16 @@ import Vision from "./vision";
 import Faculty from "./PlacementTeam";
 import Recruitment from "./Recruitment";
 import Statistics from "./Statistics";
+import Photoalbum from "./Photoalbum";
+import "../Components/SideNav.css";
 class SideNav extends Component {
   state = {
     showProfile: false,
     showVision: false,
     showfac: false,
     showRecurit: true,
-    showStatistics: false
+    showStatistics: false,
+    showPhoto:false
   };
   onClickP = () => {
     this.setState({
@@ -18,7 +21,9 @@ class SideNav extends Component {
       showVision: false,
       showfac: false,
       showRecurit: false,
-      showStatistics: false
+      showStatistics: false,
+      showPhoto:false
+      
     });
   };
   onClickV = () => {
@@ -27,7 +32,8 @@ class SideNav extends Component {
       showVision: true,
       showfac: false,
       showRecurit: false,
-      showStatistics: false
+      showStatistics: false,
+      showPhoto:false
     });
   };
   onClickFac = () => {
@@ -36,7 +42,8 @@ class SideNav extends Component {
       showVision: false,
       showfac: true,
       showRecurit: false,
-      showStatistics: false
+      showStatistics: false,
+      showPhoto:false
     });
   };
   onClickRec = () => {
@@ -45,7 +52,8 @@ class SideNav extends Component {
       showVision: false,
       showfac: false,
       showRecurit: true,
-      showStatistics: false
+      showStatistics: false,
+      showPhoto:false
     });
   };
   onClickStat = () => {
@@ -54,8 +62,19 @@ class SideNav extends Component {
       showVision: false,
       showfac: false,
       showRecurit: false,
-      showStatistics: true
+      showStatistics: true,
+      showPhoto:false
     });
+  };
+    onClickPhoto = () => {
+      this.setState({
+        showProfile: false,
+        showVision: false,
+        showfac: false,
+        showRecurit: false,
+        showStatistics: false,
+        showPhoto:true
+      });   
   };
   render() {
     return (
@@ -83,12 +102,17 @@ class SideNav extends Component {
               class="button"
               onClick={this.onClickStat}
             />
-            {<input
+           <input
               value="Our Team"
               class="button"
               onClick={this.onClickFac}
-            />}
+            />
 
+           <input
+              value="Photo Album"
+              class="button"
+              onClick={this.onClickPhoto}
+         />
             
           </div>
           <div className="content">
@@ -97,8 +121,7 @@ class SideNav extends Component {
             {this.state.showVision ? <Vision /> : null}
             {this.state.showfac ? <Faculty /> : null}
             {this.state.showStatistics ? <Statistics/> : null}
-            
-
+            {this.state.showPhoto ? <Photoalbum/> : null}
           </div>
         </div>
       </React.Fragment>

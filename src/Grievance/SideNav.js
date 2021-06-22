@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./SideNav.css";
+import "../Components/SideNav.css";
 import Profile from "./profile";
 import Program from "./program";
 class SideNav extends Component {
@@ -114,49 +114,49 @@ class SideNav extends Component {
     return (
       <React.Fragment>
 
-        <div class="Deptcontent">
+        <div class="DeptcontentGriev">
           <div class="sidenav">
             <input
               value="Home"
-              class="button1 button3"
+              class="buttongriev1"
               onClick={this.onClickP}
             />
           <input
               value="Grievance Registration Mechanism"
-              class="button1 button3"
+              class="buttongriev1"
               onClick={this.onClickProg}
            />             
  
-                <a href="https://vjcet.org/downloads/grievance/Policy.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3" >Policy</button></a> 
-                <a href="https://vjcet.org/downloads/grievance/AICTEnotif.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3" >AICTE notification</button></a> 
-                <a href="https://vjcet.org/downloads/grievance/UGCnot.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3" >UGC notification</button></a> 
-                <a href="https://vjcet.org/downloads/grievance/KTUnot.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3" >KTU notification</button></a> 
-                <a href="https://vjcet.org/downloads/grievance/TheKeralaProRagAct.pdf" target="_blank" rel="noopener noreferrer"><button class="button1 button3" >The Kerala Prohibition of Ragging Act, 1998</button></a> 
+                <a href="https://vjcet.org/downloads/grievance/Policy.pdf" target="_blank" rel="noopener noreferrer"><button class="buttongriev1" >Policy</button></a> 
+                <a href="https://vjcet.org/downloads/grievance/AICTEnotif.pdf" target="_blank" rel="noopener noreferrer"><button class="buttongriev1" >AICTE notification</button></a> 
+                <a href="https://vjcet.org/downloads/grievance/UGCnot.pdf" target="_blank" rel="noopener noreferrer"><button class="buttongriev1" >UGC notification</button></a> 
+                <a href="https://vjcet.org/downloads/grievance/KTUnot.pdf" target="_blank" rel="noopener noreferrer"><button class="buttongriev1" >KTU notification</button></a> 
+                <a href="https://vjcet.org/downloads/grievance/TheKeralaProRagAct.pdf" target="_blank" rel="noopener noreferrer"><button class="buttongriev1" >The Kerala Prohibition of Ragging Act, 1998</button></a> 
 
 
             {/* <input
               value="Policy"
-              class="button1 button3"
+              class="buttongriev1"
               onClick={this.onClickLib}
             />  
             <input
               value="AICTE notification"
-              class="button1 button3"
+              class="buttongriev1"
               onClick={this.onClickLib}
             />
             <input
               value="UGC notification"
-              class="button1 button3"
+              class="buttongriev1"
               onClick={this.onClickLib}
             />
             <input
               value="KTU notification"
-              class="button1 button3"
+              class="buttongriev1"
               onClick={this.onClickLib}
             />
             <input
               value="The Kerala Prohibition of Ragging Act, 1998"
-              class="button1 button3"
+              class="buttongriev1"
               height="100px;"
               onClick={this.onClickLib}
             />

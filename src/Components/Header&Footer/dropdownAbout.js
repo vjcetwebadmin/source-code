@@ -45,23 +45,6 @@ class DropDownAb extends Component {
           </p>
           <p>
             <Link
-              to="/about/accreditation"
-              className="patch1"
-            >
-              Accreditation
-            </Link>
-          </p>
-          <p>
-
-            <Link
-              to="/about/keyfunctionaries"
-              className="patch1"
-            >
-              Key Functionaries
-            </Link>
-          </p>
-          <p>
-            <Link
               to="/about/vision"
               className="patch1"
             >
@@ -70,12 +53,37 @@ class DropDownAb extends Component {
           </p>
           <p>
             <Link
+              to="/about/keyfunctionaries"
+              className="patch1"
+            >
+              Key Functionaries
+            </Link>
+            </p> 
+            <p>
+            <Link
+              to="/about/govbody"
+              className="patch1"
+            >
+             Organogram
+            </Link>
+          </p>
+           <p>
+            <Link
               to="/about/affliations"
               className="patch1"
             >
              Affiliations
             </Link>
-          </p>
+          </p>                  
+          <p>
+            <Link
+              to="/about/accreditation"
+              className="patch1"
+            >
+              Accreditation
+            </Link>
+          </p>        
+ 
           <p>
             <Link
               to="/about/mandatorydisclosure"
