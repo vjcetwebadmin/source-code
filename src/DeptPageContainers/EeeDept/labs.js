@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import HeadingOne from "../../Components/Texts/HeadingOne";
 import HeadingTwo from "../../Components/Texts/HeadingTwo"
+import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
 import "../../Components/Tables/tableformat.css";
 class Labs extends Component {
   state = {};
@@ -32,12 +33,48 @@ class Labs extends Component {
     instanceID: "EEWorkshopHeading",
     title: "ELECTRICAL ENGINEERING WORKSHOP"
   };
+
+  LabDesc1 = {
+    instanceID: "LabDesc1",
+    title:
+      "The purpose of Computer lab is to introduce students to the field of programming using C language. The students will be able to develop their analyzing and problem solving skills and use the same for writing programs in C. Electrical CAD will help students to develop skills in computer aided drafting of electrical machines and layout of various electrical installations. The Lab is equipped with Mipower installed in all computers for conducting the simulation studies of electrical power system."
+  };
+
+  LabDesc2 = {
+    instanceID: "LabDesc2",
+    title:
+      "The laboratory has all required equipment and facilities for conducting practical courses in electrical measurements. Students will learn to measure electrical quantities; investigate the properties of electrical meters, batteries and power supplies. The aim of this Power System Lab is to provide sound knowledge in the protection, simulation and machine related experiments. Power System simulation package MiPower is available."
+  };
+
+  LabDesc3 = {
+    instanceID: "LabDesc3",
+    title:
+      "The Electrical Machines Laboratory supports teaching and research work on Electrical machines. Through this lab experiments with real machines, students gain practical experience on transformers and various types of DC and AC machines.  Students will be able to correlate the theoretical classroom behaviour with actual machine characteristics. The laboratory can also be used for project work related to electrical machines and energy conversion."
+  };
+
+  LabDesc4 = {
+    instanceID: "LabDesc4",
+    title:
+      "The aim of the System laboratory is to provide sound knowledge in the basic concepts of linear control theory and design of control system. This lab also provides experience in the programming of 8085 microprocessor and 8051 microcontroller.  The students are expected to do a mini project in the area of microprocessors  and microcontrollers and evaluated separately and considered for internal assessment. This lab provides students with a variety of tools which support their curricular and co-curricular activities."
+  };
+  LabDesc5 = {
+    instanceID: "LabDesc5",
+    title:
+      "Circuits Laboratory caters mainly to the courses Analog Integrated Circuits and Digital Electronics. The important purpose of the Lab is to further develop the students' laboratory practice for experimentally testing and evaluating electronics and digital circuits. Lab experiments include a design part and an actual experimental verification in the laboratory. Simulation of electronic circuits using simulation software is also done as a part of this laboratory. Design and implementation of combinational and sequential logic circuits are also done in this laboratory."
+  };
+  LabDesc6 = {
+    instanceID: "LabDesc6",
+    title:
+      "The workshop is designed to provide students a widespread knowledge and understanding of the workshop tools and other facilities. The essential and invasive knowledge of electrical wiring will give the students an insight to their practical approach in our daily life. Students will be able to grasp the applications of workshop equipment, wiring accessories and their importance in the practical field. The lab is utilized by all the first year students for the course electrical engineering workshop."
+  };
   render() {
     return (
       <div className="DeptLibrary" id="dept-library">
         <HeadingOne data={this.DeptLibHeading} />
         <HeadingTwo data={this.CompLabHeading} />
-        
+		<p></p>
+		<p><BodyOneJustified data={this.LabDesc1}></BodyOneJustified></p>
+		<p></p>          
         <table id="tableformat">
 	      <tbody>
           <tr>
@@ -64,6 +101,9 @@ class Labs extends Component {
       
       <br />
       <HeadingTwo data={this.EMPSLabHeading} />
+	  <p></p>
+		<p><BodyOneJustified data={this.LabDesc2}></BodyOneJustified></p>
+		<p></p>  
       <table id="tableformat">
 	      <tbody>
           <tr>
@@ -105,6 +145,9 @@ class Labs extends Component {
       </table>
       <br />
       <HeadingTwo data={this.EMLabHeading} />
+	  <p></p>
+		<p><BodyOneJustified data={this.LabDesc3}></BodyOneJustified></p>
+		<p></p>  
       <table id="tableformat">
 	      <tbody>
           <tr>
@@ -155,6 +198,9 @@ class Labs extends Component {
       </table>
       <br />
       <HeadingTwo data={this.SysLabHeading} />
+	  <p></p>
+		<p><BodyOneJustified data={this.LabDesc4}></BodyOneJustified></p>
+		<p></p>  
       <table id="tableformat">
 	      <tbody>
           <tr>
@@ -200,6 +246,9 @@ class Labs extends Component {
       </table>
       <br />
       <HeadingTwo data={this.CircuitsLabHeading} />
+	  <p></p>
+		<p><BodyOneJustified data={this.LabDesc5}></BodyOneJustified></p>
+		<p></p>  
       <table id="tableformat">
 	      <tbody>
           <tr>
@@ -245,6 +294,9 @@ class Labs extends Component {
       </table>
       <br />
       <HeadingTwo data={this.EEWorkshopHeading} />
+	  <p></p>
+		<p><BodyOneJustified data={this.LabDesc6}></BodyOneJustified></p>
+		<p></p>  
       <table id="tableformat">
 	      <tbody>
           <tr>
