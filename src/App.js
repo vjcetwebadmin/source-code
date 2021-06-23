@@ -82,8 +82,10 @@ import NAAC_C1_P1 from "./Naac/Nac_C1_P1";
 import NAACbase from "./Naac/naacstart";
 import codeofc from "./CodeofC/codeofconducts";
 import grievance from "./Grievance/grievance";
-import govenbody from "./AboutPageContainers/AboutVJC/governbody"
+import govenbody from "./AboutPageContainers/AboutVJC/governbody" 
 import distinctiv from "./Naac/insti_disti_731"
+import compuskills from "./Naac/skills_enhancement"
+
 class App extends Component {
 
   ceProps = {
@@ -805,7 +807,7 @@ class App extends Component {
               <Route exact path="/about/govbody" component={govenbody} />
 
               <Route exact path="/NAAC/distinct" component={distinctiv} /> 
-
+              <Route exact path="/NAAC/skills" component={compuskills} /> 
 
               <Route component={ErrorPage} /> 
             </Switch>
