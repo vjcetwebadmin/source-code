@@ -39,7 +39,7 @@ class Library extends React.Component {
         title: "DIGITAL LIBRARY"
     };
      LibraryDigitalResorceTitle = {
-        instanceID: "LibraryDigitalResourceTitle",
+        instanceID: "LibraryDigitalResorceTitle",
         title: "E- RESOURCES"
     };
     LibraryDigitalResorceTitlesub = {
@@ -290,16 +290,28 @@ class Library extends React.Component {
                     <div >
                         <HeadingTwo data={this.LibraryDigitalTitle} className="Heading" />
                         <BodyOneJustified data={this.DigitalLibraryContent} />
-                        <HeadingTwo data={this.LibraryDigitalResorceTitle} className="Heading" />
+                        <p></p>
+                        <a href="https://vjcet.org/#/facilities/eresources" target="_blank"><span style={{fontSize:"24px",fontWeight:"bold",paddingLeft:"10%"}}>E- RESOURCES</span></a>
+                        
                         <BodyOneJustified data={this.Digitaleresource} />
                         <ol  style={{lineHeight:"1.7em"}}>
+                            <li>IEEE (All Society Periodicals Package)</li>
+                            <li>ASCE</li>
+                            <li>ASME</li>
+                            <li>EBSCO (Business Source Elite)</li>
+                            <li>DELNET</li>
+                            <li>NDLI</li>
+                        </ol>
+
+                       {/* <ol  style={{lineHeight:"1.7em"}}>
                             <li><a href="http://ieeexplore.ieee.org" target="_blank">IEEE (All Society Periodicals Package)</a></li>
                             <li><a href="http://ascelibrary.org" target="_blank">ASCE</a></li>
                             <li><a href="http://asmedigitalcollection.asme.org" target="_blank">ASME</a></li>
                             <li><a href="https://search.ebscohost.com" target="_blank">EBSCO (Business Source Elite)</a></li>
                             <li><p><a href="http://164.100.247.30" target="_blank">DELNET Link1</a></p><p>OR</p> <p><a href="www.delnet.nic.in" target="_blank">DELNET Link2</a></p></li>
                             <li><a href="http://ndl.iitkgp.ac.in" target="_blank">NDLI</a></li>
-                        </ol>
+                        </ol>*/}
+
                         <HeadingTwo data={this.LibraryDigitalResorceTitlesub} className="Heading"/>
                         <ol style={{lineHeight:"1.7em"}}>
                             <li>INSTITUTIONAL REPOSITORY</li>
