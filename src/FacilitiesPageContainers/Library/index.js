@@ -42,9 +42,13 @@ class Library extends React.Component {
         instanceID: "LibraryDigitalResourceTitle",
         title: "E- RESOURCES"
     };
+    LibraryDigitalResorceTitlesub = {
+        instanceID: "LibraryDigitalResourceTitlesub",
+        title: "INHOUSE DATABASES "
+    };
     LibraryContent1 = {
         instanceID: "LibraryContent1",
-        title: "Synonymous with abode of knowledge the central library of the college is stocked with a rich collection of Books, National and International journals, Technical and other Magazines, CD ROMs on Engineering, other widely appreciated editions on diverse subjects like Literature, Management, Religion, Competitive exams etc. It is housed in an area of 16400 Sq.ft. spread over two floors. This library follows an open access system, Barcode based circulation process and OPAC Literature search and Web based Online Public Access Catalogue (WEB OPAC- IP Based Access) system is also incorporated. Surveillance cameras help to regulate the movement of the users in the library."
+        title: "Synonymous with abode of knowledge the central library of the college is stocked with a rich collection of Books, National and International journals, Technical and other Magazines, CD ROMs on Engineering, other widely appreciated editions on diverse subjects like Literature, Management, Religion, Competitive exams etc. It is housed in an area of 16484 Sq.ft. spread over two floors. This library follows an open access system, Barcode based circulation process and OPAC Literature search and Web based Online Public Access Catalogue (WEB OPAC- IP Based Access) system is also incorporated. This library provides uncompromising information and intellectual requirements for its students and faculty with user friendly approach. It offers a fully integrated and dynamic environment for conducting academic study. Multiple copies ensure that resources are easily available in the reference section and stock section as well. Surveillance cameras help to regulate the movement of the users in the library."
     }
     LibraryContent2 = {
         instanceID: "LibraryContent2",
@@ -52,11 +56,11 @@ class Library extends React.Component {
     }
     LibraryContent3 = {
         instanceID: "LibraryContent3",
-        title: "The collection comprises 43774 printed documents such as books, project reports, mini project reports, seminar reports and back volumes of journals and the non-book materials like CD ROMs. Membership of the library is open to Students, Teachers and Non Teaching Staff of this college. Library membership is free to all faculty, staff and students. The library also subscribes 88 printed journals, 31 general magazines and library subscribed full text online database like IEEE(ASPP), Science Direct, EBSCO and E - resources through DELNET and National digital library. NPTEL facility to access video lectures are also available."
+        title: "The collection comprises 44390 printed documents such as books, project reports, mini project reports, seminar reports and back volumes of journals and the non-book materials like CD ROMs. Membership of the library is open to Students, Teachers and Non Teaching Staff of this college. Library membership is free to all faculty, staff and students. The library also subscribes 88 printed journals, 31 general magazines and library subscribed full text online database like IEEE(ASPP), Science Direct, EBSCO and E - resources through DELNET and National digital library. NPTEL facility to access video lectures are also available."
     }
     DigitalLibraryContent = {
         instanceID: "DigitalLibraryContent",
-        title: "A well- arranged Digital Library with 60 Computers and 25 headphones help the users to view e-facilities and use Audio/video facilities also. Digital Library can also be accessed anywhere on the campus. This library provides uncompromising information and intellectual requirements for its students and faculty with user friendly approach. It offers a fully integrated and dynamic environment for conducting academic study. Multiple copies ensure that resources are easily available in the reference section and stock section as well."
+        title: "A well- arranged Digital Library with 60 Computers and 25 headphones help the users to view e-facilities and use Audio/video facilities also. Digital Library can also be accessed anywhere on the campus."
     }
     Digitaleresource= {
         instanceID: "Digitaleresource",
@@ -158,10 +162,10 @@ class Library extends React.Component {
                         <th colspan="5">DIGITAL LIBRARY</th>
                         </tr>
                         <tr>
-                            <td>E-Journals</td><td>IEEE (ASPP), Science Direct, EBSCO (Management)</td>
+                            <td>E-Journals</td><td>IEEE (ASPP), ASME, ASCE, EBSCO (Management)</td>
                         </tr>
                         <tr>
-                            <td>INSTITUTIONAL MEMBERSHIP</td><td>DELNET, NDL</td>
+                            <td>INSTITUTIONAL MEMBERSHIP</td><td>DELNET, NDLI Club</td>
                         </tr>
                         <tr>
                             <td>IN HOUSE DATABASES</td><td><ol><li>INSTITUTIONAL REPOSITORY</li><li> AUDIO/VIDEO LIBRARY<ol>2.1. NPTEL</ol><ol>2.2. MEDIA REPOSITORY</ol></li></ol> </td>
@@ -211,7 +215,7 @@ class Library extends React.Component {
                         
                         <tr>
                             <th>Category</th>
-                            <th>Number of cards</th>
+                            <th>NUMBER OF BOOKS ISSUE</th>
                             <th>Loan period</th>
                         </tr>
                         <tr>
@@ -288,12 +292,21 @@ class Library extends React.Component {
                         <BodyOneJustified data={this.DigitalLibraryContent} />
                         <HeadingTwo data={this.LibraryDigitalResorceTitle} className="Heading" />
                         <BodyOneJustified data={this.Digitaleresource} />
-                        <ol>
-                            <li><a href="https://ieeexplore.ieee.org" target="_blank">IEEE(ASPP)</a></li>
-                            <li>Science Direct</li>
-                            <li><a href="http://search.ebscohost.com" target="_blank">EBSCO</a></li>
-                            <li>DELNET</li>
-                            <li>NDL</li>
+                        <ol  style={{lineHeight:"1.7em"}}>
+                            <li><a href="http://ieeexplore.ieee.org" target="_blank">IEEE (All Society Periodicals Package)</a></li>
+                            <li><a href="http://ascelibrary.org" target="_blank">ASCE</a></li>
+                            <li><a href="http://asmedigitalcollection.asme.org" target="_blank">ASME</a></li>
+                            <li><a href="https://search.ebscohost.com" target="_blank">EBSCO (Business Source Elite)</a></li>
+                            <li><p><a href="http://164.100.247.30" target="_blank">DELNET Link1</a></p><p>OR</p> <p><a href="www.delnet.nic.in" target="_blank">DELNET Link2</a></p></li>
+                            <li><a href="http://ndl.iitkgp.ac.in" target="_blank">NDLI</a></li>
+                        </ol>
+                        <HeadingTwo data={this.LibraryDigitalResorceTitlesub} className="Heading"/>
+                        <ol style={{lineHeight:"1.7em"}}>
+                            <li>INSTITUTIONAL REPOSITORY</li>
+                            <li>AUDIO/VIDEO LIBRARY
+                                <ol>2.1. NPTEL</ol>
+                                <ol>2.2. MEDIA REPOSITORY</ol>        
+                            </li>
                         </ol>
                     </div>
                     <div >
