@@ -9,8 +9,8 @@ import CSStaff from "./Syllabusoldreg";
 
 class ResourcesGroup extends Component {
   state = {
-    showfaculty: false,
-    showstaff: true
+    showfaculty: true,
+    showstaff: false
   };
   OnClickFac = () => {
     this.setState({
