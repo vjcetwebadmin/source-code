@@ -9,8 +9,8 @@ import CSStaff from "./Syllabusoldreg";
 
 class ResourcesGroup extends Component {
   state = {
-    showfaculty: true,
-    showstaff: false
+    showfaculty: false,
+    showstaff: true
   };
   OnClickFac = () => {
     this.setState({
@@ -116,18 +116,18 @@ class ResourcesGroup extends Component {
           <ResourcesList data={this.ResourceListTwo} />
         </div>        
           <HeadingOne data={this.SyllabusTitle} /> 
-          {/* <div class="facultyNav">
+          <div class="facultyNav">
               <input
                 type="button"
                 value="B.Tech Regulation 2015-2016 to 2018-2019"
                 class="buttongraph"
-                onClick={this.OnClickFac}
+                onClick={this.OnClickStaff}
               />
               <input
                 type="button"
                 value="B.Tech Regulation 2019-2020 onwards"
                 class="buttongraph"
-                onClick={this.OnClickStaff}
+                onClick={this.OnClickFac}
               />
 
                 {this.state.showfaculty ? <CSFaculty /> : null}
@@ -135,7 +135,7 @@ class ResourcesGroup extends Component {
           </div> 
           <div className="ResourcesContainer" id="AboutPageResourcesContainer">
           </div>
-          button click*/}
+        {/*   button click
 
           <div className="ResourcesContainer" id="AboutPageResourcesContainer">
               <ResourcesList data={this.ResourceListThree} />
@@ -144,7 +144,7 @@ class ResourcesGroup extends Component {
               <ResourcesList data={this.ResourceListSix} />
               <ResourcesList data={this.ResourceListEight} />
               <ResourcesList data={this.ResourceListNine} />       
-         </div>
+        </div>*/}
     
       </div>
     );

@@ -45,6 +45,58 @@ ActivitiesHeading = {
     instanceID: "Features4",
     title: "IEEE SB VJCET has awarded the Outstanding Student Branch of IEEE Kochi Sub Section (2019), this was a milestone on the way of our success."
   };
+  InchargesHeading1 = {
+    instanceID: "InchargesHeading1",
+    title: "IEEE COMPUTER SOCIETY"
+  };
+  Features5 = {
+    instanceID: "Features5",
+    title: "IEEE Computer Society (IEEE CS) is a professional society under IEEE. Its purpose and scope is 'to advance the theory, practice, and application of computer and information processing science and technology' and the 'professional standing of its members'."
+  };
+  Features6 = {
+    instanceID: "Features6",
+    title: "IEEE CS VJCET focus on the technical improvement of our members in the upcoming technologies. Society conducts Technical talks and workshops for the development of our students members."
+  };
+  InchargesHeading2 = {
+    instanceID: "InchargesHeading2",
+    title: "IEEE POWER AND ENERGY SOCIETY"
+  };
+  Features7 = {
+    instanceID: "Features7",
+    title: "The IEEE Power & Energy Society (IEEE PES),  is the oldest society under IEEE focused on the scientific and engineering knowledge about electric power and energy."
+  };
+  Features8 = {
+    instanceID: "Features8",
+    title: "IEEE PES VJCET  works on the improvement in electrical knowledge of our students. We provide workshops and training sessions for our student members, which help them with hands-on experience and improving their knowledge."
+  };
+  InchargesHeading3 = {
+    instanceID: "InchargesHeading3",
+    title: "IEEE SIGHT AFFINITY GROUP"
+  };
+  Features9 = {
+    instanceID: "Features9",
+    title: "IEEE Special Interest Group on Humanitarian Technology (SIGHT) provides IEEE members with the opportunity to work with a large network of volunteers around the world carrying out and/or supporting impactful humanitarian activities on the local level."
+  };
+  Features10 = {
+    instanceID: "Features11",
+    title: "IEEE SIGHT focuses on sustainable solutions that make a long-term difference in the lives of people. SIGHT operates through local volunteers and partners working with local communities."
+  };
+  Features11= {
+    instanceID: "Features11",
+    title: "IEEE SIGHT VJCET is one of the vibrant group that works on the humanitarian activities which help the volunteer to experience the filed work skills. Our volunteers works on several humanitarian projects. One of the successful project was Smart Classroom among the woods. We still working on other humanitarian projects for the development of our society."
+  };
+  InchargesHeading4 = {
+    instanceID: "InchargesHeading4",
+    title: "IEEE WIE AFFINITY GROUP"
+  };
+  Features12 = {
+    instanceID: "Features12",
+    title: "IEEE Women in Engineering (WIE) is one of the largest international professional organizations dedicated to promoting women engineers and scientists and inspiring girls around the world to follow their academic interests to a career in engineering."
+  };
+  Features13 = {
+    instanceID: "Features13",
+    title: "IEEE WIE AG VJCET focus on the improvement of our women volunteers in order to make them technical and skillful engineers. Also provide workshops and training sessions on latest technologies."
+  };
 
   render() {
     return (
@@ -58,6 +110,20 @@ ActivitiesHeading = {
           <p><BodyOneJustified data={this.Features2} /></p>
           <p><BodyOneJustified data={this.Features3} /></p>
           <p><BodyOneJustified data={this.Features4} /></p>
+          <p style={{textAlign:"left",fontSize:"18px"}}><b>IEEE COMPUTER SOCIETY</b></p>
+          <p><BodyOneJustified data={this.Features5} /></p>
+          <p><BodyOneJustified data={this.Features6} /></p>
+          <p style={{textAlign:"left",fontSize:"18px"}}><b>IEEE POWER AND ENERGY SOCIETY</b></p>
+          <p><BodyOneJustified data={this.Features7} /></p>
+          <p><BodyOneJustified data={this.Features8} /></p>
+          <p style={{textAlign:"left",fontSize:"18px"}}><b>IEEE SIGHT AFFINITY GROUP</b></p>
+          <p><BodyOneJustified data={this.Features9} /></p>
+          <p><BodyOneJustified data={this.Features10} /></p>
+          <p><BodyOneJustified data={this.Features11} /></p>
+          <p style={{textAlign:"left",fontSize:"18px"}}><b>IEEE WIE AFFINITY GROUP</b></p>
+          <p><BodyOneJustified data={this.Features12} /></p>
+          <p><BodyOneJustified data={this.Features13} /></p> 
+
           <HeadingThree data={this.InchargesHeading} />  
           <table id="tableformat">
                             <tr><th>POST</th><th>NAME</th></tr>

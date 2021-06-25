@@ -42,7 +42,7 @@ class DropDownL extends Component {
           
           <p>
             <a href="https://alumni.vjcet.ac.in/" target="_blank" className="patch1" rel="noopener noreferrer">
-              Alumini's login
+              Alumni's login
             </a>
           </p>
           

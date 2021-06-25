@@ -11,7 +11,7 @@ class ResourcesGroup extends Component {
     listID: "Four",
     title: "Civil Engineering",
     icon: "Icons/civilsyllabuslogo.png",
-    filePath: "https://vjcet.org/downloads/academic/cesyllabus.zip"
+    filePath: "https://vjcet.org/downloads/academic/cesyllabusnew.zip"
 
   };
 
@@ -20,7 +20,7 @@ class ResourcesGroup extends Component {
     listID: "Five",
     title: "Computer Science & Engineering",
     icon: "Icons/csesyllabuslogo.svg",
-    filePath: "https://vjcet.org/downloads/academic/csesyllabus.zip"
+    filePath: "https://vjcet.org/downloads/academic/csesyllabusnew.zip"
 
   };
 
@@ -29,7 +29,7 @@ class ResourcesGroup extends Component {
     listID: "Six",
     title: "Electronics & Communications Engineering",
     icon: "Icons/ecesyllabuslogo.svg",
-    filePath: "https://vjcet.org/downloads/academic/ecesyllabus.zip"
+    filePath: "https://vjcet.org/downloads/academic/ecesyllabusnew.zip"
   };
 
   ResourceListFive = {
@@ -37,7 +37,7 @@ class ResourcesGroup extends Component {
     listID: "Seven",
     title: "Electrical & Electronics Engineering",
     icon: "Icons/eeesyllabuslogo.svg",
-    filePath: "https://vjcet.org/downloads/academic/eeesyllabus.zip"
+    filePath: "https://vjcet.org/downloads/academic/eeesyllabusnew.zip"
   };
 
   ResourceListSix = {
@@ -45,7 +45,7 @@ class ResourcesGroup extends Component {
     listID: "Eight",
     title: "Information Technology",
     icon: "Icons/itsyllabuslogo.png",
-    filePath: "https://vjcet.org/downloads/academic/itsyllabus.zip"
+    filePath: "https://vjcet.org/downloads/academic/itsyllabusnew.zip"
 
   };
   ResourceListNine = {
@@ -53,15 +53,15 @@ class ResourcesGroup extends Component {
     listID: "Nine",
     title: "Mechanical Engineering",
     icon: "Icons/mesyllabuslogo.svg",
-    filePath: "https://vjcet.org/downloads/academic/mesyllabus.zip"
+    filePath: "https://vjcet.org/downloads/academic/mesyllabusnew.zip"
 
   };
  
 
   render() {
     return (
-      <div className="ResourcesGroup" style={{border:"3px solid gray"}}>
-        <h2>B.Tech Regulation 2015-2016 to 2018-2019</h2>
+      <div className="ResourcesGroup">
+        <h2>B.Tech Regulation 2019-2020 onwards</h2>
           <div className="ResourcesContainer" id="AboutPageResourcesContainer">          
           <ResourcesList data={this.ResourceListThree} />
           <ResourcesList data={this.ResourceListFour} />

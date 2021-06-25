@@ -121,8 +121,11 @@ class Echonours extends Component {
             <Honours data={this.Echonours9} />
           </div>
           <div>
-            <Honours data={this.Echonours10} />
+            <Honours data={this.Echonours11} />
           </div> 
+          <div>
+            <Honours data={this.Echonours10} />
+          </div>        
           <div>
             <Honours data={this.Echonours7} />
           </div>                  
