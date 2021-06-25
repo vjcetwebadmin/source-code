@@ -282,8 +282,8 @@ class Library extends React.Component {
 
                     
                     <div >
-                        <HeadingTwo data={this.LibraryDigitalTitle} className="Heading" />
-                        <BodyOneJustified data={this.DigitalLibraryContent} />
+                        {/*<HeadingTwo data={this.LibraryDigitalTitle} className="Heading" />
+                        <BodyOneJustified data={this.DigitalLibraryContent} />*/}
                         <p></p>
                         <a href="https://vjcet.org/#/facilities/eresources" target="_blank"><span style={{fontSize:"26px",fontWeight:"bold",paddingLeft:"10%"}}>E- RESOURCES</span></a>
                         
@@ -304,9 +304,12 @@ class Library extends React.Component {
                             <li><a href="https://search.ebscohost.com" target="_blank">EBSCO (Business Source Elite)</a></li>
                             <li><p><a href="http://164.100.247.30" target="_blank">DELNET Link1</a></p><p>OR</p> <p><a href="www.delnet.nic.in" target="_blank">DELNET Link2</a></p></li>
                             <li><a href="http://ndl.iitkgp.ac.in" target="_blank">NDLI</a></li>
-                        </ol>*/}
+                        </ol>
 
-                        <HeadingTwo data={this.LibraryDigitalResorceTitlesub} className="Heading"/>
+                        <HeadingTwo data={this.LibraryDigitalResorceTitlesub} className="Heading"/>*/}
+                        <p></p>
+                        <a href="https://vjcet.org/#/facilities/eresources" target="_blank"><span style={{fontSize:"26px",fontWeight:"bold",paddingLeft:"10%"}}>INHOUSE DATABASES</span></a>                        
+
                         <ol style={{lineHeight:"1.7em"}}>
                             <li>INSTITUTIONAL REPOSITORY</li>
                             <li>AUDIO/VIDEO LIBRARY
@@ -317,7 +320,10 @@ class Library extends React.Component {
                     </div>
                     <div>
                       
-                      <HeadingTwo data={this.LibraryReprographyTitle} className="Heading" />
+                    {/*  <HeadingTwo data={this.LibraryReprographyTitle} className="Heading" />*/}
+                    <p></p>
+                        <a href="https://vjcet.org/#/facilities/eresources" target="_blank"><span style={{fontSize:"26px",fontWeight:"bold",paddingLeft:"10%"}}>DIGITAL LIBRARY</span></a>
+                        
                       <p>
                               <BodyOneJustified data={this.LibraryReprographyContent} />
                           </p>
