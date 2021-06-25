@@ -66,6 +66,39 @@ class nss extends React.Component {
         width: "30%"
       };
 
+      NsslogoImage8= {
+        instanceID: "NsslogoImage8",
+        image: "eresource/ieee.jpg",
+        width: "60%"
+      };
+      NsslogoImage9 = {
+        instanceID: "NsslogoImage9",
+        image: "eresource/asce.jpg",
+        width: "40%"
+      };
+      NsslogoImage10 = {
+        instanceID: "NsslogoImage10",
+        image: "eresource/asme.jpg",
+        width: "60%"
+      };
+      NsslogoImage11= {
+        instanceID: "NsslogoImage11",
+        image: "eresource/ebsco.jpg",
+        width: "30%"
+      };
+      NsslogoImage12 = {
+        instanceID: "NsslogoImage12",
+        image: "eresource/delnet.jpg",
+        width: "50%"
+      };
+      NsslogoImage13 = {
+        instanceID: "NsslogoImage13",
+        image: "eresource/ndli.jpg",
+        width: "50%"
+      };
+
+
+
 
       ResearchHeading = {
         instanceID: "ResearchHeading",
@@ -87,7 +120,8 @@ class nss extends React.Component {
     MajoreventsTitle3 = {
         instanceID: "MajoreventsTitle3",
         title: "Online Book Search"
-    };
+    };   
+
     MajoreventsTitle4 = {
         instanceID: "MajoreventsTitle4",
         title: "Professional bodies"
@@ -100,6 +134,15 @@ class nss extends React.Component {
         instanceID: "MajoreventsTitle6",
         title: "PPTs & Videos"
     };
+    MajoreventsTitle7 = {
+        instanceID: "MajoreventsTitle7",
+        title: "e-Journals"
+    };   
+    MajoreventsTitle8 = {
+        instanceID: "MajoreventsTitle8",
+        title: "Institutional Memberships "
+    };   
+       
     EventTitle1 = {
         instanceID: "EventTitle1",
         title: "DISCIPLINE AND ANTI RAGGING"
@@ -135,7 +178,21 @@ class nss extends React.Component {
                         <HeadingTwo data={this.MajoreventsTitle3} className="Heading" /> 
                         <div className="facultyC">
                             <div><a href="http://117.239.154.83:83/" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage6}/></a> </div>                                              
-                        </div>                         
+                        </div>  
+
+                        <HeadingTwo data={this.MajoreventsTitle7} className="Heading" /> 
+                        <div className="facultyC">
+                            <div><a href="http://ieeexplore.ieee.org" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage8}/></a> </div> 
+                            <div><a href="http://ascelibrary.org" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage9}/></a> </div>
+                            <div><a href="http://asmedigitalcollection.asme.org" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage10}/></a> </div>
+                            <div><a href="https://search.ebscohost.com" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage11}/></a> </div>                                             
+                        </div>                                                
+                        <HeadingTwo data={this.MajoreventsTitle8} className="Heading" /> 
+                        <div className="facultyC" style={{textAlign:"left"}}>
+                            <div style={{textAlign:"center"}}><a href="http://164.100.247.30" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage12}/>Link 1</a> </div> 
+                            <div style={{textAlign:"center"}}><a  href="www.delnet.nic.in" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage12}/>Link 2</a> </div>
+                            <div><a href="http://ndl.iitkgp.ac.in" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage13}/></a> </div>
+                        </div>   
                         {/* <p className="paraheading"><a href="http://117.239.154.83:83/" target="_blank" rel="noopener noreferrer">View Webpage</a></p>*/}
 
                         <HeadingTwo data={this.MajoreventsTitle4} className="Heading" /> 

@@ -279,19 +279,13 @@ class Library extends React.Component {
                             <BodyOneJustified data={this.LibraryReferanceContent} />
                         </p>
                     </div>
-                    <div>
-                      
-                    <HeadingTwo data={this.LibraryReprographyTitle} className="Heading" />
-                    <p>
-                            <BodyOneJustified data={this.LibraryReprographyContent} />
-                        </p>
-                    </div>
+
                     
                     <div >
                         <HeadingTwo data={this.LibraryDigitalTitle} className="Heading" />
                         <BodyOneJustified data={this.DigitalLibraryContent} />
                         <p></p>
-                        <a href="https://vjcet.org/#/facilities/eresources" target="_blank"><span style={{fontSize:"24px",fontWeight:"bold",paddingLeft:"10%"}}>E- RESOURCES</span></a>
+                        <a href="https://vjcet.org/#/facilities/eresources" target="_blank"><span style={{fontSize:"26px",fontWeight:"bold",paddingLeft:"10%"}}>E- RESOURCES</span></a>
                         
                         <BodyOneJustified data={this.Digitaleresource} />
                         <ol  style={{lineHeight:"1.7em"}}>
@@ -321,6 +315,13 @@ class Library extends React.Component {
                             </li>
                         </ol>
                     </div>
+                    <div>
+                      
+                      <HeadingTwo data={this.LibraryReprographyTitle} className="Heading" />
+                      <p>
+                              <BodyOneJustified data={this.LibraryReprographyContent} />
+                          </p>
+                      </div>
                     <div >
                         <HeadingTwo data={this.LibraryJournalTitle} className="Heading" />
                         <BodyOneJustified data={this.LibraryJournalContent} />

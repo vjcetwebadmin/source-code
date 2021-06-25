@@ -7,6 +7,30 @@ class Faculty extends Component {
     caption: '',
     modalSrc: '',
   };
+  Cefaculty13 = {
+    image: "ph_placement/Sutherlandb.jpg",
+    cname: "Sutherland 2021 Batch"
+  }; 
+  Cefaculty12 = {
+    image: "ph_placement/Sutherlanda.jpg",
+    cname: "Sutherland, 2021 Batch"
+  }; 
+  Cefaculty11 = {
+    image: "ph_placement/Mitsogo.jpg",
+    cname: "Mitsogo, 2021 Batch"
+  }; 
+  Cefaculty10 = {
+    image: "ph_placement/Guidehouse.jpg",
+    cname: "Guidehouse, 2021 Batch"
+  }; 
+  Cefaculty9 = {
+    image: "ph_placement/Vvdn.jpg",
+    cname: "VVDN, 2021 Batch"
+  }; 
+  Cefaculty8 = {
+    image: "ph_placement/Factweavers.jpg",
+    cname: "Factweavers, 2021 Batch"
+  }; 
  Cefaculty1 = {
     image: "ph_placement/TCS.jpg",
     cname: "TCS, 2021 Batch"
@@ -38,7 +62,25 @@ class Faculty extends Component {
   render() {
     return (
       <div className="facultynew">    
-        <div className="facultyContentnew">    
+        <div className="facultyContentnew">   
+        <div>
+            <PhotoData data={this.Cefaculty13} />        
+          </div>
+        <div>
+            <PhotoData data={this.Cefaculty12} />        
+          </div>
+        <div>
+            <PhotoData data={this.Cefaculty11} />        
+          </div>
+        <div>
+            <PhotoData data={this.Cefaculty10} />        
+          </div>
+        <div>
+            <PhotoData data={this.Cefaculty9} />        
+          </div>
+        <div>
+            <PhotoData data={this.Cefaculty8} />        
+          </div> 
           <div>
             <PhotoData data={this.Cefaculty1} />        
           </div>
