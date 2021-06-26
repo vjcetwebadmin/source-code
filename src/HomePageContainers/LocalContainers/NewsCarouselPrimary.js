@@ -88,7 +88,7 @@ class NewsCarouselPrimary extends Component {
     //Recommended Image Size is 733px x 400px.
     width: "78%"
   };
- 
+
   Image9 = {
     instanceID: "NewsPrimaryOneImage",
     image: "NewsSection/BigNews/Pict1.jpg",
@@ -118,7 +118,13 @@ class NewsCarouselPrimary extends Component {
     title: "Viswajyothi ranked 9th out of 13 in the Cybathlon Competition",
     link: ""
   };
-
+  
+  Image13 = {
+    instanceID: "NewsPrimaryOneImage",
+    image: "NewsSection/BigNews/news2606.jpg",
+    //Recommended Image Size is 733px x 400px.
+    width: "43%"
+  };
 
 
   render() {
@@ -126,6 +132,10 @@ class NewsCarouselPrimary extends Component {
 
     return (
       <Carousel>
+      <Carousel.Item>
+         <NewsImage data={this.Image13}/>      
+      </Carousel.Item> 
+
        <Carousel.Item>
           <NewsImage data={this.Image8}/>      
        </Carousel.Item> 
