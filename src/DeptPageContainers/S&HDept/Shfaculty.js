@@ -8,7 +8,7 @@ class Faculty extends Component {
     image: "Allstaffphoto/SH/FAC/242.jpg",
     width: "50%",
     name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHFAC101" target="_blank" rel="noopener noreferrer">Mrs. Ann Neetha Sabu</a>,
-    content: "Associate Professor"
+    content: "Assistant Professor"
   };
   Cefaculty3 = {
     instanceID: "Cefaculty3",

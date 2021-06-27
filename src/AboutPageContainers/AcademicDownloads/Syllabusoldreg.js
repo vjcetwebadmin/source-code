@@ -57,8 +57,8 @@ class ResourcesGroup extends Component {
   };
   render() {
     return (
-      <div className="ResourcesGroup" style={{border:"3px solid black"}}>
-        <h2>B.Tech Regulation 2019-2020 onwards</h2>
+      <div className="ResourcesGroup">
+        <h2>B.Tech Regulation 2015-2016 to 2018-2019</h2>
           <div className="ResourcesContainer" id="AboutPageResourcesContainer">          
           <ResourcesList data={this.ResourceListThree} />
           <ResourcesList data={this.ResourceListFour} />

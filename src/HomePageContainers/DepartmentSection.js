@@ -13,14 +13,14 @@ class DepartmentSection extends Component {
   DepartmentSectionSubTitle = {
     instanceID: "DepartmentSectionSubTitle",
     title:
-      "All B.Tech courses are NBA accredited.We are offering UG and PG courses ranging from B.Tech, M.Tech, and Master of Bussiness Administration"
+      "All B.Tech courses are NBA accredited. We are offering UG and PG courses ranging from B.Tech, M.Tech, and Master of Bussiness Administration"
   };
 
   DepartmentListOne = {
     instanceID: "DepartmentListOne",
     title: "Civil Engineering(CE)",
     description:
-      "Civil engineers are entrusted by the society to create a sustainable world and enhance the global quality of life- they serve competently, collaboratively, and ethically as innovators and integrators of ideas and technology across the public, private, and academic sectors; managers of risk and uncertainty caused by natural disasters and other threats; and leaders in discussions and decisions shaping public environmental and infrastructure policy."
+      "Civil Engineers are entrusted by the society to create a sustainable world and enhance the global quality of life- they serve competently, collaboratively, and ethically as innovators and integrators of ideas and technology across the public, private, and academic sectors; managers of risk and uncertainty caused by natural disasters and other threats; and leaders in discussions and decisions shaping public environmental and infrastructure policy."
   };
 
   DepartmentListTwo = {
@@ -42,7 +42,7 @@ class DepartmentSection extends Component {
     instanceID: "DepartmentListFour",
     title: "Electrical & Electronics Engineering(EEE)",
     description:
-      "The Electrical and electronics engineers are working today in all spheres of modern society, be it internet, power systems, DC and AC transmission systems , a quality engineer with the ability to explore, experiment and exhibit are refined. "
+      "The Electrical and Electronics Engineers are working today in all spheres of modern society, be it internet, power systems, DC and AC transmission systems , a quality engineer with the ability to explore, experiment and exhibit are refined. "
   };
 
   DepartmentListFive = {

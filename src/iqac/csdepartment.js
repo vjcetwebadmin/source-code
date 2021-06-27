@@ -6,7 +6,7 @@ import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
 import HeadingOne from "../Components/Texts/HeadingOne";
 /* import BodyOne from "../../Components/Texts/BodyOne";
 import ImageOne from "../../Components/Images/ImageOne"; */
-import SideNav from "../iqac/SideNav";
+import SideNav from "./SideNav";
 
 class CsDepartment extends Component {
   state = { showMenu: false };
@@ -22,33 +22,7 @@ class CsDepartment extends Component {
     instanceID: "HomePageHeader"
   };
 
-  HomePageCarouselOne = {
-    instanceID: "HomePageCarouselOne"
-  };
 
-  HomePageCarouselTwo = {
-    instanceID: "HomePageCarouselTwo"
-  };
-
-  HomePageCarouselThree = {
-    instanceID: "HomePageCarouselThree"
-  };
-
-  HomePageDepartmentSection = {
-    instanceID: "HomePageDepartmentSection"
-  };
-
-  HomePageFacilitiesSection = {
-    instanceID: "HomePageFacilitiesSection"
-  };
-
-  HomePageVisionSection = {
-    instanceID: "HomePageVisionSection"
-  };
-
-  HomePageCarouselFour = {
-    instanceID: "HomePageCarouselFour"
-  };
 
   HomePageFooter = {
     instanceID: "HomePageFooter"

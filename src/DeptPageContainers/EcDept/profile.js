@@ -9,36 +9,44 @@ class Profile extends Component {
   };
   Features1 = {
     instanceID: "Features1",
-    title: "•	The department of Electronics & Communication Engineering was established in the year 2001."
+    title: "•	The Department of Electronics & Communication Engineering was established in the year 2001."
   };
 
   Features2 = {
     instanceID: "Features2",
-    title: "•	B.Tech Electronics & Communication Engineering program is accredited by NBA in June 2010 and reaccredited in June 2018 for another three years."
+    title: "•	The Department offers a B.Tech program in Electronics and Communication Engineering and an M.Tech program in VLSI and Embedded Systems."
   };
   Features3 = {
     instanceID: "Features3",
-    title: "•	The department has a very good placement records in various MNC’s. The department assist the students to get placed in core companies like Bosch, INTEL etc with the help of Miniplacement cell in association with Alumni Association."
+    title: "•	The B.Tech program was accredited by NBA in June 2010 and has been reaccredited in June 2018 for another three years."
   };
   Features4 = {
     instanceID: "Features4",
-    title: "•	The department bagged many university ranks both in B. Tech and M.Tech."
+    title: "•	The Department is fully equipped with state-of-the-art laboratories along with dedicated and qualified teaching professionals."
   };
   Features5 = {
     instanceID: "Features5",
-    title: "•	Students are trained to meet with the expectations of industry. Training is provided for various retail boards like Aurdrino, Raspberry Pie etc. Training in technical languages such as C,C++. Python etc are imparted in addition to the syllabus"
+    title: "•	To meet the requirements of industry and everyday life, the students are trained to undergo research and develop low power, cost effective electronic products."
   };
   Features6 = {
     instanceID: "Features6",
-    title: "•	Students actively take part in technical clubs like Drone Club, Robotic Club etc where they can exhibit their talents and ideas."
+    title: "•	Students of ECE Department play active role in various professional bodies like ISTE, IEEE, IETE student chapters."
   };
   Features7 = {
     instanceID: "Features7",
-    title: "•	Students play active role in various professional bodies like ISTE, IEEE, IETE student chapters of the college."
+    title: "•	The Department consistently organizes External Seminars and Symposiums, Internal Seminars, Short Term Training Programs, Faculty Development Programs sponsored by AICTE - ISTE."
   };
   Features8 = {
     instanceID: "Features8",
-    title: "•	The department consistently organizes External Seminars and Symposiums, Internal Seminars, Short Term Training Programs, Faculty Development Programs sponsored by AICTE - ISTE."
+    title: "•	The Department has a very good placement record in various MNC’s. The Department aids the students to get placed in the core companies with the help of a Mini-placement Cell in association with Alumni."
+  };
+  Features9 = {
+    instanceID: "Features9",
+    title: "•	The Department bagged many ranks in university exams including 5 first ranks 3 in B. Tech and 2 in M. Tech programs."
+  };
+  Features10 = {
+    instanceID: "Features10",
+    title: "•	ECE Department aims to   groom the students with high quality technical, managerial and research skills."
   };
   render() {
     return (
@@ -53,6 +61,8 @@ class Profile extends Component {
           <p><BodyOneJustified data={this.Features6} /></p>
           <p><BodyOneJustified data={this.Features7} /></p>
           <p><BodyOneJustified data={this.Features8} /></p>
+          <p><BodyOneJustified data={this.Features9} /></p>
+          <p><BodyOneJustified data={this.Features10} /></p>
         </div>
       </div>
     );

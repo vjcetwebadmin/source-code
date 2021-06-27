@@ -1,0 +1,53 @@
+import React from "react";
+// import ImageOne from "../Components/Images/ImageOne";
+import HeadingOne from "../../Components/Texts/HeadingOne";
+import HeadingTwo from "../../Components/Texts/HeadingTwo";
+//import HeadingFour from "../Components/Texts/HeadingFour";
+import ImageOne from "../../Components/Images/ImageOne";
+import "./Research.css"
+
+
+class nss extends React.Component {
+    state = { showMenu: false };
+    openMenu = () => {
+        console.log("opening Menu");
+        this.setState({ showMenu: true });
+    };
+    closeMenu = () => {
+        this.setState({ showMenu: false });
+    };
+    HomePageHeader = {
+        instanceID: "HomePageHeader"
+    };
+    HomePageFooter = {
+        instanceID: "HomePageFooter"
+    };
+ 
+      NsslogoImage6 = {
+        instanceID: "NsslogoImage6",
+        image: "eresource/onlinebs.png",
+        width: "80%"
+      };
+
+    MajoreventsTitle3 = {
+        instanceID: "MajoreventsTitle3",
+        title: "Online Book Search"
+    };   
+
+   
+
+    render() {
+        return (
+                <div >     
+                        <HeadingTwo data={this.MajoreventsTitle3} className="Heading" /> 
+                        <div className="facultyC">
+                            <div><a href="http://117.239.154.83:83/" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage6}/></a> </div>                                              
+                        </div>  
+                 </div>
+
+        )
+    }
+
+}
+
+export default nss;
