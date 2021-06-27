@@ -1,11 +1,9 @@
 import React, { Component } from "react";
-import "../Pages/Departments/csdepartment.css";
-import Header from "../Components/Header&Footer/Header";
-import Footer from "../Components/Header&Footer/Footer";
-import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
-import HeadingOne from "../Components/Texts/HeadingOne";
-/* import BodyOne from "../../Components/Texts/BodyOne";
-import ImageOne from "../../Components/Images/ImageOne"; */
+import "../../Pages/Departments/csdepartment.css";
+import Header from "../../Components/Header&Footer/Header";
+import Footer from "../../Components/Header&Footer/Footer";
+import MenuOverlay from "../../Components/MenuOverlay/MenuOverlay";
+import HeadingOne from "../../Components/Texts/HeadingOne";
 import SideNav from "./SideNav";
 
 class CsDepartment extends Component {
@@ -22,14 +20,13 @@ class CsDepartment extends Component {
     instanceID: "HomePageHeader"
   };
 
-
-
   HomePageFooter = {
     instanceID: "HomePageFooter"
   };
+
   HeadingSectionTitle = {
     instanceID: "Headingtext",
-    title: "Internal Quality Assurance Cell  (IQAC)"
+    title: "e-Resources"
   };
 
  

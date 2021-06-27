@@ -39,7 +39,7 @@ import solarplant from "./FacilitiesPageContainers/Solarplant/solarplant";
 import Library from "./FacilitiesPageContainers/Library/index";
 import Hostel from "./FacilitiesPageContainers/Hostel/index";
 import Healthandfitness from "./FacilitiesPageContainers/Healthandfitness/index";
-import eresource from "./FacilitiesPageContainers/Eresources/eresources";
+import eresource from "./FacilitiesPageContainers/Eresources/eresourcestart";
 import campusamenities from "./Pages/CoreFacilities";
 import transportation from "./FacilitiesPageContainers/Transportation/transportation";
 import NBA from "./Pages/NBA";

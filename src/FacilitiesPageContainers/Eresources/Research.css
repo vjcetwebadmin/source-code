@@ -2,7 +2,7 @@
     width: 80%;
     margin-left: 5%;
 }
-faculty {
+.faculty {
     margin-top: 10%;
   }
 .facultyC {
@@ -10,7 +10,7 @@ faculty {
     grid-template-columns:35% 35% 35%;
     grid-gap: 10px;
     text-align: left;
-    padding-left: 17%;
+    padding-left: 10px;
   }
   .grid-container > div {
     background-color: rgba(255, 255, 255, 0.8);
@@ -22,5 +22,13 @@ faculty {
   {
     text-align:justify;
     font-size: 20px;
-    padding-left: 15%;
+    padding-right: 10px;
+  }
+
+  .paraeresource
+  {
+    text-align:justify;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-left: 10px;
   }
