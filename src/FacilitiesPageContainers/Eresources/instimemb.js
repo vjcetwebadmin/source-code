@@ -26,14 +26,18 @@ class nss extends React.Component {
       NsslogoImage12 = {
         instanceID: "NsslogoImage12",
         image: "eresource/delnet.jpg",
-        width: "50%"
+        width: "60%"
       };
       NsslogoImage13 = {
         instanceID: "NsslogoImage13",
         image: "eresource/ndli.jpg",
         width: "50%"
       };
-
+      NsslogoImage14 = {
+        instanceID: "NsslogoImage14",
+        image: "eresource/ndliclub.png",
+        width: "65%"
+      };
   
     MajoreventsTitle8 = {
         instanceID: "MajoreventsTitle8",
@@ -47,10 +51,10 @@ class nss extends React.Component {
                 <div > 
                                               
                         <HeadingTwo data={this.MajoreventsTitle8} className="Heading" /> 
-                        <div className="facultyC" style={{textAlign:"left"}}>
-                            <div style={{textAlign:"center"}}><a href="http://164.100.247.30" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage12}/>Link 1</a> </div> 
-                            <div style={{textAlign:"center"}}><a  href="www.delnet.nic.in" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage12}/>Link 2</a> </div>
-                            <div><a href="http://ndl.iitkgp.ac.in" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage13}/></a> </div>
+                        <div className="facultyC">
+                            <div ><a href="http://164.100.247.30" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage12}/></a> </div> 
+                            <div ><a  href="http://ndl.iitkgp.ac.in" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage14}/></a> </div>
+                            <div><a href="https://club.ndl.iitkgp.ac.in/" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage13}/></a> </div>
                         </div>   
  
           </div>

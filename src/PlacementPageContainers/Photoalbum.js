@@ -7,6 +7,42 @@ class Faculty extends Component {
     caption: '',
     modalSrc: '',
   };
+  Cefaculty22 = {
+    image: "ph_placement/Mindtree.jpg",
+    cname: "Mindtree 2021 Batch"
+  }; 
+  Cefaculty21 = {
+    image: "ph_placement/Eleation.jpg",
+    cname: "Eleation 2021 Batch"
+  }; 
+  Cefaculty20 = {
+    image: "ph_placement/Image.jpg",
+    cname: "Image Infosystems 2021 Batch"
+  }; 
+  Cefaculty19 = {
+    image: "ph_placement/Zerone.jpg",
+    cname: "Zerone 2021 Batch"
+  }; 
+  Cefaculty18 = {
+    image: "ph_placement/Rapidvalue.jpg",
+    cname: "RapidValue 2021 Batch"
+  }; 
+  Cefaculty17 = {
+    image: "ph_placement/Nest.jpg",
+    cname: "Nest 2021 Batch"
+  }; 
+  Cefaculty16 = {
+    image: "ph_placement/NMSworks.jpg",
+    cname: "NMSworks 2021 Batch"
+  }; 
+  Cefaculty15 = {
+    image: "ph_placement/Willeys.jpg",
+    cname: "WILEY 2021 Batch"
+  }; 
+  Cefaculty14 = {
+    image: "ph_placement/Infosys21.jpg",
+    cname: "Infosys 2021 Batch"
+  }; 
   Cefaculty13 = {
     image: "ph_placement/Sutherlandb.jpg",
     cname: "Sutherland 2021 Batch"
@@ -62,7 +98,34 @@ class Faculty extends Component {
   render() {
     return (
       <div className="facultynew">    
-        <div className="facultyContentnew">   
+        <div className="facultyContentnew"> 
+        <div>
+            <PhotoData data={this.Cefaculty22} />        
+          </div> 
+          <div>
+            <PhotoData data={this.Cefaculty21} />        
+          </div> 
+        <div>
+            <PhotoData data={this.Cefaculty20} />        
+          </div> 
+        <div>
+            <PhotoData data={this.Cefaculty19} />        
+          </div> 
+          <div>
+            <PhotoData data={this.Cefaculty18} />        
+          </div> 
+          <div>
+            <PhotoData data={this.Cefaculty17} />        
+          </div> 
+        <div>
+            <PhotoData data={this.Cefaculty16} />        
+          </div> 
+        <div>
+            <PhotoData data={this.Cefaculty15} />        
+          </div>  
+        <div>
+            <PhotoData data={this.Cefaculty14} />        
+          </div> 
         <div>
             <PhotoData data={this.Cefaculty13} />        
           </div>

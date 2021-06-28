@@ -153,7 +153,7 @@ class SideNav extends Component {
               />  
               <input
 
-              value="PPTs & Videos"
+              value="PPTs & Video Lectures"
               class="buttongriev1"
               onClick={this.onClickAss}
             /> 
