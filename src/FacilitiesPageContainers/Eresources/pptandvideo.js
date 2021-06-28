@@ -36,7 +36,7 @@ class nss extends React.Component {
  
     MajoreventsTitle6 = {
         instanceID: "MajoreventsTitle6",
-        title: "PPTs & Videos"
+        title: "PPTs & Video Lectures"
     };
 
     render() {
@@ -45,7 +45,7 @@ class nss extends React.Component {
                         <HeadingTwo data={this.MajoreventsTitle6} className="Heading" />
                         <div className="facultyC">
                             <div><a href="https://drive.google.com/drive/folders/19BBRotjhvKD83sxI9c7I82zvIRduwlxE" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage7}/></a> </div>                                              
-                            <div><a href="ftp://nptel:nptel@202.88.251.252/" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage6}/></a> </div>                                              
+                            <div><a href="ftp://nptel:nptel@202.88.251.252/" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage6}/></a>Enable FTP Service on your browser to view</div>                                              
                         </div> 
                  </div>
 

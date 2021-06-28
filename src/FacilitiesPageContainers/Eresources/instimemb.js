@@ -49,7 +49,7 @@ class nss extends React.Component {
                         <HeadingTwo data={this.MajoreventsTitle8} className="Heading" /> 
                         <div className="facultyC" style={{textAlign:"left"}}>
                             <div style={{textAlign:"center"}}><a href="http://164.100.247.30" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage12}/>Link 1</a> </div> 
-                            <div style={{textAlign:"center"}}><a  href="www.delnet.nic.in" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage12}/>Link 2</a> </div>
+                            {/*<div style={{textAlign:"center"}}><a  href="www.delnet.nic.in" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage12}/>Link 2</a> </div>*/}
                             <div><a href="http://ndl.iitkgp.ac.in" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage13}/></a> </div>
                         </div>   
  
