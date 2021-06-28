@@ -7,6 +7,14 @@ class Faculty extends Component {
     caption: '',
     modalSrc: '',
   };
+  Cefaculty16 = {
+    image: "ph_placement/NMSworks.jpg",
+    cname: "NMSworks 2021 Batch"
+  }; 
+  Cefaculty15 = {
+    image: "ph_placement/Willeys.jpg",
+    cname: "WILEY 2021 Batch"
+  }; 
   Cefaculty14 = {
     image: "ph_placement/Infosys21.jpg",
     cname: "Infosys 2021 Batch"
@@ -66,7 +74,13 @@ class Faculty extends Component {
   render() {
     return (
       <div className="facultynew">    
-        <div className="facultyContentnew">  
+        <div className="facultyContentnew"> 
+        <div>
+            <PhotoData data={this.Cefaculty16} />        
+          </div> 
+        <div>
+            <PhotoData data={this.Cefaculty15} />        
+          </div>  
         <div>
             <PhotoData data={this.Cefaculty14} />        
           </div> 
