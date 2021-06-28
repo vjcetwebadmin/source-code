@@ -7,6 +7,18 @@ class Faculty extends Component {
     caption: '',
     modalSrc: '',
   };
+  Cefaculty22 = {
+    image: "ph_placement/Mindtree.jpg",
+    cname: "Mindtree 2021 Batch"
+  }; 
+  Cefaculty21 = {
+    image: "ph_placement/Eleation.jpg",
+    cname: "Eleation 2021 Batch"
+  }; 
+  Cefaculty20 = {
+    image: "ph_placement/Image.jpg",
+    cname: "Image Infosystems 2021 Batch"
+  }; 
   Cefaculty19 = {
     image: "ph_placement/Zerone.jpg",
     cname: "Zerone 2021 Batch"
@@ -87,6 +99,15 @@ class Faculty extends Component {
     return (
       <div className="facultynew">    
         <div className="facultyContentnew"> 
+        <div>
+            <PhotoData data={this.Cefaculty22} />        
+          </div> 
+          <div>
+            <PhotoData data={this.Cefaculty21} />        
+          </div> 
+        <div>
+            <PhotoData data={this.Cefaculty20} />        
+          </div> 
         <div>
             <PhotoData data={this.Cefaculty19} />        
           </div> 
