@@ -237,7 +237,7 @@ class powerandbackup extends React.Component {
                     <HeadingOne data={this.InstiBackupTitle}/>
 
                     <div className="bodyContainer">
-                        <BodyOneJustified data={this.maincontent} />
+                       {/* <BodyOneJustified data={this.maincontent} />*/}
                         <HeadingTwo data={this.WheelTitle1}/>
                         <BodyOneJustified data={this.wheelcontent} />
                        
