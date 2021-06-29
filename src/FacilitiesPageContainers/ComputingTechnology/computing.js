@@ -52,7 +52,7 @@ class CCC extends React.Component {
     }
     CCCContent2 = {
         instanceID: "CCCContent2",
-        title: "We have more than 1000 computers and 8 MNC servers in the campus and all of these are connected across a single LAN. All the computers are in same domain and hence staff and students can access their data at any lab/Staff Room at any time during working hours. Our servers are 24 hours working throughout the year. We have a centralized administration point called server room from where all the locations are connected via fiber optic back bone cable. All the operations are monitored and controlled from the server room."
+        title: "We have 938 computers and 8 MNC servers in the campus and all of these are connected across a single LAN. All the computers are in same domain and hence staff and students can access their data at any lab/Staff Room at any time during working hours. Our servers are 24 hours working throughout the year. We have a centralized administration point called server room from where all the locations are connected via fiber optic back bone cable. All the operations are monitored and controlled from the server room."
     }
     CCCContent3 = {
         instanceID: "CCCContent3",
