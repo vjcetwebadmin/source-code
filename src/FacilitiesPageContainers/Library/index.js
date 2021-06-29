@@ -132,16 +132,16 @@ class Library extends React.Component {
                             <th> Collection</th><th>Numbers</th>
                         </tr>
                         <tr>
-                            <td>Titles</td><td>10396</td>
+                            <td>Titles</td><td>10394</td>
                         </tr>
                         <tr>
-                            <td>Volume</td><td>38285</td>
+                            <td>Volume</td><td>38290</td>
                         </tr>
                         <tr>
                             <td>Journals(National & International)</td><td>88</td>
                         </tr>
                         <tr>
-                            <td>E-Books</td><td>4725</td>
+                            <td>E-Books</td><td>5000+</td>
                         </tr>
                         <tr>
                             <td>Project Reports</td><td>1049</td>
@@ -165,7 +165,7 @@ class Library extends React.Component {
                             <td>E-Journals</td><td>IEEE (ASPP), ASME, ASCE, EBSCO (Management)</td>
                         </tr>
                         <tr>
-                            <td>INSTITUTIONAL MEMBERSHIP</td><td>DELNET, NDLI Club</td>
+                            <td>INSTITUTIONAL MEMBERSHIP</td><td>DELNET, NDLI, NDLI Club</td>
                         </tr>
                         <tr>
                             <td>IN HOUSE DATABASES</td><td><ol><li>INSTITUTIONAL REPOSITORY</li><li> AUDIO/VIDEO LIBRARY<ol>2.1. NPTEL</ol><ol>2.2. MEDIA REPOSITORY</ol></li></ol> </td>

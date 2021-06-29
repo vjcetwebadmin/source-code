@@ -78,7 +78,16 @@ class powerandbackup extends React.Component {
         instanceID: "sewagecontent",
         title: "Kaizen…continuous improvement! Every student has immense potentials just asking for opportunities to polish and transform one’s skills, to examine and utilise information gained, to develop personal management skills and to interact and deal effectively with the challenges of day to day life. At Viswajyothi College, we strive for the holistic development of every student through various skill development initiatives as well as value added training programmes arranged in a well-paced manner."
     };
-  
+    lifeskill1 = {
+        instanceID: "lifeskill1",
+        image: "naac/Skills/skill3.png",
+        width: "60%"
+    }; 
+    lifeskill2 = {
+        instanceID: "lifeskill2",
+        image: "naac/Skills/skill5.png",
+        width: "60%"
+    }; 
 
     
     wasteTitle1 = {
@@ -103,7 +112,6 @@ class powerandbackup extends React.Component {
                     <HeadingOne data={this.InstiBackupTitle}/>
 
                     <div className="bodyContainer">
-                        <BodyOneJustified data={this.maincontent} />
                         <HeadingTwo data={this.WheelTitle1}/>
                         <BodyOneJustified data={this.wheelcontent} />
                        
@@ -124,7 +132,8 @@ class powerandbackup extends React.Component {
 
                         <HeadingTwo data={this.sewageTitle1}/>
                         <BodyOneJustified data={this.sewagecontent} />
-                       
+                        <p style={{textAlign:"center"}}><ImageOne data={this.lifeskill1}/></p>
+                        <p style={{textAlign:"center"}}><ImageOne data={this.lifeskill2}/></p>
                       
                         <HeadingTwo data={this.wasteTitle1}/>
                         <BodyOneJustified data={this.wastecontent} />
