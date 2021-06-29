@@ -81,6 +81,7 @@ import Ict from "./CampusLifePageContainers/ProfessionalBodies/ICT";
 import NAAC_C1_P1 from "./Naac/Nac_C1_P1";
 import NAACbase from "./Naac/naacstart";
 import codeofc from "./CodeofC/codeofconducts";
+import strategic from "./CodeofC/strategicplan";
 import grievance from "./Grievance/grievance";
 import govenbody from "./AboutPageContainers/AboutVJC/governbody" 
 import distinctiv from "./Naac/insti_disti_731"
@@ -799,6 +800,7 @@ class App extends Component {
               <Route exact path="/ed/unai" component={Unai} />
               <Route exact path="/iqac" component={Iqacfull} />
               <Route exact path="/codofc" component={codeofc} />
+              <Route exact path="/strategic_plan" component={strategic} />
               <Route exact path="/ed/nisp" component={NISP} />
 
               <Route exact path="/NAAC/NAAC_C1_P1" component={NAAC_C1_P1} />
