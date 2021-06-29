@@ -31,7 +31,7 @@ class nss extends React.Component {
       }
       ResearchHeading = {
         instanceID: "ResearchHeading",
-        title: "CODE OF CONDUCT"
+        title: "Strategic plan of VJCET"
     }
 
     MajoreventsTitle = {
@@ -61,17 +61,20 @@ class nss extends React.Component {
             <React.Fragment>
                 <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />  
                 <HeadingOne data={this.ResearchHeading}></HeadingOne>  
-                 <div className="contain">     
-                 <p style={{textAlign:"right"}}><a href="https://vjcet.org/downloads/codofcs/Codeofthics.pdf" target="_blank" rel="noopener noreferrer"><b>Policy Document on Code of Ethics</b></a></p>           
-                        <HeadingTwo data={this.MajoreventsTitle} className="Heading" />
-                        <h4>DISCIPLINE AND ANTI RAGGING</h4>
+                 <div className="contain">           
+                      {/*  <HeadingTwo data={this.MajoreventsTitle} className="Heading" />*/}
                         <ul>                        
-                        <li><p>All the students should maintain 100% attendance as far as possible.</p></li>
-                        <li><p>Leave or absence due to sickness, attending family functions, unavoidable requirements etc. should not exceed 25% of the attendance.</p></li>
-                        <li><p>Any conduct by any student or students whether by words spoken or written or by an act which has the effect of teasing, treating or handling with rudeness a fresher or any other student. </p></li>
+                        <li><p>Improving the teaching-learning process.</p></li>
+                        <li><p>Enhancing the industry institute interaction.</p></li>
+                        <li><p>Rendering successful entrepreneurs.</p></li>
+                        <li><p>Providing personality development programs for students.</p></li>
+                        <li><p>Achieving placement in reputed establishments.</p></li>
+                        <li><p>Implementing e-governance in all areas.</p></li>
+                        <li><p>Encouraging R & D by faculty and students.</p></li>
+                        <li><p>Developing the campus to a clean and green one.</p></li>
+                        <li><p>Implementing welfare measures for faculty members.</p></li>                    
                         </ul>
-                        <p style={{textAlign:"right"}}><a href="https://vjcet.org/downloads/codofcs/Website-3-6.pdf" target="_blank" rel="noopener noreferrer">Read More</a></p>
-
+                        <p style={{textAlign:"center"}}><a href="https://vjcet.org/downloads/codofcs/Strategic_Plan_vjcet.pdf" target="_blank" rel="noopener noreferrer">Read More</a></p>
 
                 </div>
                 
