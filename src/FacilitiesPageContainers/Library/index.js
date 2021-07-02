@@ -329,8 +329,8 @@ class Library extends React.Component {
                             <li>AUDIO/VIDEO LIBRARY
                                 <ol>2.1. NPTEL</ol>
                                 <ol>2.2. MEDIA REPOSITORY
-                                        <ol>2.2.1 Previous year Question papers</ol>
-                                        <ol>2.2.2 Syllabi</ol>      
+                                        <ol>2.2.1 FDP & Webinars</ol>
+                                        <ol>2.2.2 PPTs and Video Lectures</ol>      
                                 </ol>        
                             </li>
                         </ol>
@@ -366,12 +366,20 @@ class Library extends React.Component {
                           <a href="https://vjcet.org/#/facilities/eresources" target="_blank"><span style={{fontSize:"26px",fontWeight:"bold",paddingLeft:"10%"}}>INDIAN ELECTRONIC THESES AND DISSERTATIONS</span></a>
                        <p>
                                 <ol  style={{lineHeight:"1.7em"}}>
-                                    <li>E-Shodganga - <b>CONSORTIUM FOR HIGHER EDUCATION ELECTRONIC RESOURCES</b></li>
+                                    <li>E-Shodganga</li>                   
+                                </ol>
+                            </p>
+                        </div>  
+
+                        <div>
+                      <p></p>
+                          <a href="https://vjcet.org/#/facilities/eresources" target="_blank"><span style={{fontSize:"26px",fontWeight:"bold",paddingLeft:"10%"}}>CONSORTIUM FOR HIGHER EDUCATION ELECTRONIC RESOURCES</span></a>
+                       <p>
+                                <ol  style={{lineHeight:"1.7em"}}>
                                     <li>E-Shodsindhu</li>
                                 </ol>
                             </p>
-                        </div>                          
-
+                        </div>  
 
                     <div >
                         <HeadingTwo data={this.LibraryJournalTitle} className="Heading" />
