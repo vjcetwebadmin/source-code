@@ -28,16 +28,6 @@ class nss extends React.Component {
         image: "eresource/digital.png",
         width: "50%"
       };
-      NsslogoImage6 = {
-        instanceID: "NsslogoImage6",
-        image: "eresource/shodu1.png",
-        width: "70%"
-      };
-      NsslogoImage7 = {
-        instanceID: "NsslogoImage7",
-        image: "eresource/shodu2.png",
-        width: "70%"
-      };
 
 
     MajoreventsTitle2 = {
@@ -52,8 +42,6 @@ class nss extends React.Component {
             <HeadingTwo data={this.MajoreventsTitle2} className="Heading" />
                 <div className="facultyC">
                     <div><a href="http://117.239.154.83/" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage5}/></a> </div>     
-                    <div><a href="https://ess.inflibnet.ac.in/oes/selfsubscribed.php" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage6}/></a> </div>                                              
-                    <div><a href="https://shodhganga.inflibnet.ac.in/" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage7}/></a> </div>                                                                                       
                 </div>  
           </div>
         )

@@ -38,7 +38,17 @@ class nss extends React.Component {
         image: "eresource/ndliclub.png",
         width: "65%"
       };
-  
+      NsslogoImage6 = {
+        instanceID: "NsslogoImage6",
+        image: "eresource/shodu1.png",
+        width: "80%"
+      };
+      NsslogoImage7 = {
+        instanceID: "NsslogoImage7",
+        image: "eresource/shodu2.png",
+        width: "60%"
+      };
+ 
     MajoreventsTitle8 = {
         instanceID: "MajoreventsTitle8",
         title: "Institutional Memberships "
@@ -55,6 +65,9 @@ class nss extends React.Component {
                             <div ><a href="http://www.delnet.in/" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage12}/></a> </div> 
                             <div ><a  href="http://ndl.iitkgp.ac.in" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage14}/></a> </div>
                             <div><a href="https://club.ndl.iitkgp.ac.in/" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage13}/></a> </div>
+                            <div><a href="https://ess.inflibnet.ac.in/oes/selfsubscribed.php" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage6}/></a> </div>                                              
+                            <div><a href="https://shodhganga.inflibnet.ac.in/" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage7}/></a> </div>                                                                                       
+
                         </div>   
  
           </div>
