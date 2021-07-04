@@ -73,6 +73,7 @@ class nss extends React.Component {
                         <li><p>Encouraging R & D by faculty and students.</p></li>
                         <li><p>Developing the campus to a clean and green one.</p></li>
                         <li><p>Implementing welfare measures for faculty members.</p></li>                    
+                        <li><p>Other initiatives of the institution.</p></li>                    
                         </ul>
                         <p style={{textAlign:"center"}}><a href="https://vjcet.org/downloads/codofcs/Strategic_Plan_vjcet.pdf" target="_blank" rel="noopener noreferrer">Read More</a></p>
 
