@@ -125,13 +125,23 @@ class NewsCarouselPrimary extends Component {
     //Recommended Image Size is 733px x 400px.
     width: "43%"
   };
-
+  Image14 = {
+    instanceID: "NewsPrimaryOneImage",
+    image: "NewsSection/BigNews/supplychanin.jpg",
+    //Recommended Image Size is 733px x 400px.
+    width: "65%"
+  };
 
   render() {
     //const { instanceID } = this.props.data;
 
     return (
       <Carousel>
+
+      <Carousel.Item>
+         <NewsImage data={this.Image14}/>      
+      </Carousel.Item> 
+
       <Carousel.Item>
          <NewsImage data={this.Image13}/>      
       </Carousel.Item> 

@@ -41,11 +41,8 @@ class nss extends React.Component {
         <div > 
             <HeadingTwo data={this.MajoreventsTitle2} className="Heading" />
                 <div className="facultyC">
-                    <div><a href="http://117.239.154.83/" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage5}/></a> </div>                                              
-                </div>
-                {/*<p className="paraheading"><a href="http://117.239.154.83/" target="_blank" rel="noopener noreferrer">View Webpage</a></p>*/}
-
- 
+                    <div><a href="http://117.239.154.83/" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage5}/></a> </div>     
+                </div>  
           </div>
         )
     }

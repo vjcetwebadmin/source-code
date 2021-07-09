@@ -69,7 +69,7 @@ class SideNav extends Component {
   };
   Heading = {
     instanceID: "Heading",
-    title: "Roll of honourS"
+    title: "Roll of Honours"
   };
   render() {
     return (

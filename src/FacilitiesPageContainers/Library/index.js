@@ -56,7 +56,7 @@ class Library extends React.Component {
     }
     LibraryContent3 = {
         instanceID: "LibraryContent3",
-        title: "The collection comprises 44390 printed documents such as books, project reports, mini project reports, seminar reports and back volumes of journals and the non-book materials like CD ROMs. Membership of the library is open to Students, Teachers and Non Teaching Staff of this college. Library membership is free to all faculty, staff and students. The library also subscribes 88 printed journals, 31 general magazines and library subscribed full text online database like IEEE(ASPP), Science Direct, EBSCO and E - resources through DELNET and National digital library. NPTEL facility to access video lectures are also available."
+        title: "The collection comprises 44390 printed documents such as books, project reports, mini project reports, seminar reports and back volumes of journals and the non-book materials like CD ROMs. Membership of the library is open to Students, Teachers and Non Teaching Staff of this college. Library membership is free to all faculty, staff and students. The library also subscribes 88 printed journals, 31 general magazines and library subscribed full text online database like IEEE(ASPP), ASME, ASCE, EBSCO and E-resources through DELNET and National digital library. NPTEL facility to access video lectures are also available."
     }
     DigitalLibraryContent = {
         instanceID: "DigitalLibraryContent",
@@ -64,7 +64,7 @@ class Library extends React.Component {
     }
     Digitaleresource= {
         instanceID: "Digitaleresource",
-        title: "The library provides IP enabled access to a large number of full text on line journal databases from the various publishers."
+        title: "A large collection of e-resources is available in this library."
     }
     LibraryServiceTitle = {
         instanceID: "LibraryServiceTitle",
@@ -81,26 +81,40 @@ class Library extends React.Component {
     LibraryReprographyTitle = {
         instanceID: "LibraryReprographyTitle",
         title: "Reprography Services"
-    };
-    
+    };    
     
     LibraryReprographyContent = {
         instanceID: "LibraryReprographyContent",
-        title: "The library provides photocopying facilities allowed within the copyright rules. Question papers of previous year university examinations, articles of journals can also be photocopied."
+        title: "The library provides printing, scanning and photocopying facilities allowed within the copyright rules."
     }
+    LibraryejournalTitle = {
+        instanceID: "LibraryejournalTitle",
+        title: "E-JOURNALS"
+    };    
+    
+    LibraryRejournalContent = {
+        instanceID: "LibraryRejournalContent",
+        title: "The library provides IP enabled access to a large number of full text on line journal databases from the various publishers."
+    }
+
+
+
     LibraryResourceTitle = {
         instanceID: "LibraryResourceTitle",
         title: "Library Resources"
     };
     LibraryJournalTitle = {
         instanceID: "LibraryResourceTitle",
-        title: "Transaction-Journal-Magazine Subscriptions"
+        title: "Transaction-Journal-Magazine Subscriptions" 
     };
     LibraryJournalContent = {
         instanceID: "LibraryJournalContent",
         title: "The library receives 129 printed journals, technical and newspapers. The library provides IP enabled access to a large number of full text online journal databases from the various publishers."
     }
-    
+    LibrarydigitalContent = {
+        instanceID: "LibrarydigitalContent",
+        title: "A well- arranged Digital Library with 60 Computers and 25 headphones help the users to view e-facilities and use Audio/video facilities also. Digital Library can also be accessed anywhere on the campus."
+    }
     LibraryImagedata = {
         instanceID: "LibraryVjcImage",
         image: "IMG_9928.jpg",
@@ -272,62 +286,101 @@ class Library extends React.Component {
                     <div>
                         
                     </div>
-                    <div>
-                      
+                    <div>                      
                     <HeadingTwo data={this.LibraryReferanceTitle} className="Heading" />
                     <p>
-                            <BodyOneJustified data={this.LibraryReferanceContent} />
+                       <BodyOneJustified data={this.LibraryReferanceContent} />
                         </p>
-                    </div>
-
-                    
+                    </div> 
+                    <div>                      
+                    <HeadingTwo data={this.LibraryReprographyTitle} className="Heading" />
+                    <p>
+                       <BodyOneJustified data={this.LibraryReprographyContent} />
+                        </p>
+                    </div>                      
                     <div >
+
                         {/*<HeadingTwo data={this.LibraryDigitalTitle} className="Heading" />
                         <BodyOneJustified data={this.DigitalLibraryContent} />*/}
                         <p></p>
                         <a href="https://vjcet.org/#/facilities/eresources" target="_blank"><span style={{fontSize:"26px",fontWeight:"bold",paddingLeft:"10%"}}>E- RESOURCES</span></a>
-                        
                         <BodyOneJustified data={this.Digitaleresource} />
-                        <ol  style={{lineHeight:"1.7em"}}>
-                            <li>IEEE (All Society Periodicals Package)</li>
-                            <li>ASCE</li>
-                            <li>ASME</li>
-                            <li>EBSCO (Business Source Elite)</li>
-                            <li>DELNET</li>
-                            <li>NDLI</li>
-                        </ol>
-
-                       {/* <ol  style={{lineHeight:"1.7em"}}>
-                            <li><a href="http://ieeexplore.ieee.org" target="_blank">IEEE (All Society Periodicals Package)</a></li>
-                            <li><a href="http://ascelibrary.org" target="_blank">ASCE</a></li>
-                            <li><a href="http://asmedigitalcollection.asme.org" target="_blank">ASME</a></li>
-                            <li><a href="https://search.ebscohost.com" target="_blank">EBSCO (Business Source Elite)</a></li>
-                            <li><p><a href="http://164.100.247.30" target="_blank">DELNET Link1</a></p><p>OR</p> <p><a href="www.delnet.nic.in" target="_blank">DELNET Link2</a></p></li>
-                            <li><a href="http://ndl.iitkgp.ac.in" target="_blank">NDLI</a></li>
-                        </ol>
-
-                        <HeadingTwo data={this.LibraryDigitalResorceTitlesub} className="Heading"/>*/}
-                        <p></p>
-                        <a href="https://vjcet.org/#/facilities/eresources" target="_blank"><span style={{fontSize:"26px",fontWeight:"bold",paddingLeft:"10%"}}>INHOUSE DATABASES</span></a>                        
-
-                        <ol style={{lineHeight:"1.7em"}}>
-                            <li>INSTITUTIONAL REPOSITORY</li>
-                            <li>AUDIO/VIDEO LIBRARY
-                                <ol>2.1. NPTEL</ol>
-                                <ol>2.2. MEDIA REPOSITORY</ol>        
-                            </li>
-                        </ol>
+                       
                     </div>
                     <div>
-                      
-                    {/*  <HeadingTwo data={this.LibraryReprographyTitle} className="Heading" />*/}
+
                     <p></p>
                         <a href="https://vjcet.org/#/facilities/eresources" target="_blank"><span style={{fontSize:"26px",fontWeight:"bold",paddingLeft:"10%"}}>DIGITAL LIBRARY</span></a>
-                        
-                      <p>
-                              <BodyOneJustified data={this.LibraryReprographyContent} />
+                     <p>
+                        <BodyOneJustified data={this.LibrarydigitalContent} />
                           </p>
+                          <div style={{paddingLeft:"10%"}}> 
+                        <a href="https://vjcet.org/#/facilities/eresources" target="_blank"><span style={{fontSize:"23px",fontWeight:"bold",paddingLeft:"10%"}}>INHOUSE DATABASES</span></a>                        
+
+                        <ol style={{lineHeight:"1.7em"}}>
+                            <li>INSTITUTIONAL REPOSITORY
+                            <ol>1.1. Previous year Question papers</ol>
+                            <ol>1.2. Syllabi</ol>
+                            <ol>1.3. Journals contents pages (subscribed Journals)</ol>
+                            <ol>1.4. List of Seminar Reports</ol>
+                            <ol>1.5. List of Project Reports</ol>
+                            <ol>1.6. News paper cuttings (VJCET News) etc.</ol>
+                            </li>
+                            <li>AUDIO/VIDEO LIBRARY
+                                <ol>2.1. NPTEL</ol>
+                                <ol>2.2. MEDIA REPOSITORY
+                                        <ol>2.2.1 FDP & Webinars</ol>
+                                        <ol>2.2.2 PPTs and Video Lectures</ol>      
+                                </ol>        
+                            </li>
+                        </ol>
+                        </div>
                       </div>
+
+                      <div>
+                      <p></p>
+                          <a href="https://vjcet.org/#/facilities/eresources" target="_blank"><span style={{fontSize:"26px",fontWeight:"bold",paddingLeft:"10%"}}>E-JOURNALS</span></a>
+                         <p>
+                                <BodyOneJustified data={this.LibraryJournalContent} />
+                                <ol  style={{lineHeight:"1.7em"}}>
+                                    <li>IEEE (All Society Periodicals Package)</li>
+                                    <li>ASCE</li>
+                                    <li>ASME</li>
+                                    <li>EBSCO (Business Source Elite)</li>
+                                </ol>
+                            </p>
+                        </div> 
+                        <div>
+                      <p></p>
+                          <a href="https://vjcet.org/#/facilities/eresources" target="_blank"><span style={{fontSize:"26px",fontWeight:"bold",paddingLeft:"10%"}}>INSTITUTIONAL MEMBERSHIP</span></a>
+                       <p>
+                                <ol  style={{lineHeight:"1.7em"}}>
+                                    <li>DELNET</li>
+                                    <li>NDLI</li>
+                                    <li>NDLI Club</li>
+                                </ol>
+                            </p>
+                        </div>  
+                        <div>
+                      <p></p>
+                          <a href="https://vjcet.org/#/facilities/eresources" target="_blank"><span style={{fontSize:"26px",fontWeight:"bold",paddingLeft:"10%"}}>INDIAN ELECTRONIC THESES AND DISSERTATIONS</span></a>
+                       <p>
+                                <ol  style={{lineHeight:"1.7em"}}>
+                                    <li>E-Shodganga</li>                   
+                                </ol>
+                            </p>
+                        </div>  
+
+                        <div>
+                      <p></p>
+                          <a href="https://vjcet.org/#/facilities/eresources" target="_blank"><span style={{fontSize:"26px",fontWeight:"bold",paddingLeft:"10%"}}>CONSORTIUM FOR HIGHER EDUCATION ELECTRONIC RESOURCES</span></a>
+                       <p>
+                                <ol  style={{lineHeight:"1.7em"}}>
+                                    <li>E-Shodsindhu</li>
+                                </ol>
+                            </p>
+                        </div>  
+
                     <div >
                         <HeadingTwo data={this.LibraryJournalTitle} className="Heading" />
                         <BodyOneJustified data={this.LibraryJournalContent} />

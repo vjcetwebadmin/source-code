@@ -48,7 +48,7 @@ class CCC extends React.Component {
     };
     CCCContent1 = {
         instanceID: "CCCContent1",
-        title: "Viswajyothi has a central computing facility named as Common Computing Centre (CCC) functioning from 8AM to 8PM.The campus is having two internet leased lines 154 Mbps each. Students can access Internet and download relevant study materials and can procure hard copies of the study materials with the assistance of staff at any time. The center is fully air conditioned and well-equipped with an uninterrupted power supply."
+        title: "Viswajyothi has a central computing facility named as Common Computing Centre (CCC) functioning from 8AM to 8PM. The campus is having two internet leased lines 155 and 100 Mbps each. Students can access Internet and download relevant study materials and can procure hard copies of the study materials with the assistance of staff at any time. The center is fully air conditioned and well-equipped with an uninterrupted power supply."
     }
     CCCContent2 = {
         instanceID: "CCCContent2",

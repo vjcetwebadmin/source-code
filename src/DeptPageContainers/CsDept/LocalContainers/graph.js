@@ -130,7 +130,7 @@ class CeGraph extends Component {
             />
             <input
               type="button"
-              value="Roll of honours"
+              value="Roll of Honours"
               class="buttongraph"
               onClick={this.onClickHon}
             /> */}
