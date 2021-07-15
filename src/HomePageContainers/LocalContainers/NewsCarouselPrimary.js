@@ -125,11 +125,11 @@ class NewsCarouselPrimary extends Component {
     //Recommended Image Size is 733px x 400px.
     width: "43%"
   };
-  Image14 = {
+  Image15 = {
     instanceID: "NewsPrimaryOneImage",
-    image: "NewsSection/BigNews/supplychanin.jpg",
+    image: "NewsSection/BigNews/Itnews1.jpeg",
     //Recommended Image Size is 733px x 400px.
-    width: "65%"
+    width: "60%"
   };
 
   render() {
@@ -137,11 +137,9 @@ class NewsCarouselPrimary extends Component {
 
     return (
       <Carousel>
-
       <Carousel.Item>
-         <NewsImage data={this.Image14}/>      
+         <NewsImage data={this.Image15}/>      
       </Carousel.Item> 
-
       <Carousel.Item>
          <NewsImage data={this.Image13}/>      
       </Carousel.Item> 
