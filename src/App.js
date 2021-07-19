@@ -79,7 +79,7 @@ import NISP from "./Pages/NISP";
 import ErrorPage from "./Pages/ErrorPage";
 import Ict from "./CampusLifePageContainers/ProfessionalBodies/ICT";
 import NAAC_C1_P1 from "./Naac/Nac_C1_P1";
-import NAACbase from "./Naac/naacstart";
+//import NAACbase from "./Naac/naacstart";
 import codeofc from "./CodeofC/codeofconducts";
 import strategic from "./CodeofC/strategicplan";
 import grievance from "./Grievance/grievance";
@@ -804,7 +804,7 @@ class App extends Component {
               <Route exact path="/ed/nisp" component={NISP} />
 
               <Route exact path="/NAAC/NAAC_C1_P1" component={NAAC_C1_P1} />
-              <Route exact path="/NAAC" component={NAACbase} /> 
+              {/*<Route exact path="/NAAC" component={NAACbase} /> */}
               <Route exact path="/greve" component={grievance} />
               <Route exact path="/about/govbody" component={govenbody} />
 
