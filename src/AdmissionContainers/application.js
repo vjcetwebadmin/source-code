@@ -11,8 +11,8 @@ class Application extends Component {
             <div>
 
                 <HeadingOne data={this.Heading}></HeadingOne>
-                {/*<a href="http://172.104.189.51/login" target="_blank" rel="noopener noreferrer">*/}
-                <a href="http://mtechadmission.vjcet.ac.in" target="_blank" rel="noopener noreferrer">
+                <a href="http://172.104.189.51/login" target="_blank" rel="noopener noreferrer">
+                {/*<a href="http://mtechadmission.vjcet.ac.in" target="_blank" rel="noopener noreferrer">*/}
                 Click here to fill M.Tech Application Online</a>
             </div>
         );
