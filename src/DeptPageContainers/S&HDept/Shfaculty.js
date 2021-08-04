@@ -15,7 +15,7 @@ class Faculty extends Component {
     image: "Allstaffphoto/SH/FAC/SHFAC105.jpg",
     width: "50%",
     name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHFAC105" target="_blank" rel="noopener noreferrer">Mrs. Viji George</a>,
-    content: "Asst. Prof. & HOD"
+    content: "Assistant Professor"
   };
   Cefaculty4 = {
     instanceID: "Cefaculty4",
@@ -66,7 +66,7 @@ class Faculty extends Component {
     image: "Allstaffphoto/SH/FAC/SHFAC114.jpg",
     width: "50%",
     name:  <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHFAC114" target="_blank" rel="noopener noreferrer">Mr. Biju George</a>,
-    content: "Assistant Professor"
+    content: "Asst. Prof. & HOD"
   };
   Cefaculty14 = {
     instanceID: "Cefaculty14",
@@ -121,7 +121,10 @@ class Faculty extends Component {
   render() {
     return (
       <div className="faculty">
-        <div className="facultyContent">
+        <div className="facultyContent">        
+          <div>
+            <FacultyData data={this.Cefaculty12} />
+          </div>                   
           <div>
             <FacultyData data={this.Cefaculty3} />
           </div>
@@ -146,11 +149,6 @@ class Faculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty10} />
           </div>
-          
-          <div>
-            <FacultyData data={this.Cefaculty12} />
-          </div>
-         
           <div>
             <FacultyData data={this.Cefaculty14} />
           </div>
