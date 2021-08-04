@@ -124,13 +124,13 @@ class Faculty extends Component {
         <div className="facultyContent">        
           <div>
             <FacultyData data={this.Cefaculty12} />
-          </div>                   
-          <div>
-            <FacultyData data={this.Cefaculty3} />
           </div>
           <div>
             <FacultyData data={this.Cefaculty1} />
           </div>
+          <div>
+            <FacultyData data={this.Cefaculty3} />
+          </div>          
           <div>
             <FacultyData data={this.Cefaculty4} />
           </div>
