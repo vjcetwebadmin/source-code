@@ -50,7 +50,7 @@ class ResourcesGroup extends Component {
     listID: "Two",
     title: "Semester Plan",
     icon: "Icons/calendar.png",
-    filePath: "https://vjcet.org/downloads/Semester_Plan2019even.pdf"
+    filePath: "https://vjcet.org/downloads/SemesterPlanS2_S4April-Sept.pdf"
 
   };
 
