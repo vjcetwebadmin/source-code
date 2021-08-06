@@ -101,7 +101,7 @@ class iqac extends React.Component {
           <table id="tableformat">
             <tr>
               <td>1</td>
-              <td> Rev. Msgr. Dr. Cherian Kanjirakombil</td>
+              <td> Rev. Msgr. Dr. Pius Malekandathil</td>
               <td>Manager</td>
             </tr>
             <tr>
