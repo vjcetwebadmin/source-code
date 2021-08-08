@@ -210,9 +210,9 @@ class MenuOverlay extends Component {
               </Link>
             </div>
           </div>
-          <Link id="menuItem11" className="MenuOverlayItem" to="/mockt">
+         {/* <Link id="menuItem11" className="MenuOverlayItem" to="/mockt">
             KEAM Mock Test
-          </Link>
+        </Link>*/}
           <div id="menuItem9">
             <div
               className="MenuOverlayItem"
