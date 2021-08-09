@@ -37,10 +37,10 @@ class Iedc extends Component {
 
     Govern1 = {
         instanceID: "Govern1",
-        image: "KeyFunctionaries/manager.jpg",
+        image: "KeyFunctionaries/frpiusmk.png",
         width: "50%",
         mianhead:"MANAGER",
-        name:"Msgr. Cherian Kanjirakombil",
+        name:"Msgr. Dr. Pius Malekandathil",
         content: "Manager"
       };
       Govern2 = {
@@ -48,7 +48,7 @@ class Iedc extends Component {
         image: "KeyFunctionaries/director.jpg",
         width: "50%",
         mianhead:"DIRECTOR",
-        name:"Rev. Fr.  Paul Nedumpurath",
+        name:"Rev. Fr. Paul Nedumpurath",
         content: "Director"
       };
 
@@ -127,13 +127,13 @@ class Iedc extends Component {
                     <tr><td colSpan="2" className="organogramst1">Patron</td></tr>
                     <tr><td style={{width:"3%"}}></td><td>Mar George Madathikandathil, Bishop, Kothamangalam Diocese</td></tr>
                     <tr><td colSpan="2" className="organogramst1">Board of Trustees (2020-2023)</td></tr>
-                    <tr><td></td><td>1. Msgr. Dr. Cherian Kanjirakombil</td></tr>
-                    <tr><td></td><td>2. Rev. Fr. Paul Nedumpurathu</td></tr>
-                    <tr><td></td><td>3. Rev. Fr. Jose Kuzhikanniyil</td></tr>
+                    <tr><td></td><td>1. Msgr. Dr. Pius Malekandathil</td></tr>
+                    <tr><td></td><td>2. Rev. Fr. Paul Nedumpurath</td></tr>
+                    <tr><td></td><td>3. Rev. Fr. Jose Pulparambil</td></tr>
                     <tr><td></td><td className="organogramsub">Elected Members from Institutional Trustees</td></tr>
                     <tr><td></td><td>4. Rev. Fr. John Mundackal</td></tr>
                     <tr><td></td><td>5. Rev. Fr. George Vallomkunnel</td></tr>
-                    <tr><td></td><td>6. Rev. Fr. Kuriakose Kodakallil</td></tr>
+                    <tr><td></td><td>6. Rev. Fr. Jose Kuzhikanniyil</td></tr>
                     <tr><td></td><td>7. Rev. Fr. Thomas Cheruparambil</td></tr>
                     <tr><td></td><td>8. Rev. Dr. George Thanathuparambil</td></tr>
                     <tr><td></td><td>9. Rev. Dr. Stanly Pulprayil</td></tr>
@@ -141,7 +141,7 @@ class Iedc extends Component {
                     <tr><td></td><td>11. Rev. Fr. Jose Ezhanikatt</td></tr>
                     <tr><td></td><td>12 Rev. Fr. Francis Kannadan</td></tr>
                     <tr><td></td><td>13. Rev. Sr. Dr. Christy, SH</td></tr>
-                    <tr><td></td><td>14. Rev. Sr. Kochurani, SD</td></tr>
+                    <tr><td></td><td>14. Rev. Sr. Jissarani, SD</td></tr>
                     <tr><td></td><td>15. Rev. Sr. Theodocia, CSN</td></tr>
                     <tr><td></td><td className="organogramsub">Elected Members from Hereditary Trustees</td></tr>
                     <tr><td></td><td>16. Adv. K Francis George</td></tr>
@@ -157,12 +157,12 @@ class Iedc extends Component {
                     <tr><td></td><td>26. Mr. Joseph Varghese</td></tr>
                     <tr><td></td><td>27. Mr. C P Vincent</td></tr>
                     <tr><td colSpan="2" className="organogramst1">Executive Committee (2020-2023)</td></tr>
-                    <tr><td></td><td>1. Msgr. Dr. Cherian Kanjirakombil</td></tr>
+                    <tr><td></td><td>1. Msgr. Dr. Pius Malekandathil</td></tr>
                     <tr><td></td><td>2. Adv. K T Thomas</td></tr>
                     <tr><td></td><td>3. Adv. K Francis George</td></tr>
                     <tr><td></td><td>4. Mr. K T Mathew</td></tr>
                     <tr><td></td><td>5. Mr. Lukachan Olickal</td></tr>
-                    <tr><td></td><td>6. Rev. Fr. Paul Nedumpurathu</td></tr>
+                    <tr><td></td><td>6. Rev. Fr. Paul Nedumpurath</td></tr>
                     <tr><td></td><td>7. Adv. Johny Nelloor</td></tr>
                     <tr><td></td><td>8. Mr. V V Kurian</td></tr>
                     <tr><td></td><td>9. Rev. Fr. John Mundackal</td></tr>
@@ -173,7 +173,7 @@ class Iedc extends Component {
                     <tr><td></td><td>4. Adv. K T Thomas</td></tr>
                     <tr><td></td><td>5. Adv. K Francis George</td></tr>
                     <tr><td></td><td>6. Mr. Lukachan Olickal</td></tr>
-                    <tr><td></td><td>7. Rev. Fr. Paul Nedumpurathu</td></tr>
+                    <tr><td></td><td>7. Rev. Fr. Paul Nedumpurath</td></tr>
                     <tr><td></td><td>8. Rev. Dr. George Thanathuparambil</td></tr>
                     <tr><td></td><td>9. Mr. Isaac Joseph Kottukapilly</td></tr>
                     <tr><td></td><td>10. Nominee of AICTE</td></tr>
@@ -184,7 +184,7 @@ class Iedc extends Component {
                     <tr><td></td><td>1. Msgr. Dr. Cherian Kanjirakombil</td></tr>
                     <tr><td></td><td>2. Rev. Dr. George Oliapuram</td></tr>
                     <tr><td></td><td>3. Rev. Fr. Thomas Malekudy</td></tr>
-                    <tr><td></td><td>4. Rev. Fr. Paul Nedumpurathu</td></tr>
+                    <tr><td></td><td>4. Rev. Fr. Paul Nedumpurath</td></tr>
                     <tr><td></td><td>5. Dr. Cyriac Thomas</td></tr>
                     <tr><td></td><td>6. Rev. Dr. George Thanathuparambil</td></tr>
                     <tr><td></td><td>7. Sri. M Joseph IAS(Retrd)</td></tr>

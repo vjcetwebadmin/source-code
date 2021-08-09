@@ -137,10 +137,6 @@ class NewsCarouselPrimary extends Component {
 
     return (
       <Carousel>
-      <Carousel.Item>
-         <NewsImage data={this.Image13}/>      
-      </Carousel.Item> 
-
        <Carousel.Item>
           <NewsImage data={this.Image8}/>      
        </Carousel.Item> 
