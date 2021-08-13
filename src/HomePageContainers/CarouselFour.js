@@ -89,8 +89,40 @@ class CarouselFour extends Component {
     image: "CarouselFourImages/stock3.png",
     width: "202px",
   };
+
+  EventFourTitle = {
+    instanceID: "EventFourTitle",
+    title: "Merit & Farewell: 2021",
+  };
+
+  EventFourImage = {
+    instanceID: "EventFourImage",
+    image: "CarouselFourImages/farewell.png",
+    width: "202px",
+  };
+
   slides = [
     {
+      Title: {
+        instanceID: "EventOneTitle",
+        title: (
+          <a
+            href="https://vjcet.org/downloads/gallery/meritf21.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <font color="#880d1e">Merit & Farewell 2021</font>
+          </a>
+        ),
+      },
+
+      Image: {
+        instanceID: "EventOneImage",
+        image: "CarouselFourImages/farewell.png",
+        width: "202px",
+      },
+    },
+   /* {
       Title: {
         instanceID: "EventOneTitle",
         title: (
@@ -150,7 +182,7 @@ class CarouselFour extends Component {
         image: "CarouselFourImages/bodhi.jpg",
         width: "202px",
       },
-    },
+    },*/
   ];
 
   render() {
