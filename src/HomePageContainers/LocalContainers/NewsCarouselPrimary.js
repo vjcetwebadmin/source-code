@@ -13,12 +13,6 @@ class NewsCarouselPrimary extends Component {
     link: ""
   };
 
-  Image1 = {
-    instanceID: "NewsPrimaryOneImage",
-    image: "NewsSection/BigNews/BigNews4.jpg",
-    //Recommended Image Size is 733px x 400px.
-    width: "100%"
-  };
 
   Title2 = {
     instanceID: "NewsPrimaryTwoTitle",
@@ -40,7 +34,7 @@ class NewsCarouselPrimary extends Component {
 
   Image3 = {
     instanceID: "NewsPrimaryThreeImage",
-    image: "NewsSection/BigNews/BigNews3.jpg",
+    image: "NewsSection/BigNews/DSC_0282.jpg",
     //Recommended Image Size is 733px x 400px.
     width: "100%"
   };
@@ -51,45 +45,21 @@ class NewsCarouselPrimary extends Component {
     link: ""
   };
 
-  Image4 = {
-    instanceID: "NewsPrimaryOneImage",
-    image: "NewsSection/BigNews/IEE1.png",
-    //Recommended Image Size is 733px x 400px.
-    width: "100%"
-  };
-  
-  Title5 = {
-    instanceID: "NewsPrimaryOneTitle",
-    title: "Installed Smart Classroom at Kunjipara Tribal School,Kuttampuzha",
-    link: ""
-  };
- 
-  Image5 = {
-    instanceID: "NewsPrimaryOneImage",
-    image: "NewsSection/BigNews/IEE2.png",
-    //Recommended Image Size is 733px x 400px. 
-    width: "100%"
-  };
-  Image6 = {
+  Image4= {
     instanceID: "NewsPrimaryOneImage",
     image: "NewsSection/BigNews/ColPos.jpg",
     //Recommended Image Size is 733px x 400px.
     width: "100%"
   };
-  Image7 = {
+  Image5 = {
     instanceID: "NewsPrimaryOneImage",
     image: "NewsSection/BigNews/collegeadd.jpg",
     //Recommended Image Size is 733px x 400px.
     width: "100%"
   };
-  Image8 = {
-    instanceID: "NewsPrimaryOneImage",
-    image: "NewsSection/BigNews/news15.jpeg",
-    //Recommended Image Size is 733px x 400px.
-    width: "78%"
-  };
 
-  Image9 = {
+
+ /* Image9 = {
     instanceID: "NewsPrimaryOneImage",
     image: "NewsSection/BigNews/Pict1.jpg",
     //Recommended Image Size is 733px x 400px.
@@ -138,9 +108,9 @@ class NewsCarouselPrimary extends Component {
     return (
       <Carousel>
        <Carousel.Item>
-          <NewsImage data={this.Image8}/>      
+          <NewsImage data={this.Image3}/>      
        </Carousel.Item> 
-        <Carousel.Item>
+       {/* <Carousel.Item>
           <NewsImage data={this.Image10} />
           {<a href={this.Title6.link}>
             <Carousel.Caption>
@@ -171,18 +141,22 @@ class NewsCarouselPrimary extends Component {
               <h3>{this.Title6.title}</h3>
             </Carousel.Caption>
           </a>}
-        </Carousel.Item> 
+       </Carousel.Item> */}
       <Carousel.Item>
-          <NewsImage data={this.Image7} />
+          <NewsImage data={this.Image2} />
       
-        </Carousel.Item>        
+        </Carousel.Item> 
         <Carousel.Item>
+          <NewsImage data={this.Image4} />
+      
+        </Carousel.Item>               
+        {/*<Carousel.Item>
           <NewsImage data={this.Image6} />
-          {/*<a href={this.Title5.link}>
+         <a href={this.Title5.link}>
             <Carousel.Caption>
               <h3>{this.Title5.title}</h3>
             </Carousel.Caption>
-    </a>*/}
+    </a>
         </Carousel.Item> 
         <Carousel.Item>
           <NewsImage data={this.Image5} />
@@ -198,7 +172,7 @@ class NewsCarouselPrimary extends Component {
           <h3>{this.Title1.title}</h3>
             {/* <Carousel.Caption>
               
-            </Carousel.Caption> */}
+            </Carousel.Caption> 
           </a>
         </Carousel.Item>
         <Carousel.Item>
@@ -216,15 +190,10 @@ class NewsCarouselPrimary extends Component {
               <h3>{this.Title2.title}</h3>
             </Carousel.Caption>
           </a>
-        </Carousel.Item>
+        </Carousel.Item>*/}
         <Carousel.Item>
-          <NewsImage data={this.Image3} />
-          <a href={this.Title3.link}>
-            <Carousel.Caption>
-              <h3>{this.Title3.title}</h3>
-            </Carousel.Caption>
-          </a>
-        </Carousel.Item>
+          <NewsImage data={this.Image5} />
+       </Carousel.Item>
        
 
       </Carousel>
