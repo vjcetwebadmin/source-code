@@ -11,15 +11,15 @@ class NewsCarouselSecOne extends Component {
 
   Title1 = {
     instanceID: "NewsSecondaryTLOneTitle",
-    title: "Drishya 2k19",
-    link: "https://vjcet.org/downloads/gallery/drishya.html"
+    title: "Merit&Farewell21",
+    link: "https://vjcet.org/downloads/gallery/meritf21.html"
   }
 
   Image1 = {
     instanceID: "NewsSecondaryTLOneImage",
-    image: "NewsSection/Section1/Section1.jpg",
+    image: "CarouselFourImages/farewell.png",
     //Recommended Image Size is 733px x 400px.
-    width: "100%"
+    width: "70%"
   }
 
   Title2 = {
@@ -61,7 +61,7 @@ class NewsCarouselSecOne extends Component {
             </Carousel.Caption>
           </a>
         </Carousel.Item>
-        <Carousel.Item>
+       {/* <Carousel.Item>
           <NewsImage data={this.Image2} />
           <a href={this.Title2.link}>
             <Carousel.Caption>
@@ -76,7 +76,7 @@ class NewsCarouselSecOne extends Component {
               <h3>{this.Title3.title}</h3>
             </Carousel.Caption>
           </a>
-        </Carousel.Item>
+       </Carousel.Item>*/}
       </Carousel>
     )
   }
