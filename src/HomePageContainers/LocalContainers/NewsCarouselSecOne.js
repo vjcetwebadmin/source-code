@@ -19,20 +19,20 @@ class NewsCarouselSecOne extends Component {
     instanceID: "NewsSecondaryTLOneImage",
     image: "CarouselFourImages/farewell.png",
     //Recommended Image Size is 733px x 400px.
-    width: "70%"
+    width: "65%"
   }
 
   Title2 = {
     instanceID: "NewsSecondaryTLTwoTitle",
     title: "Magnum 2k19",
-    link: "https://vjcet.org/downloads/gallery/magnum.html"
+    link: "https://vjcet.org/downloads/gallery/onam.html"
   }
 
   Image2 = {
     instanceID: "NewsSecondaryTLTwoImage",
-    image: "NewsSection/Section1/Section2.jpg",
+    image: "CarouselFourImages/onam2021.gif",
     //Recommended Image Size is 733px x 400px.
-    width: "100%"
+    width: "55%"
   }
   Title3 = {
     instanceID: "NewsSecondaryTLThreeTitle",
@@ -61,15 +61,15 @@ class NewsCarouselSecOne extends Component {
             </Carousel.Caption>
           </a>
         </Carousel.Item>
-       {/* <Carousel.Item>
+      <Carousel.Item>
           <NewsImage data={this.Image2} />
           <a href={this.Title2.link}>
             <Carousel.Caption>
-              <h3>{this.Title2.title}</h3>
+              <h3>{this.Title2.title2}</h3>
             </Carousel.Caption>
           </a>
         </Carousel.Item>
-        <Carousel.Item>
+        {/*  <Carousel.Item>
           <NewsImage data={this.Image3} />
           <a href={this.Title3.link}>
             <Carousel.Caption>

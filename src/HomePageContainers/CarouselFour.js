@@ -100,7 +100,16 @@ class CarouselFour extends Component {
     image: "CarouselFourImages/farewell.png",
     width: "202px",
   };
+  EventFiveTitle = {
+    instanceID: "EventFiveTitle",
+    title: "Onam: 2021",
+  };
 
+  EventFiveImage = {
+    instanceID: "EventFiveImage",
+    image: "CarouselFourImages/onam2021.gif",
+    width: "150px",
+  };
   slides = [
     {
       Title: {
@@ -119,31 +128,31 @@ class CarouselFour extends Component {
       Image: {
         instanceID: "EventOneImage",
         image: "CarouselFourImages/farewell.png",
-        width: "202px",
+        width: "150px",
       },
     },
-   /* {
+   {
       Title: {
-        instanceID: "EventOneTitle",
+        instanceID: "EventFiveTitle",
         title: (
           <a
-            href="https://vjcet.org/downloads/gallery/drishya.html"
+            href="https://vjcet.org/downloads/gallery/onam.html"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <font color="#880d1e">Arts Festival : Drishya 2K19</font>
+            <font color="#880d1e">Onam 2021</font>
           </a>
         ),
       },
 
       Image: {
-        instanceID: "EventOneImage",
-        image: "CarouselFourImages/drishya.jpg",
-        width: "202px",
+        instanceID: "EventFiveImage",
+        image: "CarouselFourImages/onam2021.gif",
+        width: "150px",
       },
-    },
+    }
 
-    {
+  /*  {
       Title: {
         instanceID: "EventTwoTitle",
         title: (
