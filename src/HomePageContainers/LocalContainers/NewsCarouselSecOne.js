@@ -24,7 +24,7 @@ class NewsCarouselSecOne extends Component {
 
   Title2 = {
     instanceID: "NewsSecondaryTLTwoTitle",
-    title: "Magnum 2k19",
+    title: "Onam 2k21",
     link: "https://vjcet.org/downloads/gallery/onam.html"
   }
 
@@ -65,7 +65,7 @@ class NewsCarouselSecOne extends Component {
           <NewsImage data={this.Image2} />
           <a href={this.Title2.link}>
             <Carousel.Caption>
-              <h3>{this.Title2.title2}</h3>
+              <h3>{this.Title2.title}</h3>
             </Carousel.Caption>
           </a>
         </Carousel.Item>
