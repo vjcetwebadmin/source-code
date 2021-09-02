@@ -116,10 +116,8 @@ class Faculty extends Component {
          <div>
             <PhotoData data={this.Cefaculty22} />        
           </div> 
+          
           <div>
-            <PhotoData data={this.Cefaculty21} />        
-          </div> 
-        <div>
             <PhotoData data={this.Cefaculty20} />        
           </div> 
         <div>
