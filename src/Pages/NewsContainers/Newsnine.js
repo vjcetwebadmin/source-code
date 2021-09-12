@@ -40,7 +40,7 @@ class Newsnine extends React.Component {
 
     NewsTitle = {
         instanceID: "NewsTitle",
-        title: " List of Placed Students 2019-20 Academic Year"
+        title: "Wanted Assistant Professor in the department of Management Studies"
     };
     Newscontent = {
         instanceID: "Newscontent",
@@ -74,7 +74,7 @@ class Newsnine extends React.Component {
                    <HeadingOne data={this.NewsTitle} />
                    
                  
-                  <iframe src="https://vjcet.org/downloads/news/Placement_19-20.pdf" width="100%" height="500" title="Campus Map" align="center"></iframe>
+                  <iframe src="https://vjcet.org/downloads/news/FacRec.pdf" width="100%" height="850" title="Campus Map" align="center"></iframe>
                    
                 </div>
                 <Footer data={this.HomePageFooter} />
