@@ -11,6 +11,10 @@ class CarouselTwo extends Component {
     },*/
     {
       instanceID: this.props.data.instanceID + "CustomOne",
+      title: <a href="https://vjcet.org/#/newsone"  rel="noopener noreferrer"><font color="FFFFF" size="4">Student Council Election - 2021-2022</font></a>
+    },    
+    {
+      instanceID: this.props.data.instanceID + "CustomOne",
       title: <a href="https://vjcet.org/#/newsnine"  rel="noopener noreferrer"><font color="FFFFF" size="4">Faculty Recruitment - MBA Department</font></a>
     },
     {
@@ -21,11 +25,8 @@ class CarouselTwo extends Component {
       instanceID: this.props.data.instanceID + "CustomOne",
       title: <a href="https://vjcet.org/#/newstwo"  rel="noopener noreferrer"><font color="FFFFF" size="4">Covid 19, Institutional Plan and SOP</font></a>
     },    
-    /*{
-      instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/newsone"  rel="noopener noreferrer"><font color="FFFFF" size="4">KTU 2016-2020 Batch Final Semester Results Published</font></a>
-    },
-    {
+
+   /* {
       instanceID: this.props.data.instanceID + "CustomOne",
       title: <a href="https://docs.google.com/forms/d/e/1FAIpQLSeBieRfZ4KoIqGB2hDCMFnOnmT9PGQxfb1XNZ-VqkPahmn25w/formResponse"  rel="noopener noreferrer"><font color="FFFFF" size="4">VISWAJYOTHI WELLNESS SURVEY DURING COVID 19</font></a>
     }, */
