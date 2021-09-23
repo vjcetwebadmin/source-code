@@ -78,6 +78,8 @@ class Newsone extends React.Component {
                     <BodyOneJustified data={this.NewsContent1}/>                    
                     <h5><a href="https://vjcet.org/downloads/news/ElectNotice1.pdf" target="_blank" rel="noopener noreferrer">Election Notification</a></h5>
                     <h5><a href="https://vjcet.org/downloads/news/ElectNotice2.pdf" target="_blank" rel="noopener noreferrer">Eligibility</a></h5>
+                    <h5><a href="https://vjcet.org/downloads/news/ElectNotice3.pdf" target="_blank" rel="noopener noreferrer">Notice</a></h5>
+                    <h5><a href="https://vjcet.org/downloads/news/ElectNotice4.pdf" target="_blank" rel="noopener noreferrer">Election Schedule</a></h5>
                     <h5>Notice</h5>
                     <iframe src="https://vjcet.org/downloads/news/ElectionNotification.pdf" width="100%" height="850" title="Campus Map" align="center"></iframe>
                 </div>
