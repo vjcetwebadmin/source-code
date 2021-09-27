@@ -111,7 +111,12 @@ class NewsCarouselPrimary extends Component {
     //const { instanceID } = this.props.data;
 
     return (
-      <Carousel>      
+      <Carousel>  
+        <Carousel.Item>
+          <iframe width="630" height="400"
+          src="https://www.youtube.com/embed/SwEhkhJGwrA">
+          </iframe>           
+       </Carousel.Item>     
        <Carousel.Item>
           <NewsImage data={this.Image3}/>      
        </Carousel.Item> 
