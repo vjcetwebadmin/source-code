@@ -41,7 +41,7 @@ class Newsone extends React.Component {
 
     NewsTitle = {
         instanceID: "NewsTitle",
-        title: "Student Council Election 2021-2022"
+        title: "Notice"
     };
     NewsContent1 = {
         instanceID: "NewsContent1",
@@ -51,7 +51,7 @@ class Newsone extends React.Component {
     
     NewsImagedata1 = {
         instanceID: "NewsImagedata1",
-        image: "NewsImages/ME_fdp_front.jpg",
+        image: "NewsImages/NewsC.jpg",
         width: "80%"
     }
     NewsImagedata2 = {
@@ -76,14 +76,15 @@ class Newsone extends React.Component {
                     <div className="bodyContainer">
                     <HeadingOne data={this.NewsTitle}></HeadingOne>
                     <BodyOneJustified data={this.NewsContent1}/>                    
-                    <h5><a href="https://vjcet.org/downloads/news/ElectNotice1.pdf" target="_blank" rel="noopener noreferrer">Election Notification</a></h5>
+                    {/*<h5><a href="https://vjcet.org/downloads/news/ElectNotice1.pdf" target="_blank" rel="noopener noreferrer">Election Notification</a></h5>
                     <h5><a href="https://vjcet.org/downloads/news/ElectNotice2.pdf" target="_blank" rel="noopener noreferrer">Eligibility</a></h5>
                     <h5><a href="https://vjcet.org/downloads/news/ElectNotice3.pdf" target="_blank" rel="noopener noreferrer">Notice</a></h5>
                     <h5><a href="https://vjcet.org/downloads/news/ElectNotice4.pdf" target="_blank" rel="noopener noreferrer">Election Schedule</a></h5>
                     <h5><a href="https://vjcet.org/downloads/news/ElectNotice5.pdf" target="_blank" rel="noopener noreferrer">Office Bearer Nomination Form</a><p style={{align:"left", fontSize:"23px"}}>(The duly filled nomination form can be sent to 'studentelection@vjcet.org')</p> </h5>
                     <h5><a href="https://vjcet.org/downloads/news/ElectNotice6.pdf" target="_blank" rel="noopener noreferrer">Declaration Form- Class Representatives</a></h5>
                     <h5>Notice</h5>
-                    <iframe src="https://vjcet.org/downloads/news/ElectionNotification.pdf" width="100%" height="850" title="Campus Map" align="center"></iframe>
+                    <iframe src="https://vjcet.org/downloads/news/ElectionNotification.pdf" width="100%" height="850" title="Campus Map" align="center"></iframe>*/}
+                    <iframe src="downloads/news/NewsC.jpg" width="103%" height="950" title="Campus Map" align="center"></iframe>
                 </div>
              
                                     

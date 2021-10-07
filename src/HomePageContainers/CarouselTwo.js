@@ -11,7 +11,7 @@ class CarouselTwo extends Component {
     },*/
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/newsone"  rel="noopener noreferrer"><font color="FFFFF" size="4">Student Council Election - 2021-2022</font></a>
+      title: <a href="https://vjcet.org/#/newsone"  rel="noopener noreferrer"><font color="FFFFF" size="4">Caution Deposit and Refundable Deposit of 2017-2021 Batch</font></a>
     },    
     {
       instanceID: this.props.data.instanceID + "CustomOne",
