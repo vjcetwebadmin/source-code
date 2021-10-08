@@ -66,14 +66,14 @@ class Faculty extends Component {
             <FacultyData data={this.Cefaculty2} />
           </div>
           <div>
-            <FacultyData data={this.Cefaculty10} />
-          </div>
-          <div>
             <FacultyData data={this.Cefaculty5} />
           </div>
           <div>
             <FacultyData data={this.Cefaculty6} />
           </div>
+          <div>
+            <FacultyData data={this.Cefaculty10} />
+          </div>          
         </div>
         <div className="Contact" id="contact" style={{paddingLeft:"5%"}}>
           <HeadingOne data={this.ContactHeading} />
