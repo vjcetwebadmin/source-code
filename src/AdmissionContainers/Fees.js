@@ -14,7 +14,7 @@ class Fees extends Component {
     };
     Features2 = {
         instanceID: "Features3",
-        title: "Rs. 25,000/- Semester for GATE/Non-GATE candidates"
+        title: "Rs. 20,000/- Semester for GATE/Non-GATE candidates"
     };
     Features4 = {
         instanceID: "Features4",
@@ -22,7 +22,7 @@ class Fees extends Component {
     };
     Features5 = {
         instanceID: "Features6",
-        title: "Rs. 25,000/- Semester for GATE/Non-GATE candidates"
+        title: "Rs. 20,000/- Semester for GATE/Non-GATE candidates"
     };
     Features10 = {
         instanceID: "Features4",
@@ -30,7 +30,7 @@ class Fees extends Component {
     };
     Features11 = {
         instanceID: "Features6",
-        title: "Rs. 25,000/- Semester for GATE/Non-GATE candidates"
+        title: "Rs. 20,000/- Semester for GATE/Non-GATE candidates"
     };
     Features7 = {
         instanceID: "Features7",

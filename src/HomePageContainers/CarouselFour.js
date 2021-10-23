@@ -151,28 +151,7 @@ class CarouselFour extends Component {
         width: "150px",
       },
     }
-
-  /*  {
-      Title: {
-        instanceID: "EventTwoTitle",
-        title: (
-          <a
-            href="https://vjcet.org/downloads/gallery/magnum.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <font color="#880d1e">Magnum 2K19</font>
-          </a>
-        ),
-      },
-
-      Image: {
-        instanceID: "EventTwoImage",
-        image: "CarouselFourImages/magnum.jpg",
-        width: "202px",
-      },
-    },
-    {
+ /*  {
       Title: {
         instanceID: "EventThreeTitle",
         title: (

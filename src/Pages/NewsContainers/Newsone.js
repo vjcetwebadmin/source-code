@@ -41,7 +41,7 @@ class Newsone extends React.Component {
 
     NewsTitle = {
         instanceID: "NewsTitle",
-        title: "KTU 2016-2020 Batch Final Semester Results Published"
+        title: "Notice"
     };
     NewsContent1 = {
         instanceID: "NewsContent1",
@@ -51,7 +51,7 @@ class Newsone extends React.Component {
     
     NewsImagedata1 = {
         instanceID: "NewsImagedata1",
-        image: "NewsImages/ME_fdp_front.jpg",
+        image: "NewsImages/NewsC.jpg",
         width: "80%"
     }
     NewsImagedata2 = {
@@ -75,21 +75,20 @@ class Newsone extends React.Component {
                     
                     <div className="bodyContainer">
                     <HeadingOne data={this.NewsTitle}></HeadingOne>
-                    <BodyOneJustified data={this.NewsContent1}/>
-                    <p><h5>549 Out of 552 Students Passed in the Final Semester Examinations (99.5%)</h5></p>
-                    <p><h5><a href="https://vjcet.org/downloads/news/students48.pdf" target="_blank" rel="noopener noreferrer">48 Students scored SGPA 10 out of 10</a></h5></p>
-                    <p><h5><a href="https://vjcet.org/downloads/news/Placement_19-20.pdf" target="_blank" rel="noopener noreferrer">More than 300 students got placement in reputed firms</a></h5></p>
+                    <BodyOneJustified data={this.NewsContent1}/>                    
+                    {/*<h5><a href="https://vjcet.org/downloads/news/ElectNotice1.pdf" target="_blank" rel="noopener noreferrer">Election Notification</a></h5>
+                    <h5><a href="https://vjcet.org/downloads/news/ElectNotice2.pdf" target="_blank" rel="noopener noreferrer">Eligibility</a></h5>
+                    <h5><a href="https://vjcet.org/downloads/news/ElectNotice3.pdf" target="_blank" rel="noopener noreferrer">Notice</a></h5>
+                    <h5><a href="https://vjcet.org/downloads/news/ElectNotice4.pdf" target="_blank" rel="noopener noreferrer">Election Schedule</a></h5>
+                    <h5><a href="https://vjcet.org/downloads/news/ElectNotice5.pdf" target="_blank" rel="noopener noreferrer">Office Bearer Nomination Form</a><p style={{align:"left", fontSize:"23px"}}>(The duly filled nomination form can be sent to 'studentelection@vjcet.org')</p> </h5>
+                    <h5><a href="https://vjcet.org/downloads/news/ElectNotice6.pdf" target="_blank" rel="noopener noreferrer">Declaration Form- Class Representatives</a></h5>
+                    <h5>Notice</h5>
+                    <iframe src="https://vjcet.org/downloads/news/ElectionNotification.pdf" width="100%" height="850" title="Campus Map" align="center"></iframe>*/}
+                    <iframe src="downloads/news/NewsC.jpg" width="103%" height="950" title="Campus Map" align="center"></iframe>
                 </div>
              
                                     
                     <br />                 
-
-                  
-            
-             
- 
-             
-           
                 </div>
                 <Footer data={this.HomePageFooter} />
                 {this.state.showMenu ? (<MenuOverlay closeMenuFunction={this.closeMenu} />) : ("")}

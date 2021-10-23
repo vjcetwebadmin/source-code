@@ -89,13 +89,13 @@ class MEFaculty extends Component {
     name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=MEFAC123" target="_blank" rel="noopener noreferrer">Mr. Unnikrishnan T G</a>,
     content: "Assistant Professor(on-leave Ph.D)"
   };
-  Cefaculty16 = {
+  /*Cefaculty16 = {
     instanceID: "Cefaculty16",
     image: "Allstaffphoto/ME/FAC/300.jpg",
     width: "50%",
     name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=MEFAC128" target="_blank" rel="noopener noreferrer">Mr. Jerry Varghese</a>,
     content: "Assistant Professor(on-leave Ph.D)"
-  };
+  };*/
   Cefaculty17 = {
     instanceID: "Cefaculty17",
     image: "Allstaffphoto/ME/FAC/301.JPG",
@@ -124,13 +124,13 @@ class MEFaculty extends Component {
     name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=MEFAC145" target="_blank" rel="noopener noreferrer">Mr. Nibin B</a>,
     content: "Assistant Professor"
   };
-  Cefaculty21 = {
+  /*Cefaculty21 = {
     instanceID: "Cefaculty21",
     image: "Allstaffphoto/ME/FAC/376.jpg",
     width: "50%",
     name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=MEFAC144" target="_blank" rel="noopener noreferrer">Mr. Abin Paul</a>,
     content: "Assistant Professor"
-  };
+  };*/
   Cefaculty22 = {
     instanceID: "Cefaculty22",
     image: "Allstaffphoto/ME/FAC/377.jpg",
@@ -205,9 +205,6 @@ class MEFaculty extends Component {
             <FacultyData data={this.Cefaculty15} />
           </div>
           <div>
-            <FacultyData data={this.Cefaculty16} />
-          </div>
-          <div>
             <FacultyData data={this.Cefaculty17} />
           </div>
           <div>
@@ -218,9 +215,6 @@ class MEFaculty extends Component {
           </div>
           <div>
             <FacultyData data={this.Cefaculty20} />
-          </div>
-          <div>
-            <FacultyData data={this.Cefaculty21} />
           </div>
           <div>
             <FacultyData data={this.Cefaculty22} />
