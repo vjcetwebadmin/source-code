@@ -40,7 +40,7 @@ class Newsnine extends React.Component {
 
     NewsTitle = {
         instanceID: "NewsTitle",
-        title: "Wanted Assistant Professor in the department of Management Studies"
+        title: "Wanted Assistant Professor in the departments of English And Civil"
     };
     Newscontent = {
         instanceID: "Newscontent",
