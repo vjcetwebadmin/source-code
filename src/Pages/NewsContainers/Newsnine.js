@@ -74,7 +74,7 @@ class Newsnine extends React.Component {
                    <HeadingOne data={this.NewsTitle} />
                    
                  
-                  <iframe src="https://vjcet.org/downloads/news/MBAFACULTY.pdf" width="100%" height="850" title="Campus Map" align="center"></iframe>
+                  <iframe src="https://vjcet.org/downloads/news/CIVILANDENGLISH.pdf" width="100%" height="850" title="Campus Map" align="center"></iframe>
                    
                 </div>
                 <Footer data={this.HomePageFooter} />
