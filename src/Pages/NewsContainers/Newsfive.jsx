@@ -45,7 +45,7 @@ class Newsfive extends React.Component {
     };
     NewsTitle1 = {
         instanceID: "NewsTitle1",
-        title: "NOTICEs"
+        title: "NOTICE"
     };
     Newscontent = {
         instanceID: "Newscontent",
@@ -106,16 +106,17 @@ class Newsfive extends React.Component {
                     <p><span className="text_red">To download Bank Challan </span><a href="https://vjcet.org/downloads/news/SIBChallan.pdf" target="_blank"> Click Here </a></p><br></br>
                     <p>For Payment Related Queries Contact : <b> Mrs. Jismy George - 9349944361</b></p>
                  <HeadingOne data={this.NewsTitle1} /> 
-                 <p><b>Semester 4</b></p>
+                {/* <p><b>Semester 4</b></p>
                  <br />
                  <h3 className="text_red"><b>Dear Parent, Please remit 4th semester tution fees of your ward, date extended to 30-06-2021 without fine and 12-07-2021 with fine.</b></h3>
-                 <br />
-                <iframe src="https://vjcet.org/downloads/news/Notice3.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>    
-                 <p></p><br></br> 
-                 <p><b>Semester 6 and Semester 8</b></p>              
+                <br />
+                <p><b>Semester 6 and Semester 8</b></p>              
                  <iframe src="https://vjcet.org/downloads/news/Notice2.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>    
                  <p></p><br></br>
                   <iframe src="https://vjcet.org/downloads/news/Notice.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>     
+                */}
+                <iframe src="https://vjcet.org/downloads/news/Notice.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>    
+                 <p></p><br></br>                 
                    
                 </div>
 
