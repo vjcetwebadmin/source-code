@@ -70,7 +70,7 @@ class Newsfive extends React.Component {
     
     QuickNewsLinks={
         text1: "SIB Online Fee Payment",
-        link1: "https://southindianbank.in/feepayment/",
+        link1: "https://eacademia.southindianbank.com/feeuser/org?id=6",
         text2: "Download Bank Challan",
         link2: "https://vjcet.org/downloads/news/SIBChallan.pdf"
     }
@@ -102,7 +102,7 @@ class Newsfive extends React.Component {
                     <p>Name of the Branch - <b>Vazhakulam - IFSC Code : SIBL0000335</b></p>
                     <p>Account Number : <b>0335053000001199</b></p>
                     <p><span className="text_red">Very Important : Please mention Admission Number of the student in remarks.</span></p><br></br>
-                    <p><span className="text_red">SIB Online Fee Payment </span> <a href="https://southindianbank.in/feepayment/" target="_blank">Click Here </a></p>
+                    <p><span className="text_red">SIB Online Fee Payment </span> <a href="https://eacademia.southindianbank.com/feeuser/org?id=6" target="_blank">Click Here </a></p>
                     <p><span className="text_red">To download Bank Challan </span><a href="https://vjcet.org/downloads/news/SIBChallan.pdf" target="_blank"> Click Here </a></p><br></br>
                     <p>For Payment Related Queries Contact : <b> Mrs. Jismy George - 9349944361</b></p>
                  <HeadingOne data={this.NewsTitle1} /> 
