@@ -27,6 +27,7 @@ import EeeDepartment from "./Pages/Departments/eeedepartment";
 import EcDepartment from "./Pages/Departments/ecdepartment";
 import ItDepartment from "./Pages/Departments/itdepartment";
 import MeDepartment from "./Pages/Departments/medepartment";
+import MbaDepartment from "./Pages/Departments/mbadepartment";
 import SHDepartment from "./Pages/Departments/s&hdepartment";
 import Admin from "./Pages/Departments/admin";
 import honoursPage from "./Pages/HonoursPage";
@@ -761,8 +762,9 @@ class App extends Component {
               <Route exact path="/departments/admin" component={Admin} />
               <Route exact path="/departments/eee" component={EeeDepartment} />
               <Route exact path="/departments/ece" component={EcDepartment} />
-              <Route exact path="/departments/it" component={ItDepartment} />
+              <Route exact path="/departments/it" component={ItDepartment} /> 
               <Route exact path="/departments/me" component={MeDepartment} />
+              <Route exact path="/departments/mba" component={MbaDepartment} />
               <Route exact path="/departments/s&h" component={SHDepartment} />
               <Route exact path="/placement" component={PlacementPage} />
               <Route exact path="/facilities/core-facilities" component={FacilitiesPage} />
