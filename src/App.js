@@ -431,7 +431,7 @@ class App extends Component {
             name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC125" target="_blank" rel="noopener noreferrer">Mrs. Soumya Rani P. Thomas</a>,
             content: "Assistant Professor"
           },
-          {
+         /* {
             instanceID: "Cefaculty18",
             image: "Allstaffphoto/CE/FAC/312.jpg",
             width: "50%",
@@ -444,7 +444,7 @@ class App extends Component {
             width: "50%",
             name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC134" target="_blank" rel="noopener noreferrer">Mr. Vishnu Krishnan</a>,
           content: "Assistant Professor(on-leave Ph.D)"
-          },
+          },*/
           {
             instanceID: "Cefaculty22",
             image: "Allstaffphoto/CE/FAC/384.jpg",
