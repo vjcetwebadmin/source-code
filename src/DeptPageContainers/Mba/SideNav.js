@@ -144,14 +144,14 @@ class SideNav extends Component {
               value="Program"
               class="button"
               onClick={this.onClickProg}
-            />
+           />*/}
             <input
 
               value="Faculty"
               class="button"
               onClick={this.onClickFac}
             />
-            <input
+           {/* <input
 
               value="Labs"
               class="button"
@@ -226,9 +226,9 @@ class SideNav extends Component {
           <div class="content">
             {this.state.showProfile ? <Profile /> : null}
             {this.state.showVision ? <Vision /> : null}
-            {/*{this.state.showPeo ? <PEO /> : null}
-            {this.state.showProgram ? <Program /> : null}
             {this.state.showfac ? <FacultyNav /> : null}
+            {/*{this.state.showPeo ? <PEO /> : null}
+            {this.state.showProgram ? <Program /> : null}            
             {this.state.showLib ? <Library /> : null}
             {this.state.showAss ? <Association /> : null}
           {this.state.showRes ? <Result /> : null}*/}
