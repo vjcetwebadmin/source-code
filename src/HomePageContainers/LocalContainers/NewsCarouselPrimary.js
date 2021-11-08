@@ -41,7 +41,7 @@ class NewsCarouselPrimary extends Component {
 
   Title4 = {
     instanceID: "NewsPrimaryOneTitle",
-    title: "Installed Smart Classroom at Kunjipara Tribal School,Kuttampuzha",
+    title: "Kerala Piravi Day Celebrations",
     link: ""
   };
 
@@ -64,18 +64,19 @@ class NewsCarouselPrimary extends Component {
     width: "60%"
   };
 
- /* Image9 = {
+  Image9 = {
     instanceID: "NewsPrimaryOneImage",
-    image: "NewsSection/BigNews/Pict1.jpg",
+    image: "NewsSection/BigNews/DSC_0137.JPG",
     //Recommended Image Size is 733px x 400px.
-    width: "100%"
+    width: "95%"
   };
   Image10 = {
     instanceID: "NewsPrimaryOneImage",
-    image: "NewsSection/BigNews/Pict2.jpg",
+    image: "NewsSection/BigNews/DSC_0133.JPG",
     //Recommended Image Size is 733px x 400px.
-    width: "100%"
+    width: "95%"
   }; 
+  /*
   Image11 = {
     instanceID: "NewsPrimaryOneImage",
     image: "NewsSection/BigNews/Pict3.jpg",
@@ -113,6 +114,22 @@ class NewsCarouselPrimary extends Component {
     return (
       <Carousel>  
         <Carousel.Item>
+          <NewsImage data={this.Image9} />
+          {
+            <Carousel.Caption>
+              <h3>{this.Title4.title}</h3>
+            </Carousel.Caption>
+          }
+        </Carousel.Item>   
+        <Carousel.Item>
+          <NewsImage data={this.Image10} />
+          {
+            <Carousel.Caption>
+              <h3>{this.Title4.title}</h3>
+            </Carousel.Caption>
+          }
+        </Carousel.Item>               
+        <Carousel.Item>
           <iframe width="630" height="400"
           src="https://www.youtube.com/embed/SwEhkhJGwrA">
           </iframe>           
@@ -124,14 +141,7 @@ class NewsCarouselPrimary extends Component {
          <Carousel.Item>
           <NewsImage data={this.Image6}/>      
        </Carousel.Item>        
-       <Carousel.Item>
-          <NewsImage data={this.Image10} />
-          {<a href={this.Title6.link}>
-            <Carousel.Caption>
-              <h3>{this.Title6.title}</h3>
-            </Carousel.Caption>
-          </a>}
-        </Carousel.Item>  
+       
         <Carousel.Item>
           <NewsImage data={this.Image11} />
           {<a href={this.Title6.link}>
