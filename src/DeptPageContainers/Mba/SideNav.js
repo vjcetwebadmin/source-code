@@ -151,13 +151,13 @@ class SideNav extends Component {
               class="button"
               onClick={this.onClickFac}
             />
-           {/* <input
+            <input
 
-              value="Labs"
+              value="Student Life"
               class="button"
               onClick={this.onClickLib}
             />
-            <input
+           {/* <input
 
               value="Association"
               class="button"
