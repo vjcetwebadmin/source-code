@@ -4,7 +4,7 @@ import Profile from "./profile";
 import Vision from "./vision";
 import PEO from "./peo";
 import Program from "./program";
-import Library from "./labs";
+import Library from "./studlife";
 import Association from "./association";
 import Result from "./result";
 import FacultyNav from "./facultynav";
@@ -227,9 +227,9 @@ class SideNav extends Component {
             {this.state.showProfile ? <Profile /> : null}
             {this.state.showVision ? <Vision /> : null}
             {this.state.showfac ? <FacultyNav /> : null}
-            {/*{this.state.showPeo ? <PEO /> : null}
+            { this.state.showLib ? <Library /> : null
+            /*{this.state.showPeo ? <PEO /> : null}
             {this.state.showProgram ? <Program /> : null}            
-            {this.state.showLib ? <Library /> : null}
             {this.state.showAss ? <Association /> : null}
           {this.state.showRes ? <Result /> : null}*/}
           </div>
