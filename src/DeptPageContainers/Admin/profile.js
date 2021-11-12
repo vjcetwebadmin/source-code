@@ -18,7 +18,7 @@ class Profile extends Component {
   };
   Features3 = {
     instanceID: "Features3",
-    title: "•	Good Academic result and appreciable placements at MNCs like Google, Microsoft, Infosys, TCS.."
+    title: "•	Good Academic result and appreciable placements at MNCs like Google, Microsoft, Infosys, TCS."
   };
   Features4 = {
     instanceID: "Features4",
