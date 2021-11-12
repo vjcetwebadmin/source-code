@@ -14,7 +14,7 @@ class CSFaculty extends Component {
     instanceID: "Cefaculty2",
     image: "Allstaffphoto/MBA/FAC/josemammen.jpg",
     width: "50%",
-    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=MBFAC125" target="_blank" rel="noopener noreferrer">Dr. Jose Mamman</a>,
+    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=MBFAC124" target="_blank" rel="noopener noreferrer">Dr. Jose Mamman</a>,
     content: "Assistant Professor"
   };
   Cefaculty3 = {
@@ -42,7 +42,7 @@ class CSFaculty extends Component {
     instanceID: "Cefaculty6",
     image: "Allstaffphoto/MBA/FAC/merrin.jpg",
     width: "50%",
-    name: <a href="" target="_blank" rel="noopener noreferrer">Mrs. Merrin Geordie Pottas</a>,
+    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=MBFAC125" target="_blank" rel="noopener noreferrer">Mrs. Merrin Geordie Pottas</a>,
     content: "Assistant Professor"
   };
   
