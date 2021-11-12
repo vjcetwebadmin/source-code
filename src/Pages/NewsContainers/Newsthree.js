@@ -48,7 +48,7 @@ class Newsthree extends React.Component {
     };
     Newscontent = {
         instanceID: "Newscontent",
-        title: " The 1st batch of KTU(2015-19) secured 91.82% pass"
+        title: "As per the KTU Circular No. KTU/ACI/1409/2021 dated 30-10-2021, B.Tech 3rd semester classes will commnce on 15th November and 5th semester classes will commence on 18th November 2021, in offline mode."
     };
     
     NewsImagedata1 = {
@@ -75,11 +75,12 @@ class Newsthree extends React.Component {
 
                 <div className="contain">
                    
-                  {/* <HeadingOne data={this.NewsTitle} https://vjcet.org/>*/}
+                  {/* <HeadingOne data={this.NewsTitle} https://vjcet.org/>
                    
                    <HeadingTwo data={this.NewsTitle1} />
                   <iframe src="https://vjcet.org/downloads/news/FacRec.pdf#zoom=115" width="90%" height="800" title="Faculty Recruitment" align="center"></iframe>
-                    
+                    */}
+                    <h2>As per the KTU Circular No. KTU/ACI/1409/2021 dated 30-10-2021, B.Tech 3rd semester classes will commnce on 15th November and 5th semester classes will commence on 18th November 2021, in offline mode.</h2>
                 </div>
                 <Footer data={this.HomePageFooter} />
                 {this.state.showMenu ? (<MenuOverlay closeMenuFunction={this.closeMenu} />) : ("")}

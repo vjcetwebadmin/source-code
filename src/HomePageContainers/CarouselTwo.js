@@ -7,17 +7,18 @@ class CarouselTwo extends Component {
   data = [
     {
       instanceID: this.props.data.instanceID + "CustomOne",
-      title: <font color="FFFFF" size="4">As per the KTU Circular No. KTU/ACI/1409/2021 dated 30-10-2021, B.Tech 3rd semester classes will commnce on 15th November and 5th semester classes will commence on 18th November 2021, in offline mode.</font>
+      title: <a href="https://vjcet.org/#/newsthree"  rel="noopener noreferrer"><font color="FFFFF" size="4">As per the KTU Circular No. KTU/ACI/1409/2021 dated 30-10-2021, B.Tech 3rd semester classes will commnce on 15th November and 5th semester classes will commence on 18th November 2021, in offline mode.</font></a>
     },
+    
     {
       instanceID: this.props.data.instanceID + "CustomOne",
       title: <a href="https://vjcet.org/#/newsfive"  rel="noopener noreferrer"><font color="FFFFF" size="4">B.Tech Fee Payment</font></a>
-    },  
-   /* {
-      instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/newsthree"  rel="noopener noreferrer"><font color="FFFFF" size="4">Wanted Asst. Professor in Department of Management Studies</font></a>
     },
-    
+   /*   
+   {
+      instanceID: this.props.data.instanceID + "CustomOne",
+      title: <font color="FFFFF" size="4">As per the KTU Circular No. KTU/ACI/1409/2021 dated 30-10-2021, B.Tech 3rd semester classes will commnce on 15th November and 5th semester classes will commence on 18th November 2021, in offline mode.</font>
+    }, 
     {
       instanceID: this.props.data.instanceID + "CustomOne",
       title: <a href="https://vjcet.org/#/newsnine"  rel="noopener noreferrer"><font color="FFFFF" size="4">Faculty Recruitment - Civil and English Departments</font></a>
@@ -25,7 +26,7 @@ class CarouselTwo extends Component {
     {
       instanceID: this.props.data.instanceID + "CustomOne",
       title: <a href="https://vjcet.org/#/newsone"  rel="noopener noreferrer"><font color="FFFFF" size="4">Caution Deposit and Refundable Deposit of 2017-2021 Batch</font></a>
-    },   */
+    },*/
     {
       instanceID: this.props.data.instanceID + "CustomOne",
       title: <a href="https://vjcet.org/#/newstwo"  rel="noopener noreferrer"><font color="FFFFF" size="4">Covid 19, Institutional Plan and SOP</font></a>
