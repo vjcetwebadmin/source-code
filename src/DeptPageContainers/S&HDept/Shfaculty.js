@@ -102,6 +102,20 @@ class Faculty extends Component {
     name:  <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHSTF101" target="_blank" rel="noopener noreferrer">Mr.	John Odackal</a>,
     content: "Assistant Professor"
   }; 
+  Cefaculty26 = {
+    instanceID: "Cefaculty26",
+    image: "Allstaffphoto/SH/FAC/CSFACblank.jpg",
+    width: "50%",
+    name:  <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHFAC126" target="_blank" rel="noopener noreferrer">Rev. N.C. Paul</a>,
+    content: "Assistant Professor(on leave)"
+  }; 
+  Cefaculty25 = {
+    instanceID: "Cefaculty25",
+    image: "Allstaffphoto/SH/FAC/CSFACblank.jpg",
+    width: "50%",
+    name:  <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHFAC126" target="_blank" rel="noopener noreferrer">Dr. Vincent Aerath</a>,
+    content: "Associate Professor"
+  };   
   Cefaculty23 = {
     instanceID: "Cefaculty23",
     image: "Allstaffphoto/SH/FAC/342.jpg",
@@ -169,6 +183,12 @@ class Faculty extends Component {
          {/* <div>
             <FacultyData data={this.Cefaculty20} />
          </div>*/}
+           <div>
+            <FacultyData data={this.Cefaculty26} />
+          </div>  
+          <div>
+            <FacultyData data={this.Cefaculty25} />
+          </div>          
           <div>
             <FacultyData data={this.Cefaculty23} />
           </div>         

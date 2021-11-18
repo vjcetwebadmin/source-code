@@ -15,22 +15,22 @@ class PEO extends Component {
   peoListTwo = {
     instanceID: "peoListTwo",
     title:
-      "1.	Shall have creative and critical reasoning skills to solve technical problems ethically and responsibly to serve the society."
+      "1.	Shall apply their skill-based knowledge attained during undergraduate education to adapt with the recent technological advancements and acquire a promising career."
   };
   peoListThree = {
     instanceID: "peoListThree",
     title:
-      "2.	Shall have competency to collaborate as a team member and team leader to address social, technical and engineering challenges."
+      "2.	Shall possess critical thinking, professional skills and strong work ethics, to solve real world problems required to cater the needs of industry and to serve the society."
   };
   peoListFour = {
     instanceID: "peoListFour",
     title:
-      "3.	Shall have ability to contribute to the development of the next generation of information technology either through innovative research or through practice in a corporate setting."
+      "3.	Shall learn, apply and adapt to grow with the industrial needs thereby becoming a successful innovator in the challenging technological world."
   };
   peoListFive = {
     instanceID: "peoListFive",
     title:
-      "4.	Shall have potential to build start-up companies with the foundations, knowledge and experience they acquired from undergraduate education."
+      "4.	Shall have the competency to seek higher professional degrees, certifications and to do quality research work as an individual or as a team."
   };
 
   psoHeading = {
@@ -40,17 +40,17 @@ class PEO extends Component {
   psoListOne = {
     instanceID: "psoListOne",
     title:
-      "1.	Ability to integrate theory and practice to construct software systems of varying complexity."
+      "1.	Able to apply the computational knowledge of data science, machine learning and deep learning to analyze, design and model novel applications."
   };
   psoListTwo = {
     instanceID: "psoListTwo",
     title:
-      "2.	Able to Apply Computer Science skills, tools and mathematical techniques to analyze, design and model complex systems."
+      "2.	Ability to become an entrepreneur which provides engineering solutions for industrial and societal problems."
   };
   psoListThree = {
     instanceID: "psoListThree",
     title:
-      "3.	Ability to design and manage small-scale projects to develop a career in a related industry."
+      "3.	Up-skilling in advanced data science, machine learning and deep learning technologies."
   };
  
   render() {
@@ -67,8 +67,8 @@ class PEO extends Component {
         <Bodythree data={this.psoListTwo} />
         <Bodythree data={this.psoListThree} />
         <div className="HeadingOne">
-            <h1>Course Outcomes</h1>
-            <a href="https://vjcet.org/downloads/COs/CSE.xlsx" target="_blank" rel="noopener noreferrer"><b>Click Here to download COs</b></a>
+            {/*<h1>Course Outcomes</h1>
+            <a href="https://vjcet.org/downloads/COs/CSE.xlsx" target="_blank" rel="noopener noreferrer"><b>Click Here to download COs</b></a>*/}
         </div>
       </div>
     );

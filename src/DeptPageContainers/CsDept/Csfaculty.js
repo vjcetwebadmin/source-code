@@ -191,9 +191,7 @@ class CSFaculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty4} />
           </div>
-          <div>
-            <FacultyData data={this.Cefaculty2} />
-          </div>         
+      
            <div>
             <FacultyData data={this.Cefaculty7} />
           </div>
@@ -238,9 +236,6 @@ class CSFaculty extends Component {
           </div>
           <div>
             <FacultyData data={this.Cefaculty27} />
-          </div>
-          <div>
-            <FacultyData data={this.Cefaculty21} />
           </div>
           <div>
             <FacultyData data={this.Cefaculty26} />

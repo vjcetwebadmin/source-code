@@ -143,14 +143,7 @@ class Faculty extends Component {
     name:  <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ECFAC122" target="_blank" rel="noopener noreferrer">Mrs. Rose Mary Kuruvithadam</a>,
     content: "Assistant Professor(on-leave Ph.D)"
   };
-  
-  Cefaculty22 = {
-    instanceID: "Cefaculty22",
-    image: "Allstaffphoto/EC/FAC/ECFAC126.jpg",
-    width: "50%",
-    name:  <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ECFAC126" target="_blank" rel="noopener noreferrer">Mrs. Femy John</a>,
-    content: "Assistant Professor"
-  };
+
   Cefaculty23 = {
     instanceID: "Cefaculty23",
     image: "Allstaffphoto/EC/FAC/SimiZerineSleeba.jpg",
@@ -165,13 +158,7 @@ class Faculty extends Component {
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ECFAC105" target="_blank" rel="noopener noreferrer">Mr. Naveen Jacob</a>,
     content: "Associate Professor"
   };
-  Cefaculty25 = {
-    instanceID: "Cefaculty25",
-    image: "Allstaffphoto/EC/FAC/Somypmathew.JPEG",
-    width: "50%",
-    name:  <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ECFAC107" target="_blank" rel="noopener noreferrer">Mr. Somy P Mathew</a>,
-    content: "Vice-Principal & Assistant Professor"
-  };
+
   Cefaculty26 = {
     instanceID: "Cefaculty26",
     image: "Allstaffphoto/EC/FAC/PriyaGL.jpeg",
@@ -192,13 +179,6 @@ class Faculty extends Component {
     width: "50%",
     name:  <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ECFAC129" target="_blank" rel="noopener noreferrer">Mrs.Minu George</a>,
     content: "Assistant Professor(on-leave)"
-  };
-  Cefaculty29 = {
-    instanceID: "Cefaculty29",
-    image: "Allstaffphoto/EC/FAC/MaryNirmala.jpeg",
-    width: "50%",
-    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ECFAC130" target="_blank" rel="noopener noreferrer">Mrs.Mary Nirmala George</a>,
-    content: "Assistant Professor"
   };
   Cefaculty30 = {
     instanceID: "Cefaculty30",
@@ -248,13 +228,10 @@ class Faculty extends Component {
           </div>
           <div>
             <FacultyData data={this.Cefaculty7} />
-          </div>
-          <div>
-            <FacultyData data={this.Cefaculty25} />
-          </div>          
+          </div>  
           <div>
             <FacultyData data={this.Cefaculty9} />
-          </div>        
+          </div>     
           <div>
             <FacultyData data={this.Cefaculty10} />
           </div>
@@ -295,16 +272,10 @@ class Faculty extends Component {
             <FacultyData data={this.Cefaculty26} />
           </div>
           <div>
-            <FacultyData data={this.Cefaculty22} />
-          </div>
-          <div>
             <FacultyData data={this.Cefaculty27} />
           </div>
           <div>
             <FacultyData data={this.Cefaculty28} />
-          </div>
-          <div>
-            <FacultyData data={this.Cefaculty29} />
           </div>
           <div>
             <FacultyData data={this.Cefaculty30} />

@@ -68,7 +68,11 @@ MbaHead1Desc2_3 = {
     instanceID: "MbaHead1Desc3_2",
     title: "VMA is very active in providing Induction Programme for all students at the start of the course. They will debrief the forthcoming challenges and issues faced by the students during the course of the MBA programme.  They also conduct sessions on Communication skills, fostering interpersonal relationships, time management, goal setting, public speaking, career opportunities, soft skill development, study techniques and life skills in general are covered during the programme. Thus such programmes will help them to alleviate their fears and apprehensions about their compatibility in a business management atmosphere."
     };
-
+    MbaImage5 = {
+      instanceID: "MbaImage5",
+      image: "DepartmentImages/MBA/StudLife/mb5.jpg",
+      width: "58%"
+    }
 
     MbaHead4 = {
       instanceID: "MbaHead4",
@@ -136,6 +140,26 @@ MbaHead1Desc2_3 = {
       instanceID: "MbaHead1Desc4_5",
       title: "Cultural Committee at VSMS provides a platform for students to express their latent talents. It hosts various events such as Bodhi and College day programs ensuring an equal share of fun and frolic alongside academic rigor."
       };
+      MbaImage6 = {
+        instanceID: "MbaImage6",
+        image: "DepartmentImages/MBA/StudLife/mb6.jpg",
+        width: "58%"
+      }
+      MbaImage7 = {
+        instanceID: "MbaImage7",
+        image: "DepartmentImages/MBA/StudLife/mb7.jpg",
+        width: "58%"
+      }
+      MbaImage8 = {
+        instanceID: "MbaImage8",
+        image: "DepartmentImages/MBA/StudLife/mb8.jpg",
+        width: "58%"
+      }
+      MbaImage9 = {
+        instanceID: "MbaImage9",
+        image: "DepartmentImages/MBA/StudLife/mb9.jpg",
+        width: "58%"
+      }
 
       MbaHead5 = {
         instanceID: "MbaHead5",
@@ -176,6 +200,9 @@ MbaHead1Desc2_3 = {
         <p><BodyOneJustified data={this.MbaHead1Desc3}></BodyOneJustified></p>
         <p><BodyOneJustified data={this.MbaHead1Desc3_2}></BodyOneJustified></p>  
         <p></p> 
+        <br></br>
+        <ImageOne data={this.MbaImage5} />
+        <br></br>        
         <p></p>
         <HeadingTwo data={this.MbaHead4} />
         <p></p>
@@ -212,6 +239,15 @@ MbaHead1Desc2_3 = {
         <p className="inner-parahead">Cultural Committee</p> 
         <p><BodyOneJustified data={this.MbaHead1Desc4_5}></BodyOneJustified></p>
         <p></p> 
+        <br></br>
+        <ImageOne data={this.MbaImage6} /> 
+        <br></br>
+        <ImageOne data={this.MbaImage7} />
+        <br></br>
+        <ImageOne data={this.MbaImage8} />
+        <br></br>
+        <ImageOne data={this.MbaImage9} />
+        <br></br> 
         <p></p>
         <HeadingTwo data={this.MbaHead5} />
         <p></p>

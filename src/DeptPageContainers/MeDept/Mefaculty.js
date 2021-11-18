@@ -220,10 +220,10 @@ class MEFaculty extends Component {
             <FacultyData data={this.Cefaculty22} />
           </div>
           <div>
-            <FacultyData data={this.Cefaculty23} />
-          </div>
-          <div>
             <FacultyData data={this.Cefaculty25} />
+          </div>         
+          <div>
+            <FacultyData data={this.Cefaculty23} />
           </div>
           </div>
       </div>

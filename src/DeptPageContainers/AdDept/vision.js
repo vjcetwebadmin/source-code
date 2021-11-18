@@ -11,7 +11,7 @@ class Vision extends Component {
   VisionDescription = {
     instanceID: "VisionDescription",
     title:
-      "Moulding socially responsible and professionally competent Computer Engineers to adapt to the dynamic technological landscape"
+      "Moulding professionals catering to research, innovation and entrepreneurial developments for global digitalization"
   };
   MissionHeading = {
     instanceID: "MissionHeading",
@@ -20,17 +20,17 @@ class Vision extends Component {
   MissionListOne = {
     instanceID: "MissionListOne",
     title:
-      "1.	Foster the principles and practices of computer science to empower life-long learning and   build careers in software and hardware development."
+      "1.	To inculcate research culture for design and innovative development towards a better world."
   };
   MissionListTwo = {
     instanceID: "MissionListTwo",
     title:
-      "2.  Impart value education to elevate students to be successful, ethical and effective problem-solvers to serve the needs of the industry, government, society and the scientific community."
+      "2. To guide and mould the students to become globally competent professionals with ethical values."
   };
   MissionListThree = {
     instanceID: "MissionListThree",
     title:
-      "3.  Promote industry interaction to pursue new technologies in Computer Science and provide excellent infrastructure to engage faculty and students in scholarly research activities."
+      "3. To generate innovative ideas, and disseminate it through quality publications."
   };
 
   render() {
