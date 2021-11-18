@@ -10,18 +10,18 @@ class Faculty extends Component {
     name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHFAC101" target="_blank" rel="noopener noreferrer">Mrs. Ann Neetha Sabu</a>,
     content: "Assistant Professor"
   };
+  Cefaculty24 = {
+    instanceID: "Cefaculty24",
+    image: "Allstaffphoto/SH/FAC/140.jpg",
+    width: "50%",
+    name:  <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHFAC120" target="_blank" rel="noopener noreferrer">Prof. George Kuriakose</a>,
+    content: "Assistant Professor(on-leave)"
+  };  
   Cefaculty3 = {
     instanceID: "Cefaculty3",
     image: "Allstaffphoto/SH/FAC/SHFAC105.jpg",
     width: "50%",
     name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHFAC105" target="_blank" rel="noopener noreferrer">Mrs. Viji George</a>,
-    content: "Assistant Professor"
-  };
-  Cefaculty4 = {
-    instanceID: "Cefaculty4",
-    image: "Allstaffphoto/SH/FAC/246.jpg",
-    width: "50%",
-    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHFAC106" target="_blank" rel="noopener noreferrer">Mrs. Anila Elizabeth John</a>,
     content: "Assistant Professor"
   };
   Cefaculty5 = {
@@ -30,8 +30,7 @@ class Faculty extends Component {
     width: "50%",
     name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHFAC107" target="_blank" rel="noopener noreferrer">Mrs. Rose Mary Baby</a>,
     content: "Assistant Professor"
-  };
-  
+  };  
   Cefaculty7 = {
     instanceID: "Cefaculty7",
     image: "Allstaffphoto/SH/FAC/249.jpg",
@@ -53,14 +52,14 @@ class Faculty extends Component {
     name:  <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHFAC111" target="_blank" rel="noopener noreferrer">Mrs. Manu Sebastiann</a>,
     content: "Assistant Professor"
   };
+  
   Cefaculty10 = {
     instanceID: "Cefaculty10",
     image: "Allstaffphoto/SH/FAC/252.jpg",
     width: "50%",
     name:  <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHFAC112" target="_blank" rel="noopener noreferrer">Mr. Tony Augustine</a>,
     content: "Assistant Professor(on-leave Ph.D)"
-  };
-  
+  };  
   Cefaculty12 = {
     instanceID: "Cefaculty12",
     image: "Allstaffphoto/SH/FAC/SHFAC114.jpg",
@@ -74,8 +73,7 @@ class Faculty extends Component {
     width: "50%",
     name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHFAC115" target="_blank" rel="noopener noreferrer">Mrs. Deenu Baby</a>,
     content: "Assistant Professor"
-  };
-  
+  };  
   Cefaculty16 = {
     instanceID: "Cefaculty16",
     image: "Allstaffphoto/SH/FAC/329.jpg",
@@ -103,7 +101,14 @@ class Faculty extends Component {
     width: "50%",
     name:  <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHSTF101" target="_blank" rel="noopener noreferrer">Mr.	John Odackal</a>,
     content: "Assistant Professor"
-  };
+  }; 
+  Cefaculty23 = {
+    instanceID: "Cefaculty23",
+    image: "Allstaffphoto/SH/FAC/342.jpg",
+    width: "50%",
+    name:  <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHFAC126" target="_blank" rel="noopener noreferrer">Mrs. Anitha Rajan</a>,
+    content: "Assistant Professor(on leave)"
+  }; 
   Cefaculty21 = {
     instanceID: "Cefaculty21",
     image: "Allstaffphoto/SH/FAC/shfac136.jpg",
@@ -129,11 +134,11 @@ class Faculty extends Component {
             <FacultyData data={this.Cefaculty1} />
           </div>
           <div>
+            <FacultyData data={this.Cefaculty24} />
+          </div>            
+          <div>
             <FacultyData data={this.Cefaculty3} />
           </div>          
-          <div>
-            <FacultyData data={this.Cefaculty4} />
-          </div>
           <div>
             <FacultyData data={this.Cefaculty5} />
           </div>
@@ -161,9 +166,12 @@ class Faculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty17} />
           </div>
-          <div>
+         {/* <div>
             <FacultyData data={this.Cefaculty20} />
-          </div>
+         </div>*/}
+          <div>
+            <FacultyData data={this.Cefaculty23} />
+          </div>         
           <div>
             <FacultyData data={this.Cefaculty21} />
           </div>

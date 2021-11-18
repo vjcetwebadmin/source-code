@@ -122,6 +122,11 @@ class SideNav extends Component {
 
         <div class="Deptcontent">
           <div class="sidenav">
+          <input
+            value="Faculty"
+            class="button"
+            onClick={this.onClickFac}
+          />
             {/*<input
 
               value="Profile"
@@ -146,12 +151,7 @@ class SideNav extends Component {
               class="button"
               onClick={this.onClickProg}
             />
-            <input
 
-              value="Faculty"
-              class="button"
-              onClick={this.onClickFac}
-            />
             <input
 
               value="Labs"

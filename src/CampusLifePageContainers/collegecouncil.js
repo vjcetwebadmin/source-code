@@ -29,7 +29,7 @@ class collegecouncil extends React.Component {
 
     CollegecouncilTitle = {
         instanceID: "CollegecouncilTitle",
-        title: "Student Council 2019-20"
+        title: "Student Council 2021-22"
     };
     MajoreventsTitle = {
         instanceID: "MajoreventsTitle",
@@ -103,16 +103,16 @@ class collegecouncil extends React.Component {
                     <br />                   
                         <table id="tableformat">
                         <tr><th>Post</th><th>Student Name</th><th>Branch & Semester</th></tr>
-                            <tr><td>CHAIRMAN</td><td>SEAN SANTOSH JOSEPH</td><td>S5 CSE A</td></tr>
-                            <tr><td>VICE CHAIRPERSON</td><td>MARIYA GEORGE</td><td>S5 ECE A</td></tr>
-                            <tr><td>GENERAL SECRETARY</td><td>H. ANAND</td><td>S5 EEE B</td></tr>
-                            <tr><td>UNIVERSITY UNION COUNCILLORS</td><td>AMAN IBRAHIM</td><td>S3 CE A</td></tr>
-                            <tr><td>UNIVERSITY UNION COUNCILLORS</td><td>CYRIAC JACOB</td><td>S3 ME A</td></tr>
-                            <tr><td>EDITOR</td><td>JUSTIN SIBY</td><td>S5 ME B</td></tr>
-                            <tr><td>ARTS CLUB SECRETARY</td><td>ALAN JOSE</td><td>S5 ECE B</td></tr>
-                            <tr><td>SPORTS CLUB SECRETARY</td><td>MELWIN VINCENT</td><td>S5 CSE B</td></tr>
-                            <tr><td>LADY REPRESENTATIVES</td><td>MINNU MARIA SAJI</td><td>S5 CE B</td></tr>
-                            <tr><td>LADY REPRESENTATIVES</td><td>UTHARA PRADEEP</td><td>S5 EEE B</td></tr>
+                            <tr><td>CHAIRMAN</td><td>MATHUKUTTY MANOJ</td><td>S5 CSE A</td></tr>
+                            <tr><td>VICE CHAIRPERSON</td><td>ASHLY ASOK</td><td>S5 ECE A</td></tr>
+                            <tr><td>GENERAL SECRETARY</td><td>FELIX STEEPHEN</td><td>S5 EEE B</td></tr>
+                            <tr><td>UNIVERSITY UNION COUNCILLORS</td><td>CYRIL M SYRIAC</td><td>S3 CE A</td></tr>
+                            <tr><td>UNIVERSITY UNION COUNCILLORS</td><td>SYANA FATHIMA</td><td>S3 ME A</td></tr>
+                            <tr><td>EDITOR</td><td>ELIZABETH</td><td>S5 ME B</td></tr>
+                            <tr><td>ARTS CLUB SECRETARY</td><td>ALAN SUNNY</td><td>S5 ECE B</td></tr>
+                            <tr><td>SPORTS CLUB SECRETARY</td><td>IBIN RAFI GEORGE</td><td>S5 CSE B</td></tr>
+                            <tr><td>LADY REPRESENTATIVES</td><td>SANDRA MARIA SIBY</td><td>S5 CE B</td></tr>
+                            <tr><td>LADY REPRESENTATIVES</td><td>NAVNEETHA S</td><td>S5 EEE B</td></tr>
                             <tr><td>MBA ASSOCIATION SECRETARY</td><td>UNNIKRISHNAN RAJAN</td><td>T1 MBA</td></tr>
                             <tr><td>CS ASSOCIATION SECRETARY</td><td>JOSE ANTONY</td><td>S7 CSE B</td></tr>
                             <tr><td>CE ASSOCIATION SECRETARY</td><td>PETER JOSE</td><td>S5 CE B</td></tr>

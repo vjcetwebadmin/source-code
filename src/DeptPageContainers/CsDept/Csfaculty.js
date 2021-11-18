@@ -22,7 +22,7 @@ class CSFaculty extends Component {
     image: "Allstaffphoto/CS/FAC/CSFAC29.jpg",
     width: "50%",
     name: <a  href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CSFAC132" target="_blank" rel="noopener noreferrer">Dr. K K Kuriakose</a>,
-    content: "Professor"
+    content: "Professor(on-leave)"
   };
   Cefaculty2 = {
     instanceID: "Cefaculty2",
@@ -36,7 +36,7 @@ class CSFaculty extends Component {
     image: "Allstaffphoto/CS/FAC/323.jpg",
     width: "50%",
     name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CSFAC129" target="_blank" rel="noopener noreferrer">Dr. Anishin Raj M M</a>,
-    content: "Dean R & D, Professor"
+    content: "Dean R & D, Professor & Asst. HOD"
   };
    Cefaculty7 = {
     instanceID: "Cefaculty7",
@@ -71,7 +71,7 @@ class CSFaculty extends Component {
     image: "Allstaffphoto/CS/FAC/74.jpg",
     width: "50%",
     name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CSFAC110" target="_blank" rel="noopener noreferrer">Mr. Jobin Jose</a>,
-    content: "Assistant Professor(on-leave Ph.D)"
+    content: "Assistant Professor"
   };
   Cefaculty12 = {
     instanceID: "Cefaculty12",
