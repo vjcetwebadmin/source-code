@@ -104,14 +104,14 @@ class Faculty extends Component {
   }; 
   Cefaculty26 = {
     instanceID: "Cefaculty26",
-    image: "Allstaffphoto/SH/FAC/CSFACblank.jpg",
+    image: "Allstaffphoto/SH/FAC/director.jpg",
     width: "50%",
-    name:  <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHFAC126" target="_blank" rel="noopener noreferrer">Rev. N.C. Paul</a>,
+    name:  "Rev. N.C. Paul",
     content: "Assistant Professor(on leave)"
   }; 
   Cefaculty25 = {
     instanceID: "Cefaculty25",
-    image: "Allstaffphoto/SH/FAC/CSFACblank.jpg",
+    image: "Allstaffphoto/SH/FAC/SHFAC140.jpeg",
     width: "50%",
     name:  <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHFAC126" target="_blank" rel="noopener noreferrer">Dr. Vincent Aerath</a>,
     content: "Associate Professor"
@@ -182,10 +182,10 @@ class Faculty extends Component {
           </div>
          {/* <div>
             <FacultyData data={this.Cefaculty20} />
-         </div>*/}
+         </div>
            <div>
             <FacultyData data={this.Cefaculty26} />
-          </div>  
+          </div> */} 
           <div>
             <FacultyData data={this.Cefaculty25} />
           </div>          
