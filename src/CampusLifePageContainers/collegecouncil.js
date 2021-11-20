@@ -103,28 +103,29 @@ class collegecouncil extends React.Component {
                     <br />                   
                         <table id="tableformat">
                         <tr><th>Post</th><th>Student Name</th><th>Branch & Semester</th></tr>
-                            <tr><td>CHAIRMAN</td><td>MATHUKUTTY MANOJ</td><td>S5 CSE A</td></tr>
-                            <tr><td>VICE CHAIRPERSON</td><td>ASHLY ASOK</td><td>S5 ECE A</td></tr>
-                            <tr><td>GENERAL SECRETARY</td><td>FELIX STEEPHEN</td><td>S5 EEE B</td></tr>
-                            <tr><td>UNIVERSITY UNION COUNCILLORS</td><td>CYRIL M SYRIAC</td><td>S3 CE A</td></tr>
-                            <tr><td>UNIVERSITY UNION COUNCILLORS</td><td>SYANA FATHIMA</td><td>S3 ME A</td></tr>
-                            <tr><td>EDITOR</td><td>ELIZABETH</td><td>S5 ME B</td></tr>
-                            <tr><td>ARTS CLUB SECRETARY</td><td>ALAN SUNNY</td><td>S5 ECE B</td></tr>
-                            <tr><td>SPORTS CLUB SECRETARY</td><td>IBIN RAFI GEORGE</td><td>S5 CSE B</td></tr>
-                            <tr><td>LADY REPRESENTATIVES</td><td>SANDRA MARIA SIBY</td><td>S5 CE B</td></tr>
-                            <tr><td>LADY REPRESENTATIVES</td><td>NAVNEETHA S</td><td>S5 EEE B</td></tr>
-                            <tr><td>MBA ASSOCIATION SECRETARY</td><td>UNNIKRISHNAN RAJAN</td><td>T1 MBA</td></tr>
-                            <tr><td>CS ASSOCIATION SECRETARY</td><td>JOSE ANTONY</td><td>S7 CSE B</td></tr>
-                            <tr><td>CE ASSOCIATION SECRETARY</td><td>PETER JOSE</td><td>S5 CE B</td></tr>
-                            <tr><td>ME ASSOCIATION SECRETARY</td><td>AJAY SAJEEV</td><td>S7 ME B</td></tr>
-                            <tr><td>EC ASSOCIATION SECRETARY</td><td>ANU MARIA SUNNY</td><td>S7 ECE B</td></tr>
-                            <tr><td>EEE ASSOCIATION SECRETARY</td><td>ALEN MARTIN</td><td>S7 EEE A</td></tr>
-                            <tr><td>IT ASSOCIATION SECRETARY</td><td>LEO JOHNSON</td><td>S5 IT</td></tr>
-                            <tr><td>PG REPRESENTATIVE</td><td>ATHULYA RAJEEV</td><td>T4 MBA</td></tr>
-                            <tr><td>FIRST YEAR REPRESENTATIVE</td><td>JOEL RAJU</td><td>S1 CSE A</td></tr>
-                            <tr><td>SECOND YEAR REPRESENTATIVE</td><td>AJAY SAJEEVAN</td><td>S3 ECE A</td></tr>
-                            <tr><td>THIRD YEAR REPRESENTATIVE</td><td>MARIA BENNY</td><td>S5 EEE A</td></tr>
-                            <tr><td>FOURTH YEAR REPRESENTATIVE</td><td>TINU GEORGE</td><td>S7 EEE B</td></tr>
+                            <tr><td>CHAIRMAN</td><td>MATHUKUTTY MANOJ</td><td>S4 CSE A</td></tr>
+                            <tr><td>VICE CHAIRPERSON</td><td>ASHLY ASOK</td><td>S4 CE B</td></tr>
+                            <tr><td>GENERAL SECRETARY</td><td>FELIX STEEPHEN</td><td>S4 EEE</td></tr>
+                            <tr><td>UNIVERSITY UNION COUNCILLORS</td><td>CYRIL M SYRIAC</td><td>S4 ME B</td></tr>
+                            <tr><td>UNIVERSITY UNION COUNCILLORS</td><td>SAYANA FATHIMA</td><td>S4 EEE</td></tr>
+                            <tr><td>EDITOR</td><td>ELIZABETH</td><td>S4 CSE B</td></tr>
+                            <tr><td>ARTS CLUB SECRETARY</td><td>ALAN SUNNY</td><td>S4 CE A</td></tr>
+                            <tr><td>SPORTS CLUB SECRETARY</td><td>IVIN RAFI GEORGE</td><td>S4 CSE B</td></tr>
+                            <tr><td>LADY REPRESENTATIVES</td><td>SANDRA MARIA SIBY</td><td>S6 CE B</td></tr>
+                            <tr><td>LADY REPRESENTATIVES</td><td>NAVNEETHA S</td><td>S4 CE A</td></tr>
+                            <tr><td>MBA ASSOCIATION SECRETARY</td><td>KARTHIKEYAN K.A</td><td>S2 MBA</td></tr>
+                            <tr><td>AD ASSOCIATION SECRETARY</td><td>ANANTH KRISHNA</td><td>S2 AD</td></tr>
+                            <tr><td>CS ASSOCIATION SECRETARY</td><td>NAVIN JOSEPH</td><td>S6 CSE A</td></tr>
+                            <tr><td>CE ASSOCIATION SECRETARY</td><td>ANAMIKA S NAIR</td><td>S6 CE A</td></tr>
+                            <tr><td>ME ASSOCIATION SECRETARY</td><td>FREDIN JOHNSON</td><td>S6 ME B</td></tr>
+                            <tr><td>EC ASSOCIATION SECRETARY</td><td>SANAL SABU</td><td>S6 ECE B</td></tr>
+                            <tr><td>EEE ASSOCIATION SECRETARY</td><td>BASIL SAJI</td><td>S6 EEE</td></tr>
+                            <tr><td>IT ASSOCIATION SECRETARY</td><td>AKHILA JOJO</td><td>S6 IT</td></tr>
+                            <tr><td>PG REPRESENTATIVE</td><td>ASWATHY PETER</td><td>S2 MBA</td></tr>
+                            {/*<tr><td>FIRST YEAR REPRESENTATIVE</td><td>JOEL RAJU</td><td>S1 CSE A</td></tr>*/}
+                            <tr><td>SECOND YEAR REPRESENTATIVE</td><td>EBIN BIJU</td><td>S2 ME</td></tr>
+                            <tr><td>THIRD YEAR REPRESENTATIVE</td><td>JACKSON JOSHI</td><td>S4 ME A</td></tr>
+                            <tr><td>FOURTH YEAR REPRESENTATIVE</td><td>MELVIN ELDO</td><td>S6 ME B</td></tr>
                             
                         </table>
                         <HeadingTwo data={this.MajoreventsTitle} className="Heading" />
