@@ -333,7 +333,7 @@ class App extends Component {
             content: "Professor(on-leave)"
           },
           {
-            instanceID: "Cefaculty24",
+            instanceID: "Cefaculty25",
             image: "Allstaffphoto/CE/FAC/RAVINDRANATH.jpg", 
             width: "50%", 
             name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC145" target="_blank" rel="noopener noreferrer">Dr. E. Ravindranath</a>,
@@ -472,6 +472,13 @@ class App extends Component {
             width: "50%",
             name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC139" target="_blank" rel="noopener noreferrer">Mrs. Ancy Genu C.George</a>,
             content: "Assistant Professor"
+          },
+          {
+            instanceID: "Cefaculty26",
+            image: "Allstaffphoto/CE/FAC/meril.jpg",
+            width: "50%",
+            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC142" target="_blank" rel="noopener noreferrer">Ms. Meril Jose</a>,
+            content: "Guest Lecturer"
           }
         ],
         staff: [
@@ -527,7 +534,7 @@ class App extends Component {
           {
             instanceID: "Cefaculty8",
             image: "Allstaffphoto/CE/STAF/393.jpg",
-            width: "50%",
+            width: "53%",
             name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CESTF109" target="_blank" rel="noopener noreferrer">Mrs. Doniya Johnson</a>,
             content: "Tradesman"
           }
