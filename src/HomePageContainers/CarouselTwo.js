@@ -7,6 +7,10 @@ class CarouselTwo extends Component {
   data = [
     {
       instanceID: this.props.data.instanceID + "CustomOne",
+      title: <a href="https://vjcet.org/#/newsnine"  rel="noopener noreferrer"><font color="FFFFF" size="4">Faculty Recruitment - Information Technology Department</font></a>
+    }, 
+    {
+      instanceID: this.props.data.instanceID + "CustomOne",
       title: <a href="https://vjcet.org/#/newsthree"  rel="noopener noreferrer"><font color="FFFFF" size="4">As per the KTU Circular No. KTU/ACI/1409/2021 dated 30-10-2021, B.Tech 3rd semester classes will commence........</font></a>
     },
     
@@ -19,10 +23,7 @@ class CarouselTwo extends Component {
       instanceID: this.props.data.instanceID + "CustomOne",
       title: <font color="FFFFF" size="4">As per the KTU Circular No. KTU/ACI/1409/2021 dated 30-10-2021, B.Tech 3rd semester classes will commnce on 15th November and 5th semester classes will commence on 18th November 2021, in offline mode.</font>
     }, 
-    {
-      instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/newsnine"  rel="noopener noreferrer"><font color="FFFFF" size="4">Faculty Recruitment - Civil and English Departments</font></a>
-    }, 
+
     {
       instanceID: this.props.data.instanceID + "CustomOne",
       title: <a href="https://vjcet.org/#/newsone"  rel="noopener noreferrer"><font color="FFFFF" size="4">Caution Deposit and Refundable Deposit of 2017-2021 Batch</font></a>
