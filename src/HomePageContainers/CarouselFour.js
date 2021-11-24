@@ -120,7 +120,7 @@ class CarouselFour extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <font color="#880d1e">Merit & Farewell 2021</font>
+            <font color="#880d1e">Merit & Farewell 2021</font> 
           </a>
         ),
       },
@@ -150,27 +150,27 @@ class CarouselFour extends Component {
         image: "CarouselFourImages/onam2021.gif",
         width: "150px",
       },
-    }
- /*  {
+    },
+    {
       Title: {
         instanceID: "EventThreeTitle",
         title: (
           <a
-            href="https://vjcet.org/downloads/gallery/bodhi.html"
+            href="https://vjcet.org/downloads/gallery/unionoath.html"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <font color="#880d1e">Tech Fest : Bodhi 2K19"</font>
+            <font color="#880d1e">Oath Taking Ceremony</font>
           </a>
         ),
       },
 
       Image: {
         instanceID: "EventThreeImage",
-        image: "CarouselFourImages/bodhi.jpg",
-        width: "202px",
+        image: "CarouselFourImages/oath.jpg",
+        width: "130px",
       },
-    },*/
+    }
   ];
 
   render() {
