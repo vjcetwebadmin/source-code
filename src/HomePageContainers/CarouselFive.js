@@ -5,7 +5,7 @@ import HeadingTwo from "../Components/Texts/HeadingTwo";
 import HeadingFive from "../Components/Texts/HeadingFive";
 import Carousel from "react-multi-carousel";
 
-export default function CarouselFour({ data }) {
+export default function CarouselFive({ data }) {
   const instanceID=data.instanceID;
   const Events = {
     instanceID: "CarouselFourEvents",
@@ -144,7 +144,7 @@ export default function CarouselFour({ data }) {
   };
 
   return (
-    <div className="CarouselFour" id={instanceID}>
+    <div className="CarouselFive" id={instanceID}>
       <div className="CarouselFourContentWrapper">
         <div className="CarouselFourTop">
           <HeadingTwo data={Events} />

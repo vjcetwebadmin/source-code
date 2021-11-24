@@ -74,31 +74,7 @@ export default function CarouselFour({ data }) {
         image: "CarouselFourImages/index.jpeg",
         width: "82px"
       }
-    },
-    {
-      Title: {
-        instanceID: "EventFourTitle",
-        title: <a href="https://vjcet.org/downloads/gallery/classbegins.html" rel="noopener noreferrer"  target="_blank"><font color="maroon">Inauguration of First year classes</font></a>
-      },
-
-      Image: {
-        instanceID: "EventFourImage",
-        image: "CarouselFourImages/index.jpeg",
-        width: "82px"
-      }
-    },
-    {
-      Title: {
-        instanceID: "EventFourTitle",
-        title: <a href="https://vjcet.org/downloads/gallery/classbegins.html" rel="noopener noreferrer"  target="_blank"><font color="maroon">Inauguration of First year classes</font></a>
-      },
-
-      Image: {
-        instanceID: "EventFourImage",
-        image: "CarouselFourImages/index.jpeg",
-        width: "82px"
-      }
-    }  
+    }
 
   ];
   const responsive = {
