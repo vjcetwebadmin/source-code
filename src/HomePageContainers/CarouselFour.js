@@ -168,7 +168,27 @@ class CarouselFour extends Component {
       Image: {
         instanceID: "EventThreeImage",
         image: "CarouselFourImages/oath.jpg",
-        width: "130px",
+        width: "125px",
+      },
+    },
+    {
+      Title: {
+        instanceID: "EventFourTitle",
+        title: (
+          <a
+            href="downloads/gallery/classbegins.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <font color="#880d1e">Inauguration of First year classes</font>
+          </a>
+        ),
+      },
+
+      Image: {
+        instanceID: "EvenFourImage",
+        image: "CarouselFourImages/index.jpeg",
+        width: "125x",
       },
     }
   ];

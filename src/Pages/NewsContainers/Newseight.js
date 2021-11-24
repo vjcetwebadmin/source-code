@@ -40,7 +40,7 @@ class Newseight extends React.Component {
 
     NewsTitle = {
         instanceID: "NewsTitle",
-        title: " KTU B.Tech Examination Details"
+        title: "Wanted Faculty in Mechanical Department"
     };
     Newscontent = {
         instanceID: "Newscontent",
@@ -69,7 +69,7 @@ class Newseight extends React.Component {
             <React.Fragment>
                 <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
 
-                <div className="contain">
+              {/*  <div className="contain">
                   <HeadingOne data={this.NewsTitle}></HeadingOne>
                    <br/>
             
@@ -84,7 +84,16 @@ class Newseight extends React.Component {
                     </table>
                    
                     
+        </div>*/}
+         <div className="contain">
+                   
+                   <HeadingOne data={this.NewsTitle} />
+                   
+                 
+                  <iframe src="https://vjcet.org/downloads/news/MEFACULTY.pdf" width="100%" zoom="80%" height="850" title="Campus Map" align="center"></iframe>
+                   
                 </div>
+
                 <Footer data={this.HomePageFooter} />
                 {this.state.showMenu ? (<MenuOverlay closeMenuFunction={this.closeMenu} />) : ("")}
 
