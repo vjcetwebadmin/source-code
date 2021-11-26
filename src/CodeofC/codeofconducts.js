@@ -116,7 +116,7 @@ class nss extends React.Component {
                 <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />  
                 <HeadingOne data={this.ResearchHeading}></HeadingOne>  
                  <div className="contain">     
-                 <p style={{textAlign:"right"}}><a href="https://vjcet.org/downloads/codofcs/Codeofthics.pdf" target="_blank" rel="noopener noreferrer"><b>Policy Document on Code of Ethics</b></a></p>           
+                 <p style={{textAlign:"right"}}><a href="https://vjcet.org/downloads/codofcs/CodeOfEthics.pdf" target="_blank" rel="noopener noreferrer"><b>Policy Document on Code of Ethics</b></a></p>           
                         <HeadingTwo data={this.MajoreventsTitle} className="Heading" />
                         <h4>DISCIPLINE AND ANTI RAGGING</h4>
                         <ul>                        
