@@ -5,7 +5,7 @@ import CustomOne from "../Components/Texts/CustomOne";
 class CarouselTwo extends Component {
   state = { selected: 0 };
   data = [
-    {
+  /*  {
       instanceID: this.props.data.instanceID + "CustomOne",
       title: <a href="https://vjcet.org/#/newseight"  rel="noopener noreferrer"><font color="FFFFF" size="4">Faculty Recruitment - Mechanical Department</font></a>
     },   
@@ -16,7 +16,7 @@ class CarouselTwo extends Component {
     {
       instanceID: this.props.data.instanceID + "CustomOne",
       title: <a href="https://vjcet.org/#/newsthree"  rel="noopener noreferrer"><font color="FFFFF" size="4">As per the KTU Circular No. KTU/ACI/1409/2021 dated 30-10-2021, B.Tech 3rd semester classes will commence........</font></a>
-    },
+    },*/
     
     {
       instanceID: this.props.data.instanceID + "CustomOne",
