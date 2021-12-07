@@ -26,9 +26,6 @@ class CSStaff extends Component {
             <FacultyData data={this.Cefaculty2} />
           </div>
           <div>
-            <FacultyData data={this.Cefaculty3} />
-          </div>
-          <div>
             <FacultyData data={this.Cefaculty4} />
          </div>
         

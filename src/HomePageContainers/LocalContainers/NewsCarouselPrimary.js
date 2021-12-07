@@ -41,7 +41,7 @@ class NewsCarouselPrimary extends Component {
 
   Title4 = {
     instanceID: "NewsPrimaryOneTitle",
-    title: "Kerala Piravi Day Celebrations",
+    title: "PROJECT IGNITE",
     link: ""
   };
 
@@ -76,18 +76,36 @@ class NewsCarouselPrimary extends Component {
     //Recommended Image Size is 733px x 400px.
     width: "95%"
   }; 
-  /*
+  
   Image11 = {
     instanceID: "NewsPrimaryOneImage",
-    image: "NewsSection/BigNews/Pict3.jpg",
+    image: "NewsSection/BigNews/paniyel1.jpeg",
     //Recommended Image Size is 733px x 400px.
-    width: "100%"
+    width: "94%"
   };  
   Image12 = {
     instanceID: "NewsPrimaryOneImage",
-    image: "NewsSection/BigNews/Pict4.jpg",
+    image: "NewsSection/BigNews/paniyel2.jpeg",
     //Recommended Image Size is 733px x 400px.
-    width: "100%"
+    width: "94%"
+  }; 
+  Image13 = {
+    instanceID: "NewsPrimaryOneImage",
+    image: "NewsSection/BigNews/paniyel3.jpeg",
+    //Recommended Image Size is 733px x 400px.
+    width: "94%"
+  }; 
+  Image14 = {
+    instanceID: "NewsPrimaryOneImage",
+    image: "NewsSection/BigNews/paniyel4.jpeg",
+    //Recommended Image Size is 733px x 400px.
+    width: "94%"
+  }; 
+  Image15 = {
+    instanceID: "NewsPrimaryOneImage",
+    image: "NewsSection/BigNews/paniyel5.jpeg",
+    //Recommended Image Size is 733px x 400px.
+    width: "94%"
   }; 
   Title6 = {
     instanceID: "NewsPrimaryOneTitle",
@@ -95,13 +113,13 @@ class NewsCarouselPrimary extends Component {
     link: ""
   };
   
-  Image13 = {
+ /*  Image13 = {
     instanceID: "NewsPrimaryOneImage",
     image: "NewsSection/BigNews/news2606.jpg",
     //Recommended Image Size is 733px x 400px.
     width: "43%"
   };
-  /*Image15 = {
+ Image15 = {
     instanceID: "NewsPrimaryOneImage",
     image: "NewsSection/BigNews/Itnews1.jpeg",
     //Recommended Image Size is 733px x 400px.
@@ -113,7 +131,7 @@ class NewsCarouselPrimary extends Component {
 
     return (
       <Carousel>  
-        <Carousel.Item>
+      {/*  <Carousel.Item>
           <NewsImage data={this.Image9} />
           {
             <Carousel.Caption>
@@ -128,51 +146,42 @@ class NewsCarouselPrimary extends Component {
               <h3>{this.Title4.title}</h3>
             </Carousel.Caption>
           }
-        </Carousel.Item>               
+        </Carousel.Item>  */}             
         <Carousel.Item>
           <iframe width="630" height="400"
           src="https://www.youtube.com/embed/SwEhkhJGwrA">
           </iframe>           
        </Carousel.Item>     
        <Carousel.Item>
-          <NewsImage data={this.Image3}/>      
-       </Carousel.Item> 
-       {/* 
+          <NewsImage data={this.Image11}/>  
+             <Carousel.Caption>
+              <h3>{this.Title4.title}</h3>
+            </Carousel.Caption>
+         </Carousel.Item>       
          <Carousel.Item>
-          <NewsImage data={this.Image6}/>      
+          <NewsImage data={this.Image12}/>      
        </Carousel.Item>        
        
         <Carousel.Item>
-          <NewsImage data={this.Image11} />
-          {<a href={this.Title6.link}>
-            <Carousel.Caption>
-              <h3>{this.Title6.title}</h3>
+          <NewsImage data={this.Image13} />
+          <Carousel.Caption>
+              <h3>{this.Title4.title}</h3>
             </Carousel.Caption>
-          </a>}
         </Carousel.Item>  
           <Carousel.Item>
-          <NewsImage data={this.Image9} />
-          {<a href={this.Title6.link}>
-            <Carousel.Caption>
-              <h3>{this.Title6.title}</h3>
+          <NewsImage data={this.Image14} />
+          <Carousel.Caption>
+              <h3>{this.Title4.title}</h3>
             </Carousel.Caption>
-          </a>}
         </Carousel.Item>         
          <Carousel.Item>
-          <NewsImage data={this.Image12} />
-          {<a href={this.Title6.link}>
-            <Carousel.Caption>
-              <h3>{this.Title6.title}</h3>
+          <NewsImage data={this.Image15} />
+          <Carousel.Caption>
+              <h3>{this.Title4.title}</h3>
             </Carousel.Caption>
-          </a>}
-       </Carousel.Item> */}
-      <Carousel.Item>
-          <NewsImage data={this.Image2} />
-      
-        </Carousel.Item> 
+       </Carousel.Item> 
         <Carousel.Item>
-          <NewsImage data={this.Image4} />
-      
+          <NewsImage data={this.Image4} />      
         </Carousel.Item>               
         {/*<Carousel.Item>
           <NewsImage data={this.Image6} />

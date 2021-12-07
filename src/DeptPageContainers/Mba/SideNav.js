@@ -8,6 +8,7 @@ import Library from "./studlife";
 import Association from "./association";
 import Result from "./result";
 import FacultyNav from "./facultynav";
+import PlacementNav from "./placementnav";
 class SideNav extends Component {
   state = {
     showProfile: true,
@@ -157,13 +158,13 @@ class SideNav extends Component {
               class="button"
               onClick={this.onClickLib}
             />
-           {/* <input
+           <input
 
-              value="Association"
+              value="Placements"
               class="button"
               onClick={this.onClickAss}
             />
-            <input
+          {/*   <input
 
               value="Honours"
               class="button"
@@ -227,10 +228,11 @@ class SideNav extends Component {
             {this.state.showProfile ? <Profile /> : null}
             {this.state.showVision ? <Vision /> : null}
             {this.state.showfac ? <FacultyNav /> : null}
-            { this.state.showLib ? <Library /> : null
-            /*{this.state.showPeo ? <PEO /> : null}
+            {this.state.showLib ? <Library /> : null}
+            {this.state.showAss ? <PlacementNav /> : null}
+            {/*{this.state.showPeo ? <PEO /> : null}
             {this.state.showProgram ? <Program /> : null}            
-            {this.state.showAss ? <Association /> : null}
+            
           {this.state.showRes ? <Result /> : null}*/}
           </div>
         </div>
