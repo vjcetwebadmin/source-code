@@ -48,7 +48,7 @@ LibraryServiceTitle1 = {
             <p>
             <b>Companies attended</b>
             </p>
-            <ul>
+            <ul  style={{lineHeight:"1.5em"}}>
               <li>Orell Technologies</li>
               <li>Aditya Birla Fashion Retail Ltd</li>
               <li>Sharekhan Financial Services</li>

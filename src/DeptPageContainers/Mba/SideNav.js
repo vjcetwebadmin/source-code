@@ -6,7 +6,7 @@ import PEO from "./peo";
 import Program from "./program";
 import Library from "./studlife";
 import Association from "./association";
-import Result from "./result";
+import Mbaadmission from "./mbaadmission";
 import FacultyNav from "./facultynav";
 import PlacementNav from "./placementnav";
 class SideNav extends Component {
@@ -123,19 +123,16 @@ class SideNav extends Component {
         <div class="Deptcontent">
           <div class="sidenav">
             <input
-
               value="About Us"
               class="button"
               onClick={this.onClickP}
             />
             <input
-
               value="Vision"
               class="button"
               onClick={this.onClickV}
             />
            {/*<input
-
               value="PEO, PSO & CO"
               class="button"
               onClick={this.onClickPeo}
@@ -147,29 +144,25 @@ class SideNav extends Component {
               onClick={this.onClickProg}
            />*/}
             <input
-
               value="Faculty"
               class="button"
               onClick={this.onClickFac}
             />
             <input
-
               value="Student Life"
               class="button"
               onClick={this.onClickLib}
             />
            <input
-
               value="Placements"
               class="button"
               onClick={this.onClickAss}
             />
-          {/*   <input
-
-              value="Honours"
+          <input
+              value="Admission"
               class="button"
               onClick={this.onClickRes}
-            />*/}
+            />
           </div>
           <div class="dropdownD">
             <button class="button">Menu</button>
@@ -231,9 +224,8 @@ class SideNav extends Component {
             {this.state.showLib ? <Library /> : null}
             {this.state.showAss ? <PlacementNav /> : null}
             {/*{this.state.showPeo ? <PEO /> : null}
-            {this.state.showProgram ? <Program /> : null}            
-            
-          {this.state.showRes ? <Result /> : null}*/}
+            {this.state.showProgram ? <Program /> : null}*/}         
+            {this.state.showRes ? <Mbaadmission /> : null}
           </div>
         </div>
       </React.Fragment>
