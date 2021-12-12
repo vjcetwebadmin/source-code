@@ -82,7 +82,13 @@ class ITFaculty extends Component {
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ITFAC113" target="_blank" rel="noopener noreferrer">Dr. Sheela V.K.</a>,
     content: "Asso. Prof. & Asst. HOD"
   };
-  
+  Cefaculty13 = {
+    instanceID: "Cefaculty13",
+    image: "Allstaffphoto/IT/FAC/itfac116.jpg",
+    width: "50%",
+    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ITFAC116" target="_blank" rel="noopener noreferrer">Ms. Negitta Nixon Karakunnel</a>,
+    content: "Assistant Professor"
+  };
 
   render() {
     return (
@@ -120,7 +126,10 @@ class ITFaculty extends Component {
           </div> 
           <div>
             <FacultyData data={this.Cefaculty11} />
-          </div>            
+          </div> 
+          <div>
+            <FacultyData data={this.Cefaculty13} />
+          </div>             
         </div>
       </div>
     );
