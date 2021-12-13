@@ -80,7 +80,7 @@ class ITFaculty extends Component {
     image: "Allstaffphoto/IT/FAC/354.jpg",
     width: "50%",
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ITFAC113" target="_blank" rel="noopener noreferrer">Dr. Sheela V.K.</a>,
-    content: "Asso. Prof. & Asst. HOD"
+    content: "Asso. Prof. & Asst. HOD(on leave)"
   };
   Cefaculty13 = {
     instanceID: "Cefaculty13",

@@ -79,6 +79,7 @@ class CSFaculty extends Component {
       instanceID: "LibraryContent7",
       title: "The department has professional ties with organisations like KMA, TiE, NIPM. The students participate in the activities organised by these bodies."
     } 
+
   render() {
     return (
       <div >

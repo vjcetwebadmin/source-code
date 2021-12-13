@@ -35,6 +35,18 @@ LibraryServiceTitle6 = {
   instanceID: "LibraryServiceTitle1",
   title: "APPLY ONLINE"
 };
+LibraryServiceTitle7= {
+  instanceID: "LibraryServiceTitle7",
+  title: "NOTIFICATIONS"
+};
+LibraryContent7 = {
+  instanceID: "LibraryContent7",
+  title: "Those who are studying for last year degree course and are awaiting their results may also apply for the KMAT KERALA Entrance Examination 2021."
+}
+LibraryServiceTitle8= {
+  instanceID: "LibraryServiceTitle8",
+  title: "APPLY ONLINE"
+}; 
   render() {
     return (
       <div>                   
@@ -104,6 +116,42 @@ LibraryServiceTitle6 = {
               <li><b>sebin@vjcet.org</b></li>
              </ul>
         </div>
+        <br></br>
+        <HeadingTwo data={this.LibraryServiceTitle7} className="Heading" />
+        <b><BodyOneJustified data={this.LibraryContent7}/></b>
+        <div  style={{textAlign:"left"}}>
+          <p>Notification</p>
+          <ul style={{lineHeight:"1.5em"}}>
+              <li><a href="http://www.vjcetmba.in/wp-content/uploads/2019/11/5TH-NOTIFICATION-OF-THE-FIRST-KMAT-KERALA-EXAMINATION-2020.pdf" target="_blank" rel="noopener noreferrer">5TH-NOTIFICATION-OF-THE-FIRST-KMAT-KERALA-EXAMINATION-2020</a></li>
+              <li><a href="http://www.vjcetmba.in/wp-content/uploads/2019/11/Kerala-University-of-Fisheries-and-Ocean-Studies-KMAT.docx" target="_blank" rel="noopener noreferrer">Kerala University of Fisheries and Ocean Studies – KMAT</a></li>
+              <li><a href="http://www.vjcetmba.in/wp-content/uploads/2020/12/Students-Admission-List-20-21-batch.pdf" target="_blank" rel="noopener noreferrer">Students Admission List 20 – 21 batch</a></li>
+              <li><a href="https://www.vjcetmba.in/application-form/" target="_blank" rel="noopener noreferrer">ONLINE REGISTRATION</a></li>
+              <li><a href="https://www.vjcetmba.in/wp-content/uploads/2021/08/PR-LLB-KMAT-LLM-Exam-date-published.pdf" target="_blank" rel="noopener noreferrer">KMAT NOTIFICATION</a></li>
+             </ul>
+        </div>       
+        <HeadingTwo data={this.LibraryServiceTitle8} className="Heading" />
+        <div  style={{textAlign:"left"}}>
+          <h3>HOW TO APPLY?</h3>
+          <ul style={{lineHeight:"1.5em"}}>
+              <li>Formal Application form for the MBA Admission can be obtained from the Viswajyothi School of Management Studies Office in person on payment of Rs. 500.</li>
+              <li>Application forms may also be downloaded from the link below. Such applications have to be submitted along with a DD of Rs. 500/- in favour of " Principal, Viswajyothi College of Engineering and Technology" payable at Vazhakulam, Muvattupuzha.</li>
+              <li>The duly filled application forms along with attested copies of the necessary documents can be submitted directly or by registered post addressing the college so as to reach the college office on or before the prescribed date. Applicants shall obtained acknowledgment from the college for application submitted directly.</li>
+              <li>Application submitted to the college should be completed in all respects. The candidate should fill in all the items in the application form in his / her own handwriting.</li>
+              <li>Copies of following Certificates / Documents Attested by Gazetted Officer/Head of the Institution where the student had studied should be submitted along with the application.</li>
+                <ul style={{lineHeight:"1.4em"}}>
+                  <li>10 / 12 or equivalent certificate in proof of the date of birth.</li>
+                  <li>Mark list of the qualifying examination.</li>
+                  <li>Score card of MAT/C-MAT/KMAT.</li>
+                  <li>In case of candidates claiming any sort of reservation or special consideration, document to prove such claims must be submitted along with the application.</li>
+                </ul>
+          </ul>
+          <h3>NOTE:</h3>
+          <ul style={{lineHeight:"1.5em"}}>
+              <li>Furnishing false information/particulars would result in the forfeiture of the candidature as well as cancellation of admission of the course.</li>
+              <li>Merit list for the admission will be published in the college website/notice board.</li>
+              <li>Selection will be in the order of merit.</li>
+          </ul>
+        </div>    
       </div>
     );
   }
