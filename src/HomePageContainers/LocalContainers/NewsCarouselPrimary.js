@@ -107,9 +107,20 @@ class NewsCarouselPrimary extends Component {
     //Recommended Image Size is 733px x 400px.
     width: "94%"
   }; 
+  Image16 = {
+    instanceID: "NewsPrimaryOneImage",
+    image: "NewsSection/BigNews/nsscamp21dec.jpg",
+    //Recommended Image Size is 733px x 400px.
+    width: "94%"
+  };
   Title6 = {
     instanceID: "NewsPrimaryOneTitle",
     title: "Viswajyothi ranked 9th out of 13 in the Cybathlon Competition",
+    link: ""
+  };
+  Title6 = {
+    instanceID: "NewsPrimaryOneTitle",
+    title: "NSS Camp 2021",
     link: ""
   };
   
@@ -151,7 +162,13 @@ class NewsCarouselPrimary extends Component {
           <iframe width="630" height="400"
           src="https://www.youtube.com/embed/SwEhkhJGwrA">
           </iframe>           
-       </Carousel.Item>     
+       </Carousel.Item>  
+       <Carousel.Item>
+          <NewsImage data={this.Image16} />
+          <Carousel.Caption>
+              <h3>{this.Title6.title}</h3>
+            </Carousel.Caption>
+       </Carousel.Item>    
        <Carousel.Item>
           <NewsImage data={this.Image11}/>  
              <Carousel.Caption>

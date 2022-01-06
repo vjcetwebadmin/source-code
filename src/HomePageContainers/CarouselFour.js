@@ -27,6 +27,18 @@ export default function CarouselFour({ data }) {
   const slides = [
     {
       Title: {
+        instanceID: "EventFiveTitle",
+        title: <a href="https://vjcet.org/downloads/gallery/christmas21.html" rel="noopener noreferrer"  target="_blank"><font color="maroon">Christmas 21</font></a>
+      },
+
+      Image: {
+        instanceID: "EventFiveImage",
+        image: "CarouselFourImages/christ21.png",
+        width: "90px"
+      }
+    },
+    {
+      Title: {
         instanceID: "EventOneTitle",
         title:<a href="https://vjcet.org/downloads/gallery/meritf21.html" rel="noopener noreferrer"  target="_blank"><font color="maroon">Merit & Farewell 2021</font></a>
         
@@ -75,6 +87,7 @@ export default function CarouselFour({ data }) {
         width: "82px"
       }
     }
+    
 
   ];
   const responsive = {
