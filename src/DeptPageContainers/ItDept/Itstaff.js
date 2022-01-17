@@ -21,7 +21,7 @@ class ITStaff extends Component {
     image: "Allstaffphoto/IT/STAF/srcv.jpg",
     width: "50%",
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ITSTF102" target="_blank" rel="noopener noreferrer">Sr. Recy Varghese</a>,
-    content: "Computer Programmer"
+    content: "Computer Programmer(on-leave)"
   };
 
   render() {
