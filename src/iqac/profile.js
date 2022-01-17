@@ -273,21 +273,19 @@ class iqac extends React.Component {
           <br />
           <HeadingThree data={this.criteria3heading} className="Heading" />
           <p>
-            <b>Coordinator:Mrs. Anju susan George, </b>HOD IT
+            <b>Coordinator:Mrs. Anju Susan George, </b>HOD IT
           </p>
           <p>
             <b>Responsibilities of the Committee</b>
           </p>
           <ol>
             <li>
-              Verification of Master Attendance in Automation once in month.
+              Verification of Master Attendance in Automation once in a month.
             </li>
-            <li>Collecting Long Absenteeism List.</li>
+            <li>Collecting Cumulative Attendance Report and Long Absenteeism List once in a month.</li>
             <li>
-              Verification of Shortage of Attendance and Issue of Warning
-              Letters.
+              Verification of Shortage of Attendance twice in a semester.
             </li>
-            <li>Collecting Monthly Cumulative Attendance Report.</li>
             <li>Review of Shortage of Attendance with HoD &amp; Principal.</li>
             <li>Submission of report to the IQAC in the prescribed format.</li>
           </ol>
