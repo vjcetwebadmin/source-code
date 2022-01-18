@@ -40,7 +40,7 @@ class Newsnine extends React.Component {
 
     NewsTitle = {
         instanceID: "NewsTitle",
-        title: "Wanted Faculty in Information Technology Department"
+        title: "Wanted Computer Programmer and Computer Lab Instructor"
     };
     Newscontent = {
         instanceID: "Newscontent",
@@ -74,7 +74,7 @@ class Newsnine extends React.Component {
                    <HeadingOne data={this.NewsTitle} />
                    
                  
-                  <iframe src="https://vjcet.org/downloads/news/ITFACULTYADVT.pdf" width="100%" zoom="80%" height="850" title="Campus Map" align="center"></iframe>
+                  <iframe src="https://vjcet.org/downloads/news/LABINSTRUCTOR.pdf" width="100%" zoom="80%" height="850" title="Campus Map" align="center"></iframe>
                    
                 </div>
                 <Footer data={this.HomePageFooter} />

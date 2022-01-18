@@ -44,7 +44,7 @@ class Newsthree extends React.Component {
     };
     NewsTitle1 = {
         instanceID: "NewsTitle1",
-        title: "Wanted Assistant Professor in Management Studies"
+        title: "Wanted Associate Professor / Professor"
     };
     Newscontent = {
         instanceID: "Newscontent",
