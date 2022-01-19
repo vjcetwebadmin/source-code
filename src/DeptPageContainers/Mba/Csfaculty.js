@@ -14,7 +14,7 @@ class CSFaculty extends Component {
     instanceID: "Cefaculty2",
     image: "Allstaffphoto/MBA/FAC/josemammen.jpg",
     width: "50%",
-    name: <a href="https://vjcet.org/downloads/MbaProfile/DR.Cyriac Joseph-converted.pdf" target="_blank" rel="noopener noreferrer">Dr. Jose Mamman</a>,
+    name: <a href="https://vjcet.org/downloads/MbaProfile/Dr.Jose Mamman-converted.pdf" target="_blank" rel="noopener noreferrer">Dr. Jose Mamman</a>,
     content: "Assistant Professor"
   };
   Cefaculty3 = {
