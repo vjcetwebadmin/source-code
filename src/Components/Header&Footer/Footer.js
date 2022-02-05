@@ -253,7 +253,7 @@ class Footer extends Component {
           <AnchorLink data={this.Link13} />
           <AnchorLink data={this.Link21} />
           <AnchorLink data={this.Link22} />        
-          <AnchorLink data={this.Link23} />
+          <ExternalLink data={this.Link23} />
         </div>
 
         <div className="FooterLinksThree" id="FooterLinksThree">
