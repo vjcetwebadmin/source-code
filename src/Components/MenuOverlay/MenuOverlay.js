@@ -15,8 +15,8 @@ class MenuOverlay extends Component {
       menuItem8: true,
       menuItem9: true,
       menuItem10: true,
-      menuItem11: true
-
+      menuItem11: true,
+      menuItem13: true
     };
   }
 
@@ -75,6 +75,12 @@ class MenuOverlay extends Component {
       menuItem11: !this.state.menuItem11
     });
   }
+  menuItem13() {
+    this.setState({
+      menuItem11: !this.state.menuItem13
+    });
+  }
+
 
   render() {
     var menuItem1Style = {
@@ -113,6 +119,9 @@ class MenuOverlay extends Component {
     };
     var menuItem11Style = {
       display: this.state.menuItem11 ? "none" : "grid"
+    };
+    var menuItem9Style = {
+      display: this.state.menuItem13 ? "none" : "grid"
     };
 
 
@@ -493,11 +502,14 @@ class MenuOverlay extends Component {
             RD
           </Link>
           <div className="separator"></div>
-          <Link id="menuItem7" className="MenuOverlayItem" to="iqac">
+          <Link id="menuItem12" className="MenuOverlayItem" to="iqac">
             IQAC
           </Link>
-
-
+          <div className="separator"></div>
+          <div id="menuItem13">
+          <div className="MenuOverlayItem">
+          <a href="https://vjcet.org/downloads/KLCOGN110370.pdf" className="MenuOverlaySubLinks">NAAC SSR</a>
+          </div></div>
         </div>
       </div>
     );

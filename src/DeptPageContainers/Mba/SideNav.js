@@ -11,10 +11,10 @@ import FacultyNav from "./facultynav";
 import PlacementNav from "./placementnav";
 class SideNav extends Component {
   state = {
-    showProfile: true,
+    showProfile: false,
     showVision: false,
     showPeo: false,
-    showProgram: false,
+    showProgram: true,
     showLib: false,
     showAss: false,
     showRes: false,
@@ -123,6 +123,11 @@ class SideNav extends Component {
         <div class="Deptcontent">
           <div class="sidenav">
             <input
+              value="Academics"
+              class="button"
+              onClick={this.onClickProg}
+            />
+            <input
               value="About Us"
               class="button"
               onClick={this.onClickP}
@@ -136,13 +141,7 @@ class SideNav extends Component {
               value="PEO, PSO & CO"
               class="button"
               onClick={this.onClickPeo}
-            />
-            <input
-
-              value="Program"
-              class="button"
-              onClick={this.onClickProg}
-           />*/}
+            />*/}
             <input
               value="Faculty"
               class="button"
@@ -218,13 +217,13 @@ class SideNav extends Component {
             </div>
           </div>
           <div class="content">
+            {this.state.showProgram ? <Program /> : null} 
             {this.state.showProfile ? <Profile /> : null}
             {this.state.showVision ? <Vision /> : null}
             {this.state.showfac ? <FacultyNav /> : null}
             {this.state.showLib ? <Library /> : null}
             {this.state.showAss ? <PlacementNav /> : null}
-            {/*{this.state.showPeo ? <PEO /> : null}
-            {this.state.showProgram ? <Program /> : null}*/}         
+            {/*{this.state.showPeo ? <PEO /> : null}*/}                    
             {this.state.showRes ? <Mbaadmission /> : null}
           </div>
         </div>

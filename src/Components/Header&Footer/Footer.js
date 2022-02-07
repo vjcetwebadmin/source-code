@@ -203,7 +203,7 @@ class Footer extends Component {
   };
   Link23 = {
     instanceID: "Link23",
-    title: "Self Study Report",
+    title: "NAAC SSR",
     link:  "https://vjcet.org/downloads/KLCOGN110370.pdf"
   };
   FooterLinksTitleOne = {

@@ -4,7 +4,7 @@ import "./Header.css";
 import "../Images/ImageOne";
 import ImageOne from "../Images/ImageOne";
 import Line from "../Lines/Line";
-// import ExternalLink from "../Texts/ExternalLink"
+import ExternalLink from "../Texts/ExternalLink"
 import AnchorLink from "../Texts/AnchorLink";
 import DropDownD from "./dropdownDepartment";
 import DropDownC from "./dropdownCampus";
@@ -143,6 +143,11 @@ class Header extends Component {
     title: "KEAM Mock Test",
     link: "/mockt"
   };
+  Link14 = {
+    instanceID: "HeaderLink14",
+    title: "NAAC SSR",
+    link: "https://vjcet.org/downloads/KLCOGN110370.pdf"
+  };  
   LineHeading = {
     instanceID: "LineHeading"
   };
@@ -194,10 +199,10 @@ class Header extends Component {
             <AnchorLink data={this.Link9} />
             <DropDownF />
             <DropDownIedc />
-            {/* <AnchorLink data={this.Link7} /> <AnchorLink data={this.Link13}/>*/}
+            {/*<AnchorLink data={this.Link7} /> <AnchorLink data={this.Link13}/>*/}
             <AnchorLink data={this.Link10} />
             <AnchorLink data={this.Link12} />
-             
+            <ExternalLink data={this.Link14} />
 
           </div>
         </div>
