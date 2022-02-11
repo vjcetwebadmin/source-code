@@ -326,9 +326,9 @@ class MenuOverlay extends Component {
                 Science & Humanities
               </Link>
               <div className="wseparator"></div>
-              <a href="http://www.vjcetmba.in" className="MenuOverlaySubLinks" >
-                MBA
-            </a>
+              <Link to="/departments/mba" className="MenuOverlaySubLinks">
+              MBA
+            </Link>
             </div>
           </div>
 

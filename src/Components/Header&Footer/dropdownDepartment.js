@@ -82,9 +82,12 @@ class DropDownD extends Component {
             </Link>
           </p>
           <p>
-            <a href="http://www.vjcetmba.in" target="_blank" className="patch1" rel="noopener noreferrer" >
+            {/*<a href="http://www.vjcetmba.in" target="_blank" className="patch1" rel="noopener noreferrer" >
               MBA
-            </a>
+    </a>*/}
+            <Link to="/departments/mba" className="patch1">
+              MBA
+            </Link>
           </p>
         </div>
       </div>
