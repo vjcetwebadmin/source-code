@@ -201,6 +201,11 @@ class Footer extends Component {
     title: "NSS",
     link:  "/campus-life/nss"
   };
+  Link23 = {
+    instanceID: "Link23",
+    title: "NAAC SSR",
+    link:  "https://vjcet.org/downloads/KLCOGN110370.pdf"
+  };
   FooterLinksTitleOne = {
     instanceID: "FooterLinksTitleOne",
     title: "Quick Links"
@@ -236,7 +241,7 @@ class Footer extends Component {
           <AnchorLink data={this.Link6} />
           <AnchorLink data={this.Link7} />
           <AnchorLink data={this.Link8} />
-          <AnchorLink data={this.Link14} />
+          <AnchorLink data={this.Link14} />          
         </div>
 
         <div className="FooterLinksTwo" id="FooterLinksTwo">
@@ -247,8 +252,8 @@ class Footer extends Component {
           <AnchorLink data={this.Link12} />
           <AnchorLink data={this.Link13} />
           <AnchorLink data={this.Link21} />
-          <AnchorLink data={this.Link22} />
-
+          <AnchorLink data={this.Link22} />        
+          <ExternalLink data={this.Link23} />
         </div>
 
         <div className="FooterLinksThree" id="FooterLinksThree">

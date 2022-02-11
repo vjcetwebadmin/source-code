@@ -67,21 +67,22 @@ class Profile extends Component {
                             <tr><th>Name</th><th>Dept. Designation </th><th>IEDC Designation</th></tr>
                             <tr><td>Mr. Vinoj K</td><td>Associate Professor, ME</td><td>Nodal officer, IEDC</td></tr>
                             <tr><td>Mr. Robin  Augustine</td><td>Asst. Professor, S & H</td><td>Assistant Nodal officer, IEDC</td></tr>
+                            <tr><td>Mrs. Femy John</td><td>Asst. Professor, AD</td><td>AD Dept. Coordinator,IEDC</td></tr>
                             <tr><td>Mrs. Nivya Mary Abraham</td><td>Asst. Professor, CE</td><td>CE Dept. Coordinator, IEDC </td></tr>
                             <tr><td>Mrs. Rini Simon</td><td>Asst. Professor, CSE</td><td>CSE Dept. Coordinator, IEDC </td></tr>
-                            <tr><td>Mrs. Femy John</td><td>Asst. Professor, ECE</td><td>ECE Dept. Coordinator,IEDC</td></tr>
+                            <tr><td>Mr. Melvin C Jose</td><td>Asst. Professor, ECE</td><td>ECE Dept. Coordinator,IEDC</td></tr>                           
                             <tr><td>Mr. Jomu  M George </td><td>Asst. Professor, EEE</td><td>EEE Dept. Coordinator, IEDC</td></tr>
-                            <tr><td>Dr. Sheela V K</td><td>Associate Professor, IT</td><td>IT Dept. Coordinator,IEDC</td></tr>
+                            <tr><td>Ms. Negitta Nixon</td><td>Asst. Professor, IT</td><td>IT Dept. Coordinator,IEDC</td></tr>
                             <tr><td>Mr. Basil Baby </td><td>Asst. Professor, ME</td><td>ME Dept. Coordinator,IEDC</td></tr>
-                            <tr><td>Mr. Nelson Mathew </td><td>Asst. Professor, MBA</td><td>MBA Dept. Coordinator,IEDC</td></tr>
+                            <tr><td>Mr. Pratheep Kumar R</td><td>Asst. Professor, MBA</td><td>MBA Dept. Coordinator,IEDC</td></tr>
                             <tr><td>Mr. Sanoj Saju</td><td>Placement Exe Officer</td><td>Placement Dept Coordinator,IEDC</td></tr>
-                            <tr><td>Mr. Basil Eldhose</td><td>Student S5 EEE</td><td>Chief Executive officer</td></tr>
-                            <tr><td>Ms. Gayathri Suresh</td><td>Student S7 ECE B</td><td>Chief Operating officer</td></tr>
-                            <tr><td>Ms. Devika Sunil</td><td>Student S7 CE B</td><td>Chief Marketing officer</td></tr>
-                            <tr><td>Mr. Allen Peter</td><td>Student S7 IT</td><td>Chief Finance officer</td></tr>
-                            <tr><td>Mr. Snobin Mathew </td><td>Student S7 ME A</td><td>Chief Technical officer</td></tr>
-                            <tr><td>Mr. Amal Dominic </td><td>Student MBA</td><td>Chief Creative Officer </td></tr>
-                            <tr><td>Ms. Kavya R</td><td>Student S5 CSE B</td><td>Chief Social Officer</td></tr>
+                            <tr><td>Mr. Eldho Varghese</td><td>Student S5 CSE</td><td>Chief Executive officer</td></tr>
+                            <tr><td>Mr. Bennet Joy</td><td>Student S5 IT</td><td>Chief Operating officer</td></tr>
+                            <tr><td>Mr. Christo Vincent </td><td>Student S3 AD</td><td>Chief Technical officer</td></tr>
+                            <tr><td>Ms. Gayathri L Kumar</td><td>Student S5 EEE</td><td>Chief Marketing officer</td></tr>                                           
+                            <tr><td>Ms. Susan Shibu </td><td>Student S5 CSE</td><td>Chief Creative Officer </td></tr>
+                            <tr><td>Ms. Akshara Santhosh</td><td>Student S3 CE</td><td>Chief Social Officer</td></tr>
+                            <tr><td>Mr. Basil Benny</td><td>Student S5 ECE</td><td>Chief Finance officer</td></tr>
                 </table> 
                              
                 

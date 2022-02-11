@@ -122,36 +122,35 @@ class SideNav extends Component {
 
         <div class="Deptcontent">
           <div class="sidenav">
-            {/*<input
-
-              value="Profile"
-              class="button"
-              onClick={this.onClickP}
-            />
-            <input
-
+          <input
+            value="Profile"
+            class="button"
+            onClick={this.onClickP}
+            /> 
+           <input
               value="Vision"
               class="button"
               onClick={this.onClickV}
             />
             <input
-
               value="PEO, PSO & CO"
               class="button"
               onClick={this.onClickPeo}
-            />
+            />            
             <input
+            value="Faculty"
+            class="button"
+            onClick={this.onClickFac}
+          />
+ 
+
+          {/*   <input
 
               value="Program"
               class="button"
               onClick={this.onClickProg}
             />
-            <input
 
-              value="Faculty"
-              class="button"
-              onClick={this.onClickFac}
-            />
             <input
 
               value="Labs"

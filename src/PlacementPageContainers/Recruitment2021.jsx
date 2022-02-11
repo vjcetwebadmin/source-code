@@ -35,282 +35,594 @@ import { MDBDataTable } from 'mdbreact';
               width: 270
             }
           ],
-          rows: [ 
+          rows: [
+            {
+                slno: '92',
+                company: 'Aabasoft',
+                year: '2021',
+                branch: 'CSE',
+                no_of_students: '01'
+            },
+            {
+                slno: '91',
+                company: 'SHILPI ARCHITECT',
+                year: '2021',
+                branch: 'CIVIL',
+                no_of_students: '01'
+            },
+            {
+                slno: '90',
+                company: 'Power India Electrical',
+                year: '2021',
+                branch: 'EEE',
+                no_of_students: '01'
+            },
+            {
+                slno: '89',
+                company: 'Power India Electrical',
+                year: '2021',
+                branch: 'CIVIL',
+                no_of_students: '01'
+            },
+            {
+                slno: '88',
+                company: 'Metadata Technologies',
+                year: '2021',
+                branch: 'IT',
+                no_of_students: '01'
+            },
+
+            {
+                slno: '86',
+                company: 'Say One Technologies',
+                year: '2021',
+                branch: 'IT',
+                no_of_students: '01'
+            },
+            {
+                slno: '85',
+                company: 'Say One Technologies',
+                year: '2021',
+                branch: 'ECE',
+                no_of_students: '02'
+            },
+            {
+                slno: '84',
+                company: 'Say One Technologies',
+                year: '2021',
+                branch: 'CSE',
+                no_of_students: '03'
+            },
+            {
+                slno: '83',
+                company: 'Suyati Technologies',
+                year: '2021',
+                branch: 'IT',
+                no_of_students: '04'
+            },
+            {
+                slno: '82',
+                company: 'Suyati Technologies',
+                year: '2021',
+                branch: 'EEE',
+                no_of_students: '01'
+            },
+            {
+                slno: '81',
+                company: 'Suyati Technologies',
+                year: '2021',
+                branch: 'ECE',
+                no_of_students: '08'
+            },
+            {
+                slno: '80',
+                company: 'Suyati Technologies',
+                year: '2021',
+                branch: 'CSE',
+                no_of_students: '03'
+            },
+            {
+                slno: '79',
+                company: 'Think Palm',
+                year: '2021',
+                branch: 'ECE',
+                no_of_students: '02'
+            },
+            {
+                slno: '78',
+                company: 'Think Palm',
+                year: '2021',
+                branch: 'CSE',
+                no_of_students: '01'
+            },
+            {
+                slno: '77',
+                company: 'Quest Global',
+                year: '2021',
+                branch: 'CSE',
+                no_of_students: '05'
+            },
+            {
+                slno: '76',
+                company: 'Coinedone Technologies',
+                year: '2021',
+                branch: 'IT',
+                no_of_students: '01'
+            },
+            {
+                slno: '75',
+                company: 'Guidehouse',
+                year: '2021',
+                branch: 'CSE',
+                no_of_students: '05'
+            },
+            {
+                slno: '74',
+                company: 'Opteamix',
+                year: '2021',
+                branch: 'CSE',
+                no_of_students: '01'
+            },
+            {
+                slno: '73',
+                company: 'WIPRO',
+                year: '2021',
+                branch: 'CSE',
+                no_of_students: '02'
+            },
+            {
+                slno: '72',
+                company: 'UST',
+                year: '2021',
+                branch: 'IT',
+                no_of_students: '05'
+            },
+            {
+                slno: '71',
+                company: 'UST',
+                year: '2021',
+                branch: 'EEE',
+                no_of_students: '03'
+            },
+            {
+                slno: '70',
+                company: 'UST',
+                year: '2021',
+                branch: 'ECE',
+                no_of_students: '08'
+            },
+            {
+                slno: '69',
+                company: 'UST',
+                year: '2021',
+                branch: 'CSE',
+                no_of_students: '10'
+            },
+            {
+                slno: '68',
+                company: 'Nest Digital',
+                year: '2021',
+                branch: 'EEE',
+                no_of_students: '01'
+            },
+            {
+                slno: '67',
+                company: 'Nest Digital',
+                year: '2021',
+                branch: 'ECE',
+                no_of_students: '03'
+            },
+            {
+                slno: '66',
+                company: 'Nest Digital',
+                year: '2021',
+                branch: 'CSE',
+                no_of_students: '03'
+            },
+            {
+                slno: '65',
+                company: 'Capgemini',
+                year: '2021',
+                branch: 'ECE',
+                no_of_students: '02'
+            },
+            {
+                slno: '64',
+                company: 'Capgemini',
+                year: '2021',
+                branch: 'CSE',
+                no_of_students: '05'
+            },
+            {
+                slno: '63',
+                company: 'Rapid Value',
+                year: '2021',
+                branch: 'IT',
+                no_of_students: '03'
+            },
+            {
+                slno: '62',
+                company: 'Rapid Value',
+                year: '2021',
+                branch: 'EEE',
+                no_of_students: '01'
+            },
+            {
+                slno: '61',
+                company: 'Rapid Value',
+                year: '2021',
+                branch: 'ECE',
+                no_of_students: '10'
+            },
+            {
+                slno: '60',
+                company: 'Rapid Value',
+                year: '2021',
+                branch: 'CSE',
+                no_of_students: '09'
+            },
+            {
+                slno: '59',
+                company: 'Orion India System Pvt.LTD',
+                year: '2021',
+                branch: 'CSE',
+                no_of_students: '01'
+            },
+            {
+                slno: '58',
+                company: 'Litmus7 Circuit branches',
+                year: '2021',
+                branch: 'CSE',
+                no_of_students: '01'
+            },
+            {
+                slno: '57',
+                company: 'Cognizant',
+                year: '2021',
+                branch: 'CSE',
+                no_of_students: '02'
+            },
+            {
+                slno: '56',
+                company: 'Midtree',
+                year: '2021',
+                branch: 'ECE',
+                no_of_students: '02'
+            },
+            {
+                slno: '55',
+                company: 'Midtree',
+                year: '2021',
+                branch: 'CSE',
+                no_of_students: '01'
+            },
+            {
+                slno: '54',
+                company: 'IBM',
+                year: '2021',
+                branch: 'CSE',
+                no_of_students: '03'
+            },
+            {
+                slno: '53',
+                company: 'Acenture',
+                year: '2021',
+                branch: 'IT',
+                no_of_students: '01'
+            },
+            {
+                slno: '52',
+                company: 'Acenture',
+                year: '2021',
+                branch: 'ECE',
+                no_of_students: '03'
+            },
+            {
+                slno: '51',
+                company: 'Acenture',
+                year: '2021',
+                branch: 'CSE',
+                no_of_students: '20'
+            },
+            {
+                slno: '50',
+                company: 'Playshifu',
+                year: '2021',
+                branch: 'IT',
+                no_of_students: '01'
+            },
+            {
+                slno: '49',
+                company: 'Carestack',
+                year: '2021',
+                branch: 'CSE',
+                no_of_students: '01'
+            },
+            {
+                slno: '48',
+                company: 'Qdessa Technologies',
+                year: '2021',
+                branch: 'CSE',
+                no_of_students: '01'
+            }, 
+   
+            {
+                slno: '47',
+                company: 'KeyValue',
+                year: '2021',
+                branch: 'CSE',
+                no_of_students: '02'
+            },
             {
                 slno: '46',
                 company: 'WILEYS',
                 year: '2021',
-                branch: 'CSE',
-                no_of_students: '1'
+                branch: 'EEE',
+                no_of_students: '01'
             },
+
             {
                 slno: '45',
-                company: 'SUTHERLAND(NON-VOICE)',
-                year: '2021',
-                branch: 'ME',
-                no_of_students: '9'
-            },
-            {
-                slno: '44',
-                company: 'SUTHERLAND(NON-VOICE)',
+                company: 'Envestnet',
                 year: '2021',
                 branch: 'IT',
-                no_of_students: '3'
+                no_of_students: '01'
+            }, 
+            {
+                slno: '44',
+                company: 'Envestnet',
+                year: '2021',
+                branch: 'CSE',
+                no_of_students: '02'
             },
             {
                 slno: '43',
-                company: 'Envestnet',
+                company: 'Quest Global',
                 year: '2021',
                 branch: 'IT',
-                no_of_students: '1'
-            }, 
-            {
-                slno: '42',
-                company: 'Envestnet',
-                year: '2021',
-                branch: 'CSE',
-                no_of_students: '2'
+                no_of_students: '01'
             },
+
             {
                 slno: '41',
                 company: 'Quest Global',
                 year: '2021',
-                branch: 'IT',
-                no_of_students: '1'
+                branch: 'ECE',
+                no_of_students: '04'
             },
             {
                 slno: '40',
                 company: 'Quest Global',
                 year: '2021',
-                branch: 'EEE',
-                no_of_students: '4'
-            },
-            {
-                slno: '39',
-                company: 'Quest Global',
-                year: '2021',
-                branch: 'ECE',
-                no_of_students: '4'
-            },
-            {
-                slno: '38',
-                company: 'Quest Global',
-                year: '2021',
                 branch: 'CSE',
-                no_of_students: '4'
+                no_of_students: '05'
             },
 
             {
-                slno: '37',
+                slno: '39',
                 company: '6D Technologies',
                 year: '2021',
                 branch: 'IT',
-                no_of_students: '1'
+                no_of_students: '01'
             },
             {
-                slno: '36',
+                slno: '38',
                 company: '6D Technologies',
                 year: '2021',
                 branch: 'CSE',
-                no_of_students: '1'
+                no_of_students: '01'
+            },
+            {
+                slno: '37',
+                company: 'FACE',
+                year: '2021',
+                branch: 'ME',
+                no_of_students: '01'
+            },
+
+            {
+                slno: '36',
+                company: 'FACE',
+                year: '2021',
+                branch: 'ECE',
+                no_of_students: '03'
             },
             {
                 slno: '35',
                 company: 'FACE',
                 year: '2021',
-                branch: 'ME',
-                no_of_students: '1'
-            },
-
+                branch: 'EEE',
+                no_of_students: '02'
+            }, 
             {
                 slno: '34',
                 company: 'FACE',
                 year: '2021',
-                branch: 'ECE',
-                no_of_students: '3'
+                branch: 'CIVIL',
+                no_of_students: '01'
             },
             {
                 slno: '33',
-                company: 'FACE',
+                company: 'PIT solutions',
                 year: '2021',
-                branch: 'EEE',
-                no_of_students: '2'
-            }, 
+                branch: 'ECE',
+                no_of_students: '02'
+            },             
             {
                 slno: '32',
-                company: 'FACE',
-                year: '2021',
-                branch: 'CIVIL',
-                no_of_students: '1'
-            }, 
-            {
-                slno: '31',
-                company: 'SUTHERLAND(NON-VOICE)',
+                company: 'Sutherland Global',
                 year: '2021',
                 branch: 'EEE',
-                no_of_students: '5'
+                no_of_students: '05'
+            },
+            {
+                slno: '31',
+                company: 'SUTHERLAND GLOBAL',
+                year: '2021',
+                branch: 'ME',
+                no_of_students: '09'
             },
             {
                 slno: '30',
-                company: 'SUTHERLAND(NON-VOICE)',
+                company: 'SUTHERLAND GLOBAL',
                 year: '2021',
-                branch: 'ECE',
-                no_of_students: '17'
+                branch: 'IT',
+                no_of_students: '03'
             },
             {
                 slno: '29',
-                company: 'SUTHERLAND(NON-VOICE)',
+                company: 'SUTHERLAND GLOBAL',
+                year: '2021',
+                branch: 'IT',
+                no_of_students: '07'
+            },
+            {
+                slno: '28',
+                company: 'Sutherland Global',
+                year: '2021',
+                branch: 'EEE',
+                no_of_students: '05'
+            },
+            {
+                slno: '27',
+                company: 'Sutherland Global',
+                year: '2021',
+                branch: 'ECE',
+                no_of_students: '21'
+            },
+            {
+                slno: '26',
+                company: 'Sutherland Global',
                 year: '2021',
                 branch: 'CSE',
                 no_of_students: '12'
             },
             {
-                slno: '28',
-                company: 'SUTHERLAND(NON-VOICE)',
+                slno: '25',
+                company: 'Sutherland Global',
                 year: '2021',
                 branch: 'CIVIL',
-                no_of_students: '12'
+                no_of_students: '16'
             },
             
             {
-                        slno: '27',
+                        slno: '24',
                         company: 'ELEATION',
                         year: '2021',
                         branch: 'CIVIL',
                         no_of_students: '02'
                     },
                     {
-                        slno: '26',
+                        slno: '23',
                         company: 'ELEATION',
                         year: '2021',
                         branch: 'ME',
                         no_of_students: '03'
                     },
                     {
-                        slno: '25',
+                        slno: '22',
                         company: 'EXPERION',
                         year: '2021',
                         branch: 'CSE',
                         no_of_students: '11'
                     },
                     {
-                        slno: '24',
+                        slno: '21',
                         company: 'FACTWEAVERS',
                         year: '2021',
                         branch: 'CSE',
                         no_of_students: '02'
                     },
                     {
-                        slno: '23',
+                        slno: '20',
                         company: 'GADGEON',
                         year: '2021',
                         branch: 'CSE',
                         no_of_students: '02'
                     },
                     {
-                        slno: '22',
+                        slno: '19',
                         company: 'GUIDEHOUSE',
                         year: '2021',
                         branch: 'CSE',
                         no_of_students: '04'
                     },
                     {
-                        slno: '21',
+                        slno: '18',
                         company: 'IMAGE INFO SYSTEM',
                         year: '2021',
                         branch: 'CSE',
                         no_of_students: '03'
                     },
                     {
-                        slno: '20',
+                        slno: '17',
                         company: 'INFOSYS',
                         year: '2021',
                         branch: 'CIVIL',
-                        no_of_students: '06'
+                        no_of_students: '07'
                     },
                     {
-                        slno: '19',
+                        slno: '16',
                         company: 'INFOSYS',
                         year: '2021',
                         branch: 'ECE',
                         no_of_students: '07'
                     },
                     {
-                        slno: '18',
+                        slno: '15',
                         company: 'INFOSYS',
                         year: '2021',
                         branch: 'EEE',
                         no_of_students: '02'
                     },
                     {
-                        slno: '17',
+                        slno: '14',
                         company: 'INFOSYS',
                         year: '2021',
                         branch: 'CSE',
                         no_of_students: '16'
                     }, 
                     {
-                        slno: '16',
+                        slno: '13',
                         company: 'INFOSYS',
                         year: '2021',
                         branch: 'ME',
                         no_of_students: '02'
                     },
                     {
-                        slno: '15',
+                        slno: '12',
                         company: 'INFOSYS',
                         year: '2021',
                         branch: 'IT',
                         no_of_students: '01'
                     },
                     {
-                        slno: '14',
+                        slno: '11',
                         company: 'MITSOGO',
                         year: '2021',
                         branch: 'CSE',
                         no_of_students: '01'
                     },
                     {
-                        slno: '13',
+                        slno: '10',
                         company: 'NMS WORKS',
                         year: '2021',
                         branch: 'CSE',
-                        no_of_students: '05'
-                    },
-                    {
-                        slno: '12',
-                        company: 'SUTHERLAND GLOBAL - VOICE',
-                        year: '2021',
-                        branch: 'CIVIL',
-                        no_of_students: '04'
-                    },
-                    {
-                        slno: '11',
-                        company: 'SUTHERLAND GLOBAL - VOICE',
-                        year: '2021',
-                        branch: 'ECE',
-                        no_of_students: '04'
-                    },
-                    {
-                        slno: '10',
-                        company: 'SUTHERLAND GLOBAL - VOICE',
-                        year: '2021',
-                        branch: 'IT',
-                        no_of_students: '04'
+                        no_of_students: '06'
                     },
                     {
                         slno: '09',
                         company: 'TCS',
                         year: '2021',
                         branch: 'CIVIL',
-                        no_of_students: '04'
+                        no_of_students: '15'
                     },
                     {
                         slno: '08',
                         company: 'TCS',
                         year: '2021',
                         branch: 'ECE',
-                        no_of_students: '11'
+                        no_of_students: '15'
                     },
                     {
                         slno: '07',

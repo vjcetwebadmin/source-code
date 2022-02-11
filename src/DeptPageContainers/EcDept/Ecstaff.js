@@ -7,14 +7,14 @@ class Faculty extends Component {
     image: "Allstaffphoto/EC/STAF/171.jpg",
     width: "50%",
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ECSTF101" target="_blank" rel="noopener noreferrer">Mr. Thankachan P J</a>,
-    content: "Instructor Grade II"
+    content: "1st  Grade Instructor "
   };
   Cefaculty2 = {
     instanceID: "Cefaculty2",
     image: "Allstaffphoto/EC/STAF/172.jpg",
     width: "50%",
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ECSTF102" target="_blank" rel="noopener noreferrer">Mr. Ginu Jose</a>,
-    content: "Instructor Grade I"
+    content: "1st  Grade Instructor"
   };
   Cefaculty4 = {
     instanceID: "Cefaculty4",
@@ -35,21 +35,14 @@ class Faculty extends Component {
     image: "Allstaffphoto/EC/STAF/176.jpg",
     width: "50%",
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ECSTF112" target="_blank" rel="noopener noreferrer">Mr. Jekson George</a>,
-    content: "Tradesman"
+    content: "Trade Instructor"
   };
   Cefaculty7 = {
     instanceID: "Cefaculty7",
     image: "Allstaffphoto/EC/STAF/177.jpg",
     width: "50%",
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ECSTF113" target="_blank" rel="noopener noreferrer">Mr. Thomas Mathew</a>,
-    content: "Tradesman"
-  };
-  Cefaculty8 = {
-    instanceID: "Cefaculty8",
-    image: "Allstaffphoto/EC/STAF/178.jpg",
-    width: "50%",
-    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ECSTF109" target="_blank" rel="noopener noreferrer">Mr. Anish George</a>,
-    content: "Tradesman"
+    content: "Trade Instructor"
   };
   
   render() {

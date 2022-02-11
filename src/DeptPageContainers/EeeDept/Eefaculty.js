@@ -8,7 +8,7 @@ class EEFaculty extends Component {
     image: "Allstaffphoto/EE/FAC/353.jpg",
     width: "50%",
     name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=EEFAC130" target="_blank" rel="noopener noreferrer">Dr. B.Aruna</a>,
-    content: "Professor"
+    content: "Professor(on-leave)"
   };
   /*Cefaculty2 = {
     instanceID: "Cefaculty2",
@@ -36,7 +36,7 @@ class EEFaculty extends Component {
     image: "Allstaffphoto/EE/FAC/110.jpg",
     width: "50%",
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=EEFAC104" target="_blank" rel="noopener noreferrer">Ms. Seethamma George</a>,
-    content: "Assistant Professor"
+    content: "Assistant Professor(on-leave)"
   };
   Cefaculty6 = {
     instanceID: "Cefaculty6",
@@ -85,7 +85,7 @@ class EEFaculty extends Component {
     image: "Allstaffphoto/EE/FAC/EEFAC115.jpg",
     width: "50%",
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=EEFAC115" target="_blank" rel="noopener noreferrer">Ms. Neena Skaria</a>,
-    content: "Assistant Professor"
+    content: "Assistant Professor(on-leave)"
   };
   Cefaculty13 = {
     instanceID: "Cefaculty13",
@@ -120,7 +120,7 @@ class EEFaculty extends Component {
     image: "Allstaffphoto/EE/FAC/293.jpg",
     width: "51%",
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=EEFAC120" target="_blank" rel="noopener noreferrer">Ms. Seena Paul</a>,
-    content: "Assistant Professor"
+    content: "Assistant Professor(on-leave)"
   };
   
   Cefaculty19 = {
@@ -128,7 +128,7 @@ class EEFaculty extends Component {
     image: "Allstaffphoto/EE/FAC/112.jpg",
     width: "50%",
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=EEFAC106" target="_blank" rel="noopener noreferrer">Mr. Aneesh Kurian</a>,
-    content: "Assistant Professor"
+    content: "Assistant Professor(on-leave)"
   };
 
   render() {

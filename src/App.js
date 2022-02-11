@@ -27,6 +27,7 @@ import EeeDepartment from "./Pages/Departments/eeedepartment";
 import EcDepartment from "./Pages/Departments/ecdepartment";
 import ItDepartment from "./Pages/Departments/itdepartment";
 import MeDepartment from "./Pages/Departments/medepartment";
+import MbaDepartment from "./Pages/Departments/mbadepartment";
 import SHDepartment from "./Pages/Departments/s&hdepartment";
 import Admin from "./Pages/Departments/admin";
 import honoursPage from "./Pages/HonoursPage";
@@ -329,14 +330,14 @@ class App extends Component {
             image: "Allstaffphoto/CE/FAC/fac24.jpg", 
             width: "50%", 
             name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC144" target="_blank" rel="noopener noreferrer">Dr. Grasius  M. G</a>,
-            content: "Professor"
+            content: "Professor(on-leave)"
           },
           {
-            instanceID: "Cefaculty24",
+            instanceID: "Cefaculty25",
             image: "Allstaffphoto/CE/FAC/RAVINDRANATH.jpg", 
             width: "50%", 
             name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC145" target="_blank" rel="noopener noreferrer">Dr. E. Ravindranath</a>,
-            content: "Professor"
+            content: "Professor(on-leave)"
           },         
           {
             instanceID: "Cefaculty3",
@@ -400,7 +401,7 @@ class App extends Component {
             image: "Allstaffphoto/CE/FAC/49.jpg",
             width: "50%",
             name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC114" target="_blank" rel="noopener noreferrer">Mrs. Tintu Shine A L</a>,
-            content: "Assistant Professor"
+            content: "Assistant Professor(on-leave)"
           },
           {
             instanceID: "Cefaculty12",
@@ -430,7 +431,7 @@ class App extends Component {
             name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC125" target="_blank" rel="noopener noreferrer">Mrs. Soumya Rani P. Thomas</a>,
             content: "Assistant Professor"
           },
-          {
+         /* {
             instanceID: "Cefaculty18",
             image: "Allstaffphoto/CE/FAC/312.jpg",
             width: "50%",
@@ -443,7 +444,7 @@ class App extends Component {
             width: "50%",
             name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC134" target="_blank" rel="noopener noreferrer">Mr. Vishnu Krishnan</a>,
           content: "Assistant Professor(on-leave Ph.D)"
-          },
+          },*/
           {
             instanceID: "Cefaculty22",
             image: "Allstaffphoto/CE/FAC/384.jpg",
@@ -471,6 +472,13 @@ class App extends Component {
             width: "50%",
             name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC139" target="_blank" rel="noopener noreferrer">Mrs. Ancy Genu C.George</a>,
             content: "Assistant Professor"
+          },
+          {
+            instanceID: "Cefaculty26",
+            image: "Allstaffphoto/CE/FAC/meril.jpg",
+            width: "50%",
+            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC142" target="_blank" rel="noopener noreferrer">Ms. Meril Jose</a>,
+            content: "Guest Lecturer"
           }
         ],
         staff: [
@@ -526,7 +534,7 @@ class App extends Component {
           {
             instanceID: "Cefaculty8",
             image: "Allstaffphoto/CE/STAF/393.jpg",
-            width: "50%",
+            width: "53%",
             name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CESTF109" target="_blank" rel="noopener noreferrer">Mrs. Doniya Johnson</a>,
             content: "Tradesman"
           }
@@ -761,8 +769,9 @@ class App extends Component {
               <Route exact path="/departments/admin" component={Admin} />
               <Route exact path="/departments/eee" component={EeeDepartment} />
               <Route exact path="/departments/ece" component={EcDepartment} />
-              <Route exact path="/departments/it" component={ItDepartment} />
+              <Route exact path="/departments/it" component={ItDepartment} /> 
               <Route exact path="/departments/me" component={MeDepartment} />
+              <Route exact path="/departments/mba" component={MbaDepartment} />
               <Route exact path="/departments/s&h" component={SHDepartment} />
               <Route exact path="/placement" component={PlacementPage} />
               <Route exact path="/facilities/core-facilities" component={FacilitiesPage} />

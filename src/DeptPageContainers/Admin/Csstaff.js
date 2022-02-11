@@ -21,7 +21,7 @@ class CSStaff extends Component {
     image: "Allstaffphoto/ADM/LIB/jintoaugustine.jpg",
     width: "50%",
     name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ADSTF134" target="_blank" rel="noopener noreferrer">Mr. Jinto Augustine</a>,
-    content: "Librarian Grade IV"
+    content: "Librarian Grade IV(on-leave)"
   };
   Cefaculty4 = {
     instanceID: "Cefaculty4",
@@ -57,10 +57,10 @@ class CSStaff extends Component {
           <div>
             <FacultyData data={this.Cefaculty3} />
           </div>
-          <div>
+         {/* <div>
             <FacultyData data={this.Cefaculty18} />
           </div>
-          {/*<div>
+          <div>
             <FacultyData data={this.Cefaculty4} />
           </div>*/}
           <div>

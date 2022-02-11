@@ -154,7 +154,7 @@ class Iedc extends Component {
                 <table id="tableformat">
                             <tr><th>Name</th><th>V-BIC Designation</th></tr>
                             <tr><td>Mr. Johnson Parayannilam</td><td>Management   Coordinator  - V-BIC</td></tr>
-                            <tr><td>Dr. K K Rajan</td><td>Chief Executive Officer - CEOC</td></tr>
+                            <tr><td>Dr. Sony Kurian</td><td>Chief Executive Officer - CEOC</td></tr>
                             <tr><td>Mr. Joe Mathew Jacob</td><td>Executive Officer </td></tr>
                             <tr><td>Mr. Jomu M George</td><td>Executive Officer</td></tr>
                             <tr><td>Mr. Sanoj Saju</td><td>Chief Technology Officer – CTO</td></tr>

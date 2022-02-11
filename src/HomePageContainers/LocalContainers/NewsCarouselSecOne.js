@@ -19,7 +19,7 @@ class NewsCarouselSecOne extends Component {
     instanceID: "NewsSecondaryTLOneImage",
     image: "CarouselFourImages/farewell.png",
     //Recommended Image Size is 733px x 400px.
-    width: "65%"
+    width: "62%"
   }
 
   Title2 = {
@@ -36,15 +36,15 @@ class NewsCarouselSecOne extends Component {
   }
   Title3 = {
     instanceID: "NewsSecondaryTLThreeTitle",
-    title: "Drona 2k19",
-    link: "https://vjcet.org/downloads/gallery/drona.html"
+    title: "Oath Taking Ceremony",
+    link: "downloads/gallery/unionoath.html"
   }
 
   Image3 = {
     instanceID: "NewsSecondaryTLThreeImage",
-    image: "NewsSection/Section1/Section3.png",
+    image: "CarouselFourImages/oath.jpg",
     //Recommended Image Size is 733px x 400px.
-    width: "100%"
+    width: "50%"
   }
 
   render() {
@@ -69,14 +69,15 @@ class NewsCarouselSecOne extends Component {
             </Carousel.Caption>
           </a>
         </Carousel.Item>
-        {/*  <Carousel.Item>
+
+        <Carousel.Item>
           <NewsImage data={this.Image3} />
           <a href={this.Title3.link}>
             <Carousel.Caption>
               <h3>{this.Title3.title}</h3>
             </Carousel.Caption>
           </a>
-       </Carousel.Item>*/}
+       </Carousel.Item>
       </Carousel>
     )
   }

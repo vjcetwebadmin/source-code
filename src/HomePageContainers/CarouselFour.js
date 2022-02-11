@@ -4,6 +4,175 @@ import ImageOne from "../Components/Images/ImageOne";
 import HeadingTwo from "../Components/Texts/HeadingTwo";
 import HeadingFive from "../Components/Texts/HeadingFive";
 
+import Carousel from "react-multi-carousel";
+
+export default function CarouselFour({ data }) {
+  const instanceID=data.instanceID;
+  const Events = {
+    instanceID: "CarouselFourEvents",
+    title: "Top Events",
+  };
+  const Previous = {
+    instanceID: "CarouselFourPreviousArrow",
+    image: "carousalthreeprevious.png",
+    width: "20px",
+  };
+
+  const Next = {
+    instanceID: "CarouselFourNextArrow",
+    image: "carousalthreenext.png",
+    width: "20px",
+  };
+
+  const slides = [
+    {
+      Title: {
+        instanceID: "EventFiveTitle",
+        title: <a href="https://vjcet.org/downloads/gallery/christmas21.html" rel="noopener noreferrer"  target="_blank"><font color="maroon">Christmas 21</font></a>
+      },
+
+      Image: {
+        instanceID: "EventFiveImage",
+        image: "CarouselFourImages/christ21.png",
+        width: "90px"
+      }
+    },
+    {
+      Title: {
+        instanceID: "EventOneTitle",
+        title:<a href="https://vjcet.org/downloads/gallery/meritf21.html" rel="noopener noreferrer"  target="_blank"><font color="maroon">Merit & Farewell 2021</font></a>
+        
+      },
+
+      Image: {
+        instanceID: "EventOneImage",
+        image: "CarouselFourImages/farewell.png",
+        width: "100px",
+      }
+    },
+    
+    {
+      Title: {
+        instanceID: "EventTwoTitle",
+        title:<a href="https://vjcet.org/downloads/gallery/onam.html" rel="noopener noreferrer"  target="_blank" ><font color="maroon" >Onam 2021</font></a>
+      },
+
+      Image: {
+        instanceID: "EventTwoImage",
+        image: "CarouselFourImages/onam2021.gif",
+        width: "88px"
+      }
+    },
+    {
+      Title: {
+        instanceID: "EventThreeTitle",
+        title: <a href="https://vjcet.org/downloads/gallery/unionoath.html" rel="noopener noreferrer"  target="_blank"><font color="maroon">Oath Taking Ceremony</font></a>
+      },
+
+      Image: {
+        instanceID: "EventThreeImage",
+        image: "CarouselFourImages/oath.jpg",
+        width: "82px"
+      }
+    },
+    {
+      Title: {
+        instanceID: "EventFourTitle",
+        title: <a href="https://vjcet.org/downloads/gallery/classbegins.html" rel="noopener noreferrer"  target="_blank"><font color="maroon">Inauguration of First year classes</font></a>
+      },
+
+      Image: {
+        instanceID: "EventFourImage",
+        image: "CarouselFourImages/index.jpeg",
+        width: "82px"
+      }
+    }
+    
+
+  ];
+  const responsive = {
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 4,
+      slidesToSlide: 4, // optional, default to 1.
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+      slidesToSlide: 2, // optional, default to 1.
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+      slidesToSlide: 1, // optional, default to 1.
+    },
+  };
+
+  return (
+    <div className="CarouselFour" id={instanceID}>
+      <div className="CarouselFourContentWrapper">
+        <div className="CarouselFourTop">
+          <HeadingTwo data={Events} />
+          <div className="CarouselFourArrows" id="CarouselFourArrows">
+            {/* <ImageOne data={Previous} onClickAction={rotateLeft} />
+            <ImageOne
+              className="CarouselFourArrowRight"
+              data={Next}
+              onClickAction={rotateRight}
+            /> */}
+          </div>
+        </div>
+
+        <div className="CarouselFourSlider" style={{display: "block"}}>
+          <Carousel
+            focusOnSelect
+            beforeChange={() => console.log("true moving")}
+            afterChange={() => console.log("false moving")}
+            responsive={responsive}
+            showDots
+            infinite
+            containerClass="container-with-dots"
+            itemClass="image-item"
+          >
+            {slides.map((item,index) => (
+              <div key={index} className="CarouselFourSlide" id={instanceID + "SlideThree"}>
+                <ImageOne data={item.Image} />
+                <HeadingFive data={item.Title} />
+              </div>
+            ))}
+          </Carousel>
+
+        </div>
+      </div>
+
+      <div className="CarouselFourPaginationContainer">
+        <div className="CarouselFourPagination">
+          {/* {slides.map((item, index, arr) => {
+            if (index % state.sliderSize === 0)
+              return (
+                <div
+                  style={{
+                    height: "6px",
+                    width: "6px",
+                    backgroundColor:
+                      index === state.currentPage ? "#880D1E" : "#aaa",
+                    margin: "5px",
+                    borderRadius: "100%",
+                  }}
+                />
+              );
+          })} */}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+
+
+
+
+/*
 class CarouselFour extends Component {
   state = { currentPage: 0, sliderSize: 3 };
   componentDidMount() {
@@ -120,7 +289,7 @@ class CarouselFour extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <font color="#880d1e">Merit & Farewell 2021</font>
+            <font color="#880d1e">Merit & Farewell 2021</font> 
           </a>
         ),
       },
@@ -150,27 +319,47 @@ class CarouselFour extends Component {
         image: "CarouselFourImages/onam2021.gif",
         width: "150px",
       },
-    }
- /*  {
+    },
+    {
       Title: {
         instanceID: "EventThreeTitle",
         title: (
           <a
-            href="https://vjcet.org/downloads/gallery/bodhi.html"
+            href="https://vjcet.org/downloads/gallery/unionoath.html"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <font color="#880d1e">Tech Fest : Bodhi 2K19"</font>
+            <font color="#880d1e">Oath Taking Ceremony</font>
           </a>
         ),
       },
 
       Image: {
         instanceID: "EventThreeImage",
-        image: "CarouselFourImages/bodhi.jpg",
-        width: "202px",
+        image: "CarouselFourImages/oath.jpg",
+        width: "125px",
       },
-    },*/
+    },
+    {
+      Title: {
+        instanceID: "EventFourTitle",
+        title: (
+          <a
+            href="downloads/gallery/classbegins.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <font color="#880d1e">Inauguration of First year classes</font>
+          </a>
+        ),
+      },
+
+      Image: {
+        instanceID: "EvenFourImage",
+        image: "CarouselFourImages/index.jpeg",
+        width: "125x",
+      },
+    }
   ];
 
   render() {
@@ -245,4 +434,4 @@ class CarouselFour extends Component {
   }
 }
 
-export default CarouselFour;
+export default CarouselFour;*/

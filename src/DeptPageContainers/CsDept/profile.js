@@ -14,7 +14,23 @@ class Profile extends Component {
 
   Features2 = {
     instanceID: "Features2",
-    title: "•	B.Tech Computer Science and Engineering program is accredited by NBA on July 2018 for three years."
+    title: "•	The following B.Tech programs are currently offered under Department of Computer Science and Engineering."
+  };
+  Features2_1 = {
+    instanceID: "Features2_1",
+    title: "B.Tech Computer Science and Engineering."
+  };
+  Features2_2 = {
+    instanceID: "Features2_2",
+    title: "B.Tech Computer Science and Design."
+  };
+  Features2a = {
+    instanceID: "Features2a",
+    title: "•	B.Tech Computer Science and Engineering program is accredited by NBA on July 2018 for three years and it is extended to another  one year on July 2021."
+  };
+  Features2b = {
+    instanceID: "Features2b",
+    title: "•	B.Tech Computer Science and Design has started in the year 2021 with an intake of 60 students. The course aims to mould engineers with good programming and design skills."
   };
   Features3 = {
     instanceID: "Features3",
@@ -51,6 +67,14 @@ class Profile extends Component {
         <div className="bodyContainer">
           <p><BodyOneJustified data={this.Features1} /></p>
           <p><BodyOneJustified data={this.Features2} /></p>
+          <p style={{paddingLeft:"30px"}}>
+          <ul style={{listStyle:"circle"}}>
+            <li><BodyOneJustified data={this.Features2_1} /></li>
+            <li><BodyOneJustified data={this.Features2_2} /></li>
+          </ul>
+          </p>
+          <p><BodyOneJustified data={this.Features2a} /></p>
+          <p><BodyOneJustified data={this.Features2b} /></p>
           <p><BodyOneJustified data={this.Features3} /></p>
           <p><BodyOneJustified data={this.Features4} /></p>
           <p><BodyOneJustified data={this.Features5} /></p>
