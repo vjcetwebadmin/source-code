@@ -120,7 +120,7 @@ class MenuOverlay extends Component {
     var menuItem11Style = {
       display: this.state.menuItem11 ? "none" : "grid"
     };
-    var menuItem9Style = {
+    var menuItem13Style = {
       display: this.state.menuItem13 ? "none" : "grid"
     };
 
@@ -239,7 +239,7 @@ class MenuOverlay extends Component {
                 M.Tech
               </Link>
               <div className="wseparator"></div>
-              <a href="http://www.vjcetmba.in/" className="MenuOverlaySubLinks">MBA</a>
+              <a href="https://vjcetmba.in/application/" className="MenuOverlaySubLinks">MBA</a>
               <div className="wseparator"></div>
               <Link
                 to="/admission/phd"
