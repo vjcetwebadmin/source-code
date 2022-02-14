@@ -135,6 +135,7 @@
     display: grid;
     grid-auto-flow: column;
     grid-row-gap: 0px;
+    
   }
   .HeaderLinkTabTwo {
     display: grid;
@@ -223,8 +224,11 @@
     justify-self: start;
     padding: 0px;
   }
+  #HeaderVJCLogo {
+    width: 380px;
+  }
   .HeaderLinkTabOne {
-    padding-left: 20%;
+    padding-left: 0%;
   }
   #HeaderLineOne {
     padding: 0px;
@@ -262,7 +266,7 @@
     height: 45px;
   }
   #HeaderVJCLogo {
-    width: 280px;
+    width: 380px;
   }
 }
 
@@ -270,6 +274,7 @@
   .HeaderLinkTabOne {
     grid-area: unset;
   }
+
 }
 
 @media (max-width: 480px) {
