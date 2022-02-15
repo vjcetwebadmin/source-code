@@ -60,7 +60,7 @@ class DropDownAdm extends Component {
                     </p>
                     <p>
                         <a
-                            href="http://www.vjcetmba.in/"
+                            href="https://vjcetmba.in/application/"
                             className="patch1"
                             target="_blank"
                             rel="noopener noreferrer"

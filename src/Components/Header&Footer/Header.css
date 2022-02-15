@@ -205,7 +205,7 @@
 
 @media (min-width: 1024px) {
   .Header {
-    grid-template-columns: 23% 2% 75%;
+    grid-template-columns: 35% 2% 63%;
     grid-template-areas: "vjc code tab1" "line1 line1 line1" "tab2 tab2 tab2" "line2 line2 line2";
   }
   #HeaderLineThree {
@@ -243,7 +243,7 @@
 
 @media (min-width: 1440px) {
   .Header {
-    grid-template-columns: 23% 2% 75%;
+    grid-template-columns: 30% 2% 68%;
   }
   .HeaderLinkTabTwo {
     padding: 0% 18%;

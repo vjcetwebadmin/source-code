@@ -169,14 +169,6 @@ class Header extends Component {
         {/* <HeadingFour data={this.HeaderVJCCode} /> */}
  
         <div className="HeaderLinkTabOne" id="HeaderLinkTabOne">
-        <a href="https://vjcetmba.in/application/" target="_blank" rel="noopener noreferrer">
-            <div id="AdmissionImage">
-              <div className="animcontent">
-                MBA Admission
-              </div>
-            </div>
-          </a> 
- 
        {/* <Link to={this.Link13.link} id="Contactbtn">
             KEAM Mock Test
       </Link><a href="http://202.88.251.252:82/"> */}
