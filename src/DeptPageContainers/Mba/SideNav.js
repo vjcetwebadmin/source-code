@@ -11,10 +11,10 @@ import FacultyNav from "./facultynav";
 import PlacementNav from "./placementnav";
 class SideNav extends Component {
   state = {
-    showProfile: false,
+    showProfile: true,
     showVision: false,
     showPeo: false,
-    showProgram: true,
+    showProgram: false,
     showLib: false,
     showAss: false,
     showRes: false,
@@ -122,26 +122,26 @@ class SideNav extends Component {
       <React.Fragment>
         <div class="Deptcontent">
           <div class="sidenav">
+          <input
+              value="About Us"
+              class="button"
+              onClick={this.onClickP}
+            />            
             <input
               value="Academics"
               class="button"
               onClick={this.onClickProg}
             />
             <input
-              value="About Us"
+              value="Dean & Hod Message"
               class="button"
-              onClick={this.onClickP}
+              onClick={this.onClickPeo}
             />
             <input
               value="Vision"
               class="button"
               onClick={this.onClickV}
             />
-           {/*<input
-              value="PEO, PSO & CO"
-              class="button"
-              onClick={this.onClickPeo}
-            />*/}
             <input
               value="Faculty"
               class="button"
@@ -223,7 +223,7 @@ class SideNav extends Component {
             {this.state.showfac ? <FacultyNav /> : null}
             {this.state.showLib ? <Library /> : null}
             {this.state.showAss ? <PlacementNav /> : null}
-            {/*{this.state.showPeo ? <PEO /> : null}*/}                    
+            {this.state.showPeo ? <PEO /> : null}                  
             {this.state.showRes ? <Mbaadmission /> : null}
           </div>
         </div>

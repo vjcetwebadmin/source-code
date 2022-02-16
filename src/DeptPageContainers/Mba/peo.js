@@ -1,78 +1,50 @@
 import React, { Component } from "react";
-import HeadingOne from "../../Components/Texts/HeadingOne";
-import Bodythree from "../../Components/Texts/BodyThree";
+import HeadingThree from "../../Components/Texts/HeadingThree";
+import ImageOne from "../../Components/Images/ImageOne";
+import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
+//import HeadingOne from "../../Components/Texts/HeadingOne";
+//import Bodythree from "../../Components/Texts/BodyThree";
 class PEO extends Component {
-  
   state = {};
-  peoHeading = {
-    instanceID: "psoHeading",
-    title: "Programme Educational Objectives"
+  HomePageHeader = {
+      instanceID: "HomePageHeader"
   };
-  peoListOne = {
-    instanceID: "peoListOne",
-    title: "Our Graduates "
-  };
-  peoListTwo = {
-    instanceID: "peoListTwo",
-    title:
-      "1.	Shall have creative and critical reasoning skills to solve technical problems ethically and responsibly to serve the society."
-  };
-  peoListThree = {
-    instanceID: "peoListThree",
-    title:
-      "2.	Shall have competency to collaborate as a team member and team leader to address social, technical and engineering challenges."
-  };
-  peoListFour = {
-    instanceID: "peoListFour",
-    title:
-      "3.	Shall have ability to contribute to the development of the next generation of information technology either through innovative research or through practice in a corporate setting."
-  };
-  peoListFive = {
-    instanceID: "peoListFive",
-    title:
-      "4.	Shall have potential to build start-up companies with the foundations, knowledge and experience they acquired from undergraduate education."
+  HomePageFooter = {
+      instanceID: "HomePageFooter"
   };
 
-  psoHeading = {
-    instanceID: "psoHeading",
-    title: "Programme Specific Outcomes"
-  };
-  psoListOne = {
-    instanceID: "psoListOne",
-    title:
-      "1.	Ability to integrate theory and practice to construct software systems of varying complexity."
-  };
-  psoListTwo = {
-    instanceID: "psoListTwo",
-    title:
-      "2.	Able to Apply Computer Science skills, tools and mathematical techniques to analyze, design and model complex systems."
-  };
-  psoListThree = {
-    instanceID: "psoListThree",
-    title:
-      "3.	Ability to design and manage small-scale projects to develop a career in a related industry."
-  };
- 
-  render() {
-    return (
-      <div className="PEO&PSO" id="peo&pso">
-        <HeadingOne data={this.peoHeading} />
-        <Bodythree data={this.peoListOne} />
-        <Bodythree data={this.peoListTwo} />
-        <Bodythree data={this.peoListThree} />
-        <Bodythree data={this.peoListFour} />
-        <Bodythree data={this.peoListFive} />
-        <HeadingOne data={this.psoHeading} />
-        <Bodythree data={this.psoListOne} />
-        <Bodythree data={this.psoListTwo} />
-        <Bodythree data={this.psoListThree} />
-        <div className="HeadingOne">
-            <h1>Course Outcomes</h1>
-            <a href="https://vjcet.org/downloads/COs/CSE.xlsx" target="_blank" rel="noopener noreferrer"><b>Click Here to download COs</b></a>
-        </div>
-      </div>
-    );
+  CCCTitle = {
+      instanceID: "CCCTitle",
+      title: "DEAN & HOD MESSAGE"
+  };   
+
+  CCCImagedata = {
+      instanceID: "CCCVjcImage",
+      image: "KeyFunctionaries/mbadean.png",
+      width: "40%"
   }
+  CCCContent1 = {
+    instanceID: "CCCContent1",
+    title: "The Department of Management Studies of the VISWAJYOTHI College of Engineering and Technology (VJCET) is fully committed to contributing to the fulfilment of the vision and mission of the college. Department of Management Studies at VJCET has a pride of place among the B Schools of Kerala. Our students are empowered and enabled to acquire not only the MBA degree but also the critical skills and right mindset to be successful in the highly competitive and increasingly globalising business environment. They are exposed to the evolutions and revolutions on the business horizon and to the theoretical and practical dimensions of management with strategic orientation and social commitment. The MBA programme at the VISWAJYOTHI aims at moulding the youngsters not just as managers but leaders who will be business and organizational architects contributing to the societal welfare at large."
+}
+
+CCCContent2 = {
+  instanceID: "CCCContent2",
+  title: "At VJCET, students are exposed to the emerging state of the art technologies and leading-edge business management practices which will enable them to lead multinational workforces, communicate with stakeholders, develop creative solutions to emerging business issues and drive innovation through entrepreneurial practices. The primary objective of the Department is to promote personal integrity and social responsibility among the students and provide them with an ideal platform for the display of their creative and innovative abilities and offer unique opportunities to further enhance personal capabilities. VJCET provides the unique Management Programme with quality, reliability, standards and recognition. The major strengths of the department are the dynamic, highly committed and visionary Management. Also the state of the art infrastructure and well qualified, experienced and very dedicated faculty with diverse academic and industrial backgrounds."
+}
+  render() {
+      return ( 
+              <div className="contain">
+                 <p align="center"> <ImageOne data={this.CCCImagedata} /></p>
+                 {/*<p align="center"><b> Msgr. Dr. Pius Malekandathil [<a href="https://vjcet.org/downloads/keyfunctionaries/RevfrPiusMalekandathil.pdf" target="_blank" rel="noopener noreferrer">Profile</a>]</b></p> */}
+                 <p align="center"><b>Dr. Cyriac Joseph</b></p> 
+                 <HeadingThree data={this.CCCTitle} className="Heading" />
+                 <BodyOneJustified data={this.CCCContent1} /> 
+               </div>  
+
+      );
+  }
+
 }
 
 export default PEO;
