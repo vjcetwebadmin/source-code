@@ -4,8 +4,9 @@ import Profile from "./profile";
 import Vision from "./vision";
 import PEO from "./peo";
 import Program from "./program";
+//import Program from "./Academic_nav";
 import Library from "./studlife";
-import Association from "./association";
+//import Association from "./association";
 import Mbaadmission from "./mbaadmission";
 import FacultyNav from "./facultynav";
 import PlacementNav from "./placementnav";
@@ -126,6 +127,11 @@ class SideNav extends Component {
               value="About Us"
               class="button"
               onClick={this.onClickP}
+            />
+            <input
+              value="Vision"
+              class="button"
+              onClick={this.onClickV}
             />            
             <input
               value="Academics"
@@ -133,35 +139,32 @@ class SideNav extends Component {
               onClick={this.onClickProg}
             />
             <input
-              value="Dean & Hod Message"
+              value="Dean & HOD Message"
               class="button"
               onClick={this.onClickPeo}
             />
-            <input
-              value="Vision"
-              class="button"
-              onClick={this.onClickV}
-            />
+
             <input
               value="Faculty"
               class="button"
               onClick={this.onClickFac}
             />
             <input
-              value="Student Life"
+              value="Admission"
               class="button"
-              onClick={this.onClickLib}
-            />
-           <input
+              onClick={this.onClickRes}
+            />            
+            <input
               value="Placements"
               class="button"
               onClick={this.onClickAss}
             />
-          <input
-              value="Admission"
+            <input
+              value="Student Life"
               class="button"
-              onClick={this.onClickRes}
+              onClick={this.onClickLib}
             />
+
           </div>
           <div class="dropdownD">
             <button class="button">Menu</button>

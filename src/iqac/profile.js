@@ -286,7 +286,7 @@ class iqac extends React.Component {
             <li>
               Verification of Shortage of Attendance twice in a semester.
             </li>
-            <li>Review of Shortage of Attendance with HoD &amp; Principal.</li>
+            <li>Review of Shortage of Attendance with HOD &amp; Principal.</li>
             <li>Submission of report to the IQAC in the prescribed format.</li>
           </ol>
 
@@ -390,7 +390,7 @@ class iqac extends React.Component {
           <br />
           <HeadingThree data={this.criteria8heading} className="Heading" />
           <p>
-            <b>Coordinator:Smt. Smitha Cyriac, </b>HoD, ECE
+            <b>Coordinator:Smt. Smitha Cyriac, </b>HOD, ECE
           </p>
           <p>
             <b>Responsibilities of the Committee</b>

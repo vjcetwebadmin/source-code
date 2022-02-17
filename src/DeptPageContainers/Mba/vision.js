@@ -25,7 +25,7 @@ class Vision extends Component {
   MissionListTwo = {
     instanceID: "MissionListTwo",
     title:
-      "2.  Molding managers, entrepreneurs, and organizational leaders with strategic. orientation, inquisitive and innovate mind, integrity, and social commitment."
+      "2.  Molding managers, entrepreneurs, and organizational leaders with strategic, orientation, inquisitive and innovate mind, integrity, and social commitment."
   };
   MissionListThree = {
     instanceID: "MissionListThree",

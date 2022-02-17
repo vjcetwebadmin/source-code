@@ -8,7 +8,7 @@ class CSFaculty extends Component {
     image: "Allstaffphoto/MBA/FAC/MbAfacdean.jpg",
     width: "50%",
     name: <a href="https://vjcet.org/downloads/MbaProfile/DR.Cyriac Joseph-converted.pdf" target="_blank" rel="noopener noreferrer">Dr. Cyriac Joseph</a>,
-    content: "Dean & HoD - Management Studies"
+    content: "Dean & HOD - Management Studies"
   };
   Cefaculty2 = {
     instanceID: "Cefaculty2",

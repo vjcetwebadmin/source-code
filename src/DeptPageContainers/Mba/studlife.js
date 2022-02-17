@@ -20,7 +20,7 @@ class Library extends Component {
 }
 MbaHead1Desc1 = {
 	instanceID: "MbaHead1Desc1",
-	title: "The core and crux of management education is the all-round development of the individual. VSMS through its multi-faceted training programmes, skill development initiatives and value oriented instruction strives to transform the students into self-reliant, confident and mature individuals with clear career goals and heightened vision in life. The training here is meant to help the students to identify their hidden positive strengths and encourage them to plunge into the uncharted seas of opportunities and possibilities; finally giving them a strong foothold in the management and business landscape. Above everything else, they are made to formulate a wider vision of life, so as to make each one ask himself – ‘what can i do with what i have got?’."
+	title: "The core and crux of management education is the all-round development of the individual. Department of Management Studies through its multi-faceted training programmes, skill development initiatives and value oriented instruction strives to transform the students into self-reliant, confident and mature individuals with clear career goals and heightened vision in life. The training here is meant to help the students to identify their hidden positive strengths and encourage them to plunge into the uncharted seas of opportunities and possibilities; finally giving them a strong foothold in the management and business landscape. Above everything else, they are made to formulate a wider vision of life, so as to make each one ask himself – ‘what can i do with what i have got?’."
 };
 
 MbaHead2 = {
@@ -29,7 +29,7 @@ MbaHead2 = {
 };
 MbaHead1Desc2 = {
   instanceID: "MbaHead1Desc2",
-  title: "Moreover they learn international business, VSMS students will accustom to international culture and cuisines from the international industrial visits. International visits in the past were focused on South East Asian countries and China. A fortnight long program include visits to multinational companies, universities and advanced manufacturing plants."
+  title: "Moreover they learn international business, Department of Management Studies students will accustom to international culture and cuisines from the international industrial visits. International visits in the past were focused on South East Asian countries and China. A fortnight long program include visits to multinational companies, universities and advanced manufacturing plants."
   };
 MbaHead1Desc2_2 = {
   instanceID: "MbaHead1Desc2_2",
@@ -80,7 +80,7 @@ MbaHead1Desc2_3 = {
     };
     MbaHead1Desc4 = {
       instanceID: "MbaHead1Desc4",
-      title: "Finance  Club of VSMS is  a platform  for acquiring financial knowledge, a place for interactive learning and an ideal  club to facilitate career  development  for finance  students.  It is a club  that connects students of MBA , alumni, industry experts and academicians. Finance club also conducts Business quiz and discussions, handles  fund management and trading games which help them to learn more about stock market ,portfolio management and financial analysis. It provides forum for  financial research and analysis, and publish their research findings."
+      title: "Finance  Club of Department of Management Studies is  a platform  for acquiring financial knowledge, a place for interactive learning and an ideal  club to facilitate career  development  for finance  students.  It is a club  that connects students of MBA , alumni, industry experts and academicians. Finance club also conducts Business quiz and discussions, handles  fund management and trading games which help them to learn more about stock market ,portfolio management and financial analysis. It provides forum for  financial research and analysis, and publish their research findings."
       };
     bullet1 = {
       instanceID: "bullet1",
@@ -97,7 +97,7 @@ MbaHead1Desc2_3 = {
 
     MbaHead1Desc4_2 = {
       instanceID: "MbaHead1Desc4_2",
-      title: "The vibrant marketing club of VSMS provides the students ample opportunities in identifying various needs and requirements of the campus and respond with relevant goods and services creatively. The club also organizes interactions with working professionals at various levels from different sectors."
+      title: "The vibrant marketing club of Department of Management Studies provides the students ample opportunities in identifying various needs and requirements of the campus and respond with relevant goods and services creatively. The club also organizes interactions with working professionals at various levels from different sectors."
       };
 
 
@@ -138,7 +138,7 @@ MbaHead1Desc2_3 = {
       }; 
     MbaHead1Desc4_5 = {
       instanceID: "MbaHead1Desc4_5",
-      title: "Cultural Committee at VSMS provides a platform for students to express their latent talents. It hosts various events such as Bodhi and College day programs ensuring an equal share of fun and frolic alongside academic rigor."
+      title: "Cultural Committee at Department of Management Studies provides a platform for students to express their latent talents. It hosts various events such as Bodhi and College day programs ensuring an equal share of fun and frolic alongside academic rigor."
       };
       MbaImage6 = {
         instanceID: "MbaImage6",
@@ -188,7 +188,6 @@ MbaHead1Desc2_3 = {
         <p className="inner-parahead">Kalypso outbound training</p>
         <p><BodyOneJustified data={this.MbaHead1Desc2_3}></BodyOneJustified></p>
         <p></p>
-        <p><b>Goa  University</b></p>
         <ImageOne data={this.MbaImage2} />
         <br></br>
         <ImageOne data={this.MbaImage3} />

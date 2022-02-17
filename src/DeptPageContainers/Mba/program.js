@@ -23,12 +23,13 @@ class Program extends Component {
       <div className="Program" id="program">
         <HeadingOne data={this.ProgramHeading} />
         {/*<Bodythree data={this.ProgramDescriptionOne} />
-        <Bodythree data={this.ProgramDescriptionTwo} />*/}
-        <b><a href="https://vjcet.org/downloads/academic/Curriculum2020.pdf" target="_blank" rel="noopener noreferrer">CURRICULUM 2020</a></b><br /><br />
-        <b><a href="https://vjcet.org/downloads/academic/ACADEMICS.docx" target="_blank" rel="noopener noreferrer">ACADEMICS</a></b><br /><br />
+        <Bodythree data={this.ProgramDescriptionTwo} />
+        <b><a href="https://vjcet.org/downloads/academic/ACADEMICS.docx" target="_blank" rel="noopener noreferrer">ACADEMICS</a></b><br /><br />*/}
+        <b><a href="https://vjcet.org/downloads/academic/Curriculum2020.pdf" target="_blank" rel="noopener noreferrer">CURRICULUM 2020</a></b><br /><br />        
         <b><a href="https://vjcet.org/downloads/academic/MBARegulations2020.pdf" target="_blank" rel="noopener noreferrer">REGULATIONS</a></b><br /><br />
+        <b><a href="https://vjcet.org/downloads/academic/MBASyllabus2020.pdf" target="_blank" rel="noopener noreferrer">S1&S2 SYLLABUS</a></b><br /><br />
         <b><a href="https://vjcet.org/downloads/academic/MBAS3S4Syllabus.pdf" target="_blank" rel="noopener noreferrer">S3&S4 SYLLABUS</a></b><br /><br />
-        <b><a href="https://vjcet.org/downloads/academic/MBASyllabus2020.pdf" target="_blank" rel="noopener noreferrer">SYLLABUS 2020</a></b><br />
+      
       </div>
     );
   }

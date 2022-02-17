@@ -90,7 +90,7 @@ class CsDepartment extends Component {
         <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
         <div className="CsHeadingSection">
           <HeadingOne data={this.HeadingSectionTitle} />
-          <p class="centraltag">Debugging the possibilities through intelligence</p>
+          {/*<p class="centraltag">Debugging the possibilities through intelligence</p>*/}
           <ImageOne data={this.CseImg} /> 
              
         </div>
