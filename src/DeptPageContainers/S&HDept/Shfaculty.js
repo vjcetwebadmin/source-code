@@ -113,7 +113,7 @@ class Faculty extends Component {
     instanceID: "Cefaculty25",
     image: "Allstaffphoto/SH/FAC/SHFAC140.jpeg",
     width: "50%",
-    name:  <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHFAC126" target="_blank" rel="noopener noreferrer">Dr. Vincent Aerath</a>,
+    name:  <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHFAC140" target="_blank" rel="noopener noreferrer">Dr. Vincent Aerath</a>,
     content: "Associate Professor"
   };   
   Cefaculty23 = {

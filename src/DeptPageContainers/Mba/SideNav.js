@@ -3,8 +3,8 @@ import "../../Components/SideNav.css";
 import Profile from "./profile";
 import Vision from "./vision";
 import PEO from "./peo";
-import Program from "./program";
-//import Program from "./Academic_nav";
+//import Program from "./program";
+import Program from "./Academic_nav";
 import Library from "./studlife";
 //import Association from "./association";
 import Mbaadmission from "./mbaadmission";
@@ -129,7 +129,7 @@ class SideNav extends Component {
               onClick={this.onClickP}
             />
             <input
-              value="Vision"
+              value="Vision & Mission"
               class="button"
               onClick={this.onClickV}
             />            
@@ -177,7 +177,7 @@ class SideNav extends Component {
               />
               <input
 
-                value="Vision"
+                value="Vision & Mission"
                 class="button"
                 onClick={this.onClickV}
               />

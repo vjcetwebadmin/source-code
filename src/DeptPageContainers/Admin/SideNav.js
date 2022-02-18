@@ -138,7 +138,7 @@ class SideNav extends Component {
             />
             <input
 
-              value="Vision"
+              value="Vision & Mission"
               class="button"
               onClick={this.onClickV}
             />
@@ -184,7 +184,7 @@ class SideNav extends Component {
               />
               <input
 
-                value="Vision"
+                value="Vision & Mission"
                 class="button"
                 onClick={this.onClickV}
               />

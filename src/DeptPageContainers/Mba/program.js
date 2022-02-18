@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import HeadingOne from "../../Components/Texts/HeadingOne";
-import Bodythree from "../../Components/Texts/BodyThree";
+//import Bodythree from "../../Components/Texts/BodyThree";
 class Program extends Component {
   state = {};
   ProgramHeading = {
