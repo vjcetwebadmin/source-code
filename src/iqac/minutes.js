@@ -46,6 +46,23 @@ class minutes extends Component {
     render() {
         const IQAC_Data = [
           {
+            year: "2021-2022",
+            events: [
+              {
+                date: "11-10-2021",
+                minutes: "https://vjcet.org/downloads/iqac/N24.pdf",
+                action: "https://vjcet.org/downloads/iqac/A25.pdf",
+              },
+              {
+                date: "11-01-2022",
+                minutes: "https://vjcet.org/downloads/iqac/N25.pdf",
+                action: "",
+              },
+
+            ],
+            annualReport: "",
+          },
+          {
             year: "2020-2021",
             events: [
               {
@@ -71,7 +88,7 @@ class minutes extends Component {
               {
                 date: "09-08-2021",
                 minutes: "https://vjcet.org/downloads/iqac/N23.pdf",
-                action: "",
+                action: "https://vjcet.org/downloads/iqac/A24.pdf",
               },
             ],
             annualReport: "",
