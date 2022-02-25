@@ -16,7 +16,9 @@ class MenuOverlay extends Component {
       menuItem9: true,
       menuItem10: true,
       menuItem11: true,
-      menuItem13: true
+      menuItem12: true,
+      menuItem13: true,
+      menuItem14: true
     };
   }
 
@@ -75,9 +77,19 @@ class MenuOverlay extends Component {
       menuItem11: !this.state.menuItem11
     });
   }
+  menuItem12() {
+    this.setState({
+      menuItem12: !this.state.menuItem12
+    });
+  }
   menuItem13() {
     this.setState({
-      menuItem11: !this.state.menuItem13
+      menuItem13: !this.state.menuItem13
+    });
+  }
+  menuItem14() {
+    this.setState({
+      menuItem14: !this.state.menuItem14
     });
   }
 
@@ -120,8 +132,14 @@ class MenuOverlay extends Component {
     var menuItem11Style = {
       display: this.state.menuItem11 ? "none" : "grid"
     };
+    var menuItem12Style = {
+      display: this.state.menuItem12 ? "none" : "grid"
+    };
     var menuItem13Style = {
       display: this.state.menuItem13 ? "none" : "grid"
+    };
+    var menuItem14Style = {
+      display: this.state.menuItem14 ? "none" : "grid"
     };
 
 
@@ -498,13 +516,17 @@ class MenuOverlay extends Component {
               </Link>
             </div>
           </div>
-          <Link id="menuItem7" className="MenuOverlayItem" to="/R&D">
+          <div id="menuItem14"  className="MenuOverlayItem">
+          <Link className="MenuOverlayItem" to="/R&D">
             RD
           </Link>
+          </div>
           <div className="separator"></div>
-          <Link id="menuItem12" className="MenuOverlayItem" to="iqac">
+          <div id="menuItem12"  className="MenuOverlayItem">
+          <Link className="MenuOverlayItem" to="/iqac">
             IQAC
-          </Link>
+          </Link>          
+          </div>
           <div className="separator"></div>
           <div id="menuItem13">
           <div className="MenuOverlayItem">
