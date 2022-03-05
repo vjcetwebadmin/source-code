@@ -1,6 +1,6 @@
 import React from "react";
 //import HeadingTwo from "../../Components/Texts/HeadingTwo";
-//import ImageOne from "../../Components/Images/ImageOne";
+import ImageOne from "../../Components/Images/ImageOne";
 import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
 import "../../FacilitiesPageContainers/styles.css";
 import "../../Components/News/gallery.css";
@@ -51,22 +51,12 @@ class Newsfive extends React.Component {
         instanceID: "Newscontent",
         title: ""
     };
-    
     NewsImagedata1 = {
         instanceID: "NewsImagedata1",
-        image: "NewsImages/csi.jpg",
-        width: "80%"
+        image: "NewsImages/vjcscancode1.jpg",
+        width: "85%"
     }
-    NewsImagedata2 = {
-        instanceID: "NewsImagedata2",
-        image: "NewsImages/ME_fdp_back.jpg",
-        width: "80%"
-    }
-    NewsImagedata3 = {
-        instanceID: "NewsImagedata3",
-        image: "NewsImages/Registernow.jpg",
-        width: "20%"
-    }
+
     
     QuickNewsLinks={
         text1: "SIB Online Fee Payment",
@@ -104,6 +94,11 @@ class Newsfive extends React.Component {
                     <p><span className="text_red">Very Important : Please mention Admission Number of the student in remarks.</span></p><br></br>
                     <p><span className="text_red">SIB Online Fee Payment </span> <a href="https://eacademia.southindianbank.com/feeuser/org?id=6" target="_blank">Click Here </a></p>
                     <p><span className="text_red">To download Bank Challan </span><a href="https://vjcet.org/downloads/news/SIBChallan.pdf" target="_blank"> Click Here </a></p><br></br>
+
+                    <p> <b>OR SCAN QRCODE</b></p>
+                    <ImageOne data={this.NewsImagedata1} />
+                    <p></p>
+                    <p> </p>
                     <p>For Payment Related Queries Contact : <b> Mrs. Jismy George - 9349944361</b></p>
                  <HeadingOne data={this.NewsTitle1} /> 
                 {/* <p><b>Semester 4</b></p>
