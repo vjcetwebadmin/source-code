@@ -16,7 +16,6 @@ import DropDownF from "./dropdownfacilities";
 import DropDownAdm from "./dropdownAdmission";
 import DropDownIedc from "./dropdowniedc";
 
-
 class Header extends Component {
   VJCLogo = {
     instanceID: "HeaderVJCLogo",
@@ -182,7 +181,7 @@ class Header extends Component {
           <a href="https://admission.vjcet.ac.in/">
             <div id="AdmissionImage">
               <div className="animcontent">
-                B.Tech Admission 2021
+                B.Tech Admission 2022
               </div>
             </div>
           </a>
@@ -191,7 +190,6 @@ class Header extends Component {
             Contact Us
           </Link>
         </div>
-
         <div className="HeaderLinkTabTwo" id="HeaderLinkTabTwo">
           <div className="HeaderLinkTabAdmissionsOpen">
             {/* <ImageOne data={this.AdmissionsOpen} /> */}
@@ -210,7 +208,6 @@ class Header extends Component {
             <AnchorLink data={this.Link10} />
             <AnchorLink data={this.Link12} />
             <ExternalLink data={this.Link14} />
-
           </div>
         </div>
       </div>
