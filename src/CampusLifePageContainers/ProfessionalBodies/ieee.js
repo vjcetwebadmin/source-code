@@ -131,11 +131,11 @@ ActivitiesHeading = {
                             <tr><td>Computer Society Counsellor</td><td>Mr. Sivadas T Nair, AP CSE</td></tr>
                             <tr><td>Power & Energy Society Counsellor</td><td>Mr. Babu T Chacko, AP EEE</td></tr>
                             <tr><td>IEEE SIGHT & WIE Advisor</td><td>Mr. Anish M Jose, AP ECE</td></tr>
-                            <tr><td>Branch Chairperson</td><td>Ms. Abba Mathews, S6 CS B</td></tr>
-                            <tr><td>Computer Society Chairman</td><td>Ms. Emma Treesa Joseph,S4 IT</td></tr>
-                            <tr><td>Power & Energy Society Chairperson</td><td>Mr. Basil Eldhose, S6 EEE</td></tr>
-                            <tr><td>IEEE SIGHT Chairman</td><td>Mr. Ananthu Anil, S6 CS B</td></tr>
-                            <tr><td>IEEE WIE Chairperson</td><td>Ms. Elizabeth Lovin, S4 CS B</td></tr>
+                            <tr><td>Branch Chairperson</td><td>Ms. Anjaly Saji, S5 IT</td></tr>
+                            <tr><td>Computer Society Chairman</td><td>Ms. Dilna Elizabath Roy,S5 CSEB</td></tr>
+                            <tr><td>Power & Energy Society Chairperson</td><td>Mr. Alen Shajan, S5 IT</td></tr>
+                            <tr><td>IEEE SIGHT Chairman</td><td>Mr. Alen Salu S5 IT</td></tr>
+                            <tr><td>IEEE WIE Chairperson</td><td>Ms. Sayana Fathima, S5 EEE</td></tr>
                             </table>
                             <HeadingThree data={this.ActivitiesHeading} /> 
                             <table id="tableformat">
