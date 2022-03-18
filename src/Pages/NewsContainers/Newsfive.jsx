@@ -91,16 +91,16 @@ class Newsfive extends React.Component {
                     <p>Name of the Bank - <b>South Indian Bank</b></p>
                     <p>Name of the Branch - <b>Vazhakulam - IFSC Code : SIBL0000335</b></p>
                     <p>Account Number : <b>0335053000001199</b></p>
-                    <p><span className="text_red">Very Important : Please mention Admission Number of the student in remarks.</span></p><br></br>
-                    <p><span className="text_red">SIB Online Fee Payment </span> <a href="https://eacademia.southindianbank.com/feeuser/org?id=6" target="_blank">Click Here </a></p>
-                    <p><span className="text_red">To download Bank Challan </span><a href="https://vjcet.org/downloads/news/SIBChallan.pdf" target="_blank"> Click Here </a></p><br></br>
-
-                    <p> <b>OR SCAN QRCODE</b></p>
-                    <ImageOne data={this.NewsImagedata1} />
-                    <p></p>
-                    <p> </p>
+                    <p><span className="text_red">Very Important : Please mention Admission Number of the student in remarks.</span></p>
                     <p>For Payment Related Queries Contact : <b> Mrs. Jismy George - 9349944361</b></p>
-                 <HeadingOne data={this.NewsTitle1} /> 
+                    <br></br>
+                    <p><span className="text_red">SIB Online Fee Payment </span> <a href="https://eacademia.southindianbank.com/feeuser/org?id=6" target="_blank">Click Here </a></p>
+                    <p><span className="text_red">To download Bank Challan </span><a href="https://vjcet.org/downloads/news/SIBChallan.pdf" target="_blank"> Click Here </a></p>
+                    <p><b>OR</b></p>
+                    <p><span className="text_red"><b>SCAN QRCODE</b></span></p>
+                    <ImageOne data={this.NewsImagedata1} />
+                    <p><br></br></p>
+                    <HeadingOne data={this.NewsTitle1} /> 
                 {/* <p><b>Semester 4</b></p>
                  <br />
                  <h3 className="text_red"><b>Dear Parent, Please remit 4th semester tution fees of your ward, date extended to 30-06-2021 without fine and 12-07-2021 with fine.</b></h3>
