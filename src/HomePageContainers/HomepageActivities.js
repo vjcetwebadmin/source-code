@@ -72,6 +72,13 @@ class DepartmentSection extends Component {
       ""
   };
 
+  DepartmentListNine = {
+    instanceID: "DepartmentListNine",
+    title: "IMS-UNAI-ASPIRE",
+    description:
+      ""
+  };
+
   render() {
     const { instanceID } = this.props.data;
 

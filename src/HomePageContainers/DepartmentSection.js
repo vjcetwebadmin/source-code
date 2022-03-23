@@ -76,8 +76,9 @@ class DepartmentSection extends Component {
     instanceID: "DepartmentListNine",
     title: "Artificial Intelligence and Data Science",
     description:
-      "The Department deals in the disciplines of Chemistry, Physics, Mathematics, Statistics, Communicative English and Economics."
+      "The prestigious course, B.Tech Artificial Intelligence and Data science which imparts in-demand technical skills in aspirants is commenced at VJCET in the year 2020"
   };
+
 
   render() {
     const { instanceID } = this.props.data;
@@ -99,21 +100,21 @@ class DepartmentSection extends Component {
         <Link to="departments/eee" style={{ textDecoration: "none" }}>
           <DepartmentList data={this.DepartmentListFour} />
         </Link>
-        <Link to="departments/it" style={{ textDecoration: "none" }}>
+        <Link to="departments/it" style={{textDecoration: "none" }}>
           <DepartmentList data={this.DepartmentListFive} />
         </Link>
-        <Link to="departments/me" style={{ textDecoration: "none" }}>
+        <Link to="departments/me" style={{textDecoration: "none" }}>
           <DepartmentList data={this.DepartmentListSix} />
         </Link>
-        <a href="http://www.vjcetmba.in/" style={{ textDecoration: "none" }}>
+        <Link to="departments/mba"  style={{textDecoration: "none" }}>
           <DepartmentList data={this.DepartmentListSeven} />
-        </a>
+        </Link>
         <Link to="departments/s&h" style={{ textDecoration: "none" }}>
           <DepartmentList data={this.DepartmentListEight} />
         </Link>
-        {/*<Link to="/departments/aid" style={{ textDecoration: "none" }}>
+        <Link to="/departments/aid" style={{textDecoration: "none" }}>
           <DepartmentList data={this.DepartmentListNine} />
-    </Link>*/}
+        </Link>        
       </div>
     );
   }

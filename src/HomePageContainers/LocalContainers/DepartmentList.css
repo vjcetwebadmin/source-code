@@ -186,4 +186,12 @@
     background-size: cover;
     background-position: left;
   }
+  #DepartmentListNine{
+    padding-left: 10%;
+  }
+  #DepartmentListNine:hover {
+    background-image: url(../../Assets/hoverselectortoright.png);
+    background-size: cover;
+    background-position: left;
+  }
 }

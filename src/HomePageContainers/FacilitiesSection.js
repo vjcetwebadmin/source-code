@@ -36,7 +36,7 @@ class FacilitiesSection extends Component {
   FacilityListFour = {
     instanceID: "FacilityListFour",
     image: "FacilitiesFour.png",
-    title: <a href="https://vjcet.org/#/facilities/campusamenities" target="_blank" rel="noopener noreferrer"><font color="000000">On-Campus Canteens, Cafeteria, ATMs, Store and Hospital</font></a>
+    title: <a href="https://vjcet.org/#/facilities/campusamenities" target="_blank" rel="noopener noreferrer"><font color="000000">On-Campus Canteen, Cafeteria, ATM, Store and Hospital</font></a>
   };
   FacilityListFive = {
     instanceID: "FacilityListFive",
