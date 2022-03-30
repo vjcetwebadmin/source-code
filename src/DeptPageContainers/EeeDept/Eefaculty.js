@@ -143,7 +143,14 @@ class EEFaculty extends Component {
           </div>
           {/*<div>
             <FacultyData data={this.Cefaculty2} />
-          </div>*/}
+          </div>
+          <div>
+            <FacultyData data={this.Cefaculty16} />
+          </div>
+          <div>
+            <FacultyData data={this.Cefaculty17} />
+          </div>
+          */}
 
           <div>
             <FacultyData data={this.Cefaculty4} />
@@ -183,14 +190,7 @@ class EEFaculty extends Component {
           </div>
           <div>
             <FacultyData data={this.Cefaculty15} />
-          </div>
-          <div>
-            <FacultyData data={this.Cefaculty16} />
-          </div>
-          <div>
-            <FacultyData data={this.Cefaculty17} />
-          </div>
-  
+          </div> 
           
         </div>
       </div>
