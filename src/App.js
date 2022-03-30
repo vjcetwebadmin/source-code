@@ -403,13 +403,13 @@ class App extends Component {
             name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC114" target="_blank" rel="noopener noreferrer">Mrs. Tintu Shine A L</a>,
             content: "Assistant Professor(on-leave)"
           },
-          {
+          /*{
             instanceID: "Cefaculty12",
             image: "Allstaffphoto/CE/FAC/50.jpg",
             width: "50%",
             name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC115" target="_blank" rel="noopener noreferrer">Mrs. Jerin Jose</a>,
             content: "Assistant Professor"
-          },
+          },*/
           {
             instanceID: "Cefaculty14",
             image: "Allstaffphoto/CE/FAC/283.jpg",
