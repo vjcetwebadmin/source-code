@@ -110,7 +110,7 @@ class collegecouncil extends React.Component {
                             <tr><td>COURSE COMMITTEES AND CLASS COMMITTEES</td><td>Mrs. Rose Mary Baby, AP S&H</td></tr>
                             <tr><td>DISCIPLINARY ACTION COMMITTEE(DAC)</td><td>Dr. Shunmughesh K., Prof MED</td></tr>
                             <tr><td>STUDENT'S WELFARE COMMITTEE</td><td>Dr. Geo Baby HOD MBA</td></tr>
-                            <tr><td>GRIEVANCES AND APPEALS COMMITTEE</td><td>Mrs. Shine George, HOD  CED</td></tr>
+                            <tr><td>GRIEVANCES AND APPEALS COMMITTEE</td><td>Dr. Shine George, HOD  CED</td></tr>
                         </table>
                         
                 </div>

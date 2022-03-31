@@ -136,7 +136,7 @@ class iqac extends React.Component {
             </tr>
             <tr>
               <td>8</td>
-              <td> Smt. Shine George</td>
+              <td> Dr. Shine George</td>
               <td> HOD ( CE)</td>
             </tr>
             <tr>
@@ -223,7 +223,7 @@ class iqac extends React.Component {
           <HeadingThree data={this.criteria1heading} className="Heading" />
          
           <p>
-            <b>Coordinator:Mrs. Shine George</b>, HOD CE
+            <b>Coordinator: Dr. Shine George</b>, HOD CE
           </p>
           <p>
             <b>Responsibilities of the Committee</b>

@@ -60,7 +60,7 @@ grievwriteup4 = {
 		      <tr><th colSpan="2">Students' Grievance Redressal / Appeal Committee</th></tr>
             <tr><td style={{width:"40%"}}>Name</td><td>Designation</td></tr>
             <tr><td>Mr. Somy P. Mathew</td><td>Vice-Principal</td></tr>
-            <tr><td>Ms. Shine George</td><td>HOD CE</td></tr>
+            <tr><td>Dr. Shine George</td><td>HOD CE</td></tr>
             <tr><td>Mr. Amel Austine</td><td>HOD CSE</td></tr>
             <tr><td>Dr. B. Aruna</td><td>HOD EEE</td></tr>
             <tr><td>Ms. Smitha Cyriac</td><td>HOD ECE</td></tr>
@@ -96,7 +96,7 @@ grievwriteup4 = {
           <tr><td style={{width:"40%"}}>Name</td><td>Designation</td></tr>
             <tr><td>Dr. K. K. Rajan</td><td>Principal</td></tr>
             <tr><td>Mr. Somy P. Mathew</td><td>Vice Principal</td></tr>
-            <tr><td>Ms. Shine George</td><td>HOD - CE</td></tr>
+            <tr><td>Dr. Shine George</td><td>HOD - CE</td></tr>
             <tr><td>Mr. Amel Austine</td><td>HOD - CSE</td></tr>
             <tr><td>Dr. B. Aruna</td><td>HOD - EEE</td></tr>
             <tr><td>Ms. Smitha Cyriac</td><td>HOD - ECE</td></tr>

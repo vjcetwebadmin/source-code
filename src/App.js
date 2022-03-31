@@ -315,7 +315,7 @@ class App extends Component {
             instanceID: "Cefaculty1",
             image: "Allstaffphoto/CE/FAC/cefacultyimg1.JPG",
             width: "50%",
-            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC101" target="_blank" rel="noopener noreferrer">Mrs. Shine George</a>,
+            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC101" target="_blank" rel="noopener noreferrer">Dr. Shine George</a>,
             content: "Asso. Prof. & HOD"
           },
           {

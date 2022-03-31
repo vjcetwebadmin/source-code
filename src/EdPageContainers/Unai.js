@@ -369,7 +369,7 @@ class Unai extends Component {
                                 <td>Chief Coordinator</td>
                             </tr>
                             <tr>
-                                <td>Mrs. Shine George, Head, Department of Civil Engineering </td>
+                                <td>Dr. Shine George, Head, Department of Civil Engineering </td>
                                 <td>Focal Point-1</td>
                             </tr>
                             <tr>
