@@ -17,13 +17,13 @@ class CEStaff extends Component {
     name: "Mr. Jobish K Jose",
     content: "Trade Instructor1"
   };
-  Cefaculty3 = {
+ /* Cefaculty3 = {
     instanceID: "Cefaculty3",
     image: "Allstaffphoto/CE/STAF/60.jpg",
     width: "50%",
     name: "Mr. Jibi Jose",
     content: "Tradesman"
-  };
+  };*/
   Cefaculty4 = {
     instanceID: "Cefaculty4",
     image: "Allstaffphoto/CE/STAF/61.jpg",

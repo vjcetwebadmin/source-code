@@ -99,7 +99,7 @@ class Faculty extends Component {
     image: "Allstaffphoto/EC/FAC/152.jpg",
     width: "50%",
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ECFAC116" target="_blank" rel="noopener noreferrer">Mrs. Cuckoo Anitha Joseph</a>,
-    content: "Assistant Professor"
+    content: "Assistant Professor(on-leave)"
   };
   Cefaculty16 = {
     instanceID: "Cefaculty16",

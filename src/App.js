@@ -496,7 +496,7 @@ class App extends Component {
             name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CESTF103" target="_blank" rel="noopener noreferrer">Mr. Jobish K Jose</a>,
             content: "Trade Instructor"
           },
-          {
+         {
             instanceID: "Cefaculty3",
             image: "Allstaffphoto/CE/STAF/60.jpg",
             width: "50%",

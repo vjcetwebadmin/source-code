@@ -104,21 +104,21 @@ class CSFaculty extends Component {
     instanceID: "Cefaculty16",
     image: "Allstaffphoto/ADM/ADM/bijuvarghese.jpeg",
     width: "50%",
-    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ADSTF114" target="_blank" rel="noopener noreferrer">Mr. Biju Varghese</a>,
+    name: <a href=" https://vjcet.org/downloads/admprofile/adm_bijuv.html" target="_blank" rel="noopener noreferrer">Mr. Biju Varghese</a>,
     content: "Office Asst."
   };
   Cefaculty17 = {
     instanceID: "Cefaculty17",
     image: "Allstaffphoto/ADM/ADM/mdjose.jpeg",
     width: "50%",
-    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ADSTF115" target="_blank" rel="noopener noreferrer">Mr. M D Jose</a>,
+    name: <a href=" https://vjcet.org/downloads/admprofile/adm_mdjose.html" target="_blank" rel="noopener noreferrer">Mr. M D Jose</a>,
     content: "Office Asst."
   };  
   Cefaculty21 = {
     instanceID: "Cefaculty21",
     image: "Allstaffphoto/ADM/ADM/allijohn.jpeg",
     width: "50%",
-    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ADSTF119" target="_blank" rel="noopener noreferrer">Ms. Alli John</a>,
+    name: <a href=" https://vjcet.org/downloads/admprofile/adm_ally.html" target="_blank" rel="noopener noreferrer">Ms. Alli John</a>,
     content: "Class IV"
   };
   
@@ -126,56 +126,56 @@ class CSFaculty extends Component {
     instanceID: "Cefaculty22",
     image: "Allstaffphoto/ADM/ADM/lisyjose.jpeg",
     width: "50%",
-    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ADSTF120" target="_blank" rel="noopener noreferrer">Mrs. Lisy Jose</a>,
+    name: <a href=" https://vjcet.org/downloads/admprofile/adm_lisyjose.html" target="_blank" rel="noopener noreferrer">Mrs. Lisy Jose</a>,
     content: "Class IV"
   };
   Cefaculty23 = {
     instanceID: "Cefaculty23",
     image: "Allstaffphoto/ADM/ADM/ranisabu.jpeg",
     width: "50%",
-    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ADSTF121" target="_blank" rel="noopener noreferrer">Mrs. Rani Sabu</a>,
+    name: <a href=" https://vjcet.org/downloads/admprofile/adm_rani.html" target="_blank" rel="noopener noreferrer">Mrs. Rani Sabu</a>,
     content: "Class IV"
   };
   Cefaculty26 = {
     instanceID: "Cefaculty26",
     image: "Allstaffphoto/ADM/ADM/minithomas.jpeg",
     width: "50%",
-    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ADSTF125" target="_blank" rel="noopener noreferrer">Mrs. Mini Thomas</a>,
+    name: <a href=" https://vjcet.org/downloads/admprofile/adm_minithomas.html" target="_blank" rel="noopener noreferrer">Mrs. Mini Thomas</a>,
     content: "Class IV"
   };
   Cefaculty27 = {
     instanceID: "Cefaculty27",
     image: "Allstaffphoto/ADM/ADM/rosilyjordy.jpeg",
     width: "50%",
-    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ADSTF126" target="_blank" rel="noopener noreferrer">Mrs. Rosily Jordy</a>,
+    name: <a href=" https://vjcet.org/downloads/admprofile/adm_rosily.html" target="_blank" rel="noopener noreferrer">Mrs. Rosily Jordy</a>,
     content: "Class IV"
   };
   Cefaculty28 = {
     instanceID: "Cefaculty28",
     image: "Allstaffphoto/ADM/ADM/alphonsajoy.jpg",
     width: "50%",
-    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ADSTF127" target="_blank" rel="noopener noreferrer">Mrs. Alphonsa Joy</a>,
+    name: <a href=" https://vjcet.org/downloads/admprofile/adm_alphonsa.html" target="_blank" rel="noopener noreferrer">Mrs. Alphonsa Joy</a>,
     content: "Class IV"
   };
   Cefaculty29 = {
     instanceID: "Cefaculty29",
     image: "Allstaffphoto/ADM/ADM/lissysunny.JPG",
     width: "50%",
-    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ADSTF128" target="_blank" rel="noopener noreferrer">Mrs. Lissy Sunny</a>,
+    name: <a href=" https://vjcet.org/downloads/admprofile/adm_lissysunny.html" target="_blank" rel="noopener noreferrer">Mrs. Lissy Sunny</a>,
     content: "Class IV"
   };
   Cefaculty30 = {
     instanceID: "Cefaculty30",
     image: "Allstaffphoto/ADM/ADM/minibinu.JPG",
     width: "50%",
-    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ADSTF129" target="_blank" rel="noopener noreferrer">Mrs. Mini Binu</a>,
+    name: <a href=" https://vjcet.org/downloads/admprofile/adm_minibinu.html" target="_blank" rel="noopener noreferrer">Mrs. Mini Binu</a>,
     content: "Class IV"
   };
   Cefaculty31 = {
     instanceID: "Cefaculty31",
     image: "Allstaffphoto/ADM/ADM/ValsaMathew.jpg",
     width: "50%",
-    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ADSTF137" target="_blank" rel="noopener noreferrer">Mrs. Valsa Mathew</a>,
+    name: <a href=" https://vjcet.org/downloads/admprofile/adm_valsamathew.html" target="_blank" rel="noopener noreferrer">Mrs. Valsa Mathew</a>,
     content: "Class IV"
   };
   render() {
