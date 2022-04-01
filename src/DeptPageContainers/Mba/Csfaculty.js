@@ -36,7 +36,7 @@ class CSFaculty extends Component {
     image: "Allstaffphoto/MBA/FAC/pratheepkumar.jpg",
     width: "50%",
     name: <a href="https://vjcet.org/downloads/MbaProfile/Mr.pratheep kumar-converted.pdf" target="_blank" rel="noopener noreferrer">Mr. Pratheep Kumar R</a>,
-    content: "Assistant Professor"
+    content: "Assistant Professor & Placement In Charge"
   };
    Cefaculty6 = {
     instanceID: "Cefaculty6",

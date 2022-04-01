@@ -100,7 +100,11 @@ LibraryServiceTitle2 = {
               <tr>
                   <td>Dr. Jose Mamman</td>
                   <td>Assistant Professor</td>
-              </tr>                                                                          
+              </tr>
+              <tr>
+                  <td>Mrs. Merrin Geordie Pottas</td>
+                  <td>Assistant Professor</td>
+              </tr>                                                                           
         </table>
         </div>
     );

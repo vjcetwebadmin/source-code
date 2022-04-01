@@ -41,7 +41,7 @@ LibraryServiceTitle7= {
 };
 LibraryContent7 = {
   instanceID: "LibraryContent7",
-  title: "Those who are studying for last year degree course and are awaiting their results may also apply for the KMAT KERALA Entrance Examination 2021."
+  title: "Those who are studying for last year degree course and are awaiting their results may also apply for the KMAT KERALA Entrance Examination 2022."
 }
 LibraryServiceTitle8= {
   instanceID: "LibraryServiceTitle8",

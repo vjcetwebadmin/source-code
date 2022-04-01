@@ -33,15 +33,15 @@ LibraryServiceTitle1 = {
           <tr><th colspan="5" >Placement Report of 2018 – 20 Batch</th></tr> 
               <tr>
                   <td>Lowest Salary (CTC)</td>
-                  <td></td>
+                  <td>3.5 lakhs per year</td>
               </tr>
               <tr>
                   <td>Highest Salary (CTC)</td>
-                  <td></td>
+                  <td>7.5 lakhs per year</td>
               </tr>
               <tr>
                   <td>Number of Companies Visited</td>
-                  <td></td>
+                  <td>30</td>
               </tr>
           </table>
           <div  style={{textAlign:"left"}}>
@@ -49,6 +49,48 @@ LibraryServiceTitle1 = {
             <b>Companies attended</b>
             </p>
             <ul  style={{lineHeight:"1.5em"}}>
+              <li>Metrolla Steels Limited</li>
+              <li>Chicking</li>
+              <li>Metrolla Steels Limited</li>
+              <li>Thampanoor Cooperative Bank</li>
+              <li>Forward Academy</li>
+              <li>Boxroom Innovations </li>
+              <li>The Kalloorkad Farmers Cooperative Bank</li>
+              <li>Xerox</li>
+              <li>Renault</li>
+              <li>The Thodupuzha service Cooperative Bank</li>
+              <li>D'Life</li>
+              <li>Amballoor Service Cooperative Bank</li>
+              <li>Sun Pharma</li>
+              <li>JJ Bental Corporations</li>
+              <li>Sobha Limited</li>
+              <li>Kinfra Metrolla Steels Limited</li>
+              <li>CET College of Management Science </li>
+              <li>Eminence Public School</li>
+              <li>HDFC Bank</li>
+              <li>Innovov Source Service Private Limited </li>
+              <li>Fire Falcon Protection System </li>
+              <li>Kallara Service Cooperative Bank</li>
+              <li>The Cooperative School of Law</li>
+              <li>Eastern Condiments</li>
+              <li>Axis Bank</li>
+              <li>Xerox </li>
+              <li>Muthoot Finance Limited </li>
+              <li>Conduent </li>
+              <li>Xerox M</li>
+              <li>Etrolla </li>
+              <li>Prabhu  Steels Limited</li>
+              <li>Pine Equipment Private Limited </li>
+              <li>EXL</li>
+              <li>Club Mahindra </li>
+              <li>Kotak life </li>
+              <li>E&Y</li>
+              <li>Share Kahn</li>
+              <li>ABFRL</li>
+              <li>ESAF </li>
+              <li>BYJU’S</li>
+              <li>FUTURE Group </li>
+              <li>ICICI Bank</li>
               <li>Orell Technologies</li>
               <li>Aditya Birla Fashion Retail Ltd</li>
               <li>Sharekhan Financial Services</li>
@@ -75,7 +117,8 @@ LibraryServiceTitle1 = {
               <li>Exl Service</li>
               <li>Eduonix Learning Solutions</li>
               </ul>   
-            </div>       
+          </div> 
+          <p style={{textAlign:"center"}}><a href="https://vjcet.org/downloads/PLACEMENT REPORT.pdf" target="_blank" rel="noopener noreferrer"><b>PLACEMENT RECORDS</b></a></p>      
       </div>
     );
   }
