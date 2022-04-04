@@ -130,13 +130,14 @@ class ITFaculty extends Component {
           </div>
          {/* <div>
             <FacultyData data={this.Cefaculty9} />
-         </div> */}
+         </div> 
+          <div>
+            <FacultyData data={this.Cefaculty13} />
+          </div>*/}
           <div>
             <FacultyData data={this.Cefaculty11} />
           </div> 
-          <div>
-            <FacultyData data={this.Cefaculty13} />
-          </div>             
+             
         </div>
       </div>
     );

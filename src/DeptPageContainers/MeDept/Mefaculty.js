@@ -166,13 +166,6 @@ class MEFaculty extends Component {
     name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=MEFAC154" target="_blank" rel="noopener noreferrer">Mr. Harikrishnan V K</a>,
     content: "Ad hoc Faculty"
   };
-  Cefaculty28 = {
-    instanceID: "Cefaculty28",
-    image: "Allstaffphoto/ME/FAC/JobinThomas.jpeg",
-    width: "50%",
-    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=MEFAC153" target="_blank" rel="noopener noreferrer">Mr. Jobin Thomas</a>,
-    content: "Ad hoc Faculty"
-  };
   
   render() {
     return (
@@ -241,9 +234,6 @@ class MEFaculty extends Component {
           </div>
           <div>
             <FacultyData data={this.Cefaculty27} />
-          </div>
-          <div>
-            <FacultyData data={this.Cefaculty28} />
           </div>
           </div>
       </div>

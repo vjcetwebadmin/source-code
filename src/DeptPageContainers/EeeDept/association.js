@@ -35,7 +35,7 @@ class Library extends Component {
   DeptAssociationDescriptionFive = {
     instanceID: "DeptAssociationDescriptionFive",
     title:
-      "Secretary  			-       Ms. Minnu Augustine, S8 EEE B"
+      "Secretary  			-       Mr. Basil Saji, S8 EEE"
   };
   ActivitiesHeading = {
     instanceID: "ActivitiesHeading",
@@ -120,6 +120,14 @@ class Library extends Component {
   Activities10Content = {
     instanceID: "Activities10Content",
     title: "The Association activities for the year are inaugurated by Mr. Prasad Mathew, Managing Director, TRACO Cable Company Ltd on 19th March 2021. A technical Quiz competition was conducted for First year students on 26th March 2021."
+  };
+  Activities10Heading = {
+    instanceID: "Activities10Heading",
+    title: "2021-2022"
+  };
+  Activities10Content = {
+    instanceID: "Activities10Content",
+    title: "Activities of Department Association ‘VIDYUTH’ for academic year 2021 -’22 was inaugurated on 3rd February 2022, by Ms. Betty Sara George , Vice President, Network Management and Learning Services, Ericsson, USA."
   };
   render() {
     return (

@@ -38,10 +38,10 @@ ActivitiesHeading1 = {
                 <tr><th>POST</th><th>NAME</th></tr>
                 <tr><td>Senior Faculty Advisor</td><td>Mr. Eldhose Kurian, AP ME</td></tr>
                 <tr><td>Additional Faculty Advisor</td><td>Mr. Eldhose Paul, AP ME</td></tr>
-                <tr><td>Student Chair-person</td><td>Mr. Kiran Mathew George, S8 ME B</td></tr>
-                <tr><td>Student Vice  Chair-person</td><td>Mr. Sagar Vincent,  S6 ME A</td></tr>
-                <tr><td>Student Secretary</td><td>Mr. Gayus Eldho,  S8 ME A</td></tr>
-                <tr><td>Student Treasurer</td><td>Mr. Joyal John, S8 ME B</td></tr>
+                <tr><td>Student Chair-person</td><td>Mr. Bimal Xaviour, S5 MEA</td></tr>
+                <tr><td>Student Vice  Chair-person</td><td>Mr. Jince Jose,  S5 MEA</td></tr>
+                <tr><td>Student Secretary</td><td>Mr. Alan Reji,  S5 MEA</td></tr>
+                <tr><td>Student Treasurer</td><td>Mr. Binal C Anil, S5 ME A</td></tr>
         </table>
 
         <br></br>    
