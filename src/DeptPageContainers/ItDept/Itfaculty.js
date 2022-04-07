@@ -12,7 +12,7 @@ class ITFaculty extends Component {
   };
   Cefaculty26 = {
     instanceID: "Cefaculty26",
-    image: "Allstaffphoto/AD/FAC/CSFACblank.jpg",
+    image: "Allstaffphoto/AD/FAC/Anita.jpg",
     width: "50%",
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=AIFAC101" target="_blank" rel="noopener noreferrer">Dr. Anita Brigit Mathew</a>,
     content: "Associate Professor"
