@@ -3,6 +3,7 @@ import Recruitment2019 from "./Recruitment2019.jsx";
 import Recruitment2018 from "./Recruitment2018.jsx";
 import Recruitment2020 from "./Recruitment2020.jsx";
 import Recruitment2021 from "./Recruitment2021.jsx";
+import Recruitment2022 from "./Recruitment2022.jsx";
 import "./Recruitment.css"
 import { Tabs, Tab, Panel } from '@bumaga/tabs' 
 class Recruitment extends Component {
@@ -17,11 +18,17 @@ class Recruitment extends Component {
            
                 <Tabs>
                 <ul class="pill-nav">
+                <Tab><li class="">2022</li></Tab>
                 <Tab><li class="">2021</li></Tab>    
                 <Tab><li class="">2020</li></Tab>
-                    <Tab><li class="">2019</li></Tab>
-                    <Tab><li class="">2018</li></Tab>
+                <Tab><li class="">2019</li></Tab>
+                <Tab><li class="">2018</li></Tab>
                 </ul>
+                <Panel>
+                    <div class="tab-pane  active"  role="tabpanel">
+                        <Recruitment2022 /> 
+                    </div>
+                </Panel> 
                 <Panel>
                     <div class="tab-pane  active"  role="tabpanel">
                         <Recruitment2021 /> 
