@@ -54,7 +54,7 @@ class Newsfive extends React.Component {
     NewsImagedata1 = {
         instanceID: "NewsImagedata1",
         image: "NewsImages/vjcscancode1.jpg",
-        width: "85%"
+        width: "80%"
     }
 
     
@@ -105,12 +105,13 @@ class Newsfive extends React.Component {
                  <br />
                  <h3 className="text_red"><b>Dear Parent, Please remit 4th semester tution fees of your ward, date extended to 30-06-2021 without fine and 12-07-2021 with fine.</b></h3>
                 <br />
+                 <p></p><br></br>
+                  <iframe src="https://vjcet.org/downloads/news/fees3s5.jpg" width="100%" height="600" title="Campus Map" align="center"></iframe>                                      */}
                 <p><b>Semester 6 and Semester 8</b></p>              
-                 <iframe src="https://vjcet.org/downloads/news/Notice2.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>    
-                */} <p></p><br></br>
+                 <iframe src="https://vjcet.org/downloads/news/Untitled-1.jpg" width="100%" height="600" title="Campus Map" align="center"></iframe>    
+                <p></p><br></br>
                   <iframe src="https://vjcet.org/downloads/news/S8Fee.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>                       
-                  <p></p><br></br>
-                  <iframe src="https://vjcet.org/downloads/news/fees3s5.jpg" width="100%" height="600" title="Campus Map" align="center"></iframe>                                     
+                 
                 </div>
                 <Footer data={this.HomePageFooter} />
                 {this.state.showMenu ? (<MenuOverlay closeMenuFunction={this.closeMenu} />) : ("")}
