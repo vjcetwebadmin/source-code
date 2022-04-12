@@ -375,12 +375,12 @@ class iqac extends React.Component {
           </p>
           <ol>
             <li>
-              Ensure that maximum NPTEL/ Spoken Tutorial resources and included
+              Ensure that maximum NPTEL/ Spoken Tutorial resources are included
               in the programme curriculum
             </li>
             <li>Keep track of all NPTEL/ Spoken Tutorial activities.</li>
             <li>
-              Record (Audio/video) and document of all the guest/visiting/Expert
+              Record (Audio/video) and document all the guest/visiting/Expert
               lectures conducted in department and arrange required lectures for
               students as per gaps identified
             </li>

@@ -56,7 +56,14 @@ class ResourcesGroup extends Component {
     filePath: "https://vjcet.org/downloads/academic/mesyllabusnew.zip"
 
   };
- 
+  ResourceListTen = {
+    instanceID: "ResourceListTen",
+    listID: "Nine",
+    title: "Artificial Intelligence and Data Science",
+    icon: "Icons/csesyllabuslogo.svg",
+    filePath: "https://vjcet.org/downloads/academic/ADsyllabusnew.zip"
+
+  }; 
 
   render() {
     return (
@@ -68,7 +75,8 @@ class ResourcesGroup extends Component {
           <ResourcesList data={this.ResourceListFive} />
           <ResourcesList data={this.ResourceListSix} />
           <ResourcesList data={this.ResourceListEight} />
-          <ResourcesList data={this.ResourceListNine} />          
+          <ResourcesList data={this.ResourceListNine} /> 
+          <ResourcesList data={this.ResourceListTen} />          
         </div>
       </div>
     );
