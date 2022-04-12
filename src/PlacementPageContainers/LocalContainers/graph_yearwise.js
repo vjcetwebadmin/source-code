@@ -6,11 +6,11 @@ import "../../Components/graph.css";
 class Graph10 extends Component {
   state = {
     dataBar: {
-      labels: [ "2014", "2015", "2016","2017","2018","2019","2020","2021"],
+      labels: [ "2014", "2015", "2016","2017","2018","2019","2020","2021","2022"],
       datasets: [
         {
           label: "No. of students placed",
-          data: [ 217, 266, 267, 274,176,403,326,227],
+          data: [ 217, 266, 267, 274,176,403,326,424,418],
           backgroundColor: [
             "rgba(255, 153, 51,0.4)",
             "rgba(255, 134, 159,0.4)",
@@ -19,7 +19,8 @@ class Graph10 extends Component {
             "rgba(113, 205, 205,0.4)",
             "rgba(170, 128, 252,0.4)",
             "rgba(255, 177, 101,0.4)",
-            "rgba(205, 187, 110,0.4)"
+            "rgba(205, 187, 110,0.4)",
+            "rgba(225, 165, 90,0.4)"
           ],
           borderWidth: 2,
           borderColor: [
@@ -30,7 +31,8 @@ class Graph10 extends Component {
             "rgba(113, 205, 205, 1)",
             "rgba(170, 128, 252, 1)",
             "rgba(255, 177, 101, 1)",
-            "rgba(205, 187, 110, 1)"
+            "rgba(205, 187, 110, 1)",
+            "rgba(225, 165, 90,1)"
           ]
         }
       ]
