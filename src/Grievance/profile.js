@@ -62,11 +62,11 @@ grievwriteup4 = {
             <tr><td>Mr. Somy P. Mathew</td><td>Vice-Principal</td></tr>
             <tr><td>Dr. Shine George</td><td>HOD CE</td></tr>
             <tr><td>Mr. Amel Austine</td><td>HOD CSE</td></tr>
-            <tr><td>Dr. B. Aruna</td><td>HOD EEE</td></tr>
+            <tr><td>Dr. Sony Kurian</td><td>HOD EEE(in-charge)</td></tr>
             <tr><td>Ms. Smitha Cyriac</td><td>HOD ECE</td></tr>
             <tr><td>Ms. Anju Susan George</td><td>HOD IT</td></tr>
             <tr><td>Dr. Shunmugesh K</td><td>HOD ME</td></tr>
-            <tr><td>Ms. Viji George</td><td>HOD S&H</td></tr>
+            <tr><td>Mr. Biju George</td><td>HOD S&H</td></tr>
             <tr><td>Dr. Cyriac Joseph</td><td>Dean & HOD MBA</td></tr>
       	</tbody>
       </table>
@@ -82,10 +82,10 @@ grievwriteup4 = {
           <tr><td>Ms. Bijimol Joseph</td><td>Asst. Professor , CE</td></tr>
           <tr><td>Ms. Bency Cleetus</td><td>Asst. Professor , CSE</td></tr>
           <tr><td>Ms. Cini K.</td><td>Asso.Professor, EEE</td></tr>
-          <tr><td>Ms. Niji Mathews</td><td>Asst. Professor , ECE</td></tr>
+          <tr><td>Mr. Anish M Jose</td><td>Asst. Professor , ECE</td></tr>
           <tr><td>Ms. Jesline Joseph</td><td>Asst. Professor , IT</td></tr>
-          <tr><td>Mr. Martin Jose</td><td>Asst. Professor , ME</td></tr>
-          <tr><td>Ms. Ambily Jose</td><td>Asst. Professor , MBA</td></tr>
+          <tr><td>Mr. Abraham Antony</td><td>Asst. Professor , ME</td></tr>
+          <tr><td>Mr. Pratheepkumar R</td><td>Asst. Professor , MBA</td></tr>
 
       	</tbody>
       </table>
@@ -98,25 +98,25 @@ grievwriteup4 = {
             <tr><td>Mr. Somy P. Mathew</td><td>Vice Principal</td></tr>
             <tr><td>Dr. Shine George</td><td>HOD - CE</td></tr>
             <tr><td>Mr. Amel Austine</td><td>HOD - CSE</td></tr>
-            <tr><td>Dr. B. Aruna</td><td>HOD - EEE</td></tr>
+            <tr><td>Dr. Sony Kurian</td><td>HOD EEE(in-charge)</td></tr>
             <tr><td>Ms. Smitha Cyriac</td><td>HOD - ECE</td></tr>
             <tr><td>Ms. Anju Susan George</td><td>HOD - IT</td></tr>
             <tr><td>Dr. Shanmughesh K.</td><td>HOD - ME</td></tr>
-            <tr><td>Ms. Viji George</td><td>HOD - S&H</td></tr>
+            <tr><td>Mr. Biju George</td><td>HOD S&H</td></tr>
             <tr><td>Dr. Cyriac Joseph</td><td>Dean & HOD MBA</td></tr>
             <tr><td>Rev. Fr. Sebastian Valloppillil</td><td>Warden - Gents Hostel</td></tr>
             <tr><td>Rev. Sr. Stany</td><td>Warden - Ladies Hostel</td></tr>
             <tr><td>Mr. Shaji K.J.</td><td>SI of Police, Vazhakulam</td></tr>
-            <tr><td>Mr. Jordy Varghese</td><td>President, Avoly Grama Panchayath</td></tr>
+            <tr><td>Ms. Selmi John</td><td>President, Avoly Grama Panchayath</td></tr>
             <tr><td>Mr. Shajan P. J.</td><td>Representative, Non Teaching Staff</td></tr>
-            <tr><td>Mr. Noble John</td><td>PTA President</td></tr>
+            <tr><td>Mr. Francis George</td><td>PTA President</td></tr>
             <tr><td>Mr. Sijumon Francis</td><td>PRO</td></tr>
-            <tr><td>Mr.Sean Santosh Joseph</td><td>Chairman - Students Council</td></tr>
-            <tr><td>Ms. Mariya George</td><td>Vice Chairperson - Students Council</td></tr>
-            <tr><td>Mr. H. Anand</td><td>General Secretary - Students Council</td></tr>
+            <tr><td>Mr. Mathukutty Manoj</td><td>Chairman - Students Council</td></tr>
+            <tr><td>Ms. Ashly Asok</td><td>Vice Chairperson - Students Council</td></tr>
+            <tr><td>Mr. Felix Steephen</td><td>General Secretary - Students Council</td></tr>
             <tr><td>Mr. Bharath N</td><td>First Year Boy Representative</td></tr>
             <tr><td>Ms. Josna Joseph</td><td>First Year Girl Representative</td></tr>
-            <tr><td>Mr. Aneesh Kurian</td><td>NSS Co-ordinator</td></tr>
+            <tr><td>Mr. Rakesh Jose</td><td>NSS Co-ordinator</td></tr>
             <tr><td>Mr. Johnson P. Augustine</td><td>"Media Representative Area Manager - Deepika"</td></tr> 
       	</tbody>
       </table>
@@ -129,20 +129,18 @@ grievwriteup4 = {
           <tr><td>Dr. Sajan T John</td><td>Asso. Professor, ME</td></tr>
           <tr><td>Mr. Arun Raphel</td><td>Asst.Professor, ME</td></tr>
           <tr><td>Ms. Vinija Kurian</td><td>Asst. Professor, ECE</td></tr>
-          <tr><td>Mr.Appu John</td><td>Asst.Professor, CE</td></tr>
+          <tr><td>Mr. Lins Paul Kuriakose</td><td>Asst.Professor, CE</td></tr>
           <tr><td>Mrs. Tintushine A.L</td><td>Asst.Professor, CE</td></tr>
           <tr><td>Mr. Joe Mathew Jacob</td><td>Asst.Professor, CSE</td></tr>
           <tr><td>Mrs. Dona Jose</td><td>Asst.Professor, CSE</td></tr>
           <tr><td>Mrs. Cini K.</td><td>Asso.Professor, EEE</td></tr>
-          <tr><td>Mr.Naveen Jacob</td><td>Asst. Professor, ECE</td></tr>
-          <tr><td>Mrs. Rose Mary Kuruvithadam</td><td>Asst. Professor, EC</td></tr>
+          <tr><td>Mr. Manu Jose</td><td>Asst. Professor, ECE</td></tr>
+          <tr><td>Mrs. Niji Mahtews</td><td>Asst. Professor, EC</td></tr>
           <tr><td>Mrs. Ann Preetha Jose</td><td>Asst. Professor,IT</td></tr>
           <tr><td>Mr. Arun K R</td><td>Asst.Professor, ME</td></tr>
           <tr><td>Mr. Lovin Varghese</td><td>Asst.Professor, ME</td></tr>
-          <tr><td>Mrs.Dany Sebastian</td><td>Asst.Professor, S&H</td></tr>
-          <tr><td>Dr. Cyriac Joseph</td><td>Dean & HOD MBA</td></tr>
-          <tr><td>Ms. Ambily Jose</td><td>Asst. Professor, MBA</td></tr>
-
+          <tr><td>Mrs. Dany Sebastian</td><td>Asst.Professor, S&H</td></tr>
+          <tr><td>Mr. Sebin Joseph</td><td>Asst.Professor, MBA</td></tr>
       	</tbody>
       </table>
      </div>
