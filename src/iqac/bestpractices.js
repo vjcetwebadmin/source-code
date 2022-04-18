@@ -116,7 +116,7 @@ class nss extends React.Component {
                         
                  <HeadingOne data={this.ResearchHeading}></HeadingOne> 
                   
-                        <h2 style={{textAlign:"left"}}>1. Title of the Practice: Philanthropic Stance & Students Driven Socially Responsible Activities</h2> 
+                        <h2 style={{textAlign:"left"}}>1. Title of the Practice: Philanthropic Stance & Student Driven Socially Responsible Activities</h2> 
                         <h2 style={{textAlign:"left"}}>2. Objectives of the Practice</h2>   
                         <ul style={{textAlign:"left"}}>                 
                         <li><p>To develop an integrated sustainable system for improving education, health and standard of living of the rural community.</p></li>
