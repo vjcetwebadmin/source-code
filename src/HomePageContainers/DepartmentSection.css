@@ -38,11 +38,11 @@
     grid-template-areas:
       "title title"
       "subtitle subtitle"
-      "one two"
-      "three four"
-      "five six"
-      "seven eight"
-      "nine ten";
+      "ten one"
+      "two three"
+      "four five"
+      "six seven"
+      "eight nine";
   
   }
 

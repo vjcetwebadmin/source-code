@@ -122,11 +122,10 @@ LibraryServiceTitle8= {
         <div  style={{textAlign:"left"}}>
           <p>Notification</p>
           <ul style={{lineHeight:"1.5em"}}>
-              <li><a href="http://www.vjcetmba.in/wp-content/uploads/2019/11/5TH-NOTIFICATION-OF-THE-FIRST-KMAT-KERALA-EXAMINATION-2020.pdf" target="_blank" rel="noopener noreferrer">5TH-NOTIFICATION-OF-THE-FIRST-KMAT-KERALA-EXAMINATION-2020</a></li>
-              <li><a href="http://www.vjcetmba.in/wp-content/uploads/2019/11/Kerala-University-of-Fisheries-and-Ocean-Studies-KMAT.docx" target="_blank" rel="noopener noreferrer">Kerala University of Fisheries and Ocean Studies – KMAT</a></li>
+              <li><a href="https://vjcet.org/downloads/MbaAdmission/Information Bulletin KMAT 2022.pdf" target="_blank" rel="noopener noreferrer">KMAT NOTIFICATION 1</a></li>
+              <li><a href="https://vjcet.org/downloads/MbaAdmission/KMAT Notification 2022.pdf" target="_blank" rel="noopener noreferrer">KMAT NOTIFICATION 2</a></li>
               <li><a href="http://www.vjcetmba.in/wp-content/uploads/2020/12/Students-Admission-List-20-21-batch.pdf" target="_blank" rel="noopener noreferrer">Students Admission List 20 – 21 batch</a></li>
-              <li><a href="https://www.vjcetmba.in/application-form/" target="_blank" rel="noopener noreferrer">ONLINE REGISTRATION</a></li>
-              <li><a href="https://www.vjcetmba.in/wp-content/uploads/2021/08/PR-LLB-KMAT-LLM-Exam-date-published.pdf" target="_blank" rel="noopener noreferrer">KMAT NOTIFICATION</a></li>
+              <li><a href="https://www.vjcetmba.in/application-form/" target="_blank" rel="noopener noreferrer">ONLINE REGISTRATION</a></li>      
              </ul>
         </div>       
         <HeadingTwo data={this.LibraryServiceTitle8} className="Heading" />
