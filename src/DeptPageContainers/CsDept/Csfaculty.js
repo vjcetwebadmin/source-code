@@ -66,13 +66,7 @@ class CSFaculty extends Component {
     name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CSFAC108" target="_blank" rel="noopener noreferrer">Mrs. Ritty Jacob</a>,
     content: "Assistant Professor"
   };
-  Cefaculty11 = {
-    instanceID: "Cefaculty11",
-    image: "Allstaffphoto/CS/FAC/74.jpg",
-    width: "50%",
-    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CSFAC110" target="_blank" rel="noopener noreferrer">Mr. Jobin Jose</a>,
-    content: "Assistant Professor"
-  };
+
   Cefaculty12 = {
     instanceID: "Cefaculty12",
     image: "Allstaffphoto/CS/FAC/CSFAC111.jpg",
@@ -203,9 +197,6 @@ class CSFaculty extends Component {
           </div>
           <div>
             <FacultyData data={this.Cefaculty10} />
-          </div>
-          <div>
-            <FacultyData data={this.Cefaculty11} />
           </div>
           <div>
             <FacultyData data={this.Cefaculty12} />
