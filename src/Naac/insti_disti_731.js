@@ -90,10 +90,6 @@ class powerandbackup extends React.Component {
     };
     sewagecontent = {
         instanceID: "sewagecontent",
-        title: "The rain water harvesting system located in the campus ensures round-the-clock availability of water even during the dry season. This is facilitated in two ways. The rain water obtained from the main-auditorium roof after filtration is diverted to a well. Rainfall collected from other rooftops is also used to recharge the groundwater."
-    };
-    sewagecontent1 = {
-        instanceID: "sewagecontent1",
         title: "The sewage treatment plant plays a key role in recycling the water from the whole campus. This water can now be reused for watering inside the campus. The secondary output from the treatment plant, the sludge, is used as a fertilizer in the campus for organic farming."
     };
     sewageimage1 = {
@@ -268,7 +264,6 @@ class powerandbackup extends React.Component {
 
                         <HeadingTwo data={this.sewageTitle1}/>
                         <BodyOneJustified data={this.sewagecontent} />
-                        <p><BodyOneJustified data={this.sewagecontent1}/></p>
                        
                         <p style={{textAlign:"center"}}><ImageOne data={this.sewageimage1}/></p>
                         <p style={{textAlign:"center",fontSize:"14px",fontWeight:"bold"}}>Sewage Treatment Plant</p> 
