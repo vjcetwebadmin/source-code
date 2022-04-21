@@ -127,7 +127,7 @@ class iqac extends React.Component {
             <tr>
               <td>6</td>
               <td> Dr. Cyriac Joseph Vempala</td>
-              <td> Professor & Dean</td>
+              <td> Professor & Dean HOD</td>
             </tr>
             <tr>
               <td>7</td>
@@ -156,7 +156,7 @@ class iqac extends React.Component {
             </tr>
             <tr>
               <td>12</td>
-              <td> Sri.Amel Austine</td>
+              <td> Sri. Amel Austine</td>
               <td> HOD ( CSE)</td>
             </tr>
             <tr>
@@ -166,13 +166,13 @@ class iqac extends React.Component {
             </tr>
             <tr>
               <td>14</td>
-              <td> Smt. Viji George </td>
+              <td> Smt. Biju George </td>
               <td> HOD (S& H)</td>
             </tr>
             <tr>
               <td>15</td>
-              <td> Dr. Geo Baby </td>
-              <td>HOD ( MBA) </td>
+              <td> Mr. Andrews Jose </td>
+              <td>Assistant Professor(CSE)</td>
             </tr>
             <tr>
               <td>16</td>
@@ -196,7 +196,7 @@ class iqac extends React.Component {
             </tr>
             <tr>
               <td>20</td>
-              <td> Sri. Issac Joseph Kottukapilly</td>
+              <td> Sri. Felix Varkeykunju</td>
               <td> Representative, Industrialist</td>
             </tr>
             <tr>
@@ -206,7 +206,7 @@ class iqac extends React.Component {
             </tr>
             <tr>
               <td>22</td>
-              <td> Sri. Sean Santosh Joseph</td>
+              <td> Sri. Mathukutty Manoj</td>
               <td> Student representative</td>
             </tr>
             <tr>
@@ -341,13 +341,12 @@ class iqac extends React.Component {
           <br />
           <HeadingThree data={this.criteria6heading} className="Heading" />
           <p>
-            <b>Coordinator:Dr. Sreenish Ramaswamy, Associate professor, MBA</b>
+            <b>Coordinator:Mr. Pratheepkumar, Asst. professor, MBA</b>
           </p>
           <p>
             <b>Responsibilities of the Committee</b>
           </p>
           <ol>
-            <li>ents.</li>
             <li>
               Verification of all External Projects and their company, progress
               report
@@ -598,7 +597,7 @@ class iqac extends React.Component {
           <br />
           <HeadingThree data={this.criteria14heading} className="Heading" />
           <p>
-            <b>Coordinator:Dr. Geo Baby, Ho D-MBA</b>
+            <b>Coordinator:Dr. Cyriac Joseph Vempala, Dean HoD-MBA</b>
           </p>
           <p>
             <b>Responsibilities of the Committee</b>
