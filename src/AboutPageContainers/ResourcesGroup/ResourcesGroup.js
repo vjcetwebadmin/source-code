@@ -22,7 +22,7 @@ class ResourcesGroup extends Component {
     listID: "Two",
     title: "Staff Manual",
     icon: "Icons/icon2.svg",
-    filePath: "https://vjcet.org/downloads/staffmanual2017.pdf"
+    filePath: "https://vjcet.org/downloads/staff manual 2021 Final.pdf"
 
   };
 

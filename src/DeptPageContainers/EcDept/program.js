@@ -25,7 +25,7 @@ class Program extends Component {
   ProgramDescriptionFour = {
     instanceID: "ProgramDescriptionFour",
     title:
-      "The department has about 30 teaching staff and 6 non teaching staffs."
+      "The department has about 27 teaching staff and 6 non teaching staffs."
   };
   ProgramDescriptionFive = {
     instanceID: "ProgramDescriptionFive",
