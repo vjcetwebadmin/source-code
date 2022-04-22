@@ -47,6 +47,13 @@ class Reserch extends Component {
                                   
     <table id="publicationtable">
         <tr><th>List of papers indexed in Scopus database & conference proceedings with ISBN/ISSN</th></tr>
+        <tr><td>Dr. Anishin Raj M.M , CSE, “Leukocyte classification based on feature selection using extra trees classifier: a transfer learning approach”, Turkish Journal of Electrical Engineering & Computer Sciences(SCIE), 2021</td></tr>
+        <tr><td>Dr. Anishin Raj M.M , CSE, Leukocyte Classification based on Transfer Learning of VGG16 Features by K-Nearest Neighbour Classifier, IEEE Xplore, 2021</td></tr>
+        <tr><td>Dr. Anishin Raj M.M , CSE, Leukocyte classification based on statistical measures of radon transform for monitoring health condition,  Biomedical Physics and Engineering Express, 2021. (ESCI and SCOPUS), 2021</td></tr>
+        <tr><td>Dr. Anishin Raj M.M , CSE, Automated Leukocyte Classification based on Transfer Learning for heterogeneous dataset, AIP Conference (SCOPUS) (ICRAINS-2021), 2021</td></tr>
+        <tr><td>Ms. Neenu Daniel, CSE, Texture and quality analysis for face spoofing detection, Computers and Electrical Engineering, 2021</td></tr>
+        <tr><td>Ms. Anju Susan George, IT, Multi-Replica Integrity Verification in Cloud: A Review and a Comparative Study, IEEE Explore Digital Library [Scopus Indexed], 2021</td></tr>
+        <tr><td>Ms. Anju Susan George, IT, Remote Cloud Data Auditing Protocols: A Comprehensive Analysis and Comparative Study&quot;,, Proceedings of 5th International Conference on Intelligent Computing and Control Systems , 2021</td></tr>
         <tr><td>Rajan, K.K., Aruna, B., Anju, S., Verma, S., Bhattacharyay, R. Design development and testing of mutual inductance type level sensor for molten lead-lithium alloy, Fusion Engineering and Design, 2021, 168, 112650</td></tr>
         <tr><td>K. Shunmugesh, K. R. Arun, Arun Raphel, and K. T. Akhil , Optimization of Drilling Parameters of Glass Fiber-Reinforced Polymers Using Grey Relational Analysis, Lecture Notes in Mechanical Engineering, Springer Nature, 2021, pp. 319–324</td></tr>
         <tr><td>Akhil, K.T, Arul, S, Shunmugesh K. Optimization of Cryogenic Turning Process Parameters Using Grey Relational Analysis (GRA) in Super-Duplex Stainless Steel (A479), Lecture Notes in Mechanical Engineering, 2021, pp. 307–312</td></tr>
@@ -92,7 +99,7 @@ class Reserch extends Component {
         <tr><td>K. Shunmugesh, K. Panneerselvam, Multi-performance Optimization of Drilling Carbon Fiber Reinforced Polymer Using Taguchi: Membership Function, Transactions of the Indian Institute of Metals., 2018, 0975-1645</td></tr>
         <tr><td>Diana Baby, Sujitha Juliet Devaraj, Feature extraction techniques for leukocyte classification - A review, International Journal of Engineering and Technology(UAE), 2018, 2227-524X</td></tr>
         <tr><td>M. P. Jenarthanan, S. Jeyaraj , K. Shunmugesh , Experimental Investigation on Electro-codeposition Nickel-Weld Slag Composite Coating, Transactions of the Indian Institute of Metals., 2018,  0975-1645</td></tr>
-        <tr><td>  Ajitha A R, Aswathi M K, Lovely Mathew,Sabu Thomas, Carbon Nanotubes: An Ideal Candidate for Biomedical Applications, JSM Nanotechnology & Nanomedicine, 2018,  2334-1815</td></tr>
+        <tr><td>Ajitha A R, Aswathi M K, Lovely Mathew,Sabu Thomas, Carbon Nanotubes: An Ideal Candidate for Biomedical Applications, JSM Nanotechnology & Nanomedicine, 2018,  2334-1815</td></tr>
         <tr><td>Aswathi M K , Ajitha A R , Akhina H , Lovely P. Mathew , ,Sabu Thomas, Quantum Dots: A Promising Tool for Biomedical application, JSM Nanotechnology & Nanomedicine, 2018, 2334-1815</td></tr>
         <tr><td>simi zerine sleeba ,M.G Mini,John Jose, Energy-efficient fault tolerant technique for deflection routers in two-dimensional mesh Network-on-Chips, IET Computers and Digital Techniques, 2018, 1751-8601</td></tr>
         <tr><td>Aswathi M K  , Geethamma V.G ,Lovely P. Mathew ,Sabu Thomas,Prosenjit Saha, Tuning of microstructure in engineered poly (trimethylene terephthalate) based blends with nano inclusion as multifunctional additive, Polymer Testing, 2018, 0142-9418</td></tr>
@@ -100,11 +107,11 @@ class Reserch extends Component {
         <tr><td>Sajan T John, Sridharan, R., Ram Kumar, P. N. and Krishnamoorthy, M., Multi-period reverse logistics network design for used refrigerators, Applied Mathematical Modelling, Vol. 54, 311-331, 2018, 0307-904X</td></tr>
         <tr><td>Shibu K.R,Suji Pramila R, Routing protocol based key management schemes in manet: A survey, International Journal of Engineering and Technology(UAE), 2018, 2227-524X</td></tr>
         <tr><td>Sajan T John, Sridharan, R., and Ram Kumar, P. N. , Reverse logistics network design: a case of mobile phones and digital cameras, International Journal of Advanced Manufacturing Technology, 2018, 1433-3015</td></tr>
-        <tr><td> Jerry Varghese,  K.T. Akhil, Arun Raphel,  Frenosh K Francis, Vinoj K, To Study the Cooling Rate and Influence of Boron Carbide on Mechanical Properties of Aluminium LM13 Matrix B4C Reinforced Composites , Materials Today: Proceedings 4 , 7202-7207, 2017,  2214-7853</td></tr>
+        <tr><td>Jerry Varghese,  K.T. Akhil, Arun Raphel,  Frenosh K Francis, Vinoj K, To Study the Cooling Rate and Influence of Boron Carbide on Mechanical Properties of Aluminium LM13 Matrix B4C Reinforced Composites , Materials Today: Proceedings 4 , 7202-7207, 2017,  2214-7853</td></tr>
         <tr><td>Robin Joyce,Minu George,Lokasani BhanuprakashDeepak Kumar Panwar,Ravi Raj Batia,Soney Varghese, Investigation on the effects of low temperature anodic bonding and its reliability  for MEMS packaging using destructive and non-destructive techniques, Journal of Materials Science: Materials in Electronics, 2017, 0957-4522</td></tr>
-        <tr><td> Jerry Varghese,  K.T. Akhil, K Shunmugesh,  Vinoj K, Sanjivi Arul, R Sellamuthu, Influence of heat Treatment and aging process on LM13 Aluminium Alloy Cast Sections: An Experimental Study, Materials Today: Proceedings 4 , 7202-7208, 2017,  2214-7853</td></tr>
+        <tr><td>Jerry Varghese,  K.T. Akhil, K Shunmugesh,  Vinoj K, Sanjivi Arul, R Sellamuthu, Influence of heat Treatment and aging process on LM13 Aluminium Alloy Cast Sections: An Experimental Study, Materials Today: Proceedings 4 , 7202-7208, 2017,  2214-7853</td></tr>
         <tr><td>K. Shunmugesh K.T. Akhil S.Aravind M.Pramodkumar, Optimization of Drilling Characteristics using Grey-Fuzzy logic in Glass Fiber Reinforced Polymer (GFRP), Materials Today: Proceedings (Elsevier), 2017,  2214-7853</td></tr>
-        <tr><td> B Thamotharan, Vaithiyanathan, Venkatraman, Anishin Raj M.M, B Karthikeyan , A novel image processing approach for finding the bubble count in neutron dosimeter, Disaster Advances, 2017, 0974-262X</td></tr>
+        <tr><td>B Thamotharan, Vaithiyanathan, Venkatraman, Anishin Raj M.M, B Karthikeyan , A novel image processing approach for finding the bubble count in neutron dosimeter, Disaster Advances, 2017, 0974-262X</td></tr>
         <tr><td>K. Shunmugesh K. Panneerselvam, Optimization of Drilling Process Parameters Via Taguchi, TOPSIS and RSA Techniques, Archives of Metallurgy and Materials, 2017,  1733-3490</td></tr>
         <tr><td>Leeba Varghese, S. Aravind, K. Shunmugesh, Multi-Objective Optimization of Machining Parameters during Dry Turning of 11SMn30 Free Cutting Steel Using Grey Relational Analysis, Materials today : Proceedings, 2017, 2218-7853</td></tr>
         <tr><td>G Vijayakumar, S Chandramouli, B.K Nashine, P.Selvaraj,  K.K Rajan , Leak Experiments in LEENA Facility with modified Leak Detector Layout Large Pipelines, Annals of Nuclear Energy, 2017, 0306-4549</td></tr>
@@ -141,7 +148,7 @@ class Reserch extends Component {
         <tr><td>K K Rajan , B Aruna, Performance evaluation of a 200 kWp grid tied solar power plant, IOP Conference Series: Materials Science and Engineering, 2020, 1757-899X</td></tr>
         <tr><td>Neena M. Joseph, M. Harikrishna, M.V.L.R. Anjaneyulu, Safety evaluation of multiple horizontal curves using statistical models, International Journal of Vehicle Safety, 2020 (Paper accepted), 1479-3113</td></tr>
         <tr><td>Basil Baby,Daniel A.V,Emmanuel Jose,P.P Gokul,Naveen John,Sachin saju, Experimental Investigation on PCE and SNF Type Admixture on Early Age Strength of M40 Grade Green Concrete, Proceedings of SECON'19, 2019, 978-3-030-26365-2</td></tr>
-        <tr><td> K.K. Rajan, Aruna B., A Review on Flow Measurement in Sodium Cooled Fast Reactor Circuits, Proceedings of 2019 3rd IEEE International Conference on Electrical, Computer and Communication Technologies, ICECCT 2019, 2019,   978-1-5386-8158-9 </td></tr>
+        <tr><td>K.K. Rajan, Aruna B., A Review on Flow Measurement in Sodium Cooled Fast Reactor Circuits, Proceedings of 2019 3rd IEEE International Conference on Electrical, Computer and Communication Technologies, ICECCT 2019, 2019,   978-1-5386-8158-9 </td></tr>
         <tr><td>Rajan, K.K., Verma, S., Aruna, B., Anju, S., Bhattacharyay, R., Development of Level Sensor for Lead - Lithium Loop System, Proceedings of 2019 3rd IEEE International Conference on Electrical, Computer and Communication Technologies, ICECCT 2019, , 2019, 978-1-5386-8158-9 </td></tr>
         <tr><td>Simi Zerine Sleeba, J Jose, M Palesi , Traffic Aware Deflection Rerouting Mechanism for Mesh Network on Chip, Proceedings of 2018  IEEE/IFIP International Conference on VLSI and System-on-Chip, VLSI-SoC, 2019, 978-1-5386-4756-1                           2324-8440</td></tr>
         <tr><td>RG Kunthara, RK James,Simi Zerine Sleeba, ReDC: Reduced Deflection CHIPPER Router for Bufferless NoCs, Proceedings of the 2018 8th International Symposium on Embedded Computing and System Design, ISED 2018, 2019,  978-1-5386-6575-6                          2473-9413</td></tr>
@@ -176,14 +183,6 @@ class Reserch extends Component {
         <tr><td>Jibin Boban,Arun Lawrence, Manesh K K, Leeba Varghese, Effect of polarity in micro-electrical discharge machining, Emerging Trends in Engineering, Science and Technology for Society, Energy and Environment - Proceedings of the International Conference in Emerging Trends in Engineering, Science and Technology, ICETEST 2018, 2018, 978-1-3511-2414-0</td></tr>
         <tr><td>M.J. Neena ,M. Harikrishna , M.V.L.R. Anjaneyulu, Operating speed of different classes of vehicles at summit vertical curves on two-lane non-urban roads, Proceedings of the International Conference in Emerging Trends in Engineering, Science and Technology, 2018, 978-1-3511-2414-0</td></tr>
         <tr><td>Anitha Rajan, Premanand M.E, Grammar worksheets, Enhance your English, 2017, 9788130023199</td></tr>
-        <tr><td> Dr.Anishin Raj M.M , CSE, “Leukocyte classification based on feature selection using extra trees classifier: a transfer learning approach”, Turkish Journal of Electrical Engineering & Computer Sciences(SCIE), 2021</td></tr>
-        <tr><td> Dr.Anishin Raj M.M , CSE, Leukocyte Classification based on Transfer Learning of VGG16 Features by K-Nearest Neighbour Classifier, IEEE Xplore  , 2021</td></tr>
-        <tr><td> Dr.Anishin Raj M.M , CSE, Leukocyte classification based on statistical measures of radon transform for monitoring health condition,  Biomedical Physics and Engineering Express, 2021.                       ( ESCI and SCOPUS), 2021</td></tr>
-        <tr><td> Dr.Anishin Raj M.M , CSE, Automated Leukocyte Classification based on Transfer Learning for heterogeneous dataset, AIP Conference ( SCOPUS)    ( ICRAINS-2021), 2021</td></tr>
-        <tr><td>Ms. Neenu Daniel, CSE, Texture and quality analysis for face spoofing detection, Computers and Electrical Engineering, 2021</td></tr>
-        <tr><td>Ms. Anju Susan George, IT, Multi-Replica Integrity Verification in Cloud: A Review and a Comparative Study, IEEE Explore Digital Library [Scopus Indexed], 2021</td></tr>
-        <tr><td>Ms. Anju Susan George, IT, Remote Cloud Data Auditing Protocols: A Comprehensive Analysis and Comparative Study&quot;,, Proceedings of 5th International Conference on Intelligent Computing and Control Systems , 2021</td></tr>
-
     </table>
                
                 {this.state.showMenu ? (
