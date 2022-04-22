@@ -8,7 +8,7 @@ class EEFaculty extends Component {
     image: "Allstaffphoto/EE/FAC/353.jpg",
     width: "50%",
     name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=EEFAC130" target="_blank" rel="noopener noreferrer">Dr. B.Aruna</a>,
-    content: "Professor(on-leave)"
+    content: "Professor"
   };
   /*Cefaculty2 = {
     instanceID: "Cefaculty2",
@@ -22,7 +22,7 @@ class EEFaculty extends Component {
     image: "Allstaffphoto/EE/FAC/108.jpg",
     width: "50%",
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=EEFAC102" target="_blank" rel="noopener noreferrer">Dr. Sony Kurian</a>,
-    content: "Associate Prof. (HOD in charge)"
+    content: "Associate Prof & HOD"
   };
   Cefaculty4 = {
     instanceID: "Cefaculty4",
