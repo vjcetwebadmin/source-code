@@ -6,6 +6,7 @@ import Strateg from "./Strategies";
 import Objecti from "./Objectives";
 import Benifit from "./Benefits";
 import MinutesR from "./minutes";
+import Naacmain from "./naaciqac"
 import Result from "./bestpractices";
 //import FacultyNav from "./facultynav";
 class SideNav extends Component {
@@ -119,11 +120,9 @@ class SideNav extends Component {
   render() {
     return (
       <React.Fragment>
-
         <div class="Deptcontent">
           <div class="sidenav">
             <input
-
               value="Profile"
               class="button"
               onClick={this.onClickP}
@@ -153,10 +152,14 @@ class SideNav extends Component {
               onClick={this.onClickLib}
               />  
               <input
-
               value="Minutes & Reports"
               class="button"
               onClick={this.onClickAss}
+            /> 
+            <input
+              value="NAAC"
+              class="button"
+              onClick={this.onClickFac}
             /> 
             <input
               value="Best Practices"
@@ -164,8 +167,7 @@ class SideNav extends Component {
               onClick={this.onClickRes}
               />   
             {/*<a href="https://vjcet.org/downloads/naac/C7_data/7.2.1_1.pdf" target="_blank" rel="noopener noreferrer"><button class="button" >Best Practices</button></a> */}
-          </div>
-         
+          </div>         
           <div class="content">
             {this.state.showProfile ? <Profile /> : null}
             {this.state.showVision ? <Objecti /> : null}
@@ -173,6 +175,7 @@ class SideNav extends Component {
             {this.state.showProgram ? <Strateg /> : null}
             {this.state.showLib ? <Benifit /> : null}
             {this.state.showAss ? <MinutesR /> : null}
+            {this.state.showfac ? <Naacmain /> : null}
             {this.state.showRes ? <Result /> : null}
           </div>
         </div>

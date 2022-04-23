@@ -1,13 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
 import HeadingTwo from "../Components/Texts/HeadingTwo";
 /*import HeadingOne from "../Components/Texts/HeadingOne";
 import ImageOne from "../Components/Images/ImageOne";
 import BodyOneJustified from "../Components/Texts/BodyOneJustified";
 import "../Components/Tables/tableformat.css";*/
-import "./naac.css";
-import Header from "../Components/Header&Footer/Header";
-import Footer from "../Components/Header&Footer/Footer";
-import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
+import "../Naac/naac.css";
 
 class Library extends React.Component {
     state = { showMenu: false };
@@ -62,19 +59,9 @@ class Library extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
-            {/*<div className="contain">                 
-                <div>
-                    <HeadingTwo data={this.LibraryResourceTitle} className="Heading" />
-                    <table border="1"  id="tableformat1">  
-                       {/*} <tr><th style={{width:"6%"}}>#</th><th style={{width:"79%"}}>Details</th><th style={{width:"15%"}}>Download</th></tr> 
-                        <tr><th colSpan="3">Details</th></tr>                     
-                        <tr><td style={{textAlign:"center",width:"6%"}}>1</td><td style={{width:"79%"}}>Self Study Report-NAAC Cycle-I</td><td style={{width:"15%"}}><a href="" rel="noopener noreferrer"><button class="buttonnaac1" disabled>Download</button></a></td></tr>                                                       
-                    </table>
-                </div>            
-        </div> */}
-            <div className="contain" style={{textAlign:"center"}}>                 
-                <div>
+               <div className="contain" style={{textAlign:"center"}}>                 
+                <div>                    
+                    <a href="https://vjcet.org/downloads/KLCOGN110370.pdf" target="_blank" rel="noopener noreferrer"><button class="buttonnaac1" ><b>NAAC SSR</b></button></a>
                     <HeadingTwo data={this.LibraryResourceTitle1} className="Heading" />
                     <table border="1"  id="tableformat1">
                    {/* <tr><th style={{width:"6%"}}>#</th><th style={{width:"79%"}}>Details</th><th style={{width:"15%"}}>Download</th></tr> */}
@@ -356,9 +343,7 @@ class Library extends React.Component {
                      </table>
                 </div>            
             </div> 
-            <Footer data={this.HomePageFooter} />
-            {this.state.showMenu ? (<MenuOverlay closeMenuFunction={this.closeMenu} />) : ("")}
-
+   
             </React.Fragment>
         )
     }

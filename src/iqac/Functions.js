@@ -16,7 +16,6 @@ class Profile extends Component {
     closeMenu = () => {
         this.setState({ showMenu: false });
     };
-
     HomePageHeader = {
         instanceID: "HomePageHeader"
     };
@@ -29,11 +28,7 @@ class Profile extends Component {
     HomePageFacilitiesSection = {
         instanceID: "HomePageFacilitiesSection"
     };
-    // ResearchImg = {
-    //     instanceID: "ResearchImg",
-    //     image: "cover2-1.jpg",
-    //     width: "93%"
-    // }
+
     ResearchHeading = {
         instanceID: "ResearchHeading",
         title: "Functions"
