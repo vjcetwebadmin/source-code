@@ -47,26 +47,25 @@ class Reserch extends Component {
                                   
     <table id="publicationtable">
         <tr><th>List of papers indexed in Scopus database & conference proceedings with ISBN/ISSN</th></tr>
-        <tr><td>Dr.K.K .Rajan ,Dr.B. Aruna , EEE, Design development and testing of mutual inductance type level sensor for molten lead-lithium alloy, Fusion Engineering and Design, 2021</td></tr>
-        <tr><td>Dr. Sony Kurian, EEE, Identification of Malicious code variants using Spp-Net model and color images, 15th IEEE international conference on industrial and information systems (ICIIS-2020),, 2020</td></tr>
-        <tr><td>Mr. Arun Raphel, ME, High entropy stabilization and band engineering driven high figure of merit in nanostructured PbSn0.875TeSeBi0.125 alloy, Journal of solid state Chemistry, 2021</td></tr>
-        <tr><td>Mr. Arun Raphel, ME, Thermoelectric performance of nanostructured PbSnTeSe high entropy thermoelectric alloy synthesized via spark plasma sintering, Physica B: Condensed Matter, 2021</td></tr>
-        <tr><td>Mr. Arun Raphel, ME, Tuning figure of merit in Na doped nanocrystalline PbSnTeSe high entropy alloy via band Engineering, Material Science Semiconducor Processing, 2021</td></tr>
-        <tr><td>Mrs. Shine George, CE, Critical indicators for assessment of capacity development for disaster preparedness in a pandemic context, International Journal of Disaster Risk Reduction , 2021</td></tr>
-        <tr><td>Mrs. Shine George, CE, Indicator-based assessment of capacity Development for Disaster Preparedness in the Indian Context, Springer, 2021</td></tr>
-        <tr><td>Mrs. Neena M joseph, CE, safety evaluation of multiple horizontal curves using statistical models, International Journal of Vehicle Safety, 2021</td></tr>
-        <tr><td>Dr. Anishin Raj M.M , CSE, “Leukocyte classification based on feature selection using extra trees classifier: a transfer learning approach”, Turkish Journal of Electrical Engineering & Computer Sciences(SCIE), 2021</td></tr>
-        <tr><td>Dr. Anishin Raj M.M , CSE, Leukocyte Classification based on Transfer Learning of VGG16 Features by K-Nearest Neighbour Classifier, IEEE Xplore, 2021</td></tr>
-        <tr><td>Dr. Anishin Raj M.M , CSE, Leukocyte classification based on statistical measures of radon transform for monitoring health condition,  Biomedical Physics and Engineering Express, 2021. (ESCI and SCOPUS), 2021</td></tr>
-        <tr><td>Dr. Anishin Raj M.M , CSE, Automated Leukocyte Classification based on Transfer Learning for heterogeneous dataset, AIP Conference (SCOPUS) (ICRAINS-2021), 2021</td></tr>
-        <tr><td>Ms. Neenu Daniel, CSE, Texture and quality analysis for face spoofing detection, Computers and Electrical Engineering, 2021</td></tr>
-        <tr><td>Ms. Anju Susan George, IT, Multi-Replica Integrity Verification in Cloud: A Review and a Comparative Study, IEEE Explore Digital Library [Scopus Indexed], 2021</td></tr>
-        <tr><td>Ms. Anju Susan George, IT, Remote Cloud Data Auditing Protocols: A Comprehensive Analysis and Comparative Study, Proceedings of 5th International Conference on Intelligent Computing and Control Systems , 2021</td></tr>
-        <tr><td>Rajan, K.K., Aruna, B., Anju, S., Verma, S., Bhattacharyay, R. Design development and testing of mutual inductance type level sensor for molten lead-lithium alloy, Fusion Engineering and Design, 2021, 168, 112650</td></tr>
-        <tr><td>K. Shunmugesh, K. R. Arun, Arun Raphel, and K. T. Akhil , Optimization of Drilling Parameters of Glass Fiber-Reinforced Polymers Using Grey Relational Analysis, Lecture Notes in Mechanical Engineering, Springer Nature, 2021, pp. 319–324</td></tr>
-        <tr><td>Akhil, K.T, Arul, S, Shunmugesh K. Optimization of Cryogenic Turning Process Parameters Using Grey Relational Analysis (GRA) in Super-Duplex Stainless Steel (A479), Lecture Notes in Mechanical Engineering, 2021, pp. 307–312</td></tr>
+        <tr><td>Dr.K.K .Rajan ,Dr.B. Aruna, Design development and testing of mutual inductance type level sensor for molten lead-lithium alloy, Fusion Engineering and Design, 2021</td></tr>
+        <tr><td>Dr. Sony Kurian, Identification of Malicious code variants using Spp-Net model and color images, 15th IEEE international conference on industrial and information systems (ICIIS-2020),, 2020</td></tr>
+        <tr><td>Mr. Arun Raphel, High entropy stabilization and band engineering driven high figure of merit in nanostructured PbSn0.875TeSeBi0.125 alloy, Journal of solid state Chemistry, 2021</td></tr>
+        <tr><td>Mr. Arun Raphel, Thermoelectric performance of nanostructured PbSnTeSe high entropy thermoelectric alloy synthesized via spark plasma sintering, Physica B: Condensed Matter, 2021</td></tr>
+        <tr><td>Mr. Arun Raphel, Tuning figure of merit in Na doped nanocrystalline PbSnTeSe high entropy alloy via band Engineering, Material Science Semiconducor Processing, 2021</td></tr>
+        <tr><td>Mrs. Shine George, Critical indicators for assessment of capacity development for disaster preparedness in a pandemic context, International Journal of Disaster Risk Reduction , 2021</td></tr>
+        <tr><td>Mrs. Shine George, Indicator-based assessment of capacity Development for Disaster Preparedness in the Indian Context, Springer, 2021</td></tr>
+        <tr><td>Mrs. Neena M joseph, safety evaluation of multiple horizontal curves using statistical models, International Journal of Vehicle Safety, 2021</td></tr>
+        <tr><td>Dr. Anishin Raj M.M et al., “Leukocyte classification based on feature selection using extra trees classifier: a transfer learning approach”, Turkish Journal of Electrical Engineering & Computer Sciences(SCIE), 2021</td></tr>
+        <tr><td>Dr. Anishin Raj M.M et al., Leukocyte Classification based on Transfer Learning of VGG16 Features by K-Nearest Neighbour Classifier, IEEE Xplore, 2021</td></tr>
+        <tr><td>Dr. Anishin Raj M.M et al., Leukocyte classification based on statistical measures of radon transform for monitoring health condition,  Biomedical Physics and Engineering Express, 2021. (ESCI and SCOPUS), 2021</td></tr>
+        <tr><td>Ms. Neenu Daniel, Texture and quality analysis for face spoofing detection, Computers and Electrical Engineering, 2021</td></tr>
+        <tr><td>Ms. Anju Susan George, Multi-Replica Integrity Verification in Cloud: A Review and a Comparative Study, IEEE Explore Digital Library [Scopus Indexed], 2021</td></tr>
+        <tr><td>Ms. Anju Susan George, Remote Cloud Data Auditing Protocols: A Comprehensive Analysis and Comparative Study, Proceedings of 5th International Conference on Intelligent Computing and Control Systems , 2021</td></tr>
+        <tr><td>Rajan, K.K., Aruna, B., Anju, S., Verma, S., Bhattacharyay, R. Design development and testing of mutual inductance type level sensor for molten lead-lithium alloy, Fusion Engineering and Design, 2021, 168, 112650</td></tr>
+        <tr><td>K. Shunmugesh, K. R. Arun, Arun Raphel, and K. T. Akhil , Optimization of Drilling Parameters of Glass Fiber-Reinforced Polymers Using Grey Relational Analysis, Lecture Notes in Mechanical Engineering, Springer Nature, 2021, pp. 319-324</td></tr>
+        <tr><td>Akhil, K.T, Arul, S, Shunmugesh K. Optimization of Cryogenic Turning Process Parameters Using Grey Relational Analysis (GRA) in Super-Duplex Stainless Steel (A479), Lecture Notes in Mechanical Engineering, 2021, pp. 307-312</td></tr>
         <tr><td>Anju Susan George, A Shajin Nargunam, Improved multi-party verification protocol with reduced computational overhead in cloud storage system, Concurrency Computat Practice and Experience. 2021, 1532-0634</td></tr>
-        <tr><td>George, S., Anilkumar, P.P.CRITICAL indicators for assessment of capacity development for disaster preparedness in a pandemic context, International Journal of Disaster Risk Reduction, 2021, 55, 102077</td></tr>
+        <tr><td>George, S., Anilkumar, P.P.CRITICAL indicators for assessment of capacity development for disaster preparedness in a pandemic context, International Journal of Disaster Risk Reduction, 2021, 55, 102077</td></tr>
         <tr><td>Naveen Jacob, Muralidhar Kulkarni, Krishnamoorthy K.,  An Electronically Switchable UWB to Narrow Band Antenna for Cognitive Radio Applications, Microwave and Optical Technology Letters, 2020, 1098-2760</td></tr>
         <tr><td>Arun Raphel,  P. Vivekanandhan, S. Kumaran, High entropy phenomena induced low thermal conductivity in BiSbTe1.5Se1.5 thermoelectric alloy through mechanical alloying and spark plasma sintering, Material Letters, 2020,  2454-4051</td></tr>
         <tr><td>V. Venkatesh,Anishin Raj M M , K. Sajith, R. Anushiadevi, T. Praba, A precision-based diagnostic model  ADOBE-accurate detection of  breast cancer using logistic  regression approach,  Journal of Intelligent &  Fuzzy Systems, 2020, 1064-1246</td></tr>

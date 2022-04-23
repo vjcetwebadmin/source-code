@@ -66,10 +66,10 @@ class Profile extends Component {
                             <tr><th>NAME</th><th>POST</th></tr>
                             <tr><td>Dr. Anishin Raj M.M</td><td>Dean R&D, Professor CSE</td></tr>
                             <tr><td>Dr. Anoop C. K.</td><td>Secretary, Professor, CE</td></tr>
-                            <tr><td>Dr. Sony Kurian</td><td>Associate Professor, EEE</td></tr>
-                            <tr><td>Dr Anu George</td><td>Associate Professor, MBA</td></tr>
+                            <tr><td>Smt. Smitha Jacob</td><td>Assistant Professor, EEE</td></tr>
+                            <tr><td>Dr. Jose Mamman</td><td>Assistant Professor, MBA</td></tr>
                             <tr><td>Dr. Tony D</td><td>Associate Professor, ECE</td></tr>
-                            <tr><td>Dr. Sheela V. K</td><td>Associate Professor, IT</td></tr>
+                            <tr><td>Ms. Anitta K Mathew</td><td>Assistant Professor, IT</td></tr>
                             <tr><td>Mrs. Mayadevi PA</td><td>Assistant Professor, CSE</td></tr>
                             <tr><td>Mrs. Rose Mary Baby</td><td>Assistant Professor, S&H </td></tr>
                             <tr><td>Mr. Arun Raphel </td><td>Assistant Professor-ME</td></tr>
