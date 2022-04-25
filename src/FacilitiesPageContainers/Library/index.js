@@ -56,7 +56,7 @@ class Library extends React.Component {
     }
     LibraryContent3 = {
         instanceID: "LibraryContent3",
-        title: "The collection comprises 44390 printed documents such as books, project reports, mini project reports, seminar reports and back volumes of journals and the non-book materials like CD ROMs. Membership of the library is open to Students, Teachers and Non Teaching Staff of this college. Library membership is free to all faculty, staff and students. The library also subscribes 88 printed journals, 31 general magazines and library subscribed full text online database like IEEE(ASPP), ASME, ASCE, EBSCO and E-resources through DELNET and National digital library. NPTEL facility to access video lectures are also available."
+        title: "The collection comprises 44390 printed documents such as books, project reports, mini project reports, seminar reports and back volumes of journals and the non-book materials like CD ROMs. Membership of the library is open to Students, Teachers and Non Teaching Staff of this college. Library membership is free to all faculty, staff and students. The library also subscribes 75 printed journals, 12 general magazines and library subscribed full text online database like IEEE(ASPP), Elsevier Science Direct, EBSCO and E-resources through DELNET and National digital library. NPTEL facility to access video lectures are also available."
     }
     DigitalLibraryContent = {
         instanceID: "DigitalLibraryContent",
@@ -76,7 +76,7 @@ class Library extends React.Component {
     };
     LibraryReferanceContent = {
         instanceID: "LibraryReferanceContent",
-        title: "The library maintains a separate reference collection consisting of encyclopedias, dictionaries, directories, handbooks, technical data, atlases, CD-ROMs, project reports and seminar reports. The question papers of the examinations conducted by the university in previous years and syllabi of courses conducted by this college are also made available in this section."
+        title: "The library have a separate reference section for books and Journals."
     }
     LibraryReprographyTitle = {
         instanceID: "LibraryReprographyTitle",
@@ -105,11 +105,11 @@ class Library extends React.Component {
     };
     LibraryJournalTitle = {
         instanceID: "LibraryResourceTitle",
-        title: "Transaction-Journal-Magazine Subscriptions" 
+        title: "Journals, Magazines and News papers" 
     };
     LibraryJournalContent = {
         instanceID: "LibraryJournalContent",
-        title: "The library receives 129 printed journals, technical and newspapers. The library provides IP enabled access to a large number of full text online journal databases from the various publishers."
+        title: "The library provides IP enabled access to a large number of full text online journal databases from the various publishers."
     }
     LibrarydigitalContent = {
         instanceID: "LibrarydigitalContent",
@@ -146,13 +146,13 @@ class Library extends React.Component {
                             <th> Collection</th><th>Numbers</th>
                         </tr>
                         <tr>
-                            <td>Titles</td><td>10394</td>
+                            <td>Titles</td><td>10518</td>
                         </tr>
                         <tr>
-                            <td>Volume</td><td>38290</td>
+                            <td>Volume</td><td>38413</td>
                         </tr>
                         <tr>
-                            <td>Journals(National & International)</td><td>88</td>
+                            <td>Journals(National & International)</td><td>75</td>
                         </tr>
                         <tr>
                             <td>E-Books</td><td>5000+</td>
@@ -176,7 +176,7 @@ class Library extends React.Component {
                         <th colspan="5">DIGITAL LIBRARY</th>
                         </tr>
                         <tr>
-                            <td>E-Journals</td><td>IEEE (ASPP), ASME, ASCE, EBSCO (Management)</td>
+                            <td>E-Journals</td><td>IEEE (ASPP), Elsevier Science Direct, EBSCO (Management)</td>
                         </tr>
                         <tr>
                             <td>INSTITUTIONAL MEMBERSHIP</td><td>DELNET, NDLI, NDLI Club</td>
@@ -344,8 +344,7 @@ class Library extends React.Component {
                                 <BodyOneJustified data={this.LibraryJournalContent} />
                                 <ol  style={{lineHeight:"1.7em"}}>
                                     <li>IEEE (All Society Periodicals Package)</li>
-                                    <li>ASCE</li>
-                                    <li>ASME</li>
+                                    <li>Elsevier Science Direct</li>
                                     <li>EBSCO (Business Source Elite)</li>
                                 </ol>
                             </p>
@@ -391,16 +390,8 @@ class Library extends React.Component {
                                     <li>Water & Energy International</li>
                                     <li>International Journal of Civil Engineering</li>                                    
                                     <li>International journal of Geotechnics & Environment</li>
-                                    <li>International Journal of Sustainable Civil Engineering</li>
-                                    <li> Journal of Flood Engineering</li>
-                                    <li>Indian Concrete Journal</li>
                                     <li>ICI Journal</li>
-                                    <li>Journal of Structural Engineering</li>
-                                    <li>Journal of Environmental Science Research International</li>
-                                    <li>Indian Geotechnical Journal</li>
-                                    <li>Journal of Institution of Engineers Series A</li>
-                                    <li>Journal of Urban Planning & Development</li>
-                                    
+                                    <li>Journal of Structural Engineering</li>                                 
                                 </ol>
                             </li>
                             <li>
@@ -436,7 +427,6 @@ class Library extends React.Component {
                                 <li>International Journal of Electronics and communication engineering</li>
                                 <li>Journal of Microwaves, Science and Technology</li>
                                 <li>International Journal of Mobile Communication and Networking</li>
-                                <li>SADHANA: Academy Proceedings Engineering Science</li>
                                 <li>Indian Journal of Electronics, Circuits and Systems</li>
                                 <li>International Journal of Material Research, Electronics and Electrical Systems</li>
                                 <li>International Journal of Power Engineering</li>
@@ -452,19 +442,16 @@ class Library extends React.Component {
                                 <ol>
                                 <li>IEEMA JOURNAL</li>
                                 <li>Indian Journal of Advances in Electrical Engineering</li>
-                                <li>Indian Journal of Power and River Valley Development</li>
                                 <li>Indian Journal of Systems Engineering and Electronics</li>
                                 <li>Journal of the Institution of Engineers Series-B</li>
-                                <li>The Journal of CPRI</li>
-                                                                      
+                                <li>The Journal of CPRI</li>                                                                      
                                 </ol>
                             </li>
                             <li>
                                 <p><b>Information Technology</b></p>
                                 <ol>
                                 <li>International Journal of Image Processing and Applications</li>
-                                <li>Journal of High Performance Communication Systems and Networking</li>
-                                <li>International Journal of Computers, Information Technology and Engineering</li>
+                                <li>Journal of High Performance Communication Systems and Networking</li>                                
                                 <li>International Journal of Computer Science and System Analysis</li>
                                 <li>International Journal of System Simulation</li>
                                 <li>International Journal of Advance in information Technology</li>
@@ -477,8 +464,7 @@ class Library extends React.Component {
                                 <li>International Journal of Advances in Machining and Forming Operations</li>
                                 <li>International Journal of Advanced Mechatronics and Robotics</li>
                                 <li>International Journal of Manufacturing Technology and Industrial Engineering</li>
-                                <li>International Journal of Advanced Manufacturing System</li>
-                                <li>International Journal of Advances In Thermal Science and Engineering</li>
+                                <li>International Journal of Advanced Manufacturing System</li>                                
                                 <li>International Journal of Fluid Mechanics</li>
                                 <li>International Journal of Materials Science and Engineering</li>
                                 <li>International Journal of Nanomaterial and Technology</li>
@@ -492,25 +478,21 @@ class Library extends React.Component {
                                 <p><b>Science</b></p>
                                 <ol>
                                     <li>Current Science</li>
-                                    <li>Pramana: Journal of Physics</li>
                                     <li>Resonance: Journal of Science Education</li>
                                     <li>Indian Journal of Pure & Applied Physics</li>
-                                    <li>Indian Journal  of Chemistry Section A</li>
-                                    <li>Indian Journal of section B</li>
-                                    <li>University News</li>
-                                    
+                                    <li>Indian Journal of Chemistry</li>                                    
                                 </ol>
                             </li>
                             <li>
                                 <p><b>MBA</b></p>
                                 <ol>
-                                <li>Harvard Business Review</li>
+                                    <li>Harvard Business Review</li>
                                     <li>Asian Journal of Management cases</li>
                                     <li>IIM Kozhikode Society and Management Review</li>
                                     <li>Journal of Entrepreneurship</li>
                                     <li>South Asian Journal of Human Resources Management</li>
                                     <li>Vikalpa</li>
-                                    <li>IIMB Management Review</li>
+                                    <li>Brand Management</li>
                                     <li>Applied Finance </li>
                                     <li>Bank Management</li>
                                     <li>Marketing Management </li>
@@ -522,55 +504,30 @@ class Library extends React.Component {
                             <li>
                                 <p><b>Periodicals</b></p>
                                 <ol>
-                                <li>Competition Success Review</li>
-                                    <li>General Knowledge Today</li>
                                     <li>India Today</li>
                                     <li>Outlook</li>
                                     <li>Readers Digest</li>
-                                    <li>Sportstar</li>
-                                    <li>Down to Earth</li>
                                     <li>Dhanam</li>
                                     <li>Thozhilvartha</li>
                                     <li>Thozhilveethi</li>
-                                    <li>Electronics for You</li>
-                                    <li>Digit</li>
-                                    <li>Electrical India</li>
-                                    <li>Industrial Automation + Industrial Electronics Direct</li>
-                                    <li>CSI Communication</li>
-                                    <li>Destination Kerala</li>
-                                    <li>The Economist</li>
-                                    <li>Economic and Political Weekly</li>
-                                    <li>The Teenager today</li>
-                                    <li>Frontline</li>
                                     <li>The week</li>
-                                    <li>Capital Market</li>
                                     <li>Outlook Money</li>
-                                    <li>Business Deepika</li>
-                                    <li>Dalal Street</li>
-                                    <li>Forbes India</li>
-                                    <li>Femina</li>
-                                    <li>Woman's Era</li>
-                                    <li>Overdrive</li>
-                                    <li>Images Retail</li>
+                                    <li>Ezhuthu</li>
+                                    <li>Auto Car</li>
                                     <li>Fastrack</li>
-                                    <li>Destination Kerala</li>                                    
+                                    <li>Sports Magazine</li>                                    
                                 </ol>
                             </li>
                             <li>
                                 <p><b>Dailies</b></p>
                                 <ol>
                                    <li>The Hindu</li>
-                                   <li>The New Indian Express</li>
                                    <li>The Hindu Business Line</li>
                                    <li>The Times of India</li>
-                                   <li>The Economics Times</li>
                                    <li>Malayala Manorama</li>
                                    <li>Deepika </li>
-                                       <li>Mathrubhumi</li>
-                                   <li>Mangalam</li>
-                                   <li>Financial Express</li>
-                                   <li>Deccan Chronicle</li>
-                                                                      
+                                    <li>Mathrubhumi</li>
+                                   <li>Mangalam</li>                                                                      
                                 </ol>
                             </li>
                         </ol>

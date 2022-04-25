@@ -93,7 +93,7 @@ class ITFaculty extends Component {
     instanceID: "Cefaculty13",
     image: "Allstaffphoto/IT/FAC/itfac116.jpg",
     width: "50%",
-    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ITFAC116" target="_blank" rel="noopener noreferrer">Ms. Negitta Nixon Karakunnel</a>,
+    name: "Ms. Shilpa Sugathan",
     content: "Assistant Professor"
   };
 
@@ -131,12 +131,13 @@ class ITFaculty extends Component {
          {/* <div>
             <FacultyData data={this.Cefaculty9} />
          </div> 
-          <div>
-            <FacultyData data={this.Cefaculty13} />
-          </div>*/}
+          */}
           <div>
             <FacultyData data={this.Cefaculty11} />
           </div> 
+          <div>
+            <FacultyData data={this.Cefaculty13} />
+          </div>
              
         </div>
       </div>
