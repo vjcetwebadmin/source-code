@@ -96,7 +96,20 @@ class ITFaculty extends Component {
     name: "Ms. Shilpa Sugathan",
     content: "Assistant Professor"
   };
-
+  Cefaculty14 = {
+    instanceID: "Cefaculty14",
+    image: "Allstaffphoto/IT/FAC/NibinIT.JPG",
+    width: "50%",
+    name: "Mr. Nidhin R",
+    content: "Assistant Professor"
+  };
+  Cefaculty15 = {
+    instanceID: "Cefaculty15",
+    image: "Allstaffphoto/IT/FAC/AnittaIT.jpg",
+    width: "50%",
+    name: "Ms. Anitta K mathew",
+    content: "Assistant Professor"
+  };
   render() {
     return (
       <div className="faculty">
@@ -137,6 +150,12 @@ class ITFaculty extends Component {
           </div> 
           <div>
             <FacultyData data={this.Cefaculty13} />
+          </div>
+          <div>
+            <FacultyData data={this.Cefaculty14} />
+          </div>
+          <div>
+            <FacultyData data={this.Cefaculty15} />
           </div>
              
         </div>

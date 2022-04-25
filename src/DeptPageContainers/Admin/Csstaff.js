@@ -56,7 +56,7 @@ class CSStaff extends Component {
     image: "Allstaffphoto/EE/STAF/134.jpg",
     width: "50%",
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=EESTF107" target="_blank" rel="noopener noreferrer">Mr. Gince Kurian</a>,
-    content: "Trade Instructor"
+    content: "Trade Instructor EEE"
   };
   render() {
     return (

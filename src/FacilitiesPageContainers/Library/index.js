@@ -60,7 +60,7 @@ class Library extends React.Component {
     }
     DigitalLibraryContent = {
         instanceID: "DigitalLibraryContent",
-        title: "A well- arranged Digital Library with 60 Computers and 25 headphones help the users to view e-facilities and use Audio/video facilities also. Digital Library can also be accessed anywhere on the campus."
+        title: "A well- arranged Digital Library with 55 Computers and 25 headphones help the users to view e-facilities and use Audio/video facilities also. Digital Library can also be accessed anywhere on the campus."
     }
     Digitaleresource= {
         instanceID: "Digitaleresource",
@@ -113,7 +113,7 @@ class Library extends React.Component {
     }
     LibrarydigitalContent = {
         instanceID: "LibrarydigitalContent",
-        title: "A well- arranged Digital Library with 60 Computers and 25 headphones help the users to view e-facilities and use Audio/video facilities also. Digital Library can also be accessed anywhere on the campus."
+        title: "A well- arranged Digital Library with 55 Computers and 25 headphones help the users to view e-facilities and use Audio/video facilities also. Digital Library can also be accessed anywhere on the campus."
     }
     LibraryImagedata = {
         instanceID: "LibraryVjcImage",
@@ -263,7 +263,7 @@ class Library extends React.Component {
                         <li>Barcode Based Transaction</li>
                         <li>Dewey Decimal Classification (DDC) Scheme</li>
                         <li>IP Based Access of E-Journals, E- Books, web-OPAC and  Digital Library</li>
-                        <li>Digital library facility with 60 computers and  25 Head phones</li>
+                        <li>Digital library facility with 55 computers and  25 Head phones</li>
                         <li>Multimedia Facility</li>
                         <li>E- Journals from IEEE (ASPP), Science Direct, EBSCO</li>
                         <li>Institutional Membership with  NDL and DELNET</li>
