@@ -44,6 +44,20 @@ class CSStaff extends Component {
     name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ADSTF116" target="_blank" rel="noopener noreferrer">Mr. Jorbin Baby</a>,
     content: "Office Asst."
   };
+  Cefaculty8 = {
+    instanceID: "Cefaculty8",
+    image: "Allstaffphoto/CE/STAF/393.jpg", 
+    width: "50%",
+    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CESTF109" target="_blank" rel="noopener noreferrer">Mrs. Doniya Johnson</a>,
+    content: "Trade Instructor Civil"
+  };
+  Cefaculty7 = {
+    instanceID: "Cefaculty7",
+    image: "Allstaffphoto/EE/STAF/134.jpg",
+    width: "50%",
+    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=EESTF107" target="_blank" rel="noopener noreferrer">Mr. Gince Kurian</a>,
+    content: "Trade Instructor"
+  };
   render() {
     return (
       <div className="faculty">
@@ -57,12 +71,12 @@ class CSStaff extends Component {
           <div>
             <FacultyData data={this.Cefaculty3} />
           </div>
-         {/* <div>
-            <FacultyData data={this.Cefaculty18} />
+          <div>
+            <FacultyData data={this.Cefaculty8} />
           </div>
           <div>
-            <FacultyData data={this.Cefaculty4} />
-          </div>*/}
+            <FacultyData data={this.Cefaculty7} />
+          </div>
           <div>
             <FacultyData data={this.Cefaculty5} />
           </div>

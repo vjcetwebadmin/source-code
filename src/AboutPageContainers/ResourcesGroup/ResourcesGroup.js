@@ -81,7 +81,7 @@ class ResourcesGroup extends Component {
     listID: "Nine",
     title: "Time Table (Even Semester)",
     icon: "Icons/icon5.svg",
-    filePath: "https://vjcet.org/downloads/timetablewef1-6-2021.pdf"
+    filePath: "https://vjcet.org/downloads/timetable2021-22.pdf"
 
   }; 
 

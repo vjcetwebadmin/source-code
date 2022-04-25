@@ -23,6 +23,13 @@ class ITStaff extends Component {
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ITSTF102" target="_blank" rel="noopener noreferrer">Sr. Recy Varghese</a>,
     content: "Computer Programmer(on-leave)"
   };
+  Cefaculty4 = {
+    instanceID: "Cefaculty4",
+    image: "Allstaffphoto/IT/STAF/ITSTJosmy.jpeg",
+    width: "50%",
+    name: "Ms. Josmy Jose",
+    content: "Computer Programmer"
+  };
 
   render() {
     return (
@@ -36,6 +43,9 @@ class ITStaff extends Component {
           </div>          
           <div>
             <FacultyData data={this.Cefaculty2} />
+          </div>
+          <div>
+            <FacultyData data={this.Cefaculty4} />
           </div>
         </div>
       </div>

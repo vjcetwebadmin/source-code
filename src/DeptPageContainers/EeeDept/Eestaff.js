@@ -44,13 +44,6 @@ class EEStaff extends Component {
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=EESTF106" target="_blank" rel="noopener noreferrer">Mr. Dayas M Edassery</a>,
     content: "Trade Instructor"
   };
-  Cefaculty7 = {
-    instanceID: "Cefaculty7",
-    image: "Allstaffphoto/EE/STAF/134.jpg",
-    width: "50%",
-    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=EESTF107" target="_blank" rel="noopener noreferrer">Mr. Gince Kurian</a>,
-    content: "Trade Instructor"
-  };
   Cefaculty8 = {
     instanceID: "Cefaculty8",
     image: "Allstaffphoto/EE/STAF/135.jpg",
@@ -86,9 +79,6 @@ class EEStaff extends Component {
           </div>
           <div>
             <FacultyData data={this.Cefaculty6} />
-          </div>
-          <div>
-            <FacultyData data={this.Cefaculty7} />
           </div>
           <div>
             <FacultyData data={this.Cefaculty8} />

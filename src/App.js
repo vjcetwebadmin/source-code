@@ -530,13 +530,6 @@ class App extends Component {
             width: "50%",
             name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CESTF108" target="_blank" rel="noopener noreferrer">Mr. Mahesh Sankar</a>,
             content: "Tradesman"
-          },
-          {
-            instanceID: "Cefaculty8",
-            image: "Allstaffphoto/CE/STAF/393.jpg",
-            width: "53%",
-            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CESTF109" target="_blank" rel="noopener noreferrer">Mrs. Doniya Johnson</a>,
-            content: "Tradesman"
           }
         ]
       },

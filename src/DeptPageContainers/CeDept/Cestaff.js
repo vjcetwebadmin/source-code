@@ -52,13 +52,7 @@ class CEStaff extends Component {
     name: "Mr. Mahesh Sankar",
     content: "Tradesman"
   };
-  Cefaculty8 = {
-    instanceID: "Cefaculty8",
-    image: "Allstaffphoto/CE/STAF/393.jpg",
-    width: "50%",
-    name: "Mrs. Doniya Johnson",
-    content: "Tradesman"
-  };
+
   render() {
     return (
       <div className="faculty">
@@ -83,9 +77,6 @@ class CEStaff extends Component {
           </div>
           <div>
             <FacultyData data={this.Cefaculty7} />
-          </div>
-          <div>
-            <FacultyData data={this.Cefaculty8} />
           </div>
         </div>
       </div>
