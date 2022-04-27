@@ -21,7 +21,7 @@ class FacultyNav extends Component {
   render() {
     return (
       <div class="facultyNav">
-        {/* <input
+        <input
           type="button"
           value="Faculty"
           class="buttongraph"
@@ -32,7 +32,7 @@ class FacultyNav extends Component {
           value="Technical Staff"
           class="buttongraph"
           onClick={this.OnClickStaff}
-        />*/}
+        />
         <div class="FacultyNavContent">
           {this.state.showfaculty ? <CSFaculty /> : null}
           {this.state.showstaff ? <CSStaff /> : null}

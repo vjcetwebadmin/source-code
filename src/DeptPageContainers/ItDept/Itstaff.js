@@ -27,7 +27,7 @@ class ITStaff extends Component {
     instanceID: "Cefaculty4",
     image: "Allstaffphoto/IT/STAF/ITSTJosmy.jpeg",
     width: "50%",
-    name: "Ms. Josmy Jose",
+    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ITSTF105" target="_blank" rel="noopener noreferrer">Ms. Josmy Jose</a>,
     content: "Computer Programmer"
   };
 

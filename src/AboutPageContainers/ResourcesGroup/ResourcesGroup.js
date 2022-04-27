@@ -32,7 +32,7 @@ class ResourcesGroup extends Component {
     title: "AICTE Documents",
     icon: "Icons/icon3.svg",
     /*filePath: "/downloads/AICTE.pdf"*/
-    filePath: "https://vjcet.org/downloads/academic/Mandatory2021.pdf"
+    filePath: "https://vjcet.org/downloads/about/Mandatory2022.pdf"
 
   };
 

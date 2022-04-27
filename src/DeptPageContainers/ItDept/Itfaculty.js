@@ -93,21 +93,21 @@ class ITFaculty extends Component {
     instanceID: "Cefaculty13",
     image: "Allstaffphoto/IT/FAC/itfac116.jpg",
     width: "50%",
-    name: "Ms. Shilpa Sugathan",
+    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ITFAC119" target="_blank" rel="noopener noreferrer">Ms. Shilpa Sugathan</a>,
     content: "Assistant Professor"
   };
   Cefaculty14 = {
     instanceID: "Cefaculty14",
     image: "Allstaffphoto/IT/FAC/NibinIT.JPG",
     width: "50%",
-    name: "Mr. Nidhin R",
+    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ITFAC118" target="_blank" rel="noopener noreferrer">Mr. Nidhin R</a>,
     content: "Assistant Professor"
   };
   Cefaculty15 = {
     instanceID: "Cefaculty15",
     image: "Allstaffphoto/IT/FAC/AnittaIT.jpg",
     width: "50%",
-    name: "Ms. Anitta K mathew",
+    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ITFAC117" target="_blank" rel="noopener noreferrer">Ms. Anitta K mathew</a>,
     content: "Assistant Professor"
   };
   render() {
@@ -149,15 +149,14 @@ class ITFaculty extends Component {
             <FacultyData data={this.Cefaculty11} />
           </div> 
           <div>
-            <FacultyData data={this.Cefaculty13} />
+            <FacultyData data={this.Cefaculty15} />
           </div>
           <div>
             <FacultyData data={this.Cefaculty14} />
           </div>
           <div>
-            <FacultyData data={this.Cefaculty15} />
-          </div>
-             
+            <FacultyData data={this.Cefaculty13} />
+          </div>             
         </div>
       </div>
     );

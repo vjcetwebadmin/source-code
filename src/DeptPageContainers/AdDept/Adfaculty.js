@@ -35,7 +35,7 @@ class CSFaculty extends Component {
     instanceID: "Cefaculty5",
     image: "Allstaffphoto/AD/FAC/MaryNirmala.jpeg",
     width: "50%",
-    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ECFAC130" target="_blank" rel="noopener noreferrer">Mrs.Mary Nirmala George</a>,
+    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ECFAC130" target="_blank" rel="noopener noreferrer">Mrs. Mary Nirmala George</a>,
     content: "Assistant Professor"
   };
   Cefaculty6 = {

@@ -208,7 +208,7 @@ class MenuOverlay extends Component {
                 to="/about/mandatorydisclosure"
                 className="MenuOverlaySubLinks"
               >
-                Mandatory Disclosure
+                Mandatory Disclosure & EOA
             </Link>
             <div className="wseparator"></div>
               <Link
