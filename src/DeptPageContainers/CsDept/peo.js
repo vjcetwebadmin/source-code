@@ -68,7 +68,8 @@ class PEO extends Component {
         <Bodythree data={this.psoListThree} />
         <div className="HeadingOne">
             <h1>Course Outcomes</h1>
-            <a href="https://vjcet.org/downloads/COs/CSE.xlsx" target="_blank" rel="noopener noreferrer"><b>Click Here to download COs</b></a>
+            <a href="https://vjcet.org/downloads/COs/CSE.xlsx" target="_blank" rel="noopener noreferrer"><b>Click Here to download CSE COs</b></a> <br />  <br />
+            <a href="https://vjcet.org/downloads/COs/CG.xlsx" target="_blank" rel="noopener noreferrer"><b>Click Here to download CG COs</b></a>
         </div>
       </div>
     );

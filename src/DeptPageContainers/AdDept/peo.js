@@ -67,8 +67,8 @@ class PEO extends Component {
         <Bodythree data={this.psoListTwo} />
         <Bodythree data={this.psoListThree} />
         <div className="HeadingOne">
-            {/*<h1>Course Outcomes</h1>
-            <a href="https://vjcet.org/downloads/COs/CSE.xlsx" target="_blank" rel="noopener noreferrer"><b>Click Here to download COs</b></a>*/}
+            <h1>Course Outcomes</h1>
+            <a href="https://vjcet.org/downloads/COs/AD.xlsx" target="_blank" rel="noopener noreferrer"><b>Click Here to download COs</b></a>
         </div>
       </div>
     );

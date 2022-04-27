@@ -45,6 +45,11 @@ grievwriteup4 = {
 	instanceID: "grievwriteup4",
 	title: "Anti-Ragging Squad"
 };
+
+grievwriteup5 = {
+	instanceID: "grievwriteup5",
+	title: "Internal Compliance Committee"
+};
  
   render() {
     return (
@@ -54,6 +59,7 @@ grievwriteup4 = {
         <p><b><BodyOneJustified data={this.grievwriteup2}></BodyOneJustified></b></p>
         <p><b><BodyOneJustified data={this.grievwriteup3}></BodyOneJustified></b></p>
         <p><b><BodyOneJustified data={this.grievwriteup4}></BodyOneJustified></b></p>
+        <p><b><BodyOneJustified data={this.grievwriteup5}></BodyOneJustified></b></p>
         <br />       
        <table id="tableformat">
 	      <tbody>
@@ -141,6 +147,18 @@ grievwriteup4 = {
           <tr><td>Mr. Lovin Varghese</td><td>Asst.Professor, ME</td></tr>
           <tr><td>Mrs. Dany Sebastian</td><td>Asst.Professor, S&H</td></tr>
           <tr><td>Mr. Sebin Joseph</td><td>Asst.Professor, MBA</td></tr>
+      	</tbody>
+      </table>
+      <br />       
+       <table id="tableformat">
+	      <tbody>
+		      <tr><th colSpan="2">Internal Compliance Committee</th></tr>
+          <tr><td style={{width:"60%"}}>Name</td><td>Phone Number</td></tr>
+          <tr><td>Dr. Sony Kurian, Associate Professor, EEE</td><td>9447925215</td></tr>
+          <tr><td>Dr. Cyriac M. Odackal, Associate Professor, ECE</td><td>9447506638</td></tr>
+          <tr><td>Mrs. Jesline Joseph, Assistant Professor, IT</td><td>9447828173</td></tr>
+          <tr><td>Mrs. Merlin Thomas, Assistant Professor, ECE</td><td>9446741339</td></tr>
+          <tr><td>Mr. Lijo Mathew, Computer Programmer, CSE</td><td>9447751306</td></tr>
       	</tbody>
       </table>
      </div>
