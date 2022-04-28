@@ -67,7 +67,7 @@ class nss extends React.Component {
                             <div><a href="http://ieeexplore.ieee.org" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage8}/></a> </div> 
                             {/*<div><a href="http://ascelibrary.org" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage9}/></a> </div>
                             <div><a href="http://asmedigitalcollection.asme.org" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage10}/></a> </div>*/}
-                            <div><a href="https://www.sciencedirect.com/" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage12}/></a> </div>
+                            <div><a href="https://www.knimbus.com/apjaktudl.html" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage12}/></a> </div>
                             <div><a href="https://search.ebscohost.com" target="_blank" rel="noopener noreferrer"><ImageOne data={this.NsslogoImage11}/></a> </div>                                             
                         </div>                                                
  

@@ -108,11 +108,10 @@ class Newsfive extends React.Component {
                  <p></p><br></br>
                  <p><b>Semester 2</b></p>
                 <iframe src="https://vjcet.org/downloads/news/S2Fee2022.jpg" width="100%" height="600" title="Campus Map" align="center"></iframe> 
-                <p><b>Semester 6 and Semester 8</b></p>              
-                 <iframe src="https://vjcet.org/downloads/news/Untitled-1.jpg" width="100%" height="600" title="Campus Map" align="center"></iframe>    
-                <p></p><br></br>
-                  <iframe src="https://vjcet.org/downloads/news/S8Fee.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>                       
-                 
+                <p><b>Semester 4</b></p>              
+                 <iframe src="https://vjcet.org/downloads/news/FeeS4.jpg" width="100%" height="600" title="Campus Map" align="center"></iframe>    
+                <p><b>Semester 6</b></p>              
+                <iframe src="https://vjcet.org/downloads/news/Untitled-1.jpg" width="100%" height="600" title="Campus Map" align="center"></iframe>    
                 </div>
                 <Footer data={this.HomePageFooter} />
                 {this.state.showMenu ? (<MenuOverlay closeMenuFunction={this.closeMenu} />) : ("")}
