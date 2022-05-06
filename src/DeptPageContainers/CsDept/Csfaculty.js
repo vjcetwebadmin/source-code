@@ -191,8 +191,7 @@ class CSFaculty extends Component {
           </div>
           <div>
             <FacultyData data={this.Cefaculty4} />
-          </div>
-      
+          </div>         
            <div>
             <FacultyData data={this.Cefaculty7} />
           </div>

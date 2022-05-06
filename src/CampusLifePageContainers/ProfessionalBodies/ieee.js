@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 /* import HeadingOne from "../../Components/Texts/HeadingOne"; */
 import BodyOneJustified from "../../Components/Texts/BodyOneJustified"
-
+import ImageOne from "../../Components/Images/ImageOne";
 import ImageTwo from "../../Components/Images/imageTwo";
 import HeadingThree from "../../Components/Texts/HeadingThree";
-
 import "../../Components/Tables/tableformat.css";
 import Header from "../../Components/Header&Footer/Header";
 class Profile extends Component {
@@ -97,7 +96,46 @@ ActivitiesHeading = {
     instanceID: "Features13",
     title: "IEEE WIE AG VJCET focus on the improvement of our women volunteers in order to make them technical and skillful engineers. Also provide workshops and training sessions on latest technologies."
   };
-
+  EEEimage1 = {
+    instanceID: "EEEimage1",
+    image: "ProfessionalBodies/IEEE/EEEevent1.jpeg",
+    width: "50%"
+}
+EEEimage2 = {
+  instanceID: "EEEimage2",
+  image: "ProfessionalBodies/IEEE/EEEevent2.jpeg",
+  width: "50%"
+}
+EEEimage3 = {
+  instanceID: "EEEimage3",
+  image: "ProfessionalBodies/IEEE/EEEevent3.jpeg",
+  width: "50%"
+}
+EEEimage4 = {
+  instanceID: "EEEimage4",
+  image: "ProfessionalBodies/IEEE/EEEevent4.jpeg",
+  width: "50%"
+}
+EEEimage6 = {
+  instanceID: "EEEimage6",
+  image: "ProfessionalBodies/IEEE/EEEevent6.jpeg",
+  width: "50%"
+}
+EEEimage7 = {
+  instanceID: "EEEimage7",
+  image: "ProfessionalBodies/IEEE/EEEevent7.jpeg",
+  width: "50%"
+}
+EEEimage8 = {
+  instanceID: "EEEimage8",
+  image: "ProfessionalBodies/IEEE/EEEevent8.jpeg",
+  width: "50%"
+}
+EEEimage9 = {
+  instanceID: "EEEimage9",
+  image: "ProfessionalBodies/IEEE/EEEevent9.jpeg",
+  width: "50%"
+}
   render() {
     return (
       <div className="Program" id="program">
@@ -172,6 +210,23 @@ ActivitiesHeading = {
                             <tr><td>29</td><td>WIE Week Events</td><td>05–05-2021 to 08–05-2021</td><td>As part of WIE week Clusters are formed with 3 colleges. Our Cluster has conducted 3 events - Ginete -(Article writing competition), Wings up ( webinar) by Dr. Priya. V.S she is the 1st Transgender Doctor of Kerala , Interniteo (quiz competition).</td></tr>
                             </table>
 
+                            <br />
+                        <p style={{textAlign:"center"}}><ImageOne data={this.EEEimage1} /></p>
+                        <br /> 
+                        <p style={{textAlign:"center"}}><ImageOne data={this.EEEimage2} /></p>
+                        <br />  
+                        <p style={{textAlign:"center"}}><ImageOne data={this.EEEimage3} /></p>
+                        <br />  
+                        <p style={{textAlign:"center"}}><ImageOne data={this.EEEimage4} /></p>
+                        <br />  
+                        <p style={{textAlign:"center"}}><ImageOne data={this.EEEimage6} /></p>
+                        <br />  
+                        <p style={{textAlign:"center"}}><ImageOne data={this.EEEimage7} /></p>
+                        <br />  
+                        <p style={{textAlign:"center"}}><ImageOne data={this.EEEimage8} /></p>
+                        <br />   
+                        <p style={{textAlign:"center"}}><ImageOne data={this.EEEimage9} /></p>
+                        <br /> 
                             
         </div>
       </div>

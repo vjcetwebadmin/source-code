@@ -80,6 +80,8 @@ class Profile extends Component {
                    <tr><td>Dr. Sony Kurian</td><td>KTU, EEE</td><td>Yes</td><td>NA</td><td>Recognized as Research Guide under KTU. Students are not assigned</td></tr>
                    <tr><td>Dr. K. Shunmugesh</td><td>KTU, ME</td><td>Yes</td><td>NA</td><td>Recognized as Research Guide under KTU. Students are not assigned</td></tr>
                    <tr><td>Dr. Sajan T John</td><td>KTU, MBA, ME</td><td>Yes</td><td>NA</td><td>Recognized as Research Guide under KTU. Students are not assigned</td></tr>
+                   <tr><td>Dr. Anita Brigit Mathew</td><td>KTU, CSE</td><td>Yes</td><td>NA</td><td>Recognized as Research Guide under KTU. Students are not assigned</td></tr>
+                   
                    </table>
                    <br></br>
  
