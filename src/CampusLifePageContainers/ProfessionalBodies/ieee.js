@@ -28,6 +28,10 @@ ActivitiesHeading = {
   instanceID: "ActivitiesHeading",
   title: "Student Branch Events"
 };
+ActivitiesHeadingnew = {
+  instanceID: "ActivitiesHeadingnew",
+  title: "Upcoming Event"
+};
   Features1 = {
     instanceID: "Features1",
     title: "IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity. IEEE and its members inspire a global community through its highly cited publications, conferences, technology standards, and professional and educational activities."
@@ -210,6 +214,14 @@ EEEimage9 = {
                             <tr><td>29</td><td>WIE Week Events</td><td>05–05-2021 to 08–05-2021</td><td>As part of WIE week Clusters are formed with 3 colleges. Our Cluster has conducted 3 events - Ginete -(Article writing competition), Wings up ( webinar) by Dr. Priya. V.S she is the 1st Transgender Doctor of Kerala , Interniteo (quiz competition).</td></tr>
                             </table>
 
+                            <br />
+                            <HeadingThree data={this.ActivitiesHeadingnew} /> 
+                            <p style={{ fontSize:"22px"}}><i>"If a window of opportunity appears, don't pull down the shade.”</i>~Tom Peters</p>
+                            <p style={{ fontSize:"18px"}}><b>IEEE Signal Processing Society (SPS), Kerala Chapter</b> is more than delighted to announce that our most anticipated flagship event, <b>SIGNAL</b>, co hosted by <b>Viswajyothi College of Engineering and Technology (VJCET)</b>, is live now!</p>
+                            <p style={{ fontSize:"18px"}}>The 3-day extravaganza is filled with amazing speakers, networking sessions, and cultural nights.The event also includes inspiring keynotes and uses case-focused sessions to help meet today’s technology challenges while preparing for tomorrow’s opportunities.</p>
+                            <p style={{ fontSize:"18px"}}>Date: <b>13th - 15th May, 2022</b> </p>
+                            <p style={{ fontSize:"18px"}}>What are you waiting for? To know more about the event and for registrations, visit the link given below:</p>
+                            <p align="center" style={{ fontSize:"20px"}}><a href="https://sps.ieeekerala.org/signal/" target="_blank" rel="noopener noreferrer"><b>SIGNAL</b></a></p>                            
                             <br />
                         <p style={{textAlign:"center"}}><ImageOne data={this.EEEimage1} /></p>
                         <br /> 
