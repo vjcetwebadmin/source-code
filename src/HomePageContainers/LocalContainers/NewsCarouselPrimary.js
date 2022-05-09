@@ -113,6 +113,18 @@ class NewsCarouselPrimary extends Component {
     //Recommended Image Size is 733px x 400px.
     width: "94%"
   };
+  Image17 = {
+    instanceID: "NewsPrimaryOneImage",
+    image: "NewsSection/BigNews/Ieenews1.jpeg",
+    //Recommended Image Size is 733px x 400px.
+    width: "84%"
+  };
+  Image18 = {
+    instanceID: "NewsPrimaryOneImage",
+    image: "NewsSection/BigNews/Ieenews2.jpeg",
+    //Recommended Image Size is 733px x 400px.
+    width: "64%"
+  }; 
   Title6 = {
     instanceID: "NewsPrimaryOneTitle",
     title: "Viswajyothi ranked 9th out of 13 in the Cybathlon Competition",
@@ -122,6 +134,11 @@ class NewsCarouselPrimary extends Component {
     instanceID: "NewsPrimaryOneTitle",
     title: "NSS Camp 2021",
     link: ""
+  };
+  Title7 = {
+    instanceID: "NewsPrimaryOneTitle",
+    title: "SIGNAL",
+    link: "https://vjcet.org/#/campus-life/professionalbodies"
   };
   
  /*  Image13 = {
@@ -157,7 +174,17 @@ class NewsCarouselPrimary extends Component {
               <h3>{this.Title4.title}</h3>
             </Carousel.Caption>
           }
-        </Carousel.Item>  */}             
+        </Carousel.Item>  */}  
+        <Carousel.Item>          
+          <a href={this.Title7.link}>
+          <NewsImage data={this.Image17} />
+          </a>
+        </Carousel.Item>  
+        <Carousel.Item>          
+          <a href={this.Title7.link}>
+          <NewsImage data={this.Image18} />
+          </a>
+        </Carousel.Item>             
         <Carousel.Item>
           <iframe width="630" height="400"
           src="https://www.youtube.com/embed/SwEhkhJGwrA">
