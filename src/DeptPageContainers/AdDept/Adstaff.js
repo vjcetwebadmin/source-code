@@ -4,7 +4,7 @@ class CSStaff extends Component {
   state = {};
   AIStaff1 = {
     instanceID: "AIStaff1",
-    image: "Allstaffphoto/CS/STAF/94.jpg",
+    image: "Allstaffphoto/AD/STAF/ADSTF1.jpg",
     width: "50%",
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=AISTF101" target="_blank" rel="noopener noreferrer">Mrs. Meenu C Thayil</a>,
     content: "Instructor-Grade II"
@@ -15,9 +15,9 @@ class CSStaff extends Component {
     return (
       <div className="faculty">
         <div className="facultyContent">
-         {/* <div>
+          <div>
             <FacultyData data={this.AIStaff1} />
-         </div>*/}
+         </div>
           
         </div>
       </div>
