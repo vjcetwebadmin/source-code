@@ -176,12 +176,12 @@ class NewsCarouselPrimary extends Component {
           }
         </Carousel.Item>  */}  
         <Carousel.Item>          
-          <a href={this.Title7.link}>
+          <a href={this.Title7.link}  target="_blank" rel="noopener noreferrer">
           <NewsImage data={this.Image17} />
           </a>
         </Carousel.Item>  
         <Carousel.Item>          
-          <a href={this.Title7.link}>
+          <a href={this.Title7.link}  target="_blank" rel="noopener noreferrer">
           <NewsImage data={this.Image18} />
           </a>
         </Carousel.Item>             

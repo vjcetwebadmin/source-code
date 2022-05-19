@@ -5,11 +5,10 @@ class CSStaff extends Component {
   AIStaff1 = {
     instanceID: "AIStaff1",
     image: "Allstaffphoto/AD/STAF/ADSTF1.jpg",
-    width: "50%",
+    width: "100%",
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=AISTF101" target="_blank" rel="noopener noreferrer">Mrs. Meenu C Thayil</a>,
     content: "Instructor-Grade II"
-  };
- 
+  }; 
   
   render() {
     return (
