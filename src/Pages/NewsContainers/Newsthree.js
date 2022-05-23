@@ -80,7 +80,7 @@ class Newsthree extends React.Component {
                    <HeadingTwo data={this.NewsTitle1} />
                   <iframe src="https://vjcet.org/downloads/news/FacRec.pdf#zoom=115" width="90%" height="800" title="Faculty Recruitment" align="center"></iframe>
                     */}
-                    <h2>As per the KTU Circular No. KTU/ACI/1409/2021 dated 30-10-2021, B.Tech 3rd semester classes will commence on 15th November and 5th semester classes will commence on 18th November 2021, in offline mode.</h2>
+                    <h2>VJCET has been accredited by the National Assessment and Accreditation Council(NAAC) in May 2022. This Accreditation is valid for the next 5 years.</h2>
                 </div>
                 <Footer data={this.HomePageFooter} />
                 {this.state.showMenu ? (<MenuOverlay closeMenuFunction={this.closeMenu} />) : ("")}
