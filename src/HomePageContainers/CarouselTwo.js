@@ -7,14 +7,13 @@ class CarouselTwo extends Component {
   data = [
     {
       instanceID: this.props.data.instanceID + "CustomOne",
+      title: <a href="https://vjcet.org/#/newseight"  rel="noopener noreferrer"><font color="FFFFF" size="4">Wanted Assistant Professors in English and MBA</font></a>
+    },
+    {
+      instanceID: this.props.data.instanceID + "CustomOne",
       title: <a href="https://vjcet.org/#/newsnine"  rel="noopener noreferrer"><font color="FFFFF" size="4">College Timing</font></a>
     }, 
-    /* {
-      instanceID: this.props.data.instanceID + "CustomOne",
-      title: <a href="https://vjcet.org/#/newseight"  rel="noopener noreferrer"><font color="FFFFF" size="4">Wanted Assistant Professor (IT and CS)</font></a>
-    },   
-
-  
+  /*
       instanceID: this.props.data.instanceID + "CustomOne",
       title: <a href="https://vjcet.org/#/newsthree"  rel="noopener noreferrer"><font color="FFFFF" size="4">As per the KTU Circular No. KTU/ACI/1409/2021 dated 30-10-2021, B.Tech 3rd semester classes will commence........</font></a>
     },*/    
