@@ -28,6 +28,19 @@ export default function CarouselFour({ data }) {
     {
       Title: {
         instanceID: "EventFiveTitle",
+        title:<a href="https://vjcet.org/downloads/gallery/boddrishya2022.html" rel="noopener noreferrer"  target="_blank"><font color="maroon">Bodhi & Drishya 2022</font></a>
+        
+      },
+
+      Image: {
+        instanceID: "EventOneImage",
+        image: "CarouselFourImages/bodhi.jpg",
+        width: "100px",
+      }
+    },
+    {
+      Title: {
+        instanceID: "EventFiveTitle",
         title: <a href="https://vjcet.org/downloads/gallery/christmas21.html" rel="noopener noreferrer"  target="_blank"><font color="maroon">Christmas 21</font></a>
       },
 
