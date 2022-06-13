@@ -62,8 +62,7 @@ export default function CarouselFour({ data }) {
         image: "CarouselFourImages/farewell.png",
         width: "100px",
       }
-    },
-    
+    },   
     {
       Title: {
         instanceID: "EventTwoTitle",
