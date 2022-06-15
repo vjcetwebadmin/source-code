@@ -183,7 +183,7 @@ class CSFaculty extends Component {
     instanceID: "Csfaculty31",
     image: "Allstaffphoto/CS/FAC/134.jpg",
     width: "50%",
-    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CSFAC134" target="_blank" rel="noopener noreferrer">Ms. ANJU MARKOSE</a>,
+    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CSFAC134" target="_blank" rel="noopener noreferrer">Mrs. ANJU MARKOSE</a>,
     content: "Assistant Professor"
   };
   
