@@ -147,6 +147,7 @@ class Header extends Component {
     title: "NAAC SSR",
     link: "https://vjcet.org/downloads/KLCOGN110370.pdf"
   };  
+
   LineHeading = {
     instanceID: "LineHeading"
   };
@@ -207,7 +208,7 @@ class Header extends Component {
             {/*<AnchorLink data={this.Link7} /> <AnchorLink data={this.Link13}/>*/}
             <AnchorLink data={this.Link10} />
             <AnchorLink data={this.Link12} />
-            <ExternalLink data={this.Link14} />
+            <ExternalLink data={this.Link14} />           
           </div>
         </div>
       </div>

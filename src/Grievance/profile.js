@@ -65,15 +65,24 @@ grievwriteup5 = {
 	      <tbody>
 		      <tr><th colSpan="2">Students' Grievance Redressal / Appeal Committee</th></tr>
             <tr><td style={{width:"40%"}}>Name</td><td>Designation</td></tr>
-            <tr><td>Mr. Somy P. Mathew</td><td>Vice-Principal</td></tr>
-            <tr><td>Dr. Shine George</td><td>HOD CE</td></tr>
-            <tr><td>Mr. Amel Austine</td><td>HOD CSE</td></tr>
-            <tr><td>Dr. Sony Kurian</td><td>HOD EEE(in-charge)</td></tr>
+            <tr><td>Dr. K K Rajan</td><td>Principal</td></tr>
+            <tr><td>Dr. Sony Kurian</td><td>HOD EEE</td></tr>
             <tr><td>Ms. Smitha Cyriac</td><td>HOD ECE</td></tr>
-            <tr><td>Ms. Anju Susan George</td><td>HOD IT</td></tr>
-            <tr><td>Dr. Shunmugesh K</td><td>HOD ME</td></tr>
-            <tr><td>Mr. Biju George</td><td>HOD S&H</td></tr>
+            <tr><td>Mr. Vinoj K</td><td>Associate Professor ME</td></tr>
+            <tr><td>Mr. Mathukutty Manoj</td><td>Students Council Chairman</td></tr>
+      	</tbody>
+      </table>
+
+      <br />       
+       <table id="tableformat">
+	      <tbody>
+		      <tr><th colSpan="2">Grievance Redressal Committee For Faculty/Staff</th></tr>
+            <tr><td style={{width:"40%"}}>Name</td><td>Designation</td></tr>
+            <tr><td>Dr. K K Rajan</td><td>Principal</td></tr>
             <tr><td>Dr. Cyriac Joseph</td><td>Dean & HOD MBA</td></tr>
+            <tr><td>University Nominee</td><td></td></tr>
+            <tr><td>University/DTE nominated <br /><br />by Vice-Chancellor</td><td></td></tr>
+            
       	</tbody>
       </table>
 

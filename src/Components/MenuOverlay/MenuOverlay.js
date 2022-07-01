@@ -18,7 +18,8 @@ class MenuOverlay extends Component {
       menuItem11: true,
       menuItem12: true,
       menuItem13: true,
-      menuItem14: true
+      menuItem14: true,
+
     };
   }
 
@@ -92,7 +93,7 @@ class MenuOverlay extends Component {
       menuItem14: !this.state.menuItem14
     });
   }
-
+  
 
   render() {
     var menuItem1Style = {
@@ -141,6 +142,7 @@ class MenuOverlay extends Component {
     var menuItem14Style = {
       display: this.state.menuItem14 ? "none" : "grid"
     };
+    
 
 
     return (
@@ -224,6 +226,8 @@ class MenuOverlay extends Component {
               >
                 Code of Conduct
             </Link>
+
+            
             {/*<div className="wseparator"></div>
               <Link
                 to="/about/annualrpt"
@@ -527,11 +531,14 @@ class MenuOverlay extends Component {
             IQAC
           </Link>          
           </div>
+        
           <div className="separator"></div>
           <div id="menuItem13">
-          <div className="MenuOverlayItem">
-          <a href="https://vjcet.org/downloads/KLCOGN110370.pdf" className="MenuOverlaySubLinks">NAAC SSR</a>
-          </div></div>
+            <div className="MenuOverlayItem">
+            <a href="https://vjcet.org/downloads/KLCOGN110370.pdf" className="MenuOverlaySubLinks">NAAC SSR</a>
+            </div>
+          </div>
+          
         </div>
       </div>
     );

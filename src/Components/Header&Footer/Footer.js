@@ -85,7 +85,7 @@ class Footer extends Component {
   Link3 = {
     instanceID: "Link3",
     title: "Departments",
-    link: "/departments"
+    link: "/departments/admin"
   };
 
   Link4 = {
