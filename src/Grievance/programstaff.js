@@ -9,12 +9,12 @@ class Profile extends Component {
   };
   Features1 = {
     instanceID: "Features1",
-    title: "In order to submit complaints and difficulties of the student community we provide following mechanisms:"
+    title: "In order to submit complaints and difficulties of the staff community we provide following mechanisms:"
   };
 
   Features2 = {
     instanceID: "Features2",
-    title: "•	Students are free to handover the grievances to any of the committee members."
+    title: "•	Staff members are free to handover the grievances to any of the committee members."
   };
   Features3 = {
     instanceID: "Features3",

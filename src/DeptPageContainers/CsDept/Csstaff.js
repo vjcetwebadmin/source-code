@@ -9,13 +9,13 @@ class CSStaff extends Component {
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CSSTF102" target="_blank" rel="noopener noreferrer">Mr. Lijo Mathew</a>,
     content: "Systems Engineer"
   };
-  Cefaculty3 = {
+  /*Cefaculty3 = {
     instanceID: "Cefaculty3",
     image: "Allstaffphoto/CS/STAF/95.jpg",
     width: "50%",
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CSSTF103" target="_blank" rel="noopener noreferrer">Mr. Sijo Jose</a>,
     content: "Computer Programmer"
-  };
+  };*/
   Cefaculty4 = {
     instanceID: "Cefaculty4",
     image: "Allstaffphoto/CS/STAF/96.jpg",
@@ -87,9 +87,9 @@ class CSStaff extends Component {
           <div>
             <FacultyData data={this.Cefaculty2} />
           </div>
-          <div>
+          {/*<div>
             <FacultyData data={this.Cefaculty3} />
-          </div>
+          </div>*/}
           <div>
             <FacultyData data={this.Cefaculty4} />
           </div>

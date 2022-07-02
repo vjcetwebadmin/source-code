@@ -184,7 +184,15 @@ class CSFaculty extends Component {
     width: "50%",
     name: "Dr. Francis Cherunilam",
     content: "Former Director, SMS CUSAT, Author"
+  };   
+  Cefaculty27 = {
+    instanceID: "Cefaculty27",
+    image: "Allstaffphoto/MBA/FAC/man.jpg",
+    width: "50%",
+    name: "Dr.T M George",
+    content: "Professor"
   };    
+
   render() {
     return (
       <div className="faculty">
@@ -267,6 +275,9 @@ class CSFaculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty26} />
           </div>                   
+          <div>
+            <FacultyData data={this.Cefaculty27} />
+          </div>  
         </div>
       </div>
     );

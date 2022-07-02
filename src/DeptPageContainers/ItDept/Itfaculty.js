@@ -45,13 +45,13 @@ class ITFaculty extends Component {
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ITFAC107" target="_blank" rel="noopener noreferrer">Mrs. Tiny Molly V</a>,
     content: "Assistant Professor"
   };
-  Cefaculty6 = {
+  /*Cefaculty6 = {
     instanceID: "Cefaculty6",
     image: "Allstaffphoto/IT/FAC/186.jpg",
     width: "50%",
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ITFAC108" target="_blank" rel="noopener noreferrer">Mr. Prince Kurian</a>,
     content: "Assistant Professor"
-  };
+  };*/
   Cefaculty7 = {
     instanceID: "Cefaculty7",
     image: "Allstaffphoto/IT/FAC/itfac005.jpg",
@@ -132,9 +132,9 @@ class ITFaculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty5} />
           </div>
-          <div>
+          {/*<div>
             <FacultyData data={this.Cefaculty6} />
-          </div>
+          </div>*/}
           <div>
             <FacultyData data={this.Cefaculty7} />
           </div>

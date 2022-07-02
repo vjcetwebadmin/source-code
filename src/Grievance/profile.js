@@ -25,11 +25,16 @@ class Library extends Component {
 
 grievwriteup = {
 	instanceID: "ProjLabUGwriteup1",
-	title: "VJCET Student Grievance and Redressal Policy formulated in alignment with the “All India Council for Technical  Education (Prevention and Prohibition of Ragging in Technical  Institutions, Universities including Deemed to be Universities  imparting technical education) Regulations 2009” and “UGC Regulations curbing the menace of ragging in higher educational institutions, 2009” which have been notified on 4th July, 2009 in the Gazette of India;  and revised as per the public notice issued by  APJ Abdul Kalam Technological University on “Curbing the Menace of Ragging in KTU Affiliated Technical Institutions” on 10th August, 2015. Following are the four entities functioning in parallel to realize the objectives:"
+	title: "VJCET Student/Staff Grievance and Redressal Policy formulated in alignment with the “All India Council for Technical  Education (Prevention and Prohibition of Ragging in Technical  Institutions, Universities including Deemed to be Universities  imparting technical education) Regulations 2009” and “UGC Regulations curbing the menace of ragging in higher educational institutions, 2009” which have been notified on 4th July, 2009 in the Gazette of India;  and revised as per the public notice issued by  APJ Abdul Kalam Technological University on “Curbing the Menace of Ragging in KTU Affiliated Technical Institutions” on 10th August, 2015. Following are the four entities functioning in parallel to realize the objectives:"
 };
 grievwriteup1 = {
 	instanceID: "grievwriteup1",
-	title: "The Student Grievance Redressal Cell"
+	title: "Students Grievance Redressal Committee"
+};
+
+grievwriteup6 = {
+	instanceID: "grievwriteup6",
+	title: "Staff Grievance Redressal Committee"
 };
 
 grievwriteup2 = {
@@ -56,6 +61,7 @@ grievwriteup5 = {
       <div className="DeptLibrary" id="dept-library">
         <BodyOneJustified data={this.grievwriteup}></BodyOneJustified>
         <p><b><BodyOneJustified data={this.grievwriteup1}></BodyOneJustified></b></p>
+        <p><b><BodyOneJustified data={this.grievwriteup6}></BodyOneJustified></b></p>
         <p><b><BodyOneJustified data={this.grievwriteup2}></BodyOneJustified></b></p>
         <p><b><BodyOneJustified data={this.grievwriteup3}></BodyOneJustified></b></p>
         <p><b><BodyOneJustified data={this.grievwriteup4}></BodyOneJustified></b></p>

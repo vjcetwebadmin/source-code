@@ -160,7 +160,7 @@ class Footer extends Component {
 
   Link14 = {
   instanceID: "Link14",
-  title: "Students Grievance and Redressal",
+  title: "Grievance and Redressal",
   link: "/greve"
   };
 
