@@ -31,13 +31,13 @@ class CSFaculty extends Component {
     name: <a href="https://vjcet.org/downloads/MbaProfile/Mr.Anish John A-converted.pdf" target="_blank" rel="noopener noreferrer">Mr. Anish John A</a>,
     content: "Assistant Professor"
   };
-  Cefaculty5 = {
+  /*Cefaculty5 = {
     instanceID: "Cefaculty5",
     image: "Allstaffphoto/MBA/FAC/pratheepkumar.jpg",
     width: "50%",
     name: <a href="https://vjcet.org/downloads/MbaProfile/Mr.pratheep kumar-converted.pdf" target="_blank" rel="noopener noreferrer">Mr. Pratheep Kumar R</a>,
     content: "Assistant Professor & Placement In Charge"
-  };
+  };*/
    Cefaculty6 = {
     instanceID: "Cefaculty6",
     image: "Allstaffphoto/MBA/FAC/merrin.jpg",
@@ -47,31 +47,38 @@ class CSFaculty extends Component {
   };
   Cefaculty7 = {
     instanceID: "Cefaculty7",
-    image: "Allstaffphoto/MBA/FAC/dranug.jpg",
+    image: "Allstaffphoto/MBA/GUEST/Guest_Gthanathu.jpg",
     width: "50%",
-    name: "Dr. Anu George",
-    content: "Associate Professor (on Leave)"
+    name: "Dr. George Thanathuparambil",
+    content: "Professor(Visit)"
   };
   Cefaculty8 = {
     instanceID: "Cefaculty8",
-    image: "Allstaffphoto/MBA/FAC/man.jpg",
+    image: "Allstaffphoto/MBA/FAC/dranug.jpg",
     width: "50%",
-    name: "Mr. Midhun Jose",
-    content: "Assistant Professor(on Leave)"
+    name: "Dr. Anu George",
+    content: "Associate Professor (on-Leave)"
   };
   Cefaculty9 = {
     instanceID: "Cefaculty9",
-    image: "Allstaffphoto/MBA/FAC/man.jpg",
+    image: "Allstaffphoto/MBA/FAC/midun.jpeg",
     width: "50%",
-    name: "Mr. Sreenath Rajagopalan Nair",
-    content: "Assistant Professor (on Leave)"
+    name: "Mr. Midhun Jose",
+    content: "Assistant Professor(on-Leave)"
   };
   Cefaculty10 = {
     instanceID: "Cefaculty10",
-    image: "Allstaffphoto/MBA/FAC/women.jpeg",
+    image: "Allstaffphoto/MBA/FAC/Sreenath.jpeg",
+    width: "50%",
+    name: "Mr. Sreenath Rajagopalan",
+    content: "Assistant Professor (on-Leave)"
+  };
+  Cefaculty11 = {
+    instanceID: "Cefaculty11",
+    image: "Allstaffphoto/MBA/FAC/Ambily.jpeg",
     width: "50%",
     name: "Ms. Ambily Jose",
-    content: "Assistant Professor (on Leave)"
+    content: "Assistant Professor (on-Leave)"
   };
 
   render() {
@@ -84,9 +91,9 @@ class CSFaculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty3} />
           </div>
-          <div>
+          {/*<div>
             <FacultyData data={this.Cefaculty5} />
-          </div>  
+          </div> */}
           <div>
             <FacultyData data={this.Cefaculty4} />
           </div>
@@ -107,6 +114,9 @@ class CSFaculty extends Component {
           </div>
           <div>
             <FacultyData data={this.Cefaculty10} />
+          </div>
+          <div>
+            <FacultyData data={this.Cefaculty11} />
           </div>
         </div>
       </div>

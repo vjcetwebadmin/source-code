@@ -66,13 +66,13 @@ class EEFaculty extends Component {
     name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=EEFAC111" target="_blank" rel="noopener noreferrer">Mr. Babu T Chacko</a>,
     content: "Assistant Professor"
   };
-  Cefaculty10 = {
+  /*Cefaculty10 = {
     instanceID: "Cefaculty10",
     image: "Allstaffphoto/EE/FAC/EEFAC112.jpg",
     width: "50%",
     name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=EEFAC112" target="_blank" rel="noopener noreferrer">Mr. Sharone Varghese</a>,
     content: "Assistant Professor"
-  };
+  };*/
   Cefaculty11 = {
     instanceID: "Cefaculty11",
     image: "Allstaffphoto/EE/FAC/120.jpg",
@@ -167,9 +167,9 @@ class EEFaculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty9} />
           </div>
-          <div>
+          {/*<div>
             <FacultyData data={this.Cefaculty10} />
-          </div>
+          </div>*/}
           <div>
             <FacultyData data={this.Cefaculty11} />
           </div>

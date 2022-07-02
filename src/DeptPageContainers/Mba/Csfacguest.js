@@ -3,13 +3,13 @@ import FacultyData from "../../Components/FacultyData";
 import "../../Components/faculty.css"
 class CSFaculty extends Component {
   state = {};
-  Cefaculty1 = {
+  /*Cefaculty1 = {
     instanceID: "Cefaculty1",
     image: "Allstaffphoto/MBA/GUEST/Guest_Gthanathu.jpg",
     width: "50%",
     name: "Dr. George Thanathuparambil",
     content: "Professor"
-  };
+  };*/
   Cefaculty2 = {
     instanceID: "Cefaculty2",
     image: "Allstaffphoto/MBA/GUEST/Guest_davisorton.jpg",
@@ -197,9 +197,9 @@ class CSFaculty extends Component {
     return (
       <div className="faculty">
         <div className="facultyContent" >
-          <div>
+          {/*<div>
             <FacultyData data={this.Cefaculty1} />
-          </div>
+          </div>*/}
           <div>
             <FacultyData data={this.Cefaculty2} />
           </div>        

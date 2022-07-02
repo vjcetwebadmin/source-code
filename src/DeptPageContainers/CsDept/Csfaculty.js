@@ -43,7 +43,7 @@ class CSFaculty extends Component {
     image: "Allstaffphoto/CS/FAC/68.jpg",
     width: "50%",
     name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CSFAC104" target="_blank" rel="noopener noreferrer">Mrs.Sindhu Jose</a>,
-    content: "Assistant Professor"
+    content: "Assistant Professor (on-Leave)"
   };
   Cefaculty8 = {
     instanceID: "Cefaculty8",
@@ -93,7 +93,7 @@ class CSFaculty extends Component {
     image: "Allstaffphoto/CS/FAC/CSFAC115.jpg",
     width: "50%",
     name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CSFAC115" target="_blank" rel="noopener noreferrer">Mrs. Rini Simon</a>,
-    content: "Assistant Professor"
+    content: "Assistant Professor (on-Leave)"
   };
   Cefaculty16 = {
     instanceID: "Cefaculty16",
@@ -149,7 +149,7 @@ class CSFaculty extends Component {
     image: "Allstaffphoto/CS/FAC/91.jpg",
     width: "50%",
     name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CSFAC127" target="_blank" rel="noopener noreferrer">Mrs. Cinita Mary Mathew</a>,
-     content: "Assistant Professor"
+     content: "Assistant Professor (on-Leave)"
   };
   Cefaculty25 = {
     instanceID: "Cefaculty25",
