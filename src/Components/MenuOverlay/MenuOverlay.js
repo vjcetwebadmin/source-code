@@ -231,7 +231,7 @@ class MenuOverlay extends Component {
                 to="/greve"
                 className="MenuOverlaySubLinks"
               >
-                Students Grievance and Redressal
+                Grievance and Redressal
             </Link>
 
             {/*<div className="wseparator"></div>

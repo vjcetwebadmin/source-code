@@ -5,7 +5,7 @@ class Profile extends Component {
   state = {};
   ProfileHeading = {
     instanceID: "ProfileHeading",
-    title: "Students Grievance Registration Mechanism"
+    title: "Staff Grievance Registration Mechanism"
   };
   Features1 = {
     instanceID: "Features1",

@@ -113,7 +113,7 @@ class DropDownAb extends Component {
               to="/greve"
               className="patch1"
             >
-              Students Grievance and Redressal
+              Grievance and Redressal
             </Link>
           </p>
           {/*<p>

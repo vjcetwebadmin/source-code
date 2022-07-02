@@ -56,7 +56,7 @@ class CsDepartment extends Component {
   };
   HeadingSectionTitle = {
     instanceID: "Headingtext",
-    title: "Students Grievance and Redressal"
+    title: "Grievance and Redressal"
   };
 
   HeadingSectionDescription = {

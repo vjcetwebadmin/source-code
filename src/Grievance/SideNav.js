@@ -2,12 +2,14 @@ import React, { Component } from "react";
 import "../Components/SideNav.css";
 import Profile from "./profile";
 import Program from "./program";
+import ProgramStaff from "./programstaff";
 class SideNav extends Component {
   state = {
     showProfile: true,
     showVision: false,
     showPeo: false,
     showProgram: false,
+    showProgramStaff: false,
     showLib: false,
     showAss: false,
     showRes: false,
@@ -19,6 +21,7 @@ class SideNav extends Component {
       showVision: false,
       showPeo: false,
       showProgram: false,
+      showProgramStaff: false,
       showLib: false,
       showAss: false,
       showRes: false,
@@ -31,6 +34,7 @@ class SideNav extends Component {
       showVision: true,
       showPeo: false,
       showProgram: false,
+      showProgramStaff: false,
       showLib: false,
       showAss: false,
       showRes: false,
@@ -43,6 +47,7 @@ class SideNav extends Component {
       showVision: false,
       showPeo: true,
       showProgram: false,
+      showProgramStaff: false,
       showLib: false,
       showAss: false,
       showRes: false,
@@ -55,6 +60,20 @@ class SideNav extends Component {
       showVision: false,
       showPeo: false,
       showProgram: true,
+      showProgramStaff: false,
+      showLib: false,
+      showAss: false,
+      showRes: false,
+      showfac: false
+    });
+  };
+  onClickProgStaff = () => {
+    this.setState({
+      showProfile: false,
+      showVision: false,
+      showPeo: false,
+      showProgram: false,
+      showProgramStaff: true,
       showLib: false,
       showAss: false,
       showRes: false,
@@ -67,6 +86,7 @@ class SideNav extends Component {
       showVision: false,
       showPeo: false,
       showProgram: false,
+      showProgramStaff: false,
       showLib: true,
       showAss: false,
       showRes: false,
@@ -79,6 +99,7 @@ class SideNav extends Component {
       showVision: false,
       showPeo: false,
       showProgram: false,
+      showProgramStaff: false,
       showLib: false,
       showAss: true,
       showRes: false,
@@ -91,6 +112,7 @@ class SideNav extends Component {
       showVision: false,
       showPeo: false,
       showProgram: false,
+      showProgramStaff: false,
       showLib: false,
       showAss: false,
       showRes: true,
@@ -103,6 +125,7 @@ class SideNav extends Component {
       showVision: false,
       showPeo: false,
       showProgram: false,
+      showProgramStaff: false,
       showLib: false,
       showAss: false,
       showRes: false,
@@ -122,10 +145,15 @@ class SideNav extends Component {
               onClick={this.onClickP}
             />
           <input
-              value="Grievance Registration Mechanism"
+              value="Students Grievance Registration"
               class="buttongriev1"
               onClick={this.onClickProg}
-           />             
+           />    
+           <input
+              value="Staff Grievance Registration"
+              class="buttongriev1"
+              onClick={this.onClickProgStaff}
+           />           
  
                 <a href="https://vjcet.org/downloads/grievance/Policy.pdf" target="_blank" rel="noopener noreferrer"><button class="buttongriev1" >Policy</button></a> 
                 <a href="https://vjcet.org/downloads/grievance/AICTEnotif.pdf" target="_blank" rel="noopener noreferrer"><button class="buttongriev1" >AICTE notification</button></a> 
@@ -217,6 +245,11 @@ class SideNav extends Component {
                 onClick={this.onClickProg}
               />
               <input
+                value="ProgramStaff"
+                class="button"
+                onClick={this.onClickProgStaff}
+              />
+              <input
                 value="Faculty"
                 class="button"
                 onClick={this.onClickFac}
@@ -241,6 +274,7 @@ class SideNav extends Component {
           <div class="content">
             {this.state.showProfile ? <Profile /> : null}
             {this.state.showProgram ? <Program /> : null}
+            {this.state.showProgramStaff ? <ProgramStaff /> : null}
             {/*{this.state.showVision ? <Vision /> : null}
             {this.state.showPeo ? <PEO /> : null}            
             {this.state.showfac ? <FacultyNav /> : null}

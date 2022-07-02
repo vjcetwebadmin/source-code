@@ -63,7 +63,7 @@ grievwriteup5 = {
         <br />       
        <table id="tableformat">
 	      <tbody>
-		      <tr><th colSpan="2">Students' Grievance Redressal / Appeal Committee</th></tr>
+		      <tr><th colSpan="2">Students Grievance Redressal / Appeal Committee</th></tr>
             <tr><td style={{width:"40%"}}>Name</td><td>Designation</td></tr>
             <tr><td>Dr. K K Rajan</td><td>Principal</td></tr>
             <tr><td>Dr. Sony Kurian</td><td>HOD EEE</td></tr>
