@@ -120,6 +120,20 @@
   margin: 0px;
   padding: 0px;
 }
+.trspacing {
+  margin: 0px;
+  padding:0px 4px;
+  width: 90%;
+  align-items: center;
+}
+.tdspacing {
+  margin: 0px;
+  padding:0px 4px; 
+  width: 50%;
+  align-items: center;
+  vertical-align: middle;
+}
+
 
 @media (min-width: 560px) {
   #HeaderNBALogo {

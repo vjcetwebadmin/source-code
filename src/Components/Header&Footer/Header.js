@@ -149,12 +149,19 @@ class Header extends Component {
   };  
   Link15 = {
     instanceID: "HeaderLink15",
-    title: "HOME",
+    title: "H",
     link: "https://vjcet.org/"
   };  
 
   LineHeading = {
     instanceID: "LineHeading"
+  };
+
+  VJCHomeIcon = {
+    instanceID: "VJCHomeIcon",
+    image: "VJCHome.png",
+    width: "20px",
+    link: "/home"
   };
 
   render() {
@@ -201,12 +208,11 @@ class Header extends Component {
           <div className="HeaderLinkTabAdmissionsOpen">
             {/* <ImageOne data={this.AdmissionsOpen} /> */}
             {/* <ExternalLink data={this.Link4} /> */}  
-            {/*<tr>
-              <td><AnchorLink data={this.Link15} /></td>  
-              <td><pre>   </pre></td>           
-              <td></td>         
-            </tr>*/}
-            <DropDownAdm />
+            <tr className="trspacing">
+              <td className="tdspacing"><a href="/"><ImageOne data={this.VJCHomeIcon} /></a>{/* <AnchorLink data={this.Link15} /> */ }</td>                         
+              <td className="tdspacing"><DropDownAdm /></td>         
+            </tr>
+            
           </div>
           <div className="HeaderLinkTabTwoGrouped">                    
             <DropDownAb />

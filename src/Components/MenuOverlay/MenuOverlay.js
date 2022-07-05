@@ -19,6 +19,7 @@ class MenuOverlay extends Component {
       menuItem12: true,
       menuItem13: true,
       menuItem14: true,
+      menuItem15: true,
 
     };
   }
@@ -93,6 +94,11 @@ class MenuOverlay extends Component {
       menuItem14: !this.state.menuItem14
     });
   }
+  menuItem15() {
+    this.setState({
+      menuItem15: !this.state.menuItem15
+    });
+  }
   
 
   render() {
@@ -142,7 +148,9 @@ class MenuOverlay extends Component {
     var menuItem14Style = {
       display: this.state.menuItem14 ? "none" : "grid"
     };
-    
+    var menuItem15Style = {
+      display: this.state.menuItem15 ? "none" : "grid"
+    };
 
 
     return (
@@ -166,6 +174,12 @@ class MenuOverlay extends Component {
               this.props.closeMenuFunction();
             }}
           />
+
+          <div id="menuItem15"  className="MenuOverlayItem">
+            <Link className="MenuOverlayItem" to="/">
+              Home
+            </Link>
+          </div>
 
           <div id="menuItem1">
             <div
