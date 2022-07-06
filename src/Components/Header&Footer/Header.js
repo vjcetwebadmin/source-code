@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
+import "./fontawesome.css";
 import "../Images/ImageOne";
 import ImageOne from "../Images/ImageOne";
 import Line from "../Lines/Line";
@@ -209,7 +210,7 @@ class Header extends Component {
             {/* <ImageOne data={this.AdmissionsOpen} /> */}
             {/* <ExternalLink data={this.Link4} /> */}  
             <tr className="trspacing">
-              <td className="tdspacing"><a href="/"><ImageOne data={this.VJCHomeIcon} /></a>{/* <AnchorLink data={this.Link15} /> */ }</td>                         
+              <td className="tdspacingHomeIcon"><a href="/"><ImageOne data={this.VJCHomeIcon} /></a>{/* <AnchorLink data={this.Link15} /> */ }</td>                         
               <td className="tdspacing"><DropDownAdm /></td>         
             </tr>
             

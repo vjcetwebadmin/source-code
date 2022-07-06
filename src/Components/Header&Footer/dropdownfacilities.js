@@ -33,7 +33,7 @@ class DropDownF extends Component {
   render() {
     return (
       <div class="dropdown">
-        <span>Facilities</span>
+        <span>Facilities <i class="fa fa-caret-down"></i></span>
         <div class="dropdown-content">
           <p>
             <Link to="/facilities/ccc" className="patch1">

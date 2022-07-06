@@ -32,7 +32,7 @@ class DropDownL extends Component {
   render() {
     return (
       <div className="dropdown">
-        <span className="fillbutton">&nbsp;&nbsp;&nbsp;&nbsp;Portal&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <span className="fillbutton">&nbsp;&nbsp;&nbsp;&nbsp;Portal&nbsp;<i class="fa fa-caret-down"></i>&nbsp;&nbsp;&nbsp;</span>
         <div className="dropdown-content">
           <p>
             <a href="https://portal.vjcet.ac.in" target="_blank" className="patch1" rel="noopener noreferrer">

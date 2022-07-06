@@ -33,7 +33,7 @@ class DropDownAdm extends Component {
     render() {
         return (
             <div className="dropdown">
-                <span>Admissions</span>
+                <span><tr className="trspacing"><td className="tdspacing">Admissions</td><td> <i class="fa fa-caret-down"></i></td></tr></span>
                 <div className="dropdown-content">
                     <p>
                         <a

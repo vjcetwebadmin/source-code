@@ -33,7 +33,7 @@ class DropDownA extends Component {
   render() {
     return (
       <div className="dropdown">
-        <span>Academics</span>
+        <span>Academics <i class="fa fa-caret-down"></i></span>
         <div className="dropdown-content">
           <p>
             <Link
