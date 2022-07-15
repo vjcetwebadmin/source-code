@@ -94,15 +94,19 @@ LibraryServiceTitle2 = {
                   <td>Assistant Professor</td>
               </tr>
               <tr>
-                  <td>Mr. Anish John A</td>
+                  <td>Dr. Anish John A</td>
                   <td>Assistant Professor</td>
               </tr>   
               <tr>
                   <td>Dr. Jose Mamman</td>
-                  <td>Assistant Professor</td>
+                  <td>Assistant Professor & Placement Incharge</td>
               </tr>
               <tr>
                   <td>Mrs. Merrin Geordie Pottas</td>
+                  <td>Assistant Professor</td>
+              </tr>  
+              <tr>
+                  <td>Ms.Riya Susan  Skaria</td>
                   <td>Assistant Professor</td>
               </tr>                                                                           
         </table>

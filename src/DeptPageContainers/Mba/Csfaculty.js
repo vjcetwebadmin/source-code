@@ -15,7 +15,7 @@ class CSFaculty extends Component {
     image: "Allstaffphoto/MBA/FAC/josemammen.jpg",
     width: "50%",
     name: <a href="https://vjcet.org/downloads/MbaProfile/Dr.Jose Mamman-converted.pdf" target="_blank" rel="noopener noreferrer">Dr. Jose Mamman</a>,
-    content: "Assistant Professor"
+    content: "Assistant Professor & Placement Incharge"
   };
   Cefaculty3 = {
     instanceID: "Cefaculty3",
@@ -28,7 +28,7 @@ class CSFaculty extends Component {
     instanceID: "Cefaculty4",
     image: "Allstaffphoto/MBA/FAC/anishjohn.jpg",
     width: "50%",
-    name: <a href="https://vjcet.org/downloads/MbaProfile/Mr.Anish John A-converted.pdf" target="_blank" rel="noopener noreferrer">Mr. Anish John A</a>,
+    name: <a href="https://vjcet.org/downloads/MbaProfile/Mr.Anish John A-converted.pdf" target="_blank" rel="noopener noreferrer">Dr. Anish John A</a>,
     content: "Assistant Professor"
   };
   /*Cefaculty5 = {
@@ -80,6 +80,13 @@ class CSFaculty extends Component {
     name: "Ms. Ambily Jose",
     content: "Assistant Professor (on-Leave)"
   };
+  Cefaculty12 = {
+    instanceID: "Cefaculty12",
+    image: "Allstaffphoto/MBA/FAC/RiyaSusan.jpg",
+    width: "50%",
+    name: <a href="https://vjcet.org/downloads/MbaProfile/RiyaSusanSkaria.pdf" target="_blank" rel="noopener noreferrer">Ms.Riya Susan Skaria</a>,
+    content: "Assistant Professor"
+  };
 
   render() {
     return (
@@ -104,8 +111,11 @@ class CSFaculty extends Component {
             <FacultyData data={this.Cefaculty6} />
           </div>
           <div>
-            <FacultyData data={this.Cefaculty7} />
+            <FacultyData data={this.Cefaculty12} />
           </div>
+          <div>
+            <FacultyData data={this.Cefaculty7} />
+          </div>          
           <div>
             <FacultyData data={this.Cefaculty8} />
           </div>
@@ -118,6 +128,7 @@ class CSFaculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty11} />
           </div>
+          
         </div>
       </div>
     );
