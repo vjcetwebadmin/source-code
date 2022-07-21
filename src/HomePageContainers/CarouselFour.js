@@ -53,7 +53,7 @@ export default function CarouselFour({ data }) {
     {
       Title: {
         instanceID: "EventOneTitle",
-        title:<a href="https://vjcet.org/downloads/gallery/meritf21.html" rel="noopener noreferrer"  target="_blank"><font color="maroon">Merit & Farewell 2021</font></a>
+        title:<a href="https://vjcet.org/downloads/gallery/meritf22.html" rel="noopener noreferrer"  target="_blank"><font color="maroon">Merit & Farewell 2022</font></a>
         
       },
 

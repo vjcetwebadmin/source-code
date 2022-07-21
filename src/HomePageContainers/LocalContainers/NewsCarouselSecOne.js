@@ -11,8 +11,8 @@ class NewsCarouselSecOne extends Component {
 
   Title1 = {
     instanceID: "NewsSecondaryTLOneTitle",
-    title: "Merit&Farewell21",
-    link: "https://vjcet.org/downloads/gallery/meritf21.html"
+    title: "Merit&Farewell22",
+    link: "https://vjcet.org/downloads/gallery/meritf22.html"
   }
 
   Image1 = {

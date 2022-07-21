@@ -11,7 +11,7 @@ class CSFaculty extends Component {
   };
   Cefaculty2 = {
     instanceID: "Cefaculty2",
-    image: "Allstaffphoto/EC/FAC/Somypmathew.JPEG",
+    image: "Allstaffphoto/AD/FAC/Somypmathew.jpg",
     width: "50%",
     name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ECFAC107" target="_blank" rel="noopener noreferrer">Mr. Somy P Mathew</a>,
     content: "Vice-Principal"
