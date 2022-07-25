@@ -6,105 +6,105 @@ class CSFaculty extends Component {
     instanceID: "Cefaculty1",
     image: "Allstaffphoto/EE/FAC/352.jpg",
     width: "50%",
-    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=EEFAC129" target="_blank" rel="noopener noreferrer">Dr. K.K Rajan</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=EEFAC129" target="_blank" rel="noopener noreferrer">Dr. K.K Rajan</a>,
     content: "Principal"
   };
   Cefaculty2 = {
     instanceID: "Cefaculty2",
     image: "Allstaffphoto/AD/FAC/Somypmathew.jpg",
     width: "50%",
-    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ECFAC107" target="_blank" rel="noopener noreferrer">Mr. Somy P Mathew</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?StaffCode=ECFAC107" target="_blank" rel="noopener noreferrer">Mr. Somy P Mathew</a>,
     content: "Vice-Principal"
   };
   Cefaculty3 = {
     instanceID: "Cefaculty3",
     image: "Allstaffphoto/ADM/ADM/sunnyjacob.jpg",
     width: "50%",
-    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ADSTF101" target="_blank" rel="noopener noreferrer">Mr. Sunny Jacob</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ADSTF101" target="_blank" rel="noopener noreferrer">Mr. Sunny Jacob</a>,
     content: "Administrative Officer (HG)"
   };
   Cefaculty4 = {
     instanceID: "Cefaculty4",
     image: "Allstaffphoto/ADM/ADM/reenaemmanuel.jpeg",
     width: "50%",
-    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ADSTF103" target="_blank" rel="noopener noreferrer">Mrs. Reena Emmanuel</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ADSTF103" target="_blank" rel="noopener noreferrer">Mrs. Reena Emmanuel</a>,
     content: "Head Clerk"
   };
   Cefaculty5 = {
     instanceID: "Cefaculty5",
-    image: "Allstaffphoto/ADM/ADM/sijumonfrancis.JPEG",
+    image: "Allstaffphoto/ADM/ADM/sijumonfrancis.jpeg",
     width: "50%",
-    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ADSTF104" target="_blank" rel="noopener noreferrer">Mr. Sijumon Francis</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ADSTF104" target="_blank" rel="noopener noreferrer">Mr. Sijumon Francis</a>,
     content: "Public Relation Officer"
   };
   Cefaculty6 = {
     instanceID: "Cefaculty6",
     image: "Allstaffphoto/ADM/ADM/rajeshgeorge.JPEG",
     width: "50%",
-    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ADSTF105" target="_blank" rel="noopener noreferrer">Mr. Rajesh George</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ADSTF105" target="_blank" rel="noopener noreferrer">Mr. Rajesh George</a>,
     content: "Jr. Superintendent"
   };
   Cefaculty7 = {
     instanceID: "Cefaculty7",
     image: "Allstaffphoto/ADM/ADM/jismygeorge.JPEG",
     width: "50%",
-    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ADSTF106" target="_blank" rel="noopener noreferrer">Mrs. Jismy George</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ADSTF106" target="_blank" rel="noopener noreferrer">Mrs. Jismy George</a>,
     content: "Jr. Superintendent"
   };
   Cefaculty9 = {
     instanceID: "Cefaculty",
     image: "Allstaffphoto/ADM/ADM/anithamathew.JPEG",
     width: "50%",
-    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ADSTF108" target="_blank" rel="noopener noreferrer">Mrs. Anitha Mathew</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ADSTF108" target="_blank" rel="noopener noreferrer">Mrs. Anitha Mathew</a>,
     content: "UDC (HG)"
   };
   Cefaculty11 = {
     instanceID: "Cefaculty11",
     image: "Allstaffphoto/ADM/ADM/arunbobyt.JPEG",
     width: "50%",    
-    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ADSTF110" target="_blank" rel="noopener noreferrer">Mr. Arun Bobby T</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ADSTF110" target="_blank" rel="noopener noreferrer">Mr. Arun Bobby T</a>,
     content: "Head Accountant"
   };
   Cefaculty12 = {
     instanceID: "Cefaculty12",
     image: "Allstaffphoto/ADM/ADM/jillsvinu.jpeg",
     width: "50%",
-    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ADSTF111" target="_blank" rel="noopener noreferrer">Mrs. Jills Vinu</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ADSTF111" target="_blank" rel="noopener noreferrer">Mrs. Jills Vinu</a>,
     content: "UDC"
   };
   Cefaculty34 = {
     instanceID: "Cefaculty34",
     image: "Allstaffphoto/MBA/STAF/admLijo.jpg",
     width: "50%",
-    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=MBSTF103" target="_blank" rel="noopener noreferrer">Mr. Lijo Thomas</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=MBSTF103" target="_blank" rel="noopener noreferrer">Mr. Lijo Thomas</a>,
     content: "UDC"
   }; 
   Cefaculty13 = {
     instanceID: "Cefaculty13",
     image: "Allstaffphoto/ADM/ADM/nobymathew.jpeg",
     width: "50%",
-    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ADSTF112" target="_blank" rel="noopener noreferrer">Mr. Noby Mathew</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ADSTF112" target="_blank" rel="noopener noreferrer">Mr. Noby Mathew</a>,
     content: "Confidential Asst. Grade I"
   };
   Cefaculty14 = {
     instanceID: "Cefaculty14",
     image: "Allstaffphoto/ADM/ADM/EDOuseph.jpg",
     width: "50%",
-    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ADSTF135" target="_blank" rel="noopener noreferrer">Mr. E D Ouseph</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ADSTF135" target="_blank" rel="noopener noreferrer">Mr. E D Ouseph</a>,
     content: "Work Supervisor"
   };
   Cefaculty15 = {
     instanceID: "Cefaculty15",
     image: "Allstaffphoto/ADM/ADM/JainPVarghese.jpg",
     width: "50%",
-    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ADSTF138" target="_blank" rel="noopener noreferrer">Mr. Jain P Varghese</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ADSTF138" target="_blank" rel="noopener noreferrer">Mr. Jain P Varghese</a>,
     content: "DTP Operator"
   };
   Cefaculty16 = {
     instanceID: "Cefaculty16",
     image: "Allstaffphoto/ADM/ADM/bijuvarghese.jpeg",
     width: "50%",
-    name: <a href=" https://vjcet.org/downloads/admprofile/adm_bijuv.html" target="_blank" rel="noopener noreferrer">Mr. Biju Varghese</a>,
+    name: <a href="https://vjcet.org/downloads/admprofile/adm_bijuv.html" target="_blank" rel="noopener noreferrer">Mr. Biju Varghese</a>,
     content: "Office Asst."
   };
   Cefaculty17 = {

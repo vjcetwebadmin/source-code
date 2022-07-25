@@ -315,35 +315,35 @@ class App extends Component {
             instanceID: "Cefaculty1",
             image: "Allstaffphoto/CE/FAC/cefacultyimg1.JPG",
             width: "50%",
-            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC101" target="_blank" rel="noopener noreferrer">Dr. Shine George</a>,
+            name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CEFAC101" target="_blank" rel="noopener noreferrer">Dr. Shine George</a>,
             content: "Asso. Prof. & HOD"
           },
           {
             instanceID: "Cefaculty2",
             image: "Allstaffphoto/CE/FAC/347.jpg",
             width: "52%",
-            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC132" target="_blank" rel="noopener noreferrer">Dr. Anoop C.K.</a>,
+            name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CEFAC132" target="_blank" rel="noopener noreferrer">Dr. Anoop C.K.</a>,
             content: "Professor & Asst. HOD"
           },
           {
             instanceID: "Cefaculty24",
             image: "Allstaffphoto/CE/FAC/fac24.jpg", 
             width: "50%", 
-            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC144" target="_blank" rel="noopener noreferrer">Dr. Grasius  M. G</a>,
+            name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CEFAC144" target="_blank" rel="noopener noreferrer">Dr. Grasius  M. G</a>,
             content: "Professor(on-leave)"
           },
           {
             instanceID: "Cefaculty25",
             image: "Allstaffphoto/CE/FAC/RAVINDRANATH.jpg", 
             width: "50%", 
-            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC145" target="_blank" rel="noopener noreferrer">Dr. E. Ravindranath</a>,
+            name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CEFAC145" target="_blank" rel="noopener noreferrer">Dr. E. Ravindranath</a>,
             content: "Professor(on-leave)"
           },         
           {
             instanceID: "Cefaculty3",
             image: "Allstaffphoto/CE/FAC/37.JPG",
             width: "50%",
-            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC102" target="_blank" rel="noopener noreferrer">Mrs. Tina Jose</a>,
+            name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CEFAC102" target="_blank" rel="noopener noreferrer">Mrs. Tina Jose</a>,
             content: "Assistant Professor",
 
           },
@@ -351,56 +351,56 @@ class App extends Component {
             instanceID: "Cefaculty4",
             image: "Allstaffphoto/CE/FAC/38.jpg",
             width: "50%",
-            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC103" target="_blank" rel="noopener noreferrer">Mrs. Bijimol Joseph</a>,
+            name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CEFAC103" target="_blank" rel="noopener noreferrer">Mrs. Bijimol Joseph</a>,
             content: "Assistant Professor"
           },
           {
             instanceID: "Cefaculty5",
             image: "Allstaffphoto/CE/FAC/39.jpg",
             width: "50%",
-            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC104" target="_blank" rel="noopener noreferrer">Mrs. Neena M Joseph</a>,
+            name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CEFAC104" target="_blank" rel="noopener noreferrer">Mrs. Neena M Joseph</a>,
             content: "Assistant Professor"
           },
           {
             instanceID: "Cefaculty6",
             image: "Allstaffphoto/CE/FAC/40.jpg",
             width: "51%",
-            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC105" target="_blank" rel="noopener noreferrer">Mrs. Minu C Joy</a>,
+            name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CEFAC105" target="_blank" rel="noopener noreferrer">Mrs. Minu C Joy</a>,
             content: "Assistant Professor(on-leave)"
           },
           {
             instanceID: "Cefaculty7",
             image: "Allstaffphoto/CE/FAC/42.jpg",
             width: "55%",
-            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC107" target="_blank" rel="noopener noreferrer">Mrs. Amrutha S</a>,
+            name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CEFAC107" target="_blank" rel="noopener noreferrer">Mrs. Amrutha S</a>,
             content: "Assistant Professor"
           },
           {
             instanceID: "Cefaculty8",
             image: "Allstaffphoto/CE/FAC/45.jpg",
             width: "50%",
-            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC110" target="_blank" rel="noopener noreferrer">Mrs. Devina Vipinan</a>,
+            name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CEFAC110" target="_blank" rel="noopener noreferrer">Mrs. Devina Vipinan</a>,
             content: "Assistant Professor"
           },
           {
             instanceID: "Cefaculty",
             image: "Allstaffphoto/CE/FAC/46.jpg",
             width: "50%",
-            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC111" target="_blank" rel="noopener noreferrer">Mr. Appu John</a>,
+            name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CEFAC111" target="_blank" rel="noopener noreferrer">Mr. Appu John</a>,
             content: "Assistant Professor"
           },
           {
             instanceID: "Cefaculty10",
             image: "Allstaffphoto/CE/FAC/47.jpg",
             width: "50%",
-            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC112" target="_blank" rel="noopener noreferrer">Mr. Lins Paul Kuriakose</a>,
+            name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CEFAC112" target="_blank" rel="noopener noreferrer">Mr. Lins Paul Kuriakose</a>,
             content: "Assistant Professor"
           },
           {
             instanceID: "Cefaculty11",
             image: "Allstaffphoto/CE/FAC/49.jpg",
             width: "50%",
-            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC114" target="_blank" rel="noopener noreferrer">Mrs. Tintu Shine A L</a>,
+            name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CEFAC114" target="_blank" rel="noopener noreferrer">Mrs. Tintu Shine A L</a>,
             content: "Assistant Professor(on-leave)"
           },
           /*{
@@ -414,21 +414,21 @@ class App extends Component {
             instanceID: "Cefaculty14",
             image: "Allstaffphoto/CE/FAC/283.jpg",
             width: "50%",
-            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC118" target="_blank" rel="noopener noreferrer">Mrs. Nivya Mary Abraham</a>,
+            name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CEFAC118" target="_blank" rel="noopener noreferrer">Mrs. Nivya Mary Abraham</a>,
             content: "Assistant Professor"
           },
           {
             instanceID: "Cefaculty15",
             image: "Allstaffphoto/CE/FAC/296.jpg",
             width: "50%",
-            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC122" target="_blank" rel="noopener noreferrer">Mrs. Anu Paul</a>,
+            name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CEFAC122" target="_blank" rel="noopener noreferrer">Mrs. Anu Paul</a>,
             content: "Assistant Professor"
           },
           {
             instanceID: "Cefaculty17",
             image: "Allstaffphoto/CE/FAC/311.JPG",
             width: "50%",
-            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC125" target="_blank" rel="noopener noreferrer">Mrs. Soumya Rani P. Thomas</a>,
+            name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CEFAC125" target="_blank" rel="noopener noreferrer">Mrs. Soumya Rani P. Thomas</a>,
             content: "Assistant Professor"
           },
          /* {
@@ -449,35 +449,35 @@ class App extends Component {
             instanceID: "Cefaculty22",
             image: "Allstaffphoto/CE/FAC/384.jpg",
             width: "50%",
-            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC136" target="_blank" rel="noopener noreferrer">Mr. Basil Baby</a>,
+            name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CEFAC136" target="_blank" rel="noopener noreferrer">Mr. Basil Baby</a>,
             content: "Assistant Professor(on-leave Ph.D)"
           },
           {
             instanceID: "Cefaculty22",
             image: "Allstaffphoto/CE/FAC/385.jpg",
             width: "50%",
-            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC137" target="_blank" rel="noopener noreferrer">Mrs. Nisa Ann Mathew </a>,
+            name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CEFAC137" target="_blank" rel="noopener noreferrer">Mrs. Nisa Ann Mathew </a>,
             content: "Assistant Professor(on-leave)"
           },
           {
             instanceID: "Cefaculty22",
             image: "Allstaffphoto/CE/FAC/389.jpg",
             width: "50%",
-            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC138" target="_blank" rel="noopener noreferrer">Mrs. Finu John</a>,
+            name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CEFAC138" target="_blank" rel="noopener noreferrer">Mrs. Finu John</a>,
             content: "Assistant Professor"
           },
           {
             instanceID: "Cefaculty23",
             image: "Allstaffphoto/CE/FAC/394.jpg",
             width: "50%",
-            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC139" target="_blank" rel="noopener noreferrer">Mrs. Ancy Genu C.George</a>,
+            name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CEFAC139" target="_blank" rel="noopener noreferrer">Mrs. Ancy Genu C.George</a>,
             content: "Assistant Professor"
           },
           {
             instanceID: "Cefaculty26",
             image: "Allstaffphoto/CE/FAC/meril.jpg",
             width: "50%",
-            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CEFAC142" target="_blank" rel="noopener noreferrer">Ms. Meril Jose</a>,
+            name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CEFAC142" target="_blank" rel="noopener noreferrer">Ms. Meril Jose</a>,
             content: "Guest Lecturer"
           }
         ],
@@ -486,49 +486,49 @@ class App extends Component {
             instanceID: "Cestaff1",
             image: "Allstaffphoto/CE/STAF/57.jpg",
             width: "50%",
-            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CESTF101" target="_blank" rel="noopener noreferrer">Mrs. Simi N U</a>,
+            name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CESTF101" target="_blank" rel="noopener noreferrer">Mrs. Simi N U</a>,
             content: "Instructor-Grade II"
           },
           {
             instanceID: "Cefaculty2",
             image: "Allstaffphoto/CE/STAF/59.jpg",
             width: "50%",
-            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CESTF103" target="_blank" rel="noopener noreferrer">Mr. Jobish K Jose</a>,
+            name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CESTF103" target="_blank" rel="noopener noreferrer">Mr. Jobish K Jose</a>,
             content: "Trade Instructor"
           },
          {
             instanceID: "Cefaculty3",
             image: "Allstaffphoto/CE/STAF/60.jpg",
             width: "50%",
-            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CESTF110" target="_blank" rel="noopener noreferrer">Mr. Jibi Jose</a>,
+            name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CESTF110" target="_blank" rel="noopener noreferrer">Mr. Jibi Jose</a>,
             content: "Tradesman"
           },
           {
             instanceID: "Cefaculty4",
             image: "Allstaffphoto/CE/STAF/61.jpg",
             width: "50%",
-            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CESTF111" target="_blank" rel="noopener noreferrer">Mr. Wilson V George</a>,
+            name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CESTF111" target="_blank" rel="noopener noreferrer">Mr. Wilson V George</a>,
             content: "Tradesman"
           },
           {
             instanceID: "Cefaculty5",
             image: "Allstaffphoto/CE/STAF/62.jpg",
             width: "50%",
-            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CESTF113" target="_blank" rel="noopener noreferrer">Mr. Biju Joseph</a>,
+            name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CESTF113" target="_blank" rel="noopener noreferrer">Mr. Biju Joseph</a>,
             content: "Tradesman"
           },
           {
             instanceID: "Cefaculty6",
             image: "Allstaffphoto/CE/STAF/63.jpg",
             width: "50%",
-            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CESTF114" target="_blank" rel="noopener noreferrer">Mr. Shibu Augustine</a>,
+            name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CESTF114" target="_blank" rel="noopener noreferrer">Mr. Shibu Augustine</a>,
             content: "Tradesman"
           },
           {
             instanceID: "Cefaculty7",
             image: "Allstaffphoto/CE/STAF/64.jpg",
             width: "50%",
-            name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CESTF108" target="_blank" rel="noopener noreferrer">Mr. Mahesh Sankar</a>,
+            name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CESTF108" target="_blank" rel="noopener noreferrer">Mr. Mahesh Sankar</a>,
             content: "Tradesman"
           }
         ]

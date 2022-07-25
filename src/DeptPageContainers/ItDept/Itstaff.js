@@ -6,28 +6,28 @@ class ITStaff extends Component {
     instanceID: "Cestaff1",
     image: "Allstaffphoto/IT/STAF/4.jpg",
     width: "50%",
-    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ITSTF101" target="_blank" rel="noopener noreferrer">Mrs. Preethy Joseph</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ITSTF101" target="_blank" rel="noopener noreferrer">Mrs. Preethy Joseph</a>,
     content: "Computer Programmer"
   };
   Cefaculty2 = {
     instanceID: "Cefaculty2",
     image: "Allstaffphoto/IT/STAF/194.jpg",
     width: "50%",
-    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ITSTF104" target="_blank" rel="noopener noreferrer">Mr. Shaji A Varghese</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ITSTF104" target="_blank" rel="noopener noreferrer">Mr. Shaji A Varghese</a>,
     content: "Trade Instructor"
   };
   Cefaculty11 = {
     instanceID: "Cefaculty11",
     image: "Allstaffphoto/IT/STAF/srcv.jpg",
     width: "50%",
-    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ITSTF102" target="_blank" rel="noopener noreferrer">Sr. Recy Varghese</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ITSTF102" target="_blank" rel="noopener noreferrer">Sr. Recy Varghese</a>,
     content: "Computer Programmer(on-leave)"
   };
   Cefaculty4 = {
     instanceID: "Cefaculty4",
     image: "Allstaffphoto/IT/STAF/ITSTJosmy.jpeg",
     width: "50%",
-    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ITSTF105" target="_blank" rel="noopener noreferrer">Ms. Josmy Jose</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ITSTF105" target="_blank" rel="noopener noreferrer">Ms. Josmy Jose</a>,
     content: "Computer Programmer"
   };
 

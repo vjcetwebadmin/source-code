@@ -5,6 +5,7 @@ import HeadingTwo from "../Components/Texts/HeadingTwo";
 import HeadingFive from "../Components/Texts/HeadingFive";
 
 import Carousel from "react-multi-carousel";
+import { Link } from "react-router-dom";
 
 export default function CarouselFour({ data }) {
   const instanceID=data.instanceID;
@@ -53,15 +54,14 @@ export default function CarouselFour({ data }) {
     {
       Title: {
         instanceID: "EventOneTitle",
-        title:<a href="https://vjcet.org/downloads/gallery/meritf22.html" rel="noopener noreferrer"  target="_blank"><font color="maroon">Merit & Farewell 2022</font></a>
-        
+        title:<a href="https://vjcet.org/downloads/gallery/meritf22.html" rel="noopener noreferrer"  target="_blank"><font color="maroon">Merit & Farewell 2022</font></a>        
       },
 
       Image: {
         instanceID: "EventOneImage",
         image: "CarouselFourImages/farewell.png",
-        width: "100px",
-      }
+        width: "100px",        
+      },      
     },   
     {
       Title: {
@@ -273,7 +273,7 @@ class CarouselFour extends Component {
 
   EventFourTitle = {
     instanceID: "EventFourTitle",
-    title: "Merit & Farewell: 2021",
+    title: "Merit & Farewell: 2022",
   };
 
   EventFourImage = {
@@ -297,11 +297,11 @@ class CarouselFour extends Component {
         instanceID: "EventOneTitle",
         title: (
           <a
-            href="https://vjcet.org/downloads/gallery/meritf21.html"
+            href="https://vjcet.org/downloads/gallery/meritf22.html"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <font color="#880d1e">Merit & Farewell 2021</font> 
+            <font color="#880d1e">Merit & Farewell 2022</font> 
           </a>
         ),
       },

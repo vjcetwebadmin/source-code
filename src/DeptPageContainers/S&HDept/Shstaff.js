@@ -7,14 +7,14 @@ class SHstaff extends Component {
     instanceID: "Cestaff1",
     image: "Allstaffphoto/SH/SH/335.jpg",
     width: "50%",
-    name:  <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHSTF103" target="_blank" rel="noopener noreferrer">Mrs. Anju Eldhose</a>,
+    name:  <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=SHSTF103" target="_blank" rel="noopener noreferrer">Mrs. Anju Eldhose</a>,
     content: "Demonstrator"
   };
   Cefaculty2 = {
     instanceID: "Cefaculty2",
     image: "Allstaffphoto/SH/SH/336.jpg",
     width: "50%",
-    name:  <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHSTF104" target="_blank" rel="noopener noreferrer">Mr. Jils Jolly</a>,
+    name:  <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=SHSTF104" target="_blank" rel="noopener noreferrer">Mr. Jils Jolly</a>,
     content: "Demonstrator"
   };
 

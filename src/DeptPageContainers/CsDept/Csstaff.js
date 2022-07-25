@@ -6,7 +6,7 @@ class CSStaff extends Component {
     instanceID: "Cefaculty2",
     image: "Allstaffphoto/CS/STAF/94.jpg",
     width: "50%",
-    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CSSTF102" target="_blank" rel="noopener noreferrer">Mr. Lijo Mathew</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CSSTF102" target="_blank" rel="noopener noreferrer">Mr. Lijo Mathew</a>,
     content: "Systems Engineer"
   };
   /*Cefaculty3 = {
@@ -20,70 +20,70 @@ class CSStaff extends Component {
     instanceID: "Cefaculty4",
     image: "Allstaffphoto/CS/STAF/96.jpg",
     width: "50%",
-    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CSSTF104" target="_blank" rel="noopener noreferrer">Mr. Manoj Francis</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CSSTF104" target="_blank" rel="noopener noreferrer">Mr. Manoj Francis</a>,
     content: "Computer Programmer"
   };
   Cefaculty5 = {
     instanceID: "Cefaculty5",
     image: "Allstaffphoto/CS/STAF/97.PNG",
     width: "50%",
-    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CSSTF105" target="_blank" rel="noopener noreferrer">Mrs. Neethu Joseph</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CSSTF105" target="_blank" rel="noopener noreferrer">Mrs. Neethu Joseph</a>,
     content: "Computer Programmer"
   };
   Csfaculty6 = {
     instanceID: "Csfaculty6",
     image: "Allstaffphoto/CS/STAF/csstf115.jpg",
     width: "50%",
-    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CSSTF115" target="_blank" rel="noopener noreferrer">Mrs. LAKSHMI S</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CSSTF115" target="_blank" rel="noopener noreferrer">Mrs. LAKSHMI S</a>,
     content: "Computer Programmer"
   };
   Cefaculty7 = {
     instanceID: "Cefaculty7",
     image: "Allstaffphoto/CS/STAF/99.jpg",
     width: "50%",
-    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CSSTF107" target="_blank" rel="noopener noreferrer">Mrs. K G Sindhu</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CSSTF107" target="_blank" rel="noopener noreferrer">Mrs. K G Sindhu</a>,
     content: "Instructor Grade II"
   };
   Cefaculty8 = {
     instanceID: "Cefaculty8",
     image: "Allstaffphoto/CS/STAF/100.jpg",
     width: "50%",
-    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CSSTF108" target="_blank" rel="noopener noreferrer">Mrs. Sheepa Cyriac</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CSSTF108" target="_blank" rel="noopener noreferrer">Mrs. Sheepa Cyriac</a>,
     content: "Instructor Grade II"
   };
   Cefaculty9 = {
     instanceID: "Cefaculty9",
     image: "Allstaffphoto/CS/STAF/101.jpg",
     width: "50%",
-    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CSSTF109" target="_blank" rel="noopener noreferrer">Mr. Sijo Mathew</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CSSTF109" target="_blank" rel="noopener noreferrer">Mr. Sijo Mathew</a>,
     content: "Jr. System Administrator"
   };
   Cefaculty10 = {
     instanceID: "Cefaculty10",
     image: "Allstaffphoto/CS/STAF/102.jpg",
     width: "50%",
-    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CSSTF110" target="_blank" rel="noopener noreferrer">Mrs. Joicy K Jose</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CSSTF110" target="_blank" rel="noopener noreferrer">Mrs. Joicy K Jose</a>,
     content: "Instructor Grade II"
   };
   Cefaculty11 = {
     instanceID: "Cefaculty11",
     image: "Allstaffphoto/CS/STAF/103.jpg",
     width: "50%",
-    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CSSTF111" target="_blank" rel="noopener noreferrer">Mr. Jose Thomas</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CSSTF111" target="_blank" rel="noopener noreferrer">Mr. Jose Thomas</a>,
     content: "Hardware Technician"
   };
   Cefaculty12 = {
     instanceID: "Cefaculty12",
     image: "Allstaffphoto/CS/STAF/104.JPG",
     width: "50%",
-    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CSSTF112" target="_blank" rel="noopener noreferrer">Mr. Justin Peter</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CSSTF112" target="_blank" rel="noopener noreferrer">Mr. Justin Peter</a>,
     content: "Hardware Technician"
   };
   Cefaculty13 = {
     instanceID: "Cefaculty13",
     image: "Allstaffphoto/CS/STAF/CSSTF113.jpg",
     width: "50%",
-    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=CSSTF113" target="_blank" rel="noopener noreferrer">Mr. Eldhose Paul K</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CSSTF113" target="_blank" rel="noopener noreferrer">Mr. Eldhose Paul K</a>,
     content: "Hardware Technician"
   };
   
