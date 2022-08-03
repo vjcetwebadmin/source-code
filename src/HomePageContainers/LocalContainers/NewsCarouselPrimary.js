@@ -129,13 +129,13 @@ class NewsCarouselPrimary extends Component {
     instanceID: "NewsPrimaryOneImage",
     image: "NewsSection/BigNews/4thkathelic2022.jpg",
     //Recommended Image Size is 733px x 400px.
-    width: "64%"
+    width: "75%"
   }; 
   Image20 = {
     instanceID: "NewsPrimaryOneImage",
     image: "NewsSection/BigNews/17thposition2022.jpg",
     //Recommended Image Size is 733px x 400px.
-    width: "64%"
+    width: "75%"
   }; 
 
   Title6 = {
