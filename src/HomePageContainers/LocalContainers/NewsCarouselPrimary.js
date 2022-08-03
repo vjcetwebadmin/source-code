@@ -125,6 +125,19 @@ class NewsCarouselPrimary extends Component {
     //Recommended Image Size is 733px x 400px.
     width: "64%"
   }; 
+  Image19 = {
+    instanceID: "NewsPrimaryOneImage",
+    image: "NewsSection/BigNews/4thkathelic2022.jpg",
+    //Recommended Image Size is 733px x 400px.
+    width: "64%"
+  }; 
+  Image20 = {
+    instanceID: "NewsPrimaryOneImage",
+    image: "NewsSection/BigNews/17thposition2022.jpg",
+    //Recommended Image Size is 733px x 400px.
+    width: "64%"
+  }; 
+
   Title6 = {
     instanceID: "NewsPrimaryOneTitle",
     title: "Viswajyothi ranked 9th out of 13 in the Cybathlon Competition",
@@ -174,7 +187,13 @@ class NewsCarouselPrimary extends Component {
               <h3>{this.Title4.title}</h3>
             </Carousel.Caption>
           }
-        </Carousel.Item>  */}  
+        </Carousel.Item>  */} 
+        <Carousel.Item>
+          <NewsImage data={this.Image19} />
+        </Carousel.Item> 
+        <Carousel.Item>
+          <NewsImage data={this.Image20} />
+        </Carousel.Item> 
         <Carousel.Item>          
           <a href={this.Title7.link}  target="_blank" rel="noopener noreferrer">
           <NewsImage data={this.Image17} />
@@ -224,10 +243,10 @@ class NewsCarouselPrimary extends Component {
               <h3>{this.Title4.title}</h3>
             </Carousel.Caption>
        </Carousel.Item> 
-        <Carousel.Item>
+       {/* <Carousel.Item>
           <NewsImage data={this.Image4} />      
         </Carousel.Item>               
-        {/*<Carousel.Item>
+        <Carousel.Item>
           <NewsImage data={this.Image6} />
          <a href={this.Title5.link}>
             <Carousel.Caption>
@@ -267,11 +286,10 @@ class NewsCarouselPrimary extends Component {
               <h3>{this.Title2.title}</h3>
             </Carousel.Caption>
           </a>
-        </Carousel.Item>*/}
+        </Carousel.Item>
         <Carousel.Item>
           <NewsImage data={this.Image5} />
-       </Carousel.Item>
-       
+       </Carousel.Item>*/}       
 
       </Carousel>
     );
