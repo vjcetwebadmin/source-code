@@ -26,10 +26,10 @@ class CSFaculty extends Component {
   };
   Cefaculty2 = {
     instanceID: "Cefaculty2",
-    image: "Allstaffphoto/CS/FAC/CSFAC102.jpg",
+    image: "Allstaffphoto/CS/FAC/CSFAC136.jpg",
     width: "50%",
-    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CSFAC102" target="_blank" rel="noopener noreferrer">Mrs. Silpa Joseph</a>,
-    content: "Associate Professor"
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CSFAC136" target="_blank" rel="noopener noreferrer">Dr.S.P.PREDEEP KUMAR</a>,
+    content: "Professor"
   };
 /*   Cefaculty4 = {
     instanceID: "Cefaculty4",
@@ -204,9 +204,9 @@ class CSFaculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty29} />
           </div>
-{/*           <div>
-            <FacultyData data={this.Cefaculty4} />
-          </div>       */}   
+          <div>
+            <FacultyData data={this.Cefaculty2} />
+          </div>   
            <div>
             <FacultyData data={this.Cefaculty7} />
           </div>
