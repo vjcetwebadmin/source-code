@@ -3,6 +3,8 @@ import HeadingOne from "../../Components/Texts/HeadingOne";
 import Bodythree from "../../Components/Texts/BodyThree";
 import BodyOne from "../../Components/Texts/BodyOne";
 import HeadingTwo from "../../Components/Texts/HeadingTwo";
+import HeadingThree from "../../Components/Texts/HeadingThree";
+import { CardTitle } from "reactstrap";
 class BHMCTAdmission extends Component {
   state = {};
   AdmissionHeading = {
@@ -29,7 +31,26 @@ class BHMCTAdmission extends Component {
     title:
       "2)  Candidate with valid score in the KHMAT (Kerala Hotel Management Aptitude Test)/ or equivalent national qualifying test."
   };
-
+  AdmissionContactTitle = {
+    instanceID: "AdmissionContactTitle",
+    title:
+      "For admission related queries, please contact:"
+  };
+  AdmissionContactOne = {
+    instanceID: "AdmissionContact",
+    title:
+      "+91 9946004446"
+  };
+  AdmissionContactTwo = {
+    instanceID: "AdmissionContact",
+    title:
+      "+91 9496335522"
+  };
+  AdmissionContactThree = {
+    instanceID: "AdmissionContact",
+    title:
+      "+91 9037406886"
+  };
 
   render() {
     return (
@@ -60,8 +81,12 @@ class BHMCTAdmission extends Component {
                   <td>15650</td>
               </tr>
           </table>
-         
+        
         </div>
+        <Bodythree data={this.AdmissionContactTitle}/>
+        <Bodythree data={this.AdmissionContactOne}/>
+        <Bodythree data={this.AdmissionContactTwo}/>
+        <Bodythree data={this.AdmissionContactThree}/>
       </div>
     );
   }

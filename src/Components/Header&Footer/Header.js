@@ -176,7 +176,7 @@ class Header extends Component {
     return (
       <div className="Header" id={instanceID}>
         <Link to={"/"}>        
-        <ImageOne data={this.IndianFlag} /> 
+        <ImageOne data={this.IndianFlag} />
           <ImageOne data={this.VJCLogo} />
           
         </Link>        
@@ -192,21 +192,29 @@ class Header extends Component {
        {/* <Link to={this.Link13.link} id="Contactbtn">
             KEAM Mock Test
       </Link><a href="http://202.88.251.252:82/"> */}   
-          
-         <a href="https://vjcetmba.in/application/"  target="_blank" rel="noopener noreferrer">
-            <div id="AdmissionImage">
-              <div className="animcontent">
-                MBA Admission 2022
-              </div>
-            </div>
-          </a>
           <a href="https://admission.vjcet.ac.in/">
             <div id="AdmissionImage">
               <div className="animcontent">
-                B.Tech Admission 2022
+                B.Tech Admission<br/>2022
               </div>
             </div>
           </a>
+         <a href="https://vjcetmba.in/application/"  target="_blank" rel="noopener noreferrer">
+            <div id="AdmissionImage">
+              <div className="animcontent">
+                MBA Admission<br/>2022
+              </div>
+            </div>
+          </a>          
+          <a href="https://vjcet.org/#/departments/bhmct">
+            
+            <div id="AdmissionImage">
+              <div className="animcontent">
+                BHMCT Admission<br/>2022
+              </div>
+            </div>
+          </a>
+         
           <DropDownL />
           <Link to={this.Link2.link} id="Contactbtn">
             Contact Us

@@ -68,6 +68,15 @@ class DropDownAdm extends Component {
                     </p>
                     <p>
                         <Link
+                            to="/departments/bhmct"
+                            className="patch1"
+                            target="_self"
+                            rel="noopener noreferrer">
+                            BHMCT
+                        </Link>
+                    </p>
+                    <p>
+                        <Link
                             to="/admission/phd"
                             className="patch1"
                             target="_blank"
