@@ -87,7 +87,9 @@ class DepartmentSection extends Component {
       <div className="DepartmentSection" id={instanceID}>
         <HeadingOne data={this.DepartmentSectionTitle} />
         <BodyOne data={this.DepartmentSectionSubTitle} />
-
+        <Link to="/departments/aid" style={{textDecoration: "none" }}>
+          <DepartmentList data={this.DepartmentListNine} />
+        </Link>
         <Link to="/departments/ce" style={{ textDecoration: "none" }}>
           <DepartmentList data={this.DepartmentListOne} />
         </Link>
@@ -112,9 +114,7 @@ class DepartmentSection extends Component {
         <Link to="departments/s&h" style={{ textDecoration: "none" }}>
           <DepartmentList data={this.DepartmentListEight} />
         </Link>
-        <Link to="/departments/aid" style={{textDecoration: "none" }}>
-          <DepartmentList data={this.DepartmentListNine} />
-        </Link>        
+                
       </div>
     );
   }

@@ -23,6 +23,12 @@ class Header extends Component {
     image: "Logo.jpg",
     width: "100%"
   };
+  IndianFlag = {
+    instanceID: "IndianFlag",
+    image: "IndianFlag.gif",
+    width: "35%"
+  };
+  
 
   Hamburger = {
     instanceID: "HeaderHamburger",
@@ -169,9 +175,11 @@ class Header extends Component {
     const { instanceID } = this.props.data;
     return (
       <div className="Header" id={instanceID}>
-        <Link to={"/"}>
+        <Link to={"/"}>        
+        <ImageOne data={this.IndianFlag} /> 
           <ImageOne data={this.VJCLogo} />
-        </Link>
+          
+        </Link>        
         <ImageOne
           data={this.Hamburger}
           onClickAction={this.props.openMenuFunction}
@@ -179,12 +187,12 @@ class Header extends Component {
         {/* <ImageOne data={this.NBALogo} /> */}
         <Line data={this.HeaderLineOne} />
         <Line data={this.HeaderLineTwo} />
-        {/* <HeadingFour data={this.HeaderVJCCode} /> */}
- 
+        {/* <HeadingFour data={this.HeaderVJCCode} /> */}        
         <div className="HeaderLinkTabOne" id="HeaderLinkTabOne">
        {/* <Link to={this.Link13.link} id="Contactbtn">
             KEAM Mock Test
-      </Link><a href="http://202.88.251.252:82/"> */}
+      </Link><a href="http://202.88.251.252:82/"> */}   
+          
          <a href="https://vjcetmba.in/application/"  target="_blank" rel="noopener noreferrer">
             <div id="AdmissionImage">
               <div className="animcontent">
