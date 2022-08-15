@@ -6,6 +6,9 @@
   text-decoration: none;
   color: white;
   margin: auto 0;
+  width: fit-content; /*new */
+  height: fit-content; /*new */
+  margin-right: 4px;
 }
 .dropdown :hover{
   cursor: pointer;
@@ -66,6 +69,8 @@
   height: 40px;
   margin: auto;
   border: 3px solid #790514;
+  width: min-content;
+  height: min-content;
 }
 
 #Contactbtn:hover {
@@ -78,6 +83,8 @@
   .dropdown {
     font-size: 16px;
     text-align: start;
+    width: fit-content; /*new */
+    height: fit-content; /*new */
   }
 }
 
@@ -86,7 +93,27 @@
     font-size: 15px;
   }
   #Contactbtn{
-    font-size: 15px;
+    font-size: 18px;
     height: 2.2rem;
+    width: min-content;/*new*/
+    height: min-content;/*new*/
   }
+  .dropdown {
+    font-size: 18px;
+    text-align: start;
+    width: fit-content; /*new */
+    height: fit-content; /*new */
+  }
+}
+@media (min-width: 768px) {
+  
+  #Contactbtn{
+    font-size: 18px;
+    /*height: 2.2rem; */
+    width: fit-content;/*new*/
+    height: fit-content;/*new*/
+  }
+}
+@media (min-width: 560px) {
+  
 }

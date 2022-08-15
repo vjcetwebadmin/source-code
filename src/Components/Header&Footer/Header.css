@@ -2,7 +2,8 @@
   overflow: hidden;
   background-color: white;
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  /*grid-template-columns: 33% 33% 33%;  */
+  grid-template-columns: 50% 25% 25%;  
   grid-template-areas: "vjc vjc ham" "line1 line1 line1" "nba code code" "line2 line2 line2";
   text-align: center;
   align-items: center;
@@ -21,7 +22,8 @@
 .HeaderLinkTabOne {
   grid-area: tab1;
   display: none;
-  margin: auto 0%;
+  /*margin: auto 0%; */
+  margin: auto 4px auto auto;
 }
 
 .AdmissionImage {
@@ -34,15 +36,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  vertical-align: middle;/*new */
 }
 
 .animcontent {
-  padding-top: 10px;
+  /*padding-top: 10px;*/
+  padding: 5px;
+  margin-right: 4px;/*new */
   color: #fff;
   font-size: 20px;
   font-weight: bold;
-  width: 175px;
-  height: 60px;
+  width: fit-content;
+  height: fit-content;
   border-radius: 10px;
   background: linear-gradient(-45deg, #790514, #790514, #448de0, #790514);
   background-size: 200% 200%;
@@ -91,6 +96,10 @@
 #HeaderVJCLogo {
   grid-area: vjc;
   padding-top: 10px;
+  padding-left: 1%; /*new*/
+  max-width: 380px; /*new*/
+  width: fit-content; /*new*/
+  margin-right: 10px; /*new*/
 }
 
 #HeaderHamburger {
@@ -209,7 +218,7 @@
   }
   /*grid-template-columns: 38% 62% ;*/
   .Header {
-    grid-template-columns: 38% 62%;
+    grid-template-columns: 38% 62%;    
     grid-template-areas: "vjc nba" "line1 line1" "code tab1" "line2 line2" "tab2 tab2" "line3 line3";
   }
   #HeaderHamburger {
@@ -217,7 +226,10 @@
   }
   #HeaderVJCLogo {
     justify-self: start;
-    padding-left: 15%;
+    /*padding-left: 15%;*/
+    padding-left: 1%; /*new*/
+    max-width: 380px; /*new*/
+    width: fit-content; /*new*/
   }
   #HeaderNBALogo {
     justify-self: end;
@@ -231,7 +243,7 @@
 
 @media (min-width: 1024px) {
   .Header {
-    grid-template-columns: 35% 2% 63%;
+    grid-template-columns: 35% 2% 63%;    
     grid-template-areas: "vjc code tab1" "line1 line1 line1" "tab2 tab2 tab2" "line2 line2 line2";
   }
   #HeaderLineThree {
@@ -251,7 +263,10 @@
     padding: 0px;
   }
   #HeaderVJCLogo {
-    width: 380px;
+    /*width: 380px;*/
+    padding-left: 1%; /*new*/
+    max-width: 380px; /*new*/
+    width: fit-content; /*new*/
   }
   .HeaderLinkTabOne {
     padding-left: 0%;
@@ -263,13 +278,16 @@
     padding: auto 0;
   }
   #HeaderVJCLogo {
-    width: 380px;
+    /*width: 380px;*/
+    padding-left: 1%; /*new*/
+    max-width: 380px; /*new*/
+    width: fit-content; /*new*/
   }
 }
 
 @media (min-width: 1440px) {
   .Header {
-    grid-template-columns: 30% 2% 68%;
+    grid-template-columns: 30% 2% 68%;    
   }
   .HeaderLinkTabTwo {
     padding: 0% 18%;
@@ -291,11 +309,15 @@
 @media (max-width:1080px) {
   .animcontent {
     font-size: 18px;
-    width: 165px;
-    height: 60px;
+    width: fit-content;
+    height: fit-content;
+    vertical-align: middle;
   }
   #HeaderVJCLogo {
-    width: 380px;
+    /*width: 380px;*/
+    padding-left: 1%; /*new*/
+    max-width: 380px; /*new*/
+    width: fit-content; /*new*/
   }
 }
 
@@ -303,11 +325,27 @@
   .HeaderLinkTabOne {
     grid-area: unset;
   }
-
+  /*new*/
+  .animcontent {
+    font-size: 16px;
+    width: fit-content;
+    height: fit-content;
+    vertical-align: middle;
+  }
 }
 
 @media (max-width: 480px) {
   #HeaderVJCLogo {
-    width: 180px;
+    /*width: 180px;*/
+    padding-left: 1%; /*new*/
+    max-width: 180px; /*new*/
+    width: fit-content; /*new*/
+  }
+  /*new*/
+  .animcontent {
+    font-size: 14px;
+    width: fit-content;
+    height: fit-content;
+    vertical-align: middle;
   }
 }
