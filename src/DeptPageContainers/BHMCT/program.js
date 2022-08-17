@@ -6,7 +6,7 @@ class Program extends Component {
   state = {};
   ProgramHeading = {
     instanceID: "ProgramHeading",
-    title: "PROGRAMME"
+    title: "Programme"
   };
   ProgramDescriptionOne = {
     instanceID: "ProgramDescriptionOne",

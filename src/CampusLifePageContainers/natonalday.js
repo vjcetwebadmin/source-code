@@ -44,11 +44,11 @@ class keyfunct extends React.Component {
     };
     CCCContent1 = {
         instanceID: "CCCContent1",
-        title: "Viswajyothi College of Engineering and Technology celebrated Independence Day on 15th August 2020. Flag hosting and Independence Day message was delivered by our Principal Dr. K.K. Rajan."
+        title: "Viswajyothi College of Engineering and Technology celebrated Independence Day on 15th August 2022. Flag hosting and Independence Day message was delivered by our Principal Dr. K.K. Rajan."
     }
     CCCContent2 = {
         instanceID: "CCCContent2",
-        title: "Republic day celebration was held on 26-1-2021 in the college. Principal Dr. K.K. Rajan hoisted the flag and delivered the message."
+        title: "Republic day celebration was held on 26-1-2022 in the college. Principal Dr. K.K. Rajan hoisted the flag and delivered the message."
     }
     CCCContent3 = {
         instanceID: "CCCContent3",

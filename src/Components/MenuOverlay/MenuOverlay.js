@@ -275,7 +275,7 @@ class MenuOverlay extends Component {
             <div className="separator"></div>
             <div className="MenuOverlaySubLinkGroup" style={menuItem9Style}>
               <div className="wseparator"></div>
-              <a href="https://admission.vjcet.ac.in/" className="MenuOverlaySubLinks">B.Tech</a>
+                <a href="https://admission.vjcet.ac.in/" className="MenuOverlaySubLinks">B.Tech</a>
               <div className="wseparator"></div>
               <Link className="MenuOverlaySubLinks" to="/admission/mtech">
                 M.Tech
@@ -289,7 +289,7 @@ class MenuOverlay extends Component {
                 className="MenuOverlaySubLinks">
                 BHMCT
               </Link>
-
+              <div className="wseparator"></div>
               <Link
                 to="/admission/phd"
                 className="MenuOverlaySubLinks"

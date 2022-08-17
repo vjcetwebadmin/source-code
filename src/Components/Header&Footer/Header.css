@@ -44,7 +44,7 @@
   padding: 5px;
   margin-right: 4px;/*new */
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   width: fit-content;
   height: fit-content;
@@ -308,7 +308,7 @@
 
 @media (max-width:1080px) {
   .animcontent {
-    font-size: 18px;
+    font-size: 16px;
     width: fit-content;
     height: fit-content;
     vertical-align: middle;
@@ -327,7 +327,7 @@
   }
   /*new*/
   .animcontent {
-    font-size: 16px;
+    font-size: 15px;
     width: fit-content;
     height: fit-content;
     vertical-align: middle;

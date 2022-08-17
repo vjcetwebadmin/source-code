@@ -24,7 +24,7 @@ class NewsCarousel extends Component {
 
   Title1 = {
     instanceID: "NewsSecondaryBLTwoTitle",
-    title: "Election 2019 – 20",
+    title: "Election 2021 – 22",
     link: "/#/campus-life/collegecouncil"
   }
 
