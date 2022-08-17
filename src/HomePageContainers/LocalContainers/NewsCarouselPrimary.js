@@ -113,7 +113,7 @@ class NewsCarouselPrimary extends Component {
     //Recommended Image Size is 733px x 400px.
     width: "94%"
   };
-  Image17 = {
+  /*Image17 = {
     instanceID: "NewsPrimaryOneImage",
     image: "NewsSection/BigNews/Ieenews1.jpeg",
     //Recommended Image Size is 733px x 400px.
@@ -124,7 +124,7 @@ class NewsCarouselPrimary extends Component {
     image: "NewsSection/BigNews/Ieenews2.jpeg",
     //Recommended Image Size is 733px x 400px.
     width: "64%"
-  }; 
+  }; */
   Image19 = {
     instanceID: "NewsPrimaryOneImage",
     image: "NewsSection/BigNews/4thkathelic2022.jpg",
@@ -210,6 +210,7 @@ class NewsCarouselPrimary extends Component {
         <Carousel.Item>
           <NewsImage data={this.Image20} />
         </Carousel.Item> 
+        {/*
         <Carousel.Item>          
           <a href={this.Title7.link}  target="_blank" rel="noopener noreferrer">
           <NewsImage data={this.Image17} />
@@ -219,7 +220,7 @@ class NewsCarouselPrimary extends Component {
           <a href={this.Title7.link}  target="_blank" rel="noopener noreferrer">
           <NewsImage data={this.Image18} />
           </a>
-        </Carousel.Item>             
+        </Carousel.Item>       */}      
         <Carousel.Item>
           <iframe width="630" height="400"
           src="https://www.youtube.com/embed/SwEhkhJGwrA">

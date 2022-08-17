@@ -31,34 +31,36 @@ class DropDownL extends Component {
 
   render() {
     return (
-      <div className="dropdown">
-        <span className="fillbutton">&nbsp;&nbsp;&nbsp;&nbsp;Portal&nbsp;<i class="fa fa-caret-down"></i>&nbsp;&nbsp;&nbsp;</span>
-        <div className="dropdown-content">
-          <p>
-            <a href="https://portal.vjcet.ac.in" target="_blank" className="patch1" rel="noopener noreferrer">
-              VJCET login
-            </a>
-          </p>
-          
-          <p>
-            <a href="https://alumni.vjcet.ac.in/" target="_blank" className="patch1" rel="noopener noreferrer">
-              Alumni's login
-            </a>
-          </p>
-          
-         {/* <p>
-            <a href="http://moodle.vjcet.ac.in" className="patch1" target="_blank" rel="noopener noreferrer">
-              Moodle
-            </a>
-         </p>*/}
+      <span className="portaldropdown">
+        <div className="dropdown">
+          <span className="fillbutton">&nbsp;&nbsp;&nbsp;&nbsp;Portal&nbsp;<i class="fa fa-caret-down"></i>&nbsp;&nbsp;&nbsp;</span>
+          <div className="dropdown-content">
+            <p>
+              <a href="https://portal.vjcet.ac.in" target="_blank" className="patch1" rel="noopener noreferrer">
+                VJCET login
+              </a>
+            </p>
+            
+            <p>
+              <a href="https://alumni.vjcet.ac.in/" target="_blank" className="patch1" rel="noopener noreferrer">
+                Alumni's login
+              </a>
+            </p>
+            
+          {/* <p>
+              <a href="http://moodle.vjcet.ac.in" className="patch1" target="_blank" rel="noopener noreferrer">
+                Moodle
+              </a>
+          </p>*/}
 
-          <p>
-            <a href="https://vjcet.org/#/newsfive" className="patch1" target="_self" rel="noopener noreferrer">
-              Fee Payment
-            </a>
-          </p>
+            <p>
+              <a href="https://vjcet.org/#/newsfive" className="patch1" target="_self" rel="noopener noreferrer">
+                Fee Payment
+              </a>
+            </p>
+          </div>
         </div>
-      </div>
+      </span>
     );
   }
 }

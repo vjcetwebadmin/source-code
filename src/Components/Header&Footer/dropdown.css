@@ -1,3 +1,19 @@
+/*new */
+.portaldropdown{  
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  margin: auto 0;
+  width: fit-content; 
+  min-width: 100px;
+  height: fit-content; 
+  /*margin-right: 4px;*/
+  padding: 0px;
+  
+}
 .dropdown {
   font-weight: 600;
   font-size: 14px;
