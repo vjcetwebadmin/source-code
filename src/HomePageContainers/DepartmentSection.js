@@ -85,7 +85,7 @@ class DepartmentSection extends Component {
 
     return (
       <div className="DepartmentSection" id={instanceID}>
-        <HeadingOne data={this.DepartmentSectionTitle} />
+        <HeadingOne data={this.DepartmentSectionTitle}  />
         <BodyOne data={this.DepartmentSectionSubTitle} />
         <Link to="/departments/aid" style={{textDecoration: "none" }}>
           <DepartmentList data={this.DepartmentListNine} />
