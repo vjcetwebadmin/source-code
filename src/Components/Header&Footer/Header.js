@@ -16,6 +16,7 @@ import DropDownF from "./dropdownfacilities";
 //import ContactLink from "../Texts/Contactlink"
 import DropDownAdm from "./dropdownAdmission";
 import DropDownIedc from "./dropdowniedc";
+import DropDownNacc from "./dropdownnaac";
 
 class Header extends Component {
   VJCLogo = {
@@ -176,7 +177,7 @@ class Header extends Component {
     return (
       <div className="Header" id={instanceID}>
         <Link to={"/"}>        
-        <ImageOne data={this.IndianFlag} />
+        {/*<ImageOne data={this.IndianFlag} />*/}
           <ImageOne data={this.VJCLogo} />
           
         </Link>        
@@ -242,7 +243,8 @@ class Header extends Component {
             {/*<AnchorLink data={this.Link7} /> <AnchorLink data={this.Link13}/>*/}
             <AnchorLink data={this.Link10} />
             <AnchorLink data={this.Link12} />
-            <ExternalLink data={this.Link14} />           
+            {/*<ExternalLink data={this.Link14} /> */}
+            <DropDownNacc />
           </div>
         </div>
       </div>

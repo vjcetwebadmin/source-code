@@ -290,7 +290,8 @@
     grid-template-columns: 30% 2% 68%;    
   }
   .HeaderLinkTabTwo {
-    padding: 0% 18%;
+    /*padding: 0% 18%;*/
+    padding: 0% 1%; /* new */
     padding-top: 1%;
   }
   .HeaderLinkTabOne {
