@@ -206,6 +206,11 @@ class Footer extends Component {
     title: "NAAC SSR",
     link:  "https://vjcet.org/downloads/KLCOGN110370.pdf"
   };
+  Link24 = {
+    instanceID: "Link24",
+    title: "NAAC IIQA",
+    link:  "https://vjcet.org/downloads/IIQA.pdf"
+  };
   FooterLinksTitleOne = {
     instanceID: "FooterLinksTitleOne",
     title: "Quick Links"
@@ -254,6 +259,7 @@ class Footer extends Component {
           <AnchorLink data={this.Link21} />
           <AnchorLink data={this.Link22} />        
           <ExternalLink data={this.Link23} />
+          <ExternalLink data={this.Link24} />
         </div>
 
         <div className="FooterLinksThree" id="FooterLinksThree">

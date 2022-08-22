@@ -35,7 +35,7 @@ class nss extends React.Component {
 
    NssTitle = {
         instanceID: "NssTitle",
-        title: "National Service Scheme (Technical Cell) Unit 198 & 587"
+        title: "National Service Scheme (Technical Cell) Unit 197 & 587"
     };
     AboutNssTitle = {
         instanceID: "AboutNssTitle",
@@ -170,6 +170,58 @@ class nss extends React.Component {
         instanceID: "EventTitle26",
         title: "26. Avoli Panchayat cleaning work"
     };
+    EventTitle27 = {
+        instanceID: "EventTitle27",
+        title: "27. NSS PROJECT : CULTIVATION"
+    };
+    EventTitle28 = {
+        instanceID: "EventTitle28",
+        title: "28. BLOOD DONATION"
+    };    
+    EventTitle29 = {
+        instanceID: "EventTitle29",
+        title: "29. WEBINAR ON SUSTAINABLE ENGINEERING"
+    };  
+    EventTitle30 = {
+        instanceID: "EventTitle30",
+        title: "30. LIFE MISSION"
+    };  
+    EventTitle31 = {
+        instanceID: "EventTitle31",
+        title: "31. AVOLY PANCHAYAT DISCUSSION"
+    }; 
+    EventTitle32 = {
+        instanceID: "EventTitle32",
+        title: "32. LIFE MISSION"
+    };     
+    EventTitle33 = {
+        instanceID: "EventTitle33",
+        title: "33. NSS GARDEN"
+    };     
+    EventTitle34 = {
+        instanceID: "EventTitle34",
+        title: "34. BLOOD DONATION CAMP"
+    };     
+    EventTitle35 = {
+        instanceID: "EventTitle35",
+        title: "35. GROUND CULTIVATION"
+    }; 
+    EventTitle36 = {
+        instanceID: "EventTitle36",
+        title: "36. VANAMAHOTSAV 2022"
+    }; 
+    EventTitle37 = {
+        instanceID: "EventTitle37",
+        title: "37. BLOOD DONATION CAMP STAGE 2"
+    }; 
+    EventTitle38 = {
+        instanceID: "EventTitle38",
+        title: "38. SURVEY IN COLLABORATION WITH IIT ROORKE (PRELIMINARY STAGE)"
+    }; 
+    EventTitle39 = {
+        instanceID: "EventTitle39",
+        title: "39. JEEVANA COUPON RELEASE"
+    };    
 
     EventContent1 = {
         instanceID: " EventContent1",
@@ -277,6 +329,58 @@ class nss extends React.Component {
         instanceID: " EventContent26",
         title: "The National Service Scheme unit of VJCET, Vazhakulam had organized a cleaning work at Avoli Panchayat on 6th April 2021.Around 25 NSS volunteers had participated."
     }
+    EventContent27 = {
+        instanceID: " EventContent27",
+        title: "On the 19th of April 2022 the NSS volunteers began to prepare the space allotted to set as garden. But the allotted land was not suitable for cultivation. As first the volunteers leveled the plot for cultivation. They removed the rocks,wastes from the soil.Then the soil was mixed with nutrients such as cow dung thus it lacks minerals. The work was not completed in a day as expected.We had to work for the next two days as well."
+    }
+    EventContent28 = {
+        instanceID: " EventContent28",
+        title: "On 2022 April 27th,As part of ‘ RED WINGS ’an initiative VJCET NSS blood donation, Our Rudhirasena Coordinators Jeevan Benny, Anand P Sasidharan, Eldho Mathew, Adarsh E Reji contacted our volunteers for the purpose of donating blood to Siby Varghese who is in need of blood as he was suffering from blood cancer."
+    }
+    EventContent29 = {
+        instanceID: " EventContent29",
+        title: "The NSS volunteers of VJCET conducted a webinar on National Technology Day on the topic &#39;Sustainable Engineering&#39;.It was conducted by Dr.Jai M Paul, NSS Ernakulam district coordinator, via google meet on May 11th 2022.The webinar started at 7 pm.It was really mesmerizing &amp; informative .An opportunity to clear their doubts regarding sustainable engineering was given.Through his words,&quot;As engineers we have seen marked shift towards delivering sustainable engineering solutions&quot;made the volunteers interested and more conscious on the topic.By 9.00 the webinar came to an end."
+    }
+    EventContent30 = {
+        instanceID: " EventContent30",
+        title: "NSS volunteers of VJCET conducted a survey on 13th May 2022. The name of the survey was LIFE MISSION. LIFE(Livelihood Inclusion Financial Empowerment) Mission is the mission of the government of Kerala to build free houses for all the homeless in the state. The most apt applicants are provided with a financial assistance of 4 lakh rupees. Our aim was to identify the most suitable beneficiaries- homeless people, those who have not been able to complete the housing or those who have a temporary home especially in the SC.ST category."
+    }
+    EventContent31 = {
+        instanceID: " EventContent31",
+        title: "On May 20th ,the members of Presiding group of VJCET NSS along with panchayat members arranged a meeting at avoly panchayat inorder to discuss and enquire about what all things can be done by our nss volunteers for the wellbeing and development of panchayat.Finally we arrived at a solution for that.Moreover, we planned to introduce several community ideas for the same."
+    }
+    EventContent32 = {
+        instanceID: " EventContent32",
+        title: "NSS volunteers of VJCET started working on the third stage of life mission on 3rd June 2022.The aim of the 3rd stage was to contact the beneficiaries who were approved by LB committee .Each volunteer contributed their best &amp; it was a great experience. On 11th June the 3rd stage came to an end &amp; we submitted the details of all the benefitiaries.As a token of appreciation for the efforts of the volunteers, certificates were granted to the volunteers BY LIFE MISSION KERALA in collabration with good deeds day and DC volunteers as a part of #EveryIndianVolunteering Campaign by Captain Social Foundationon 23rd June.The 3 rd stage was a great success with the activeness of all the volunteers."
+    }
+    EventContent33 = {
+        instanceID: " EventContent33",
+        title: "The beautiful vegetable garden we built in the past few months had reached the stage of harvesting. We NSS Volunteers were very proud and happy as it is our hard work and team coordination that helped us to make the NSS garden a great success . We collected many vegetables and made a great profit on that day. All NSS volunteers took part in the program, and it was a huge success."
+    }
+    EventContent34 = {
+        instanceID: " EventContent34",
+        title: "NSS volunteers decied to conduct Blood Donation Camp on 16/06/2022. So to gather the information about the donators, a google form containing a set of questions asking about their details like name, age, blood group etc was released on 6th of June.This form was circulated till the 12th of Junefor gaining as many donors as we can get. Aisa result we got an overwhelming amount of responses. We then sorted this list on the basis of classes. This concluded the day 3 of the blood donation camp."
+    }
+    EventContent35 = {
+        instanceID: " EventContent35",
+        title: "As a part of the institutional cultivation project ,the volunteers of NSS ,VJCET had done some maintenance work on the NSS cultivation ground &amp; cultivated some Vegetables on 29th June 2022.The volunteers worked hard to get a best result on the ground.Even in the worst climatic conditions like heavy rain &amp; hot sun the volunteers had done an astonishing work.We added natural fertilizers,removed weeds,provided adequate care.The tough grind of the volunteers made their hard work fruitful.The yields from our garden was a treat to the eyes and heart."
+    }
+    EventContent36 = {
+        instanceID: " EventContent36",
+        title: "NSS NRPF volunteers of VJCET decided to practice afforestation for van mahotsav on 1-7 of july 2022.All the volunteers planted trees in their own homes as part of this.After the event the photos of volunteers planting trees were submitted through google drive by 7th july."
+    }
+    EventContent37 = {
+        instanceID: " EventContent37",
+        title: "Rudhirasena NSS volunteers of VJCET conducted the second stage of blood donation camp on 4th July 2022. The 2nd stage was completed with 73 donations. In total, we were able to complete 145 donations. The NSS volunteers, college faculties and many others actively participated in this event making this a mass success."
+    }
+    EventContent38 = {
+        instanceID: " EventContent38",
+        title: "NSS volunteers of VJCET conducted a survey in collaboration with IIT ROORKE .The preliminary stage of the survey was completed on 24th July 2022 .Two google forms where provided to submit the responses. The first form was about the perspective on energy savings and climate change .The latter was demand side management ,EV-PV adoption ."
+    }
+    EventContent39 = {
+        instanceID: " EventContent39",
+        title: "Kidneys perform crucial and sophisticated functions within our body.So it is vital to treat kidney failure. In order to do that , dialysis is the best method. Most people need 3 sessions of dialysis a week. Many  poor families cannot afford the treatment . so KTU Care Coordinators of NSS VJCET collabed with Renal Care Foundation for collecting money for dialysis Coupon and its given to one who needs the most.As a kick start to this flagship event, the Renal care foundation provides us a platform for the official coupon handling.They presented the coupon toprincipal and our team. Principal Mr.KK.Rajan and all the eminent ones present over their especially MLA Mathew M Kuzhalnadan appreciated our startup."
+    }
 
     render() {
         return (
@@ -306,16 +410,19 @@ class nss extends React.Component {
                             <tr><td>Ms. Anitta Thomas</td><td>Associate Program Officer</td><td>2016-'17</td></tr>
                             <tr><td>Mr. Shibu K R</td><td>Program Officer</td><td>2019-'20</td></tr>
                             <tr><td>Ms. Jerin Jose</td><td>Associate Program Officer</td><td>2019-'20</td></tr>
-                            <tr><td>Mr. Aneesh Kurian</td><td>Program Officer</td><td>2020-'21 onwards</td></tr>
-                            <tr><td>Ms. Jerin Jose</td><td>Associate Program Officer</td><td>2020-'21  onwards</td></tr>
+                            <tr><td>Mr. Aneesh Kurian</td><td>Program Officer</td><td>2020-'21</td></tr>
+                            <tr><td>Ms. Jerin Jose</td><td>Associate Program Officer</td><td>2020-'21</td></tr>
+                            <tr><td>Mr. Rakesh Jose</td><td>Program Officer</td><td>2021-'22  onwards</td></tr> 
+                            
                         </table> 
                         <table id="tableformat">
                             <tr><th colspan="3"> Program officers / Associate Program Officers Unit-587</th></tr>
                             <tr><td>Mr. Jacob Mathai</td><td>Program Officer</td><td>2015-'16 to 2018-'19</td></tr>
                             <tr><td>Ms. Vineetha Thankachan</td><td>Associate Program Officer</td><td>2015-'16 to 2018-'19</td></tr>
                             <tr><td>Mr. Nibin B. </td><td>Program Officer</td><td>2016-'17 to 2019-'20</td></tr>
-                            <tr><td>Mr. Santhanu P Mohan</td><td>Program Officer</td><td>2020-'21 onwards</td></tr>
-                            <tr><td>Ms. Mary Nirmala George </td><td>Associate Program Officer</td><td>2020-'21  onwards</td></tr>
+                            <tr><td>Mr. Santhanu P Mohan</td><td>Program Officer</td><td>2020-'21 </td></tr>
+                            <tr><td>Ms. Mary Nirmala George </td><td>Associate Program Officer</td><td>2020-'21</td></tr>
+                            <tr><td>Mr. Shandhanu P Mohan </td><td>Program Officer</td><td>2021-'22  onwards</td></tr>
                         </table> 
                         <table id="tableformat">
                             <tr><th colspan="2"> Volunteer Secretary Unit-197</th></tr>
@@ -328,7 +435,11 @@ class nss extends React.Component {
                             <tr><td>Mr. Akash Satheesan</td><td>2019-'20</td></tr>
                             <tr><td>Ms. Arya Vijayan</td><td>2019-'20</td></tr> 
                             <tr><td>Mr. Sidharth T.S.</td><td>2020-'21</td></tr>
-                            <tr><td>Ms. Irene Meriyam Jos</td><td>2020-'21</td></tr>                            
+                            <tr><td>Ms. Irene Meriyam Jos</td><td>2020-'21</td></tr>
+                            <tr><td>Mr. Alen Salu </td><td>2021-'22</td></tr> 
+                            <tr><td>Ms. Taniya Tijo </td><td>2021-'22</td></tr>  
+                            <tr><td>Mr. Abhinav P George </td><td>2022-'23</td></tr> 
+                            <tr><td>Ms. Gadha Ashok </td><td>2022-'23</td></tr> 
                             </table> 
                         <table id="tableformat">
                             <tr><th colspan="2"> Volunteer Secretary Unit-587</th></tr>
@@ -341,7 +452,12 @@ class nss extends React.Component {
                             <tr><td>Mr. Basil Sunny</td><td>2019-'20</td></tr>
                             <tr><td>Ms. Arsha Paulose</td><td>2019-'20</td></tr>
                             <tr><td>Mr. Navin Joseph</td><td>2020-'21</td></tr>
-                            <tr><td>Ms. Megha Jomon</td><td>2020-'21</td></tr>          
+                            <tr><td>Ms. Megha Jomon</td><td>2020-'21</td></tr> 
+                            <tr><td>Mr. Soyal Sunny</td><td>2021-'22</td></tr> 
+                            <tr><td>Ms. Haripriya Biju</td><td>2021-'22</td></tr>                              
+                            <tr><td>Mr. Eldho Peter Regi</td><td>2022-'23</td></tr> 
+                            <tr><td>Ms. Akshara Joshy</td><td>2022-'23</td></tr>
+                            
                          </table> 
                         <HeadingTwo data={this.MajoreventsTitle} className="Heading" />
                         <HeadingFour data={this.EventTitle1} className="Heading" />
@@ -396,9 +512,33 @@ class nss extends React.Component {
                         <BodyOneJustified data={this.EventContent25} />
                         <HeadingFour data={this.EventTitle26} className="Heading" />
                         <BodyOneJustified data={this.EventContent26} />
-                        
-                         
-                        
+                        <HeadingFour data={this.EventTitle27} className="Heading" />
+                        <BodyOneJustified data={this.EventContent27} />
+                        <HeadingFour data={this.EventTitle28} className="Heading" />
+                        <BodyOneJustified data={this.EventContent28} />
+                        <HeadingFour data={this.EventTitle29} className="Heading" />
+                        <BodyOneJustified data={this.EventContent29} />
+                        <HeadingFour data={this.EventTitle30} className="Heading" />
+                        <BodyOneJustified data={this.EventContent30} />
+                        <HeadingFour data={this.EventTitle31} className="Heading" />
+                        <BodyOneJustified data={this.EventContent31} />
+                        <HeadingFour data={this.EventTitle32} className="Heading" />
+                        <BodyOneJustified data={this.EventContent32} />
+                        <HeadingFour data={this.EventTitle33} className="Heading" />
+                        <BodyOneJustified data={this.EventContent33} />
+                        <HeadingFour data={this.EventTitle34} className="Heading" />
+                        <BodyOneJustified data={this.EventContent34} />
+                        <HeadingFour data={this.EventTitle35} className="Heading" />
+                        <BodyOneJustified data={this.EventContent35} />
+                        <HeadingFour data={this.EventTitle36} className="Heading" />
+                        <BodyOneJustified data={this.EventContent36} />
+                        <HeadingFour data={this.EventTitle37} className="Heading" />
+                        <BodyOneJustified data={this.EventContent37} />
+                        <HeadingFour data={this.EventTitle38} className="Heading" />
+                        <BodyOneJustified data={this.EventContent38} />
+                        <HeadingFour data={this.EventTitle39} className="Heading" />
+                        <BodyOneJustified data={this.EventContent39} />
+
                 </div>
                 
                 <Footer data={this.HomePageFooter} />
