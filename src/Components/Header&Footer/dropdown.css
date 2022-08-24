@@ -121,6 +121,16 @@
     height: fit-content; /*new */
   }
 }
+
+@media (min-width: 1080px){
+  .dropdown {
+    font-size: 16px;
+    text-align: start;
+    width: fit-content; /*new */
+    height: fit-content; /*new */
+  }
+}
+
 @media (min-width: 768px) {
   
   #Contactbtn{

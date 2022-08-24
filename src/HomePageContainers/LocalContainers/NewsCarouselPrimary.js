@@ -151,7 +151,7 @@ class NewsCarouselPrimary extends Component {
   };
   Title6 = {
     instanceID: "NewsPrimaryOneTitle",
-    title: "NSS Camp 2021",
+    title: "NSS Camp",
     link: ""
   };
   Title7 = {

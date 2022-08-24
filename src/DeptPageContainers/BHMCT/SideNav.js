@@ -10,6 +10,8 @@ import Library from "./studlife";
 import Bhmctadmission from "./bhmctadmission";
 import FacultyNav from "./facultynav";
 import PlacementNav from "./placementnav";
+import Bhmctbrochure from "./bhmctbrochure";
+
 class SideNav extends Component {
   state = {
     showProfile: true,
@@ -19,7 +21,8 @@ class SideNav extends Component {
     showLib: false,
     showAss: false,
     showRes: false,
-    showfac: false
+    showfac: false,
+    showBrou:false
   };
   onClickP = () => {
     this.setState({
@@ -30,7 +33,8 @@ class SideNav extends Component {
       showLib: false,
       showAss: false,
       showRes: false,
-      showfac: false
+      showfac: false,
+      showBrou:false
     });
   };
   onClickV = () => {
@@ -42,7 +46,8 @@ class SideNav extends Component {
       showLib: false,
       showAss: false,
       showRes: false,
-      showfac: false
+      showfac: false,
+      showBrou:false
     });
   };
   onClickPeo = () => {
@@ -54,7 +59,8 @@ class SideNav extends Component {
       showLib: false,
       showAss: false,
       showRes: false,
-      showfac: false
+      showfac: false,
+      showBrou:false
     });
   };
   onClickProg = () => {
@@ -66,7 +72,8 @@ class SideNav extends Component {
       showLib: false,
       showAss: false,
       showRes: false,
-      showfac: false
+      showfac: false,
+      showBrou:false
     });
   };
   onClickLib = () => {
@@ -78,7 +85,8 @@ class SideNav extends Component {
       showLib: true,
       showAss: false,
       showRes: false,
-      showfac: false
+      showfac: false,
+      showBrou:false
     });
   };
   onClickAss = () => {
@@ -90,7 +98,8 @@ class SideNav extends Component {
       showLib: false,
       showAss: true,
       showRes: false,
-      showfac: false
+      showfac: false,
+      showBrou:false
     });
   };
   onClickRes = () => {
@@ -102,7 +111,8 @@ class SideNav extends Component {
       showLib: false,
       showAss: false,
       showRes: true,
-      showfac: false
+      showfac: false,
+      showBrou:false
     });
   };
   onClickFac = () => {
@@ -114,7 +124,21 @@ class SideNav extends Component {
       showLib: false,
       showAss: false,
       showRes: false,
-      showfac: true
+      showfac: true,
+      showBrou:false
+    });
+  };
+  onClickBrou = () => {
+    this.setState({
+      showProfile: false,
+      showVision: false,
+      showPeo: false,
+      showProgram: false,
+      showLib: false,
+      showAss: false,
+      showRes: false,
+      showfac: false,
+      showBrou:true
     });
   };
 
@@ -163,12 +187,12 @@ class SideNav extends Component {
               value="Placements"
               class="button"
               onClick={this.onClickAss}
-            />
+            />*/}
             <input
-              value="Student Life"
+              value="Brochure"
               class="button"
-              onClick={this.onClickLib}
-           />*/}
+              onClick={this.onClickBrou}
+           />
 
           </div>
           <div class="dropdownD">
@@ -217,10 +241,14 @@ class SideNav extends Component {
                 onClick={this.onClickAss}
               />
               <input
-
                 value="Result"
                 class="button"
                 onClick={this.onClickRes}
+              />
+              <input
+                value="Brochure"
+                class="button"
+                onClick={this.onClickBrou}
               />
             </div>
           </div>
@@ -232,7 +260,8 @@ class SideNav extends Component {
             {this.state.showLib ? <Library /> : null}
             {this.state.showAss ? <PlacementNav /> : null}
             {this.state.showPeo ? <PEO /> : null}                  
-            {this.state.showRes ? <Bhmctadmission /> : null}
+            {this.state.showRes ? <Bhmctadmission /> : null}  
+            {this.state.showBrou ? <Bhmctbrochure /> : null}            
           </div>
         </div>
       </React.Fragment>

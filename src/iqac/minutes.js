@@ -58,7 +58,17 @@ class minutes extends Component {
                 minutes: "https://vjcet.org/downloads/iqac/N25.pdf",
                 action: "",
               },
-
+              {
+                date: "18-04-2022",
+                minutes: "https://vjcet.org/downloads/iqac/18-04-22M.pdf",
+                action: "https://vjcet.org/downloads/iqac/18-04-22A.pdf",
+              },
+              {
+                date: "07-06-2022",
+                minutes: "https://vjcet.org/downloads/iqac/07-06-22M.pdf.pdf",
+                action: "https://vjcet.org/downloads/iqac/07-06-22A.pdf",
+              },
+              
             ],
             annualReport: "",
           },
@@ -67,9 +77,9 @@ class minutes extends Component {
             events: [
               {
                 date: "07-07-2020",
-                minutes: "https://vjcet.org/downloads/iqac/N19.pdf",
+                minutes: "https://vjcet.org/downloads/iqac/07-07-2020M.pdf",
                 action: "https://vjcet.org/downloads/iqac/A20.pdf",
-              },
+              },              
               {
                 date: "06-10-2020",
                 minutes: "https://vjcet.org/downloads/iqac/N20.pdf",
