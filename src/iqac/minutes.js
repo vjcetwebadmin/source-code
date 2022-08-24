@@ -65,7 +65,7 @@ class minutes extends Component {
               },
               {
                 date: "07-06-2022",
-                minutes: "https://vjcet.org/downloads/iqac/07-06-22M.pdf.pdf",
+                minutes: "https://vjcet.org/downloads/iqac/07-06-22M.pdf",
                 action: "https://vjcet.org/downloads/iqac/07-06-22A.pdf",
               },
               
