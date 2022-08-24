@@ -6,11 +6,11 @@ class CarouselTwo extends Component {
   state = { selected: 0 };
   data = [
 
-    {
+    /*{
       instanceID: this.props.data.instanceID + "CustomOne",
       title: <a href="https://vjcet.org/#/newseight"  rel="noopener noreferrer"><font color="FFFFF" size="4">Wanted Assistant Professor in ME</font></a>
       
-    }, 
+    }, */
     {
       instanceID: this.props.data.instanceID + "CustomOne",
       title: <a href="https://vjcet.org/#/newsthree"  rel="noopener noreferrer"><font color="FFFFF" size="4">VJCET has been accredited by the NAAC in May 2022. This Accreditation is valid for the next 5 years.</font></a>

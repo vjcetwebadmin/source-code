@@ -43,7 +43,7 @@ class MEFaculty extends Component {
     instanceID: "Cefaculty8",
     image: "Allstaffphoto/ME/FAC/388.jpg",
     width: "50%",
-    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=MEFAC150" target="_blank" rel="noopener noreferrer">Mr. Arun K.</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=MEFAC150" target="_blank" rel="noopener noreferrer">Dr. Arun K.</a>,
     content: "Assistant Professor"
   };
   
@@ -114,7 +114,7 @@ class MEFaculty extends Component {
     instanceID: "Cefaculty19",
     image: "Allstaffphoto/ME/FAC/314.jpg",
     width: "50%",
-    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=MEFAC134" target="_blank" rel="noopener noreferrer">Mr. Arun Raphel</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=MEFAC134" target="_blank" rel="noopener noreferrer">Dr. Arun Raphel</a>,
     content: "Assistant Professor"
   };
   Cefaculty20 = {

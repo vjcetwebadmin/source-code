@@ -35,7 +35,7 @@ class Faculty extends Component {
     instanceID: "Cefaculty6",
     image: "Allstaffphoto/EC/FAC/ECFAC104.jpg",
     width: "50%",
-    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ECFAC104" target="_blank" rel="noopener noreferrer">Mr. Melvin C Jose</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ECFAC104" target="_blank" rel="noopener noreferrer">Dr. Melvin C Jose</a>,
     content: "Associate Professor"
   };
   Cefaculty7 = {

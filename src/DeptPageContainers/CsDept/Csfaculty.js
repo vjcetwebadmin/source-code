@@ -28,7 +28,7 @@ class CSFaculty extends Component {
     instanceID: "Cefaculty2",
     image: "Allstaffphoto/CS/FAC/CSFAC136.jpg",
     width: "50%",
-    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CSFAC136" target="_blank" rel="noopener noreferrer">Dr.S.P.PREDEEP KUMAR</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CSFAC136" target="_blank" rel="noopener noreferrer">Dr.S.P.Predeep Kumar</a>,
     content: "Associate Professor"
   };
 /*   Cefaculty4 = {
