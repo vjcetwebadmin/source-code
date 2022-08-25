@@ -155,7 +155,7 @@ class Faculty extends Component {
     instanceID: "Cefaculty24",
     image: "Allstaffphoto/EC/FAC/Naveenjacob.jpg",
     width: "50%",
-    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ECFAC105" target="_blank" rel="noopener noreferrer">Mr. Naveen Jacob</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ECFAC105" target="_blank" rel="noopener noreferrer">Dr. Naveen Jacob</a>,
     content: "Associate Professor"
   };
 
