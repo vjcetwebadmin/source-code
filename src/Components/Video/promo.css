@@ -14,6 +14,17 @@ video {
   display: flex;
   justify-content: flex-end;
 }
+.overlay-desc-logo {
+  background: rgba(0, 0, 0, 0);
+  position: absolute;
+  /* top: 0; */
+  padding-right: 2%;
+  right: 0;
+  bottom: -180px;
+  left: 0;
+  display: flex;
+  justify-content: flex-start;
+}
 h1 {
   color: white;
   font-family: "Nobile", sans-serif;
@@ -43,9 +54,17 @@ h1 {
   .overlay-desc {
     bottom: -150px;
   }
+  .overlay-desc-logo
+  {
+    bottom: -150px;
+  }
 }
 @media (max-width: 1080px){
   .overlay-desc {
+    bottom: -140px;
+  }
+  .overlay-desc-logo
+  {
     bottom: -140px;
   }
 }
@@ -53,9 +72,17 @@ h1 {
   .overlay-desc {
     bottom: -100px;
   }
+  .overlay-desc-logo
+  {
+    bottom: -100px;
+  }
 }
 @media (max-width: 720px){
   .overlay-desc {
+    display: none;
+  }
+  .overlay-desc-logo
+  {
     display: none;
   }
 }

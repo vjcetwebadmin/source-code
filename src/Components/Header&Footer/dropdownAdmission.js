@@ -67,13 +67,13 @@ class DropDownAdm extends Component {
                         </a>
                     </p>
                     <p>
-                        <Link
-                            to="/departments/bhmct"
+                        <a
+                            href="https://vjcetmba.in/hotel-management-and-caterering-technology/"
                             className="patch1"
                             target="_self"
                             rel="noopener noreferrer">
                             BHMCT
-                        </Link>
+                        </a>
                     </p>
                     <p>
                         <Link

@@ -3,8 +3,19 @@ import React, { Component } from "react";
 import "./promo.css";
 import promovid from "./vjcet.mp4";
 import poster from "./poster.png";
+import ImageOne from "../Images/ImageOne";
 
 class Promo extends Component {
+  NBALogo = {
+    instanceID: "HeaderNBALogo",
+    image: "nbaac.png",
+    width: "40%"
+  };
+  NAACLogo = {
+    instanceID: "HeaderNAACLogo",
+    image: "NAAC_LOGO.png",
+    width: "50%"
+  };
   render() {
     return (
       <div className="background-video">
@@ -13,8 +24,14 @@ class Promo extends Component {
           <source src={promovid} type="video/ogg" />
           Your browser does not support the video tag.
         </video>
+        {/*<div>
+          <div class="overlay-desc-logo">
+            <ImageOne data={this.NBALogo} /> 
+            <ImageOne data={this.NAACLogo} /> 
+          </div>
+        </div>*/}
         <div class="overlay-desc">
-          <h1>VJCET</h1>
+          <h1>VJC</h1>
         </div>
       </div>
     );
