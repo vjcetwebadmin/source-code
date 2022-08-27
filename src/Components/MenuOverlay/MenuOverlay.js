@@ -290,12 +290,13 @@ class MenuOverlay extends Component {
               <div className="wseparator"></div>
               <a href="https://vjcetmba.in/application/" className="MenuOverlaySubLinks">MBA</a>
               <div className="wseparator"></div>
-
-              <Link
+              <a href="https://vjcetmba.in/hotel-management-and-caterering-technology/" className="MenuOverlaySubLinks">BHMCT</a>
+              
+              {/*<Link
                 to="/departments/bhmct"
                 className="MenuOverlaySubLinks">
                 BHMCT
-              </Link>
+              </Link>*/}
               <div className="wseparator"></div>
               <Link
                 to="/admission/phd"
