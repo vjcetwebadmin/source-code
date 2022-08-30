@@ -79,7 +79,7 @@ class ApprovalLetters extends React.Component {
                     
                         <table border="1"  id="tableformat1" style={{margin:"auto",width:"90%"}}>
                     {/* <tr><th style={{width:"6%"}}>#</th><th style={{width:"79%"}}>Details</th><th style={{width:"15%"}}>Download</th></tr> */}
-                            <tr><th colSpan="3">Details</th></tr> 
+                            <tr><th colSpan="3">AICTE</th></tr> 
                             <tr><th style={{textAlign:"center",width:"10%"}}>Sl.No</th><th style={{textAlign:"center",width:"75%"}}>Year</th><th style={{textAlign:"center",width:"15%"}}>View</th></tr>                         
                             <tr><td style={{textAlign:"center"}}>1</td><td style={{textAlign:"center"}}>2022-23</td><td style={{textAlign:"center"}}><a href="https://vjcet.org/downloads/ApprovalLetters/2022.pdf" target="_blank" rel="noopener noreferrer"><button class="buttonnaac1" >Download</button></a></td></tr>  
                             <tr><td style={{textAlign:"center"}}>2</td><td style={{textAlign:"center"}}>2021-22</td><td style={{textAlign:"center"}}><a href="https://vjcet.org/downloads/ApprovalLetters/2021.pdf" target="_blank" rel="noopener noreferrer"><button class="buttonnaac1" >Download</button></a></td></tr>  
