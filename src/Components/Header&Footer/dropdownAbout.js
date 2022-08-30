@@ -89,7 +89,15 @@ class DropDownAb extends Component {
               to="/about/mandatorydisclosure"
               className="patch1"
             >
-              Mandatory Disclosure & EOA
+              Mandatory Disclosure
+            </Link>
+          </p>
+          <p>
+            <Link
+              to="/about/approval"
+              className="patch1"
+            >
+              Approval Letters (EOA)
             </Link>
           </p>
           <p>

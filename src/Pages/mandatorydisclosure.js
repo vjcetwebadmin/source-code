@@ -80,7 +80,7 @@ class Mandatorydisclosure extends React.Component {
                    <br />
                 </div>
                 <p align="center"><h2><a href="https://vjcet.org/downloads/about/Attachments.pdf" target="_blank" rel="noopener noreferrer"> Attachments </a></h2> </p>
-                <p align="center"><h2><a href="https://vjcet.org/downloads/about/AICTE.zip" target="_blank" rel="noopener noreferrer"> Approval Letters </a></h2> </p>
+                {/*<p align="center"><h2><a href="https://vjcet.org/downloads/about/AICTE.zip" target="_blank" rel="noopener noreferrer"> Approval Letters </a></h2> </p>*/}
                 <Footer data={this.HomePageFooter} /> 
                 {this.state.showMenu ? (<MenuOverlay closeMenuFunction={this.closeMenu} />) : ("")}                
             </React.Fragment>

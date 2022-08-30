@@ -29,10 +29,8 @@ class CsDepartment extends Component {
   };
   HeadingSectionTitle = {
     instanceID: "Headingtext",
-    title: "Internal Quality Assurance Cell  (IQAC)"
+    title: "Internal Quality Assurance Cell (IQAC)"
   };
-
- 
   
   ProfileHeading = {
     instanceID: "ProfileHeading",

@@ -88,6 +88,7 @@ import grievance from "./Grievance/grievance";
 import govenbody from "./AboutPageContainers/AboutVJC/governbody" 
 import distinctiv from "./Naac/insti_disti_731"
 import compuskills from "./Naac/skills_enhancement"
+import ApprovalLetters from "./Pages/ApprovalLetters";
 
 class App extends Component {
 
@@ -731,6 +732,7 @@ class App extends Component {
               <Route exact path="/about/vision" component={VisionPage} />
               <Route exact path="/about/affliations" component={Affliations} />
               <Route exact path="/about/mandatorydisclosure" component={Mandatorydisclosure} />
+              <Route exact path="/about/approval" component={ApprovalLetters} />
               <Route exact path="/about/RTI" component={RTI} />
               <Route exact path="/academics/courses-offered" component={Academics} />
               <Route exact path="/academics/syllabus" component={SyllabusPage} />
