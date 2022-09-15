@@ -87,7 +87,7 @@ class MEFaculty extends Component {
     image: "Allstaffphoto/ME/FAC/217.jpg",
     width: "50%",
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=MEFAC123" target="_blank" rel="noopener noreferrer">Mr. Unnikrishnan T G</a>,
-    content: "Assistant Professor(on-leave Ph.D)"
+    content: "Assistant Professor"
   };
   /*Cefaculty16 = {
     instanceID: "Cefaculty16",
@@ -145,13 +145,13 @@ class MEFaculty extends Component {
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=MEFAC147" target="_blank" rel="noopener noreferrer">Mr. Akash Paul Savio</a>,
     content: "Assistant Professor"
   };
-  Cefaculty25 = {
+  /*Cefaculty25 = {
     instanceID: "Cefaculty25",
     image: "Allstaffphoto/ME/FAC/379.jpg",
     width: "50%",
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=MEFAC148" target="_blank" rel="noopener noreferrer">Mr. Basil Baby</a>,
     content: "Assistant Professor"
-  };
+  };*/
   Cefaculty26 = {
     instanceID: "Cefaculty26",
     image: "Allstaffphoto/ME/FAC/AravindS.JPEG",
@@ -159,13 +159,13 @@ class MEFaculty extends Component {
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=MEFAC112" target="_blank" rel="noopener noreferrer">Mr. Aravind S</a>,
     content: "Assistant Professor(on-leave Ph.D)"
   };
-  Cefaculty27 = {
+  /*Cefaculty27 = {
     instanceID: "Cefaculty27",
     image: "Allstaffphoto/ME/FAC/Harikrishnan.jpeg",
     width: "50%",
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=MEFAC154" target="_blank" rel="noopener noreferrer">Mr. Harikrishnan V K</a>,
     content: "Ad hoc Faculty"
-  };
+  };*/
   
   render() {
     return (
@@ -226,15 +226,15 @@ class MEFaculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty22} />
           </div>
-          <div>
+          {/*<div>
             <FacultyData data={this.Cefaculty25} />
-          </div>         
+          </div>  */}       
           <div>
             <FacultyData data={this.Cefaculty23} />
           </div>
-          <div>
+          {/*<div>
             <FacultyData data={this.Cefaculty27} />
-          </div>
+          </div>*/}
           </div>
       </div>
     );

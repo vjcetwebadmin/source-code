@@ -12,7 +12,7 @@ class CSFaculty extends Component {
   };  
   Cefaculty2 = {
     instanceID: "Cefaculty2",
-    image: "Allstaffphoto/AD/FAC/CSFACblank.jpg",
+    image: "Allstaffphoto/AD/FAC/Anita.jpg",
     width: "50%",
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=AIFAC101" target="_blank" rel="noopener noreferrer">Dr. Anita Brigit Mathew</a>,
     content: "Associate Professor"
@@ -52,6 +52,9 @@ class CSFaculty extends Component {
         <div className="facultyContent">
           <div>
             <FacultyData data={this.Cefaculty1} />
+          </div>
+          <div>
+            <FacultyData data={this.Cefaculty2} />
           </div>
           <div>
             <FacultyData data={this.Cefaculty3} />

@@ -3,13 +3,13 @@ import FacultyData from "../../Components/FacultyData";
 import "../../Components/faculty.css"
 class Faculty extends Component {
   state = {};
-  Cefaculty1 = {
+  /*Cefaculty1 = {
     instanceID: "Cefaculty1",
     image: "Allstaffphoto/SH/FAC/242.jpg",
     width: "50%",
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=SHFAC101" target="_blank" rel="noopener noreferrer">Mrs. Ann Neetha Sabu</a>,
     content: "Assistant Professor"
-  };
+  };*/
   Cefaculty24 = {
     instanceID: "Cefaculty24",
     image: "Allstaffphoto/SH/FAC/140.jpg",
@@ -144,13 +144,13 @@ class Faculty extends Component {
     name:  <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=SHFAC141" target="_blank" rel="noopener noreferrer">Ms. Chithra Ramesh</a>,
     content: "Assistant Professor"
   };
-  Cefaculty28 = {
+  /*Cefaculty28 = {
     instanceID: "Cefaculty28",
     image: "Allstaffphoto/SH/FAC/SHFAC142.jpg",
     width: "50%",
     name:  <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=SHFAC142" target="_blank" rel="noopener noreferrer">Ms. Ashly George</a>,
     content: "Assistant Professor"
-  };
+  };*/
   /*Cefaculty29 = {
     instanceID: "Cefaculty29",
     image: "Allstaffphoto/SH/FAC/SHFAC143.jpg",
@@ -158,13 +158,13 @@ class Faculty extends Component {
     name:  <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=SHFAC143" target="_blank" rel="noopener noreferrer">Ms. Athira Sivan</a>,
     content: "Assistant Professor"
   };*/
-  Cefaculty30 = {
+  /*Cefaculty30 = {
     instanceID: "Cefaculty30",
     image: "Allstaffphoto/SH/FAC/SHFAC144.jpg",
     width: "50%",
     name:  <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=SHFAC144" target="_blank" rel="noopener noreferrer">Dr. Riya Sebastian</a>,
     content: "Assistant Professor"
-  };
+  };*/
   Cefaculty31 = {
     instanceID: "Cefaculty31",
     image: "Allstaffphoto/SH/FAC/SHFAC145.jpg",
@@ -180,9 +180,9 @@ class Faculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty12} />
           </div>
-          <div>
+          {/*<div>
             <FacultyData data={this.Cefaculty1} />
-          </div>
+          </div>*/}
           <div>
             <FacultyData data={this.Cefaculty24} />
           </div>            
@@ -237,15 +237,15 @@ class Faculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty27} />
           </div>
-          <div>
+          {/*<div>
             <FacultyData data={this.Cefaculty28} />
-          </div>
+          </div>*/}
           {/*<div>
             <FacultyData data={this.Cefaculty29} />
           </div>*/}
-          <div>
+          {/*<div>
             <FacultyData data={this.Cefaculty30} />
-          </div>         
+          </div>*/}      
           <div>
             <FacultyData data={this.Cefaculty31} />
           </div>

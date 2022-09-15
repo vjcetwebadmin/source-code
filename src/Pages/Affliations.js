@@ -84,8 +84,6 @@ class Affliations extends React.Component {
                     <iframe src="https://vjcet.org/downloads/about/Affliation-KTU.pdf" width="100%" height="800" title="Campus Map" align="center"></iframe>
                    <br />
                    
-                   
-
                 </div>
                 <Footer data={this.HomePageFooter} />
                 {this.state.showMenu ? (<MenuOverlay closeMenuFunction={this.closeMenu} />) : ("")}

@@ -9,14 +9,7 @@ class ITFaculty extends Component {
     width: "50%",
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ITFAC102" target="_blank" rel="noopener noreferrer">Mrs. Anju Susan George</a>,
     content: "Asso. Prof. & HOD"
-  };
-  Cefaculty26 = {
-    instanceID: "Cefaculty26",
-    image: "Allstaffphoto/AD/FAC/Anita.jpg",
-    width: "50%",
-    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=AIFAC101" target="_blank" rel="noopener noreferrer">Dr. Anita Brigit Mathew</a>,
-    content: "Associate Professor"
-  };
+  };  
   Cefaculty2 = {
     instanceID: "Cefaculty2",
     image: "Allstaffphoto/IT/FAC/181.jpg",
@@ -116,10 +109,7 @@ class ITFaculty extends Component {
         <div className="facultyContent">
           <div>
             <FacultyData data={this.Cefaculty1} />
-          </div>
-         <div>
-            <FacultyData data={this.Cefaculty26} />
-         </div>
+          </div>       
           <div>
             <FacultyData data={this.Cefaculty2} />
           </div>

@@ -38,20 +38,20 @@ class CSFaculty extends Component {
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CSFAC129" target="_blank" rel="noopener noreferrer">Dr. Anishin Raj M M</a>,
     content: "Dean R & D, Professor & Asst. HOD"
   }; */
-   Cefaculty7 = {
+  /* Cefaculty7 = {
     instanceID: "Cefaculty7",
     image: "Allstaffphoto/CS/FAC/68.jpg",
     width: "50%",
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CSFAC104" target="_blank" rel="noopener noreferrer">Mrs.Sindhu Jose</a>,
     content: "Assistant Professor"
-  };
-  Cefaculty8 = {
+  };*/
+  /*Cefaculty8 = {
     instanceID: "Cefaculty8",
     image: "Allstaffphoto/CS/FAC/69.jpg",
     width: "50%",
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CSFAC105" target="_blank" rel="noopener noreferrer">Mrs. Mili Els Jose</a>,
     content: "Assistant Professor"
-  };
+  };*/
   Cefaculty9 = {
     instanceID: "Cefaculty",
     image: "Allstaffphoto/CS/FAC/CSFAC106.jpg",
@@ -207,12 +207,12 @@ class CSFaculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty2} />
           </div>   
-           <div>
+          {/*<div>
             <FacultyData data={this.Cefaculty7} />
           </div>
           <div>
             <FacultyData data={this.Cefaculty8} />
-          </div>
+          </div>*/}
           <div>
             <FacultyData data={this.Cefaculty9} />
           </div>
