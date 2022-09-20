@@ -108,9 +108,9 @@ class Newsfive extends React.Component {
                 <p></p><br></br>
                 <p><b>Semester 3</b></p>
                     <iframe src="https://vjcet.org/downloads/news/NoticeS3TF.jpg" width="100%" height="600" title="Campus Map" align="center"></iframe> 
-                {/*<p><b>Semester 4</b></p>              
-                    <iframe src="https://vjcet.org/downloads/news/FeeS4.jpg" width="100%" height="600" title="Campus Map" align="center"></iframe>    
-                <p><b>Semester 6</b></p>              
+                <p><b>Semester 7</b></p>              
+                    <iframe src="https://vjcet.org/downloads/news/FeesS7.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>    
+                {/*<p><b>Semester 6</b></p>              
                     <iframe src="https://vjcet.org/downloads/news/Untitled-1.jpg" width="100%" height="600" title="Campus Map" align="center"></iframe>    
                 */}
                 </div>
