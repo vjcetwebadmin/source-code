@@ -66,13 +66,14 @@ class Profile extends Component {
                 <table id="tableformat">
                             <tr><th>NAME</th><th>DEP DESIGNATION</th><th>IIIC DESIGNATION</th></tr>
                             <tr><td>Mr Vinoj K</td><td>Convener, IIIC</td><td>Convener,  IIIC Coordination Committee</td></tr>
-                            <tr><td>Mr Jiby Peter D’Cruz</td><td>Assistant Professor,ECE</td><td>Member, IIIC Coordination Committee</td></tr>
-                            <tr><td>Ms  Remya  Paul </td><td>Assistant Professor, CSE</td><td>Member, IIIC Coordination Committee</td></tr>
-                            <tr><td>Mr Nibin B </td><td>Assistant Professor-ME</td><td>Member, IIIC Coordination Committee</td></tr>
-                            <tr><td>Mrs Tintu Shine A L</td><td>Assistant Professor, CE</td><td>Member, IIIC Coordination Committee</td></tr>
-                            <tr><td>Mr Aneesh Kurian  </td><td>Assistant Professor, EEE</td><td>Member, IIIC Coordination Committee</td></tr>
-                            <tr><td>Mrs. Diana Baby </td><td>Assistant Professor, IT</td><td>Member, IIIC Coordination Committee</td></tr>
-                            <tr><td>Mr Nelson Mathew</td><td>Assistant Professor, MBA</td><td>Member, IIIC Coordination Committee</td></tr>
+                            <tr><td>Mrs. Remya Paul</td><td>Assistant Professor,CSE</td><td>Secretary, IIIC Coordination Committee</td></tr>
+                            <tr><td>Dr. Anita Brigit Mathew </td><td>Associate Professor, AD</td><td>Member, IIIC Coordination Committee</td></tr>
+                            <tr><td>Mrs. Finu John </td><td>Assistant Professor, CE</td><td>Member, IIIC Coordination Committee</td></tr>
+                            <tr><td>Mrs. Smitha Jacob</td><td>Assistant Professor, EEE</td><td>Member, IIIC Coordination Committee</td></tr>
+                            <tr><td>Mr. Jibby Peter Decruz  </td><td>Assistant Professor, ECE</td><td>Member, IIIC Coordination Committee</td></tr>
+                            <tr><td>Mrs. Shilpa Sugathan </td><td>Assistant Professor, IT</td><td>Member, IIIC Coordination Committee</td></tr>
+                            <tr><td>Mr. Nibin B</td><td>Assistant Professor, ME</td><td>Member, IIIC Coordination Committee</td></tr>
+                            <tr><td>Dr. Jose Mamman</td><td>Assistant Professor, MBA</td><td>Member, IIIC Coordination Committee</td></tr>
                             <tr><td>Mr Sanoj Saju</td><td>Placement  Exe.Officer</td><td>Member, IIIC Coordination Committee</td></tr>
                 </table>
                              
