@@ -15,7 +15,7 @@ class ITFaculty extends Component {
     image: "Allstaffphoto/IT/FAC/181.jpg",
     width: "50%",
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ITFAC103" target="_blank" rel="noopener noreferrer">Mrs. Jesline Joseph</a>,
-    content: "Assistant Professor"
+    content: "Asst. Professor & Asst. HOD"
   };
   Cefaculty3 = {
     instanceID: "Cefaculty3",

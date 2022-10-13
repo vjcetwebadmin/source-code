@@ -10,7 +10,7 @@ class NewsCarousel extends Component {
 
   Title2 = {
     instanceID: "NewsSecondaryBLOneTitle",
-    title: "Bodhi 2k19",
+    title: "Bodhi",
     link: "https://vjcet.org/#/campus-life/techfest"
   }
 

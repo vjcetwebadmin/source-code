@@ -8,7 +8,7 @@ class Faculty extends Component {
     image: "Allstaffphoto/EC/FAC/144.jpg",
     width: "50%",
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ECFAC108" target="_blank" rel="noopener noreferrer">Mrs. Smitha Cyriac</a>,
-    content: "Asst. Prof. & HOD"
+    content: "Assistant Professor"
   }; 
   Cefaculty33 = {
     instanceID: "Cefaculty33",
@@ -64,7 +64,7 @@ class Faculty extends Component {
     image: "Allstaffphoto/EC/FAC/ECFAC111.jpg",
     width: "50%",
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ECFAC111" target="_blank" rel="noopener noreferrer">Mrs. Ranjini Surendran</a>,
-    content: "Associate Professor"
+    content: "Asso. Professor & Asst. HOD"
   };
   Cefaculty11 = {
     instanceID: "Cefaculty11",
@@ -156,7 +156,7 @@ class Faculty extends Component {
     image: "Allstaffphoto/EC/FAC/Naveenjacob.jpg",
     width: "50%",
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ECFAC105" target="_blank" rel="noopener noreferrer">Dr. Naveen Jacob</a>,
-    content: "Associate Professor"
+    content: "Asso. Professor & HOD"
   };
 
   Cefaculty26 = {
@@ -206,17 +206,18 @@ class Faculty extends Component {
       <div className="faculty">
         <div className="facultyContent">
           <div>
-            <FacultyData data={this.Cefaculty1} />
-          </div>
+            <FacultyData data={this.Cefaculty24} />
+          </div>          
           <div>
             <FacultyData data={this.Cefaculty33} />
-          </div>         
+          </div>  
+          <div>
+            <FacultyData data={this.Cefaculty1} />
+          </div>       
           <div>
             <FacultyData data={this.Cefaculty4} />
           </div>
-          <div>
-            <FacultyData data={this.Cefaculty24} />
-          </div>
+         
           <div>
             <FacultyData data={this.Cefaculty8} />
           </div>

@@ -8,7 +8,7 @@ class CSFaculty extends Component {
     image: "Allstaffphoto/CS/FAC/73.jpg",
     width: "50%",
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CSFAC109" target="_blank" rel="noopener noreferrer">Mr. Amel Austine</a>,
-    content: "Asst. Prof. & HOD"
+    content: "Asst. Professor & HOD"
   };
 /*  Cefaculty28 = {
     instanceID: "Cefaculty28",
@@ -57,7 +57,7 @@ class CSFaculty extends Component {
     image: "Allstaffphoto/CS/FAC/CSFAC106.jpg",
     width: "50%",
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CSFAC106" target="_blank" rel="noopener noreferrer">Mrs. Mayadevi P A</a>,
-    content: "Assistant Professor"
+    content: "Asst. Professor & Asst. HOD"
   };
   Cefaculty10 = {
     instanceID: "Cefaculty10",
@@ -193,7 +193,35 @@ class CSFaculty extends Component {
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CSFAC135" target="_blank" rel="noopener noreferrer">Mrs. LAKSHMI SURESH</a>,
     content: "Assistant Professor"
   };
-  
+  Csfaculty33 = {
+    instanceID: "Csfaculty33",
+    image: "Allstaffphoto/CS/FAC/CSFAC137.jpg",
+    width: "50%",
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CSFAC137" target="_blank" rel="noopener noreferrer">Mrs. Ierin Babu</a>,
+    content: "Assistant Professor"
+  };
+  Csfaculty34 = {
+    instanceID: "Csfaculty34",
+    image: "Allstaffphoto/CS/FAC/CSFAC138.jpg",
+    width: "50%",
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CSFAC138" target="_blank" rel="noopener noreferrer">Mrs. Sona Baby</a>,
+    content: "Assistant Professor"
+  };
+  Csfaculty35 = {
+    instanceID: "Csfaculty35",
+    image: "Allstaffphoto/CS/FAC/CSFAC139.jpg",
+    width: "50%",
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CSFAC139" target="_blank" rel="noopener noreferrer">Mrs. Lithiya Sara Babu</a>,
+    content: "Assistant Professor"
+  };
+  Csfaculty36 = {
+    instanceID: "Csfaculty36",
+    image: "Allstaffphoto/CS/FAC/CSFAC140.jpg",
+    width: "50%",
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CSFAC140" target="_blank" rel="noopener noreferrer">Mrs. Libsy Ann Merin Baby</a>,
+    content: "Assistant Professor"
+  };
+
   render() {
     return (
       <div className="faculty">
@@ -269,6 +297,18 @@ class CSFaculty extends Component {
           </div>
           <div>
             <FacultyData data={this.Csfaculty32} />
+          </div>
+          <div>
+            <FacultyData data={this.Csfaculty33} />
+          </div>
+          <div>
+            <FacultyData data={this.Csfaculty34} />
+          </div>
+          <div>
+            <FacultyData data={this.Csfaculty35} />
+          </div>
+          <div>
+            <FacultyData data={this.Csfaculty36} />
           </div>
         </div>
       </div>

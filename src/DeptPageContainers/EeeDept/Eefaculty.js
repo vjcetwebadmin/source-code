@@ -29,7 +29,7 @@ class EEFaculty extends Component {
     image: "Allstaffphoto/EE/FAC/109.jpg",
     width: "51%",
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=EEFAC103" target="_blank" rel="noopener noreferrer">Ms. Cini K</a>,
-    content: "Assistant Professor"
+    content: "Asst. Professor & Asst. HOD"
   };
   Cefaculty5 = {
     instanceID: "Cefaculty5",

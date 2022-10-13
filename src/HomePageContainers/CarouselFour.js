@@ -66,7 +66,7 @@ export default function CarouselFour({ data }) {
     {
       Title: {
         instanceID: "EventTwoTitle",
-        title:<a href="https://vjcet.org/downloads/gallery/onam.html" rel="noopener noreferrer"  target="_blank" ><font color="maroon" >Onam 2021</font></a>
+        title:<a href="https://vjcet.org/downloads/gallery/onam.html" rel="noopener noreferrer"  target="_blank" ><font color="maroon" >Onam</font></a>
       },
 
       Image: {

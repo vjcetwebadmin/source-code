@@ -113,12 +113,13 @@ class NewsCarouselPrimary extends Component {
     //Recommended Image Size is 733px x 400px.
     width: "94%"
   };
-  /*Image17 = {
+  Image17 = {
     instanceID: "NewsPrimaryOneImage",
-    image: "NewsSection/BigNews/Ieenews1.jpeg",
+    image: "NewsSection/BigNews/NBAThrice.jpeg",
     //Recommended Image Size is 733px x 400px.
     width: "84%"
   };
+  /*
   Image18 = {
     instanceID: "NewsPrimaryOneImage",
     image: "NewsSection/BigNews/Ieenews2.jpeg",
@@ -205,19 +206,17 @@ class NewsCarouselPrimary extends Component {
             <NewsImage data={this.Image21} />
           </a>
         </Carousel.Item> */}
+        <Carousel.Item>                    
+          <NewsImage data={this.Image17} />          
+        </Carousel.Item> 
         <Carousel.Item>
           <NewsImage data={this.Image19} />
         </Carousel.Item> 
         <Carousel.Item>
           <NewsImage data={this.Image20} />
         </Carousel.Item> 
-        {/*
-        <Carousel.Item>          
-          <a href={this.Title7.link}  target="_blank" rel="noopener noreferrer">
-          <NewsImage data={this.Image17} />
-          </a>
-        </Carousel.Item>  
-        <Carousel.Item>          
+                 
+       {/* <Carousel.Item>          
           <a href={this.Title7.link}  target="_blank" rel="noopener noreferrer">
           <NewsImage data={this.Image18} />
           </a>

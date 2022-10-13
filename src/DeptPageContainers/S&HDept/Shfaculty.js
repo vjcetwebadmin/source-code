@@ -29,7 +29,7 @@ class Faculty extends Component {
     image: "Allstaffphoto/SH/FAC/SHFAC107.jpg",
     width: "50%",
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=SHFAC107" target="_blank" rel="noopener noreferrer">Mrs. Rose Mary Baby</a>,
-    content: "Assistant Professor"
+    content: "Asst. Professor & Asst. HOD"
   };  
   Cefaculty7 = {
     instanceID: "Cefaculty7",
@@ -169,9 +169,31 @@ class Faculty extends Component {
     instanceID: "Cefaculty31",
     image: "Allstaffphoto/SH/FAC/SHFAC145.jpg",
     width: "50%",
-    name:  <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=Shfac145" target="_blank" rel="noopener noreferrer">Arunvishnu U</a>,
+    name:  <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=Shfac145" target="_blank" rel="noopener noreferrer">Mr. Arunvishnu U</a>,
     content: "Assistant Professor"
   };
+  Cefaculty32 = {
+    instanceID: "Cefaculty32",
+    image: "Allstaffphoto/SH/FAC/SHFAC146.jpg",
+    width: "50%",
+    name:  <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=Shfac146" target="_blank" rel="noopener noreferrer">Ms. Lekshmipriya P<br></br>(Guest Faculty)</a>,
+    content: "Assistant Professor"
+  };
+  Cefaculty33 = {
+    instanceID: "Cefaculty33",
+    image: "Allstaffphoto/SH/FAC/SHFAC147.jpg",
+    width: "50%",
+    name:  <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=Shfac147" target="_blank" rel="noopener noreferrer">Ms. Annjossy Jose<br></br>(Guest Faculty)</a>,
+    content: "Assistant Professor"
+  };
+  Cefaculty34 = {
+    instanceID: "Cefaculty34",
+    image: "Allstaffphoto/SH/FAC/SHFAC148.jpg",
+    width: "50%",
+    name:  <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=Shfac148" target="_blank" rel="noopener noreferrer">Ms. Sneha Sebastian<br></br>(Guest Faculty)</a>,
+    content: "Assistant Professor"
+  };
+  
   
   render() {
     return (
@@ -248,6 +270,15 @@ class Faculty extends Component {
           </div>*/}      
           <div>
             <FacultyData data={this.Cefaculty31} />
+          </div>
+          <div>
+            <FacultyData data={this.Cefaculty32} />
+          </div>
+          <div>
+            <FacultyData data={this.Cefaculty33} />
+          </div>
+          <div>
+            <FacultyData data={this.Cefaculty34} />
           </div>
         </div>
       </div>
