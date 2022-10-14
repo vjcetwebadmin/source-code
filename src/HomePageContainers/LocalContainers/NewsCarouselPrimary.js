@@ -83,7 +83,7 @@ class NewsCarouselPrimary extends Component {
     //Recommended Image Size is 733px x 400px.
     width: "94%"
   };  
-  Image12 = {
+  /*Image12 = {
     instanceID: "NewsPrimaryOneImage",
     image: "NewsSection/BigNews/paniyel2.jpeg",
     //Recommended Image Size is 733px x 400px.
@@ -94,7 +94,7 @@ class NewsCarouselPrimary extends Component {
     image: "NewsSection/BigNews/paniyel3.jpeg",
     //Recommended Image Size is 733px x 400px.
     width: "94%"
-  }; 
+  }; */
   Image14 = {
     instanceID: "NewsPrimaryOneImage",
     image: "NewsSection/BigNews/paniyel4.jpeg",
@@ -117,7 +117,7 @@ class NewsCarouselPrimary extends Component {
     instanceID: "NewsPrimaryOneImage",
     image: "NewsSection/BigNews/NBAThrice.jpeg",
     //Recommended Image Size is 733px x 400px.
-    width: "84%"
+    width: "70%"
   };
   /*
   Image18 = {
@@ -138,12 +138,25 @@ class NewsCarouselPrimary extends Component {
     //Recommended Image Size is 733px x 400px.
     width: "70%"
   }; 
-  /*Image21 = {
+  Image21 = {
     instanceID: "NewsPrimaryOneImage",
-    image: "NewsSection/BigNews/aug1522.png",
+    image: "NewsSection/BigNews/mbagraduation.jpeg",
     //Recommended Image Size is 733px x 400px.    
+    width: "60%"
+  }; 
+
+    Image22 = {
+    instanceID: "NewsPrimaryOneImage",
+    image: "NewsSection/BigNews/nssjeevana1.jpeg",
+    //Recommended Image Size is 733px x 400px.
+    width: "60%"
+  };
+ Image23 = {
+    instanceID: "NewsPrimaryOneImage",
+    image: "NewsSection/BigNews/nssjeevana2.jpeg",
+    //Recommended Image Size is 733px x 400px.
     width: "100%"
-  }; */
+  };
 
   Title6 = {
     instanceID: "NewsPrimaryOneTitle",
@@ -166,18 +179,7 @@ class NewsCarouselPrimary extends Component {
     link: "https://harghartiranga.com"
   };
 
- /*  Image13 = {
-    instanceID: "NewsPrimaryOneImage",
-    image: "NewsSection/BigNews/news2606.jpg",
-    //Recommended Image Size is 733px x 400px.
-    width: "43%"
-  };
- Image15 = {
-    instanceID: "NewsPrimaryOneImage",
-    image: "NewsSection/BigNews/Itnews1.jpeg",
-    //Recommended Image Size is 733px x 400px.
-    width: "60%"
-  };*/
+ 
 
   render() {
     //const { instanceID } = this.props.data;
@@ -210,11 +212,20 @@ class NewsCarouselPrimary extends Component {
           <NewsImage data={this.Image17} />          
         </Carousel.Item> 
         <Carousel.Item>
+          <NewsImage data={this.Image21} />
+        </Carousel.Item> 
+        <Carousel.Item>
+          <NewsImage data={this.Image22} />
+        </Carousel.Item> 
+        <Carousel.Item>
+          <NewsImage data={this.Image23} />
+        </Carousel.Item>
+        <Carousel.Item>
           <NewsImage data={this.Image19} />
         </Carousel.Item> 
         <Carousel.Item>
           <NewsImage data={this.Image20} />
-        </Carousel.Item> 
+        </Carousel.Item>          
                  
        {/* <Carousel.Item>          
           <a href={this.Title7.link}  target="_blank" rel="noopener noreferrer">
@@ -237,17 +248,18 @@ class NewsCarouselPrimary extends Component {
              <Carousel.Caption>
               <h3>{this.Title4.title}</h3>
             </Carousel.Caption>
-         </Carousel.Item>       
+         </Carousel.Item>  
+         {/*     
          <Carousel.Item>
           <NewsImage data={this.Image12}/>      
-       </Carousel.Item>        
-       
+       </Carousel.Item>               
         <Carousel.Item>
           <NewsImage data={this.Image13} />
           <Carousel.Caption>
               <h3>{this.Title4.title}</h3>
             </Carousel.Caption>
         </Carousel.Item>  
+         ?*/}
           <Carousel.Item>
           <NewsImage data={this.Image14} />
           <Carousel.Caption>

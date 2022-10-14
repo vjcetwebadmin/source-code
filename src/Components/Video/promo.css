@@ -24,6 +24,12 @@ video {
   left: 0;
   display: flex;
   justify-content: flex-start;
+  text-align: left;
+  vertical-align: top;
+  padding-bottom: 7.5%;;
+}
+.naac-nba-logo{
+    width: 85%;
 }
 h1 {
   color: white;
@@ -79,10 +85,60 @@ h1 {
 }
 @media (max-width: 720px){
   .overlay-desc {
-    display: none;
+    display: block;
+    bottom: -60px;
+    width: fit-content;
+    display: flex;
+    justify-content: flex-end;
+
+    background: rgba(0, 0, 0, 0);
+    position: absolute;
+    /* top: 0; */
+    padding-right: 2%;
+    right: 2%;
+    bottom: -70px;
+    left: 80%;
+    display: flex;
+    justify-content: flex-end;
   }
   .overlay-desc-logo
   {
-    display: none;
+    display: block;
+    bottom: -60px;
+
+    display: block;
+    bottom: -60px;
+    width: fit-content;
+    display: flex;
+    justify-content: flex-end;
+
+    background: rgba(0, 0, 0, 0);
+    position: absolute;
+    /* top: 0; */
+    padding-right: 2%;
+    right: 0;
+    bottom: -60px;
+    left: 0;
+    max-width: 60% ;
+  }
+  .naac-nba-logo
+  {
+    width: 50% ;
+    max-width: 50%;
+  }
+}
+@media (max-width: 480px){
+  .overlay-desc {
+    display: block;
+    bottom: -30px;
+  }
+  .overlay-desc-logo
+  {
+    display: block;
+    bottom: -30px;
+  }
+  .overlay-desc-logo .naac-nba-logo
+  {
+    width: 40% ;
   }
 }

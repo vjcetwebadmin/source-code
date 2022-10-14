@@ -9,7 +9,7 @@ class Promo extends Component {
   NBANAACLogo = {
     instanceID: "HeaderNBANAACLogo",
     image: "NAAC_NBA_LOGO.png",
-    width: "40%"
+    width: "70%"
   };
   NBALogo = {
     instanceID: "HeaderNBALogo",
@@ -29,12 +29,12 @@ class Promo extends Component {
           <source src={promovid} type="video/ogg" />
           Your browser does not support the video tag.
         </video>
-        <div>
+        
           <div class="overlay-desc-logo">
              
-            {/*<ImageOne data={this.NAACLogo} /> */}
+            <ImageOne data={this.NBANAACLogo} class="naac-nba-logo" /> 
           </div>
-        </div>
+        
         <div class="overlay-desc">
         {/*<ImageOne data={this.NBANAACLogo} />*/}
           <h1>VJC</h1>
