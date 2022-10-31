@@ -62,17 +62,17 @@ class keyfunct extends React.Component {
     PatronImagedata = {
         instanceID: "CCCVjcImage",
         image: "KeyFunctionaries/patron.jpg",
-        width: "40%"
+        width: "35%"
     }
     CCCImagedata = {
         instanceID: "CCCVjcImage",
         image: "KeyFunctionaries/frpiusmk.png",
-        width: "40%"
+        width: "35%"
     }
     DImagedata = {
       instanceID: "DImage",
       image: "KeyFunctionaries/director.jpg",
-      width: "40%"
+      width: "35%"
     }
     PImagedata = {
       instanceID: "PImage",
