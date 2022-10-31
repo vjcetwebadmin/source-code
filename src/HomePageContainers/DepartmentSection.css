@@ -93,6 +93,9 @@
     grid-area: nine;
   }
 
+  #DepartmentListNine {
+    grid-area: ten;
+  }
   #DepartmentSectionTitle h1 {
     margin: 0px;
     padding-top: 0%;

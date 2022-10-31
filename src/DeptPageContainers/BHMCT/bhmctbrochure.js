@@ -9,7 +9,7 @@ class BhmctBrochure extends Component {
   state = {};
   BrochureHeading = {
     instanceID: "BrochureHeading",
-    title: "Brochure"
+    title: "BROCHURE"
   };
   BrochureDescription = {
     instanceID: "BrochureDescription",

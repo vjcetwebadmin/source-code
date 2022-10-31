@@ -108,7 +108,7 @@ class CarouselTwo extends Component {
       });
       
       this.autoRotate();
-  }, 4000);
+  }, 6000);
   }
   render() {
     const { instanceID } = this.props.data;

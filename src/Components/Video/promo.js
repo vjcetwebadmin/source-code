@@ -30,10 +30,10 @@ class Promo extends Component {
           Your browser does not support the video tag.
         </video>
         
-          <div class="overlay-desc-logo">
-             
-            <ImageOne data={this.NBANAACLogo} class="naac-nba-logo" /> 
-          </div>
+        <div class="overlay-desc-logo">
+            
+          <ImageOne data={this.NBANAACLogo} class="naac-nba-logo" /> 
+        </div>
         
         <div class="overlay-desc">
         {/*<ImageOne data={this.NBANAACLogo} />*/}

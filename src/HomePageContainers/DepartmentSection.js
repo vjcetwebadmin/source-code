@@ -78,6 +78,12 @@ class DepartmentSection extends Component {
     description:
       "The prestigious course, B.Tech Artificial Intelligence and Data science which imparts in-demand technical skills in aspirants is commenced at VJCET in the year 2020"
   };
+  DepartmentListTen = {
+    instanceID: "DepartmentListTen",
+    title: "Hotel Management and Catering Technology",
+    description:
+      "To help students acquire the technical and inter-personal skills required for successfully securing gainful employment in the burgeoning Travel and Tourism Industry."
+  };
 
 
   render() {
@@ -114,7 +120,10 @@ class DepartmentSection extends Component {
         <Link to="departments/s&h" style={{ textDecoration: "none" }}>
           <DepartmentList data={this.DepartmentListEight} />
         </Link>
-                
+        <Link to="departments/bhmct" style={{ textDecoration: "none" }}>
+          <DepartmentList data={this.DepartmentListTen} />
+        </Link>
+        
       </div>
     );
   }
