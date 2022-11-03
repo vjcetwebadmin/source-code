@@ -222,11 +222,11 @@ class NewsCarouselPrimary extends Component {
           </a>
         </Carousel.Item> */}
         <Carousel.Item>
-          <NewsImage data={this.Image25} />
+          <NewsImage data={this.Image24} />
         </Carousel.Item> 
         <Carousel.Item>
-          <NewsImage data={this.Image24} />
-        </Carousel.Item>        
+          <NewsImage data={this.Image25} />
+        </Carousel.Item>                
         <Carousel.Item>                    
           <NewsImage data={this.Image17} />          
         </Carousel.Item> 
