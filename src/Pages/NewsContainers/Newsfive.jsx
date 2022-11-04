@@ -108,7 +108,8 @@ class Newsfive extends React.Component {
                 <p></p><br></br>
                 <p><b>Caution Deposit</b></p>              
                     <iframe src="https://vjcet.org/downloads/news/NoticeCautionDeposit.jpg" width="100%" height="600" title="Campus Map" align="center"></iframe>  
-                <p><b>PFA</b></p>              
+                <p><b>PFA</b></p>    
+                    <iframe src="https://vjcet.org/downloads/news/Fine750S5.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>            
                     <iframe src="https://vjcet.org/downloads/news/Fine750.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>  
                 <p><b>Semester 3</b></p>
                     <iframe src="https://vjcet.org/downloads/news/NoticeS3TF.jpg" width="100%" height="600" title="Campus Map" align="center"></iframe> 
