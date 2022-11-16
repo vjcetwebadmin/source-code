@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import CSFaculty from "./Csfaculty";
-import CSStaff from "./Csstaff";
+import CSFaculty from "./bhmfaculty";
+import CSStaff from "./bhmstaff";
 import CSGFaculty from "./Csfacguest"
 class FacultyNav extends Component {
   state = {
@@ -34,19 +34,19 @@ class FacultyNav extends Component {
       <div class="facultyNav">
         <input
           type="button"
-          value="Faculty-Full Time"
+          value="Faculty"
           class="buttongraph"
           onClick={this.OnClickFac}
         />
-       <input
+       {/*<input
           type="button"
           value="Guest Speakers"
           class="buttongraph"
           onClick={this.OnClickGuest}
-        />        
+    />  */}      
         <input
           type="button"
-          value="Administrative Staff"
+          value="Technical Staff"
           class="buttongraph"
           onClick={this.OnClickStaff}
         />

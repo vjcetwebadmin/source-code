@@ -23,7 +23,7 @@ class CSStaff extends Component {
       <div className="faculty">
         <div className="facultyContent">
           <div>
-            <FacultyData data={this.Cefaculty2} />
+            {/*FacultyData data={this.Cefaculty2} /> */}
           </div>          
         </div>
       </div>
