@@ -69,6 +69,7 @@ import Newsseven from "./Pages/NewsContainers/Newsseven";
 import newseight from "./Pages/NewsContainers/Newseight";
 import newsnine from "./Pages/NewsContainers/Newsnine";
 import Newsten from "./Pages/NewsContainers/Newsten";
+import Newseleven from "./Pages/NewsContainers/Newseleven";
 import Newsfee from "./Pages/NewsContainers/Feenews";
 import Iedc from "./EdPageContainers/IEDC/csdepartment";
 import Vbic from "./EdPageContainers/Vbic";
@@ -327,7 +328,7 @@ class App extends Component {
             name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CEFAC132" target="_blank" rel="noopener noreferrer">Dr. Anoop C.K.</a>,
             content: "Professor & Asst. HOD"
           },
-          {
+          /*{
             instanceID: "Cefaculty24",
             image: "Allstaffphoto/CE/FAC/fac24.jpg", 
             width: "50%", 
@@ -340,7 +341,7 @@ class App extends Component {
             width: "50%", 
             name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CEFAC145" target="_blank" rel="noopener noreferrer">Dr. E. Ravindranath</a>,
             content: "Professor(on-leave)"
-          },         
+          }, */        
           {
             instanceID: "Cefaculty3",
             image: "Allstaffphoto/CE/FAC/37.JPG",
@@ -454,13 +455,13 @@ class App extends Component {
             name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CEFAC136" target="_blank" rel="noopener noreferrer">Mr. Basil Baby</a>,
             content: "Assistant Professor(on-leave Ph.D)"
           },
-          {
+          /*{
             instanceID: "Cefaculty22",
             image: "Allstaffphoto/CE/FAC/385.jpg",
             width: "50%",
             name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CEFAC137" target="_blank" rel="noopener noreferrer">Mrs. Nisa Ann Mathew </a>,
             content: "Assistant Professor(on-leave)"
-          },
+          },*/
           {
             instanceID: "Cefaculty22",
             image: "Allstaffphoto/CE/FAC/389.jpg",
@@ -468,13 +469,13 @@ class App extends Component {
             name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CEFAC138" target="_blank" rel="noopener noreferrer">Mrs. Finu John</a>,
             content: "Assistant Professor"
           },
-          {
+          /*{
             instanceID: "Cefaculty23",
             image: "Allstaffphoto/CE/FAC/394.jpg",
             width: "50%",
             name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CEFAC139" target="_blank" rel="noopener noreferrer">Mrs. Ancy Genu C.George</a>,
             content: "Assistant Professor"
-          },
+          },*/
           {
             instanceID: "Cefaculty26",
             image: "Allstaffphoto/CE/FAC/meril.jpg",
@@ -799,6 +800,7 @@ class App extends Component {
               <Route exact path="/newseight" component={newseight} />
               <Route exact path="/newsnine" component={newsnine} />
               <Route exact path="/newsten" component={Newsten} />
+              <Route exact path="/newseleven" component={Newseleven} />
               <Route exact path="/newsfee" component={Newsfee} />
               <Route exact path="/ed/iedc" component={Iedc} />
               <Route exact path="/ed/v-bic" component={Vbic} />

@@ -21,6 +21,15 @@ class NewsSection extends Component {
 
     return (
       <div className="HomePageNewsSection" id={instanceID}>
+        <p>
+        <div class="ticker-wrapper-h">
+          <div class="heading"><b>Announcements</b></div>
+          
+          <ul class="news-ticker-h">
+            <li><a href="#/newseleven">ജീവന - ഡയാലിസിസ് രോഗികൾക്കുള്ള    ധനസഹായത്തിനായി  ഡിസംബർ 15 വരെ അപേക്ഷിക്കാം.(JEEVANA-2022)</a></li>		
+          </ul>
+        </div>
+        </p>
         <NewsHeading data={this.News} />
         <div className="BigNews">
           <NewsCarouselPrimary />

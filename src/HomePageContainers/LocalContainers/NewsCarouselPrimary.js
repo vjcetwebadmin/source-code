@@ -140,12 +140,12 @@ class NewsCarouselPrimary extends Component {
   }; 
   Image21 = {
     instanceID: "NewsPrimaryOneImage",
-    image: "NewsSection/BigNews/plus2visit1.jpeg",
+    image: "NewsSection/BigNews/jeevana_poster.jpg",
     //Recommended Image Size is 733px x 400px.    
     width: "80%"
   }; 
 
-    Image22 = {
+  Image22 = {
     instanceID: "NewsPrimaryOneImage",
     image: "NewsSection/BigNews/plus2visit2.jpeg",
     //Recommended Image Size is 733px x 400px.
@@ -153,7 +153,7 @@ class NewsCarouselPrimary extends Component {
   };
  Image23 = {
     instanceID: "NewsPrimaryOneImage",
-    image: "NewsSection/BigNews/nssjeevana1.jpeg",
+    image: "NewsSection/BigNews/nssjeevana2.jpeg",
     //Recommended Image Size is 733px x 400px.
     width: "100%"
   };
@@ -191,7 +191,11 @@ class NewsCarouselPrimary extends Component {
     title: "75th Independence Day",
     link: "https://harghartiranga.com"
   };
-
+  Title9 = {
+    instanceID: "NewsPrimaryOneTitle",
+    title: "JEEVANA_2022",
+    link: "#/newseleven"
+  };
  
 
   render() {
@@ -222,24 +226,29 @@ class NewsCarouselPrimary extends Component {
           </a>
         </Carousel.Item> */}
         <Carousel.Item>
+          
+          <a href={this.Title9.link}  rel="noopener noreferrer">
           <NewsImage data={this.Image21} />
+            <Carousel.Caption>
+                <h3>{this.Title9.title}</h3>
+            </Carousel.Caption>
+          </a>          
         </Carousel.Item> 
-        <Carousel.Item>
+        {/*<Carousel.Item>
           <NewsImage data={this.Image22} />
         </Carousel.Item> 
         <Carousel.Item>
           <NewsImage data={this.Image24} />
         </Carousel.Item> 
         <Carousel.Item>
-          <NewsImage data={this.Image25} />
-        </Carousel.Item>                
-        <Carousel.Item>                    
-          <NewsImage data={this.Image17} />          
-        </Carousel.Item>         
-        <Carousel.Item>
           <NewsImage data={this.Image23} />
         </Carousel.Item> 
-     
+        <Carousel.Item>
+          <NewsImage data={this.Image25} />
+      </Carousel.Item>  */}              
+        <Carousel.Item>                    
+          <NewsImage data={this.Image17} />          
+        </Carousel.Item>                     
         <Carousel.Item>
           <NewsImage data={this.Image19} />
         </Carousel.Item> 
@@ -261,7 +270,7 @@ class NewsCarouselPrimary extends Component {
           <NewsImage data={this.Image16} />
           <Carousel.Caption>
               <h3>{this.Title6.title}</h3>
-            </Carousel.Caption>
+          </Carousel.Caption>
        </Carousel.Item>    
        <Carousel.Item>
           <NewsImage data={this.Image11}/>  

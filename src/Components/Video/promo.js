@@ -5,6 +5,12 @@ import promovid from "./vjcet.mp4";
 import poster from "./poster.png";
 import ImageOne from "../Images/ImageOne";
 
+/*
+//new sliding type home page(change video to image slide)
+import "../../HomePageContainers/LocalContainers/NewsCarousel.css";
+import "../../HomePageContainers/NewsSection.css";
+import NewsCarouselPrimary from "../../HomePageContainers/LocalContainers/NewsCarouselPrimary";
+*/
 class Promo extends Component {
   NBANAACLogo = {
     instanceID: "HeaderNBANAACLogo",
@@ -22,25 +28,29 @@ class Promo extends Component {
     width: "50%"
   };
   render() {
-    return (
+    return (           
       <div className="background-video">
         <video id="background-video" loop autoPlay muted poster={poster}>
           <source src={promovid} type="video/mp4" />
           <source src={promovid} type="video/ogg" />
-          Your browser does not support the video tag.
+            Your browser does not support the video tag. 
         </video>
-        
-        <div class="overlay-desc-logo">
-            
+    
+        {/*<div className="BigNewsHome">
+          <NewsCarouselPrimary />
+        </div> */}  
+             
+        <div class="overlay-desc-logo">            
           <ImageOne data={this.NBANAACLogo} class="naac-nba-logo" /> 
         </div>
         
         <div class="overlay-desc">
         {/*<ImageOne data={this.NBANAACLogo} />*/}
-          <h1>VJC</h1>
+          <h1><span style={{color:"#ffffff"}}>VJC</span></h1>
           
         </div>
       </div>
+    
     );
   }
 }
