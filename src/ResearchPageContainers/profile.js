@@ -45,11 +45,15 @@ class Profile extends Component {
     InchargesHeading = {
         instanceID: "InchargesHeading",
         title: "Committee Members"
-      };
-      InchargesHeading1 = {
+    };
+    CommitteeResponsibleHeading = {
+        instanceID: "InchargesHeading",
+        title: " The committee is responsible for"
+    };
+    InchargesHeading1 = {
         instanceID: "InchargesHeading1",
         title: "Funded Projects"
-      };
+    };
    
     render() {
         return (
@@ -64,16 +68,29 @@ class Profile extends Component {
                 <HeadingThree data={this.InchargesHeading}></HeadingThree>
                 <table id="tableformat">
                             <tr><th>NAME</th><th>POST</th></tr>
-                            <tr><td>Dr. Anishin Raj M.M</td><td>Dean R&D, Professor CSE</td></tr>
-                            <tr><td>Dr. Anoop C. K.</td><td>Secretary, Professor, CE</td></tr>
-                            <tr><td>Smt. Smitha Jacob</td><td>Assistant Professor, EEE</td></tr>
-                            <tr><td>Dr. Jose Mamman</td><td>Assistant Professor, MBA</td></tr>
-                            <tr><td>Dr. Tony D</td><td>Associate Professor, ECE</td></tr>
-                            <tr><td>Ms. Anitta K Mathew</td><td>Assistant Professor, IT</td></tr>
-                            <tr><td>Mrs. Mayadevi PA</td><td>Assistant Professor, CSE</td></tr>
-                            <tr><td>Mrs. Rose Mary Baby</td><td>Assistant Professor, S&H </td></tr>
-                            <tr><td>Mr. Arun Raphel </td><td>Assistant Professor-ME</td></tr>
+                            <tr><td>Dr. Anita Brigit Mathew</td><td>Convenor, R & D Centre</td></tr>
+                            <tr><td>Mr. Unnikrishnan T G</td><td>Secretary, ME Dept. Coordinator</td></tr>
+                            <tr><td>Dr. Pradeep Kumar</td><td>CSE Dept. Coordinator</td></tr>
+                            <tr><td>Mrs. Saksy Joy</td><td>S&H Dept. Coordinator</td></tr>
+                            <tr><td>Mrs. Neena M Joseph</td><td>CE, Dept. Coordinator</td></tr>
+                            <tr><td>Dr. Tony 0</td><td>ECE Dept. Coordinator</td></tr>
+                            <tr><td>Mrs. Mereya Baby</td><td>EEE Dept. Coordinator</td></tr>
+                            <tr><td>Mrs. Josna Jose</td><td>IT Dept. Coordinator</td></tr>
+                            <tr><td>Dr. Jose Mamman </td><td>MBA Dept. Coordinator</td></tr>
                 </table>
+                <p></p>
+                    <HeadingThree data={this.CommitteeResponsibleHeading}></HeadingThree>
+                <p></p>
+                <ol style={{textAlign:"justify", lineHeight:"1.7em",fontSize:"13"}}>
+                    <li>Timely release of the Research Publication T & F of VJCET.</li>
+                    <li>Effective utilisation of Fab lab of VJCET.</li>
+                    <li>Responsible for the activities of Project monitoring cell under IQAC.</li>
+                    <li>Coordinating the professional development of the college staff in their respective domains.</li>
+                    <li>Encouraging the faculty and students in presenting of papers in international conferences and publishing in Scopus indexed journals.</li>
+                    <li>Encouraging and guiding faculty to apply for funded projects.</li>
+                    <li>Organising technical events such as Webinars, Workshops, FOP etc..</li>
+                    <li>Any other assignments by the management from Time to time.</li>                    
+                </ol>    
                 <p></p>
                 <HeadingThree data={this.InchargesHeading1}></HeadingThree>
                 <p></p>

@@ -64,9 +64,9 @@ class CsDepartment extends Component {
     instanceID: "HeadingSectionDescription",
     title: "Debugging the possibilities through intelligence"
   };
-  CseImg = {
-    instanceID: "CseImg",
-    image: "DepBannerImages/mba.jpg",
+  BhmImg = {
+    instanceID: "BhmImg",
+    image: "DepBannerImages/bhm.jpg",
     width: "100%"
   };
 
@@ -91,7 +91,7 @@ class CsDepartment extends Component {
         <div className="CsHeadingSection">
           <HeadingOne data={this.HeadingSectionTitle} />
           {/*<p class="centraltag">Debugging the possibilities through intelligence</p>*/}
-         {/* <ImageOne data={this.CseImg} />  */}
+          <ImageOne data={this.BhmImg} />
              
         </div>
         <SideNav />

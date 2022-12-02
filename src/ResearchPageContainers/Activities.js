@@ -75,8 +75,7 @@ class Profile extends Component {
                    <tr><td>Ms. Mercy Mathew</td></tr>                 
                    <tr><td>Dr. K.N Ramachandran  Nair</td><td>MG University,CSE</td><td>No</td><td>2018</td><td>Ms. Jina Varghese</td></tr>
                    <tr><td rowSpan="2">Dr. Lovely Mathew</td><td rowSpan="2">MG University,S&H</td><td rowSpan="2">No</td><td rowSpan="2">2018</td><td>Ms. Ajitha A R</td></tr>
-                   <tr><td>Ms. Aswathi M K</td></tr>                   
-                   <tr><td>Dr. Anishin Raj M.M</td><td>KTU, CSE</td><td>Yes</td><td>NA</td><td>Recognized as Research Guide under KTU. Students are not assigned</td></tr>
+                   <tr><td>Ms. Aswathi M K</td></tr>                                      
                    <tr><td>Dr. Sony Kurian</td><td>KTU, EEE</td><td>Yes</td><td>NA</td><td>Recognized as Research Guide under KTU. Students are not assigned</td></tr>
                    <tr><td>Dr. K. Shunmugesh</td><td>KTU, ME</td><td>Yes</td><td>NA</td><td>Recognized as Research Guide under KTU. Students are not assigned</td></tr>
                    <tr><td>Dr. Sajan T John</td><td>KTU, MBA, ME</td><td>Yes</td><td>NA</td><td>Recognized as Research Guide under KTU. Students are not assigned</td></tr>
@@ -94,7 +93,7 @@ class Profile extends Component {
                   <p align="justify" style={{lineHeight:1.5}} >There are three faculty members with Ph.D., who are currently working in this department. At present, nine faculty members are doing Ph.D. in reputed universities. During the last five years, one research scholar was awarded Ph.D. under the guidance of Dr. K.N. Ramachandran Nair. Faculty members of the CSE department continuously publish articles in Scopus indexed journals/conferences. The department conducts workshops, ATAL sponsored faculty development programmes and seminars on recent trends in computer science such as Artificial Intelligence, Data Science, Blockchain etc. Two faculty members are recognized as research guides under MG University and APJ Abdul Kalam Technological University during the period 2015-2021.</p>  
                   <p align="left" >Research Guides</p>
                   <p align="left" >Dr. K N Ramachandran Nair</p>
-                  <p align="left" >Dr. Anishin Raj M.M</p>
+                  <p align="left" >Dr. Anita Brigit Mathew</p>
 
                   <p align="left" ><b>Department of Artificial Intelligence and Data Science</b></p>
                   <p align="justify" style={{lineHeight:1.5}} >This course provides a profound knowledge in the cutting edge AI, Machine Learning and Deep Learning techniques through a pragmatic approach of providing trainings in Python, Pandas, BigData tools, Tensor Flow, Keras, NumPy etc. The department constantly organises events such as External Seminars, Symposiums, Short Term Training Programs by industrial experts and Faculty Development Programs to inculcate novel ideas, industrial exposure and to get connected with like-minded enthusiasts in AI.</p>  

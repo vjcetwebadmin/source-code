@@ -147,17 +147,17 @@ class NewsCarouselPrimary extends Component {
 
   Image22 = {
     instanceID: "NewsPrimaryOneImage",
-    image: "NewsSection/BigNews/plus2visit2.jpeg",
+    image: "NewsSection/BigNews/CSI.jpg",
     //Recommended Image Size is 733px x 400px.
-    width: "80%"
+    width: "70%"
   };
  Image23 = {
     instanceID: "NewsPrimaryOneImage",
-    image: "NewsSection/BigNews/nssjeevana2.jpeg",
+    image: "NewsSection/BigNews/magna.jpeg",
     //Recommended Image Size is 733px x 400px.
-    width: "100%"
+    width: "75%"
   };
-  Image24 = {
+  /*Image24 = {
     instanceID: "NewsPrimaryOneImage",
     image: "NewsSection/BigNews/BHM_Invite.jpeg",
     //Recommended Image Size is 733px x 400px.
@@ -169,7 +169,7 @@ class NewsCarouselPrimary extends Component {
     //Recommended Image Size is 733px x 400px.
     width: "70%"
   };
-  
+  */
 
   Title6 = {
     instanceID: "NewsPrimaryOneTitle",
@@ -234,18 +234,18 @@ class NewsCarouselPrimary extends Component {
             </Carousel.Caption>
           </a>          
         </Carousel.Item> 
-        {/*<Carousel.Item>
-          <NewsImage data={this.Image22} />
-        </Carousel.Item> 
         <Carousel.Item>
-          <NewsImage data={this.Image24} />
+          <NewsImage data={this.Image22} />
         </Carousel.Item> 
         <Carousel.Item>
           <NewsImage data={this.Image23} />
         </Carousel.Item> 
+        {/*<Carousel.Item>
+          <NewsImage data={this.Image24} />
+        </Carousel.Item>        
         <Carousel.Item>
           <NewsImage data={this.Image25} />
-      </Carousel.Item>  */}              
+        </Carousel.Item>  */}              
         <Carousel.Item>                    
           <NewsImage data={this.Image17} />          
         </Carousel.Item>                     
