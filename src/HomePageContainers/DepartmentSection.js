@@ -13,7 +13,7 @@ class DepartmentSection extends Component {
   DepartmentSectionSubTitle = {
     instanceID: "DepartmentSectionSubTitle",
     title:
-      "B. Tech Branches – Civil Engineering, Computer Science & Engineering, Electronics & Communication Engineering, Information Technology and Mechanical Engineering - are Accredited by NBA. We are offering UG and PG courses ranging from B.Tech, M.Tech, and Master of Business Administration"
+      "B. Tech Branches – Civil Engineering, Computer Science & Engineering, Electronics & Communication Engineering, Information Technology and Mechanical Engineering - are Accredited by NBA. We are offering UG and PG courses ranging from B.Tech, M.Tech, Master of Business Administration and Hotel Management and Catering Technology."
   };
 
   DepartmentListOne = {
@@ -90,40 +90,44 @@ class DepartmentSection extends Component {
     const { instanceID } = this.props.data;
 
     return (
-      <div className="DepartmentSection" id={instanceID}>
+      <div>
+        <p>&nbsp;</p>        
         <HeadingOne data={this.DepartmentSectionTitle}  />
         <BodyOne data={this.DepartmentSectionSubTitle} />
-        <Link to="/departments/aid" style={{textDecoration: "none" }}>
-          <DepartmentList data={this.DepartmentListNine} />
-        </Link>
-        <Link to="/departments/ce" style={{ textDecoration: "none" }}>
-          <DepartmentList data={this.DepartmentListOne} />
-        </Link>
-        <Link to="/departments/cse" style={{ textDecoration: "none" }}>
-          <DepartmentList data={this.DepartmentListTwo} />
-        </Link>
-        <Link to="/departments/ece" style={{ textDecoration: "none" }}>
-          <DepartmentList data={this.DepartmentListThree} />
-        </Link>
-        <Link to="departments/eee" style={{ textDecoration: "none" }}>
-          <DepartmentList data={this.DepartmentListFour} />
-        </Link>
-        <Link to="departments/it" style={{textDecoration: "none" }}>
-          <DepartmentList data={this.DepartmentListFive} />
-        </Link>
-        <Link to="departments/me" style={{textDecoration: "none" }}>
-          <DepartmentList data={this.DepartmentListSix} />
-        </Link>
-        <Link to="departments/mba"  style={{textDecoration: "none" }}>
-          <DepartmentList data={this.DepartmentListSeven} />
-        </Link>
-        <Link to="departments/s&h" style={{ textDecoration: "none" }}>
-          <DepartmentList data={this.DepartmentListEight} />
-        </Link>
-        <Link to="departments/bhmct" style={{ textDecoration: "none" }}>
-          <DepartmentList data={this.DepartmentListTen} />
-        </Link>
-        
+        <div className="DepartmentSection" id={instanceID}>
+          
+          <Link to="/departments/aid" style={{textDecoration: "none" }}>
+            <DepartmentList data={this.DepartmentListNine} />
+          </Link>
+          <Link to="/departments/ce" style={{ textDecoration: "none" }}>
+            <DepartmentList data={this.DepartmentListOne} />
+          </Link>
+          <Link to="/departments/cse" style={{ textDecoration: "none" }}>
+            <DepartmentList data={this.DepartmentListTwo} />
+          </Link>
+          <Link to="/departments/ece" style={{ textDecoration: "none" }}>
+            <DepartmentList data={this.DepartmentListThree} />
+          </Link>
+          <Link to="departments/eee" style={{ textDecoration: "none" }}>
+            <DepartmentList data={this.DepartmentListFour} />
+          </Link>
+          <Link to="departments/it" style={{textDecoration: "none" }}>
+            <DepartmentList data={this.DepartmentListFive} />
+          </Link>
+          <Link to="departments/me" style={{textDecoration: "none" }}>
+            <DepartmentList data={this.DepartmentListSix} />
+          </Link>
+          <Link to="departments/mba"  style={{textDecoration: "none" }}>
+            <DepartmentList data={this.DepartmentListSeven} />
+          </Link>          
+          <Link to="departments/bhmct" style={{ textDecoration: "none" }}>
+            <DepartmentList data={this.DepartmentListTen} />
+          </Link>
+          <Link to="departments/s&h" style={{ textDecoration: "none" }}>
+            <DepartmentList data={this.DepartmentListEight} />
+          </Link>
+          
+        </div>
       </div>
     );
   }
