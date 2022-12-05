@@ -84,11 +84,16 @@ class Newseight extends React.Component {
                    
                     
         </div>*/}
-         <div className="contain">
-                   
-                   <HeadingOne data={this.NewsTitle} />
-                  <iframe src="https://vjcet.org/downloads/news/faculty_advertisement.pdf" width="100%" zoom="80%" height="850" title="Campus Map" align="center"></iframe> 
-                </div>
+            <div className="contain">
+                <p>&nbsp;</p>
+                <p style={{textAlign:"center"}}>No New Opening Available...</p>
+                <p>&nbsp;</p>
+               
+               {/*    
+                <HeadingOne data={this.NewsTitle} />
+                <iframe src="https://vjcet.org/downloads/news/faculty_advertisement.pdf" width="100%" zoom="80%" height="850" title="Campus Map" align="center"></iframe> 
+                */}
+            </div>
 
                 <Footer data={this.HomePageFooter} />
                 {this.state.showMenu ? (<MenuOverlay closeMenuFunction={this.closeMenu} />) : ("")}

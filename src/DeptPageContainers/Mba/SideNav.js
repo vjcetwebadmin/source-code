@@ -10,6 +10,7 @@ import Library from "./studlife";
 import Mbaadmission from "./mbaadmission";
 import FacultyNav from "./facultynav";
 import PlacementNav from "./placementnav";
+import { Link } from "react-router-dom";
 class SideNav extends Component {
   state = {
     showProfile: true,
@@ -117,6 +118,12 @@ class SideNav extends Component {
       showfac: true
     });
   };
+  onClickGallery = (e) => {
+    e.preventDefault();
+    document.location.href="downloads/gallery/mbaevents.html"    
+    //window.open("./downloads/gallery/mbaevents.html")
+    
+  };
 
   render() {
     return (
@@ -164,7 +171,11 @@ class SideNav extends Component {
               class="button"
               onClick={this.onClickLib}
             />
-
+            <input
+              value="Events Gallery"
+              class="button"
+              onClick={this.onClickGallery}
+            />
           </div>
           <div class="dropdownD">
             <button class="button">Menu</button>
@@ -216,6 +227,11 @@ class SideNav extends Component {
                 value="Result"
                 class="button"
                 onClick={this.onClickRes}
+              />
+              <input
+              value="Gallery"
+              class="button"
+              onClick={this.onClickGallery}
               />
             </div>
           </div>
