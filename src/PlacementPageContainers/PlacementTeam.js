@@ -34,6 +34,13 @@ class Faculty extends Component {
     name:  <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHFAC136" target="_blank" rel="noopener noreferrer">Ms. Saksy Joy</a>,
     content: "IQAC Placement Co-ordinator"
   };
+  Cefaculty7 = {
+    instanceID: "Cefaculty7",
+    image: "Allstaffphoto/EE/STAF/129.jpg",
+    width: "50%",
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=EESTF102" target="_blank" rel="noopener noreferrer">Mr. Dhinu Paul</a>,
+    content: "2nd Grade Instructor / Nodal Officer"
+  };
   ContactHeading = {
     instanceID: "ContactHeading",
     title: "Contact"
@@ -74,6 +81,9 @@ class Faculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty10} />
           </div>          
+          <div>
+            <FacultyData data={this.Cefaculty7} />
+          </div>
         </div>
         <div className="Contact" id="contact" style={{paddingLeft:"5%"}}>
           <HeadingOne data={this.ContactHeading} />

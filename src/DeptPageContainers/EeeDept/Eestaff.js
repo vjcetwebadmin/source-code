@@ -9,13 +9,13 @@ class EEStaff extends Component {
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=EESTF101" target="_blank" rel="noopener noreferrer">Mr. Sabu Valiamattom</a>,
     content: "Instructor Grade I"
   };
-  Cefaculty2 = {
+  /*Cefaculty2 = {
     instanceID: "Cefaculty2",
     image: "Allstaffphoto/EE/STAF/129.jpg",
     width: "50%",
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=EESTF102" target="_blank" rel="noopener noreferrer">Mr. Dhinu Paul</a>,
     content: "Instructor Grade II"
-  };
+  };*/
   Cefaculty3 = {
     instanceID: "Cefaculty3",
     image: "Allstaffphoto/EE/STAF/130.jpg",
@@ -65,9 +65,9 @@ class EEStaff extends Component {
           <div>
             <FacultyData data={this.Cestaff1} />
           </div>
-          <div>
+          {/*<div>
             <FacultyData data={this.Cefaculty2} />
-          </div>
+          </div>*/}
           <div>
             <FacultyData data={this.Cefaculty3} />
           </div>

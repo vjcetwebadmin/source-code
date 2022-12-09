@@ -164,14 +164,14 @@ class CSFaculty extends Component {
     width: "50%",
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CSFAC124" target="_blank" rel="noopener noreferrer">Mrs. Soumya Mathew</a>,
     content: "Assistant Professor"
-  };*/
+  }
   Cefaculty27 = {
     instanceID: "Cefaculty27",
     image: "Allstaffphoto/CS/FAC/sreejaspillai.JPEG",
     width: "50%",
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CSFAC122" target="_blank" rel="noopener noreferrer">Mrs. Sreeja S Pillai</a>,
     content: "Assistant Professor(on-leave Ph.D)"
-  };
+  };*/
   Cefaculty30 = {
     instanceID: "Cefaculty30",
     image: "Allstaffphoto/CS/FAC/CSFAC133.jpeg",
@@ -274,10 +274,10 @@ class CSFaculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty20} />
           </div>
-          <div>
+          {/*<div>
             <FacultyData data={this.Cefaculty27} />
           </div>
-    {/*   <div>
+          <div>
             <FacultyData data={this.Cefaculty26} />
           </div>*/}
           <div>
