@@ -42,7 +42,7 @@ export default function CarouselFour({ data }) {
     {
       Title: {
         instanceID: "EventFiveTitle",
-        title: <a href="https://vjcet.org/downloads/gallery/christmas21.html" rel="noopener noreferrer"  target="_blank"><font color="maroon">Christmas 21</font></a>
+        title: <a href="/downloads/gallery/christmas21.html" rel="noopener noreferrer"  target="_blank"><font color="maroon">Christmas</font></a>
       },
 
       Image: {

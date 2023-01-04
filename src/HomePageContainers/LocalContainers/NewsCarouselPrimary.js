@@ -83,18 +83,18 @@ class NewsCarouselPrimary extends Component {
     //Recommended Image Size is 733px x 400px.
     width: "94%"
   };  
-  /*Image12 = {
+  Image12 = {
     instanceID: "NewsPrimaryOneImage",
-    image: "NewsSection/BigNews/paniyel2.jpeg",
+    image: "NewsSection/BigNews/madeinkerala.jpg",
     //Recommended Image Size is 733px x 400px.
-    width: "94%"
+    width: "97%"
   }; 
   Image13 = {
     instanceID: "NewsPrimaryOneImage",
     image: "NewsSection/BigNews/paniyel3.jpeg",
     //Recommended Image Size is 733px x 400px.
     width: "94%"
-  }; */
+  };
   Image14 = {
     instanceID: "NewsPrimaryOneImage",
     image: "NewsSection/BigNews/paniyel4.jpeg",
@@ -225,7 +225,9 @@ class NewsCarouselPrimary extends Component {
             <NewsImage data={this.Image21} />
           </a>
         </Carousel.Item> */}
-        
+        <Carousel.Item>
+          <NewsImage data={this.Image12}/>      
+       </Carousel.Item>   
         <Carousel.Item>
           <NewsImage data={this.Image24} />
         </Carousel.Item>       
@@ -278,17 +280,13 @@ class NewsCarouselPrimary extends Component {
               <h3>{this.Title4.title}</h3>
             </Carousel.Caption>
          </Carousel.Item>  
-         {/*     
-         <Carousel.Item>
-          <NewsImage data={this.Image12}/>      
-       </Carousel.Item>               
+         {/*                        
         <Carousel.Item>
           <NewsImage data={this.Image13} />
           <Carousel.Caption>
               <h3>{this.Title4.title}</h3>
             </Carousel.Caption>
-        </Carousel.Item>  
-         ?*/}
+        </Carousel.Item>  */}
           <Carousel.Item>
           <NewsImage data={this.Image14} />
           <Carousel.Caption>
