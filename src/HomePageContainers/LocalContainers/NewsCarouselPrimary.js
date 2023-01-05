@@ -119,13 +119,13 @@ class NewsCarouselPrimary extends Component {
     //Recommended Image Size is 733px x 400px.
     width: "70%"
   };
-  /*
+  
   Image18 = {
     instanceID: "NewsPrimaryOneImage",
-    image: "NewsSection/BigNews/Ieenews2.jpeg",
+    image: "NewsSection/BigNews/ADAssociation.jpg",
     //Recommended Image Size is 733px x 400px.
-    width: "64%"
-  }; */
+    width: "80%"
+  }; 
   Image19 = {
     instanceID: "NewsPrimaryOneImage",
     image: "NewsSection/BigNews/4thkathelic2022.jpg",
@@ -225,6 +225,9 @@ class NewsCarouselPrimary extends Component {
             <NewsImage data={this.Image21} />
           </a>
         </Carousel.Item> */}
+        <Carousel.Item>
+          <NewsImage data={this.Image18}/>      
+       </Carousel.Item>
         <Carousel.Item>
           <NewsImage data={this.Image12}/>      
        </Carousel.Item>   

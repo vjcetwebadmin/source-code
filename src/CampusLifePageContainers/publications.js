@@ -26,11 +26,7 @@ class Publications extends React.Component {
     CampustTitle = {
         instanceID: "CampustTitle",
         title: "College Magazine"
-    };
-    
-    
-    
-   
+    };       
 
     render() {
         return (
@@ -41,7 +37,7 @@ class Publications extends React.Component {
                 <HeadingOne data={this.CampustTitle} />
                 <div className="bodyContainer" style={{textAlign:"center"}}>
                     
-                    <iframe src="https://vjcet.org/downloads/Magazine2020.pdf" width="90%" height="800" title="Campus Map" align="center"></iframe>
+                    <iframe src="https://vjcet.org/downloads/magazine2022.pdf" width="90%" height="800" title="Campus Map" align="center"></iframe>
                 </div>
             </div>      
                
