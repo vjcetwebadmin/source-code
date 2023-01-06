@@ -26,6 +26,8 @@ class NewsSection extends Component {
             <div class="heading"><b>Announcements</b></div>            
             <ul class="news-ticker-h">
               {/*<li><a href="#/newseleven">ജീവന - ഡയാലിസിസ് രോഗികൾക്കുള്ള    ധനസഹായത്തിനായി  ഡിസംബർ 15 വരെ അപേക്ഷിക്കാം.(JEEVANA-2022)<span style={{color:"blue",fontWeight:"normal"}}>click_here</span></a></li>  */}
+              <li><b><a href="#/newseight"><span style={{color:"#F70D1A"}}>Wanted Assistant Professors in AD/CSE/IT</span><span style={{color:"blue",fontWeight:"normal"}}>click_here.</span></a></b></li>
+              <li>|</li>
               <li><b>VJCET has been Re-accredited by the NBA till 2025.</b></li>
               <li>|</li>
               <li><strong>VJCET has been accredited by the NAAC in May 2022, This Accreditation is valid for the next 5 years.</strong></li>
