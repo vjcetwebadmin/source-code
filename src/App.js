@@ -724,7 +724,7 @@ class App extends Component {
       <div className="App">
         <Router>
           <React.Fragment>
-            {/*<Notify />*/}  {/* KTU Notification popup window at the webpage start */}
+            <Notify />  {/*KTU Notification popup window at the webpage start */}
             <Switch>
               <Route exact path="/" component={HomePage} />
               <Route exact path="/about" component={AboutPage} />

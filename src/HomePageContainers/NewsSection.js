@@ -30,7 +30,7 @@ class NewsSection extends Component {
               <li>|</li>
               <li><b>VJCET has been Re-accredited by the NBA till 2025.</b></li>
               <li>|</li>
-              <li><strong>VJCET has been accredited by the NAAC in May 2022, This Accreditation is valid for the next 5 years.</strong></li>
+              <li><strong>VJCET has been accredited by the NAAC with 'A' Grade in May 2022, This Accreditation is valid for the next 5 years.</strong></li>
             </ul>
           </div>
         </p>

@@ -122,7 +122,7 @@ class NewsCarouselPrimary extends Component {
   
   Image18 = {
     instanceID: "NewsPrimaryOneImage",
-    image: "NewsSection/BigNews/ADAssociation.jpg",
+    image: "NewsSection/BigNews/NAACAGrade.jpeg",
     //Recommended Image Size is 733px x 400px.
     width: "80%"
   }; 
