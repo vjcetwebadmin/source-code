@@ -207,11 +207,11 @@ class Header extends Component {
               </div>
             </div>
           </a>          
-          {/* <a href="https://vjcet.org/#/departments/bhmct"> */}
-          <a href="https://vjcetmba.in/hotel-management-and-caterering-technology/"  target="_blank" rel="noopener noreferrer">
+          <a href="#/departments/bhmct"> 
+          {/*<a href="https://vjcetmba.in/hotel-management-and-caterering-technology/"  target="_blank" rel="noopener noreferrer">*/}
             <div id="AdmissionImage">
               <div className="animcontent">
-                BHMCT Admission<br/>2022
+                BHMCT Admission<br/>2023
               </div>
             </div>
           </a>

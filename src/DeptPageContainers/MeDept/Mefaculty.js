@@ -8,7 +8,7 @@ class MEFaculty extends Component {
     image: "Allstaffphoto/ME/FAC/195.jpg",
     width: "50%",
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=MEFAC101" target="_blank" rel="noopener noreferrer">Mr. Vinoj K</a>,
-    content: "Associate Professor"
+    content: "Associate Professor & Asst. HOD"
   };
   Cefaculty3 = {
     instanceID: "Cefaculty3",
@@ -17,13 +17,13 @@ class MEFaculty extends Component {
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=MEFAC105" target="_blank" rel="noopener noreferrer">Dr. Shunmugesh K</a>,
     content: "Professor & HOD"
   };
-  Cefaculty4 = {
+  /*Cefaculty4 = {
     instanceID: "Cefaculty4",
     image: "Allstaffphoto/ME/FAC/348.jpg",
     width: "50%",
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=MEFAC140" target="_blank" rel="noopener noreferrer">Dr. Sajan T.John</a>,
     content: "Asso. Prof. & Asst. HOD"
-  };
+  };*/
   Cefaculty5 = {
     instanceID: "Cefaculty5",
     image: "Allstaffphoto/ME/FAC/200.jpg",
@@ -68,13 +68,13 @@ class MEFaculty extends Component {
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=MEFAC119" target="_blank" rel="noopener noreferrer">Mr. Eldhose Kurian</a>,
     content: "Assistant Professor"
   };
-  Cefaculty13 = {
+  /*Cefaculty13 = {
     instanceID: "Cefaculty13",
     image: "Allstaffphoto/ME/FAC/214.jpg",
     width: "50%",
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=MEFAC120" target="_blank" rel="noopener noreferrer">Mr. Frenosh K Francis</a>,
     content: "Assistant Professor"
-  };
+  };*/
   Cefaculty14 = {
     instanceID: "Cefaculty14",
     image: "Allstaffphoto/ME/FAC/292.jpg",
@@ -156,7 +156,7 @@ class MEFaculty extends Component {
     instanceID: "Cefaculty26",
     image: "Allstaffphoto/ME/FAC/AravindS.JPEG",
     width: "50%",
-    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=MEFAC112" target="_blank" rel="noopener noreferrer">Mr. Aravind S</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=MEFAC112" target="_blank" rel="noopener noreferrer">Dr. Aravind S</a>,
     content: "Assistant Professor(on-leave Ph.D)"
   };
   Cefaculty27 = {
@@ -177,9 +177,9 @@ class MEFaculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty1} />
           </div>
-          <div>
+          {/*<div>
             <FacultyData data={this.Cefaculty4} />
-          </div>
+          </div>*/}
           <div>
             <FacultyData data={this.Cefaculty5} />
           </div> 
@@ -202,9 +202,9 @@ class MEFaculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty12} />
           </div>
-          <div>
+          {/*<div>
             <FacultyData data={this.Cefaculty13} />
-          </div>
+          </div>*/}
           <div>
             <FacultyData data={this.Cefaculty14} />
           </div>
