@@ -106,21 +106,17 @@ class Newsfive extends React.Component {
                  <h3 className="text_red"><b>Dear Parent, Please remit 4th semester tution fees of your ward, date extended to 30-06-2021 without fine and 12-07-2021 with fine.</b></h3>
                 <br /> */}
                 <p></p><br></br>
-                
+                <p><b>Semester 8</b></p>              
+                    <iframe src="https://vjcet.org/downloads/news/feess8.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>    
                 <p><b>College Bus Fare</b></p>              
-                    <iframe src="https://vjcet.org/downloads/news/Bus_notice.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>  
-                <p><b>Caution Deposit</b></p>              
-                    <iframe src="https://vjcet.org/downloads/news/NoticeCautionDeposit.jpg" width="100%" height="600" title="Campus Map" align="center"></iframe>  
+                    <iframe src="https://vjcet.org/downloads/news/Bus_notice.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>                  
                 <p><b>PFA</b></p>    
                     <iframe src="https://vjcet.org/downloads/news/Fine750S5.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>            
                     <iframe src="https://vjcet.org/downloads/news/Fine750.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>  
                 <p><b>Semester 3</b></p>
                     <iframe src="https://vjcet.org/downloads/news/NoticeS3TF.jpg" width="100%" height="600" title="Campus Map" align="center"></iframe> 
                 <p><b>Semester 5</b></p>              
-                    <iframe src="https://vjcet.org/downloads/news/S5FeesNotice22.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>  
-                <p><b>Semester 7</b></p>              
-                    <iframe src="https://vjcet.org/downloads/news/FeesS7.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>    
-                
+                    <iframe src="https://vjcet.org/downloads/news/S5FeesNotice22.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>                 
                 </div>
                 <Footer data={this.HomePageFooter} />
                 {this.state.showMenu ? (<MenuOverlay closeMenuFunction={this.closeMenu} />) : ("")}

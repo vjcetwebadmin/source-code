@@ -26,6 +26,8 @@ class NewsSection extends Component {
             <div class="heading"><b>Announcements</b></div>            
             <ul class="news-ticker-h">
               {/*<li><a href="#/newseleven">ജീവന - ഡയാലിസിസ് രോഗികൾക്കുള്ള    ധനസഹായത്തിനായി  ഡിസംബർ 15 വരെ അപേക്ഷിക്കാം.(JEEVANA-2022)<span style={{color:"blue",fontWeight:"normal"}}>click_here</span></a></li>  */}
+              <li><b><a href="#/departments/bhmct">VJCET proudly announces the commencement of new four-year degree programme in Hotel Management and Catering Technology with an intake of 60 seats from the academic year 2022-23 onwards <span style={{color:"blue",fontWeight:"normal"}}>More...</span></a></b></li>
+              <li>||</li>
               <li><b>Free KMAT Coaching Registration Opened, For Registration Contact: 9847946548</b></li>
               <li>||</li>
               <li><b><a href="downloads/news/CSE FDP Brochure January 2023.pdf" target="_blank">A One Week Faculty Development Programme on Machine Learning & Artificial Intelligence <span style={{color:"blue",fontWeight:"normal"}}>click_here.</span></a></b></li>

@@ -296,13 +296,13 @@ class NewsCarouselPrimary extends Component {
               <h3>{this.Title4.title}</h3>
             </Carousel.Caption>
         </Carousel.Item>         
-         <Carousel.Item>
+        {/*<Carousel.Item>
           <NewsImage data={this.Image15} />
           <Carousel.Caption>
               <h3>{this.Title4.title}</h3>
             </Carousel.Caption>
        </Carousel.Item> 
-       {/* <Carousel.Item>
+       <Carousel.Item>
           <NewsImage data={this.Image4} />      
         </Carousel.Item>               
         <Carousel.Item>
