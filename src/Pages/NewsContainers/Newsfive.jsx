@@ -108,15 +108,11 @@ class Newsfive extends React.Component {
                 <p></p><br></br>
                 <p><b>Semester 8</b></p>              
                     <iframe src="https://vjcet.org/downloads/news/feess8.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>    
+                <p><b>Semester 4 & 6</b></p>              
+                    <iframe src="https://vjcet.org/downloads/news/NoticeS4_S6.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>    
+                
                 <p><b>College Bus Fare</b></p>              
-                    <iframe src="https://vjcet.org/downloads/news/Bus_notice.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>                  
-                <p><b>PFA</b></p>    
-                    <iframe src="https://vjcet.org/downloads/news/Fine750S5.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>            
-                    <iframe src="https://vjcet.org/downloads/news/Fine750.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>  
-                <p><b>Semester 3</b></p>
-                    <iframe src="https://vjcet.org/downloads/news/NoticeS3TF.jpg" width="100%" height="600" title="Campus Map" align="center"></iframe> 
-                <p><b>Semester 5</b></p>              
-                    <iframe src="https://vjcet.org/downloads/news/S5FeesNotice22.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>                 
+                    <iframe src="https://vjcet.org/downloads/news/Bus_notice.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>                                  
                 </div>
                 <Footer data={this.HomePageFooter} />
                 {this.state.showMenu ? (<MenuOverlay closeMenuFunction={this.closeMenu} />) : ("")}

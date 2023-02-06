@@ -141,6 +141,12 @@ class SideNav extends Component {
       showBrou:true
     });
   };
+  onClickGallery = (e) => {
+    e.preventDefault();
+    document.location.href="downloads/gallery/bhmctgallery.html"    
+    //window.open("./downloads/gallery/mbaevents.html")
+    
+  };
 
   render() {
     return (
@@ -193,6 +199,11 @@ class SideNav extends Component {
               class="button"
               onClick={this.onClickBrou}
            />
+           <input
+              value="Gallery"
+              class="button"
+              onClick={this.onClickGallery}
+            />
 
           </div>
           <div class="dropdownD">
@@ -249,6 +260,11 @@ class SideNav extends Component {
                 value="Brochure"
                 class="button"
                 onClick={this.onClickBrou}
+              />
+              <input
+              value="Gallery"
+              class="button"
+              onClick={this.onClickGallery}
               />
             </div>
           </div>

@@ -203,7 +203,7 @@ class Header extends Component {
          <a href="https://vjcetmba.in/application/"  target="_blank" rel="noopener noreferrer">
             <div id="AdmissionImage">
               <div className="animcontent">
-              &nbsp;MBA Admission &nbsp; <br/> 2022 
+              &nbsp;MBA Admission &nbsp; <br/> 2023
               </div>
             </div>
           </a>          

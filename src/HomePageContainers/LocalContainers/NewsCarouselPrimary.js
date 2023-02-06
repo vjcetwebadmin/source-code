@@ -95,24 +95,19 @@ class NewsCarouselPrimary extends Component {
     //Recommended Image Size is 733px x 400px.
     width: "94%"
   };
-  Image14 = {
+  /*Image14 = {
     instanceID: "NewsPrimaryOneImage",
     image: "NewsSection/BigNews/paniyel4.jpeg",
     //Recommended Image Size is 733px x 400px.
     width: "94%"
-  }; 
+  }; */
   Image15 = {
     instanceID: "NewsPrimaryOneImage",
     image: "NewsSection/BigNews/paniyel5.jpeg",
     //Recommended Image Size is 733px x 400px.
     width: "94%"
   }; 
-  Image16 = {
-    instanceID: "NewsPrimaryOneImage",
-    image: "NewsSection/BigNews/nsscamp21dec.jpg",
-    //Recommended Image Size is 733px x 400px.
-    width: "94%"
-  };
+ 
   Image17 = {
     instanceID: "NewsPrimaryOneImage",
     image: "NewsSection/BigNews/NBAThrice.jpeg",
@@ -162,14 +157,7 @@ class NewsCarouselPrimary extends Component {
     image: "NewsSection/BigNews/StudentCouncil.jpg",
     //Recommended Image Size is 733px x 400px.
     width: "75%"
-  };
-  Image25 = {
-    instanceID: "NewsPrimaryOneImage",
-    image: "NewsSection/BigNews/FDP_CSE.jpeg",
-    //Recommended Image Size is 733px x 400px.
-    width: "99%"
-  };
-  
+  };  
 
   Title6 = {
     instanceID: "NewsPrimaryOneTitle",
@@ -227,10 +215,10 @@ class NewsCarouselPrimary extends Component {
         </Carousel.Item> */}
         <Carousel.Item>
           <NewsImage data={this.Image18}/>      
-       </Carousel.Item>
-       <Carousel.Item>
-          <NewsImage data={this.Image25} />
-        </Carousel.Item>         
+       </Carousel.Item> 
+       <Carousel.Item>                    
+          <NewsImage data={this.Image17} />          
+        </Carousel.Item>           
         <Carousel.Item>
           <NewsImage data={this.Image23} />
         </Carousel.Item>
@@ -250,10 +238,7 @@ class NewsCarouselPrimary extends Component {
                 <h3>{this.Title9.title}</h3>
             </Carousel.Caption>
           </a>          
-        </Carousel.Item>                      
-        <Carousel.Item>                    
-          <NewsImage data={this.Image17} />          
-        </Carousel.Item>                     
+        </Carousel.Item>                                                  
         <Carousel.Item>
           <NewsImage data={this.Image19} />
         </Carousel.Item> 
@@ -271,12 +256,7 @@ class NewsCarouselPrimary extends Component {
           src="https://www.youtube.com/embed/SwEhkhJGwrA">
           </iframe>           
        </Carousel.Item>  
-       <Carousel.Item>
-          <NewsImage data={this.Image16} />
-          <Carousel.Caption>
-              <h3>{this.Title6.title}</h3>
-          </Carousel.Caption>
-       </Carousel.Item>    
+        
        <Carousel.Item>
           <NewsImage data={this.Image11}/>  
              <Carousel.Caption>
@@ -289,13 +269,13 @@ class NewsCarouselPrimary extends Component {
           <Carousel.Caption>
               <h3>{this.Title4.title}</h3>
             </Carousel.Caption>
-        </Carousel.Item>  */}
+        </Carousel.Item>  
           <Carousel.Item>
           <NewsImage data={this.Image14} />
           <Carousel.Caption>
               <h3>{this.Title4.title}</h3>
             </Carousel.Caption>
-        </Carousel.Item>         
+        </Carousel.Item> */}        
         {/*<Carousel.Item>
           <NewsImage data={this.Image15} />
           <Carousel.Caption>

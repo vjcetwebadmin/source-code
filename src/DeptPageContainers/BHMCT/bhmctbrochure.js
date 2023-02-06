@@ -23,7 +23,7 @@ class BhmctBrochure extends Component {
         <div className="BhmctBrochure" id="bhmctbrochure">
           <HeadingOne data={this.BrochureHeading} />
           {/*<BodyOne data={this.AdmissionDescription} />*/}
-          <iframe src="https://vjcet.org/downloads/bhmct/BHMCTProspectus.pdf" width="96%" zoom="80%" height="850" title="Campus Map" align="center"></iframe> 
+          <iframe src="https://vjcet.org/downloads/bhmct/BHMCTBrochure.pdf" width="96%" zoom="80%" height="850" title="Campus Map" align="center"></iframe> 
         </div>
      
         <p></p>
