@@ -154,10 +154,10 @@ class MEFaculty extends Component {
   };*/
   Cefaculty26 = {
     instanceID: "Cefaculty26",
-    image: "Allstaffphoto/ME/FAC/AravindS.JPEG",
+    image: "Allstaffphoto/ME/FAC/AravindS.jpg",
     width: "50%",
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=MEFAC112" target="_blank" rel="noopener noreferrer">Dr. Aravind S</a>,
-    content: "Assistant Professor(on-leave Ph.D)"
+    content: "Assistant Professor"
   };
   Cefaculty27 = {
     instanceID: "Cefaculty27",
