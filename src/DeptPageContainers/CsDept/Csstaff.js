@@ -74,7 +74,7 @@ class CSStaff extends Component {
   };
   Cefaculty12 = {
     instanceID: "Cefaculty12",
-    image: "Allstaffphoto/CS/STAF/104.JPG",
+    image: "Allstaffphoto/CS/STAF/104.jpg",
     width: "50%",
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CSSTF112" target="_blank" rel="noopener noreferrer">Mr. Justin Peter</a>,
     content: "Hardware Technician"
