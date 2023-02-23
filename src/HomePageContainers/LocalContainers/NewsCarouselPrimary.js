@@ -41,8 +41,8 @@ class NewsCarouselPrimary extends Component {
 
   Title4 = {
     instanceID: "NewsPrimaryOneTitle",
-    title: "PROJECT IGNITE",
-    link: ""
+    title: "FDP on ADVANCES IN COMMUNICATION ENGINEERING",
+    link: "/downloads/FDP_ECE Brochure.pdf"    
   };
 
   Image4= {
@@ -95,12 +95,12 @@ class NewsCarouselPrimary extends Component {
     //Recommended Image Size is 733px x 400px.
     width: "94%"
   };
-  /*Image14 = {
+  Image14 = {
     instanceID: "NewsPrimaryOneImage",
-    image: "NewsSection/BigNews/paniyel4.jpeg",
+    image: "NewsSection/BigNews/FDP_Poster.jpeg",
     //Recommended Image Size is 733px x 400px.
-    width: "94%"
-  }; */
+    width: "85%"
+  };
   Image15 = {
     instanceID: "NewsPrimaryOneImage",
     image: "NewsSection/BigNews/paniyel5.jpeg",
@@ -214,6 +214,14 @@ class NewsCarouselPrimary extends Component {
           </a>
         </Carousel.Item> */}
         <Carousel.Item>
+          <a href={this.Title4.link}  rel="noopener noreferrer" target="_blank">
+            <NewsImage data={this.Image14} />
+            <Carousel.Caption>
+                <h3>{this.Title4.title}</h3>
+              </Carousel.Caption>
+          </a>
+        </Carousel.Item>
+        <Carousel.Item>
           <NewsImage data={this.Image18}/>      
        </Carousel.Item> 
        <Carousel.Item>                    
@@ -270,12 +278,7 @@ class NewsCarouselPrimary extends Component {
               <h3>{this.Title4.title}</h3>
             </Carousel.Caption>
         </Carousel.Item>  
-          <Carousel.Item>
-          <NewsImage data={this.Image14} />
-          <Carousel.Caption>
-              <h3>{this.Title4.title}</h3>
-            </Carousel.Caption>
-        </Carousel.Item> */}        
+         */}        
         {/*<Carousel.Item>
           <NewsImage data={this.Image15} />
           <Carousel.Caption>
