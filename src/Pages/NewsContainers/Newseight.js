@@ -39,11 +39,11 @@ class Newseight extends React.Component {
 
     NewsTitle = {
         instanceID: "NewsTitle",
-        title: "Wanted Assistant Professor in AD/CSE/IT"
+        title: "Wanted Assistant Professor in MBA"
     };
     Newscontent = {
         instanceID: "Newscontent",
-        title: " Wanted Assistant Professor in AD/CSE/IT"
+        title: " Wanted Assistant Professor in MBA"
     };
     
     NewsImagedata1 = {
