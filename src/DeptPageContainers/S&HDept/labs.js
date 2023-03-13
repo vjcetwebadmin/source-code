@@ -24,7 +24,7 @@ class Labs extends Component {
   }
   Labwriteup1 = {
     instanceID: "Labwriteup1",
-    title: "Engineering Chemistry Lab consists of Potentiometer, Conductivity meter ,PH    meter and several other apparatus useful for students to conduct their laboratory experiments. Students get an indepth knowledge about different experiments through these lab sessions. The lab is mainly utilized by first year students of all departments.  lab is well lit and properly ventilated.  The batch size o this lab is 32."
+    title: "Students are given opportunities to handle Potentiometers, Conductivity meters, pH meters and several other apparatus used in  laboratory experiments.Students get in-depth knowledge about different experiments through these lab sessions.The lab is mainly utilized by first year students of all departments.  The lab can accommodate a batch of 32 students."
   }; 
 
 
@@ -39,7 +39,7 @@ class Labs extends Component {
   }
   Labwriteup2 = {
     instanceID: "Labwriteup2",
-    title: "Engineering Chemistry Lab consists of Potentiometer, Conductivity meter, pH    meter and several other apparatus useful for students to conduct their laboratory experiments. Students get an indepth knowledge about different experiments through these lab sessions. The lab is mainly utilized by first year students of all departments.  Lab is well lit and properly ventilated.  The batch size of this lab is 32."
+    title: "Students are given opportunities to handle Potentiometers, Conductivity meters, pH meters and several other apparatus used in  laboratory experiments.Students get in-depth knowledge about different experiments through these lab sessions.The lab is mainly utilized by first year students of all departments.  The lab can accommodate a batch of 32 students."
   }; 
 
 
@@ -54,8 +54,23 @@ class Labs extends Component {
   }
   Labwriteup3= {
     instanceID: "Labwriteup3",
-    title: "Theory and experiment go hand in hand. The basic focus of Engineering Physics Lab is to make the students gain practical knowledge and enable students to understand fundamentals of Engineering Physics. The lab is well equipped with all the apparatus required as per the curriculum.  The lab is mainly utilized by first year students of all branches. The batch size of the lab is 32."
+    title: "The focus of Engineering Physics Lab is to impart practical knowledge about engineering physics to the students. The lab is well equipped with all the apparatus required as per the curriculum. The lab is mainly utilized by the first year students of all the branches.This lab also can accommodate a batch of 32 students."
   }; 
+
+  Labname4 = {
+    instanceID: "Labname4",
+    title: "LANGUAGE LAB"
+  };
+  Labimage4 = {
+	instanceID: "Labimage4",
+	image: "DepartmentImages/CE/LABS/Labname4.JPG",
+	width: "80%"
+  }
+  Labwriteup4= {
+    instanceID: "Labwriteup4",
+    title: "Language lab is a platform used to integrate technology in language learning. It aims at developing the communication skills of students through the use of technology and online resources.As part of language teaching and skills training , we use a specialised software named ‘ Tell Me More ’  that has different kinds of exercises for listening, speaking,  reading and writing.The lab has 60 computers, all equipped with head phones."
+  }; 
+
 
 
 
@@ -126,6 +141,16 @@ class Labs extends Component {
                   </tbody>
                 </table>
         </div>
+
+        <div>
+            <HeadingTwo data={this.Labname4} />
+            {/*<ImageOne data={this.Labimage8} />*/}
+            <p></p>
+            <BodyOneJustified data={this.Labwriteup4}></BodyOneJustified>
+            <p></p>  
+            
+        </div>
+
       </div>
     );
   }

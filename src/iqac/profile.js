@@ -166,7 +166,7 @@ class iqac extends React.Component {
             </tr>
             <tr>
               <td>14</td>
-              <td> Smt. Biju George </td>
+              <td> Sri. Biju George </td>
               <td> HOD (S& H)</td>
             </tr>
             <tr>

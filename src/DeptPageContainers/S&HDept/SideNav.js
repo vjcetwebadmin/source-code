@@ -65,7 +65,7 @@ class SideNav extends Component {
               onClick={this.onClickFac}
             />
             <input
-              value="Labs"
+              value="Laboratory"
               className="button"
               onClick={this.onClicklib}
             />

@@ -10,13 +10,13 @@ class Faculty extends Component {
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=SHFAC101" target="_blank" rel="noopener noreferrer">Mrs. Ann Neetha Sabu</a>,
     content: "Assistant Professor"
   };*/
-  Cefaculty24 = {
+  /*Cefaculty24 = {
     instanceID: "Cefaculty24",
     image: "Allstaffphoto/SH/FAC/140.jpg",
     width: "50%",
     name:  <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=SHFAC120" target="_blank" rel="noopener noreferrer">Prof. George Kuriakose</a>,
     content: "Assistant Professor(on-leave)"
-  };  
+  };  */
   Cefaculty3 = {
     instanceID: "Cefaculty3",
     image: "Allstaffphoto/SH/FAC/SHFAC105.jpg",
@@ -46,7 +46,7 @@ class Faculty extends Component {
     content: "Assistant Professor"
   };
   Cefaculty9 = {
-    instanceID: "Cefaculty",
+    instanceID: "Cefaculty9",
     image: "Allstaffphoto/SH/FAC/251.jpg",
     width: "50%",
     name:  <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=SHFAC111" target="_blank" rel="noopener noreferrer">Mrs. Manu Sebastiann</a>,
@@ -58,7 +58,7 @@ class Faculty extends Component {
     image: "Allstaffphoto/SH/FAC/252.jpg",
     width: "50%",
     name:  <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=SHFAC112" target="_blank" rel="noopener noreferrer">Mr. Tony Augustine</a>,
-    content: "Assistant Professor(on-leave Ph.D)"
+    content: "Assistant Professor"
   };  
   Cefaculty12 = {
     instanceID: "Cefaculty12",
@@ -102,7 +102,7 @@ class Faculty extends Component {
     name:  <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=SHSTF101" target="_blank" rel="noopener noreferrer">Mr.	John Odackal</a>,
     content: "Assistant Professor"
   }; 
-  Cefaculty26 = {
+  /*Cefaculty26 = {
     instanceID: "Cefaculty26",
     image: "Allstaffphoto/SH/FAC/director.jpg",
     width: "50%",
@@ -122,7 +122,7 @@ class Faculty extends Component {
     width: "50%",
     name:  <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=SHFAC126" target="_blank" rel="noopener noreferrer">Mrs. Anitha Rajan</a>,
     content: "Assistant Professor(on leave)"
-  }; 
+  }; */
   Cefaculty21 = {
     instanceID: "Cefaculty21",
     image: "Allstaffphoto/SH/FAC/shfac136.jpg",
@@ -137,13 +137,13 @@ class Faculty extends Component {
     name:  <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=SHFAC139" target="_blank" rel="noopener noreferrer">Mr. George Joseph V</a>,
     content: "Assistant Professor"
   };
-  Cefaculty27 = {
+  /*Cefaculty27 = {
     instanceID: "Cefaculty27",
     image: "Allstaffphoto/SH/FAC/SHFAC141.jpg",
     width: "50%",
     name:  <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=SHFAC141" target="_blank" rel="noopener noreferrer">Ms. Chithra Ramesh</a>,
     content: "Assistant Professor"
-  };
+  };*/
   /*Cefaculty28 = {
     instanceID: "Cefaculty28",
     image: "Allstaffphoto/SH/FAC/SHFAC142.jpg",
@@ -172,13 +172,13 @@ class Faculty extends Component {
     name:  <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=Shfac145" target="_blank" rel="noopener noreferrer">Mr. Arunvishnu U</a>,
     content: "Assistant Professor"
   };
-  Cefaculty32 = {
+  /*Cefaculty32 = {
     instanceID: "Cefaculty32",
     image: "Allstaffphoto/SH/FAC/SHFAC146.jpg",
     width: "50%",
     name:  <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=Shfac146" target="_blank" rel="noopener noreferrer">Ms. Lekshmipriya P<br></br>(Guest Faculty)</a>,
     content: "Assistant Professor"
-  };
+  };*/
   Cefaculty33 = {
     instanceID: "Cefaculty33",
     image: "Allstaffphoto/SH/FAC/SHFAC147.jpg",
@@ -186,13 +186,13 @@ class Faculty extends Component {
     name:  <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=Shfac147" target="_blank" rel="noopener noreferrer">Ms. Annjossy Jose<br></br>(Guest Faculty)</a>,
     content: "Assistant Professor"
   };
-  Cefaculty34 = {
+  /*Cefaculty34 = {
     instanceID: "Cefaculty34",
     image: "Allstaffphoto/SH/FAC/SHFAC148.jpg",
     width: "50%",
     name:  <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=Shfac148" target="_blank" rel="noopener noreferrer">Ms. Sneha Sebastian<br></br>(Guest Faculty)</a>,
     content: "Assistant Professor"
-  };
+  };*/
   
   
   render() {
@@ -204,10 +204,10 @@ class Faculty extends Component {
           </div>
           {/*<div>
             <FacultyData data={this.Cefaculty1} />
-          </div>*/}
+          </div>
           <div>
             <FacultyData data={this.Cefaculty24} />
-          </div>            
+          </div>   */}         
           <div>
             <FacultyData data={this.Cefaculty3} />
           </div>          
@@ -240,26 +240,26 @@ class Faculty extends Component {
           </div>
          {/* <div>
             <FacultyData data={this.Cefaculty20} />
-         </div>*/}
+         </div>
            <div>
             <FacultyData data={this.Cefaculty26} />
           </div>  
           <div>
             <FacultyData data={this.Cefaculty25} />
-          </div>          
+          </div>  
           <div>
             <FacultyData data={this.Cefaculty23} />
-          </div>         
+          </div>   */}  
           <div>
             <FacultyData data={this.Cefaculty21} />
           </div>
           <div>
             <FacultyData data={this.Cefaculty22} />
           </div>
-          <div>
+          {/*<div>
             <FacultyData data={this.Cefaculty27} />
           </div>
-          {/*<div>
+          <div>
             <FacultyData data={this.Cefaculty28} />
           </div>*/}
           {/*<div>
@@ -271,15 +271,15 @@ class Faculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty31} />
           </div>
-          <div>
+          {/*<div>
             <FacultyData data={this.Cefaculty32} />
-          </div>
+        </div>*/}
           <div>
             <FacultyData data={this.Cefaculty33} />
           </div>
-          <div>
+          {/*<div>
             <FacultyData data={this.Cefaculty34} />
-          </div>
+      </div>*/}
         </div>
       </div>
     );

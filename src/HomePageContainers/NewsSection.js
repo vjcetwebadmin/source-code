@@ -26,9 +26,7 @@ class NewsSection extends Component {
             <div class="heading"><b>Announcements</b></div>            
             <ul class="news-ticker-h">
               {/*<li><a href="#/newseleven">ജീവന - ഡയാലിസിസ് രോഗികൾക്കുള്ള    ധനസഹായത്തിനായി  ഡിസംബർ 15 വരെ അപേക്ഷിക്കാം.(JEEVANA-2022)<span style={{color:"blue",fontWeight:"normal"}}>click_here</span></a></li>  */}             
-              <li><b><a href="#/newseight">Invites Applications for the post of Placement and Training Officer cum Assistant Professor. <span style={{color:"blue",fontWeight:"normal"}}>more...</span></a></b></li>
-              <li>||</li>
-              <li><b><a href="/downloads/FDP_ECE Brochure.pdf" target="_blank">5 days faculty development programme on "ADVANCES IN COMMUNICATION ENGINEERING" <span style={{color:"blue",fontWeight:"normal"}}>more...</span></a></b></li>
+              <li><b><a href="#/newseight">Invites Applications for the post of Placement and Training Officer cum Assistant Professor. <span style={{color:"blue",fontWeight:"normal"}}>more...</span></a></b></li>              
               <li>||</li>
               <li><b><a href="#/departments/bhmct">VJCET proudly announces the commencement of new four-year degree programme in Hotel Management and Catering Technology with an intake of 60 seats from the academic year 2022-23 onwards <span style={{color:"blue",fontWeight:"normal"}}>More...</span></a></b></li>
               <li>||</li>

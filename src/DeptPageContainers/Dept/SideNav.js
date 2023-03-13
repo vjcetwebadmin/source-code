@@ -206,7 +206,7 @@ class SideNav extends Component {
             />
             <input
 
-              value="Labs"
+              value="Laboratory"
               class="button"
               onClick={this.onClickLib}
             />
@@ -269,7 +269,7 @@ class SideNav extends Component {
               />
               <input
 
-                value="Labs"
+                value="Laboratory"
                 class="button"
                 onClick={this.onClickLib}
               />
