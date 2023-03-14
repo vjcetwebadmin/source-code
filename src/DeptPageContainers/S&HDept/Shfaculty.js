@@ -186,13 +186,13 @@ class Faculty extends Component {
     name:  <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=Shfac147" target="_blank" rel="noopener noreferrer">Ms. Annjossy Jose<br></br>(Guest Faculty)</a>,
     content: "Assistant Professor"
   };
-  /*Cefaculty34 = {
+  Cefaculty34 = {
     instanceID: "Cefaculty34",
-    image: "Allstaffphoto/SH/FAC/SHFAC148.jpg",
+    image: "Allstaffphoto/SH/FAC/SHFAC149.jpg",
     width: "50%",
-    name:  <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=Shfac148" target="_blank" rel="noopener noreferrer">Ms. Sneha Sebastian<br></br>(Guest Faculty)</a>,
+    name:  <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=Shfac149" target="_blank" rel="noopener noreferrer">Mr. Naveen Thomas</a>,
     content: "Assistant Professor"
-  };*/
+  };
   
   
   render() {
@@ -277,9 +277,9 @@ class Faculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty33} />
           </div>
-          {/*<div>
+          <div>
             <FacultyData data={this.Cefaculty34} />
-      </div>*/}
+      </div>
         </div>
       </div>
     );

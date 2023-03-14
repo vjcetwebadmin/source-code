@@ -111,6 +111,7 @@
 	overflow: hidden;
 	border: 1px solid #1c6547;
   background-color:#ece4e4;
+  content-visibility: auto;
 }
 
 .ticker-wrapper-h .heading{	

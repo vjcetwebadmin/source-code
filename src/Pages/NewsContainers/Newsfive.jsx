@@ -108,11 +108,12 @@ class Newsfive extends React.Component {
                 <p></p><br></br>
                 <p><b>Tuition Fee Fine S4, S6 & S8</b></p>              
                     <iframe src="https://vjcet.org/downloads/news/FeeFine.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>    
+                <p><b>Semester 2</b></p>              
+                    <iframe src="https://vjcet.org/downloads/news/NoticeS2Fee.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>                                
+                <p><b>Semester 4 & 6</b></p>              
+                    <iframe src="https://vjcet.org/downloads/news/NoticeS4_S6.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>                    
                 <p><b>Semester 8</b></p>              
                     <iframe src="https://vjcet.org/downloads/news/feess8.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>    
-                <p><b>Semester 4 & 6</b></p>              
-                    <iframe src="https://vjcet.org/downloads/news/NoticeS4_S6.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>    
-                
                 <p><b>College Bus Fare</b></p>              
                     <iframe src="https://vjcet.org/downloads/news/Bus_notice.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>                                  
                 </div>
