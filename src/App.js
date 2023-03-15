@@ -361,7 +361,7 @@ class App extends Component {
             instanceID: "Cefaculty5",
             image: "Allstaffphoto/CE/FAC/39.jpg",
             width: "50%",
-            name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CEFAC104" target="_blank" rel="noopener noreferrer">Mrs. Neena M Joseph</a>,
+            name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CEFAC104" target="_blank" rel="noopener noreferrer">Dr. Neena M Joseph</a>,
             content: "Assistant Professor"
           },
           {

@@ -36,7 +36,7 @@ class CEFaculty extends Component {
     instanceID: "Cefaculty5",
     image: "Allstaffphoto/CE/FAC/39.jpg",
     width: "50%",
-    name:  <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/96/39.jpg" target="_blank" rel="noopener noreferrer">Mrs. Neena M Joseph</a>,
+    name:  <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/96/39.jpg" target="_blank" rel="noopener noreferrer">Dr. Neena M Joseph</a>,
     content: "Assistant Professor"
   };
   Cefaculty6 = {
