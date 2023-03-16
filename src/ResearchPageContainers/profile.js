@@ -72,7 +72,7 @@ class Profile extends Component {
                             <tr><td>Mr. Unnikrishnan T G</td><td>Secretary, ME Dept. Coordinator</td></tr>
                             <tr><td>Dr. Pradeep Kumar</td><td>CSE Dept. Coordinator</td></tr>
                             <tr><td>Mrs. Saksy Joy</td><td>S&H Dept. Coordinator</td></tr>
-                            <tr><td>Mrs. Neena M Joseph</td><td>CE, Dept. Coordinator</td></tr>
+                            <tr><td>Dr. Neena M Joseph</td><td>CE, Dept. Coordinator</td></tr>
                             <tr><td>Dr. Tony 0</td><td>ECE Dept. Coordinator</td></tr>
                             <tr><td>Mrs. Mereya Baby</td><td>EEE Dept. Coordinator</td></tr>
                             <tr><td>Mrs. Josna Jose</td><td>IT Dept. Coordinator</td></tr>
