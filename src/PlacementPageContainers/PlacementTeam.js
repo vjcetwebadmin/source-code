@@ -10,28 +10,22 @@ class Faculty extends Component {
     instanceID: "Cefaculty2",
     image: "Allstaffphoto/PTC/C Mavin.JPG",
     width: "50%",
-    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHFAC119" target="_blank" rel="noopener noreferrer">Mr. C. Mavin</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=SHFAC119" target="_blank" rel="noopener noreferrer">Mr. C. Mavin</a>,
     content: "Assistant Professor & Placement Officer"
   };  
-  Cefaculty10 = {
-    instanceID: "Cefaculty10",
-    image: "Allstaffphoto/ADM/ADM/shijajose.JPEG",
-    width: "50%",
-    name: <a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=ADSTF109" target="_blank" rel="noopener noreferrer">Mrs. Shija Jose</a>,
-    content: "UDC"
-  };
+  
   Cefaculty5 = {
     instanceID: "Cefaculty5",
     image: "Allstaffphoto/PTC/IMG_7641.jpg",
     width: "50%",
-    name: <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHSTF105" target="_blank" rel="noopener noreferrer">Mr. Sanoj Saju</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=SHSTF105" target="_blank" rel="noopener noreferrer">Mr. Sanoj Saju</a>,
     content: "Assistant Placement Officer"
   };
   Cefaculty6 = {
     instanceID: "Cefaculty6",
     image: "Allstaffphoto/SH/FAC/shfac136.jpg",
     width: "50%",
-    name:  <a href="https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=SHFAC136" target="_blank" rel="noopener noreferrer">Ms. Saksy Joy</a>,
+    name:  <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=SHFAC136" target="_blank" rel="noopener noreferrer">Ms. Saksy Joy</a>,
     content: "IQAC Placement Co-ordinator"
   };
   Cefaculty7 = {
@@ -78,9 +72,7 @@ class Faculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty6} />
           </div>
-          <div>
-            <FacultyData data={this.Cefaculty10} />
-          </div>          
+                  
           <div>
             <FacultyData data={this.Cefaculty7} />
           </div>

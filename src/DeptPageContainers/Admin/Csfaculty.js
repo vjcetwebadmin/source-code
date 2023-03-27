@@ -58,6 +58,13 @@ class CSFaculty extends Component {
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ADSTF108" target="_blank" rel="noopener noreferrer">Mrs. Anitha Mathew</a>,
     content: "UDC (HG)"
   };
+  Cefaculty10 = {
+    instanceID: "Cefaculty10",
+    image: "Allstaffphoto/ADM/ADM/shijajose.JPEG",
+    width: "50%",
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ADSTF109" target="_blank" rel="noopener noreferrer">Mrs. Shija Jose</a>,
+    content: "UDC"
+  };
   Cefaculty11 = {
     instanceID: "Cefaculty11",
     image: "Allstaffphoto/ADM/ADM/arunbobyt.JPEG",
@@ -154,21 +161,21 @@ class CSFaculty extends Component {
     instanceID: "Cefaculty28",
     image: "Allstaffphoto/ADM/ADM/alphonsajoy.jpg",
     width: "50%",
-    name: <a href=" https://vjcet.org/downloads/admprofile/adm_alphonsa.html" target="_blank" rel="noopener noreferrer">Mrs. Alphonsa Joy</a>,
+    name: <a href="https://vjcet.org/downloads/admprofile/adm_alphonsa.html" target="_blank" rel="noopener noreferrer">Mrs. Alphonsa Joy</a>,
     content: "Class IV"
   };
   Cefaculty29 = {
     instanceID: "Cefaculty29",
     image: "Allstaffphoto/ADM/ADM/lissysunny.JPG",
     width: "50%",
-    name: <a href=" https://vjcet.org/downloads/admprofile/adm_lissysunny.html" target="_blank" rel="noopener noreferrer">Mrs. Lissy Sunny</a>,
+    name: <a href="https://vjcet.org/downloads/admprofile/adm_lissysunny.html" target="_blank" rel="noopener noreferrer">Mrs. Lissy Sunny</a>,
     content: "Class IV"
   };
   Cefaculty30 = {
     instanceID: "Cefaculty30",
     image: "Allstaffphoto/ADM/ADM/minibinu.JPG",
     width: "50%",
-    name: <a href=" https://vjcet.org/downloads/admprofile/adm_minibinu.html" target="_blank" rel="noopener noreferrer">Mrs. Mini Binu</a>,
+    name: <a href="https://vjcet.org/downloads/admprofile/adm_minibinu.html" target="_blank" rel="noopener noreferrer">Mrs. Mini Binu</a>,
     content: "Class IV"
   };
   Cefaculty31 = {
@@ -205,6 +212,9 @@ class CSFaculty extends Component {
           </div>
           <div>
             <FacultyData data={this.Cefaculty9} />
+          </div>
+          <div>
+            <FacultyData data={this.Cefaculty10} />
           </div>
           <div>
             <FacultyData data={this.Cefaculty11} />
