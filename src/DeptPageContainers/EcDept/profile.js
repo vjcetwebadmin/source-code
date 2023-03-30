@@ -18,7 +18,7 @@ class Profile extends Component {
   };
   Features3 = {
     instanceID: "Features3",
-    title: "•	The B.Tech program was accredited by NBA in June 2010 and has been reaccredited in June 2018 for another three years."
+    title: "•	The B.Tech program was accredited by NBA in June 2010 and has been re-accredited in June 2018 for three years. In 2021, the status of accreditation was extended for 1 year. In June 2022, the B.Tech program was re-accredited by NBA for three years till June 2025."
   };
   Features4 = {
     instanceID: "Features4",
@@ -26,7 +26,7 @@ class Profile extends Component {
   };
   Features5 = {
     instanceID: "Features5",
-    title: "•	To meet the requirements of industry and everyday life, the students are trained to undergo research and develop low power, cost effective electronic products."
+    title: "•	To meet the requirements of industry and everyday life, the students are trained to carryout research and to develop low power, cost effective electronic products."
   };
   Features6 = {
     instanceID: "Features6",
@@ -34,7 +34,7 @@ class Profile extends Component {
   };
   Features7 = {
     instanceID: "Features7",
-    title: "•	The Department consistently organizes External Seminars and Symposiums, Internal Seminars, Short Term Training Programs, Faculty Development Programs sponsored by AICTE - ISTE."
+    title: "•	The Department consistently organizes External Seminars and Symposiums, Internal Seminars, Short Term Training Programs, Faculty Development Programs etc. sponsored by KTU, IETE, AICTE, ISTE etc."
   };
   Features8 = {
     instanceID: "Features8",

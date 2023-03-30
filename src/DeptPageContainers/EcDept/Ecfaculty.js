@@ -10,13 +10,13 @@ class Faculty extends Component {
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ECFAC108" target="_blank" rel="noopener noreferrer">Mrs. Smitha Cyriac</a>,
     content: "Assistant Professor"
   }; 
-  Cefaculty33 = {
+  /*Cefaculty33 = {
     instanceID: "Cefaculty33",
     image: "Allstaffphoto/EC/FAC/368.JPG",
     width: "50%",
     name:  <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ECFAC137" target="_blank" rel="noopener noreferrer">Dr. Edgar Ruskin Frank A</a>,
     content: "Professor(on-leave)"
-  };  
+  };*/  
   Cefaculty4 = {
     instanceID: "Cefaculty4",
     image: "Allstaffphoto/EC/FAC/138.jpg",
@@ -31,13 +31,13 @@ class Faculty extends Component {
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ECFAC103" target="_blank" rel="noopener noreferrer">Mr. R Anil Kumar</a>,
     content: "Assistant Professor"
   };
-  Cefaculty6 = {
+  /*Cefaculty6 = {
     instanceID: "Cefaculty6",
     image: "Allstaffphoto/EC/FAC/ECFAC104.jpg",
     width: "50%",
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ECFAC104" target="_blank" rel="noopener noreferrer">Dr. Melvin C Jose</a>,
     content: "Associate Professor"
-  };
+  };*/
   Cefaculty7 = {
     instanceID: "Cefaculty7",
     image: "Allstaffphoto/EC/FAC/142.jpg",
@@ -99,7 +99,7 @@ class Faculty extends Component {
     image: "Allstaffphoto/EC/FAC/152.jpg",
     width: "50%",
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ECFAC116" target="_blank" rel="noopener noreferrer">Mrs. Cuckoo Anitha Joseph</a>,
-    content: "Assistant Professor(on-leave)"
+    content: "Assistant Professor"
   };
   Cefaculty16 = {
     instanceID: "Cefaculty16",
@@ -180,13 +180,13 @@ class Faculty extends Component {
     name:  <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ECFAC129" target="_blank" rel="noopener noreferrer">Mrs.Minu George</a>,
     content: "Assistant Professor(on-leave)"
   };
-  Cefaculty30 = {
+  /*Cefaculty30 = {
     instanceID: "Cefaculty30",
     image: "Allstaffphoto/EC/FAC/Jibbypeter.JPEG",
     width: "50%",
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ECFAC131" target="_blank" rel="noopener noreferrer">Mr. Jibby Peter Dcruz</a>,
     content: "Assistant Professor"
-  };
+  };*/
   Cefaculty31 = {
     instanceID: "Cefaculty31",
     image: "Allstaffphoto/EC/FAC/Vinijakurian.jpg",
@@ -208,9 +208,9 @@ class Faculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty24} />
           </div>          
-          <div>
+          {/*<div>
             <FacultyData data={this.Cefaculty33} />
-          </div>  
+          </div>  */}
           <div>
             <FacultyData data={this.Cefaculty1} />
           </div>       
@@ -224,9 +224,9 @@ class Faculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty5} />
           </div>
-          <div>
+          {/*<div>
             <FacultyData data={this.Cefaculty6} />
-          </div>
+        </div>*/}
           <div>
             <FacultyData data={this.Cefaculty7} />
           </div>  
@@ -278,9 +278,9 @@ class Faculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty28} />
           </div>
-          <div>
+          {/*<div>
             <FacultyData data={this.Cefaculty30} />
-          </div>
+        </div>*/}
           <div>
             <FacultyData data={this.Cefaculty31} />
           </div>

@@ -169,15 +169,15 @@ EEEimage9 = {
           <HeadingThree data={this.InchargesHeading} />  
           <table id="tableformat">
                             <tr><th>POST</th><th>NAME</th></tr>
-                            <tr><td>Branch Counsellor & IEEE SIGHT Counsellor</td><td>Mr. Anish M Jose, AP ECE</td></tr>
-                            <tr><td>Computer Society Counsellor</td><td>Mr. Sivadas T Nair, AP CSE</td></tr>
-                            <tr><td>Power & Energy Society Counsellor</td><td>Mr. Babu T Chacko, AP EEE</td></tr>
+                            <tr><td>Branch Counsellor</td><td>Mr. Anish M Jose, AP ECE</td></tr>
+                            <tr><td>Computer Society Chapter Advisor</td><td>Mr. Sivadas T Nair, AP AD</td></tr>
+                            <tr><td>Power and Energy Chapter Advisor</td><td>Mr. Babu T Chacko, AP EEE</td></tr>
                             <tr><td>IEEE SIGHT & WIE Advisor</td><td>Mr. Anish M Jose, AP ECE</td></tr>
-                            <tr><td>Branch Chairperson</td><td>Ms. Anjaly Saji, S5 IT</td></tr>
-                            <tr><td>Computer Society Chairman</td><td>Ms. Dilna Elizabath Roy,S5 CSEB</td></tr>
-                            <tr><td>Power & Energy Society Chairperson</td><td>Mr. Alen Shajan, S5 IT</td></tr>
-                            <tr><td>IEEE SIGHT Chairman</td><td>Mr. Alen Salu S5 IT</td></tr>
-                            <tr><td>IEEE WIE Chairperson</td><td>Ms. Sayana Fathima, S5 EEE</td></tr>
+                            <tr><td>Branch Chairperson</td><td>Ms.Norha Jomon, S5 CSE</td></tr>
+                            <tr><td>Computer Society Chairman</td><td>Mr.Varun Mohammed , S5 CSE</td></tr>
+                            <tr><td>Power & Energy Society Chairman</td><td>Mr.Alwin Sony , S5 EEE</td></tr>
+                            <tr><td>IEEE SIGHT Chairman</td><td>Mr.Navaneeth V Nair ,S5 AD</td></tr>
+                            <tr><td>IEEE WIE Chairperson</td><td>Ms.Aleena Binu ,S5 ME</td></tr>
                             </table>
                             <HeadingThree data={this.ActivitiesHeading} /> 
                             <table id="tableformat">
@@ -215,7 +215,7 @@ EEEimage9 = {
                             </table>
 
                             <br />
-                            <HeadingThree data={this.ActivitiesHeadingnew} /> 
+                            {/*<HeadingThree data={this.ActivitiesHeadingnew} /> 
                             <p style={{ fontSize:"22px"}}><i>"If a window of opportunity appears, don't pull down the shade.”</i>~Tom Peters</p>
                             <p style={{ fontSize:"18px"}}><b>IEEE Signal Processing Society (SPS), Kerala Chapter</b> is more than delighted to announce that our most anticipated flagship event, <b>SIGNAL</b>, co hosted by <b>Viswajyothi College of Engineering and Technology (VJCET)</b>, is live now!</p>
                             <p style={{ fontSize:"18px"}}>The 3-day extravaganza is filled with amazing speakers, networking sessions, and cultural nights.The event also includes inspiring keynotes and uses case-focused sessions to help meet today’s technology challenges while preparing for tomorrow’s opportunities.</p>
@@ -238,7 +238,7 @@ EEEimage9 = {
                         <p style={{textAlign:"center"}}><ImageOne data={this.EEEimage8} /></p>
                         <br />   
                         <p style={{textAlign:"center"}}><ImageOne data={this.EEEimage9} /></p>
-                        <br /> 
+                        <br /> */}
                             
         </div>
       </div>

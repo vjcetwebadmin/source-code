@@ -12,7 +12,7 @@ class Library extends Component {
   DeptAssociationDescriptionOne = {
     instanceID: "DeptAssociationDescriptionOne",
     title:
-      "ZEALOUS is the association of the Electronics and Communication Engineering Department. It plays a vital role in moulding Electronics Engineers. Technical Quiz, Technical Talks, Group Discussions, Hands-On-Workshops etc. are conducted for enriching Electronics Engineers' knowledge in various core fields. The successful students in Academics, Technical/Managerial areas, Sports, Cultural Programs are honored on this day."
+      "ZEALOUS is the association of the Electronics and Communication Engineering Department. It plays a vital role in moulding Electronics Engineers with professional competence and global outlook. Technical Quiz, Technical Talks, Group Discussions, Hands-On-Workshops etc. are conducted for enriching the knowledge of Electronics Engineers in various core fields. The successful students in Academics, Technical/Managerial areas, Sports, Cultural Programs are honoured on this day."
   };
   Activitiesheading = {
     instanceID: "Activitiesheading",
@@ -40,7 +40,7 @@ class Library extends Component {
   }
   Activity1Content5 = {
     instanceID: "Activity1Content5",
-    title: "The association activities for the year 2020-21 was inaugurated by Mr. Joe Thomas (Senior Software Engineer, Amazon, USA) on 22nd March, 2021, and a technical talk on Career advancement and industry expectations was conducted by Mr. Joe Thomas and Mr. Lalu Paul (Senior Software Engineer, Xilinx, USA)."
+    title: "ECE Association, Zealous for the year 2022-’23 was inaugurated By Dr. Neelakantan P. C, Principal of Muthoot Institute of Technology and Science (MITS) on 19th December, 2022. Based on the current scenario, he delivered a Technical Talk on the topic &quot;The Transistor at 75 - Past, Present and the Future&quot;. The inauguration ceremony was highlighted with technical quiz, organized by the Quiz and Debate Club of ECE department, followed by the musical program of our students."
   }
   Activity2Heading = {
     instanceID: "Activity2Heading",

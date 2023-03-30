@@ -10,27 +10,27 @@ class Program extends Component {
   ProgramDescriptionOne = {
     instanceID: "ProgramDescriptionOne",
     title:
-      "ECE Department aims to deepen the knowledge and skills of the students on the basic concepts and theories that will equip them in their professional work involving analysis, systems implementation, operation, production, and maintenance of the various applications in the field of Electronics and Communications Engineering."
+      "The department has about 24 teaching staff and 6 non teaching staffs."
   };
   ProgramDescriptionTwo = {
     instanceID: "ProgramDescriptionTwo",
     title:
-      "The Department of Electronics and Communication Engineering is providing quality education at both Undergraduate (UG) and Postgraduate (PG) levels."
+      "With technology becoming all pervasive in day-to-day life, opportunities for Electronic  Engineers are endless."
   };
   ProgramDescriptionThree = {
     instanceID: "ProgramDescriptionThree",
     title:
-      "The annual intake of the B. Tech. program is 60 students and that of the M. Tech. is 18."
+      "The ECE department at VJCET prepare students for careers in this constantly evolving discipline."
   };
   ProgramDescriptionFour = {
     instanceID: "ProgramDescriptionFour",
     title:
-      "The department has about 27 teaching staff and 6 non teaching staffs."
+      ""
   };
   ProgramDescriptionFive = {
     instanceID: "ProgramDescriptionFive",
     title:
-      "With technology becoming all pervasive in everyday life, opportunities for electronic engineers are endless. The ECE department at VJCET prepares students for careers in this constantly evolving discipline."
+      ""
   };
   render() {
     return (

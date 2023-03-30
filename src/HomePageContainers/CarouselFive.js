@@ -27,7 +27,7 @@ export default function CarouselFive({ data }) {
     {
       Title: {
         instanceID: "EventOneTitle",
-        title:<a href="#/campus-life/professionalbodies/ieee" rel="noopener noreferrer"><font color="maroon">IEEE</font></a>
+        title:<a href="#/campus-life/professionalbodies/ieee" target="_blank" rel="noopener noreferrer"><font color="maroon">IEEE</font></a>
         
       },
 
@@ -41,7 +41,7 @@ export default function CarouselFive({ data }) {
     {
       Title: {
         instanceID: "EventTwoTitle",
-        title:<a href="#/campus-life/professionalbodies/iste" rel="noopener noreferrer"><font color="maroon" >ISTE</font></a>
+        title:<a href="#/campus-life/professionalbodies/iste" target="_blank" rel="noopener noreferrer"><font color="maroon" >ISTE</font></a>
       },
 
       Image: {
@@ -53,7 +53,7 @@ export default function CarouselFive({ data }) {
     {
       Title: {
         instanceID: "EventThreeTitle",
-        title: <a href="#/campus-life/professionalbodies/igbc" rel="noopener noreferrer"><font color="maroon">IGBC</font></a>
+        title: <a href="#/campus-life/professionalbodies/igbc" target="_blank" rel="noopener noreferrer"><font color="maroon">IGBC</font></a>
       },
 
       Image: {
@@ -65,7 +65,7 @@ export default function CarouselFive({ data }) {
     {
       Title: {
         instanceID: "EventFourTitle",
-        title: <a href="#/campus-life/professionalbodies/csi" rel="noopener noreferrer"><font color="maroon">CSI</font></a>
+        title: <a href="#/campus-life/professionalbodies/csi" target="_blank" rel="noopener noreferrer"><font color="maroon">CSI</font></a>
       },
 
       Image: {
@@ -77,7 +77,7 @@ export default function CarouselFive({ data }) {
     {
       Title: {
         instanceID: "EventFiveTitle",
-        title: <a href="#/campus-life/professionalbodies/iete" rel="noopener noreferrer"><font color="maroon">IETE</font></a>
+        title: <a href="#/campus-life/professionalbodies/iete" target="_blank" rel="noopener noreferrer"><font color="maroon">IETE</font></a>
       },
 
       Image: {
@@ -89,7 +89,7 @@ export default function CarouselFive({ data }) {
     {
       Title: {
         instanceID: "EventSixTitle",
-        title: <a href="#/campus-life/professionalbodies/sae" rel="noopener noreferrer"><font color="maroon">SAE INDIA</font></a>
+        title: <a href="#/campus-life/professionalbodies/sae" target="_blank" rel="noopener noreferrer"><font color="maroon">SAE INDIA</font></a>
       },
 
       Image: {
@@ -101,7 +101,7 @@ export default function CarouselFive({ data }) {
     {
       Title: {
         instanceID: "EventFourTitle",
-        title: <a href="#/campus-life/nss"  rel="noopener noreferrer"><font color="maroon">NSS</font></a>
+        title: <a href="#/campus-life/nss" rel="noopener noreferrer"><font color="maroon">NSS</font></a>
       },
 
       Image: {

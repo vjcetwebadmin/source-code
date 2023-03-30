@@ -27,7 +27,7 @@ class NewsSection extends Component {
             <div class="heading"><b>Announcements</b></div>            
             <ul class="news-ticker-h">
               {/*<li><a href="#/newseleven">ജീവന - ഡയാലിസിസ് രോഗികൾക്കുള്ള    ധനസഹായത്തിനായി  ഡിസംബർ 15 വരെ അപേക്ഷിക്കാം.(JEEVANA-2022)<span style={{color:"blue",fontWeight:"normal"}}>click_here</span></a></li>  */}             
-              <li><img src="/icons/iconnew.gif" width={47}/><b><a href="https://www.bodhi23.tech/" target="_blank">‘<span style={{color:"#ff1700"}}>BODHI</span>-<img src="/icons/LogoBhodi.png" width={27}/>’ the annual Tech-Fest of Viswajyothi College of Engineering and Technology on March 28 and 29 <span style={{color:"blue",fontWeight:"normal"}}>click...</span></a></b></li>              
+              <li><img src="/icons/iconnew.gif" width={47}/><b><a href="https://www.bodhi23.tech/" target="_blank">'<span style={{color:"#ff1700"}}>BODHI</span>-<img src="/icons/LogoBhodi.png" width={27}/> & <span style={{color:"#0388fc"}}> DRISHYA' </span> the annual Tech-Fest and Arts Fest of Viswajyothi College of Engineering and Technology on March 28 to 31 <span style={{color:"blue",fontWeight:"normal"}}>click...</span></a></b></li>              
               <li>||</li>
               <li><b><a href="#/departments/bhmct">VJCET proudly announces the commencement of new four-year degree programme in Hotel Management and Catering Technology with an intake of 60 seats from the academic year 2022-23 onwards <span style={{color:"blue",fontWeight:"normal"}}>More...</span></a></b></li>
               <li>||</li>

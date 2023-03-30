@@ -47,7 +47,7 @@ ActivitiesHeading = {
           <HeadingThree data={this.InchargesHeading} />  
           <table id="tableformat">
                             <tr><th>FACULTY IN CHARGE</th></tr>
-                            <tr><td>Mr. Naveen Jacob, Associate Professor, ECE</td></tr>
+                            <tr><td>Mrs. Smitha Cyriac, Assistant Professor, ECE</td></tr>
                             <tr><td>Mrs. Niji Mathews, Assistant Professor, ECE</td></tr>
                             
                             </table>
@@ -55,18 +55,22 @@ ActivitiesHeading = {
                             <table id="tableformat">
                            
                             <tr><th>#</th><th>Event</th><th>Date</th></tr>
- 
-                            <tr><td>1</td><td>A workshop on introduction to ARDUINO Board</td><td>08/09/2018</td></tr>
-                            <tr><td>2</td><td>FDP on Digital Fabrication – Fab lab</td><td>18/10/18- 21/10/18</td></tr> 
-                            <tr><td>3</td><td>A workshop on’Digital Fabrication – Mini Fab lab</td><td>5/11/18-6/11/18</td></tr>
-                            <tr><td>4</td><td>4 ISF members attended IETE foundation day celebration -2018 </td><td>10/11/18</td></tr>
-                            <tr><td>5</td><td>Technical talk on ‘Artificial Intelligence’by Mr. Ramesh C R, AP, ECE dept., Vidya Academy of Science & Technology, Trissur</td><td>22/2/2019</td></tr>
-                            <tr><td>6</td><td>A workshop on 'PCB Designing'</td><td>28/09/2019</td></tr> 
-                            <tr><td>7</td><td>Technical talk on 'Blockchain Technology' by Mr. Prince Kurian, AP, IT dept.of VJCET</td><td>07/11/2019</td></tr> 
-                            <tr><td>8</td><td>Webinar on 'Electronic Industry-Post Covid' by Mr. K Narayanan Ranjith. Hardware Architect, Robert Bosch</td><td>02-06-2020</td></tr> 
-                            <tr><td>9</td><td>Workshop on Introduction to Python Programming for S5 ECE students</td><td>17/10/2020 and 19/10/2020</td></tr> 
-                            <tr><td>10</td><td>6 ISF members attended IETE foundation day celebration-2020.</td><td>02/11/2020</td></tr> 
-                            <tr><td>11</td><td>International Webinar on 'Converting Challenges into Oppurtunities' by Mr. George Tharakan, Senior Delivery Director, NTT DATA </td><td>5/12/2020</td></tr> 
+                            <tr><td>16</td><td>Expert talk on Awareness on Current Research Areas and Financial Assistance Schemes by Mr. Balakrishna I, Scientist SAMEER – CEM, Chennai</td><td>10.03.2023</td></tr>
+                            <tr><td>15</td><td>Technical talk on Introduction to HFSS by Mr. Melvin C Jose , Associate Professor, Dept. of AD, VJCET</td><td>16.12.2022</td></tr>                             
+                            <tr><td>14</td><td>Webinar on Design and development of antennas for 5G wireless communication’ by Mr. Melvin C Jose, Associate Professor, ECE Dept.,VJCET </td><td>10.01.2022</td></tr> 
+                            <tr><td>13</td><td>Webinar on ‘Technologies in 5G’by Dr. Sidharth Shelly, Asst. Prof., ECE Dept. M A College of Engineering, Kothamangalam</td><td>10.09.2021</td></tr>                             
+                            <tr><td>12</td><td>Webinar on Reconfigurable Antennas Integrated with Metamaterial and Metasurfaces by Mr. Naveen Jacob Associate Professor, ECE Dept., VJCET</td><td>25.05.2021</td></tr> 
+                            <tr><td>11</td><td>International Webinar on 'Converting Challenges into Oppurtunities' by Mr. George Tharakan, Senior Delivery Director, NTT DATA </td><td>05.12.2020</td></tr> 
+                            <tr><td>10</td><td>6 ISF members attended IETE foundation day celebration-2020.</td><td>02.11.2020</td></tr>                             
+                            <tr><td>9</td><td>Workshop on Introduction to Python Programming for S5 ECE students</td><td>17.10.2020 & 19.10.2020</td></tr> 
+                            <tr><td>8</td><td>Webinar on 'Electronic Industry-Post Covid' by Mr. K Narayanan Ranjith. Hardware Architect, Robert Bosch</td><td>02.06.2020</td></tr> 
+                            <tr><td>7</td><td>Technical talk on 'Blockchain Technology' by Mr. Prince Kurian, AP, IT dept.of VJCET</td><td>07.11.2019</td></tr> 
+                            <tr><td>6</td><td>A workshop on 'PCB Designing'</td><td>28.09.2019</td></tr> 
+                            <tr><td>5</td><td>Technical talk on ‘Artificial Intelligence’by Mr. Ramesh C R, AP, ECE dept., Vidya Academy of Science & Technology, Trissur</td><td>22.02.2019</td></tr>
+                            <tr><td>4</td><td>4 ISF members attended IETE foundation day celebration -2018 </td><td>10.11.18</td></tr>
+                            <tr><td>3</td><td>A workshop on’Digital Fabrication – Mini Fab lab</td><td>05.11.18 - 06.11.18</td></tr>
+                            <tr><td>2</td><td>FDP on Digital Fabrication – Fab lab</td><td>18.10.18 - 21.10.18</td></tr> 
+                            <tr><td>1</td><td>A workshop on introduction to ARDUINO Board</td><td>08.09.2018</td></tr>
 
                             </table>
 
