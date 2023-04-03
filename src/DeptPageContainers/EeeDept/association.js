@@ -15,7 +15,7 @@ class Library extends Component {
   DeptAssociationDescriptionOne = {
     instanceID: "DeptAssociationDescriptionOne",
     title:
-      " Extracurricular activities can offer youth a safe and supervised haven and a chance to learn new skills such as conflict resolution, prepare for a successful career and improve grades. ‘VIDYUTH’ the Association of Electrical and Electronics Engineering Department. Various activities are organized under Vidyuth which provides a platform for the young talents to showcase their skills. Students are actively involved in the association activities including association inauguration, organizing technical talks, exhibitions and publishing department news letter every year to promote the spirit of social harmony. Extracurricular activities can offer youth a safe and supervised haven and a chance to learn new skills such as conflict resolution, prepare for a successful career and improve grades. ‘VIDYUTH’, EEE Association is a student oriented association where the activities and programs are supported by the faculty as well. Students are actively involved in the association activities including association inauguration, organizing technical talks, exhibitions and publishing department news letter every year to promote the spirit of social harmony."
+      "Extracurricular activities can offer youth a safe and supervised haven and a chance to learn new skills such as conflict resolution, prepare for a successful career and improve grades. ‘VIDYUTH’ the Association of Electrical and Electronics Engineering Department. Various activities are organized under Vidyuth which provides a platform for the young talents to showcase their skills. Students are actively involved in the association activities including association inauguration, organizing technical talks, exhibitions and publishing department news letter every year to promote the spirit of social harmony. Extracurricular activities can offer youth a safe and supervised haven and a chance to learn new skills such as conflict resolution, prepare for a successful career and improve grades. ‘VIDYUTH’, EEE Association is a student oriented association where the activities and programs are supported by the faculty as well. Students are actively involved in the association activities including association inauguration, organizing technical talks, exhibitions and publishing department news letter every year to promote the spirit of social harmony."
   };
   DeptAssociationDescriptionTwo = {
     instanceID: "DeptAssociationDescriptionTwo",
@@ -25,17 +25,17 @@ class Library extends Component {
   DeptAssociationDescriptionThree = {
     instanceID: "DeptAssociationDescriptionThree",
     title:
-      "President                                 -       Dr. B Aruna, HOD EEE    "
+      "President                                 -       Dr. Sony Kurian, HOD EEE    "
   };
   DeptAssociationDescriptionFour = {
     instanceID: "DeptAssociationDescriptionFour",
     title:
-      "Faculty in charge                     -       Ms. Mereya Baby, Assistant Professor, EEE"
+      "Faculty in charge                     -       Ms. Smitha Jacob, Assistant Proffessor EEE"
   };
   DeptAssociationDescriptionFive = {
     instanceID: "DeptAssociationDescriptionFive",
     title:
-      "Secretary  			-       Mr. Basil Saji, S8 EEE"
+      "Secretary  			-       Mr. Vishal H, S8 EEE"
   };
   ActivitiesHeading = {
     instanceID: "ActivitiesHeading",
@@ -129,6 +129,14 @@ class Library extends Component {
     instanceID: "Activities10Content",
     title: "Activities of Department Association ‘VIDYUTH’ for academic year 2021 -’22 was inaugurated on 3rd February 2022, by Ms. Betty Sara George , Vice President, Network Management and Learning Services, Ericsson, USA."
   };
+  Activities11Heading = {
+    instanceID: "Activities11Heading",
+    title: "2022-2023"
+  };
+  Activities11Content = {
+    instanceID: "Activities11Content",
+    title: "Activities of Department Association ‘VIDYUTH’ for academic year 2022 -’23 was inaugurated on 29th November 2022, by Er. Rajeev K R, Deputy Chief Engineer Electrical Circle, Thodupuzha , KSEBL"
+  };
   render() {
     return (
       <div className="DeptAssociation" id="dept-association">
@@ -141,26 +149,29 @@ class Library extends Component {
         <Bodythree data={this.DeptAssociationDescriptionFive} />
         <div className="bodyContainer">
           <HeadingFour data={this.ActivitiesHeading} />
-          <Bodythree data={this.Activities1Heading} />
-          <Bodythree data={this.Activities1Content} />
-          <Bodythree data={this.Activities2Heading} />
-          <Bodythree data={this.Activities2Content} />
-          <Bodythree data={this.Activities3Heading} />
-          <Bodythree data={this.Activities3Content} />
-          <Bodythree data={this.Activities4Heading} />
-          <Bodythree data={this.Activities4Content} />
-          <Bodythree data={this.Activities5Heading} />
-          <Bodythree data={this.Activities5Content} />
-          <Bodythree data={this.Activities6Heading} />
-          <Bodythree data={this.Activities6Content} />
-          <Bodythree data={this.Activities7Heading} />
-          <Bodythree data={this.Activities7Content} />
-          <Bodythree data={this.Activities8Heading} />
-          <Bodythree data={this.Activities8Content} />
-          <Bodythree data={this.Activities9Heading} />
-          <Bodythree data={this.Activities9Content} />
+          <Bodythree data={this.Activities11Heading} />
+          <Bodythree data={this.Activities11Content} />
           <Bodythree data={this.Activities10Heading} />
           <Bodythree data={this.Activities10Content} />
+          <Bodythree data={this.Activities9Heading} />
+          <Bodythree data={this.Activities9Content} />
+          <Bodythree data={this.Activities8Heading} />
+          <Bodythree data={this.Activities8Content} />
+          <Bodythree data={this.Activities7Heading} />
+          <Bodythree data={this.Activities7Content} />
+          <Bodythree data={this.Activities6Heading} />
+          <Bodythree data={this.Activities6Content} />
+          <Bodythree data={this.Activities5Heading} />
+          <Bodythree data={this.Activities5Content} />
+          <Bodythree data={this.Activities4Heading} />
+          <Bodythree data={this.Activities4Content} />
+          <Bodythree data={this.Activities3Heading} />
+          <Bodythree data={this.Activities3Content} />
+          <Bodythree data={this.Activities2Heading} />
+          <Bodythree data={this.Activities2Content} />
+          <Bodythree data={this.Activities1Heading} />
+          <Bodythree data={this.Activities1Content} />
+          
         </div>
       </div>
     );

@@ -51,7 +51,7 @@ class CSFaculty extends Component {
     image: "Allstaffphoto/EC/FAC/ECFAC104.jpg",
     width: "50%",
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ECFAC104" target="_blank" rel="noopener noreferrer">Dr. Melvin C Jose</a>,
-    content: "Associate Professor"
+    content: "Associate Professor & HOD"
   };
 
   render() {

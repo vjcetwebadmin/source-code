@@ -91,7 +91,7 @@ class DropDownD extends Component {
           </p>
           <p>
             <Link to="/departments/bhmct" className="patch1">
-            Bachelor in Hotel Management & Catering Technology (BHMCT)
+            Hotel Management & Catering Technology (HMCT)
             </Link>
           </p>
         </div>

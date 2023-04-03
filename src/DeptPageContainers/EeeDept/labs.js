@@ -3,6 +3,8 @@ import HeadingOne from "../../Components/Texts/HeadingOne";
 import HeadingTwo from "../../Components/Texts/HeadingTwo"
 import BodyOneJustified from "../../Components/Texts/BodyOneJustified";
 import "../../Components/Tables/tableformat.css";
+import ImageOne from "../../Components/Images/ImageOne";
+
 class Labs extends Component {
   state = {};
   DeptLibHeading = {
@@ -13,31 +15,63 @@ class Labs extends Component {
     instanceID: "CompLabHeading",
     title: "Computer Laboratory"
   };
+ComputerLabImagedata = {
+	instanceID: "ComputerLabImagedata",
+	image: "DepartmentImages/EEE/LABS/ComputerLaboratory.jpg",
+	width: "70%"
+}
   EMPSLabHeading = {
     instanceID: "EMPSLabHeading",
     title: "ELECTRICAL MEASUREMENTS & POWER SYSTEM LABORATORY"
   };
+  EMPSLabImagedata = {
+	instanceID: "EMPSLabImagedata",
+	image: "DepartmentImages/EEE/LABS/ElectricalMeasurementsandPowerSystemLaboratory.jpg",
+	width: "70%"
+}
   EMLabHeading = {
     instanceID: "EMLabHeading",
     title: "ELECTRICAL MACHINES LABORATORY"
   };
+  EMLabImagedata = {
+	instanceID: "EMLabImagedata",
+	image: "DepartmentImages/EEE/LABS/ElectricalMachinesLaboratory.jpg",
+	width: "70%"
+}
   SysLabHeading = {
     instanceID: "SysLabHeading",
     title: "SYSTEMS  LABORATORY"
   };
+  SysLabImagedata = {
+	instanceID: "SysLabImagedata",
+	image: "DepartmentImages/EEE/LABS/SystemsLaboratory.jpg",
+	width: "70%"
+}
   CircuitsLabHeading = {
     instanceID: "CircuitsLabHeading",
     title: "CIRCUITS LABORATORY"
   };
+  CircuitsLabImagedata = {
+	instanceID: "CircuitsLabImagedata",
+	image: "DepartmentImages/EEE/LABS/CircuitsLaboratory.jpg",
+	width: "70%"
+}
   EEWorkshopHeading = {
     instanceID: "EEWorkshopHeading",
     title: "ELECTRICAL ENGINEERING WORKSHOP"
   };
+  EEWorkshopImagedata = {
+	instanceID: "EEWorkshopImagedata",
+	image: "DepartmentImages/EEE/LABS/ElectricalEngineeringWorkshop.jpg",
+	width: "70%"
+}
 
   LabDesc1 = {
     instanceID: "LabDesc1",
     title:
-      "The purpose of Computer lab is to introduce students to the field of programming using C language. The students will be able to develop their analyzing and problem solving skills and use the same for writing programs in C. Electrical CAD will help students to develop skills in computer aided drafting of electrical machines and layout of various electrical installations. The Lab is equipped with Mipower installed in all computers for conducting the simulation studies of electrical power system."
+      "The purpose of Computer lab is to introduce students to the field of programming using C language. The students will be able to develop their analyzing and problem solving skills and use the same for writing programs in C. Electrical CAD will help students to develop skills in computer aided drafting of electrical machines and layout of various electrical installations. The Lab is equipped with Mipower installed in all computers for conducting the simulation studies of electrical power system.",
+	image: "DepartmentImages/EEE/LABS/ComputerLaboratory.jpg",
+	width: "80%"
   };
 
   LabDesc2 = {
@@ -74,8 +108,8 @@ class Labs extends Component {
         <HeadingTwo data={this.CompLabHeading} />
 		<p></p>
 		<p><BodyOneJustified data={this.LabDesc1}></BodyOneJustified></p>
-		<p></p>          
-        <table id="tableformat">
+		<p><ImageOne data={this.ComputerLabImagedata} /></p>          
+        {/*<table id="tableformat">
 	      <tbody>
           <tr>
             <th>ITEMS</th><th>QUANTITY</th>
@@ -97,14 +131,14 @@ class Labs extends Component {
 		          <td>1</td>
 	      </tr>	
       	</tbody>
-      </table>
+	</table>*/}
       
       <br />
       <HeadingTwo data={this.EMPSLabHeading} />
 	  <p></p>
 		<p><BodyOneJustified data={this.LabDesc2}></BodyOneJustified></p>
-		<p></p>  
-      <table id="tableformat">
+		<p><p><ImageOne data={this.EMPSLabImagedata} /></p> </p>  
+      {/*<table id="tableformat">
 	      <tbody>
           <tr>
             <th colSpan="2">INSTRUMENTS</th>
@@ -142,13 +176,13 @@ class Labs extends Component {
           <td>Kelvin’s double bridge </td>
         </tr>
       	</tbody>
-      </table>
+		</table>*/}
       <br />
       <HeadingTwo data={this.EMLabHeading} />
 	  <p></p>
 		<p><BodyOneJustified data={this.LabDesc3}></BodyOneJustified></p>
-		<p></p>  
-      <table id="tableformat">
+		<p><ImageOne data={this.EMLabImagedata} /></p>   
+      	{/*<table id="tableformat">
 	      <tbody>
           <tr>
             <th colSpan="2">MACHINES</th>
@@ -195,13 +229,13 @@ class Labs extends Component {
 		          <td>Synchronizing Panel </td>
 	       </tr>
          </tbody>
-      </table>
+	</table>*/}
       <br />
       <HeadingTwo data={this.SysLabHeading} />
 	  <p></p>
 		<p><BodyOneJustified data={this.LabDesc4}></BodyOneJustified></p>
-		<p></p>  
-      <table id="tableformat">
+		<p><ImageOne data={this.SysLabImagedata} /></p>   
+      {/*<table id="tableformat">
 	      <tbody>
           <tr>
             <th colSpan="2">EQUIPMENTS</th>
@@ -243,13 +277,13 @@ class Labs extends Component {
 		          <td>Microcontroller Universal programmer No TOP 3000  </td>
 	       </tr>
       	</tbody>
-      </table>
+	</table>*/}
       <br />
       <HeadingTwo data={this.CircuitsLabHeading} />
 	  <p></p>
 		<p><BodyOneJustified data={this.LabDesc5}></BodyOneJustified></p>
-		<p></p>  
-      <table id="tableformat">
+		<p><ImageOne data={this.CircuitsLabImagedata} /></p>   
+      {/*<table id="tableformat">
 	      <tbody>
           <tr>
             <th>EQUIPMENTS</th>
@@ -291,13 +325,13 @@ class Labs extends Component {
 		          
 	       </tr>
            	</tbody>
-      </table>
+	</table>*/}
       <br />
       <HeadingTwo data={this.EEWorkshopHeading} />
 	  <p></p>
 		<p><BodyOneJustified data={this.LabDesc6}></BodyOneJustified></p>
-		<p></p>  
-      <table id="tableformat">
+		<p><ImageOne data={this.EEWorkshopImagedata} /></p>   
+      {/*<table id="tableformat">
 	      <tbody>
           <tr>
             <th colSpan="2">EQUIPMENTS</th>
@@ -335,7 +369,7 @@ class Labs extends Component {
 
 
       	</tbody>
-      </table>
+	</table>*/}
 
       </div>
     );
