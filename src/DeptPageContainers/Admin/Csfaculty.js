@@ -70,7 +70,7 @@ class CSFaculty extends Component {
     image: "Allstaffphoto/ADM/ADM/arunbobyt.JPEG",
     width: "50%",    
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ADSTF110" target="_blank" rel="noopener noreferrer">Mr. Arun Bobby T</a>,
-    content: "Head Accountant"
+    content: "Finance Officer"
   };
   Cefaculty12 = {
     instanceID: "Cefaculty12",
