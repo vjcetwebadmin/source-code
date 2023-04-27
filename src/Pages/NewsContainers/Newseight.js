@@ -39,11 +39,11 @@ class Newseight extends React.Component {
 
     NewsTitle = {
         instanceID: "NewsTitle",
-        title: "Wanted Assistant Professor in MBA"
+        title: "Wanted Assistant Professors in CSE,CG,AD and ME Department"
     };
     Newscontent = {
         instanceID: "Newscontent",
-        title: " Wanted Assistant Professor in MBA"
+        title: "Wanted Assistant Professors in CSE,CG,AD and ME Department"
     };
     
     NewsImagedata1 = {
@@ -91,7 +91,7 @@ class Newseight extends React.Component {
                
                    
                 <HeadingOne data={this.NewsTitle} />
-                <iframe src="https://vjcet.org/downloads/news/faculty_advertisement.pdf" width="100%" zoom="80%" height="850" title="Campus Map" align="center"></iframe> 
+                <iframe src="/downloads/news/faculty_advertisement.pdf" width="100%" zoom="80%" height="850" title="Campus Map" align="center"></iframe> 
                 
             </div>
 
