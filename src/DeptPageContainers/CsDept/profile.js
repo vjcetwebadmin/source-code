@@ -26,7 +26,7 @@ class Profile extends Component {
   };
   Features2a = {
     instanceID: "Features2a",
-    title: "•	B.Tech Computer Science and Engineering program is accredited by NBA on July 2018 for three years and it is extended to another  one year on July 2021."
+    title: "•	B.Tech Computer Science and Engineering program is accredited by NBA on July 2018 for three years and it is extended to another  one year on July 2021. Further re-accredition was awarded by NBA for three years till June 2025."
   };
   Features2b = {
     instanceID: "Features2b",

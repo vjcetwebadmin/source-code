@@ -30,7 +30,7 @@ class Program extends Component {
   ProgramDescriptionFive = {
     instanceID: "ProgramDescriptionFive",
     title:
-      "•	The Department is accredited by NBA(National Board of Accreditation) on July 2018 for three years."
+      "•	The Department is accredited by NBA(National Board of Accreditation) on July 2018 for three years.  In 2021, the status of accreditation was extended for 1 year. In June 2022, the B.Tech program was re-accredited by NBA for three years till June 2025."
   };
   render() {
     return (
