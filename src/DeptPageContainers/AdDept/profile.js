@@ -18,7 +18,7 @@ class Profile extends Component {
   };
   Features3 = {
     instanceID: "Features3",
-    title: "•	The department has highly qualified, well experienced faculty members trained in AI, ML and data analytic tools, headed by Mr.Somy P Mathew, Vice Principal."
+    title: "•	The department has highly qualified, well experienced faculty members trained in AI, ML and data analytic tools, headed by Dr. Melvin C Jose."
   };
   Features4 = {
     instanceID: "Features4",

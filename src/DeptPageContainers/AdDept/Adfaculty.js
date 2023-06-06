@@ -53,6 +53,20 @@ class CSFaculty extends Component {
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ECFAC104" target="_blank" rel="noopener noreferrer">Dr. Melvin C Jose</a>,
     content: "Associate Professor & HOD"
   };
+  Cefaculty8 = {
+    instanceID: "Cefaculty8",
+    image: "Allstaffphoto/AD/FAC/AIFAC102.jpeg",
+    width: "50%",
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=AIFAC102" target="_blank" rel="noopener noreferrer">Miss. Geethu Gopan</a>,
+    content: "Assistant Professor(Guest)"
+  };
+  Cefaculty9 = {
+    instanceID: "Cefaculty9",
+    image: "Allstaffphoto/AD/FAC/AIFAC103.jpeg",
+    width: "50%",
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=AIFAC103" target="_blank" rel="noopener noreferrer">Miss. Sneha Benny</a>,
+    content: "Assistant Professor(Guest)"
+  };
 
   render() {
     return (
@@ -79,7 +93,12 @@ class CSFaculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty6} />
           </div> 
-                   
+          <div>
+            <FacultyData data={this.Cefaculty8} />
+          </div>
+          <div>
+            <FacultyData data={this.Cefaculty9} />
+          </div>                   
          </div>
       </div>
     );
