@@ -7,7 +7,7 @@ class ITFaculty extends Component {
     instanceID: "Cefaculty1",
     image: "Allstaffphoto/IT/FAC/itfac001.jpg",
     width: "50%",
-    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ITFAC102" target="_blank" rel="noopener noreferrer">Mrs. Anju Susan George</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ITFAC102" target="_blank" rel="noopener noreferrer">Dr. Anju Susan George</a>,
     content: "Asso. Prof. & HOD"
   };  
   Cefaculty2 = {
@@ -67,13 +67,13 @@ class ITFaculty extends Component {
     content: "Assistant Professor"
   };
 
-  Cefaculty11 = {
+  /*Cefaculty11 = {
     instanceID: "Cefaculty11",
     image: "Allstaffphoto/IT/FAC/FAC112.jpeg",
     width: "50%",
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=ITFAC112" target="_blank" rel="noopener noreferrer">Mr. Jacob Mathai</a>,
     content: "Assistant Professor(on leave)"
-  };
+  };*/
 
   Cefaculty10 = {
     instanceID: "Cefaculty10",
@@ -150,9 +150,9 @@ class ITFaculty extends Component {
             <FacultyData data={this.Cefaculty9} />
          </div> 
           */}
-          <div>
+          {/*<div>
             <FacultyData data={this.Cefaculty11} />
-          </div> 
+        </div> */}
           <div>
             <FacultyData data={this.Cefaculty15} />
           </div>
