@@ -57,8 +57,8 @@ class CSFaculty extends Component {
     instanceID: "Cefaculty8",
     image: "Allstaffphoto/AD/FAC/AIFAC102.jpeg",
     width: "50%",
-    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=AIFAC102" target="_blank" rel="noopener noreferrer">Miss. Geethu Gopan</a>,
-    content: "Assistant Professor(Guest)"
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=AIFAC102" target="_blank" rel="noopener noreferrer">Mrs. Geethu Gopan</a>,
+    content: "Assistant Professor"
   };
   Cefaculty9 = {
     instanceID: "Cefaculty9",
