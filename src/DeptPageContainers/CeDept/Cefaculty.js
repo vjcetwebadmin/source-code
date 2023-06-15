@@ -155,6 +155,8 @@ class CEFaculty extends Component {
     name: <a href="http://117.239.154.84:8000/profile/FacultyProfileWeb/14/394.jpg" target="_blank" rel="noopener noreferrer">Mrs. Ancy Genu C.George</a>,
     content: "Assistant Professor"
   };
+
+  
   render() {
     return (
       <div className="faculty">
@@ -208,9 +210,7 @@ class CEFaculty extends Component {
           </div>
           <div>
             <FacultyData data={this.Cefaculty18} />
-          </div>
-         
-         
+          </div>                  
           <div>
             <FacultyData data={this.Cefaculty21} />
           </div>
@@ -226,6 +226,8 @@ class CEFaculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty25} />
           </div>
+
+
         </div>
       </div>
     );

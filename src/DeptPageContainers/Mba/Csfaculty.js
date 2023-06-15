@@ -7,7 +7,7 @@ class CSFaculty extends Component {
     instanceID: "Cefaculty1",
     image: "Allstaffphoto/MBA/FAC/MbAfacdean.jpg",
     width: "50%",
-    name: <a href="https://vjcet.org/downloads/MbaProfile/DR.Cyriac Joseph-converted.pdf" target="_blank" rel="noopener noreferrer">Dr. Cyriac Joseph</a>,
+    name: <a href="https://vjcet.org/downloads/MbaProfile/Dr.CyriacJoseph.pdf" target="_blank" rel="noopener noreferrer">Dr. Cyriac Joseph</a>,
     content: "Dean & HOD - Management Studies"
   };
   Cefaculty2 = {
@@ -15,7 +15,7 @@ class CSFaculty extends Component {
     image: "Allstaffphoto/MBA/FAC/josemammen.jpg",
     width: "50%",
     name: <a href="https://vjcet.org/downloads/MbaProfile/Dr.Jose Mamman-converted.pdf" target="_blank" rel="noopener noreferrer">Dr. Jose Mamman</a>,
-    content: "Assistant Professor & Placement Incharge"
+    content: "Assistant Professor"
   };
   Cefaculty3 = {
     instanceID: "Cefaculty3",
@@ -28,7 +28,7 @@ class CSFaculty extends Component {
     instanceID: "Cefaculty4",
     image: "Allstaffphoto/MBA/FAC/anishjohn.jpg",
     width: "50%",
-    name: <a href="https://vjcet.org/downloads/MbaProfile/Mr.Anish John A-converted.pdf" target="_blank" rel="noopener noreferrer">Dr. Anish John A</a>,
+    name: <a href="https://vjcet.org/downloads/MbaProfile/Dr.AnishJohnA.pdf" target="_blank" rel="noopener noreferrer">Dr. Anish John A</a>,
     content: "Assistant Professor"
   };
   /*Cefaculty5 = {
@@ -59,7 +59,7 @@ class CSFaculty extends Component {
     name: "Dr. Anu George",
     content: "Associate Professor (on-Leave)"
   };
-  Cefaculty9 = {
+  /*Cefaculty9 = {
     instanceID: "Cefaculty9",
     image: "Allstaffphoto/MBA/FAC/midun.jpeg",
     width: "50%",
@@ -72,7 +72,7 @@ class CSFaculty extends Component {
     width: "50%",
     name: "Mr. Sreenath Rajagopalan",
     content: "Assistant Professor (on-Leave)"
-  };
+  };*/
   Cefaculty11 = {
     instanceID: "Cefaculty11",
     image: "Allstaffphoto/MBA/FAC/Ambily.jpeg",
@@ -80,13 +80,28 @@ class CSFaculty extends Component {
     name: "Ms. Ambily Jose",
     content: "Assistant Professor (on-Leave)"
   };
-  Cefaculty12 = {
+  /*Cefaculty12 = {
     instanceID: "Cefaculty12",
     image: "Allstaffphoto/MBA/FAC/RiyaSusan.jpg",
     width: "50%",
     name: <a href="https://vjcet.org/downloads/MbaProfile/RiyaSusanSkaria.pdf" target="_blank" rel="noopener noreferrer">Ms.Riya Susan Skaria</a>,
     content: "Assistant Professor"
+  };*/
+  Cefaculty13 = {
+    instanceID: "Cefaculty13",
+    image: "Allstaffphoto/MBA/FAC/Fr.Mathew Puthenkulam.JPG",
+    width: "50%",
+    name: <a href="https://vjcet.org/downloads/MbaProfile/Fr.Mathew Puthenkulam.pdf" target="_blank" rel="noopener noreferrer">Fr.Mathew Puthenkulam</a>,
+    content: "Assistant Professor & Skill Development & Competency Enhancement -Co-ordinator"
   };
+  Cefaculty14 = {
+    instanceID: "Cefaculty14",
+    image: "Allstaffphoto/MBA/FAC/Dr.Anjali john.jpg",
+    width: "50%",
+    name: <a href="https://vjcet.org/downloads/MbaProfile/Dr.Anjali John.pdf" target="_blank" rel="noopener noreferrer">Dr.Anjali John</a>,
+    content: "Assistant Professor & Placement Officer"
+  };
+
 
   render() {
     return (
@@ -111,23 +126,30 @@ class CSFaculty extends Component {
             <FacultyData data={this.Cefaculty6} />
           </div>
           <div>
-            <FacultyData data={this.Cefaculty12} />
+            <FacultyData data={this.Cefaculty13} />
           </div>
+          <div>
+            <FacultyData data={this.Cefaculty14} />
+          </div>
+
+          {/*<div>
+            <FacultyData data={this.Cefaculty12} />
+        </div>*/}
           <div>
             <FacultyData data={this.Cefaculty7} />
           </div>          
           <div>
             <FacultyData data={this.Cefaculty8} />
           </div>
-          <div>
+          {/*<div>
             <FacultyData data={this.Cefaculty9} />
           </div>
           <div>
             <FacultyData data={this.Cefaculty10} />
-          </div>
+      </div>*/}
           <div>
             <FacultyData data={this.Cefaculty11} />
-          </div>
+          </div>          
           
         </div>
       </div>

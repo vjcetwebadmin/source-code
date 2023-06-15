@@ -480,9 +480,40 @@ class App extends Component {
             instanceID: "Cefaculty26",
             image: "Allstaffphoto/CE/FAC/meril.jpg",
             width: "50%",
-            name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CEFAC142" target="_blank" rel="noopener noreferrer">Ms. Meril Jose</a>,
-            content: "Guest Lecturer"
+            name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CEFAC142" target="_blank" rel="noopener noreferrer">Mrs. Meril Jose</a>,
+            content: "Assistant Professor(Guest)"
+          },
+          {
+            instanceID: "Cefaculty27",
+            image: "Allstaffphoto/CE/FAC/CEFAC149.jpg",
+            width: "50%",
+            name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CEFAC149" target="_blank" rel="noopener noreferrer">Mrs. Nayana Tom</a>,
+            content: "Assistant Professor(Guest)"
+          },
+          {
+            instanceID: "Cefaculty28",
+            image: "Allstaffphoto/CE/FAC/CEFAC150.jpg",
+            width: "50%",
+            name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CEFAC150" target="_blank" rel="noopener noreferrer">Ms. Rani Maria Thomas</a>,
+            content: "Assistant Professor(Guest)"
+          },
+          {
+            instanceID: "Cefaculty29",
+            image: "Allstaffphoto/CE/FAC/CEFAC152.jpg",
+            width: "50%",
+            name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CEFAC152" target="_blank" rel="noopener noreferrer">Mrs. Roniya Joseph</a>,
+            content: "Assistant Professor(Guest)"
+          },
+          
+          {
+            instanceID: "Cefaculty30",
+            image: "Allstaffphoto/CE/FAC/CEFAC153.jpg",
+            width: "50%",
+            name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CEFAC153" target="_blank" rel="noopener noreferrer">Ms. Sonu Johny</a>,
+            content: "Assistant Professor(Guest)"
           }
+
+
         ],
         staff: [
           {
