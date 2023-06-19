@@ -178,20 +178,27 @@ class Faculty extends Component {
     width: "50%",
     name:  <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=Shfac146" target="_blank" rel="noopener noreferrer">Ms. Lekshmipriya P<br></br>(Guest Faculty)</a>,
     content: "Assistant Professor"
-  };*/
+  };
   Cefaculty33 = {
     instanceID: "Cefaculty33",
     image: "Allstaffphoto/SH/FAC/SHFAC147.jpg",
     width: "50%",
     name:  <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=Shfac147" target="_blank" rel="noopener noreferrer">Ms. Annjossy Jose<br></br>(Guest Faculty)</a>,
     content: "Assistant Professor"
-  };
+  };*/
   Cefaculty34 = {
     instanceID: "Cefaculty34",
     image: "Allstaffphoto/SH/FAC/SHFAC149.jpg",
     width: "50%",
     name:  <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=Shfac149" target="_blank" rel="noopener noreferrer">Mr. Naveen Thomas</a>,
     content: "Assistant Professor"
+  };
+  Cefaculty35 = {
+    instanceID: "Cefaculty35",
+    image: "Allstaffphoto/SH/FAC/SHFAC148.jpg",
+    width: "50%",
+    name:  <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=Shfac148" target="_blank" rel="noopener noreferrer">Ms.Sneha Sebastian</a>,
+    content: "Assistant Professor(Guest)"
   };
   
   
@@ -273,13 +280,16 @@ class Faculty extends Component {
           </div>
           {/*<div>
             <FacultyData data={this.Cefaculty32} />
-        </div>*/}
+        </div>
           <div>
             <FacultyData data={this.Cefaculty33} />
-          </div>
+          </div>*/}
           <div>
             <FacultyData data={this.Cefaculty34} />
-      </div>
+          </div>
+          <div>
+            <FacultyData data={this.Cefaculty35} />
+          </div>
         </div>
       </div>
     );
