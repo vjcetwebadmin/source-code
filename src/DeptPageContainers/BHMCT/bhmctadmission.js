@@ -44,12 +44,12 @@ class BHMCTAdmission extends Component {
   AdmissionContactTwo = {
     instanceID: "AdmissionContact",
     title:
-      "+91 9496335522"
+      "+91 9020141112"
   };
   AdmissionContactThree = {
     instanceID: "AdmissionContact",
     title:
-      "+91 9037406886"
+      ""
   };
 
   render() {
