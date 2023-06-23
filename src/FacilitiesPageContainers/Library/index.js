@@ -146,13 +146,13 @@ class Library extends React.Component {
                             <th> Collection</th><th>Numbers</th>
                         </tr>
                         <tr>
-                            <td>Titles</td><td>10518</td>
+                            <td>Titles</td><td>10525</td>
                         </tr>
                         <tr>
-                            <td>Volume</td><td>38413</td>
+                            <td>Volume</td><td>38429</td>
                         </tr>
                         <tr>
-                            <td>Journals(National & International)</td><td>75</td>
+                            <td>Journals(National & International)</td><td>87</td>
                         </tr>
                         <tr>
                             <td>E-Books</td><td>5000+</td>
@@ -176,7 +176,7 @@ class Library extends React.Component {
                         <th colspan="5">DIGITAL LIBRARY</th>
                         </tr>
                         <tr>
-                            <td>E-Journals</td><td>IEEE (ASPP), Elsevier Science Direct, EBSCO (Management)</td>
+                            <td>E-Journals</td><td> Elsevier Science Direct </td>
                         </tr>
                         <tr>
                             <td>INSTITUTIONAL MEMBERSHIP</td><td>DELNET, NDLI, NDLI Club</td>
@@ -342,10 +342,8 @@ class Library extends React.Component {
                           <a href="https://vjcet.org/#/facilities/eresources" target="_blank"><span style={{fontSize:"26px",fontWeight:"bold",paddingLeft:"10%"}}>E-JOURNALS</span></a>
                          <p>
                                 <BodyOneJustified data={this.LibraryJournalContent} />
-                                <ol  style={{lineHeight:"1.7em"}}>
-                                    <li>IEEE (All Society Periodicals Package)</li>
-                                    <li>Elsevier Science Direct</li>
-                                    <li>EBSCO (Business Source Elite)</li>
+                                <ol  style={{lineHeight:"1.7em"}}>                                    
+                                    <li>Elsevier Science Direct</li>                                    
                                 </ol>
                             </p>
                         </div> 
@@ -385,6 +383,18 @@ class Library extends React.Component {
                         <BodyOneJustified data={this.LibraryJournalContent} />
                         <ol>
                             <li>
+                                <p><b>Artificial Intelligence and Data Science</b></p>
+                                <ol>
+                                    <li>International Journal of Advance in Mathematical Sciences</li>
+                                    <li>Indian Journal of Applied Artificial Intelligence in Engineering System</li>                                    
+                                    <li>Indian Journal of Advances in Computational Sciences and Technology</li>
+                                    <li>Indian Journal of Information and Decision Sciences</li>
+                                    <li>Indian Journal of Computational Intelligence Research and Applications</li>                                 
+                                    <li>Indian Journal of Hybrid Computational Intelligence</li>                                 
+                                    <li>Journal of Innovation in Electrical and Computer Engineering</li>                                 
+                                </ol>
+                            </li>
+                            <li>
                                 <p><b>Civil Engineering</b></p>
                                 <ol>
                                     <li>Water & Energy International</li>
@@ -392,6 +402,17 @@ class Library extends React.Component {
                                     <li>International journal of Geotechnics & Environment</li>
                                     <li>ICI Journal</li>
                                     <li>Journal of Structural Engineering</li>                                 
+                                </ol>
+                            </li>
+                            <li>
+                                <p><b>Computer Science and Design</b></p>
+                                <ol>
+                                    <li>Indian Journal of Mathematical Modelling and Applied Computing</li>
+                                    <li>International Journal of Design Making in Supply Chain and Logistics</li>                                    
+                                    <li>International Journal of Computational Mathematics and Numerical Simulation</li>
+                                    <li>Indian Journal of Engineering, Computer Science and Mathematics</li>
+                                    <li>JAdvances in Dynamical Systems and Applications</li> 
+                                    <li>Indian Journal of Applied Computing</li> 
                                 </ol>
                             </li>
                             <li>
@@ -416,7 +437,7 @@ class Library extends React.Component {
                                 <li>Journal of Cybernetics and Systems</li>
                                 <li>Journal of Digital Information Management</li>
                                 <li>International Journal of Computer and Internet Security</li>
-                                <li>Journal of Intellectual Property Rights</li>
+                                <li>Indian Journal of Computational Intelligence and Telecommunication System</li>
 
                                 </ol>
                             </li>
@@ -491,8 +512,7 @@ class Library extends React.Component {
                                     <li>IIM Kozhikode Society and Management Review</li>
                                     <li>Journal of Entrepreneurship</li>
                                     <li>South Asian Journal of Human Resources Management</li>
-                                    <li>Vikalpa</li>
-                                    <li>Brand Management</li>
+                                    <li>Vikalpa</li>                                    
                                     <li>Applied Finance </li>
                                     <li>Bank Management</li>
                                     <li>Marketing Management </li>
@@ -510,12 +530,12 @@ class Library extends React.Component {
                                     <li>Dhanam</li>
                                     <li>Thozhilvartha</li>
                                     <li>Thozhilveethi</li>
-                                    <li>The week</li>
-                                    <li>Outlook Money</li>
-                                    <li>Ezhuthu</li>
+                                    <li>The week</li>                                                                        
                                     <li>Auto Car</li>
-                                    <li>Fastrack</li>
-                                    <li>Sports Magazine</li>                                    
+                                    <li>Fastrack</li> 
+                                    <li>Sportstar</li> 
+                                    <li>Competition success review</li> 
+                                    <li>Frontline</li>                                                                                                           
                                 </ol>
                             </li>
                             <li>

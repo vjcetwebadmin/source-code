@@ -544,13 +544,13 @@ class App extends Component {
             name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CESTF111" target="_blank" rel="noopener noreferrer">Mr. Wilson V George</a>,
             content: "Tradesman"
           },
-          {
+          /*{
             instanceID: "Cefaculty5",
             image: "Allstaffphoto/CE/STAF/62.jpg",
             width: "50%",
             name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CESTF113" target="_blank" rel="noopener noreferrer">Mr. Biju Joseph</a>,
             content: "Tradesman"
-          },
+          },*/
           {
             instanceID: "Cefaculty6",
             image: "Allstaffphoto/CE/STAF/63.jpg",

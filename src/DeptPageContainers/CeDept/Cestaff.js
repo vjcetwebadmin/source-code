@@ -69,9 +69,9 @@ class CEStaff extends Component {
           <div>
             <FacultyData data={this.Cefaculty4} />
           </div>
-          <div>
+          {/*<div>
             <FacultyData data={this.Cefaculty5} />
-          </div>
+    </div>*/}
           <div>
             <FacultyData data={this.Cefaculty6} />
           </div>
