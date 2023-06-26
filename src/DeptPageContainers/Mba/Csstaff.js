@@ -28,7 +28,7 @@ class CSStaff extends Component {
     instanceID: "Cefaculty6",
     image: "Allstaffphoto/CE/STAF/62.jpg",
     width: "50%",
-    name: <a href="https://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CESTF113" target="_blank" rel="noopener noreferrer">Mr.Biju Joseph,</a>,
+    name: <a href="https://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CESTF113" target="_blank" rel="noopener noreferrer">Mr.Biju Joseph</a>,
     content: "Trade Instructor"
   };
   
