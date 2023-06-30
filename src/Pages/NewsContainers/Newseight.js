@@ -39,11 +39,11 @@ class Newseight extends React.Component {
 
     NewsTitle = {
         instanceID: "NewsTitle",
-        title: "Wanted Assistant Professors in CSE,CG,AD and ME Department"
+        title: "Wanted Associate Professor / Professor in CSE Department"
     };
     Newscontent = {
         instanceID: "Newscontent",
-        title: "Wanted Assistant Professors in CSE,CG,AD and ME Department"
+        title: "Wanted Associate Professor / Professor in CSE Department"
     };
     
     NewsImagedata1 = {
@@ -85,14 +85,14 @@ class Newseight extends React.Component {
                     
         </div>*/}
             <div className="contain">
-                <p>&nbsp;</p>
+                {/*<p>&nbsp;</p>
                 <p style={{textAlign:"center"}}>No New Opening Available...</p>
-                <p>&nbsp;</p>
+                <p>&nbsp;</p>*/}
                
-                {/*   
+                   
                 <HeadingOne data={this.NewsTitle} />
-                <iframe src="/downloads/news/faculty_advertisement.pdf" width="100%" zoom="80%" height="850" title="Campus Map" align="center"></iframe> 
-                */}
+                <iframe src="/downloads/news/wanted.jpeg" width="100%" zoom="70%" height="850" title="Wanted" align="center"></iframe> 
+                
             </div>
 
                 <Footer data={this.HomePageFooter} />
