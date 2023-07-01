@@ -6,9 +6,11 @@ import BodyOneJustified from "../Components/Texts/BodyOneJustified";
 import Header from "../Components/Header&Footer/Header";
 import Footer from "../Components/Header&Footer/Footer";
 import MenuOverlay from "../Components/MenuOverlay/MenuOverlay";
-/* import HeadingOne from "../Components/Texts/HeadingOne"; */
+import HeadingOne from "../Components/Texts/HeadingOne"; 
 import HeadingTwo from "../Components/Texts/HeadingTwo";
 import HeadingFour from "../Components/Texts/HeadingFour";
+import NewsHeading from "../Components/Texts/NewsHeading";
+import HeadingFive from "../Components/Texts/HeadingFive";
 
 class collegecouncil extends React.Component {
     state = { showMenu: false };
@@ -29,7 +31,7 @@ class collegecouncil extends React.Component {
 
     CollegecouncilTitle = {
         instanceID: "CollegecouncilTitle",
-        title: "Student Council 2021-22"
+        title: "Student Council 2022-23"
     };
     MajoreventsTitle = {
         instanceID: "MajoreventsTitle",
@@ -92,50 +94,56 @@ class collegecouncil extends React.Component {
             <React.Fragment>
                 <Header data={this.HomePageHeader} openMenuFunction={this.openMenu} />
 
-                <div className="contain">
-                    <HeadingTwo data={this.CollegecouncilTitle} className="Heading" />
-                    <div  style={{float:"right"}}>{/*class="absolute"  */}
-             <p id="rcorners1" align="center" ><a href="https://vjcet.org/downloads/gallery/collegeunion.html" target="_blank" rel="noopener noreferrer"><font color="white">Picture Book</font></a></p>
-             </div>
+            <div className="contain">
+                    <HeadingOne data={this.CollegecouncilTitle}  />
+                {/*<div  style={{float:"right"}}>*/} {/*class="absolute"  */}
+                 {/*   <p id="rcorners1" align="center" ><a href="https://vjcet.org/downloads/gallery/collegeunion.html" target="_blank" rel="noopener noreferrer"><font color="white">Picture Book</font></a></p>
+                </div>*/}
              <div>            
-                <p id="blankspace" align="right"></p> 
+               {/* <p id="blankspace" align="right"></p> */}
              </div>                    
                     <br />                   
                         <table id="tableformat">
                         <tr><th>Post</th><th>Student Name</th><th>Branch & Semester</th></tr>
-                            <tr><td>CHAIRMAN</td><td>MATHUKUTTY MANOJ</td><td>S4 CSE A</td></tr>
-                            <tr><td>VICE CHAIRPERSON</td><td>ASHLY ASOK</td><td>S4 CE B</td></tr>
-                            <tr><td>GENERAL SECRETARY</td><td>FELIX STEEPHEN</td><td>S4 EEE</td></tr>
-                            <tr><td>UNIVERSITY UNION COUNCILLORS</td><td>CYRIL M SYRIAC</td><td>S4 ME B</td></tr>
-                            <tr><td>UNIVERSITY UNION COUNCILLORS</td><td>SAYANA FATHIMA</td><td>S4 EEE</td></tr>
-                            <tr><td>EDITOR</td><td>ELIZABETH</td><td>S4 CSE B</td></tr>
-                            <tr><td>ARTS CLUB SECRETARY</td><td>ALAN SUNNY</td><td>S4 CE A</td></tr>
-                            <tr><td>SPORTS CLUB SECRETARY</td><td>IVIN RAFI GEORGE</td><td>S4 CSE B</td></tr>
-                            <tr><td>LADY REPRESENTATIVES</td><td>SANDRA MARIA SIBY</td><td>S6 CE B</td></tr>
-                            <tr><td>LADY REPRESENTATIVES</td><td>NAVNEETHA S</td><td>S4 CE A</td></tr>
-                            <tr><td>MBA ASSOCIATION SECRETARY</td><td>KARTHIKEYAN K.A</td><td>S2 MBA</td></tr>
-                            <tr><td>AD ASSOCIATION SECRETARY</td><td>ANANTH KRISHNA</td><td>S2 AD</td></tr>
-                            <tr><td>CS ASSOCIATION SECRETARY</td><td>NAVIN JOSEPH</td><td>S6 CSE A</td></tr>
-                            <tr><td>CE ASSOCIATION SECRETARY</td><td>ANAMIKA S NAIR</td><td>S6 CE A</td></tr>
-                            <tr><td>ME ASSOCIATION SECRETARY</td><td>FREDIN JOHNSON</td><td>S6 ME B</td></tr>
-                            <tr><td>EC ASSOCIATION SECRETARY</td><td>SANAL SABU</td><td>S6 ECE B</td></tr>
-                            <tr><td>EEE ASSOCIATION SECRETARY</td><td>BASIL SAJI</td><td>S6 EEE</td></tr>
-                            <tr><td>IT ASSOCIATION SECRETARY</td><td>AKHILA JOJO</td><td>S6 IT</td></tr>
-                            <tr><td>PG REPRESENTATIVE</td><td>ASWATHY PETER</td><td>S2 MBA</td></tr>
-                            {/*<tr><td>FIRST YEAR REPRESENTATIVE</td><td>JOEL RAJU</td><td>S1 CSE A</td></tr>*/}
-                            <tr><td>SECOND YEAR REPRESENTATIVE</td><td>EBIN BIJU</td><td>S2 ME</td></tr>
-                            <tr><td>THIRD YEAR REPRESENTATIVE</td><td>JACKSON JOSHI</td><td>S4 ME A</td></tr>
-                            <tr><td>FOURTH YEAR REPRESENTATIVE</td><td>MELVIN ELDO</td><td>S6 ME B</td></tr>
+                            <tr><td>CHAIRMAN</td><td>ORISON JOSE</td><td>S5 ME</td></tr>
+                            <tr><td>VICE CHAIRPERSON</td><td>JOANA ELSUM MANUEL</td><td>S5 IT</td></tr>
+                            <tr><td>GENERAL SECRETARY</td><td>ABHIJITH A</td><td>S5 ECE</td></tr>
+                            <tr><td>UNIVERSITY UNION COUNCILLORS</td><td>AJAL JOSE</td><td>BHMCT</td></tr>
+                            <tr><td>UNIVERSITY UNION COUNCILLORS</td><td>BEN VARHESE THAMPI</td><td>S5 ME</td></tr>
+                            <tr><td>EDITOR</td><td>BHAVANA NAIR</td><td>S3 IT</td></tr>
+                            <tr><td>ARTS CLUB SECRETARY</td><td>DEVALAKSHMI R</td><td>S5 EEE</td></tr>
+                            <tr><td>SPORTS CLUB SECRETARY</td><td>KARTHIK</td><td>S5 IT</td></tr>
+                            <tr><td>LADY REPRESENTATIVES</td><td>ANKITHA MANOJ</td><td>S7 CE B</td></tr>
+                            <tr><td>LADY REPRESENTATIVES</td><td>GOURIPRIYA N NAIR</td><td>S7 CE A</td></tr>
+                            <tr><td>MBA ASSOCIATION SECRETARY</td><td>J KISHANRAJ</td><td>S3 MBA</td></tr>
+                            <tr><td>AD ASSOCIATION SECRETARY</td><td>ALEENA J KOTTURAN</td><td>S7 CS B</td></tr>
+                            <tr><td>CS ASSOCIATION SECRETARY</td><td>AVANTHIKA R</td><td>S7 CS B</td></tr>
+                            <tr><td>CE ASSOCIATION SECRETARY</td><td>ALAN SUNNY</td><td>S7 CE A</td></tr>
+                            <tr><td>HMCT ASSOCIATION SECRETARY</td><td>AMAL BINU</td><td>S1 BHMCT</td></tr>
+                            <tr><td>ME ASSOCIATION SECRETARY</td><td>BINAL C ANIL</td><td>S7 ME A</td></tr>
+                            <tr><td>EC ASSOCIATION SECRETARY</td><td>BASIL BENNY</td><td>S7 ECE B</td></tr>
+                            <tr><td>EEE ASSOCIATION SECRETARY</td><td>VISHAL H</td><td>S7 EEE</td></tr>
+                            <tr><td>IT ASSOCIATION SECRETARY</td><td>ASWIN KRISHNA R</td><td>S7 IT</td></tr>
+                            <tr><td>PG REPRESENTATIVE</td><td>SHINY STHEPEN</td><td>M.TECH CS</td></tr>
+                            <tr><td>FIRST YEAR REPRESENTATIVE</td><td>A J JOSE</td><td>S1 CG</td></tr>
+                            <tr><td>FIRST YEAR REPRESENTATIVE</td><td>TESSA B THARAYIL</td><td>S1 CS B</td></tr>
+                            <tr><td>SECOND YEAR REPRESENTATIVE</td><td>SUZANA RUTH</td><td>S3 CG</td></tr>
+                            <tr><td>SECOND YEAR REPRESENTATIVE</td><td>EPHRY M PRINCE</td><td>S3 ME</td></tr>
+                            <tr><td>THIRD YEAR REPRESENTATIVE</td><td>ARTHA SIVAJI</td><td>S5 CE </td></tr>
+                            <tr><td>THIRD YEAR REPRESENTATIVE</td><td>NANDU DILEEP</td><td>S5 EEE</td></tr>
+                            <tr><td>FOURTH YEAR REPRESENTATIVE</td><td>BASIL PAUL</td><td>S7 CS A</td></tr>
+                            <tr><td>FOURTH YEAR REPRESENTATIVE</td><td>KRISHNAJA S BIJU</td><td>S7 EC B</td></tr>
+                            <tr><td>SC/ST REPRESENTATIVE</td><td>ROSHNA LISS MATHEW</td><td>S7 CE B</td></tr>
                             
                         </table>
-                        <HeadingTwo data={this.MajoreventsTitle} className="Heading" />
+                        {/*<HeadingTwo data={this.MajoreventsTitle} className="Heading" />
                         <HeadingFour data={this.EventTitle1} className="Heading" />
                         <BodyOneJustified data={this.EventContent1} />
                         <HeadingFour data={this.EventTitle2} className="Heading" />
                         <BodyOneJustified data={this.EventContent2} />
 
 
-                        {/* <HeadingFour data={this.EventTitle2} className="Heading" />
+                         <HeadingFour data={this.EventTitle2} className="Heading" />
                         <BodyOneJustified data={this.EventContent2} />
                         <HeadingFour data={this.EventTitle3} className="Heading" />
                         <BodyOneJustified data={this.EventContent3} />
