@@ -11,7 +11,7 @@ class Profile extends Component {
   ProfileDescriptionOne = {
     instanceID: "ProfileDescriptionOne",
     title:
-    "•	Mechanical engineering is one of the major areas in the engineering and its principles are involved in the design, study, development and construction of physical devices and systems, along with controls. B.Tech Mechanical Engineering program is accredited by NBA on June 2018 for three years. Continued research and development have led to the development better machines and processes helping the mankind to ease the tasks & to achieve the never thought possible dreams."
+    "•	Mechanical engineering is one of the major areas in the engineering and its principles are involved in the design, study, development and construction of physical devices and systems, along with controls. B.Tech Mechanical Engineering program is accredited by NBA on June 2018 for three years and re-accredited from 2022 to 2025. Continued research and development have led to the development better machines and processes helping the mankind to ease the tasks & to achieve the never thought possible dreams."
   };
   ProfileDescriptionTwo = {
     instanceID: "ProfileDescriptionTwo",

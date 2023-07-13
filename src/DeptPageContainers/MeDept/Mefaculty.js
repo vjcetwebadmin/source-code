@@ -29,7 +29,7 @@ class MEFaculty extends Component {
     image: "Allstaffphoto/ME/FAC/200.jpg",
     width: "50%",
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=MEFAC106" target="_blank" rel="noopener noreferrer">Mrs. Leeba Varghese</a>,
-     content: "Associate Professor(on-leave Ph.D)"
+     content: "Associate Professor"
   };
   
   Cefaculty7 = {
@@ -54,7 +54,7 @@ class MEFaculty extends Component {
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=MEFAC126" target="_blank" rel="noopener noreferrer">Mr. Eldhose Paul</a>,
     content: "Assistant Professor"
   };
-  Cefaculty11 = {
+  /*Cefaculty11 = {
     instanceID: "Cefaculty11",
     image: "Allstaffphoto/ME/FAC/MEFAC118.jpg",
     width: "50%",
@@ -67,7 +67,7 @@ class MEFaculty extends Component {
     width: "50%",
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=MEFAC119" target="_blank" rel="noopener noreferrer">Mr. Eldhose Kurian</a>,
     content: "Assistant Professor"
-  };
+  };*/
   /*Cefaculty13 = {
     instanceID: "Cefaculty13",
     image: "Allstaffphoto/ME/FAC/214.jpg",
@@ -86,7 +86,7 @@ class MEFaculty extends Component {
     instanceID: "Cefaculty15",
     image: "Allstaffphoto/ME/FAC/217.jpg",
     width: "50%",
-    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=MEFAC123" target="_blank" rel="noopener noreferrer">Mr. Unnikrishnan T G</a>,
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=MEFAC123" target="_blank" rel="noopener noreferrer">Dr. Unnikrishnan T G</a>,
     content: "Assistant Professor"
   };
   /*Cefaculty16 = {
@@ -196,12 +196,12 @@ class MEFaculty extends Component {
           <div>
             <FacultyData data={this.Cefaculty10} />
           </div>
-          <div>
+          {/*<div>
             <FacultyData data={this.Cefaculty11} />
           </div>
           <div>
             <FacultyData data={this.Cefaculty12} />
-          </div>
+        </div>*/}
           {/*<div>
             <FacultyData data={this.Cefaculty13} />
           </div>*/}
