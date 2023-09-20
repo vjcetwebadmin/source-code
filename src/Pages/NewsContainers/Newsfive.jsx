@@ -105,14 +105,14 @@ class Newsfive extends React.Component {
                  <br />
                  <h3 className="text_red"><b>Dear Parent, Please remit 4th semester tution fees of your ward, date extended to 30-06-2021 without fine and 12-07-2021 with fine.</b></h3>
                 <br /> */}
-                <p></p><br></br>
+                <p></p><br></br>                
+                <p><b>Semester Tuition Fees of S3</b></p>              
+                    <iframe src="https://vjcet.org/downloads/news/tuitionfeeS3.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>                                
+                <p><b>Tuition Fee Fine S5 & S7</b></p>              
+                    <iframe src="https://vjcet.org/downloads/news/Fine S5 and S7.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>    
                 <p><b>Semester Tuition Fees of S5 & S7</b></p>              
-                    <iframe src="https://vjcet.org/downloads/news/tuitionfee.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>
-                {/*<p><b>Tuition Fee Fine S4, S6 & S8</b></p>              
-                    <iframe src="https://vjcet.org/downloads/news/FeeFine.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>    
-                <p><b>Semester 2</b></p>              
-                    <iframe src="https://vjcet.org/downloads/news/NoticeS2Fee.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>                                
-                <p><b>Semester 4 & 6</b></p>              
+                    <iframe src="https://vjcet.org/downloads/news/tuitionfee.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>                
+                {/*<p><b>Semester 4 & 6</b></p>              
                     <iframe src="https://vjcet.org/downloads/news/NoticeS4_S6.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>                    
                 <p><b>Semester 8</b></p>              
                     <iframe src="https://vjcet.org/downloads/news/feess8.pdf" width="100%" height="600" title="Campus Map" align="center"></iframe>                    
