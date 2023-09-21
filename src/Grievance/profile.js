@@ -75,7 +75,7 @@ grievwriteup5 = {
             <tr><td>Dr. Sony Kurian</td><td>HOD EEE</td></tr>
             <tr><td>Ms. Smitha Cyriac</td><td>HOD ECE</td></tr>
             <tr><td>Mr. Vinoj K</td><td>Associate Professor ME</td></tr>
-            <tr><td>Mr. Mathukutty Manoj</td><td>Students Council Chairman</td></tr>
+            <tr><td>Mr. ORISON JOSE</td><td>Students Council Chairman</td></tr>
       	</tbody>
       </table>
 
@@ -132,8 +132,8 @@ grievwriteup5 = {
             <tr><td>Mr. Shajan P. J.</td><td>Representative, Non Teaching Staff</td></tr>
             <tr><td>Mr. Francis George</td><td>PTA President</td></tr>
             <tr><td>Mr. Sijumon Francis</td><td>PRO</td></tr>
-            <tr><td>Mr. Mathukutty Manoj</td><td>Chairman - Students Council</td></tr>
-            <tr><td>Ms. Ashly Asok</td><td>Vice Chairperson - Students Council</td></tr>
+            <tr><td>Mr. ORISON JOSE</td><td>Chairman - Students Council</td></tr>
+            <tr><td>Ms. JOANA ELSUM MANUEL</td><td>Vice Chairperson - Students Council</td></tr>
             <tr><td>Mr. Felix Steephen</td><td>General Secretary - Students Council</td></tr>
             <tr><td>Mr. Bharath N</td><td>First Year Boy Representative</td></tr>
             <tr><td>Ms. Josna Joseph</td><td>First Year Girl Representative</td></tr>

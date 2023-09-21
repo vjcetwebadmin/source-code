@@ -57,7 +57,11 @@ class keyfunct extends React.Component {
     }
     CCCContent3 = {
         instanceID: "CCCContent3",
-        title: "VJCET commands a formidable position amongst the various engineering colleges in the state. This is achieved by excellent infrastructural facilities combined with the team work of enthusiastic management, dedicated faculty members, committed laboratory & workshop staff members, sincere administrative staff members, motivating alumni and dynamic students. Excellent track records in the University examinations and the considerable number of placements reveal the effective co-ordination of all these resources.   We are striving hard to make the vision of the institution “Moulding  Professionals par Excellence with integrity, fairness and human values” a reality.  Our six Engineering  Branches are  NBA accredited  and we are in the process of assessment  for NAAC accreditation. To effectively address the difficulties faced   in the post   Covid-19 scenario   VJCET has come up  with online education system.  The  software  Microsoft team was  installed and made available for all faculty members and  students. Online education along with contact classes are  successfully being carried out for all the  courses now. Focus of the institution currently  is on achieving   academic excellence  and 100%  placement."
+        title: "Viswajyothi College of Engineering and Technology (VJCET) stands as a formidable force among Engineering Colleges in Kerala, proudly ranking 13 th in the state for the 2023 batch, a testament to our consistent excellence in pass percentages and academic performance index. In the realm of self-financing colleges, we proudly hold the coveted 3 rd position, a reflection of our unwavering commitment to excellence. This achievement is the result of our exceptional infrastructure, the collaborative spirit of our passionate management, dedicated faculty, committed technical and administrative staff, our inspiring alumni, supportive parents, and the vibrant energy of our students."
+    }
+    CCCContent3_p2 = {
+        instanceID: "CCCContent3",
+        title: "At VJCET, our driving force is to shape professionals of exceptional caliber, imbued with integrity, fairness, and deeply rooted human values. With five NBA-accredited Engineering branches and a prestigious NAAC A-grade accreditation, our commitment to quality education is impeccable. The college provides a diverse range of educational programs, offering eight engineering programs in addition to MBA and BHMCT courses. Notably, our institution excels in fostering strong industry- institute interactions and boasts an Innovation and Entrepreneurship Development Centre, cultivating innovation and enhancing the employability of our Engineering graduates. Extra-curricular activities encompassing arts, sports and cultural pursuits, form indispensable component of campus life at VCET. In essence, VJCET is the pre-eminent destination for those seeking higher education in the realms of engineering and technology, where excellence thrives."
     }
     PatronImagedata = {
         instanceID: "CCCVjcImage",
@@ -105,6 +109,7 @@ class keyfunct extends React.Component {
                    <p align="center"> <ImageOne data={this.PImagedata} /></p>
                    <p align="center"><b> Dr. K.K Rajan [<a href=" https://portal.vjcet.ac.in/StaffGeneralList.aspx?Staffcode=EEFAC129" target="_blank" rel="noopener noreferrer">Profile</a>]</b></p> 
                    <BodyOneJustified data={this.CCCContent3} />
+                   <BodyOneJustified data={this.CCCContent3_p2} />
 
                 </div>
                 <Footer data={this.HomePageFooter} />
