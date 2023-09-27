@@ -348,7 +348,10 @@ class MenuOverlay extends Component {
               <a href="https://vjcet.org/#/newsfive" className="MenuOverlaySubLinks">
                 Fee Payment
             </a>
-
+            <div className="wseparator"></div>
+              <a href="https://aicte-india.org/feedback/" className="MenuOverlaySubLinks">
+              AICTE Feedback
+            </a>
             </div>
           </div>
 

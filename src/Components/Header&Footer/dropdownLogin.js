@@ -58,6 +58,11 @@ class DropDownL extends Component {
                 Fee Payment
               </a>
             </p>
+            <p>
+              <a href="https://aicte-india.org/feedback/" className="patch1" target="_blank" rel="noopener noreferrer">
+                AICTE Feedback
+              </a>
+            </p>
           </div>
         </div>
       </span>
