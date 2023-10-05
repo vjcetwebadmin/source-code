@@ -54,7 +54,7 @@ class Newsfive extends React.Component {
     NewsImagedata1 = {
         instanceID: "NewsImagedata1",
         image: "NewsImages/SIBQR.jpg",
-        width: "80%"
+        width: "30%"
     }
 
     
