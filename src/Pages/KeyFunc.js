@@ -53,7 +53,7 @@ class keyfunct extends React.Component {
     }
     CCCContent2 = {
         instanceID: "CCCContent2",
-        title: "The biggest challenge in front of a student is to choose the best. We endeavour to provide the best and to bring out what is best in our students. We strive to combine judiciously use of technology and moral values, employability and equity in the transformation of young minds. Already into the eighteenth year of excellence and continuing its pursuit of betterment Viswajyothi College of Engineering and Technology has earned a niche for itself in the engineering educational sector in the country. An amazing response of students from the very inception, consistent result with university ranks, state of the art infrastructure, quality faculty members, impetus given to research and development, campus recruitment and placement record, mentoring for students, sprawling campus and various student services ensure our credibility over the years."
+        title: "The Viswajyothi College of Engineering and Technology, established in 2001, offers courses in different fields of Engineering, Business Management and Hotel Management. Rated among the best Engineering Colleges in Kerala, Viswajyothi excels in training students to meet the challenges of future competently through a blend of theoretical knowledge, practical skills and a value-based philosophy of life. Viswajyothi strives to foster a learning environment that encourages creativity, critical thinking, and hands-on experience in research and development. We are committed to imparting not only technical knowledge but also essential life-skills that empower the students to excel in their chosen fields. With its dedicated faculty, state-of-the-art facilities, ample infrastructure, and lush green Campus, Viswajyothi provides a conducive platform for the students to grow up to be the best persons and professionals they can be. Viswajyothi, as the name suggests, is a bright beacon that lights up the lives of the students to be shining examples of competence, confidence and commitment to build a a better tomorrow for themselves and the society at large."
     }
     CCCContent3 = {
         instanceID: "CCCContent3",
@@ -75,7 +75,7 @@ class keyfunct extends React.Component {
     }
     DImagedata = {
       instanceID: "DImage",
-      image: "KeyFunctionaries/director.jpg",
+      image: "KeyFunctionaries/vjcet_director.jpg",
       width: "35%"
     }
     PImagedata = {
@@ -102,7 +102,7 @@ class keyfunct extends React.Component {
                    <br />
                    <HeadingThree data={this.WifiTitle} className="Heading" />
                    <p align="center"> <ImageOne data={this.DImagedata} /></p>
-                   <p align="center"><b> Rev. Fr. Paul Nedumpurath [<a href="https://vjcet.org/downloads/keyfunctionaries/RevFrPaulN.pdf" target="_blank" rel="noopener noreferrer">Profile</a>]</b></p> 
+                   <p align="center"><b> Rev. Fr. Paul Parathazham </b></p> 
                    <BodyOneJustified data={this.CCCContent2} />
                    <br />
                    <HeadingThree data={this.ServerTitle} className="Heading" />
