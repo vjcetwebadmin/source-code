@@ -230,10 +230,17 @@ class CSFaculty extends Component {
   };
   Csfaculty38 = {
     instanceID: "Csfaculty38",
-    image: "Allstaffphoto/CS/FAC/CSFACblank.jpg",
+    image: "Allstaffphoto/CS/FAC/CSFAC142.jpg",
     width: "50%",
     name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CSFAC142" target="_blank" rel="noopener noreferrer">Mrs. Anju T</a>,
-    content: "Assistant Professor(Guest)"
+    content: "Assistant Professor"
+  };
+  Csfaculty39 = {
+    instanceID: "Csfaculty39",
+    image: "Allstaffphoto/CS/FAC/CSFAC147.jpg",
+    width: "50%",
+    name: <a href="http://profile.vjcet.ac.in/StaffDetails/GetTeacherInfo?Staffcode=CSFAC147" target="_blank" rel="noopener noreferrer">Dr. Sarika S</a>,
+    content: "Associate Professor"
   };
 
 
@@ -246,6 +253,9 @@ class CSFaculty extends Component {
           </div>
           <div>
             <FacultyData data={this.Cefaculty29} />
+          </div>
+          <div>
+            <FacultyData data={this.Csfaculty39} />
           </div>
           {/*<div>
             <FacultyData data={this.Cefaculty2} />
