@@ -31,7 +31,7 @@ class collegecouncil extends React.Component {
 
     CollegecouncilTitle = {
         instanceID: "CollegecouncilTitle",
-        title: "Student Council 2022-23"
+        title: "Student Council 2023-24"
     };
     MajoreventsTitle = {
         instanceID: "MajoreventsTitle",
@@ -105,35 +105,33 @@ class collegecouncil extends React.Component {
                     <br />                   
                         <table id="tableformat">
                         <tr><th>Post</th><th>Student Name</th><th>Branch & Semester</th></tr>
-                            <tr><td>CHAIRMAN</td><td>ORISON JOSE</td><td>S5 ME</td></tr>
-                            <tr><td>VICE CHAIRPERSON</td><td>JOANA ELSUM MANUEL</td><td>S5 IT</td></tr>
-                            <tr><td>GENERAL SECRETARY</td><td>ABHIJITH A</td><td>S5 ECE</td></tr>
-                            <tr><td>UNIVERSITY UNION COUNCILLORS</td><td>AJAL JOSE</td><td>BHMCT</td></tr>
-                            <tr><td>UNIVERSITY UNION COUNCILLORS</td><td>BEN VARHESE THAMPI</td><td>S5 ME</td></tr>
-                            <tr><td>EDITOR</td><td>BHAVANA NAIR</td><td>S3 IT</td></tr>
-                            <tr><td>ARTS CLUB SECRETARY</td><td>DEVALAKSHMI R</td><td>S5 EEE</td></tr>
-                            <tr><td>SPORTS CLUB SECRETARY</td><td>KARTHIK</td><td>S5 IT</td></tr>
-                            <tr><td>LADY REPRESENTATIVES</td><td>ANKITHA MANOJ</td><td>S7 CE B</td></tr>
-                            <tr><td>LADY REPRESENTATIVES</td><td>GOURIPRIYA N NAIR</td><td>S7 CE A</td></tr>
-                            <tr><td>MBA ASSOCIATION SECRETARY</td><td>J KISHANRAJ</td><td>S3 MBA</td></tr>
-                            <tr><td>AD ASSOCIATION SECRETARY</td><td>ALEENA J KOTTURAN</td><td>S7 CS B</td></tr>
-                            <tr><td>CS ASSOCIATION SECRETARY</td><td>AVANTHIKA R</td><td>S7 CS B</td></tr>
-                            <tr><td>CE ASSOCIATION SECRETARY</td><td>ALAN SUNNY</td><td>S7 CE A</td></tr>
-                            <tr><td>HMCT ASSOCIATION SECRETARY</td><td>AMAL BINU</td><td>S1 BHMCT</td></tr>
-                            <tr><td>ME ASSOCIATION SECRETARY</td><td>BINAL C ANIL</td><td>S7 ME A</td></tr>
-                            <tr><td>EC ASSOCIATION SECRETARY</td><td>BASIL BENNY</td><td>S7 ECE B</td></tr>
-                            <tr><td>EEE ASSOCIATION SECRETARY</td><td>VISHAL H</td><td>S7 EEE</td></tr>
-                            <tr><td>IT ASSOCIATION SECRETARY</td><td>ASWIN KRISHNA R</td><td>S7 IT</td></tr>
-                            <tr><td>PG REPRESENTATIVE</td><td>SHINY STHEPEN</td><td>M.TECH CS</td></tr>
-                            <tr><td>FIRST YEAR REPRESENTATIVE</td><td>A J JOSE</td><td>S1 CG</td></tr>
-                            <tr><td>FIRST YEAR REPRESENTATIVE</td><td>TESSA B THARAYIL</td><td>S1 CS B</td></tr>
-                            <tr><td>SECOND YEAR REPRESENTATIVE</td><td>SUZANA RUTH</td><td>S3 CG</td></tr>
-                            <tr><td>SECOND YEAR REPRESENTATIVE</td><td>EPHRY M PRINCE</td><td>S3 ME</td></tr>
-                            <tr><td>THIRD YEAR REPRESENTATIVE</td><td>ARTHA SIVAJI</td><td>S5 CE </td></tr>
-                            <tr><td>THIRD YEAR REPRESENTATIVE</td><td>NANDU DILEEP</td><td>S5 EEE</td></tr>
-                            <tr><td>FOURTH YEAR REPRESENTATIVE</td><td>BASIL PAUL</td><td>S7 CS A</td></tr>
-                            <tr><td>FOURTH YEAR REPRESENTATIVE</td><td>KRISHNAJA S BIJU</td><td>S7 EC B</td></tr>
-                            <tr><td>SC/ST REPRESENTATIVE</td><td>ROSHNA LISS MATHEW</td><td>S7 CE B</td></tr>
+                            <tr><td>CHAIRMAN</td><td>JISHNU BAIJU</td><td>S5 ME</td></tr>
+                            <tr><td>VICE CHAIRPERSON</td><td>APARNA SUNILKUMAR</td><td>S5 AD</td></tr>
+                            <tr><td>GENERAL SECRETARY</td><td>ALBIN BEJOY</td><td>S5 IT</td></tr>
+                            <tr><td rowSpan={2}>UNIVERSITY UNION COUNCILLORS</td><td>GEORGEENA JOJI</td><td>S3 CS A</td></tr>
+                            <tr>                                                 <td>JERIN BOBY</td><td>BHMCT</td></tr>
+                            <tr><td>EDITOR</td><td>AMEENA K BASHEER</td><td>S5 CE</td></tr>
+                            <tr><td>ARTS CLUB SECRETARY</td><td>NISTEL ROJI</td><td>S5 CS A</td></tr>
+                            <tr><td>SPORTS CLUB SECRETARY</td><td>VIVEK BIJU</td><td>S5 CE</td></tr>
+                            <tr><td rowSpan={2}>LADY REPRESENTATIVES</td><td>AKSA ANN GLEMIN</td><td>S5 AD</td></tr>
+                            <tr>                                <td>TESSA B THARAYIL</td><td>S3 CS B</td></tr>
+                            <tr><td>MBA ASSOCIATION SECRETARY</td><td>RIJO MS</td><td>S3 MBA</td></tr>
+                            <tr><td>AD ASSOCIATION SECRETARY</td><td>AMEER P IBRAHIM</td><td>S7 AD</td></tr>
+                            <tr><td>CE ASSOCIATION SECRETARY</td><td>NOEL SUSAN CHACKO</td><td>S7 CE</td></tr>
+                            <tr><td>CG ASSOCIATION SECRETARY</td><td>SANDRA AJI</td><td>S5 CG</td></tr>
+                            <tr><td>CS ASSOCIATION SECRETARY</td><td>ANANYA S</td><td>S7 CS B</td></tr>    
+                            <tr><td>ECE ASSOCIATION SECRETARY</td><td>AMY CHERIAN</td><td>S7 ECE</td></tr>
+                            <tr><td>EEE ASSOCIATION SECRETARY</td><td>MERIN CHACKO</td><td>S7 EEE</td></tr>
+                            <tr><td>IT ASSOCIATION SECRETARY</td><td>AKSHARA JOSHY</td><td>S7 IT</td></tr>
+                            <tr><td>ME ASSOCIATION SECRETARY</td><td>ABIN THOMAS</td><td>S7 ME</td></tr>                        
+                            <tr><td>BHMCT ASSOCIATION SECRETARY</td><td>ALBIN JOY</td><td>S3 BHMCT</td></tr>
+                                                        
+                            <tr><td>PG REPRESENTATIVE</td><td>ANJANA SHAJU</td><td>S3 MBA</td></tr>
+                            <tr><td>FIRST YEAR REPRESENTATIVE</td><td>ADIYTHYAN BIJU</td><td>S1 IT</td></tr>                            
+                            <tr><td>SECOND YEAR REPRESENTATIVE</td><td>ALBY AUGUSTINE</td><td>S3 ME</td></tr>                            
+                            <tr><td>THIRD YEAR REPRESENTATIVE</td><td>RIYA XAVIER</td><td>S5 CS A </td></tr>                            
+                            <tr><td>FOURTH YEAR REPRESENTATIVE</td><td>JOEL JOSE</td><td>S7 CS A</td></tr>                            
+                            <tr><td>SC/ST REPRESENTATIVE</td><td>AJITH VINOJ</td><td>S5 ME</td></tr>
                             
                         </table>
                         {/*<HeadingTwo data={this.MajoreventsTitle} className="Heading" />

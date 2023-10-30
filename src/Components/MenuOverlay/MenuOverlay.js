@@ -333,17 +333,17 @@ class MenuOverlay extends Component {
 
             <div className="separator"></div>
             <div className="MenuOverlaySubLinkGroup" style={menuItem2Style}>
-              <a href="https://portal.vjcet.ac.in" className="MenuOverlaySubLinks">
+              <a href="https://vjcet.etlab.in" className="MenuOverlaySubLinks">
                 VJCET Login
             </a>
              {/* <div className="wseparator"></div>
               <a href="http://moodle.vjcet.ac.in" className="MenuOverlaySubLinks">
                 Moodle
         </a>*/}
-              <div className="wseparator"></div>
+              {/*<div className="wseparator"></div>
               <a href="https://alumni.vjcet.ac.in/" className="MenuOverlaySubLinks">
                 Alumni Login
-            </a>
+            </a>*/}
             <div className="wseparator"></div>
               <a href="https://vjcet.org/#/newsfive" className="MenuOverlaySubLinks">
                 Fee Payment
